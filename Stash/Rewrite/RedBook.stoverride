@@ -16,7 +16,7 @@ http:
 
   script:
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/widgets
-      name: "小红书"
+      name: 小红书
       type: response
       timeout: 30
       require-body: true
@@ -24,7 +24,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/redtube\?
-      name: "小红书"
+      name: 小红书
       type: response
       timeout: 30
       require-body: true
@@ -32,7 +32,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/videofeed\?
-      name: "小红书"
+      name: 小红书
       type: response
       timeout: 30
       require-body: true
@@ -40,7 +40,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/feed\?
-      name: "小红书"
+      name: 小红书
       type: response
       timeout: 30
       require-body: true
@@ -48,7 +48,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config
-      name: "小红书"
+      name: 小红书
       type: response
       timeout: 30
       require-body: true
@@ -56,7 +56,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/homefeed\?
-      name: "小红书"
+      name: 小红书
       type: response
       timeout: 30
       require-body: true
@@ -64,7 +64,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/config\?
-      name: "小红书"
+      name: 小红书
       type: response
       timeout: 30
       require-body: true
@@ -72,7 +72,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/search\/hot_list
-      name: "小红书"
+      name: 小红书
       type: response
       timeout: 30
       require-body: true
@@ -80,7 +80,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/search\/hint
-      name: "小红书"
+      name: 小红书
       type: response
       timeout: 30
       require-body: true
@@ -88,7 +88,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/homefeed\/categories
-      name: "小红书"
+      name: 小红书
       type: response
       timeout: 30
       require-body: true
@@ -96,7 +96,7 @@ http:
       binary-mode: false
 
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/search\/trending
-      name: "小红书"
+      name: 小红书
       type: response
       timeout: 30
       require-body: true
@@ -110,6 +110,6 @@ http:
     - "referee.xiaohongshu.com"
 
 script-providers:
-  "小红书":
+  小红书:
     url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Stash/Scripts/RedBook.Js
     interval: 86400
