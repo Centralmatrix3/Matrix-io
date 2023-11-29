@@ -97,6 +97,8 @@
 
    * [app2smile](https://github.com/app2smile)
 
+   * [ddgksf2013](https://github.com/ddgksf2013)
+
    * [Peng-YM](https://github.com/Peng-YM) 
 
    * [NobyDa](https://github.com/NobyDa) 
@@ -116,6 +118,8 @@
    * [LM-Firefly](https://github.com/LM-Firefly)
 
  * 脚本规则
+
+   * [ddgksf2013](https://github.com/ddgksf2013)
 
    * [I-am-R-E](https://github.com/I-am-R-E)
 
