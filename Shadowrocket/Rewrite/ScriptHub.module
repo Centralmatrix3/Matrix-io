@@ -1,0 +1,22 @@
+#!name = ScriptHub
+#!desc = https://script.hub
+#!author = 小白脸、xream、keywos、CKYB
+
+[General]
+force-http-engine-hosts = %APPEND% script.hub, *.script.hub
+
+[Script]
+ScriptHub = type=http-request,pattern=^https?:\/\/script\.hub\/($|edit\/|reload), requires-body=0, max-size=0,script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/script-hub.js, timeout=120
+
+ScriptHub = type=http-request, pattern=^https?:\/\/script\.hub\/file\/_start_\/.+type=qx-rewrite, requires-body=0, max-size=0, script-path=https://github.com/Script-Hub-Org/Script-Hub/raw/main/QX-Rewrite-Parser.js, timeout=120
+
+ScriptHub = type=http-request, pattern=^https?:\/\/script\.hub\/file\/_start_\/.+type=loon-plugin, requires-body=0, max-size=0, script-path=https://github.com/Script-Hub-Org/Script-Hub/raw/main/Loon-Rewrite-Parser.js, timeout=120
+
+ScriptHub = type=http-request, pattern=^https?:\/\/script\.hub\/file\/_start_\/.+type=surge-module, requires-body=0, max-size=0, script-path=https://github.com/Script-Hub-Org/Script-Hub/raw/main/Surge-Rewrite-Parser.js, timeout=120
+
+ScriptHub = type=http-request, pattern=^https?:\/\/script\.hub\/file\/_start_\/.+type=rule-set, requires-body=0, max-size=0, script-path=https://github.com/Script-Hub-Org/Script-Hub/raw/main/rule-parser.js, timeout=120
+
+ScriptHub = type=http-request, pattern=^https?:\/\/script\.hub\/convert\/, requires-body=0, max-size=0, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/script-converter.js, timeout=120
+
+[MITM]
+hostname = %APPEND% script.hub, *.script.hub

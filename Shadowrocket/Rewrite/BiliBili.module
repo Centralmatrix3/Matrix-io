@@ -1,0 +1,44 @@
+#!name = 哔哩哔哩
+#!desc = 哔哩哔哩去广告
+#!author = RuCu6、Maasea
+
+[URL Rewrite]
+^https:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.interface\.v1\.Search\/DefaultWords$ - reject
+
+^https:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v1\/ecommerce-user\/get_shopping_info\? - reject-dict
+
+^http:\/\/upos-sz-static\.bilivideo\.com\/ssaxcode\/\w{2}\/\w{2}\/\w{32}-1-SPLASH - reject
+
+^https:\/\/app\.bilibili\.com\/x\/resource\/ip - reject
+
+^https:\/\/api\.bilibili\.com\/x\/web-interface\/zone\?jsonp=jsonp$ - reject-200
+
+[Script]
+哔哩哔哩 = type=http-response, pattern=^https:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.dynamic\.v2\.Dynamic\/DynAll, requires-body=true, max-size=3145728, binary-body-mode=true, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/biliProtoA.js, timeout=60, script-update-interval=0
+
+哔哩哔哩 = type=http-response, pattern=^https:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.interface\.v1\.Teenagers\/ModeStatus, requires-body=true, max-size=3145728, binary-body-mode=true, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/biliProtoA.js, timeout=60, script-update-interval=0
+
+哔哩哔哩 = type=http-response, pattern=^https:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.(view|viewunite)\.v1\.View\/(View|ViewProgress), requires-body=true, max-size=3145728, binary-body-mode=true, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/biliProtoA.js, timeout=60, script-update-interval=0
+
+哔哩哔哩 = type=http-response, pattern=^https:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.community\.service\.dm\.v1\.DM\/DmView, requires-body=true, max-size=3145728, binary-body-mode=true, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/biliProtoA.js, timeout=60, script-update-interval=0
+
+哔哩哔哩 = type=http-response, pattern=^https:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.main\.community\.reply\.v1\.Reply\/MainList, requires-body=true, max-size=3145728, binary-body-mode=true, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/biliProtoA.js, timeout=60, script-update-interval=0
+
+哔哩哔哩 = type=http-response, pattern=^https:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.polymer\.app\.search\.v1\.Search\/SearchAll, requires-body=true, max-size=3145728, binary-body-mode=true, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/biliProtoA.js, timeout=60, script-update-interval=0
+
+哔哩哔哩 = type=http-response, pattern=^https:\/\/app\.bilibili\.com\/x\/v2\/(feed\/index(\/story)?|search\/square)\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/bili.js, timeout=60, script-update-interval=0
+
+哔哩哔哩 = type=http-response, pattern=^https:\/\/app\.bilibili\.com\/x\/resource\/(top\/activity|show\/tab\/v2)\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/bili.js, timeout=60, script-update-interval=0
+
+哔哩哔哩 = type=http-response, pattern=^https:\/\/api\.bilibili\.com\/pgc\/page\/(bangumi|cinema\/tab\?), requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/bili.js, timeout=60, script-update-interval=0
+
+哔哩哔哩 = type=http-response, pattern=^https:\/\/api\.live\.bilibili\.com\/xlive\/app-room\/v1\/index\/getInfoByRoom\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/bili.js, timeout=60, script-update-interval=0
+
+哔哩哔哩 = type=http-response, pattern=^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/(brand\/list|event\/list2|list|show)\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/bili.js, timeout=60, script-update-interval=0
+
+哔哩哔哩 = type=http-response, pattern=^https:\/\/app\.bilibili\.com\/x\/v2\/account\/(mine(\/ipad)?|myinfo)\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/bili.js, timeout=60, script-update-interval=0
+
+哔哩哔哩 = type=http-response, pattern=^https:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\?, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/bili.js, timeout=60, script-update-interval=0
+
+[MITM]
+hostname = %APPEND% app.bilibili.com, api.bilibili.com, api.live.bilibili.com, grpc.biliapi.net

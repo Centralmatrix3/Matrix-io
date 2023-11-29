@@ -1,0 +1,12 @@
+#!name = TestFlight
+#!desc = TestFlight下载修正
+#!author = NobyDa
+
+[General]
+skip-proxy = iosapps.itunes.apple.com
+
+[Script]
+http-request ^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$ script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Loon/Scripts/TestFlight.Js, requires-body=true, tag=TestFlight
+
+[MITM]
+hostname = testflight.apple.com

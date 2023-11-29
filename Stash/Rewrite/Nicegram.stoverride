@@ -1,0 +1,19 @@
+name: Nicegram
+desc: Nicegram会员解锁
+#!author: I-am-R-E
+
+http:
+  mitm:
+    - 'restore-access.indream.app'
+
+  script:
+    - match: ^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\w+$
+      name: Nicegram会员
+      type: response
+      require-body: true
+      timeout: 10
+      
+script-providers:
+  Nicegram会员:
+    url: https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Nicegram/Script/Nicegram.js
+    interval: 86400

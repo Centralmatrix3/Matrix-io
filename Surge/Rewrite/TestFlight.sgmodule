@@ -1,0 +1,12 @@
+#!name = TestFlight
+#!desc = TestFlight下载修正
+#!author = NobyDa
+
+[General]
+skip-proxy = %APPEND% iosapps.itunes.apple.com
+
+[Script]
+TestFlight = type=http-request,pattern=^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$,requires-body=1,script-update-interval=-1,max-size=0,script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Surge/Scripts/TestFlight.Js
+
+[MITM]
+hostname = %APPEND% testflight.apple.com

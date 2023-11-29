@@ -1,0 +1,28 @@
+name: BoxJs
+desc: http://BoxJs.com
+#!author: chavyleung
+
+http:
+  force-http-engine:
+    - "boxjs.com:80"
+    - "boxjs.net:80"
+    - "*.boxjs.com:80"
+    - "*.boxjs.net:80"
+
+  mitm:
+    - "boxjs.com"
+    - "boxjs.net"
+    - "*.boxjs.com"
+    - "*.boxjs.net"
+
+  script:
+    - match: ^https?:\/\/(.+\.)?boxjs\.(com|net)
+      name: BoxJs
+      type: request
+      require-body: true
+      timeout: 120
+
+script-providers:
+  BoxJs:
+    url: https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js
+    interval: 86400

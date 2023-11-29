@@ -1,0 +1,21 @@
+name: 起点
+desc: 起点去广告
+#!author = app2smile
+
+http:
+  script:
+    - match: ^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/(v4\/client\/getsplashscreen|v2\/deeplink\/geturl|v1\/(client\/getconf|bookshelf\/getHoverAdv|adv\/getadvlistbatch\?positions=iOS_tab|dailyrecommend\/getdailyrecommend))
+      name: 起点
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
+  mitm:
+    - "magev6.if.qidian.com"
+
+script-providers:
+  起点:
+    url: https://raw.githubusercontent.com/app2smile/rules/master/js/qidian.js
+    interval: 86400

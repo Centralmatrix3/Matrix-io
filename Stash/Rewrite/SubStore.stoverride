@@ -1,0 +1,39 @@
+name: Sub-Store
+desc: https://sub-store.vercel.app/sync
+#!author: Peng-YM
+
+http:
+  mitm:
+    - sub.store
+
+  script:
+    - match: ^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info)))
+      name: Sub-Store_A
+      type: request
+      require-body: true
+      timeout: 120
+
+    - match: ^https?:\/\/sub\.store
+      name: Sub-Store_B
+      type: request
+      require-body: true
+      timeout: 120
+
+cron:
+  script:
+    - name: Sub-Store_C
+      cron: "0 0 * * *"
+      timeout: 120
+
+script-providers:
+  Sub-Store_A:
+    url: https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-0.min.js
+    interval: 86400
+
+  Sub-Store_B:
+    url: https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js
+    interval: 86400
+
+  Sub-Store_C:
+    url: https://github.com/sub-store-org/Sub-Store/releases/latest/download/cron-sync-artifacts.min.js
+    interval: 86400

@@ -1,0 +1,24 @@
+name: 皮皮虾
+desc: 皮皮虾去广告/水印
+#!author: Liquor030、ddgksf2013
+
+http:
+  rewrite:
+    - app_name=super&([\S]*)aid=\d+ app_name=super_pro&$1aid=1412 307
+
+  script:
+    - match: ^https?:\/\/.*\.pipix\.com\/bds\/(feed\/stream|comment\/cell_reply|cell\/cell_comment|cell\/detail|ward\/list|user\/favorite|user\/cell_coment|user\/cell_userfeed|user\/publish_list)
+      name: 皮皮虾
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
+  mitm:
+    - "*.pipix.com"
+
+script-providers:
+  皮皮虾:
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Stash/Scripts/PPX-Logo.Js
+    interval: 86400

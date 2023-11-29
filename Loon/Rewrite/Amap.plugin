@@ -1,0 +1,54 @@
+#!name = 高德地图
+#!desc = 高德地图去广告
+#!author = RuCu6、kokoryh
+
+[Rewrite]
+^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/card-service-(car-end|route-plan)\? - reject-dict
+
+^https:\/\/m5\.amap\.com\/ws\/shield\/search\/new_hotword\? - reject-dict
+
+^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/tips_adv\? - reject-dict
+
+^https:\/\/oss\.amap\.com\/ws\/banner\/lists\/\? - reject-dict
+
+^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/main-page-(assets|location)\? - reject-dict
+
+^https:\/\/m5\.amap\.com\/ws\/(mapapi\/hint_text\/offline_data|message\/notice\/list|shield\/search\/new_hotword)\? - reject-dict
+
+^https:\/\/m5\.amap\.com\/ws\/shield\/scene\/recommend\? - reject-dict
+
+^https:\/\/m5\.amap\.com\/ws\/valueadded\/weather\/v2\? - reject-dict
+
+^https:\/\/sns\.amap\.com\/ws\/msgbox\/pull_mp\? - reject-dict
+
+^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(car\/order\/content_info|order\/car\/king_toolbox_car_bubble)\? - reject-dict
+
+^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(order_web\/friendly_information|tips\/onscene_visual_optimization)\? - reject-dict
+
+[Script]
+http-response ^http:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch$ script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/header.js, timeout=60 ,tag=高德地图
+
+http-response ^https:\/\/m5\.amap\.com\/ws\/perception\/drive\/routePlan\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body=true, timeout=60 ,tag=高德地图
+
+http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/search\/(common\/coupon\/info|poi\/detail)\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body=true, timeout=60 ,tag=高德地图
+
+http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/search_business\/process\/marketingOperationStructured\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body=true, timeout=60 ,tag=高德地图
+
+http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/(homepage|mps|search\/sp|sug|tips_operation_location)\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body=true, timeout=60 ,tag=高德地图
+
+http-response ^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/(card-service-plan-home|main-page)\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body=true, timeout=60 ,tag=高德地图
+
+http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/frogserver\/aocs\/updatable\/1\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body=true, timeout=60 ,tag=高德地图
+
+http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/profile\/index\/nodefaasv3\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body=true, timeout=60 ,tag=高德地图
+
+http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/search\/nearbyrec_smart\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body=true, timeout=60 ,tag=高德地图
+
+http-response ^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body=true, timeout=60 ,tag=高德地图
+
+http-response ^https:\/\/m5-zb\.amap\.com\/ws\/promotion-web\/resource(\/home)?\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body=true, timeout=60 ,tag=高德地图
+
+http-response ^https:\/\/m5-zb\.amap\.com\/ws\/sharedtrip\/taxi\/order_detail_car_tips\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js, requires-body=true, timeout=60 ,tag=高德地图
+
+[MITM]
+hostname = m5.amap.com, m5-zb.amap.com, oss.amap.com, sns.amap.com

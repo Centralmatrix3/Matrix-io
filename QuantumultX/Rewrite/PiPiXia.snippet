@@ -1,0 +1,9 @@
+#!name = 皮皮虾
+#!desc = 皮皮虾去广告/水印
+#!author = Liquor030、ddgksf2013
+
+app_name=super&([\S]*)aid=\d+ url 307 app_name=super_pro&$1aid=1412
+
+^https?:\/\/.*\.pipix\.com\/bds\/(feed\/stream|comment\/cell_reply|cell\/cell_comment|cell\/detail|ward\/list|user\/favorite|user\/cell_coment|user\/cell_userfeed|user\/publish_list) url script-response-body https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/PPX-Logo.Js
+
+hostname = *.pipix.com
