@@ -1,0 +1,37 @@
+name: YouTube
+desc: YouTube去广告
+#!author: RuCu6、Maasea
+
+http:
+  rewrite:
+    - ^https:\/\/[\w-]+\.googlevideo\.com\/initplayback\?.+&oad - reject-dict
+
+  script:
+    - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence)\?
+      name: YouTube_A
+      type: request
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: true
+
+    - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting)\?
+      name: YouTube_B
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: true
+
+  mitm:
+    - "rr*.googlevideo.com"
+    - "youtubei.googleapis.com"
+
+script-providers:
+  YouTube_A:
+    url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/youtube-request.js
+    interval: 86400
+
+  YouTube_B:
+    url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/youtube-response.js
+    interval: 86400

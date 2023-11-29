@@ -1,0 +1,21 @@
+name: TestFlight
+desc: TestFlight下载修正
+#!author: NobyDa
+
+http:
+  script:
+    - match: ^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$
+      name: TestFlight
+      type: request
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
+  mitm:
+    - "testflight.apple.com"
+
+script-providers:
+  TestFlight:
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Stash/Scripts/TestFlight.Js
+    interval: 86400

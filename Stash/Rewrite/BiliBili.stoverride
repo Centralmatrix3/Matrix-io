@@ -1,0 +1,135 @@
+name: 哔哩哔哩
+desc: 哔哩哔哩去广告
+#!author: RuCu6、Maasea
+
+http:
+  rewrite:
+    - ^https:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.interface\.v1\.Search\/DefaultWords$ - reject
+
+    - ^https:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v1\/ecommerce-user\/get_shopping_info\? - reject-dict
+
+    - ^http:\/\/upos-sz-static\.bilivideo\.com\/ssaxcode\/\w{2}\/\w{2}\/\w{32}-1-SPLASH - reject
+
+    - ^https:\/\/app\.bilibili\.com\/x\/resource\/ip - reject
+
+    - ^https:\/\/api\.bilibili\.com\/x\/web-interface\/zone\?jsonp=jsonp$ - reject-200
+
+  script:
+    - match: ^https:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.dynamic\.v2\.Dynamic\/DynAll
+      name: 哔哩哔哩_A
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: true
+
+    - match: ^https:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.interface\.v1\.Teenagers\/ModeStatus
+      name: 哔哩哔哩_A
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: true
+
+    - match: ^https:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.(view|viewunite)\.v1\.View\/(View|ViewProgress)
+      name: 哔哩哔哩_A
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: true
+
+    - match: ^https:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.community\.service\.dm\.v1\.DM\/DmView
+      name: 哔哩哔哩_A
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: true
+
+    - match: ^https:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.main\.community\.reply\.v1\.Reply\/MainList
+      name: 哔哩哔哩_A
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: true
+
+    - match: ^https:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.polymer\.app\.search\.v1\.Search\/SearchAll
+      name: 哔哩哔哩_A
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: true
+
+    - match: ^https:\/\/app\.bilibili\.com\/x\/v2\/(feed\/index(\/story)?|search\/square)\?
+      name: 哔哩哔哩_B
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
+    - match: ^https:\/\/app\.bilibili\.com\/x\/resource\/(top\/activity|show\/tab\/v2)\?
+      name: 哔哩哔哩_B
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
+    - match: ^https:\/\/api\.bilibili\.com\/pgc\/page\/(bangumi|cinema\/tab\?)
+      name: 哔哩哔哩_B
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
+    - match: ^https:\/\/api\.live\.bilibili\.com\/xlive\/app-room\/v1\/index\/getInfoByRoom\?
+      name: 哔哩哔哩_B
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
+    - match: ^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/(brand\/list|event\/list2|list|show)\?
+      name: 哔哩哔哩_B
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
+    - match: ^https:\/\/app\.bilibili\.com\/x\/v2\/account\/(mine(\/ipad)?|myinfo)\?
+      name: 哔哩哔哩_B
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
+    - match: ^https:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\?
+      name: 哔哩哔哩_B
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
+  mitm:
+    - "app.bilibili.com"
+    - "api.bilibili.com"
+    - "api.live.bilibili.com"
+    - "grpc.biliapi.net"
+
+script-providers:
+  哔哩哔哩_A:
+    url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/biliProtoA.js
+    interval: 86400
+
+  哔哩哔哩_B:
+    url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/bili.js
+    interval: 86400

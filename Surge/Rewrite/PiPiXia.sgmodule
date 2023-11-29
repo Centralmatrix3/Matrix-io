@@ -1,0 +1,9 @@
+#!name = 皮皮虾
+#!desc = 皮皮虾去广告
+#!author = Liquor030
+
+[URL Rewrite]
+app_name=super&([\S]*)aid=\d+ app_name=super_pro&$1aid=1412 307
+
+[MITM]
+hostname = %APPEND% *.pipix.com
