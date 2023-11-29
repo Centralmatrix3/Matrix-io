@@ -107,6 +107,8 @@
 
    * [zmqcherish](https://github.com/zmqcherish) 
 
+   * [mieqq](https://github.com/mieqq) 
+
  * 分流规则
 
    * [blackmatrix7](https://github.com/blackmatrix7) 
@@ -128,6 +130,8 @@
    * [NobyDa](https://github.com/NobyDa) 
 
  * 配置文件
+
+   * [KOP-XIAO](https://github.com/KOP-XIAO)
 
    * [ddgksf2013](https://github.com/ddgksf2013)
 
