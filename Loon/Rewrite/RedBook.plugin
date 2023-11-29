@@ -14,27 +14,27 @@
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/user\/teenager\/status - reject-dict
 
 [Script]
-http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/widgets script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/RedBook.Js, requires-body=true, timeout=60 ,tag=小红书
+http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/widgets script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Loon/Scripts/RedBook.Js, requires-body=true, timeout=60 ,tag=小红书
 
-http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/redtube\? script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/RedBook.Js, requires-body=true, timeout=60 ,tag=小红书
+http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/redtube\? script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Loon/Scripts/RedBook.Js, requires-body=true, timeout=60 ,tag=小红书
 
-http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/videofeed\? script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/RedBook.Js, requires-body=true, timeout=60 ,tag=小红书
+http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/videofeed\? script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Loon/Scripts/RedBook.Js, requires-body=true, timeout=60 ,tag=小红书
 
-http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/feed\? script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/RedBook.Js, requires-body=true, timeout=60 ,tag=小红书
+http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/feed\? script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Loon/Scripts/RedBook.Js, requires-body=true, timeout=60 ,tag=小红书
 
-http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/RedBook.Js, requires-body=true, timeout=60 ,tag=小红书
+http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Loon/Scripts/RedBook.Js, requires-body=true, timeout=60 ,tag=小红书
 
-http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/homefeed\? script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/RedBook.Js, requires-body=true, timeout=60 ,tag=小红书
+http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/homefeed\? script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Loon/Scripts/RedBook.Js, requires-body=true, timeout=60 ,tag=小红书
 
-http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/config\? script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/RedBook.Js, requires-body=true, timeout=60 ,tag=小红书
+http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/config\? script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Loon/Scripts/RedBook.Js, requires-body=true, timeout=60 ,tag=小红书
 
-http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/search\/hot_list script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/RedBook.Js, requires-body=true, timeout=60 ,tag=小红书
+http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/search\/hot_list script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Loon/Scripts/RedBook.Js, requires-body=true, timeout=60 ,tag=小红书
 
-http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/search\/hint script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/RedBook.Js, requires-body=true, timeout=60 ,tag=小红书
+http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/search\/hint script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Loon/Scripts/RedBook.Js, requires-body=true, timeout=60 ,tag=小红书
 
-http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/homefeed\/categories script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/RedBook.Js, requires-body=true, timeout=60 ,tag=小红书
+http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/homefeed\/categories script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Loon/Scripts/RedBook.Js, requires-body=true, timeout=60 ,tag=小红书
 
-http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/search\/trending script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/RedBook.Js, requires-body=true, timeout=60 ,tag=小红书
+http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/search\/trending script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Loon/Scripts/RedBook.Js, requires-body=true, timeout=60 ,tag=小红书
 
 [MITM]
 hostname = edith.xiaohongshu.com, www.xiaohongshu.com, pages.xiaohongshu.com, referee.xiaohongshu.com
