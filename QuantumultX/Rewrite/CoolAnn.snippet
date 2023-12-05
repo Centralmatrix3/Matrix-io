@@ -1,0 +1,13 @@
+#!name = 酷安
+#!desc = 酷安去广告
+#!author = RuCu6
+
+^https:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch url reject-dict
+
+^https:\/\/api\.coolapk\.com\/v6\/feed\/(detail|replyList)\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js
+
+^https:\/\/api\.coolapk\.com\/v6\/main\/(dataList|indexV8|init) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js
+
+^https:\/\/api\.coolapk\.com\/v6\/page\/dataList\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js
+
+hostname = api.coolapk.com
