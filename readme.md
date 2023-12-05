@@ -116,9 +116,9 @@
 
    * [Blackmatrix7](https://github.com/blackmatrix7) 
 
-   * [DivineEngine](https://github.com/DivineEngine)
-
    * [ConnersHua](https://github.com/ConnersHua)
+
+   * [DivineEngine](https://github.com/DivineEngine)
 
    * [LM-Firefly](https://github.com/LM-Firefly)
 
