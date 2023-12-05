@@ -1,0 +1,18 @@
+#!name = ScriptHub
+#!desc = https://script.hub
+#!author = 小白脸、xream、keywos、ckyb
+
+[General]
+force-http-engine-hosts = %APPEND% script.hub, *.script.hub
+
+[Script]
+ScriptHub = type=http-request,pattern=^https?:\/\/script\.hub\/($|edit\/|reload),script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/script-hub.js,timeout=30
+
+ScriptHub = type=http-request,pattern=^https?:\/\/script\.hub\/file\/_start_\/.+type=(?:qx-rewrite|surge-module|loon-plugin|all-module),script-path=https://github.com/Script-Hub-Org/Script-Hub/raw/main/Rewrite-Parser.js,timeout=30
+
+ScriptHub = type=http-request,pattern=^https?:\/\/script\.hub\/file\/_start_\/.+type=rule-set,script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/rule-parser.js,timeout=30
+
+ScriptHub = type=http-request,pattern=^https?:\/\/script\.hub\/convert\/,script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/script-converter.js,timeout=30
+
+[MITM]
+hostname = %APPEND% script.hub, *.script.hub

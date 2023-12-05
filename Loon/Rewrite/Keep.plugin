@@ -1,0 +1,28 @@
+#!name = Keep
+#!desc = keep去广告
+#!author = Maasea
+
+[Rewrite]
+^https:\/\/api\.gotokeep\.com\/op-engine-webapp\/v1\/ad reject
+
+^https:\/\/api\.gotokeep\.com\/anno\/v1\/upgrade\/check$ reject
+
+^https?:\/\/api.gotokeep.com/cauchy/growth/init reject
+
+^https:\/\/api\.gotokeep\.com\/training\/box\/config reject
+
+^https:\/\/api\.gotokeep\.com\/op-engine-webapp\/tool\/v1\/jump\/popup$ reject
+
+^https:\/\/api\.gotokeep\.com\/athena\/v1\/people\/my\/entry reject
+
+[Script]
+http-response https:\/\/api\.gotokeep\.com\/athena\/v\d\/people\/my script-path=https://raw.githubusercontent.com/Maasea/surgeModule/master/Script/Keep/my.js, requires-body=true, timeout=30, tag=Keep
+
+http-response https:\/\/api\.gotokeep\.com\/config\/v3/basic script-path=https://raw.githubusercontent.com/Maasea/surgeModule/master/Script/Keep/basic.js, requires-body=true, timeout=30, tag=Keep
+
+http-response https:\/\/kad\.gotokeep\.com\/op-engine-webapp\/v1\/ad script-path=https://raw.githubusercontent.com/Maasea/surgeModule/master/Script/Keep/kad.js, requires-body=true, timeout=30, tag=Keep
+
+http-response ^https?:\/\/api\.gotokeep\.com\/athena\/v7\/people\/course\/(practiced|general) script-path=https://raw.githubusercontent.com/Maasea/surgeModule/master/Script/Keep/course.js, requires-body=true, timeout=30, tag=Keep
+
+[MITM]
+hostname = api.gotokeep.com, kad.gotokeep.com
