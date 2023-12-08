@@ -9,6 +9,8 @@
 
 ^https:\/\/app\.bilibili\.com\/x\/resource\/ip - reject
 
+^http:\/\/[\d\.]+:8000\/v1\/resource\/\w{32}-1-SPLASH - reject
+
 [Script]
 哔哩哔哩 = type=http-response,pattern=^https:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.dynamic\.v2\.Dynamic\/DynAll,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/biliProtoA.js,requires-body=true,binary-body-mode=true,timeout=60
 
@@ -38,6 +40,8 @@
 
 [Map Local]
 ^https:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v1\/ecommerce-user\/get_shopping_info\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+^https:\/\/api\.bilibili\.com\/x\/mengqi\/v1\/resource\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
 ^https:\/\/api\.bilibili\.com\/x\/web-interface\/zone\?jsonp=jsonp$ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt"
 
