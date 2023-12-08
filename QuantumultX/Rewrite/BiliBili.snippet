@@ -36,6 +36,10 @@
 
 ^https:\/\/app\.bilibili\.com\/x\/resource\/ip url reject
 
+^http:\/\/[\d\.]+:8000\/v1\/resource\/\w{32}-1-SPLASH url reject
+
+^https:\/\/api\.bilibili\.com\/x\/mengqi\/v1\/resource\? url reject-dict
+
 ^https:\/\/api\.bilibili\.com\/x\/web-interface\/zone\?jsonp=jsonp$ url reject-200
 
 hostname = app.bilibili.com, api.bilibili.com, api.live.bilibili.com, grpc.biliapi.net
