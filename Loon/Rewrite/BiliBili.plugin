@@ -9,7 +9,11 @@
 
 ^http:\/\/upos-sz-static\.bilivideo\.com\/ssaxcode\/\w{2}\/\w{2}\/\w{32}-1-SPLASH reject
 
+^http:\/\/[\d\.]+:8000\/v1\/resource\/\w{32}-1-SPLASH reject
+
 ^https:\/\/app\.bilibili\.com\/x\/resource\/ip reject
+
+^https:\/\/api\.bilibili\.com\/x\/mengqi\/v1\/resource\? reject-dict
 
 ^https:\/\/api\.bilibili\.com\/x\/web-interface\/zone\?jsonp=jsonp$ reject-200
 
