@@ -1,0 +1,13 @@
+#!name = 京东
+#!desc = 京东去广告
+#!author = RuCu6
+
+# HOST,dns.jd.com,REJECT
+# IP-CIDR,101.124.19.122/32,REJECT
+# IP6-CIDR,2402:db40:5100:1011::5/128,REJECT
+
+^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(searchBoxWord|stationPullService|uniformRecommend) url reject-dict
+
+^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(deliverLayer|getTabHomeInfo|myOrderInfo|orderTrackBusiness|personinfoBusiness|start|welcomeHome) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/jingdong.js
+
+hostname = api.m.jd.com

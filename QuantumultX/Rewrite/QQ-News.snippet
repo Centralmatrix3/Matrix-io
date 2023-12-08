@@ -1,0 +1,7 @@
+#!name = 腾讯新闻
+#!desc = 腾讯新闻去广告
+#!author = app2smile
+
+^https:\/\/(news\.ssp\.qq\.com\/app|r\.inews\.qq\.com\/(get(QQNewsUnreadList|TagFeedList)|gw\/page\/(channel_feed|event_detail)|news_feed\/hot_module_list)) url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/qq-news.js
+
+hostname = news.ssp.qq.com, r.inews.qq.com
