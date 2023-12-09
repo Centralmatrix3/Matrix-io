@@ -11,22 +11,22 @@ http:
     - match: ^https?:\/\/script\.hub\/($|edit\/|reload)
       name: ScriptHub.A
       type: request
-      timeout: 30
+      timeout: 300
 
     - match: ^https?:\/\/script\.hub\/file\/_start_\/.+type=(?:qx-rewrite|surge-module|loon-plugin|all-module)
       name: ScriptHub.B
       type: request
-      timeout: 30
+      timeout: 300
 
     - match: ^https?:\/\/script\.hub\/file\/_start_\/.+type=rule-set
       name: ScriptHub.C
       type: request
-      timeout: 30
+      timeout: 300
 
     - match: ^https?:\/\/script\.hub\/convert\/
       name: ScriptHub.D
       type: request
-      timeout: 30
+      timeout: 300
 
   mitm:
     - "script.hub"
