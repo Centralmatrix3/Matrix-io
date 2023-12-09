@@ -1,0 +1,69 @@
+name: 淘宝
+desc: 淘宝去广告
+author: RuCu6
+
+rules:
+  - DOMAIN,ossgw.alicdn.com,REJECT
+  - DOMAIN,ems.youku.com,REJECT
+  - DOMAIN,h-adashx.ut.taobao.com,REJECT
+  - DOMAIN,ut.taobao.com,REJECT
+
+http:
+  url-rewrite:
+    - ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.(allresource|predict) - reject-dict
+
+    - ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv - reject-dict
+
+    - ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimama\.etao\.config\.query\/.+?etao_advertise - reject-dict
+
+    - ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimusic\.common\.mobileservice\.startinit - reject-dict
+
+    - ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.etao\.noah\.query\/.+tao_splash - reject-dict
+
+    - ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryadvertise - reject-dict
+
+    - ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get - reject-dict
+
+    - ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome - reject-dict
+
+    - ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources - reject-dict
+
+    - ^https:\/\/heic\.alicdn\.com\/imgextra\/i\d\/\d*\/?[\w!]+-\d-(octopus|tps-1125-1602|tps-1080-1920)\.(jp|pn)g_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q[59]0 - reject-dict
+
+    - ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.adx\.flyad\.getad - reject-dict
+
+    - ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(volvo\.secondfloor\.getconfig|wireless\.home\.newface\.awesome\.get) - reject-dict
+
+  script:
+    - match: ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.mshow
+      name: 菜鸟
+      type: response
+      require-body: true
+      timeout: 30
+
+    - match: ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(cloudvideo\.video\.query|wireless\.home\.splash\.awesome\.get)
+      name: 淘宝
+      type: response
+      require-body: true
+      timeout: 30
+
+    - match: ^https:\/\/poplayer\.template\.alibaba\.com\/\w+\.json
+      name: 淘宝
+      type: response
+      require-body: true
+      timeout: 30
+
+  mitm:
+    - "acs.m.taobao.com"
+    - "heic.alicdn.com"
+    - "guide-acs.m.taobao.com"
+    - "poplayer.template.alibaba.com"
+
+script-providers:
+  菜鸟:
+    url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cainiao.js
+    interval: 86400
+
+  淘宝:
+    url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
+    interval: 86400

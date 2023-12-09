@@ -1,0 +1,14 @@
+#!name = YouTube
+#!desc = YouTube去广告
+#!author = Maasea、RuCu6
+
+[Rewrite]
+^https:\/\/[\w-]+\.googlevideo\.com\/initplayback\?.+&oad reject-dict
+
+[Script]
+http-request ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence)\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/youtube-request.js, requires-body=true, binary-body-mode=true, timeout=60, tag=YouTube
+
+http-response ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting)\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/youtube-response.js, requires-body=true, binary-body-mode=true, timeout=60, tag=YouTube
+
+[MITM]
+hostname = rr*.googlevideo.com, youtubei.googleapis.com

@@ -1,0 +1,21 @@
+# 规则名称:台湾媒体
+# 规则统计:17
+# 更新时间:202312091530
+
+HOST,bahamut.akamaized.net,StreamingTW
+HOST,d3c7rimkq79yfu.cloudfront.net,StreamingTW
+HOST,gamer2-cds.cdn.hinet.net,StreamingTW
+HOST,gamer-cds.cdn.hinet.net,StreamingTW
+HOST,hamifans.emome.net,StreamingTW
+HOST,kktv-theater.kk.stream,StreamingTW
+HOST,litvfreemobile-hichannel.cdn.hinet.net,StreamingTW
+HOST,theater-kktv.cdn.hinet.net,StreamingTW
+HOST-SUFFIX,bahamut.com.tw,StreamingTW
+HOST-SUFFIX,d3c7rimkq79yfu.cloudfront.net,StreamingTW
+HOST-SUFFIX,gamer.com.tw,StreamingTW
+HOST-SUFFIX,kktv.com.tw,StreamingTW
+HOST-SUFFIX,kktv.me,StreamingTW
+HOST-SUFFIX,linetv.tw,StreamingTW
+HOST-SUFFIX,litv.tv,StreamingTW
+HOST-SUFFIX,profile.line-scdn.net,StreamingTW
+HOST-SUFFIX,skyking.com.tw,StreamingTW

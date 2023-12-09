@@ -1,0 +1,16 @@
+#!name = 酷安
+#!desc = 酷安去广告
+#!author = RuCu6
+
+[Rewrite]
+^https:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch - reject-dict
+
+[Script]
+http-response ^https:\/\/api\.coolapk\.com\/v6\/feed\/(detail|replyList)\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js, requires-body=true, timeout=30, tag=酷安
+
+http-response ^https:\/\/api\.coolapk\.com\/v6\/main\/(dataList|indexV8|init) script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js, requires-body=true, timeout=30, tag=酷安
+
+http-response ^https:\/\/api\.coolapk\.com\/v6\/page\/dataList\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js, requires-body=true, timeout=30, tag=酷安
+
+[MITM]
+hostname = api.coolapk.com

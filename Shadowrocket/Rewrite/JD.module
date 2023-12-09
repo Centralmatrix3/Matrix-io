@@ -1,0 +1,17 @@
+#!name = 京东
+#!desc = 京东去广告
+#!author = RuCu6
+
+[Rule]
+DOMAIN,dns.jd.com,REJECT
+IP-CIDR,101.124.19.122/32,REJECT,no-resolve
+IP-CIDR6,2402:db40:5100:1011::5/128,REJECT,no-resolve
+
+[URL Rewrite]
+^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(searchBoxWord|stationPullService|uniformRecommend) - reject-dict
+
+[Script]
+京东 = type=http-response,pattern=^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(deliverLayer|getTabHomeInfo|myOrderInfo|orderTrackBusiness|personinfoBusiness|start|welcomeHome),script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/jingdong.js,requires-body=true,timeout=30
+
+[MITM]
+hostname = %APPEND% api.m.jd.com

@@ -1,0 +1,25 @@
+#!name = Keep
+#!desc = keep去广告
+#!author = Maasea
+
+https:\/\/api\.gotokeep\.com\/op-engine-webapp\/v1\/ad url reject
+
+https:\/\/api\.gotokeep\.com\/anno\/v1\/upgrade\/check$ url reject
+
+https?:\/\/api.gotokeep.com/cauchy/growth/init url reject
+
+https:\/\/api\.gotokeep\.com\/training\/box\/config url reject
+
+https:\/\/api\.gotokeep\.com\/op-engine-webapp\/tool\/v1\/jump\/popup$ url reject
+
+https:\/\/api\.gotokeep\.com\/athena\/v1\/people\/my\/entry url reject
+
+https:\/\/api\.gotokeep\.com\/athena\/v\d\/people\/my url script-response-body https://raw.githubusercontent.com/Maasea/surgeModule/master/Script/Keep/my.js
+
+https:\/\/api\.gotokeep\.com\/config\/v3/basic url script-response-body https://raw.githubusercontent.com/Maasea/surgeModule/master/Script/Keep/basic.js
+
+https:\/\/kad\.gotokeep\.com\/op-engine-webapp\/v1\/ad url script-response-body https://raw.githubusercontent.com/Maasea/surgeModule/master/Script/Keep/kad.js
+
+https?:\/\/api\.gotokeep\.com\/athena\/v7\/people\/course\/(practiced|general) url script-response-body https://raw.githubusercontent.com/Maasea/surgeModule/master/Script/Keep/course.js
+
+hostname = api.gotokeep.com, kad.gotokeep.com
