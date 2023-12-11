@@ -1,6 +1,6 @@
 # 规则名称:国内媒体
-# 规则统计:125
-# 更新日期:202311192230
+# 规则统计:135
+# 更新日期:202312111100
 
 DOMAIN,apiintl.biliapi.net
 DOMAIN,aqqmusic.tc.qq.com
@@ -20,6 +20,7 @@ DOMAIN-SUFFIX,acgvideo.com
 DOMAIN-SUFFIX,aixifan.com
 DOMAIN-SUFFIX,api.iplay.163.com
 DOMAIN-SUFFIX,b23.tv
+DOMAIN-SUFFIX,bdxiguaimg.com
 DOMAIN-SUFFIX,bdxiguastatic.com
 DOMAIN-SUFFIX,bdxiguavod.com
 DOMAIN-SUFFIX,bigfun.cn
@@ -42,6 +43,11 @@ DOMAIN-SUFFIX,douyincdn.com
 DOMAIN-SUFFIX,douyinpic.com
 DOMAIN-SUFFIX,douyinstatic.com
 DOMAIN-SUFFIX,douyinvod.com
+DOMAIN-SUFFIX,douyu.com
+DOMAIN-SUFFIX,douyu.tv
+DOMAIN-SUFFIX,douyucdn.cn
+DOMAIN-SUFFIX,douyucdn2.cn
+DOMAIN-SUFFIX,douyutv.com
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,hitv.com
 DOMAIN-SUFFIX,hunantv.com
@@ -57,6 +63,7 @@ DOMAIN-SUFFIX,iqiyipic.com
 DOMAIN-SUFFIX,itc.cn
 DOMAIN-SUFFIX,ixigua.com
 DOMAIN-SUFFIX,kowo.cn
+DOMAIN-SUFFIX,kuaishou.com
 DOMAIN-SUFFIX,kugou.com
 DOMAIN-SUFFIX,le.com
 DOMAIN-SUFFIX,letv.com
@@ -86,9 +93,12 @@ DOMAIN-SUFFIX,tencentmusic.com
 DOMAIN-SUFFIX,v.qq.com
 DOMAIN-SUFFIX,v.smtcdns.com
 DOMAIN-SUFFIX,video.qq.com
+DOMAIN-SUFFIX,ximalaya.com
+DOMAIN-SUFFIX,xmcdn.com
 DOMAIN-SUFFIX,y.qq.com
 DOMAIN-SUFFIX,ykimg.com
 DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,yximgs.com
 IP-CIDR,101.71.154.241/32,no-resolve
 IP-CIDR,103.126.92.132/31,no-resolve
 IP-CIDR,103.126.92.132/32,no-resolve
