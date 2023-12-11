@@ -1,6 +1,6 @@
 # 规则名称:国内媒体
 # 规则统计:125
-# 更新日期:202311192230
+# 更新日期:202312111100
 
 HOST,apiintl.biliapi.net,StreamingCN
 HOST,aqqmusic.tc.qq.com,StreamingCN
@@ -20,6 +20,7 @@ HOST-SUFFIX,acgvideo.com,StreamingCN
 HOST-SUFFIX,aixifan.com,StreamingCN
 HOST-SUFFIX,api.iplay.163.com,StreamingCN
 HOST-SUFFIX,b23.tv,StreamingCN
+HOST-SUFFIX,bdxiguaimg.com,StreamingCN
 HOST-SUFFIX,bdxiguastatic.com,StreamingCN
 HOST-SUFFIX,bdxiguavod.com,StreamingCN
 HOST-SUFFIX,bigfun.cn,StreamingCN
@@ -42,6 +43,11 @@ HOST-SUFFIX,douyincdn.com,StreamingCN
 HOST-SUFFIX,douyinpic.com,StreamingCN
 HOST-SUFFIX,douyinstatic.com,StreamingCN
 HOST-SUFFIX,douyinvod.com,StreamingCN
+HOST-SUFFIX,douyu.com,StreamingCN
+HOST-SUFFIX,douyu.tv,StreamingCN
+HOST-SUFFIX,douyucdn.cn,StreamingCN
+HOST-SUFFIX,douyucdn2.cn,StreamingCN
+HOST-SUFFIX,douyutv.com,StreamingCN
 HOST-SUFFIX,hdslb.com,StreamingCN
 HOST-SUFFIX,hitv.com,StreamingCN
 HOST-SUFFIX,hunantv.com,StreamingCN
@@ -57,6 +63,7 @@ HOST-SUFFIX,iqiyipic.com,StreamingCN
 HOST-SUFFIX,itc.cn,StreamingCN
 HOST-SUFFIX,ixigua.com,StreamingCN
 HOST-SUFFIX,kowo.cn,StreamingCN
+HOST-SUFFIX,kuaishou.com,StreamingCN
 HOST-SUFFIX,kugou.com,StreamingCN
 HOST-SUFFIX,le.com,StreamingCN
 HOST-SUFFIX,letv.com,StreamingCN
@@ -86,9 +93,12 @@ HOST-SUFFIX,tencentmusic.com,StreamingCN
 HOST-SUFFIX,v.qq.com,StreamingCN
 HOST-SUFFIX,v.smtcdns.com,StreamingCN
 HOST-SUFFIX,video.qq.com,StreamingCN
+HOST-SUFFIX,ximalaya.com,StreamingCN
+HOST-SUFFIX,xmcdn.com,StreamingCN
 HOST-SUFFIX,y.qq.com,StreamingCN
 HOST-SUFFIX,ykimg.com,StreamingCN
 HOST-SUFFIX,youku.com,StreamingCN
+HOST-SUFFIX,yximgs.com,StreamingCN
 IP-CIDR,101.71.154.241/32,StreamingCN
 IP-CIDR,103.126.92.132/31,StreamingCN
 IP-CIDR,103.126.92.132/32,StreamingCN
