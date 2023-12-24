@@ -7,6 +7,10 @@
 
    * [Matrix](https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Matrix.yaml)
 
+ * Egern
+
+   * [Matrix](https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Matrix.yaml)
+
  * Loon
 
    * [Matrix](https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Loon/Matrix.conf)
