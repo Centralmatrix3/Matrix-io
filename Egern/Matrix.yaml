@@ -1,6 +1,6 @@
 # 配置名称: Egern 配置
 # 配置作者: Centralmatrix3
-# 更新时间: 23-12-25 01:40
+# 更新时间: 23-12-25 02:00
 
 http_port: 8200     # HTTP代理端口
 socks_port: 8300    # SOCKS代理端口
@@ -13,7 +13,7 @@ dns_servers:        # 常规DNS
 
 secure_dns:         # 加密DNS
   servers:
-  - https://dns.alidns.com/dns-query,https://doh.pub/dns-query
+  - https://dns.alidns.com/dns-query
 
   ecs: false        # ECS与公网IP查询
   public_ip_lookup_url: ''
@@ -187,3 +187,7 @@ rules:              # 分流规则
 
 mitm:               # MITM
   enabled: true
+  hostnames:        # 主机名
+  - -*.icloud.com
+  - -buy.itunes.apple.com
+  - -weather-data.apple.com
