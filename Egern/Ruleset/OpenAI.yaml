@@ -1,0 +1,22 @@
+domain_set:
+domain_suffix_set:
+- auth0.com
+- challenges.cloudflare.com
+- client-api.arkoselabs.com
+- events.statsigapi.net
+- featuregates.org
+- identrust.com
+- intercom.io
+- intercomcdn.com
+- oaistatic.com
+- oaiusercontent.com
+- openai.com
+- openaiapi-site.azureedge.net
+- sentry.io
+- stripe.com
+domain_keyword_set:
+- openai
+ip_cidr_set:
+ip_cidr6_set:
+asn_set:
+geoip_set:

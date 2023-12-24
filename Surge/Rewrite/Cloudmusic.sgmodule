@@ -1,0 +1,45 @@
+#!name = 网易云音乐
+#!desc = 网易云音乐去广告
+#!author = RuCu6、Keywos
+
+[Map Local]
+^https:\/\/interface\.music\.163\.com\/weapi\/(activity\/bonus\/playpage\/time\/query|middle\/clientcfg\/config\/list) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+^https:\/\/interface3?\.music\.163\.com\/w?eapi\/resource-exposure\/(activity\/config\/get|config) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+^https:\/\/interface3\.music\.163\.com\/eapi\/(homepage\/banner\/ad\/get|link\/scene\/show\/resource) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+^https:\/\/interface3\.music\.163\.com\/eapi\/(link\/position\/show\/strategy|music\/songshare\/text\/recommend\/get) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+^https:\/\/interface3\.music\.163\.com\/eapi\/(mlivestream\/entrance\/playpage\/v7|community\/friends\/fans-group\/artist\/group)\/get data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+^https:\/\/interface3\.music\.163\.com\/eapi\/(music-vip-membership\/client\/vip\/info|vipauth\/app\/auth\/recycle) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+^https:\/\/interface3\.music\.163\.com\/eapi\/(side-bar\/mini-program\/music-service\/account|delivery\/batch-deliver) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+^https:\/\/interface3\.music\.163\.com\/eapi\/(user\/sub\/artist\/exist|vipcenter\/tspopup\/get) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+^https:\/\/interface3\.music\.163\.com\/eapi\/event\/floating\/layer data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+^https:\/\/interface3\.music\.163\.com\/eapi\/mine\/applet\/redpoint data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+^https:\/\/interface3\.music\.163\.com\/eapi\/mlog\/vinyl\/story\/list data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+^https:\/\/interface3\.music\.163\.com\/eapi\/sp\/flow\/popup\/query data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+^https:\/\/interface3\.music\.163\.com\/eapi\/voice\/play\/page\/ad\/info data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+^https:\/\/interface3\.music\.163\.com\/eapi\/zone\/songplay\/entry\/get data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+^https?:\/\/interface3?\.music\.163.com\/e?api\/(ocpc\/)?ad\/.* data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+^https?:\/\/interface3?\.music\.163.com\/eapi\/search\/(chart\/(detail|list)|default\/keyword\/list|rcmd\/keyword\/get\/v2|specialkeyword\/get) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+^https?:\/\/interface3\.music\.163\.com\/eapi\/(content\/exposure\/vinyl\/comment\/entrance|v1\/content\/exposure\/comment\/banner)\/get data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+^https?:\/\/interface3\.music\.163\.com\/eapi\/comment\/(hotcomment\/collect\/fetchmodelinfov2|feed\/inserted\/resources|tips\/v2\/get) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+^https?:\/\/interface3\.music\.163\.com\/eapi\/resniche\/position\/play\/new\/get data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+[MITM]
+hostname = %APPEND% interface*.music.163.com

@@ -1,0 +1,8 @@
+# 规则名称:LineTV
+# 规则统计:8
+
+payload:
+  - DOMAIN,d3c7rimkq79yfu.cloudfront.net
+  - DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net
+  - DOMAIN-SUFFIX,linetv.tw
+  - DOMAIN-SUFFIX,profile.line-scdn.net

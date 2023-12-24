@@ -1,0 +1,212 @@
+name: 微博
+description: 微博全面净化
+author: RuCu6、zmqcherish
+
+url_rewrites:
+  - match: ^https:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/(get-lbs-cell-info\.php|sdkconfig\.php)
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https:\/\/api\.weibo\.cn\/!\/sug\/list\/finderchange\?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/api\.weibo\.cn\/2\/!\/chaohua\/discovery\/home_bottom\/switch\?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/api\.weibo\.cn\/2\/!\/huati\/(discovery_home_bottom_getdotinfo|mobile_discovery_searchchange)\?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/api\.weibo\.cn\/2\/!\/live\/media_homelist\?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/api\.weibo\.cn\/2\/!\/wbox\/\w+\/(home_bottom_modal|interest_category)\?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/api\.weibo\.cn\/2\/(ug\/checkin\/list|push\/daily)\?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/api\.weibo\.cn\/2\/comments\/bullet_screens\?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/api\.weibo\.cn\/2\/hot\/hours_spotlight\?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/api\.weibo\.cn\/2\/photo\/info\?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/api\.weibo\.cn\/2\/search\/container_discover\?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/api\.weibo\.cn\/2\/statuses\/(container_positive|push_info)\?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/api\.weibo\.cn\/2\/video\/redpacket\?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/api\.weibo\.cn\/2\/vote\/get_vote_detail\?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/bootrealtime\.uve\.weibo\.com\/v[23]\/ad\/realtime
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/card\.weibo\.com\/article\/m\/aj\/(reward|uvead)\?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/weibo\.com\/ttarticle\/x\/m\/aj\/(reward|uvead)\?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+scriptings:
+  - http_response:
+      name: 微博
+      match: ^https:\/\/api\.weibo\.cn\/2\/!\/huati\/discovery_home_bottom_channels\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 微博
+      match: ^https:\/\/api\.weibo\.cn\/2\/(cardlist|page)\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 微博
+      match: ^https:\/\/api\.weibo\.cn\/2\/(checkin\/show|client\/publisher_list|push\/active)\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 微博
+      match: ^https:\/\/api\.weibo\.cn\/2\/(container\/asyn|flowlist)\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 微博
+      match: ^https:\/\/api\.weibo\.cn\/2\/comments\/build_comments\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 微博
+      match: ^https:\/\/api\.weibo\.cn\/2\/direct_messages\/user_list\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 微博
+      match: ^https:\/\/api\.weibo\.cn\/2\/friendships\/destroy\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 微博
+      match: ^https:\/\/api\.weibo\.cn\/2\/groups\/allgroups\/v2\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 微博
+      match: ^https:\/\/api\.weibo\.cn\/2\/messageflow\/notice\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 微博
+      match: ^https:\/\/api\.weibo\.cn\/2\/profile\/(container_timeline|dealatt|me|statuses\/tab|userinfo)\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 微博 
+      match: ^https:\/\/api\.weibo\.cn\/2\/search\/(container_timeline|finder)\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 微博
+      match: ^https:\/\/api\.weibo\.cn\/2\/searchall\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 微博
+      match: ^https:\/\/api\.weibo\.cn\/2\/statuses\/(container_timeline(_hot|_topic|_topicpage|_unread)?|unread_hot_timeline)\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 微博
+      match: ^https:\/\/api\.weibo\.cn\/2\/statuses\/(extend|show)\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 微博
+      match: ^https:\/\/api\.weibo\.cn\/2\/video\/tiny_stream_video_list\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 微博
+      match: ^https:\/\/bootpreload\.uve\.weibo\.com\/v1\/ad\/preload
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 微博
+      match: ^https:\/\/new\.vip\.weibo\.cn\/aj\/appicon\/list\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 微博
+      match: ^https:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 微博
+      match: ^https:\/\/wbapp\.uve\.weibo\.com\/(preload\/get_ad|wbapplua\/wbpullad\.lua)\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
+      timeout: 60
+      body_required: true
+
+mitm:
+  hostnames:
+    - '*.weibo.cn'
+    - '*.weibo.com'
+    - weibo.com

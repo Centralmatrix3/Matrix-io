@@ -1,0 +1,8 @@
+# 规则名称:TapTap
+# 规则统计:4
+
+payload:
+  - DOMAIN-SUFFIX,tap.io
+  - DOMAIN-SUFFIX,tapimg.com
+  - DOMAIN-SUFFIX,taptap.com
+  - DOMAIN-SUFFIX,taptap.tw

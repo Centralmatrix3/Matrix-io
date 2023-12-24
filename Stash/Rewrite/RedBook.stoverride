@@ -1,0 +1,89 @@
+name: 小红书
+desc: 小红书去广告/水印
+author: RuCu6、fmz200
+
+http:
+  url-rewrite:
+    - ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/surprisebox\/(get_style|open|submit_action) - reject-dict
+
+    - ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v3\/note\/guide\? - reject-dict
+
+    - ^https:\/\/www\.xiaohongshu\.com\/api\/marketing\/box\/trigger\? - reject-dict
+
+    - ^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/ads\/resource\? - reject-dict
+
+  script:
+    - match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/(v2\/note\/feed|v3\/note\/videofeed)\?
+      name: 小红书
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/note\/(imagefeed|live_photo\/save)
+      name: 小红书
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/search\/(banner|hot)_list
+      name: 小红书
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/system_service\/config\?
+      name: 小红书
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v10\/search\/notes\?
+      name: 小红书
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/(note\/widgets|user\/followings\/followfeed)
+      name: 小红书
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config
+      name: 小红书
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v4\/followfeed\?
+      name: 小红书
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v4\/search\/(hint|trending)\?
+      name: 小红书
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v5\/recommend\/user\/follow_recommend\?
+      name: 小红书
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v6\/homefeed\?
+      name: 小红书
+      type: response
+      require-body: true
+      timeout: 60
+
+  mitm:
+    - "edith.xiaohongshu.com"
+    - "www.xiaohongshu.com"
+
+script-providers:
+  小红书:
+    url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
+    interval: 86400
