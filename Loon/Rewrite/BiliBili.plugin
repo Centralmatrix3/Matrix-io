@@ -2,7 +2,7 @@
 #!desc = 哔哩哔哩去广告
 #!author = RuCu6、Maasea
 
-[URL Rewrite]
+[Rewrite]
 ^http:\/\/[\d\.]+:8000\/v1\/resource\/\w{32}-1-SPLASH reject-dict
 
 ^http:\/\/upos-sz-static\.bilivideo\.com\/ssaxcode\/\w{2}\/\w{2}\/\w{32}-1-SPLASH reject-dict
