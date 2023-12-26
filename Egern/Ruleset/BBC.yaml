@@ -1,0 +1,21 @@
+domain_set:
+- aod-dash-uk-live.akamaized.net
+- aod-hls-uk-live.akamaized.net
+- vod-dash-uk-live.akamaized.net
+- vod-thumb-uk-live.akamaized.net
+domain_suffix_set:
+- bbc.co
+- bbc.co.uk
+- bbc.com
+- bbc.net.uk
+- bbcfmt.hs.llnwd.net
+- bbci.co
+- bbci.co.uk
+- bidi.net.uk
+domain_keyword_set:
+- bbcfmt
+- uk-live
+ip_cidr_set:
+ip_cidr6_set:
+asn_set:
+geoip_set:

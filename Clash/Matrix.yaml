@@ -1,0 +1,122 @@
+# 配置名称: Clash 配置
+# 配置作者: Centralmatrix3
+# 更新时间: 23-12-23 17:30
+
+port: 7890           # HTTP  端口
+socks-port: 7891     # Socks 端口
+redir-port: 7892     # Redir 端口
+mixed-port: 7893     # Mixed 端口
+
+allow-lan: true      # 允许局域网连接
+bind-address: "*"    # 地址绑定
+mode: rule           # 规则模式
+log-level: info      # 日志级别
+ipv6: false          # IPv6开关
+
+# 外部控制器
+external-controller: 127.0.0.1:9090
+
+dns:
+  enable: true       # 禁用系统 DNS
+  ipv6: false        # 关闭 IPv6
+  listen: 0.0.0.0:53 # DNS 监听
+
+# 增强模式:fake-ip或redir-host
+  enhanced-mode: fake-ip
+
+# fake-ip:范围和过滤
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - "*.lan"
+    - localhost.ptlogin2.qq.com
+    - +.srv.nintendo.net
+    - +.stun.playstation.net
+    - +.msftconnecttest.com
+    - +.msftncsi.com
+    - +.xboxlive.com
+    - msftconnecttest.com
+    - xbox.*.microsoft.com
+    - "*.battlenet.com.cn"
+    - "*.battlenet.com"
+    - "*.blzstatic.cn"
+    - "*.battle.net"
+
+  nameserver:        # 常规 DNS 服务器
+    - 223.5.5.5
+    - 119.29.29.29
+  fallback:          # 加密 DNS 服务器
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+
+  fallback-filter:   # 回退过滤器
+    geoip: true      # GEOIP 启用
+    geoip-code: CN   # GEOIP 编码
+    ipcidr:          # IPCIDR
+      - 240.0.0.0/4
+
+# 锚点
+p:    &a1 {type: http,     interval: 86400,  health-check: {enable: true, url: http://www.gstatic.com/generate_204, interval: 1800} }
+use:  &a2 {type: select,   use: [Subscribe] }
+pr:   &a3 {type: select,   proxies: [自行选择, DIRECT, 自动选择, 香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点] }
+auto: &a4 {type: url-test, lazy: true,  url: http://www.gstatic.com/generate_204, interval: 900, use: [Subscribe] }
+d:    &a5 {type: http,     behavior: domain,    interval: 86400}
+c:    &a6 {type: http,     behavior: classical, interval: 86400}
+i:    &a7 {type: http,     behavior: ipcidr,    interval: 86400}
+
+# 代理提供商
+proxy-providers:
+  Subscribe:
+    <<: *a1
+    url: 🧸订阅链接🧸
+    path: ./proxy_providers/tmp.yaml
+    
+# 代理
+proxies: null
+
+# 策略组
+proxy-groups:
+  - {name: 自行选择, <<: *a2}
+  - {name: 自动选择, <<: *a4}
+  - {name: 苹果服务, <<: *a3}
+  - {name: 港台番剧, <<: *a3}
+  - {name: 国内媒体, <<: *a3}
+  - {name: 国际媒体, <<: *a3}
+  - {name: 全球加速, <<: *a3}
+  - {name: 黑白名单, <<: *a3}
+
+  - {name: 香港节点, <<: *a4, filter: "香港|港|HK|(?i)HongKong"}
+  - {name: 台湾节点, <<: *a4, filter: "台湾|湾|TW|(?i)Taiwan"}
+  - {name: 日本节点, <<: *a4, filter: "日本|日|JP|(?i)Japan"}
+  - {name: 狮城节点, <<: *a4, filter: "新加坡|狮|SG|(?i)Singapore"}
+  - {name: 美国节点, <<: *a4, filter: "美国|美|US|(?i)UnitedStates"}
+
+# 规则提供商
+rule-providers:
+  规则修正: {<<: *a6, url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/Unbreak.yaml, path: ./Ruleset/Unbreak.yaml}
+
+  广告拦截: {<<: *a5, url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/AdBlock.yaml, path: ./AdBlock.yaml}
+
+  国际媒体: {<<: *a6, url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/Streaming.yaml, path: ./Ruleset/Streaming.yaml}
+
+  港台番剧: {<<: *a6, url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/StreamingSE.yaml, path: ./Ruleset/StreamingSE.yaml}
+
+  国内媒体: {<<: *a6, url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/StreamingCN.yaml, path: ./Ruleset/StreamingCN.yaml}
+
+  全球加速: {<<: *a6, url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/Global.yaml, path: ./Ruleset/Global.yaml}
+
+  苹果服务: {<<: *a6, url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/Apple.yaml, path: ./Ruleset/Apple.yaml}
+
+  局域网络: {<<: *a6, url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/LAN.yaml, path: ./Ruleset/LAN.yaml}
+
+# 规则 
+rules:
+  - RULE-SET, 规则修正, DIRECT
+  - RULE-SET, 广告拦截, REJECT
+  - RULE-SET, 国际媒体, 国际媒体
+  - RULE-SET, 港台番剧, 港台番剧
+  - RULE-SET, 国内媒体, 国内媒体
+  - RULE-SET, 全球加速, 全球加速
+  - RULE-SET, 苹果服务, 苹果服务
+  - RULE-SET, 局域网络, DIRECT
+  - GEOIP, CN, DIRECT
+  - MATCH, 黑白名单

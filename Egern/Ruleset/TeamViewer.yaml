@@ -1,0 +1,16 @@
+domain_set:
+domain_suffix_set:
+- teamviewer.com
+domain_keyword_set:
+ip_cidr_set:
+- 139.220.243.27/32
+- 172.16.102.56/32
+- 185.188.32.1/28
+- 221.226.128.146/32
+ip_cidr6_set:
+- 2a0b:b580::/48
+- 2a0b:b581::/48
+- 2a0b:b582::/48
+- 2a0b:b583::/48
+asn_set:
+geoip_set:

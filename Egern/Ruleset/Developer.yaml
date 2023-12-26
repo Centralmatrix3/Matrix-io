@@ -1,0 +1,26 @@
+domain_set:
+domain_suffix_set:
+- apache.org
+- docker.com
+- elastic.co
+- elastic.com
+- gcr.io
+- gitlab.com
+- gitlab.io
+- jitpack.io
+- maven.org
+- medium.com
+- mvnrepository.com
+- quay.io
+- reddit.com
+- redhat.com
+- sonatype.org
+- sourcegraph.com
+- spring.io
+- spring.net
+- stackoverflow.com
+domain_keyword_set:
+ip_cidr_set:
+ip_cidr6_set:
+asn_set:
+geoip_set:
