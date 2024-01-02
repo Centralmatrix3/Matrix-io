@@ -1,0 +1,16 @@
+# 规则名称:ChinaUnicom 中国联通
+# 规则统计:6
+
+domain_set:
+domain_suffix_set:
+  - chinaunicom.com.cn
+  - chinaunicom.com.hk
+  - chinaunicomglobal.com
+  - cuecp.cn
+  - gnoc.com.cn
+  - mychinaunicom.com
+domain_keyword_set:
+ip_cidr_set:
+ip_cidr6_set:
+asn_set:
+geoip_set:

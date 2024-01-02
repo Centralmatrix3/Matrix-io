@@ -1,0 +1,16 @@
+# 规则名称:TVer
+# 规则统计:6
+
+domain_set:
+domain_suffix_set:
+  - dogatch.jp
+  - edge.api.brightcove.com
+  - gorin.jp
+  - screens-lab.jp
+  - tver.co.jp
+  - tver.jp
+domain_keyword_set:
+ip_cidr_set:
+ip_cidr6_set:
+asn_set:
+geoip_set:

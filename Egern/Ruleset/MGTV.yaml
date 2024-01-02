@@ -1,0 +1,13 @@
+# 规则名称:MGTV 芒果TV
+# 规则统计:3
+
+domain_set:
+domain_suffix_set:
+  - hitv.com
+  - hunantv.com
+  - mgtv.com
+domain_keyword_set:
+ip_cidr_set:
+ip_cidr6_set:
+asn_set:
+geoip_set:

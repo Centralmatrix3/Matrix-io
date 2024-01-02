@@ -1,0 +1,15 @@
+# 规则名称:HuYa 虎牙
+# 规则统计:5
+
+domain_set:
+domain_suffix_set:
+  - huya.com
+  - huyagame.cn
+  - msstatic.com
+  - peiwanlu.com
+  - snapplay.com
+domain_keyword_set:
+ip_cidr_set:
+ip_cidr6_set:
+asn_set:
+geoip_set:

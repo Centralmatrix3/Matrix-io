@@ -1,0 +1,13 @@
+# 规则名称:My5
+# 规则统计:3
+
+domain_set:
+  - d349g9zuie06uo.cloudfront.net
+domain_suffix_set:
+  - channel5.com
+  - my5.tv
+domain_keyword_set:
+ip_cidr_set:
+ip_cidr6_set:
+asn_set:
+geoip_set:

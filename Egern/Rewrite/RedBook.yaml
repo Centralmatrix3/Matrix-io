@@ -1,0 +1,103 @@
+name: 小红书
+description: 小红书去广告/水印
+author: RuCu6、fmz200
+
+url_rewrites:
+  - match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/surprisebox\/(get_style|open|submit_action)
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v3\/note\/guide\?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/www\.xiaohongshu\.com\/api\/marketing\/box\/trigger\?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/www\.xiaohongshu\.com\/api\/sns\/(v1\/ads\/resource|v2\/hey\/\w+\/hey_gallery)
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+scriptings:
+  - http_response:
+      name: 小红书
+      match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/(v2\/note\/feed|v3\/note\/videofeed)\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 小红书
+      match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/note\/(imagefeed|live_photo\/save)
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 小红书
+      match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/search\/(banner|hot)_list
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 小红书
+      match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/system_service\/config\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 小红书
+      match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v10\/search\/notes\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 小红书
+      match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/(note\/widgets|user\/followings\/followfeed)
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 小红书
+      match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 小红书
+      match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v4\/followfeed\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 小红书
+      match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v4\/search\/(hint|trending)\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 小红书
+      match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v5\/recommend\/user\/follow_recommend\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 小红书
+      match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v6\/homefeed\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
+      timeout: 60
+      body_required: true
+
+mitm:
+  hostnames:
+    - edith.xiaohongshu.com
+    - www.xiaohongshu.com

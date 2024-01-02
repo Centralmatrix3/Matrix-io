@@ -1,0 +1,135 @@
+name: 哔哩哔哩
+description: 哔哩哔哩去广告
+author: RuCu6、Maasea
+
+url_rewrites:
+  - match: ^http:\/\/[\d\.]+:8000\/v1\/resource\/\w{32}-1-SPLASH
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^http:\/\/upos-sz-static\.bilivideo\.com\/ssaxcode\/\w{2}\/\w{2}\/\w{32}-1-SPLASH
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.interface\.v1\.Search\/DefaultWords
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/api\.bilibili\.com\/x\/mengqi\/v1\/resource\?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/api\.bilibili\.com\/x\/v2\/dm\/qoe\/show\?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/api\.bilibili\.com\/x\/web-interface\/zone\?jsonp
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v1\/ecommerce-user\/get_shopping_info\?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/app\.bilibili\.com\/x\/resource\/ip
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+scriptings:
+  - http_response:
+      name: 哔哩哔哩
+      match: ^https:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.(view|viewunite)\.v1\.View\/(View|ViewProgress)
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/protoA.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 哔哩哔哩
+      match: ^https:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.dynamic\.v2\.Dynamic\/DynAll
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/protoA.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 哔哩哔哩
+      match: ^https:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.interface\.v1\.Teenagers\/ModeStatus
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/protoA.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 哔哩哔哩
+      match: ^https:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.community\.service\.dm\.v1\.DM\/DmView
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/protoA.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 哔哩哔哩
+      match: ^https:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.main\.community\.reply\.v1\.Reply\/MainList
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/protoA.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 哔哩哔哩
+      match: ^https:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.polymer\.app\.search\.v1\.Search\/SearchAll
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/protoA.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 哔哩哔哩
+      match: ^https:\/\/api\.bilibili\.com\/pgc\/page\/(bangumi|cinema\/tab\?)
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/json.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 哔哩哔哩
+      match: ^https:\/\/api\.live\.bilibili\.com\/xlive\/app-room\/v1\/index\/getInfoByRoom\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/json.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 哔哩哔哩
+      match: ^https:\/\/app\.bilibili\.com\/x\/resource\/(top\/activity|show\/tab\/v2)\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/json.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 哔哩哔哩
+      match: ^https:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/json.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 哔哩哔哩
+      match: ^https:\/\/app\.bilibili\.com\/x\/v2\/(feed\/index(\/story)?|search\/square)\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/json.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 哔哩哔哩
+      match: ^https:\/\/app\.bilibili\.com\/x\/v2\/account\/(mine(\/ipad)?|myinfo)\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/json.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 哔哩哔哩
+      match: ^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/(brand\/list|event\/list2|list|show)\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/json.js
+      timeout: 60
+      body_required: true
+
+mitm:
+  hostnames:
+    - app.bilibili.com
+    - api.bilibili.com
+    - api.live.bilibili.com
+    - grpc.biliapi.net

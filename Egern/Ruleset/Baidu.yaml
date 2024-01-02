@@ -1,0 +1,22 @@
+# 规则名称:Baidu 百度
+# 规则统计:12
+
+domain_set:
+domain_suffix_set:
+  - baidu.com
+  - baidubcr.com
+  - baidupcs.com
+  - baidustatic.com
+  - bcebos.com
+  - bdimg.com
+  - bdstatic.com
+  - bdurl.net
+  - hao123.com
+  - hao123img.com
+  - jomodns.com
+  - yunjiasu-cdn.net
+domain_keyword_set:
+ip_cidr_set:
+ip_cidr6_set:
+asn_set:
+geoip_set:

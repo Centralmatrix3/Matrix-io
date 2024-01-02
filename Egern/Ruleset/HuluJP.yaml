@@ -1,0 +1,16 @@
+# 规则名称:HuluJP
+# 规则统计:6
+
+domain_set:
+domain_suffix_set:
+  - happyon.jp
+  - hjholdings.jp
+  - hulu.jp
+  - prod.hjholdings.tv
+  - streaks.jp
+  - yb.uncn.jp
+domain_keyword_set:
+ip_cidr_set:
+ip_cidr6_set:
+asn_set:
+geoip_set:

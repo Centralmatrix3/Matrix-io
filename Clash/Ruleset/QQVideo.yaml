@@ -1,0 +1,7 @@
+# 规则名称:QQVideo 腾讯视频
+# 规则统计:3
+
+payload:
+  - DOMAIN-SUFFIX,v.qq.com
+  - DOMAIN-SUFFIX,video.qq.com
+  - DOMAIN-SUFFIX,v.smtcdns.com

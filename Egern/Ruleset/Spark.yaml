@@ -1,0 +1,15 @@
+# 规则名称:Spark
+# 规则统计:5
+
+domain_set:
+domain_suffix_set:
+  - amplitude.com
+  - firebaseio.com
+  - hockeyapp.net
+  - readdle.com
+  - smartmailcloud.com
+domain_keyword_set:
+ip_cidr_set:
+ip_cidr6_set:
+asn_set:
+geoip_set:

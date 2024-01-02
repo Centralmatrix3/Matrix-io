@@ -1,0 +1,13 @@
+#!name = Sub-Store
+#!desc = https://sub.store
+#!author = Peng-YM
+
+[Script]
+Sub-Store = type=http-request,pattern=^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))),script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js,requires-body=true,timeout=120
+
+Sub-Store = type=http-request,pattern=^https?:\/\/sub\.store,script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-0.min.js,requires-body=true,timeout=120
+
+Sub-Store = type=cron,cronexp=0 0 * * *,wake-system=1,script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/cron-sync-artifacts.min.js,timeout=120
+
+[MITM]
+hostname = %APPEND% sub.store

@@ -1,0 +1,13 @@
+# 规则名称:Claude
+# 规则统计:3
+
+domain_set:
+  - cdn.usefathom.com
+domain_suffix_set:
+  - anthropic.com
+  - claude.ai
+domain_keyword_set:
+ip_cidr_set:
+ip_cidr6_set:
+asn_set:
+geoip_set:

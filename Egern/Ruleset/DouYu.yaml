@@ -1,0 +1,15 @@
+# 规则名称:DouYu 斗鱼
+# 规则统计:5
+
+domain_set:
+domain_suffix_set:
+  - douyu.com
+  - douyu.tv
+  - douyucdn.cn
+  - douyucdn2.cn
+  - douyutv.com
+domain_keyword_set:
+ip_cidr_set:
+ip_cidr6_set:
+asn_set:
+geoip_set:

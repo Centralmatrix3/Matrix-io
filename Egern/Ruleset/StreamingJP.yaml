@@ -1,0 +1,43 @@
+# 规则名称:StreamingJP 日本媒体
+# 规则统计:33
+
+domain_set:
+  - api-abematv.bucketeer.jp
+  - edge.api.brightcove.com
+domain_suffix_set:
+  - abema.io
+  - abema.tv
+  - abema-tv.com
+  - akabeesoft2.com
+  - akabeesoft3.com
+  - akatsukiworks.com
+  - alicesoft.com
+  - ameba.jp
+  - cosmiccute.com
+  - ddo.jp
+  - dmc.nico
+  - dmm.co.jp
+  - dmm.com
+  - dmm.hk
+  - dmm-extension.com
+  - happyon.jp
+  - hayabusa.io
+  - hayabusa.media
+  - hibiki-site.com
+  - hjholdings.jp
+  - hulu.jp
+  - minori.ph
+  - nicovideo.jp
+  - nimg.jp
+  - prod.hjholdings.tv
+  - streaks.jp
+  - tenco.cc
+  - tver.jp
+  - wheel-soft.com
+  - yb.uncn.jp
+domain_keyword_set:
+  - abematv.akamaized.net
+ip_cidr_set:
+ip_cidr6_set:
+asn_set:
+geoip_set:
