@@ -50,7 +50,7 @@
 
 微博 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/direct_messages\/user_list\?,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js,requires-body=true,timeout=60
 
-微博 = type=http-response, pattern=^https:\/\/api\.weibo\.cn\/2\/friendships\/destroy\?,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js,requires-body=true,timeout=60
+微博 = type=http-response, pattern=^https:\/\/api\.weibo\.cn\/2\/friendships\/(create|destroy)\?,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js,requires-body=true,timeout=60
 
 微博 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/groups\/allgroups\/v2\?,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js,requires-body=true,timeout=60
 
