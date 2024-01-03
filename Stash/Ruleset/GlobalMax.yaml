@@ -1,5 +1,5 @@
 # 规则名称:GlobalMax
-# 规则统计:20016
+# 规则统计:20017
 
 payload:
   - DOMAIN,a.ppy.sh
@@ -10849,6 +10849,7 @@ payload:
   - DOMAIN-SUFFIX,rexcha.com
   - DOMAIN-SUFFIX,rexxx.org
   - DOMAIN-SUFFIX,rhodeislandbmw.com
+  - DOMAIN-SUFFIX,rhyw.me
   - DOMAIN-SUFFIX,rhyw31.life
   - DOMAIN-SUFFIX,ricefever.com
   - DOMAIN-SUFFIX,ridepenguin.com
