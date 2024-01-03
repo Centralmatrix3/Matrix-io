@@ -75,7 +75,7 @@ http:
       require-body: true
       timeout: 60
 
-    - match: ^https:\/\/api\.weibo\.cn\/2\/friendships\/destroy\?
+    - match: ^https:\/\/api\.weibo\.cn\/2\/friendships\/(create|destroy)\?
       name: 微博
       type: response
       require-body: true
