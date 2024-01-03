@@ -116,7 +116,7 @@ scriptings:
 
   - http_response:
       name: 微博
-      match: ^https:\/\/api\.weibo\.cn\/2\/friendships\/destroy\?
+      match: ^https:\/\/api\.weibo\.cn\/2\/friendships\/(create|destroy)\?
       script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
       timeout: 60
       body_required: true
