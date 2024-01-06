@@ -1,0 +1,14 @@
+# 规则名称:RedBook 小红书
+# 规则统计:4
+
+domain_set:
+domain_suffix_set:
+  - fengkongcloud.com
+  - xhscdn.com
+  - xhscdn.net
+  - xiaohongshu.com
+domain_keyword_set:
+ip_cidr_set:
+ip_cidr6_set:
+asn_set:
+geoip_set:

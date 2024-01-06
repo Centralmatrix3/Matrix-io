@@ -1,0 +1,25 @@
+# 规则名称:Line
+# 规则统计:15
+
+domain_set:
+domain_suffix_set:
+  - lin.ee
+  - line-apps.com
+  - line-cdn.net
+  - line-scdn.net
+  - line.me
+  - line.naver.jp
+  - nhncorp.jp
+domain_keyword_set:
+ip_cidr_set:
+  - 103.2.28.0/24
+  - 103.2.30.0/23
+  - 119.235.224.0/24
+  - 119.235.232.0/24
+  - 119.235.235.0/24
+  - 119.235.236.0/23
+  - 147.92.128.0/17
+  - 203.104.128.0/19
+ip_cidr6_set:
+asn_set:
+geoip_set:

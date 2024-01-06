@@ -1,0 +1,26 @@
+# 规则名称:GoogleEarth
+# 规则统计:16
+
+domain_set:
+domain_suffix_set:
+  - earth-pa.clients6.google.com
+  - earth.google.com
+  - kh.google.com
+  - khm.google.com
+  - khm.googleapis.com
+  - khm0.google.com
+  - khm0.googleapis.com
+  - khm1.google.com
+  - khm1.googleapis.com
+  - khm2.google.com
+  - khm2.googleapis.com
+  - khm3.google.com
+  - khm3.googleapis.com
+  - khmdb.google.com
+  - khmdb.googleapis.com
+  - mw1.google.com
+domain_keyword_set:
+ip_cidr_set:
+ip_cidr6_set:
+asn_set:
+geoip_set:

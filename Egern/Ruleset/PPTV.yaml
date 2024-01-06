@@ -1,0 +1,13 @@
+# 规则名称:PPTV
+# 规则统计:3
+
+domain_set:
+domain_suffix_set:
+  - pplive.cn
+  - pplive.com
+  - pptv.com
+domain_keyword_set:
+ip_cidr_set:
+ip_cidr6_set:
+asn_set:
+geoip_set:

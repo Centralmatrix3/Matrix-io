@@ -1,0 +1,17 @@
+# 规则名称:ChinaMobile 中国移动
+# 规则统计:7
+
+domain_set:
+domain_suffix_set:
+  - 10086.cn
+  - 139.com
+  - chinamobile.com
+  - chinamobileltd.com
+  - warmchina121.com
+  - monternet.com
+  - cmccb2b.com
+domain_keyword_set:
+ip_cidr_set:
+ip_cidr6_set:
+asn_set:
+geoip_set:

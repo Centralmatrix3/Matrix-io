@@ -1,0 +1,17 @@
+# 规则名称:Zhihu 知乎
+# 规则统计:7
+
+domain_set:
+domain_suffix_set:
+  - zhihu.com
+  - zhimg.com
+domain_keyword_set:
+ip_cidr_set:
+  - 103.41.167.226/32
+  - 103.41.167.234/31
+  - 103.41.167.236/32
+  - 118.89.204.198/32
+ip_cidr6_set:
+  - 2402:4e00:1200:ed00:0:9089:6dac:96b6/128
+asn_set:
+geoip_set:

@@ -1,0 +1,28 @@
+# 规则名称:Steam
+# 规则统计:18
+
+domain_set:
+  - steambroadcast.akamaized.net
+  - steamcommunity-a.akamaihd.net
+  - steampipe.akamaized.net
+  - steamstore-a.akamaihd.net
+  - steamusercontent-a.akamaihd.net
+  - steamuserimages-a.akamaihd.net
+domain_suffix_set:
+  - fanatical.com
+  - humblebundle.com
+  - playartifact.com
+  - steam-chat.com
+  - steamcommunity.com
+  - steamgames.com
+  - steampowered.com
+  - steamserver.net
+  - steamstat.us
+  - steamstatic.com
+  - underlords.com
+  - valvesoftware.com
+domain_keyword_set:
+ip_cidr_set:
+ip_cidr6_set:
+asn_set:
+geoip_set:

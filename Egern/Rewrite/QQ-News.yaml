@@ -1,0 +1,16 @@
+name: 腾讯新闻
+description: 腾讯新闻去广告
+author: app2smile
+
+scriptings:
+  - http_response:
+      name: 腾讯新闻
+      match: ^https:\/\/(news\.ssp\.qq\.com\/app|r\.inews\.qq\.com\/(get(QQNewsUnreadList|TagFeedList)|gw\/page\/(channel_feed|event_detail)|news_feed\/hot_module_list))
+      script_url: https://raw.githubusercontent.com/app2smile/rules/master/js/qq-news.js
+      timeout: 30
+      body_required: true
+
+mitm:
+  hostnames:
+    - news.ssp.qq.com
+    - r.inews.qq.com

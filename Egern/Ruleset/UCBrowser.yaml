@@ -1,0 +1,48 @@
+# 规则名称:UCBrowser UC浏览器
+# 规则统计:38
+
+domain_set:
+domain_suffix_set:
+  - appchaoshi.cn
+  - appsmall.mobi
+  - babybubble.cn
+  - babymoment.net
+  - blovestorm.com
+  - coolppa.cn
+  - effirst.cn
+  - effirst.com
+  - hdyzx.cn
+  - minippa.cn
+  - myquark.cn
+  - open-uc.cn
+  - qingzhou.biz
+  - qingzhou.ltd
+  - qingzhou.pro
+  - quark.cn
+  - tinya1.cn
+  - tinyap2.cn
+  - tinypap.cn
+  - tinyppa.cn
+  - u-mob.cn
+  - ubibibi.com
+  - uc-test.cn
+  - uc-test.com
+  - uc.cn
+  - uc123.com
+  - ucdesk.cn
+  - ucfly.com
+  - ucweb.cn
+  - ucweb.com
+  - ucweb.com.cn
+  - uflowx.com
+  - xiaomengquan.cn
+  - xmq123.cn
+  - yun.cn
+  - zjbuc.cn
+  - zjbuc.com
+  - zjbuc.com.cn
+domain_keyword_set:
+ip_cidr_set:
+ip_cidr6_set:
+asn_set:
+geoip_set:

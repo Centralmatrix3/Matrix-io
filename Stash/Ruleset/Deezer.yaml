@@ -1,0 +1,6 @@
+# 规则名称:Deezer
+# 规则统计:2
+
+payload:
+  - DOMAIN-SUFFIX,deezer.com
+  - DOMAIN-SUFFIX,dzcdn.net

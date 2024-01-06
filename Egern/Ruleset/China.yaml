@@ -1,0 +1,75 @@
+# 规则名称:China
+# 规则统计:65
+
+domain_set:
+  - download.jetbrains.com
+  - download.microsoft.com
+  - ip.istatmenus.app
+  - ntservicepack.microsoft.com
+  - origin-a.akamaihd.net
+  - outlook.office365.com
+  - sms.imagetasks.com
+  - smtp.office365.com
+  - smtp-mail.outlook.com
+  - speedtest.macpaw.com
+  - wustat.windows.com
+domain_suffix_set:
+  - acg.rip
+  - animebytes.tv
+  - awesome-hd.me
+  - broadcasthe.net
+  - chdbits.co
+  - classix-unlimited.co.uk
+  - cm.steampowered.com
+  - cn
+  - comicat.org
+  - dl.delivery.mp.microsoft.com
+  - empornium.me
+  - flyert.com
+  - gandi.net
+  - gazellegames.net
+  - hdbits.org
+  - hdchina.org
+  - hddolby.com
+  - hdhome.org
+  - hdsky.me
+  - icetorrent.org
+  - jpopsuki.eu
+  - keepfrds.com
+  - madsrevolution.net
+  - morethan.tv
+  - m-team.cc
+  - myanonamouse.net
+  - nanyangpt.com
+  - ncore.cc
+  - netspeedtestmaster.com
+  - open.cd
+  - ourbits.club
+  - passthepopcorn.me
+  - paypal.com
+  - paypal.me
+  - paypal-mktg.com
+  - paypalobjects.com
+  - privatehd.to
+  - pterclub.com
+  - redacted.ch
+  - snapdrop.net
+  - springsunday.net
+  - steamserver.net
+  - tjupt.org
+  - totheglory.im
+  - update.microsoft.com
+  - windowsupdate.com
+  - windowsupdate.microsoft.com
+  - xn--55qx5d
+  - xn--fiqs8s
+  - xn--io0a7i
+domain_keyword_set:
+ip_cidr_set:
+  - 182.254.116.0/24
+  - 203.205.238.0/23
+  - 203.205.254.0/23
+ip_cidr6_set:
+asn_set:
+geoip_set:
+  - CN

@@ -1,0 +1,20 @@
+# 规则名称:TouTiao 头条
+# 规则统计:10
+
+domain_set:
+domain_suffix_set:
+  - toutiao.com
+  - toutiaoapi.com
+  - toutiaocdn.com
+  - toutiaocloud.com
+  - toutiaohao.com
+  - toutiaoimg.cn
+  - toutiaoimg.com
+  - toutiaopage.com
+  - toutiaostatic.com
+  - toutiaovod.com
+domain_keyword_set:
+ip_cidr_set:
+ip_cidr6_set:
+asn_set:
+geoip_set:

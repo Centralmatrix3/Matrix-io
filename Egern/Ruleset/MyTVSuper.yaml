@@ -1,0 +1,16 @@
+# 规则名称:MyTVSuper
+# 规则统计:6
+
+domain_set:
+  - mytvsuperlimited.hb.omtrdc.net
+  - mytvsuperlimited.sc.omtrdc.net
+domain_suffix_set:
+  - mytvsuper.com
+  - tvb.com
+domain_keyword_set:
+  - nowtv100
+  - rthklive
+ip_cidr_set:
+ip_cidr6_set:
+asn_set:
+geoip_set:

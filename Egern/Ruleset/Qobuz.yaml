@@ -1,0 +1,13 @@
+# 规则名称:Qobuz
+# 规则统计:3
+
+domain_set:
+domain_suffix_set:
+  - qobuz.com
+  - static-qobuz.com
+domain_keyword_set:
+  - qobuz
+ip_cidr_set:
+ip_cidr6_set:
+asn_set:
+geoip_set:
