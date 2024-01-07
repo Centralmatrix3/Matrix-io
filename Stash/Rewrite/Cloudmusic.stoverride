@@ -4,43 +4,43 @@ author: RuCu6、Keywos
 
 http:
   url-rewrite:
-    - ^https:\/\/interface\.music\.163\.com\/weapi\/(activity\/bonus\/playpage\/time\/query|middle\/clientcfg\/config\/list) - reject-dict
-
-    - ^https:\/\/interface3?\.music\.163\.com\/w?eapi\/resource-exposure\/(activity\/config\/get|config) - reject-dict
-
-    - ^https:\/\/interface3\.music\.163\.com\/eapi\/(homepage\/banner\/ad\/get|link\/scene\/show\/resource) - reject-dict
+    - ^https:\/\/interface3?\.music\.163\.com\/eapi\/(homepage\/banner\/ad\/get|link\/scene\/show\/resource) - reject-dict
 
     - ^https:\/\/interface3?\.music\.163\.com\/eapi\/(link\/position\/show\/strategy|link\/scene\/show\/resource|music\/songshare\/text\/recommend\/get) - reject-dict
 
-    - ^https:\/\/interface3\.music\.163\.com\/eapi\/(mlivestream\/entrance\/playpage\/v7|community\/friends\/fans-group\/artist\/group)\/get - reject-dict
+    - ^https:\/\/interface3?\.music\.163\.com\/eapi\/(mlivestream\/entrance\/playpage\/v7|community\/friends\/fans-group\/artist\/group)\/get - reject-dict
 
-    - ^https:\/\/interface3\.music\.163\.com\/eapi\/(music-vip-membership\/client\/vip\/info|vipauth\/app\/auth\/recycle) - reject-dict
+    - ^https:\/\/interface3?\.music\.163\.com\/eapi\/(music-vip-membership\/client\/vip\/info|vipauth\/app\/auth\/recycle) - reject-dict
 
-    - ^https:\/\/interface3\.music\.163\.com\/eapi\/(side-bar\/mini-program\/music-service\/account|delivery\/batch-deliver) - reject-dict
+    - ^https:\/\/interface3?\.music\.163\.com\/eapi\/(side-bar\/mini-program\/music-service\/account|delivery\/batch-deliver) - reject-dict
 
-    - ^https:\/\/interface3\.music\.163\.com\/eapi\/(user\/sub\/artist\/exist|vipcenter\/tspopup\/get) - reject-dict
+    - ^https:\/\/interface3?\.music\.163\.com\/eapi\/(user\/sub\/artist\/exist|vipcenter\/tspopup\/get) - reject-dict
 
-    - ^https:\/\/interface3\.music\.163\.com\/eapi\/event\/floating\/layer - reject-dict
+    - ^https:\/\/interface3?\.music\.163\.com\/eapi\/event\/floating\/layer - reject-dict
 
-    - ^https:\/\/interface3\.music\.163\.com\/eapi\/mine\/applet\/redpoint - reject-dict
+    - ^https:\/\/interface3?\.music\.163\.com\/eapi\/mine\/applet\/redpoint - reject-dict
 
-    - ^https:\/\/interface3\.music\.163\.com\/eapi\/mlog\/vinyl\/story\/list - reject-dict
+    - ^https:\/\/interface3?\.music\.163\.com\/eapi\/mlog\/vinyl\/story\/list - reject-dict
 
-    - ^https:\/\/interface3\.music\.163\.com\/eapi\/sp\/flow\/popup\/query - reject-dict
+    - ^https:\/\/interface3?\.music\.163\.com\/eapi\/sp\/flow\/popup\/query - reject-dict
 
-    - ^https:\/\/interface3\.music\.163\.com\/eapi\/voice\/play\/page\/ad\/info - reject-dict
+    - ^https:\/\/interface3?\.music\.163\.com\/eapi\/voice\/play\/page\/ad\/info - reject-dict
 
-    - ^https:\/\/interface3\.music\.163\.com\/eapi\/zone\/songplay\/entry\/get - reject-dict
+    - ^https:\/\/interface3?\.music\.163\.com\/eapi\/zone\/songplay\/entry\/get - reject-dict
+
+    - ^https:\/\/interface3?\.music\.163\.com\/w?eapi\/resource-exposure\/(activity\/config\/get|config) - reject-dict
+
+    - ^https:\/\/interface3?\.music\.163\.com\/weapi\/(activity\/bonus\/playpage\/time\/query|middle\/clientcfg\/config\/list) - reject-dict
 
     - ^https?:\/\/interface3?\.music\.163.com\/e?api\/(ocpc\/)?ad\/.* - reject-dict
 
     - ^https?:\/\/interface3?\.music\.163.com\/eapi\/search\/(chart\/(detail|list)|default\/keyword\/list|rcmd\/keyword\/get\/v2|specialkeyword\/get) - reject-dict
 
-    - ^https?:\/\/interface3\.music\.163\.com\/eapi\/(content\/exposure\/vinyl\/comment\/entrance|v1\/content\/exposure\/comment\/banner)\/get - reject-dict
+    - ^https?:\/\/interface3?\.music\.163\.com\/eapi\/(content\/exposure\/vinyl\/comment\/entrance|v1\/content\/exposure\/comment\/banner)\/get - reject-dict
 
-    - ^https?:\/\/interface3\.music\.163\.com\/eapi\/comment\/(hotcomment\/collect\/fetchmodelinfov2|feed\/inserted\/resources|tips\/v2\/get) - reject-dict
+    - ^https?:\/\/interface3?\.music\.163\.com\/eapi\/comment\/(hotcomment\/collect\/fetchmodelinfov2|feed\/inserted\/resources|tips\/v2\/get) - reject-dict
 
-    - ^https?:\/\/interface3\.music\.163\.com\/eapi\/resniche\/position\/play\/new\/get - reject-dict
+    - ^https?:\/\/interface3?\.music\.163\.com\/eapi\/resniche\/position\/play\/new\/get - reject-dict
 
   mitm:
     - "interface*.music.163.com"
