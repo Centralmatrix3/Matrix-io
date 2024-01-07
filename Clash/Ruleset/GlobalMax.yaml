@@ -1,5 +1,5 @@
 # 规则名称:GlobalMax
-# 规则统计:20017
+# 规则统计:20016
 
 payload:
   - DOMAIN,a.ppy.sh
@@ -579,7 +579,6 @@ payload:
   - DOMAIN-SUFFIX,acgdv.com
   - DOMAIN-SUFFIX,acgfabu.com
   - DOMAIN-SUFFIX,acgfbw.com
-  - DOMAIN-SUFFIX,acgjump.com
   - DOMAIN-SUFFIX,acgnmanhua.com
   - DOMAIN-SUFFIX,acgvipss.com
   - DOMAIN-SUFFIX,acgwr.com
