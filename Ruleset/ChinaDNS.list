@@ -1,0 +1,7 @@
+# 规则名称:ChinaDNS
+# 规则统计:4
+
+DOMAIN-SUFFIX,dns.alidns.com
+DOMAIN-SUFFIX,doh.360.cn
+DOMAIN-SUFFIX,doh.pub
+IP-CIDR,1.12.12.12/32,no-resolve
