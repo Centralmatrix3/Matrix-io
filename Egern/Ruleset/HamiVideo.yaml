@@ -1,0 +1,10 @@
+# 规则名称:HamiVideo
+# 规则统计:4
+
+domain_set:
+  - hls-hichannel.cdn.hinet.net
+domain_suffix_set:
+  - hamivideo.hinet.net
+  - ott.hinet.net
+domain_keyword_set:
+  - hamivideo.cdn.hinet.net

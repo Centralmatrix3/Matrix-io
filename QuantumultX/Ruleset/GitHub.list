@@ -1,0 +1,9 @@
+# 规则名称:GitHub
+# 规则统计:6
+
+HOST-SUFFIX,github.com,MATRIX-IO
+HOST-SUFFIX,github.io,MATRIX-IO
+HOST-SUFFIX,githubapp.com,MATRIX-IO
+HOST-SUFFIX,githubassets.com,MATRIX-IO
+HOST-SUFFIX,githubusercontent.com,MATRIX-IO
+HOST-KEYWORD,github,MATRIX-IO

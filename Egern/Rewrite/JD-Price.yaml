@@ -1,0 +1,14 @@
+name: 京东比价
+description: 京东比价
+author: githubdulong
+
+scriptings:
+  - http_response:
+      name: 京东比价
+      match: ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig)
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Scripts/JD.Price.Js
+      timeout: 120
+      body_required: true
+mitm:
+  hostnames:
+    - api.m.jd.com

@@ -1,0 +1,26 @@
+name: master
+
+on:
+  workflow_dispatch:
+
+jobs:
+  matrix:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v4.1.0
+        with:
+          ref: master
+
+      - name: commit
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git checkout --orphan clearhistory
+          git branch -D master
+          git checkout --orphan master
+          git branch -D clearhistory
+          git add .
+          git commit -m "matrix"
+          git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
+          git push -f -u origin master

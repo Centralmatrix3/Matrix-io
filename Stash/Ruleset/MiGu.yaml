@@ -1,0 +1,7 @@
+# 规则名称:MiGu 咪咕音乐/视频
+# 规则统计:3
+
+payload:
+  - DOMAIN-SUFFIX,cmvideo.cn
+  - DOMAIN-SUFFIX,miguvideo.com
+  - DOMAIN-SUFFIX,migu.cn

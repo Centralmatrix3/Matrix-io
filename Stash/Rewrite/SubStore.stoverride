@@ -1,0 +1,39 @@
+name: Sub-Store
+desc: https://sub.store
+author: Peng-YM
+
+http:
+  script:
+    - match: ^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info)))
+      name: SubStore.A
+      type: request
+      require-body: true
+      timeout: 120
+
+    - match: ^https?:\/\/sub\.store
+      name: SubStore.B
+      type: request
+      require-body: true
+      timeout: 120
+
+  mitm:
+    - "sub.store"
+
+cron:
+  script:
+    - name: SubStore.C
+      cron: "0 0 * * *"
+      timeout: 120
+
+script-providers:
+  SubStore.A:
+    url: https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js
+    interval: 86400
+
+  SubStore.B:
+    url: https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-0.min.js
+    interval: 86400
+
+  SubStore.C:
+    url: https://github.com/sub-store-org/Sub-Store/releases/latest/download/cron-sync-artifacts.min.js
+    interval: 86400

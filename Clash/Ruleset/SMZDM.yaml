@@ -1,0 +1,13 @@
+# 规则名称:SMZDM 什么值得买
+# 规则统计:9
+
+payload:
+  - DOMAIN-SUFFIX,faxianpindao.com
+  - DOMAIN-SUFFIX,quaolai.com
+  - DOMAIN-SUFFIX,smzdm.com
+  - DOMAIN-SUFFIX,smzdmimg.com
+  - DOMAIN-SUFFIX,valueq-sea.com
+  - DOMAIN-SUFFIX,wanwuzhinan.com
+  - DOMAIN-SUFFIX,zdm.net
+  - DOMAIN-SUFFIX,zdmimg.com
+  - DOMAIN-SUFFIX,zhidemai.com

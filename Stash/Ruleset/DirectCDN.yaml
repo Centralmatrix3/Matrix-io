@@ -1,0 +1,9 @@
+# 规则名称:DirectCDN 直连CDN
+# 规则统计:5
+
+payload:
+  - DOMAIN-SUFFIX,baomitu.com
+  - DOMAIN-SUFFIX,bootcss.com
+  - DOMAIN-SUFFIX,jiasule.com
+  - DOMAIN-SUFFIX,staticfile.org
+  - DOMAIN-SUFFIX,upaiyun.com

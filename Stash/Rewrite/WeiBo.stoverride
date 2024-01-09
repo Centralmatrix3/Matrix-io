@@ -1,0 +1,164 @@
+name: 微博
+desc: 微博全面净化
+author: RuCu6、zmqcherish
+
+http:
+  url-rewrite:
+    - ^https:\/\/api\.weibo\.cn\/!\/sug\/list\/finderchange\? - reject-dict
+
+    - ^https:\/\/api\.weibo\.cn\/2\/!\/chaohua\/discovery\/home_bottom\/switch\? - reject-dict
+
+    - ^https:\/\/api\.weibo\.cn\/2\/!\/huati\/(discovery_home_bottom_getdotinfo|mobile_discovery_searchchange)\? - reject-dict
+
+    - ^https:\/\/api\.weibo\.cn\/2\/!\/live\/media_homelist\? - reject-dict
+
+    - ^https:\/\/api\.weibo\.cn\/2\/!\/wbox\/\w+\/(home_bottom_modal|interest_category)\? - reject-dict
+
+    - ^https:\/\/api\.weibo\.cn\/2\/(ug\/checkin\/list|push\/daily)\? - reject-dict
+
+    - ^https:\/\/api\.weibo\.cn\/2\/comments\/bullet_screens\? - reject-dict
+
+    - ^https:\/\/api\.weibo\.cn\/2\/hot\/hours_spotlight\? - reject-dict
+
+    - ^https:\/\/api\.weibo\.cn\/2\/photo\/info\? - reject-dict
+
+    - ^https:\/\/api\.weibo\.cn\/2\/search\/container_discover\? - reject-dict
+
+    - ^https:\/\/api\.weibo\.cn\/2\/statuses\/(container_positive|push_info)\? - reject-dict
+
+    - ^https:\/\/api\.weibo\.cn\/2\/video\/redpacket\? - reject-dict
+
+    - ^https:\/\/api\.weibo\.cn\/2\/vote\/get_vote_detail\? - reject-dict
+
+    - ^https:\/\/bootrealtime\.uve\.weibo\.com\/v[23]\/ad\/realtime - reject-dict
+
+    - ^https:\/\/card\.weibo\.com\/article\/m\/aj\/(reward|uvead)\? - reject-dict
+
+    - ^https:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/(get-lbs-cell-info\.php|sdkconfig\.php) - reject
+
+    - ^https:\/\/weibo\.com\/ttarticle\/x\/m\/aj\/(reward|uvead)\? - reject-dict
+
+  script:
+    - match: ^https:\/\/api\.weibo\.cn\/2\/!\/huati\/discovery_home_bottom_channels\?
+      name: 微博
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https:\/\/api\.weibo\.cn\/2\/(cardlist|page)\?
+      name: 微博
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https:\/\/api\.weibo\.cn\/2\/(checkin\/show|client\/publisher_list|push\/active)\?
+      name: 微博
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https:\/\/api\.weibo\.cn\/2\/(container\/asyn|flowlist)\?
+      name: 微博
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https:\/\/api\.weibo\.cn\/2\/comments\/build_comments\?
+      name: 微博
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https:\/\/api\.weibo\.cn\/2\/direct_messages\/user_list\?
+      name: 微博
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https:\/\/api\.weibo\.cn\/2\/friendships\/(create|destroy)\?
+      name: 微博
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https:\/\/api\.weibo\.cn\/2\/groups\/allgroups\/v2\?
+      name: 微博
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https:\/\/api\.weibo\.cn\/2\/messageflow\/notice\?
+      name: 微博
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https:\/\/api\.weibo\.cn\/2\/profile\/(container_timeline|dealatt|me|statuses\/tab|userinfo)\?
+      name: 微博
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https:\/\/api\.weibo\.cn\/2\/search\/(container_timeline|finder)\?
+      name: 微博
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https:\/\/api\.weibo\.cn\/2\/searchall\?
+      name: 微博
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https:\/\/api\.weibo\.cn\/2\/statuses\/(container_timeline(_hot|_topic|_topicpage|_unread)?|unread_hot_timeline)\?
+      name: 微博
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https:\/\/api\.weibo\.cn\/2\/statuses\/(extend|show)\?
+      name: 微博
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https:\/\/api\.weibo\.cn\/2\/video\/tiny_stream_video_list\?
+      name: 微博
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https:\/\/bootpreload\.uve\.weibo\.com\/v1\/ad\/preload
+      name: 微博
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https:\/\/new\.vip\.weibo\.cn\/aj\/appicon\/list\?
+      name: 微博
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php
+      name: 微博
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https:\/\/wbapp\.uve\.weibo\.com\/(preload\/get_ad|wbapplua\/wbpullad\.lua)\?
+      name: 微博
+      type: response
+      require-body: true
+      timeout: 60
+
+  mitm:
+    - "*.weibo.cn"
+    - "*.weibo.com"
+    - "weibo.com"
+
+script-providers:
+  微博:
+    url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
+    interval: 86400

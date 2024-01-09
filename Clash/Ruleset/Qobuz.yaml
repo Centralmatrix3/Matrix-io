@@ -1,0 +1,7 @@
+# 规则名称:Qobuz
+# 规则统计:3
+
+payload:
+  - DOMAIN-SUFFIX,qobuz.com
+  - DOMAIN-SUFFIX,static-qobuz.com
+  - DOMAIN-KEYWORD,qobuz

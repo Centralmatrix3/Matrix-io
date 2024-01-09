@@ -1,0 +1,15 @@
+name: 谷歌
+desc: 谷歌重定向
+author: Centralmatrix3
+
+http:
+  force-http-engine:
+    - "www.google.cn"
+
+  url-rewrite:
+    - ^https?:\/\/(ditu|maps).google\.cn https://maps.google.com 302
+
+    - ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
+
+  mitm:
+    - "www.google.cn"

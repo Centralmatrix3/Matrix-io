@@ -1,0 +1,6 @@
+# 规则名称:Zoom
+# 规则统计:2
+
+payload:
+  - DOMAIN-SUFFIX,zoom.us
+  - DOMAIN-SUFFIX,zoomgov.com

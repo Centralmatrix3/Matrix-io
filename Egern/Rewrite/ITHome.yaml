@@ -1,0 +1,15 @@
+name: IT之家
+description: IT之家去广告
+author: RuCu6、Keywos
+
+scriptings:
+  - http_response:
+      name: IT之家
+      match: ^https:\/\/napi\.ithome\.com\/api\/(news\/index|topmenu\/getfeeds)
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/ithome.js
+      timeout: 60
+      body_required: true
+
+mitm:
+  hostnames:
+    - napi.ithome.com

@@ -1,0 +1,66 @@
+name: Keep
+desc: keep去广告
+author: Maasea
+
+rules:
+  - DOMAIN,httpdns.calorietech.com,REJECT
+
+http:
+  url-rewrite:
+    - ^https:\/\/api\.gotokeep\.com\/anno\/v1\/upgrade\/check$ - reject-200
+
+    - ^https:\/\/api\.gotokeep\.com\/athena\/v1\/people\/my\/entry - reject-200
+
+    - ^https:\/\/api\.gotokeep\.com\/op-engine-webapp\/tool\/v1\/jump\/popup$ - reject
+
+    - ^https:\/\/api\.gotokeep\.com\/op-engine-webapp\/v1\/ad - reject-200
+
+    - ^https:\/\/api\.gotokeep\.com\/training\/box\/config - reject-200
+
+    - ^https?:\/\/api.gotokeep.com/cauchy/growth/init - reject-200
+
+  script:
+    - match: ^https:\/\/api\.gotokeep\.com\/athena\/v\d\/people\/my
+      name: Keep.A
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https:\/\/api\.gotokeep\.com\/config\/v3/basic
+      name: Keep.B
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https:\/\/kad\.gotokeep\.com\/op-engine-webapp\/v1\/ad
+      name: Keep.C
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https?:\/\/api\.gotokeep\.com\/athena\/v7\/people\/course\/(practiced|general)
+      name: Keep.D
+      type: response
+      require-body: true
+      timeout: 60
+
+  mitm:
+    - "api.gotokeep.com"
+    - "kad.gotokeep.com"
+
+script-providers:
+  Keep.A:
+    url: https://raw.githubusercontent.com/Maasea/surgeModule/master/Script/Keep/my.js
+    interval: 86400
+
+  Keep.B:
+    url: https://raw.githubusercontent.com/Maasea/surgeModule/master/Script/Keep/basic.js
+    interval: 86400
+
+  Keep.C:
+    url: https://raw.githubusercontent.com/Maasea/surgeModule/master/Script/Keep/kad.js
+    interval: 86400
+
+  Keep.D:
+    url: https://raw.githubusercontent.com/Maasea/surgeModule/master/Script/Keep/course.js
+    interval: 86400

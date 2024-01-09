@@ -1,0 +1,66 @@
+name: Keep
+description: keep去广告
+author: Maasea
+
+rules:
+  - domain:
+      match: httpdns.calorietech.com
+      policy: REJECT
+
+url_rewrites:
+  - match: ^https:\/\/api\.gotokeep\.com\/op-engine-webapp\/tool\/v1\/jump\/popup$
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https:\/\/api\.gotokeep\.com\/anno\/v1\/upgrade\/check$
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt
+    status_code: 307
+
+  - match: ^https:\/\/api\.gotokeep\.com\/athena\/v1\/people\/my\/entry
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt
+    status_code: 307
+
+  - match: ^https:\/\/api\.gotokeep\.com\/op-engine-webapp\/v1\/ad
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt
+    status_code: 307
+
+  - match: ^https:\/\/api\.gotokeep\.com\/training\/box\/config
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt
+    status_code: 307
+
+  - match: ^https?:\/\/api.gotokeep.com/cauchy/growth/init
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt
+    status_code: 307
+
+scriptings:
+  - http_response:
+      name: Keep
+      match: ^https:\/\/api\.gotokeep\.com\/athena\/v\d\/people\/my
+      script_url: https://raw.githubusercontent.com/Maasea/surgeModule/master/Script/Keep/my.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: Keep
+      match: ^https:\/\/api\.gotokeep\.com\/config\/v3/basic
+      script_url: https://raw.githubusercontent.com/Maasea/surgeModule/master/Script/Keep/basic.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: Keep
+      match: ^https:\/\/kad\.gotokeep\.com\/op-engine-webapp\/v1\/ad
+      script_url: https://raw.githubusercontent.com/Maasea/surgeModule/master/Script/Keep/kad.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: Keep
+      match: ^https?:\/\/api\.gotokeep\.com\/athena\/v7\/people\/course\/(practiced|general)
+      script_url: https://raw.githubusercontent.com/Maasea/surgeModule/master/Script/Keep/course.js
+      timeout: 60
+      body_required: true
+mitm:
+  hostnames:
+    - api.gotokeep.com
+    - kad.gotokeep.com

@@ -1,0 +1,19 @@
+# 规则名称:RTHK
+# 规则统计:14
+
+domain_set:
+  - rthklive2-lh.akamaihd.net
+  - rthkradio1-live.akamaized.net
+  - rthkradio2-live.akamaized.net
+  - rthkradio3-live.akamaized.net
+  - rthkradio4-live.akamaized.net
+  - rthkradio5-live.akamaized.net
+  - rthkradiocmgrgb-live.akamaized.net
+  - rthkradiocnrhk-live.akamaized.net
+  - rthkradiopth-live.akamaized.net
+  - rthktv31-live.akamaized.net
+  - rthktv32-live.akamaized.net
+domain_suffix_set:
+  - etvonline.hk
+  - rthk.hk
+  - rthk.org.hk

@@ -1,0 +1,16 @@
+name: 谷歌
+description: 谷歌重定向
+author: Centralmatrix3
+
+url_rewrites:
+  - match: ^https?:\/\/(ditu|maps).google\.cn
+    location: https://maps.google.com
+    status_code: 302
+
+  - match: ^https?:\/\/(www.)?(g|google)\.cn
+    location: https://www.google.com
+    status_code: 302
+
+mitm:
+  hostnames:
+    - www.google.cn
