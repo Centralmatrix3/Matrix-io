@@ -1,0 +1,6 @@
+# 规则名称:KWKG 酷我/酷狗音乐
+# 规则统计:2
+
+payload:
+  - DOMAIN-SUFFIX,kowo.cn
+  - DOMAIN-SUFFIX,kugou.com
