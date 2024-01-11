@@ -18,9 +18,7 @@ http:
 
     - ^https:\/\/m5\.amap\.com\/ws\/valueadded\/weather\/v2\? - reject-dict
 
-    - ^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(car\/order\/content_info|order\/car\/king_toolbox_car_bubble)\? - reject-dict
-
-    - ^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(order_web\/friendly_information|tips\/onscene_visual_optimization)\? - reject-dict
+    - ^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(order\/car\/king_toolbox_car_bubble|tips\/onscene_visual_optimization)\? - reject-dict
 
     - ^https:\/\/oss\.amap\.com\/ws\/banner\/lists\/\? - reject-dict
 
@@ -81,6 +79,12 @@ http:
       timeout: 60
 
     - match: ^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\?
+      name: 高德地图.B
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(car\/order\/content_info|order_web\/friendly_information)\?
       name: 高德地图.B
       type: response
       require-body: true
