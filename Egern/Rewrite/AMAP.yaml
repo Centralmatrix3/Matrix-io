@@ -31,11 +31,7 @@ url_rewrites:
     location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
     status_code: 307
 
-  - match: ^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(car\/order\/content_info|order\/car\/king_toolbox_car_bubble)\?
-    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
-    status_code: 307
-
-  - match: ^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(order_web\/friendly_information|tips\/onscene_visual_optimization)\?
+  - match: ^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(order\/car\/king_toolbox_car_bubble|tips\/onscene_visual_optimization)\?
     location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
     status_code: 307
 
@@ -113,6 +109,13 @@ scriptings:
   - http_response:
       name: 高德地图
       match: ^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 高德地图
+      match: ^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(car\/order\/content_info|order_web\/friendly_information)\?
       script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
       timeout: 60
       body_required: true
