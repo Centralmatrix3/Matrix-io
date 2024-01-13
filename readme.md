@@ -212,8 +212,6 @@
 
    * [LM-Firefly](https://github.com/LM-Firefly)
 
-   * [Anti-AD](https://github.com/privacy-protection-tools/anti-AD)
-
  * 脚本规则
 
    * [KOP-XIAO](https://github.com/KOP-XIAO)
@@ -225,8 +223,6 @@
    * [yichahucha](https://github.com/yichahucha)  
 
    * [I-am-R-E](https://github.com/I-am-R-E) 
-
-   * [fmz200](https://github.com/fmz200)  
 
    * [NobyDa](https://github.com/NobyDa)  
 
