@@ -204,8 +204,6 @@
 
    * [Blackmatrix7](https://github.com/blackmatrix7) 
 
-   * [ConnersHua](https://github.com/ConnersHua)
-
    * [DivineEngine](https://github.com/DivineEngine)
 
    * [Loyalsoldier](https://github.com/Loyalsoldier)
@@ -215,8 +213,6 @@
  * 脚本规则
 
    * [KOP-XIAO](https://github.com/KOP-XIAO)
-
-   * [CrossUtility](https://github.com/crossutility)
 
    * [DivineEngine](https://github.com/DivineEngine)
 
