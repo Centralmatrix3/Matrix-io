@@ -4,7 +4,6 @@ author: RuCu6、Keywos
 
 http:
   url-rewrite:
-
     - ^https:\/\/interface3?\.music\.163\.com\/eapi\/(community\/task\/complete|mlog\/vinyl\/story\/list) - reject-dict
 
     - ^https:\/\/interface3?\.music\.163\.com\/eapi\/(homepage\/banner\/ad\/get|link\/scene\/show\/resource) - reject-dict
