@@ -1,0 +1,14 @@
+#!name = YouTube
+#!desc = YouTube去广告
+#!author = Maasea
+
+[URL Rewrite]
+^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad - reject-dict
+
+[Script]
+YouTube = type=http-request,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence),script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/dist/youtube.request.beta.js,requires-body=true,binary-body-mode=true,timeout=60
+
+YouTube = type=http-response,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting),script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/dist/youtube.response.beta.js,requires-body=true,binary-body-mode=true,timeout=60
+
+[MITM]
+hostname = %APPEND% *.googlevideo.com, youtubei.googleapis.com
