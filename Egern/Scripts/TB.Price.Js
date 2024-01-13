@@ -20,7 +20,7 @@ scriptings:
 
 mitm:
   hostnames:
-    - null
+    - trade-acs.m.taobao.com
 ----------------------------------------
 */
 
