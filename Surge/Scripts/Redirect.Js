@@ -1,6 +1,17 @@
-// @name = Redirect
-// @desc = Redirect重定向
-// @author = DivineEngine
+/*
+ * @name = Redirect
+ * @desc = Redirect
+ * @author = DivineEngine
+----------------------------------------
+[Script]
+Redirect = type=http-request,pattern=^https?:\/\/app\.biliintl\.com\/(intl\/gateway\/v\d\/app\/data\/report\/heartbeat\/mobile|x\/(history|reply)/v\d/add),script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Surge/Scripts/Redirect.Js,requires-body=true,timeout=60
+
+Redirect = type=http-request,pattern=^https?:\/\/passport\.biliintl\.com\/x\/intl\/passport-login\/(sms\/send|reg\/sms|oauth2\/access_token|login\/sms),script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Surge/Scripts/Redirect.Js,requires-body=true,timeout=60
+
+[MITM]
+hostname = %APPEND% app.biliintl.com, passport.biliintl.com
+----------------------------------------
+*/
 
 let body = $request.body;
 
