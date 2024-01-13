@@ -4,10 +4,12 @@
  * @author = yichahucha
 ----------------------------------------
 [Script] 
-淘宝比价 = type=http-response,pattern=null,script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Surge/Scripts/TB.Price.Js,requires-body=true,timeout=120
+淘宝比价 = type=http-response,pattern=^http://.+/amdc/mobileDispatch,script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Surge/Scripts/TB.Price.Js,requires-body=true,timeout=120
+
+淘宝比价 = type=http-response,pattern=^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail,script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Surge/Scripts/TB.Price.Js,requires-body=true,timeout=120
 
 [MITM]
-hostname = %APPEND% null
+hostname = %APPEND% trade-acs.m.taobao.com
 ----------------------------------------
 */
 
