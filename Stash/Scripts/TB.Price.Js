@@ -1,6 +1,25 @@
-// @name = TB.Price
-// @desc = TB.Price淘宝比价
-// @author = yichahucha
+/*
+ * @name = TB.Price
+ * @desc = TB.Price
+ * @author = yichahucha
+----------------------------------------
+http:
+  script:
+    - match: null
+      name: 淘宝比价
+      type: response
+      require-body: true
+      timeout: 120
+
+  mitm:
+    - "null"
+
+script-providers:
+  淘宝比价:
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Stash/Scripts/TB.Price.Js
+    interval: 86400
+----------------------------------------
+*/
 
 const $tool = new Tool()
 const path1 = "/amdc/mobileDispatch"
