@@ -4,6 +4,7 @@ author: RuCu6、Keywos
 
 http:
   url-rewrite:
+
     - ^https:\/\/interface3?\.music\.163\.com\/eapi\/(community\/task\/complete|mlog\/vinyl\/story\/list) - reject-dict
 
     - ^https:\/\/interface3?\.music\.163\.com\/eapi\/(homepage\/banner\/ad\/get|link\/scene\/show\/resource) - reject-dict
@@ -39,7 +40,7 @@ http:
     - ^https?:\/\/interface3?\.music\.163\.com\/eapi\/resniche\/position\/play\/new\/get - reject-dict
 
   script:
-    - match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/(v\d\/resource\/comment\/floor\/get|link\/page\/rcmd\/resource\/show|user\/follow\/users\/mixed\/get)
+    - match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/(v\d\/resource\/comment\/floor\/get|link\/page\/(discovery|rcmd)\/resource\/show|user\/follow\/users\/mixed\/get)
       name: 网易云音乐
       type: response
       require-body: true
@@ -62,9 +63,6 @@ http:
       type: response
       require-body: true
       timeout: 60
-
-  mitm:
-    - "interface*.music.163.com"
 
 script-providers:
   网易云音乐:
