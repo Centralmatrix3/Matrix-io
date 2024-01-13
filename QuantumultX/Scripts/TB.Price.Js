@@ -1,6 +1,15 @@
-// @name = TB.Price
-// @desc = TB.Price淘宝比价
-// @author = yichahucha
+/*
+ * @name = TB.Price
+ * @desc = TB.Price
+ * @author = yichahucha
+----------------------------------------
+[rewrite_local]
+null url script-response-body https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/TB.Price.Js
+
+[mitm]
+hostname = null
+----------------------------------------
+*/
 
 const $tool = new Tool()
 const path1 = "/amdc/mobileDispatch"
