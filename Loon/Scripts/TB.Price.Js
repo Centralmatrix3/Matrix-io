@@ -1,6 +1,15 @@
-// @name = TB.Price
-// @desc = TB.Price淘宝比价
-// @author = yichahucha
+/*
+ * @name = TB.Price
+ * @desc = TB.Price
+ * @author = yichahucha
+----------------------------------------
+[Script]
+http-response null script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Loon/Scripts/TB.Price.Js, requires-body=true, timeout=120, tag=淘宝比价
+
+[MITM]
+hostname = null
+----------------------------------------
+*/
 
 const $tool = new Tool()
 const path1 = "/amdc/mobileDispatch"
