@@ -6,7 +6,7 @@
 scriptings:
   - http_request:
       name: TF下载修正
-      match: ^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/
+      match: ^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$
       script_url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Scripts/TestFlightD.Js
       timeout: 120
       body_required: true
