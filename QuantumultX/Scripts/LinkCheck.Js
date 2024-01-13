@@ -3,16 +3,9 @@
  * @desc = LinkCheck
  * @author = I-am-R-E
 ----------------------------------------
- * @QuantumultX
+ * @Rewrite
 [task_local]
 event-interaction https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/LinkCheck.Js, tag=代理链路检测, img-url=link.circle.system, enabled=true
-
- * @Surge
-[Panel]
-策略面板 = script-name=代理链路检测,update-interval=21600
-
-[Script]
-代理链路检测 = type=generic,timeout=30,script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/LinkCheck.Js, argument=title=代理链路检测&icon=network&color=#86abee
 
  * @SubStore
 在SubStore里选择操作-脚本填入该链接:
