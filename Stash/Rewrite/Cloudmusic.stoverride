@@ -39,7 +39,7 @@ http:
     - ^https?:\/\/interface3?\.music\.163\.com\/eapi\/resniche\/position\/play\/new\/get - reject-dict
 
   script:
-    - match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/(v\d\/resource\/comment\/floor\/get|link\/page\/(discovery|rcmd)\/resource\/show|user\/follow\/users\/mixed\/get)
+    - match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/(v\d\/resource\/comment\/floor\/get|link\/page\/(discovery|rcmd)\/(resource\/show|block\/resource\/multi\/refresh)|user\/follow\/users\/mixed\/get)
       name: 网易云音乐
       type: response
       require-body: true
