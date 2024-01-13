@@ -1,6 +1,6 @@
 /*
- * @name = Net-ISP
- * @desc = Net-ISP面板
+ * @name = IP-Check
+ * @desc = IP-Check
  * @author = Keywos
 ----------------------------------------
 [Rule]
