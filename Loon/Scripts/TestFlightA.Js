@@ -3,6 +3,9 @@
  * @desc = TestFlightA
  * @author = Nobyda
 ----------------------------------------
+[General]
+skip-proxy = iosapps.itunes.apple.com
+
 [Script]
 http-request ^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/ script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Loon/Scripts/TestFlightA.Js, requires-body=true, timeout=120, tag=TF账户管理
 
