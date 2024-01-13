@@ -1,6 +1,15 @@
-// @name = JD.Price
-// @desc = JD.Price京东比价
-// @author = yichahucha
+/*
+ * @name = JD.Price
+ * @desc = JD.Price
+ * @author = yichahucha
+----------------------------------------
+[Script] 
+京东比价 = type=http-response,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Shadowrocket/Scripts/JD.Price.Js,requires-body=true,timeout=120
+
+[MITM]
+hostname = %APPEND% api.m.jd.com
+----------------------------------------
+*/
 
 const path1 = "serverConfig";
 const path2 = "wareBusiness";
