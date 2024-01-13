@@ -1,6 +1,21 @@
-// @name = TestFlight
-// @desc = TestFlight账户管理
-// @author = NobyDa
+/*
+ * @name = TestFlightA
+ * @desc = TestFlightA
+ * @author = Nobyda
+----------------------------------------
+scriptings:
+  - http_request:
+      name: TF账户管理
+      match: ^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Scripts/TestFlightA.Js
+      timeout: 120
+      body_required: true
+
+mitm:
+  hostnames:
+    - testflight.apple.com
+----------------------------------------
+*/
 
 const $ = API("TESTFLIGHT-ACCOUNT");
 $.env.isNode ? $request = $.read('Request') : null;
