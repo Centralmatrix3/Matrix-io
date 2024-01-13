@@ -5,11 +5,19 @@
 ----------------------------------------
 scriptings:
   - http_response:
-      name: 淘宝比价
+      name: ^http://.+/amdc/mobileDispatch
       match: null
       script_url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Scripts/TB.Price.Js
       timeout: 120
       body_required: true
+
+  - http_response:
+      name: ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail
+      match: null
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Scripts/TB.Price.Js
+      timeout: 120
+      body_required: true
+
 mitm:
   hostnames:
     - null
