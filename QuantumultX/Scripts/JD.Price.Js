@@ -4,7 +4,7 @@
  * @author = yichahucha
 ----------------------------------------
 [rewrite_local]
-https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/JD.Price.Js
+^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/JD.Price.Js
 
 [mitm]
 hostname = api.m.jd.com
