@@ -4,10 +4,12 @@
  * @author = yichahucha
 ----------------------------------------
 [Script]
-http-response null script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Loon/Scripts/TB.Price.Js, requires-body=true, timeout=120, tag=淘宝比价
+http-response ^http://.+/amdc/mobileDispatch script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Loon/Scripts/TB.Price.Js, requires-body=true, timeout=120, tag=淘宝比价
+
+http-response ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Loon/Scripts/TB.Price.Js, requires-body=true, timeout=120, tag=淘宝比价
 
 [MITM]
-hostname = null
+hostname = trade-acs.m.taobao.com
 ----------------------------------------
 */
 
