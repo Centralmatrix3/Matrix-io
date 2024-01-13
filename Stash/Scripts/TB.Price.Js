@@ -5,14 +5,20 @@
 ----------------------------------------
 http:
   script:
-    - match: null
+    - match: ^http://.+/amdc/mobileDispatch
+      name: 淘宝比价
+      type: response
+      require-body: true
+      timeout: 120
+
+    - match: ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail
       name: 淘宝比价
       type: response
       require-body: true
       timeout: 120
 
   mitm:
-    - "null"
+    - "trade-acs.m.taobao.com"
 
 script-providers:
   淘宝比价:
