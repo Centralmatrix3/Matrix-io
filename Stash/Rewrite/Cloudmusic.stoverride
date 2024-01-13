@@ -63,6 +63,9 @@ http:
       require-body: true
       timeout: 60
 
+  mitm:
+    - "interface*.music.163.com"
+
 script-providers:
   网易云音乐:
     url: https://raw.githubusercontent.com/Keywos/rule/main/JS/wyresParam_nolog.js
