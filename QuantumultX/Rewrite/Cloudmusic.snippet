@@ -16,7 +16,7 @@
 
 ^https:\/\/interface3?\.music\.163\.com\/eapi\/(user\/sub\/artist\/exist|vipcenter\/tspopup\/get) url reject-dict
 
-^https:\/\/interface3?\.music\.163\.com\/eapi\/(v\d\/resource\/comment\/floor\/get|link\/page\/rcmd\/resource\/show|user\/follow\/users\/mixed\/get) url script-response-body https://raw.githubusercontent.com/Keywos/rule/main/JS/wyresParam_nolog.js
+^https:\/\/interface3?\.music\.163\.com\/eapi\/(v\d\/resource\/comment\/floor\/get|link\/page\/(discovery|rcmd)\/resource\/show|user\/follow\/users\/mixed\/get) url script-response-body https://raw.githubusercontent.com/Keywos/rule/main/JS/wyresParam_nolog.js
 
 ^https:\/\/interface3?\.music\.163\.com\/eapi\/batch url script-response-body https://raw.githubusercontent.com/Keywos/rule/main/JS/wyresParam_nolog.js
 
