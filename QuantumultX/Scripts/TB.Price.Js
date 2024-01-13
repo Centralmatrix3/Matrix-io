@@ -4,10 +4,12 @@
  * @author = yichahucha
 ----------------------------------------
 [rewrite_local]
-null url script-response-body https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/TB.Price.Js
+^http://.+/amdc/mobileDispatch url script-response-body https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/TB.Price.Js
+
+^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail url script-response-body https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/TB.Price.Js
 
 [mitm]
-hostname = null
+hostname = trade-acs.m.taobao.com
 ----------------------------------------
 */
 
