@@ -10,6 +10,7 @@ scriptings:
       script_url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Scripts/JD.Price.Js
       timeout: 120
       body_required: true
+
 mitm:
   hostnames:
     - api.m.jd.com
