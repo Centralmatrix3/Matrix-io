@@ -3,7 +3,7 @@
  * @desc = LinkCheck
  * @author = I-am-R-E
 ----------------------------------------
- * @Rewrite
+ * @task_local
 [task_local]
 event-interaction https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/LinkCheck.Js, tag=代理链路检测, img-url=link.circle.system, enabled=true
 
