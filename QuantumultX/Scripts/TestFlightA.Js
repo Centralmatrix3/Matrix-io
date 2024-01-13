@@ -1,6 +1,15 @@
-// @name = TestFlight
-// @desc = TestFlight账户管理
-// @author = NobyDa
+/*
+ * @name = TestFlightA
+ * @desc = TestFlightA
+ * @author = NobyDa
+----------------------------------------
+[rewrite_local]
+^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/ url script-analyze-echo-response https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/TestFlightA.Js
+
+[mitm]
+hostname = testflight.apple.com
+----------------------------------------
+*/
 
 const $ = API("TESTFLIGHT-ACCOUNT");
 $.env.isNode ? $request = $.read('Request') : null;
