@@ -4,7 +4,7 @@
  * @author = I-am-R-E
 ----------------------------------------
 [general]
-geo_location_checker = https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/IP-API-A.Js
+geo_location_checker = https://github.com/Centralmatrix3/Matrix-io/raw/master/QuantumultX/Scripts/IP-API-A.Js
 ----------------------------------------
 */
 
