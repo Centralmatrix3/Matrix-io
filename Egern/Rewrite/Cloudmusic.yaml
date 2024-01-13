@@ -74,7 +74,7 @@ url_rewrites:
 scriptings:
   - http_response:
       name: 网易云音乐
-      match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/(v\d\/resource\/comment\/floor\/get|link\/page\/rcmd\/resource\/show|user\/follow\/users\/mixed\/get)
+      match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/(v\d\/resource\/comment\/floor\/get|link\/page\/(discovery|rcmd)\/resource\/show|user\/follow\/users\/mixed\/get)
       script_url: https://raw.githubusercontent.com/Keywos/rule/main/JS/wyresParam_nolog.js
       timeout: 60
       body_required: true
