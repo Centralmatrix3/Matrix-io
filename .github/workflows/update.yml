@@ -70,6 +70,9 @@ jobs:
         # 规则名称:AmazonCN
         curl -L -o Matrix-io-repo/Clash/Ruleset/AmazonCN.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/AmazonCN.list"
 
+        # 规则名称:Anaconda
+        curl -L -o Matrix-io-repo/Clash/Ruleset/Anaconda.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Anaconda.list"
+
         # 规则名称:Android
         curl -L -o Matrix-io-repo/Clash/Ruleset/Android.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Android.list"
 
@@ -292,8 +295,14 @@ jobs:
         # 规则名称:Heroku
         curl -L -o Matrix-io-repo/Clash/Ruleset/Heroku.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Heroku.list"
 
+        # 规则名称:Hijacking
+        curl -L -o Matrix-io-repo/Clash/Ruleset/Hijacking.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Hijacking.list"
+
         # 规则名称:HuYa
         curl -L -o Matrix-io-repo/Clash/Ruleset/HuYa.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/HuYa.list"
+
+        # 规则名称:Huawei
+        curl -L -o Matrix-io-repo/Clash/Ruleset/Huawei.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Huawei.list"
 
         # 规则名称:Hulu
         curl -L -o Matrix-io-repo/Clash/Ruleset/Hulu.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Hulu.list"
@@ -475,6 +484,9 @@ jobs:
         # 规则名称:PrimeVideo
         curl -L -o Matrix-io-repo/Clash/Ruleset/PrimeVideo.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/PrimeVideo.list"
 
+        # 规则名称:Privacy
+        curl -L -o Matrix-io-repo/Clash/Ruleset/Privacy.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Privacy.list"
+
         # 规则名称:PrivateTracker
         curl -L -o Matrix-io-repo/Clash/Ruleset/PrivateTracker.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/PrivateTracker.list"
 
@@ -582,6 +594,9 @@ jobs:
 
         # 规则名称:TIDAL
         curl -L -o Matrix-io-repo/Clash/Ruleset/TIDAL.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/TIDAL.list"
+
+        # 规则名称:TVB
+        curl -L -o Matrix-io-repo/Clash/Ruleset/TVB.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/TVB.list"
 
         # 规则名称:TVer
         curl -L -o Matrix-io-repo/Clash/Ruleset/TVer.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/TVer.list"
@@ -927,6 +942,9 @@ jobs:
         # 规则名称:AmazonCN
         curl -L -o Matrix-io-repo/Egern/Ruleset/AmazonCN.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/AmazonCN.list"
 
+        # 规则名称:Anaconda
+        curl -L -o Matrix-io-repo/Egern/Ruleset/Anaconda.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Anaconda.list"
+
         # 规则名称:Android
         curl -L -o Matrix-io-repo/Egern/Ruleset/Android.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Android.list"
 
@@ -1149,8 +1167,14 @@ jobs:
         # 规则名称:Heroku
         curl -L -o Matrix-io-repo/Egern/Ruleset/Heroku.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Heroku.list"
 
+        # 规则名称:Hijacking
+        curl -L -o Matrix-io-repo/Egern/Ruleset/Hijacking.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Hijacking.list"
+
         # 规则名称:HuYa
         curl -L -o Matrix-io-repo/Egern/Ruleset/HuYa.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/HuYa.list"
+
+        # 规则名称:Huawei
+        curl -L -o Matrix-io-repo/Egern/Ruleset/Huawei.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Huawei.list"
 
         # 规则名称:Hulu
         curl -L -o Matrix-io-repo/Egern/Ruleset/Hulu.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Hulu.list"
@@ -1332,6 +1356,9 @@ jobs:
         # 规则名称:PrimeVideo
         curl -L -o Matrix-io-repo/Egern/Ruleset/PrimeVideo.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/PrimeVideo.list"
 
+        # 规则名称:Privacy
+        curl -L -o Matrix-io-repo/Egern/Ruleset/Privacy.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Privacy.list"
+
         # 规则名称:PrivateTracker
         curl -L -o Matrix-io-repo/Egern/Ruleset/PrivateTracker.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/PrivateTracker.list"
 
@@ -1439,6 +1466,9 @@ jobs:
 
         # 规则名称:TIDAL
         curl -L -o Matrix-io-repo/Egern/Ruleset/TIDAL.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/TIDAL.list"
+
+        # 规则名称:TVB
+        curl -L -o Matrix-io-repo/Egern/Ruleset/TVB.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/TVB.list"
 
         # 规则名称:TVer
         curl -L -o Matrix-io-repo/Egern/Ruleset/TVer.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/TVer.list"
@@ -1783,6 +1813,9 @@ jobs:
         # 规则名称:AmazonCN
         curl -L -o Matrix-io-repo/Loon/Ruleset/AmazonCN.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/AmazonCN.list"
 
+        # 规则名称:Anaconda
+        curl -L -o Matrix-io-repo/Loon/Ruleset/Anaconda.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Anaconda.list"
+
         # 规则名称:Android
         curl -L -o Matrix-io-repo/Loon/Ruleset/Android.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Android.list"
 
@@ -2005,8 +2038,14 @@ jobs:
         # 规则名称:Heroku
         curl -L -o Matrix-io-repo/Loon/Ruleset/Heroku.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Heroku.list"
 
+        # 规则名称:Hijacking
+        curl -L -o Matrix-io-repo/Loon/Ruleset/Hijacking.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Hijacking.list"
+
         # 规则名称:HuYa
         curl -L -o Matrix-io-repo/Loon/Ruleset/HuYa.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/HuYa.list"
+
+        # 规则名称:Huawei
+        curl -L -o Matrix-io-repo/Loon/Ruleset/Huawei.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Huawei.list"
 
         # 规则名称:Hulu
         curl -L -o Matrix-io-repo/Loon/Ruleset/Hulu.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Hulu.list"
@@ -2188,6 +2227,9 @@ jobs:
         # 规则名称:PrimeVideo
         curl -L -o Matrix-io-repo/Loon/Ruleset/PrimeVideo.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/PrimeVideo.list"
 
+        # 规则名称:Privacy
+        curl -L -o Matrix-io-repo/Loon/Ruleset/Privacy.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Privacy.list"
+
         # 规则名称:PrivateTracker
         curl -L -o Matrix-io-repo/Loon/Ruleset/PrivateTracker.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/PrivateTracker.list"
 
@@ -2295,6 +2337,9 @@ jobs:
 
         # 规则名称:TIDAL
         curl -L -o Matrix-io-repo/Loon/Ruleset/TIDAL.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/TIDAL.list"
+
+        # 规则名称:TVB
+        curl -L -o Matrix-io-repo/Loon/Ruleset/TVB.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/TVB.list"
 
         # 规则名称:TVer
         curl -L -o Matrix-io-repo/Loon/Ruleset/TVer.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/TVer.list"
@@ -2597,6 +2642,9 @@ jobs:
         # 规则名称:AmazonCN
         curl -L -o Matrix-io-repo/QuantumultX/Ruleset/AmazonCN.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/AmazonCN.list"
 
+        # 规则名称:Anaconda
+        curl -L -o Matrix-io-repo/QuantumultX/Ruleset/Anaconda.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Anaconda.list"
+
         # 规则名称:Android
         curl -L -o Matrix-io-repo/QuantumultX/Ruleset/Android.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Android.list"
 
@@ -2819,8 +2867,14 @@ jobs:
         # 规则名称:Heroku
         curl -L -o Matrix-io-repo/QuantumultX/Ruleset/Heroku.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Heroku.list"
 
+        # 规则名称:Hijacking
+        curl -L -o Matrix-io-repo/QuantumultX/Ruleset/Hijacking.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Hijacking.list"
+
         # 规则名称:HuYa
         curl -L -o Matrix-io-repo/QuantumultX/Ruleset/HuYa.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/HuYa.list"
+
+        # 规则名称:Huawei
+        curl -L -o Matrix-io-repo/QuantumultX/Ruleset/Huawei.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Huawei.list"
 
         # 规则名称:Hulu
         curl -L -o Matrix-io-repo/QuantumultX/Ruleset/Hulu.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Hulu.list"
@@ -3002,6 +3056,9 @@ jobs:
         # 规则名称:PrimeVideo
         curl -L -o Matrix-io-repo/QuantumultX/Ruleset/PrimeVideo.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/PrimeVideo.list"
 
+        # 规则名称:Privacy
+        curl -L -o Matrix-io-repo/QuantumultX/Ruleset/Privacy.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Privacy.list"
+
         # 规则名称:PrivateTracker
         curl -L -o Matrix-io-repo/QuantumultX/Ruleset/PrivateTracker.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/PrivateTracker.list"
 
@@ -3109,6 +3166,9 @@ jobs:
 
         # 规则名称:TIDAL
         curl -L -o Matrix-io-repo/QuantumultX/Ruleset/TIDAL.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/TIDAL.list"
+
+        # 规则名称:TVB
+        curl -L -o Matrix-io-repo/QuantumultX/Ruleset/TVB.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/TVB.list"
 
         # 规则名称:TVer
         curl -L -o Matrix-io-repo/QuantumultX/Ruleset/TVer.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/TVer.list"
@@ -3369,6 +3429,14 @@ jobs:
           file="AmazonCN.list"
           if [ -f "$file" ]; then
             sed -i 's/,MATRIX-IO/,AmazonCN/g' "$file"
+          else
+            echo "$file not found."
+          fi
+
+          # 处理规则:Anaconda
+          file="Anaconda.list"
+          if [ -f "$file" ]; then
+            sed -i 's/,MATRIX-IO/,Anaconda/g' "$file"
           else
             echo "$file not found."
           fi
@@ -4018,10 +4086,26 @@ jobs:
             echo "$file not found."
           fi
 
+          # 处理规则:Hijacking
+          file="Hijacking.list"
+          if [ -f "$file" ]; then
+            sed -i 's/,MATRIX-IO/,Hijacking/g' "$file"
+          else
+            echo "$file not found."
+          fi
+
           # 处理规则:HuYa
           file="HuYa.list"
           if [ -f "$file" ]; then
             sed -i 's/,MATRIX-IO/,HuYa/g' "$file"
+          else
+            echo "$file not found."
+          fi
+
+          # 处理规则:Huawei
+          file="Huawei.list"
+          if [ -f "$file" ]; then
+            sed -i 's/,MATRIX-IO/,Huawei/g' "$file"
           else
             echo "$file not found."
           fi
@@ -4513,6 +4597,14 @@ jobs:
             echo "$file not found."
           fi
 
+          # 处理规则:Privacy
+          file="Privacy.list"
+          if [ -f "$file" ]; then
+            sed -i 's/,MATRIX-IO/,Privacy/g' "$file"
+          else
+            echo "$file not found."
+          fi
+
           # 处理规则:PrivateTracker
           file="PrivateTracker.list"
           if [ -f "$file" ]; then
@@ -4804,6 +4896,14 @@ jobs:
           file="TIDAL.list"
           if [ -f "$file" ]; then
             sed -i 's/,MATRIX-IO/,TIDAL/g' "$file"
+          else
+            echo "$file not found."
+          fi
+
+          # 处理规则:TVB
+          file="TVB.list"
+          if [ -f "$file" ]; then
+            sed -i 's/,MATRIX-IO/,TVB/g' "$file"
           else
             echo "$file not found."
           fi
@@ -5136,6 +5236,9 @@ jobs:
         # 规则名称:AmazonCN
         curl -L -o Matrix-io-repo/Shadowrocket/Ruleset/AmazonCN.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/AmazonCN.list"
 
+        # 规则名称:Anaconda
+        curl -L -o Matrix-io-repo/Shadowrocket/Ruleset/Anaconda.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Anaconda.list"
+
         # 规则名称:Android
         curl -L -o Matrix-io-repo/Shadowrocket/Ruleset/Android.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Android.list"
 
@@ -5358,8 +5461,14 @@ jobs:
         # 规则名称:Heroku
         curl -L -o Matrix-io-repo/Shadowrocket/Ruleset/Heroku.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Heroku.list"
 
+        # 规则名称:Hijacking
+        curl -L -o Matrix-io-repo/Shadowrocket/Ruleset/Hijacking.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Hijacking.list"
+
         # 规则名称:HuYa
         curl -L -o Matrix-io-repo/Shadowrocket/Ruleset/HuYa.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/HuYa.list"
+
+        # 规则名称:Huawei
+        curl -L -o Matrix-io-repo/Shadowrocket/Ruleset/Huawei.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Huawei.list"
 
         # 规则名称:Hulu
         curl -L -o Matrix-io-repo/Shadowrocket/Ruleset/Hulu.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Hulu.list"
@@ -5541,6 +5650,9 @@ jobs:
         # 规则名称:PrimeVideo
         curl -L -o Matrix-io-repo/Shadowrocket/Ruleset/PrimeVideo.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/PrimeVideo.list"
 
+        # 规则名称:Privacy
+        curl -L -o Matrix-io-repo/Shadowrocket/Ruleset/Privacy.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Privacy.list"
+
         # 规则名称:PrivateTracker
         curl -L -o Matrix-io-repo/Shadowrocket/Ruleset/PrivateTracker.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/PrivateTracker.list"
 
@@ -5648,6 +5760,9 @@ jobs:
 
         # 规则名称:TIDAL
         curl -L -o Matrix-io-repo/Shadowrocket/Ruleset/TIDAL.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/TIDAL.list"
+
+        # 规则名称:TVB
+        curl -L -o Matrix-io-repo/Shadowrocket/Ruleset/TVB.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/TVB.list"
 
         # 规则名称:TVer
         curl -L -o Matrix-io-repo/Shadowrocket/Ruleset/TVer.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/TVer.list"
@@ -5950,6 +6065,9 @@ jobs:
         # 规则名称:AmazonCN
         curl -L -o Matrix-io-repo/Stash/Ruleset/AmazonCN.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/AmazonCN.list"
 
+        # 规则名称:Anaconda
+        curl -L -o Matrix-io-repo/Stash/Ruleset/Anaconda.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Anaconda.list"
+
         # 规则名称:Android
         curl -L -o Matrix-io-repo/Stash/Ruleset/Android.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Android.list"
 
@@ -6172,8 +6290,14 @@ jobs:
         # 规则名称:Heroku
         curl -L -o Matrix-io-repo/Stash/Ruleset/Heroku.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Heroku.list"
 
+        # 规则名称:Hijacking
+        curl -L -o Matrix-io-repo/Stash/Ruleset/Hijacking.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Hijacking.list"
+
         # 规则名称:HuYa
         curl -L -o Matrix-io-repo/Stash/Ruleset/HuYa.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/HuYa.list"
+
+        # 规则名称:Huawei
+        curl -L -o Matrix-io-repo/Stash/Ruleset/Huawei.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Huawei.list"
 
         # 规则名称:Hulu
         curl -L -o Matrix-io-repo/Stash/Ruleset/Hulu.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Hulu.list"
@@ -6355,6 +6479,9 @@ jobs:
         # 规则名称:PrimeVideo
         curl -L -o Matrix-io-repo/Stash/Ruleset/PrimeVideo.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/PrimeVideo.list"
 
+        # 规则名称:Privacy
+        curl -L -o Matrix-io-repo/Stash/Ruleset/Privacy.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Privacy.list"
+
         # 规则名称:PrivateTracker
         curl -L -o Matrix-io-repo/Stash/Ruleset/PrivateTracker.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/PrivateTracker.list"
 
@@ -6462,6 +6589,9 @@ jobs:
 
         # 规则名称:TIDAL
         curl -L -o Matrix-io-repo/Stash/Ruleset/TIDAL.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/TIDAL.list"
+
+        # 规则名称:TVB
+        curl -L -o Matrix-io-repo/Stash/Ruleset/TVB.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/TVB.list"
 
         # 规则名称:TVer
         curl -L -o Matrix-io-repo/Stash/Ruleset/TVer.yaml "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/TVer.list"
@@ -6804,6 +6934,9 @@ jobs:
         # 规则名称:AmazonCN
         curl -L -o Matrix-io-repo/Surge/Ruleset/AmazonCN.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/AmazonCN.list"
 
+        # 规则名称:Anaconda
+        curl -L -o Matrix-io-repo/Surge/Ruleset/Anaconda.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Anaconda.list"
+
         # 规则名称:Android
         curl -L -o Matrix-io-repo/Surge/Ruleset/Android.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Android.list"
 
@@ -7026,8 +7159,14 @@ jobs:
         # 规则名称:Heroku
         curl -L -o Matrix-io-repo/Surge/Ruleset/Heroku.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Heroku.list"
 
+        # 规则名称:Hijacking
+        curl -L -o Matrix-io-repo/Surge/Ruleset/Hijacking.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Hijacking.list"
+
         # 规则名称:HuYa
         curl -L -o Matrix-io-repo/Surge/Ruleset/HuYa.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/HuYa.list"
+
+        # 规则名称:Huawei
+        curl -L -o Matrix-io-repo/Surge/Ruleset/Huawei.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Huawei.list"
 
         # 规则名称:Hulu
         curl -L -o Matrix-io-repo/Surge/Ruleset/Hulu.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Hulu.list"
@@ -7209,6 +7348,9 @@ jobs:
         # 规则名称:PrimeVideo
         curl -L -o Matrix-io-repo/Surge/Ruleset/PrimeVideo.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/PrimeVideo.list"
 
+        # 规则名称:Privacy
+        curl -L -o Matrix-io-repo/Surge/Ruleset/Privacy.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/Privacy.list"
+
         # 规则名称:PrivateTracker
         curl -L -o Matrix-io-repo/Surge/Ruleset/PrivateTracker.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/PrivateTracker.list"
 
@@ -7316,6 +7458,9 @@ jobs:
 
         # 规则名称:TIDAL
         curl -L -o Matrix-io-repo/Surge/Ruleset/TIDAL.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/TIDAL.list"
+
+        # 规则名称:TVB
+        curl -L -o Matrix-io-repo/Surge/Ruleset/TVB.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/TVB.list"
 
         # 规则名称:TVer
         curl -L -o Matrix-io-repo/Surge/Ruleset/TVer.list "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/TVer.list"
