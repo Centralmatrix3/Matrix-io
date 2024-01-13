@@ -1,6 +1,20 @@
-// @name = JD.Price
-// @desc = JD.Price京东比价
-// @author = yichahucha
+/*
+ * @name = JD.Price
+ * @desc = JD.Price
+ * @author = yichahucha
+----------------------------------------
+scriptings:
+  - http_response:
+      name: 京东比价
+      match: ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig)
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Scripts/JD.Price.Js
+      timeout: 120
+      body_required: true
+mitm:
+  hostnames:
+    - api.m.jd.com
+----------------------------------------
+*/
 
 const path1 = "serverConfig";
 const path2 = "wareBusiness";
