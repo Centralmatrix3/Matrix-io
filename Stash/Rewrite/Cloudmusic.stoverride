@@ -21,48 +21,56 @@ http:
       name: 网易云音乐
       type: response
       require-body: true
+      binary-mode: true
       timeout: 60
 
     - match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/(homepage\/block\/page|link\/page\/rcmd\/(block\/resource\/multi\/refresh|resource\/show))
       name: 网易云音乐
       type: response
       require-body: true
+      binary-mode: true
       timeout: 60
 
     - match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/(music-vip-membership\/client\/vip\/info|vipauth\/app\/auth\/recycle)
       name: 网易云音乐
       type: response
       require-body: true
+      binary-mode: true
       timeout: 60
 
     - match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/link\/home\/framework\/tab
       name: 网易云音乐
       type: response
       require-body: true
+      binary-mode: true
       timeout: 60
 
     - match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/link\/page\/discovery\/resource\/show
       name: 网易云音乐
       type: response
       require-body: true
+      binary-mode: true
       timeout: 60
 
     - match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/link\/position\/show\/resource
       name: 网易云音乐
       type: response
       require-body: true
+      binary-mode: true
       timeout: 60
 
     - match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/song\/play\/more\/list\/
       name: 网易云音乐
       type: response
       require-body: true
+      binary-mode: true
       timeout: 60
 
     - match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/user\/follow\/users\/mixed\/
       name: 网易云音乐
       type: response
       require-body: true
+      binary-mode: true
       timeout: 60
 
   mitm:
