@@ -2,46 +2,20 @@
 #!desc = 网易云音乐去广告
 #!author = RuCu6、Keywos
 
-^https:\/\/interface3?\.music\.163\.com\/eapi\/(community\/task\/complete|mlog\/vinyl\/story\/list) url reject-dict
-
-^https:\/\/interface3?\.music\.163\.com\/eapi\/(homepage\/banner\/ad\/get|link\/scene\/show\/resource) url reject-dict
-
-^https:\/\/interface3?\.music\.163\.com\/eapi\/(link\/position\/show\/strategy|link\/scene\/show\/resource|music\/songshare\/text\/recommend\/get) url reject-dict
-
-^https:\/\/interface3?\.music\.163\.com\/eapi\/(mine\/applet\/redpoint|sp\/flow\/popup\/query|voice\/play\/page\/ad\/info) url reject-dict
-
-^https:\/\/interface3?\.music\.163\.com\/eapi\/(mlivestream\/entrance\/playpage\/v7|community\/friends\/fans-group\/artist\/group)\/get url reject-dict
-
-^https:\/\/interface3?\.music\.163\.com\/eapi\/(side-bar\/mini-program\/music-service\/account|delivery\/(batch-)?deliver|yunbei\/account\/entrance\/get) url reject-dict
-
-^https:\/\/interface3?\.music\.163\.com\/eapi\/(user\/sub\/artist\/exist|vipcenter\/tspopup\/get) url reject-dict
-
-^https:\/\/interface3?\.music\.163\.com\/eapi\/(v\d\/resource\/comment\/floor\/get|link\/page\/(discovery|rcmd)\/(resource\/show|block\/resource\/multi\/refresh)|user\/follow\/users\/mixed\/get) url script-response-body https://raw.githubusercontent.com/Keywos/rule/main/JS/wyresParam_nolog.js
-
-^https:\/\/interface3?\.music\.163\.com\/eapi\/batch url script-response-body https://raw.githubusercontent.com/Keywos/rule/main/JS/wyresParam_nolog.js
-
-^https:\/\/interface3?\.music\.163\.com\/eapi\/event\/floating\/layer url reject-dict
-
-^https:\/\/interface3?\.music\.163\.com\/eapi\/link\/position\/show\/resource url script-response-body https://raw.githubusercontent.com/Keywos/rule/main/JS/wyresParam_nolog.js
-
-^https:\/\/interface3?\.music\.163\.com\/eapi\/moment\/tab\/info\/get url reject-dict
-
-^https:\/\/interface3?\.music\.163\.com\/eapi\/music-vip-membership\/client\/vip\/info url script-response-body https://raw.githubusercontent.com/Keywos/rule/main/JS/wyresParam_nolog.js
-
-^https:\/\/interface3?\.music\.163\.com\/eapi\/zone\/songplay\/entry\/get url reject-dict
-
-^https:\/\/interface3?\.music\.163\.com\/w?eapi\/resource-exposure\/(activity\/config\/get|config) url reject-dict
-
-^https:\/\/interface3?\.music\.163\.com\/weapi\/(activity\/bonus\/playpage\/time\/query|middle\/clientcfg\/config\/list) url reject-dict
-
-^https?:\/\/interface3?\.music\.163.com\/e?api\/(ocpc\/)?ad\/ url reject-dict
-
-^https?:\/\/interface3?\.music\.163.com\/eapi\/search\/(chart\/|default\/keyword\/list|rcmd\/keyword\/get\/v2|specialkeyword\/get) url reject-dict
-
-^https?:\/\/interface3?\.music\.163\.com\/eapi\/(content\/activity\/music\/jar\/|content\/exposure\/vinyl\/comment\/entrance\/get|v1\/content\/exposure\/comment\/banner\/get) url reject-dict
-
-^https?:\/\/interface3?\.music\.163\.com\/eapi\/comment\/(hotcomment\/collect\/fetchmodelinfov2|feed\/inserted\/resources|tips\/v2\/get) url reject-dict
-
-^https?:\/\/interface3?\.music\.163\.com\/eapi\/resniche\/position\/play\/new\/get url reject-dict
-
-hostname = interface*.music.163.com
+hostname = interface.music.163.com, interface3.music.163.com, httpdns.n.netease.com, ipv4.music.163.com
+https?:\/\/(ipv4|interface3?)\.music\.163\.com\/e?api\/(batch|v\d\/resource\/comment\/floor\/get) url script-response-body https://raw.githubusercontent.com/Keywos/rule/main/JS/wyresParam_nolog.js
+https?:\/\/(ipv4|interface3?)\.music\.163\.com\/e?api\/(music-vip-membership\/client\/vip\/info|vipauth\/app\/auth\/recycle|vipnewcenter\/app\/resource\/newaccountpage) url script-response-body https://raw.githubusercontent.com/Keywos/rule/main/JS/wyresParam_nolog.js
+https?:\/\/(ipv4|interface3?)\.music\.163\.com\/e?api\/link\/home\/framework\/tab url script-response-body https://raw.githubusercontent.com/Keywos/rule/main/JS/wyresParam_nolog.js
+https?:\/\/(ipv4|interface3?)\.music\.163\.com\/e?api\/(homepage\/block\/page|link\/page\/rcmd\/(resource\/show|block\/resource\/multi\/refresh)) url script-response-body https://raw.githubusercontent.com/Keywos/rule/main/JS/wyresParam_nolog.js
+https?:\/\/(ipv4|interface3?)\.music\.163\.com\/e?api\/link\/page\/discovery\/resource\/show url script-response-body https://raw.githubusercontent.com/Keywos/rule/main/JS/wyresParam_nolog.js
+https?:\/\/(ipv4|interface3?)\.music\.163\.com\/e?api\/song\/play\/more\/list\/v\d url script-response-body https://raw.githubusercontent.com/Keywos/rule/main/JS/wyresParam_nolog.js
+https?:\/\/(ipv4|interface3?)\.music\.163\.com\/e?api\/link\/position\/show\/resource url script-response-body https://raw.githubusercontent.com/Keywos/rule/main/JS/wyresParam_nolog.js
+https?:\/\/(ipv4|interface3?)\.music\.163\.com\/e?api\/user\/follow\/users\/mixed\/get url script-response-body https://raw.githubusercontent.com/Keywos/rule/main/JS/wyresParam_nolog.js
+https?:\/\/httpdns.n\.netease\.com url reject
+https?:\/\/httpdns\.music\.163\.com url reject
+^https?:\/\/(ipv4|interface3?)\.music\.163.com\/e?api\/ad url echo-response text/html echo-response https://raw.githubusercontent.com/Keywos/rule/main/mocks/eapiad.json
+^https?:\/\/interface3?\.music\.163\.com\/w?e?api\/(side-bar\/mini-program\/music-service\/account|content\/activity\/music|delivery\/(batch-deliver|deliver)|moment\/tab\/info\/get|yunbei\/account\/entrance\/get) url reject-dict
+^https?:\/\/interface3?\.music\.163\.com\/eapi\/(resource\/comments?\/musiciansaid|community\/friends\/fans-group\/artist\/group\/get|user\/sub\/artist|music\/songshare\/text\/recommend\/get|mine\/applet\/redpoint|resniche\/position\/play\/new\/get) url reject-dict
+^https?:\/\/interface3?\.music\.163.com\/w?e?api\/search\/default url echo-response text/html echo-response https://raw.githubusercontent.com/Keywos/rule/main/mocks/keyword.json
+^https?:\/\/interface3?\.music\.163.com\/w?e?api\/(search\/(chart|rcmd\/keyword|specialkeyword)|resource-exposure\/|activity\/bonus\/playpage\/time\/query) url reject-dict
+^https?:\/\/interface3?\.music\.163.com\/eapi\/(mlivestream\/entrance\/playpage|link\/(position\/show\/strategy|scene\/show)|ios\/version|v\d\/content\/exposure\/comment\/banner) url reject-dict
