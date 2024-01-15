@@ -1,0 +1,105 @@
+name: 网易云音乐
+description: 网易云音乐去广告
+author: RuCu6、Keywos
+
+url_rewrites:
+  - match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/(community\/task\/complete|mlog\/vinyl\/story\/list)
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/(homepage\/banner\/ad\/get|link\/scene\/show\/resource)
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/(link\/position\/show\/strategy|link\/scene\/show\/resource|music\/songshare\/text\/recommend\/get)
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/(mine\/applet\/redpoint|sp\/flow\/popup\/query|voice\/play\/page\/ad\/info)
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/(mlivestream\/entrance\/playpage\/v7|community\/friends\/fans-group\/artist\/group)\/get
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/(side-bar\/mini-program\/music-service\/account|delivery\/(batch-)?deliver|yunbei\/account\/entrance\/get)
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/(user\/sub\/artist\/exist|vipcenter\/tspopup\/get)
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/event\/floating\/layer
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/moment\/tab\/info\/get
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/zone\/songplay\/entry\/get
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/interface3?\.music\.163\.com\/w?eapi\/resource-exposure\/(activity\/config\/get|config)
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/interface3?\.music\.163\.com\/weapi\/(activity\/bonus\/playpage\/time\/query|middle\/clientcfg\/config\/list)
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https?:\/\/interface3?\.music\.163.com\/e?api\/(ocpc\/)?ad\/
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https?:\/\/interface3?\.music\.163.com\/eapi\/search\/(chart\/|default\/keyword\/list|rcmd\/keyword\/get\/v2|specialkeyword\/get)
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https?:\/\/interface3?\.music\.163\.com\/eapi\/(content\/activity\/music\/jar\/|content\/exposure\/vinyl\/comment\/entrance\/get|v1\/content\/exposure\/comment\/banner\/get)
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https?:\/\/interface3?\.music\.163\.com\/eapi\/comment\/(hotcomment\/collect\/fetchmodelinfov2|feed\/inserted\/resources|tips\/v2\/get)
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https?:\/\/interface3?\.music\.163\.com\/eapi\/resniche\/position\/play\/new\/get
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+scriptings:
+  - http_response:
+      name: 网易云音乐
+      match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/(v\d\/resource\/comment\/floor\/get|link\/page\/(discovery|rcmd)\/(resource\/show|block\/resource\/multi\/refresh)|user\/follow\/users\/mixed\/get)
+      script_url: https://raw.githubusercontent.com/Keywos/rule/main/JS/wyresParam_nolog.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 网易云音乐
+      match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/batch
+      script_url: https://raw.githubusercontent.com/Keywos/rule/main/JS/wyresParam_nolog.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 网易云音乐
+      match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/link\/position\/show\/resource
+      script_url: https://raw.githubusercontent.com/Keywos/rule/main/JS/wyresParam_nolog.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 网易云音乐
+      match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/music-vip-membership\/client\/vip\/info
+      script_url: https://raw.githubusercontent.com/Keywos/rule/main/JS/wyresParam_nolog.js
+      timeout: 60
+      body_required: true
+
+mitm:
+  hostnames:
+    - interface*.music.163.com
