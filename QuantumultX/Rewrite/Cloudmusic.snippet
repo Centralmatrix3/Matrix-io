@@ -2,6 +2,8 @@
 #!desc = 网易云音乐去广告
 #!author = RuCu6、Keywos
 
+#!规则 = https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/update/Ruleset/AdBlock.list //QuantumultX搭配该规则使用
+
 ^https:\/\/interface3?\.music\.163\.com\/eapi\/(batch|v2\/resource\/comment\/floor\/) url script-response-body https://raw.githubusercontent.com/Keywos/rule/main/JS/wyresParam_nolog.js
 
 ^https:\/\/interface3?\.music\.163\.com\/eapi\/(homepage\/block\/page|link\/page\/rcmd\/(block\/resource\/multi\/refresh|resource\/show)) url script-response-body https://raw.githubusercontent.com/Keywos/rule/main/JS/wyresParam_nolog.js
