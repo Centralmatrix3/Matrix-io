@@ -34,6 +34,7 @@ scriptings:
       script_url: https://raw.githubusercontent.com/Keywos/rule/main/JS/wyresParam_nolog.js
       timeout: 60
       body_required: true
+      binary_body: true
 
   - http_response:
       name: 网易云音乐
@@ -41,6 +42,7 @@ scriptings:
       script_url: https://raw.githubusercontent.com/Keywos/rule/main/JS/wyresParam_nolog.js
       timeout: 60
       body_required: true
+      binary_body: true
 
   - http_response:
       name: 网易云音乐
@@ -48,6 +50,7 @@ scriptings:
       script_url: https://raw.githubusercontent.com/Keywos/rule/main/JS/wyresParam_nolog.js
       timeout: 60
       body_required: true
+      binary_body: true
 
   - http_response:
       name: 网易云音乐
@@ -55,6 +58,7 @@ scriptings:
       script_url: https://raw.githubusercontent.com/Keywos/rule/main/JS/wyresParam_nolog.js
       timeout: 60
       body_required: true
+      binary_body: true
 
   - http_response:
       name: 网易云音乐
@@ -62,6 +66,7 @@ scriptings:
       script_url: https://raw.githubusercontent.com/Keywos/rule/main/JS/wyresParam_nolog.js
       timeout: 60
       body_required: true
+      binary_body: true
 
   - http_response:
       name: 网易云音乐
@@ -69,6 +74,7 @@ scriptings:
       script_url: https://raw.githubusercontent.com/Keywos/rule/main/JS/wyresParam_nolog.js
       timeout: 60
       body_required: true
+      binary_body: true
 
   - http_response:
       name: 网易云音乐
@@ -76,6 +82,7 @@ scriptings:
       script_url: https://raw.githubusercontent.com/Keywos/rule/main/JS/wyresParam_nolog.js
       timeout: 60
       body_required: true
+      binary_body: true
 
   - http_response:
       name: 网易云音乐
@@ -83,6 +90,7 @@ scriptings:
       script_url: https://raw.githubusercontent.com/Keywos/rule/main/JS/wyresParam_nolog.js
       timeout: 60
       body_required: true
+      binary_body: true
 
 mitm:
   hostnames:
