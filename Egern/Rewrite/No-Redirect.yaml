@@ -1,0 +1,14 @@
+name: No-Redirect
+description: No-Redirect
+author: app2smile
+
+scriptings:
+  - http_response:
+      name: No-Redirect
+      match: ^https:\/\/boxer\.baidu\.com\/scheme\?scheme
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Scripts/Redirect.Js
+      timeout: 60
+
+mitm:
+  hostnames:
+    - boxer.baidu.com

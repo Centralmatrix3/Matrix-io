@@ -1,0 +1,7 @@
+# 规则名称:Tumblr
+# 规则统计:3
+
+payload:
+  - DOMAIN-SUFFIX,tumblr.com
+  - DOMAIN-SUFFIX,tumblr.co
+  - DOMAIN-SUFFIX,tmblr.co

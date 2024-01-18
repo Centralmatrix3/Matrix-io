@@ -1,0 +1,33 @@
+name: ScriptHub
+description: https://script.hub
+author: 小白脸、xream、keywos、ckyb
+
+scriptings:
+  - http_request:
+      name: ScriptHub
+      match: ^https?:\/\/script\.hub\/($|edit\/|reload)
+      script_url: https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/script-hub.js
+      timeout: 300
+
+  - http_request:
+      name: ScriptHub
+      match: ^https?:\/\/script\.hub\/file\/_start_\/.+type=(?:qx-rewrite|surge-module|loon-plugin|all-module)
+      script_url: https://github.com/Script-Hub-Org/Script-Hub/raw/main/Rewrite-Parser.js
+      timeout: 300
+
+  - http_request:
+      name: ScriptHub
+      match: ^https?:\/\/script\.hub\/file\/_start_\/.+type=rule-set
+      script_url: https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/rule-parser.js
+      timeout: 300
+
+  - http_request:
+      name: ScriptHub
+      match: ^https?:\/\/script\.hub\/convert\/
+      script_url: https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/script-converter.js
+      timeout: 300
+
+mitm:
+  hostnames:
+    - script.hub
+    - '*.script.hub'

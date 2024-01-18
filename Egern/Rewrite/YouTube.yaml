@@ -1,0 +1,28 @@
+name: YouTube
+description: YouTube去广告
+author: Maasea
+
+url_rewrites:
+  - match: ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+scriptings:
+  - http_request:
+      name: YouTube
+      match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence)
+      script_url: https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/dist/youtube.request.beta.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: YouTube
+      match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting)
+      script_url: https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/dist/youtube.response.beta.js
+      timeout: 60
+      body_required: true
+
+mitm:
+  hostnames:
+    - '*.googlevideo.com'
+    - youtubei.googleapis.com

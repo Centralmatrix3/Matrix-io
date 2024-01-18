@@ -1,0 +1,82 @@
+name: 网易云音乐
+desc: 网易云音乐去广告
+author: RuCu6、Keywos
+
+http:
+  url-rewrite:
+    - ^https:\/\/interface3?\.music\.163\.com\/eapi\/(ios\/version|mlivestream\/entrance\/playpage\/|link\/position\/show\/strategy|link\/scene\/show\/resource|v1\/content\/exposure\/comment\/banner\/) - reject-dict
+
+    - ^https:\/\/interface3?\.music\.163\.com\/eapi\/(music-vip-membership\/client\/vip\/info|vipauth\/app\/auth\/recycle) - reject-dict
+
+    - ^https?:\/\/interface3?\.music\.163\.com\/e?api\/(ocpc\/)?ad\/ - reject-dict
+
+    - ^https?:\/\/interface3?\.music\.163\.com\/eapi\/(community\/friends\/fans-group\/artist\/group\/|mine\/applet\/redpoint|music\/songshare\/text\/recommend\/|resniche\/position\/play\/new\/|resource\/comments?\/musiciansaid\/|user\/sub\/artist) - reject-dict
+
+    - ^https?:\/\/interface3?\.music\.163\.com\/eapi\/(content\/activity\/music\/|delivery\/(batch-deliver|deliver)|moment\/tab\/info\/|side-bar\/mini-program\/music-service\/account|yunbei\/account\/entrance\/) - reject-dict
+
+    - ^https?:\/\/interface3?\.music\.163\.com\/w?eapi\/(activity\/bonus\/playpage\/time\/query|resource-exposure\/|search\/(chart\/|default\/|rcmd\/keyword\/|specialkeyword\/)) - reject-dict
+
+  script:
+    - match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/(batch|v2\/resource\/comment\/floor\/)
+      name: 网易云音乐
+      type: response
+      require-body: true
+      binary-mode: true
+      timeout: 60
+
+    - match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/(homepage\/block\/page|link\/page\/rcmd\/(block\/resource\/multi\/refresh|resource\/show))
+      name: 网易云音乐
+      type: response
+      require-body: true
+      binary-mode: true
+      timeout: 60
+
+    - match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/(music-vip-membership\/client\/vip\/info|vipauth\/app\/auth\/recycle)
+      name: 网易云音乐
+      type: response
+      require-body: true
+      binary-mode: true
+      timeout: 60
+
+    - match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/link\/home\/framework\/tab
+      name: 网易云音乐
+      type: response
+      require-body: true
+      binary-mode: true
+      timeout: 60
+
+    - match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/link\/page\/discovery\/resource\/show
+      name: 网易云音乐
+      type: response
+      require-body: true
+      binary-mode: true
+      timeout: 60
+
+    - match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/link\/position\/show\/resource
+      name: 网易云音乐
+      type: response
+      require-body: true
+      binary-mode: true
+      timeout: 60
+
+    - match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/song\/play\/more\/list\/
+      name: 网易云音乐
+      type: response
+      require-body: true
+      binary-mode: true
+      timeout: 60
+
+    - match: ^https:\/\/interface3?\.music\.163\.com\/eapi\/user\/follow\/users\/mixed\/
+      name: 网易云音乐
+      type: response
+      require-body: true
+      binary-mode: true
+      timeout: 60
+
+  mitm:
+    - "interface*.music.163.com"
+
+script-providers:
+  网易云音乐:
+    url: https://raw.githubusercontent.com/Keywos/rule/main/JS/wyresParam_nolog.js
+    interval: 86400

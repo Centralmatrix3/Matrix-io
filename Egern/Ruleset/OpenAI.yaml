@@ -1,0 +1,23 @@
+# 规则名称:OpenAI
+# 规则统计:18
+
+domain_suffix_set:
+  - api.statsig.com
+  - auth0.com
+  - challenges.cloudflare.com
+  - chatgpt.livekit.cloud
+  - client-api.arkoselabs.com
+  - events.statsigapi.net
+  - featuregates.org
+  - identrust.com
+  - intercom.io
+  - intercomcdn.com
+  - oaistatic.com
+  - oaiusercontent.com
+  - openai.com
+  - openaiapi-site.azureedge.net
+  - sentry.io
+  - stripe.com
+  - turn.livekit.cloud
+domain_keyword_set:
+  - openai
