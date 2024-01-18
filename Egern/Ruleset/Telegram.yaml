@@ -1,7 +1,8 @@
 # 规则名称:Telegram
-# 规则统计:31
+# 规则统计:32
 
 domain_set:
+  - api.imem.app
   - api.swiftgram.app
 domain_suffix_set:
   - comments.app

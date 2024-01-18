@@ -1,7 +1,8 @@
 # 规则名称:Telegram
-# 规则统计:31
+# 规则统计:32
 
 payload:
+  - DOMAIN,api.imem.app
   - DOMAIN,api.swiftgram.app
   - DOMAIN-SUFFIX,comments.app
   - DOMAIN-SUFFIX,contest.com
