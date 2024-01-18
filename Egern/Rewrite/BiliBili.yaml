@@ -42,6 +42,7 @@ scriptings:
       script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/protoA.js
       timeout: 60
       body_required: true
+      binary_body: true
 
   - http_response:
       name: 哔哩哔哩
@@ -49,6 +50,7 @@ scriptings:
       script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/protoA.js
       timeout: 60
       body_required: true
+      binary_body: true
 
   - http_response:
       name: 哔哩哔哩
@@ -56,6 +58,7 @@ scriptings:
       script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/protoA.js
       timeout: 60
       body_required: true
+      binary_body: true
 
   - http_response:
       name: 哔哩哔哩
@@ -63,6 +66,7 @@ scriptings:
       script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/protoA.js
       timeout: 60
       body_required: true
+      binary_body: true
 
   - http_response:
       name: 哔哩哔哩
@@ -70,6 +74,7 @@ scriptings:
       script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/protoA.js
       timeout: 60
       body_required: true
+      binary_body: true
 
   - http_response:
       name: 哔哩哔哩
@@ -77,6 +82,7 @@ scriptings:
       script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/protoA.js
       timeout: 60
       body_required: true
+      binary_body: true
 
   - http_response:
       name: 哔哩哔哩
