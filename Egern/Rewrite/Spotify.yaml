@@ -15,6 +15,7 @@ scriptings:
       script_url: https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
       timeout: 30
       body_required: true
+      binary_body: true
 
 mitm:
   hostnames:
