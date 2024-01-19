@@ -62,6 +62,7 @@ http:
     - ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/show\.do - reject
     - ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v2\/show - reject
     - ^https?:\/\/activity2\.api\.ofo\.com\/ofo\/Api\/v2\/ads - reject
+    - ^https?:\/\/ad\.lofter\.com\/.*yitou\/madr - reject
     - ^https?:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/adv-filter\/AdInfoFilter\/getAdInfos$ - reject
     - ^https?:\/\/adapi\.izuiyou\.com\/ - reject
     - ^https?:\/\/adm\.10jqka\.com\.cn\/interface\/ad\/recommend - reject
@@ -565,6 +566,7 @@ http:
     - "acs.m.taobao.com"
     - "act.vip.iqiyi.com"
     - "activity2.api.ofo.com"
+    - "ad.lofter.com"
     - "ad.mcloud.139.com"
     - "adapi.izuiyou.com"
     - "adm.10jqka.com.cn"
