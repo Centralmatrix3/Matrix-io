@@ -87,6 +87,9 @@ url_rewrites:
   - match: ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v2\/show
     location: http://reject/
     status_code: 307
+  - match: ^https?:\/\/ad\.lofter\.com\/.*yitou\/madr
+    location: http://reject/
+    status_code: 307
   - match: ^https?:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/adv-filter\/AdInfoFilter\/getAdInfos$
     location: http://reject/
     status_code: 307
@@ -1657,6 +1660,7 @@ mitm:
     - acs.m.taobao.com
     - act.vip.iqiyi.com
     - activity2.api.ofo.com
+    - ad.lofter.com
     - ad.mcloud.139.com
     - adapi.izuiyou.com
     - adm.10jqka.com.cn
