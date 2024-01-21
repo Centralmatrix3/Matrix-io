@@ -1,5 +1,5 @@
 name: AdBlock
-desc: AdBlock
+desc: AdBlock去广告
 author: blackmatrix7
 
 http:
@@ -289,6 +289,7 @@ http:
     - ^https?:\/\/god\.gameyw\.netease\.com\/v\d\/ad\/serving\/app-start - reject
     - ^https?:\/\/gongdu\.youshu\.cc\/m\/open_screen\/list_by_udid - reject
     - ^https?:\/\/guanyu\.longfor\.com\/app-server\/api\/v1\/main\/start - reject
+    - ^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.wireless\.home\.splash\.awesome\.get\/ - reject
     - ^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/car-rest\/webservice\/passenger\/recommendADs - reject
     - ^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/zhuanche-passenger-token\/leachtoken\/webservice\/homepage\/queryADs - reject
     - ^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/zhuanche-passengerController\/notk\/passenger\/recommendADs - reject
@@ -777,6 +778,7 @@ http:
     - "god.gameyw.netease.com"
     - "gongdu.youshu.cc"
     - "guanyu.longfor.com"
+    - "guide-acs.m.taobao.com"
     - "gw-passenger.01zhuanche.com"
     - "gw.aihuishou.com"
     - "gw.alicdn.com"
