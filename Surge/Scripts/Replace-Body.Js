@@ -18,7 +18,7 @@ argument=要匹配值=作为替换的值
 支持正则修饰符:如argument=/\w+/g->test
 支持多参数:argument=匹配值1->替换值1&匹配值2->替换值2
 
-支持改写响应体和请求体体(type=http-response或http-request)必须打开需要body(requires-body=1)
+支持改写响应体和请求体体(type=http-response或http-request)打开需要body(requires-body=1)
 
 修改json格式的键值:
 argument=("key")\s?:\s?"(.+?)"->$1: "new_value"
