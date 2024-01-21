@@ -57,7 +57,7 @@
 
 知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/questions\/\d+(\/answers|\/feeds|\?include=),script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js,requires-body=true,timeout=60
 
-知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/search\/recommend_query\/v2\?,script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-body.js,requires-body=true,timeout=60, argument="recommend_queries":\{.+\}->"recommend_queries":{}
+知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/search\/recommend_query\/v2\?,script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-body.js,requires-body=true,timeout=60,argument="recommend_queries":\{.+\}->"recommend_queries":{}
 
 知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/v2\/topstory\/hot-lists\/everyone-seeing\?,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js,requires-body=true,timeout=60
 
