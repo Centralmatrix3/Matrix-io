@@ -1,10 +1,10 @@
 name: TikTok
-description: TikTok解锁澳门地区
+description: TikTok解锁乌克兰地区
 author: Semporia
 
 url_rewrites:
   - match: (?<=_region=)CN(?=&)
-    location: MO
+    location: UA
     status_code: 307
 
   - match: (?<=&mcc_mnc=)4
