@@ -1,6 +1,6 @@
-#!name=微博国际版
-#!desc=微博国际版去广告
-#!author=Keywos、kokoryh
+#!name = 微博国际版
+#!desc = 微博国际版去广告
+#!author = Keywos、kokoryh
 
 [Map Local]
 ^https?:\/\/api\.weibo\.cn\/\d\/(cardlist\?v_f=\d|ad\/weibointl\?) data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-dict.json"
