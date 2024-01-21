@@ -1,5 +1,5 @@
 name: AdBlock
-description: AdBlock
+description: AdBlock去广告
 author: blackmatrix7
 
 url_rewrites:
@@ -472,6 +472,9 @@ url_rewrites:
     location: http://reject/
     status_code: 307
   - match: ^https?:\/\/guanyu\.longfor\.com\/app-server\/api\/v1\/main\/start
+    location: http://reject/
+    status_code: 307
+  - match: ^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.wireless\.home\.splash\.awesome\.get\/
     location: http://reject/
     status_code: 307
   - match: ^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/zhuanche-passengerController\/notk\/passenger\/recommendADs
@@ -1871,6 +1874,7 @@ mitm:
     - god.gameyw.netease.com
     - gongdu.youshu.cc
     - guanyu.longfor.com
+    - guide-acs.m.taobao.com
     - gw-passenger.01zhuanche.com
     - gw.aihuishou.com
     - gw.alicdn.com
