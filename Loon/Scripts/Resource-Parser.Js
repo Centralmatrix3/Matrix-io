@@ -3,7 +3,7 @@
  * @author = Peng-YM
  * @update = 2024.01.20 22:00
 ----------------------------------------------------------
-[general]
+[General]
 resource-parser = https://github.com/Centralmatrix3/Matrix-io/raw/master/Loon/Scripts/Resource-Parser.Js
 ----------------------------------------------------------
 */
