@@ -10,7 +10,7 @@
 
 可改写为 Surge:
 [Script]
-测试 = type=http-response,pattern=https://service.ilovepdf.com/v1/user,script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Surge/Scripts/Replace-Body.Js,argument=false->true
+测试 = type=http-request,pattern=^https?:\/\/httpbin\.org,script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/1/Surge/Scripts/Replace-Header.Js,argument=(\r\n)User-Agent:.+(\r\n)->$1User-Agent:Chrome/71.0.3578.98 Safari/537.36$2
 
 argument=要匹配值=作为替换的值
 支持正则:如argument=\w+->test
