@@ -1,0 +1,165 @@
+name: 知乎
+description: 知乎去广告
+author: RuCu6、app2smile
+
+url_rewrites:
+  - match: ^https:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https:\/\/api\.zhihu\.com\/unlimited\/go\/my_card
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https:\/\/link\.zhihu\.com\/\?target=(https?)?(%3A|:)?(\/\/|%2F%2F)?(.*?)(&source.*)?$
+    location: http://$4
+    status_code: 302
+
+  - match: ^https:\/\/www\.zhihu\.com\/api\/v4/(answers|questions)\/\d+/related-readings
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https:\/\/www\.zhihu\.com\/api\/v4\/mcn\/v2\/linkcards\?
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https:\/\/api\.zhihu\.com\/(moments\/lastread|drama\/hot-drama-list)
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/api\.zhihu\.com\/ad-style-service\/request
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/api\.zhihu\.com\/comment_v5\/(articles|answers)\/\d+\/list-headers
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/api\.zhihu\.com\/commercial_api\/(banners_v3\/app_topstory_banner|launch_v2|real_time_launch_v2)
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/api\.zhihu\.com\/content-distribution-core\/bubble\/common\/settings
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/api\.zhihu\.com\/distribute\/rhea\/qa_ad_card\/h5\/recommendation\?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/api\.zhihu\.com\/me\/guides
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/api\.zhihu\.com\/prague\/related_suggestion_native\/feed\?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/api\.zhihu\.com\/root\/window
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/api\.zhihu\.com\/search\/preset_words
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/api\.zhihu\.com\/v5\.1\/topics\/answer\/\d+\/relation
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/appcloud2\.zhihu\.com\/v3\/resource\?group_name=mp
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/www\.zhihu\.com\/api\/v4\/search\/related_queries\/(article|answer)\/\d+
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+scriptings:
+  - http_response:
+      name: 知乎
+      match: ^https:\/\/api\.zhihu\.com\/(moments_v3|topstory\/hot-lists\/total|topstory\/recommend)
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 知乎
+      match: ^https:\/\/api\.zhihu\.com\/commercial_api\/app_float_layer
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 知乎
+      match: ^https:\/\/api\.zhihu\.com\/feed\/render\/tab\/config\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 知乎
+      match: ^https:\/\/api\.zhihu\.com\/next-(bff|data|render)\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 知乎
+      match: ^https:\/\/api\.zhihu\.com\/questions\/\d+(\/answers|\/feeds|\?include=)
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 知乎
+      match: ^https:\/\/api\.zhihu\.com\/search\/recommend_query\/v2\?
+      script_url: https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-body.js
+      arguments:
+        _compat.$argument: '"recommend_queries":\{.+\}->"recommend_queries":{}'
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 知乎
+      match: ^https:\/\/api\.zhihu\.com\/v2\/topstory\/hot-lists\/everyone-seeing\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 知乎
+      match: ^https:\/\/appcloud2\.zhihu\.com\/v3\/config
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 知乎
+      match: ^https:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 知乎
+      match: ^https:\/\/www\.zhihu\.com\/api\/v4\/(articles|answers)\/\d+\/recommendations?\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js
+      timeout: 60
+      body_required: true
+
+mitm:
+  hostnames:
+    - '*.zhihu.com'
