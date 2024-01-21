@@ -3,7 +3,7 @@
  * @desc = Replace-Body
  * @author = mieqq
 ----------------------------------------
-实现QuantumultX的(request-body) 重写类型
+实现QuantumultX的(request-body)重写类型
 实现QuantumultX的(response-body)重写类型
 
 如QuantumultX:
