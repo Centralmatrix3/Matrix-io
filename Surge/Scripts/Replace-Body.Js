@@ -10,7 +10,7 @@ https://service.ilovepdf.com/v1/user url response-body false response-body true
    
 可改写为 Surge:
 [Script] 
-test = type=http-response,pattern=https://service.ilovepdf.com/v1/user,requires-body=1,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/replace-body.js, argument=false->true
+test = type=http-response,pattern=https://service.ilovepdf.com/v1/user,requires-body=1,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/replace-body.js,argument=false->true
 
 argument=要匹配值=作为替换的值
 支持正则:如argument=\w+->test
