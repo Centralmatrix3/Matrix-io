@@ -1,7 +1,7 @@
 /*
  * @name = Replace-Body
  * @desc = Replace-Body
- * @author = mieqq
+ * @author = xream
 ----------------------------------------
 实现QuantumultX的(request-header)重写类型
 
@@ -12,17 +12,13 @@
 [Script]
 测试 = type=http-request,pattern=^https?:\/\/httpbin\.org,script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/1/Surge/Scripts/Replace-Header.Js,argument=(\r\n)User-Agent:.+(\r\n)->$1User-Agent:Chrome/71.0.3578.98 Safari/537.36$2
 
+[MITM]
+hostname = httpbin.org
+
 argument=要匹配值=作为替换的值
-支持正则:如argument=\w+->test
-支持正则修饰符:如argument=/\w+/g->test
-支持多参数:argument=匹配值1->替换值1&匹配值2->替换值2
-
-支持改写响应体和请求体体(type=http-response或http-request)必须打开需要body(requires-body=1)
-
-修改json格式的键值:
-argument=("key")\s?:\s?"(.+?)"->$1: "new_value"
-
-s修饰符可以让.匹配换行符如:argument=/.+/s->hello
+支持正则：如argument=\w+->test
+支持正则修饰符：如argument=/\w+/g->test
+支持多参数，如：argument=匹配值1->替换值1&匹配值2->替换值2
 ----------------------------------------
 */
 
