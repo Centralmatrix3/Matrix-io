@@ -1,6 +1,6 @@
 /*
- * @name = Replace-Body
- * @desc = Replace-Body
+ * @name = Replace-Header
+ * @desc = Replace-Header
  * @author = xream
 ----------------------------------------
 实现QuantumultX的(request-header)重写类型
