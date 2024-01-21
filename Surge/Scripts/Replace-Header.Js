@@ -3,7 +3,7 @@
  * @desc = Replace-Body
  * @author = mieqq
 ----------------------------------------
-该用于实现QuantumultX的(response-body)和(request-body)重写类型
+实现QuantumultX的(request-header)重写类型
 
 如QuantumultX:
 https://service.ilovepdf.com/v1/user url response-body false response-body true
