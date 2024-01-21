@@ -1,0 +1,39 @@
+name: 微博国际版
+description: 微博国际版去广告
+author: Keywos、kokoryh
+
+url_rewrites:
+  - match: ^https?:\/\/api\.weibo\.cn\/\d\/(cardlist\?v_f=\d|ad\/weibointl\?)
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=hot_search_users
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+scriptings:
+  - http_response:
+      name: 微博国际版
+      match: ^https?:\/\/api\.weibo\.cn\/\d\/statuses\/.*timeline
+      script_url: https://raw.githubusercontent.com/Keywos/rule/main/JS/weibous.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 微博国际版
+      match: ^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php
+      script_url: https://raw.githubusercontent.com/Keywos/rule/main/JS/weibous.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 微博国际版
+      match: ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?(ct=(feed&a=trends|user&a=get_searching_info)|a=(get_coopen_ads|user_center|search_topic|open_app&auth|icon_center))
+      script_url: https://raw.githubusercontent.com/Keywos/rule/main/JS/weibous.js
+      timeout: 60
+      body_required: true
+
+mitm:
+  hostnames:
+    - '*api.weibo.cn'
+    - sdkapp.uve.weibo.com
