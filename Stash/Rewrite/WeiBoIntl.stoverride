@@ -1,0 +1,33 @@
+name: 微博国际版
+desc: 微博国际版去广告
+author: Keywos、kokoryh
+
+http:
+  url-rewrite:
+    - ^https?:\/\/api\.weibo\.cn\/\d\/(cardlist\?v_f=\d|ad\/weibointl\?) - reject-dict
+
+    - ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=hot_search_users - reject-dict
+
+  script:
+    - match: ^https?:\/\/api\.weibo\.cn\/\d\/statuses\/.*timeline
+      name: 微博国际版
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php
+      name: 微博国际版
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?(ct=(feed&a=trends|user&a=get_searching_info)|a=(get_coopen_ads|user_center|search_topic|open_app&auth|icon_center))
+      name: 微博国际版
+      type: response
+      require-body: true
+      timeout: 60
+
+script-providers:
+  微博国际版:
+    url: https://raw.githubusercontent.com/Keywos/rule/main/JS/weibous.js
+    interval: 86400
