@@ -1,6 +1,6 @@
 /*
- * @name = Replace-Body
- * @desc = Replace-Body
+ * @name = replace-body
+ * @desc = replace-body
  * @author = mieqq
 ----------------------------------------
 实现QuantumultX的(request-body)重写类型
@@ -14,7 +14,7 @@ scriptings:
   - http_response:
       name: 测试
       match: https:\/\/service\.ilovepdf\.com\/v1\/user
-      script_url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Scripts/Replace-Body.Js
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Scripts/replace-body.Js
       timeout: 60
       body_required: true
       arguments:
@@ -29,7 +29,7 @@ argument=要匹配值=作为替换的值
 支持正则修饰符:如argument=/\w+/g->test
 支持多参数:argument=匹配值1->替换值1&匹配值2->替换值2
 
-支持改写响应体和请求体体(type=http-response或http-request)打开需要body(requires-body=1)
+支持改写响应体和请求体体(type=http-response或http-request)打开需要body(body_required:true)
 
 修改json格式的键值:
 argument=("key")\s?:\s?"(.+?)"->$1: "new_value"
