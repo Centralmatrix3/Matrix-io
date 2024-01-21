@@ -2,7 +2,7 @@
 #!desc = 微博国际版去广告
 #!author = Keywos、kokoryh
 
-^https?:\/\/api\.weibo\.cn\/\d\/(cardlist\?v_f=\d|ad\/weibointl\?) url echo-response text/html echo-response https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-dict.json
+^https?:\/\/api\.weibo\.cn\/\d\/(cardlist\?v_f=\d|ad\/weibointl\?) url reject-dict
 
 ^https?:\/\/api\.weibo\.cn\/\d\/statuses\/.*timeline url script-response-body https://raw.githubusercontent.com/Keywos/rule/main/JS/weibous.js
 
@@ -10,6 +10,6 @@
 
 ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?(ct=(feed&a=trends|user&a=get_searching_info)|a=(get_coopen_ads|user_center|search_topic|open_app&auth|icon_center)) url script-response-body https://raw.githubusercontent.com/Keywos/rule/main/JS/weibous.js
 
-^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=hot_search_users url echo-response text/html echo-response https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-dict.json
+^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=hot_search_users url reject-dict
 
 hostname = *api.weibo.cn, sdkapp.uve.weibo.com
