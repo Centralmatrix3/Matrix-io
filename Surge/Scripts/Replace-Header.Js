@@ -6,7 +6,7 @@
 实现QuantumultX的(request-header)重写类型
 
 如QuantumultX:
-https://service.ilovepdf.com/v1/user url response-body false response-body true
+^https?:\/\/request-header\.com url request-header (\r\n)User-Agent:.+(\r\n) request-header $1User-Agent: Chrome/71.0.3578.98 Safari/537.36$2
 
 可改写为 Surge:
 [Script]
