@@ -11,7 +11,7 @@ https:\/\/service\.ilovepdf\.com\/v1\/user url response-body false response-body
 
 可改写为 Shadowrocket:
 [Script]
-测试 = type=http-response,pattern=https:\/\/service\.ilovepdf\.com\/v1\/user,script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Shadowrocket/Scripts/Replace-Body.Js,argument=false->true
+测试 = type=http-response,pattern=https:\/\/service\.ilovepdf\.com\/v1\/user,script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Shadowrocket/Scripts/Replace-Body.Js,requires-body=true,timeout=60,argument=false->true
 
 [MITM]
 hostname = %APPEND% service.ilovepdf.com
