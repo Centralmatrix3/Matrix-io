@@ -21,6 +21,6 @@ url_rewrites:
 
 mitm:
   hostnames:
-   - '*.tiktokv.com'
-   - '*.byteoversea.com'
-   - '*.tik-tokapi.com'
+    - '*.tiktokv.com'
+    - '*.byteoversea.com'
+    - '*.tik-tokapi.com'
