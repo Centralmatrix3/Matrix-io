@@ -15,6 +15,8 @@ scriptings:
       name: 测试
       match: https:\/\/service\.ilovepdf\.com\/v1\/user
       script_url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Scripts/Replace-Body.Js
+      timeout: 60
+      body_required: true
       arguments:
         _compat.$argument: false->true
 
