@@ -11,7 +11,7 @@ https:\/\/service\.ilovepdf\.com\/v1\/user url response-body false response-body
 
 可改写为 Loon:
 [Script]
-http-response https:\/\/service\.ilovepdf\.com\/v1\/user script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Loon/Scripts/Replace-Body.Js, tag=测试, argument=false->true
+http-response https:\/\/service\.ilovepdf\.com\/v1\/user script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-body.js, requires-body=true, timeout=30, tag=测试, argument=false->true
 
 [MITM]
 hostname = service.ilovepdf.com
