@@ -8,12 +8,18 @@
 如QuantumultX:
 ^https?:\/\/request-header\.com url request-header (\r\n)User-Agent:.+(\r\n) request-header $1User-Agent: Chrome/71.0.3578.98 Safari/537.36$2
 
-可改写为 Surge:
-[Script]
-测试 = type=http-request,pattern=^https?:\/\/httpbin\.org,script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/1/Surge/Scripts/Replace-Header.Js,argument=(\r\n)User-Agent:.+(\r\n)->$1User-Agent:Chrome/71.0.3578.98 Safari/537.36$2
+可改写为 Egern:
+scriptings:
+  - http_request:
+      name: 测试
+      match: ^https?:\/\/httpbin\.org
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/1/Surge/Scripts/Replace-Header.Js
+      arguments:
+        _compat.$argument: (\r\n)User-Agent:.+(\r\n)->$1User-Agent:Chrome/71.0.3578.98 Safari/537.36$2
 
-[MITM]
-hostname = httpbin.org
+mitm:
+  hostnames:
+    - httpbin.org
 
 argument=要匹配值=作为替换的值
 支持正则：如argument=\w+->test
