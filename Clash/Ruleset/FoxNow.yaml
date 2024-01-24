@@ -1,0 +1,7 @@
+# 规则名称:FoxNow
+# 规则统计:3
+
+payload:
+  - DOMAIN-SUFFIX,fox.com
+  - DOMAIN-SUFFIX,foxdcg.com
+  - DOMAIN-SUFFIX,uplynk.com

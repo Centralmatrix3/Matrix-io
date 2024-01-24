@@ -1,0 +1,25 @@
+# 规则名称:StreamingUK 英国媒体
+# 规则统计:22
+
+HOST,aod-dash-uk-live.akamaized.net,StreamingUK
+HOST,aod-hls-uk-live.akamaized.net,StreamingUK
+HOST,d349g9zuie06uo.cloudfront.net,StreamingUK
+HOST,itvpnpmobile-a.akamaihd.net,StreamingUK
+HOST,vod-dash-uk-live.akamaized.net,StreamingUK
+HOST,vod-thumb-uk-live.akamaized.net,StreamingUK
+HOST-SUFFIX,bbc.co,StreamingUK
+HOST-SUFFIX,bbc.co.uk,StreamingUK
+HOST-SUFFIX,bbc.com,StreamingUK
+HOST-SUFFIX,bbc.net.uk,StreamingUK
+HOST-SUFFIX,bbcfmt.hs.llnwd.net,StreamingUK
+HOST-SUFFIX,bbci.co,StreamingUK
+HOST-SUFFIX,bbci.co.uk,StreamingUK
+HOST-SUFFIX,bidi.net.uk,StreamingUK
+HOST-SUFFIX,c4assets.com,StreamingUK
+HOST-SUFFIX,channel4.com,StreamingUK
+HOST-SUFFIX,channel5.com,StreamingUK
+HOST-SUFFIX,itv.com,StreamingUK
+HOST-SUFFIX,itvstatic.com,StreamingUK
+HOST-SUFFIX,my5.tv,StreamingUK
+HOST-KEYWORD,bbcfmt,StreamingUK
+HOST-KEYWORD,uk-live,StreamingUK

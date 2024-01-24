@@ -1,0 +1,9 @@
+#!name = No-Redirect
+#!desc = No-Redirect
+#!author = app2smile
+
+[Script]
+http-response ^https:\/\/boxer\.baidu\.com\/scheme\?scheme script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Loon/Scripts/Redirect.Js, timeout=60, tag=No-Redirect
+
+[MITM]
+hostname = boxer.baidu.com

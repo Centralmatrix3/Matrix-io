@@ -1,0 +1,18 @@
+#!name = 微博国际版
+#!desc = 微博国际版去广告
+#!author = Keywos、kokoryh
+
+[Script]
+微博国际版 = type=http-response,pattern=^https?:\/\/api\.weibo\.cn\/\d\/statuses\/.*timeline,script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/weibous.js,requires-body=true,timeout=60
+
+微博国际版 = type=http-response,pattern=^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php,script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/weibous.js,requires-body=true,timeout=60
+
+微博国际版 = type=http-response,pattern=^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?(ct=(feed&a=trends|user&a=get_searching_info)|a=(get_coopen_ads|user_center|search_topic|open_app&auth|icon_center)),script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/weibous.js,requires-body=true,timeout=60
+
+[Map Local]
+^https?:\/\/api\.weibo\.cn\/\d\/(cardlist\?v_f=\d|ad\/weibointl\?) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=hot_search_users data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+[MITM]
+hostname = %APPEND% *api.weibo.cn, sdkapp.uve.weibo.com
