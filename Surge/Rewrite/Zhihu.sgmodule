@@ -19,6 +19,27 @@
 
 ^https:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation - reject
 
+[Script]
+知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/(moments_v3|topstory\/hot-lists\/total|topstory\/recommend),script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js,requires-body=true,timeout=60
+
+知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/commercial_api\/app_float_layer,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js,requires-body=true,timeout=60
+
+知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/feed\/render\/tab\/config\?,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js,requires-body=true,timeout=60
+
+知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/next-(bff|data|render)\?,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js,requires-body=true,timeout=60
+
+知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/questions\/\d+(\/answers|\/feeds|\?include=),script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js,requires-body=true,timeout=60
+
+知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/search\/recommend_query\/v2\?,script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-body.js,requires-body=true,timeout=60,argument="recommend_queries":\{.+\}->"recommend_queries":{}
+
+知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/v2\/topstory\/hot-lists\/everyone-seeing\?,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js,requires-body=true,timeout=60
+
+知乎 = type=http-response,pattern=^https:\/\/appcloud2\.zhihu\.com\/v3\/config,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js,requires-body=true,timeout=60
+
+知乎 = type=http-response,pattern=^https:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\?,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js,requires-body=true,timeout=60
+
+知乎 = type=http-response,pattern=^https:\/\/www\.zhihu\.com\/api\/v4\/(articles|answers)\/\d+\/recommendations?\?,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js,requires-body=true,timeout=60
+
 [Map Local]
 ^https:\/\/api\.zhihu\.com\/(moments\/lastread|drama\/hot-drama-list) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
@@ -45,27 +66,6 @@
 ^https:\/\/appcloud2\.zhihu\.com\/v3\/resource\?group_name=mp data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
 ^https:\/\/www\.zhihu\.com\/api\/v4\/search\/related_queries\/(article|answer)\/\d+ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-
-[Script]
-知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/(moments_v3|topstory\/hot-lists\/total|topstory\/recommend),script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js,requires-body=true,timeout=60
-
-知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/commercial_api\/app_float_layer,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js,requires-body=true,timeout=60
-
-知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/feed\/render\/tab\/config\?,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js,requires-body=true,timeout=60
-
-知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/next-(bff|data|render)\?,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js,requires-body=true,timeout=60
-
-知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/questions\/\d+(\/answers|\/feeds|\?include=),script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js,requires-body=true,timeout=60
-
-知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/search\/recommend_query\/v2\?,script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-body.js,requires-body=true,timeout=60,argument="recommend_queries":\{.+\}->"recommend_queries":{}
-
-知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/v2\/topstory\/hot-lists\/everyone-seeing\?,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js,requires-body=true,timeout=60
-
-知乎 = type=http-response,pattern=^https:\/\/appcloud2\.zhihu\.com\/v3\/config,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js,requires-body=true,timeout=60
-
-知乎 = type=http-response,pattern=^https:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\?,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js,requires-body=true,timeout=60
-
-知乎 = type=http-response,pattern=^https:\/\/www\.zhihu\.com\/api\/v4\/(articles|answers)\/\d+\/recommendations?\?,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js,requires-body=true,timeout=60
 
 [MITM]
 hostname = %APPEND% *.zhihu.com
