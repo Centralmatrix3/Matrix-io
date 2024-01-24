@@ -47,7 +47,7 @@ url_rewrites:
     location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
     status_code: 307
 
-  - match: ^https:\/\/api\.zhihu\.com\/commercial_api\/(banners_v3\/app_topstory_banner|launch_v2|real_time_launch_v2)
+  - match: ^https:\/\/api\.zhihu\.com\/commercial_api\/(answer\/\d+\/bottom-v2|banners_v3\/app_topstory_banner|launch_v2|real_time_launch_v2)
     location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
     status_code: 307
 
