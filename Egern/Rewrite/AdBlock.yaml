@@ -1041,6 +1041,9 @@ url_rewrites:
   - match: ^https?:\/\/api\.kkmh\.com\/v\d+\/(ad|advertisement)\/
     location: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt
     status_code: 307
+  - match: ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=home_launchConfig
+    location: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt
+    status_code: 307
   - match: ^https?:\/\/api\.meipian\.me.+?advert
     location: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt
     status_code: 307
@@ -1721,6 +1724,7 @@ mitm:
     - api.kkmh.com
     - api.kmovie.gifshow.com
     - api.laifeng.com
+    - api.m.jd.com
     - api.m.mi.com
     - api.meipian.me
     - api.mgzf.com

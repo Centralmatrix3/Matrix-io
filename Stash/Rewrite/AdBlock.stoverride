@@ -124,6 +124,7 @@ http:
     - ^https?:\/\/api\.kkmh\.com\/v\d+\/(ad|advertisement)\/ - reject
     - ^https?:\/\/api\.kmovie\.gifshow\.com\/rest\/n\/kmovie\/app\/(resource|banner) - reject
     - ^https?:\/\/api\.laifeng\.com\/v\d\/start\/ads - reject
+    - ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=home_launchConfig - reject
     - ^https?:\/\/api\.m\.mi\.com\/v\d\/app\/start - reject
     - ^https?:\/\/api\.meipian\.me.+?advert - reject
     - ^https?:\/\/api\.mgzf\.com\/renter-operation\/home\/startHomePage - reject
@@ -625,6 +626,7 @@ http:
     - "api.kkmh.com"
     - "api.kmovie.gifshow.com"
     - "api.laifeng.com"
+    - "api.m.jd.com"
     - "api.m.mi.com"
     - "api.meipian.me"
     - "api.mgzf.com"
