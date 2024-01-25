@@ -1,5 +1,5 @@
 # 规则名称:GlobalMax
-# 规则统计:19625
+# 规则统计:19633
 
 payload:
   - DOMAIN,a.ppy.sh
@@ -512,6 +512,7 @@ payload:
   - DOMAIN-SUFFIX,9xav.cc
   - DOMAIN-SUFFIX,9xlove.xyz
   - DOMAIN-SUFFIX,9zipai.net
+  - DOMAIN-SUFFIX,a-msedge.net
   - DOMAIN-SUFFIX,a-teenz.com
   - DOMAIN-SUFFIX,a0pple.net
   - DOMAIN-SUFFIX,a1av.xyz
@@ -2128,6 +2129,7 @@ payload:
   - DOMAIN-SUFFIX,binancezh.net
   - DOMAIN-SUFFIX,binancezh.pro
   - DOMAIN-SUFFIX,binancezh.top
+  - DOMAIN-SUFFIX,bing123.com
   - DOMAIN-SUFFIX,bingads.com
   - DOMAIN-SUFFIX,bingagencyawards.com
   - DOMAIN-SUFFIX,bingapis.com
@@ -3051,6 +3053,7 @@ payload:
   - DOMAIN-SUFFIX,clipsbai.com
   - DOMAIN-SUFFIX,clipseksi.com
   - DOMAIN-SUFFIX,clitgames.com
+  - DOMAIN-SUFFIX,clock.isc.org
   - DOMAIN-SUFFIX,clojure.org
   - DOMAIN-SUFFIX,cloudapp.net
   - DOMAIN-SUFFIX,cloudappsecurity.com
@@ -4153,7 +4156,6 @@ payload:
   - DOMAIN-SUFFIX,ed21.cc
   - DOMAIN-SUFFIX,edditstatic.com
   - DOMAIN-SUFFIX,edengay.net
-  - DOMAIN-SUFFIX,edge-skype-com.s-0001.s-msedge.net
   - DOMAIN-SUFFIX,edgedatg.com
   - DOMAIN-SUFFIX,edgefonts.net
   - DOMAIN-SUFFIX,edgemeplease.com
@@ -8075,6 +8077,7 @@ payload:
   - DOMAIN-SUFFIX,mihomeone.info
   - DOMAIN-SUFFIX,miitomo.com
   - DOMAIN-SUFFIX,miiverse.com
+  - DOMAIN-SUFFIX,mikanani.me
   - DOMAIN-SUFFIX,mikrotik.com
   - DOMAIN-SUFFIX,miktex.org
   - DOMAIN-SUFFIX,mikuexpo.com
@@ -9036,6 +9039,7 @@ payload:
   - DOMAIN-SUFFIX,ntdtv-dc.com
   - DOMAIN-SUFFIX,ntdtv.com
   - DOMAIN-SUFFIX,ntdvn.com
+  - DOMAIN-SUFFIX,ntp.ripe.net
   - DOMAIN-SUFFIX,ntten-mg.buzz
   - DOMAIN-SUFFIX,nu-bay.com
   - DOMAIN-SUFFIX,nu36.vip
@@ -9780,6 +9784,7 @@ payload:
   - DOMAIN-SUFFIX,polymerproject.org
   - DOMAIN-SUFFIX,ponyanimalsex.com
   - DOMAIN-SUFFIX,poofetish.com
+  - DOMAIN-SUFFIX,pool.ntp.org
   - DOMAIN-SUFFIX,poop-pee.online
   - DOMAIN-SUFFIX,poopee-puke.com
   - DOMAIN-SUFFIX,poopeegirls.com
@@ -10630,6 +10635,8 @@ payload:
   - DOMAIN-SUFFIX,s-bluemix.net
   - DOMAIN-SUFFIX,s-books.com
   - DOMAIN-SUFFIX,s-cashonmobile.com
+  - DOMAIN-SUFFIX,s-dc-msedge.net
+  - DOMAIN-SUFFIX,s-msedge.net
   - DOMAIN-SUFFIX,s-msft.com
   - DOMAIN-SUFFIX,s-msn.com
   - DOMAIN-SUFFIX,s-nbcnews.com
@@ -11354,6 +11361,7 @@ payload:
   - DOMAIN-SUFFIX,sssjav.com
   - DOMAIN-SUFFIX,sssuo1.xyz
   - DOMAIN-SUFFIX,ssx3.com
+  - DOMAIN-SUFFIX,st.com
   - DOMAIN-SUFFIX,stackage.org
   - DOMAIN-SUFFIX,stackapps.com
   - DOMAIN-SUFFIX,stackauth.com
