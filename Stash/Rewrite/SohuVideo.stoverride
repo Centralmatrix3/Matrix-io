@@ -1,0 +1,34 @@
+name: 搜狐视频
+desc: 搜狐视频去广告
+author: fmz200
+
+http:
+  url-rewrite:
+    - ^https?:\/\/(api|api-bk\d+)\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap - reject
+
+    - ^https?:\/\/agn\.aty\.sohu\.com\/m? - reject-img
+
+    - ^https?:\/\/api\.k\.sohu\.com\/api\/channel\/ad\/ - reject-img
+
+    - ^https?:\/\/api\.k\.sohu\.com\/api\/news\/adsense - reject-200
+
+    - ^https?:\/\/hui\.sohu\.com\/predownload2\/? - reject-img
+
+    - ^https?:\/\/m\.aty\.sohu\.com\/openload? - reject-img
+
+    - ^https?:\/\/mmg\.aty\.sohu\.com\/mqs? - reject-img
+
+    - ^https?:\/\/mmg\.aty\.sohu\.com\/pvlog? - reject-img
+
+    - ^https?:\/\/photocdn\.sohu\.com\/tvmobilemvms - reject-img
+
+    - ^https?:\/\/pic\.k\.sohu\.com\/img\d\/wb\/tj\/ - reject
+
+    - ^https?:\/\/pic\.k\.sohu\.com\/img8\/wb\/tj\/ - reject-200
+
+    - ^https?:\/\/s\.go\.sohu\.com\/adgtr\/\?gbcode= - reject-img
+
+    - ^https?:\/\/s1\.api\.tv\.itc\.cn\/v4\/mobile\/control\/switch\.json - reject-200
+
+  mitm:
+    - "*.souhu.com"

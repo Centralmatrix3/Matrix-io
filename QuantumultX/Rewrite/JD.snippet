@@ -1,0 +1,13 @@
+#!name = 京东
+#!desc = 京东去广告
+#!author = RuCu6
+
+#!规则 = https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/AdBlock.list //QuantumultX搭配该规则使用
+
+^http:\/\/\w{32}\.jddebug\.com\/diagnose\? url reject
+
+^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(deliverLayer|getTabHomeInfo|myOrderInfo|orderTrackBusiness|personinfoBusiness|start|welcomeHome) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/jingdong.js
+
+^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(searchBoxWord|stationPullService|uniformRecommend[06]) url reject-dict
+
+hostname = api.m.jd.com
