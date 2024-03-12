@@ -1,5 +1,5 @@
 # 规则名称:PROXY
-# 规则统计:24134
+# 规则统计:24135
 
 HOST,3dns-1.adobe.com,PROXY
 HOST,3dns-2.adobe.com,PROXY
@@ -11388,6 +11388,7 @@ HOST-SUFFIX,imagecurl.com,PROXY
 HOST-SUFFIX,imagecurl.org,PROXY
 HOST-SUFFIX,imagefap.com,PROXY
 HOST-SUFFIX,imageflea.com,PROXY
+HOST-SUFFIX,imageglass.org,PROXY
 HOST-SUFFIX,imagepost.com,PROXY
 HOST-SUFFIX,images-amazon.com,PROXY
 HOST-SUFFIX,images-gaytube.com,PROXY
