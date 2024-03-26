@@ -1,0 +1,6 @@
+# 规则名称:WeTV 腾讯视频国际版
+# 规则统计:3
+
+HOST-SUFFIX,wetv.vip,WeTV
+HOST-SUFFIX,wetvinfo.com,WeTV
+IP-CIDR,150.109.28.51/32,WeTV

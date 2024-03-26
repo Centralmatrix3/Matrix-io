@@ -1,0 +1,6 @@
+# 规则名称:Dubox 百度云盘国际版
+# 规则统计:2
+
+payload:
+  - DOMAIN-SUFFIX,dubox.com
+  - DOMAIN-SUFFIX,duboxcdn.com

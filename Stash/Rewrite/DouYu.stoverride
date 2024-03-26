@@ -1,0 +1,32 @@
+name: 斗鱼
+desc: 斗鱼去广告
+author: fmz200
+
+http:
+  url-rewrite:
+    - ^https?:\/\/capi\.douyucdn\.cn\/api\/ios_app\/check_update - reject-img
+
+    - ^https?:\/\/capi\.douyucdn\.cn\/api\/v1\/getStartSend?client_sys=ios - reject-img
+
+    - ^https?:\/\/capi\.douyucdn\.cn\/lapi\/sign\/app(api)?\/getinfo\?client_sys=ios - reject
+
+    - ^https?:\/\/daoyu\.sdo\.com\/api\/userCommon\/getAppStartAd - reject
+
+    - ^https?:\/\/douyucdn\.cn\/.+?\/appapi\/getinfo - reject-img
+
+    - ^https?:\/\/douyucdn\.cn\/.+\/appapi\/getinfo - reject
+
+    - ^https?:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo - reject-200
+
+    - ^https?:\/\/staticlive\.douyucdn\.cn\/.+?\/getStartSend - reject-img
+
+    - ^https?:\/\/staticlive\.douyucdn\.cn\/.+\/getStartSend - reject
+
+    - ^https?:\/\/staticlive\.douyucdn\.cn\/upload\/signs\/ - reject
+
+  mitm:
+    - "capi.douyucdn.cn"
+    - "daoyu.sdo.com"
+    - "douyucdn.cn"
+    - "rtbapi.douyucdn.cn"
+    - "staticlive.douyucdn.cn"

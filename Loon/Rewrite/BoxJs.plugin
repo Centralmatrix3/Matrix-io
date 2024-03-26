@@ -1,0 +1,12 @@
+#!name = BoxJs
+#!desc = http://boxjs.com
+#!author = chavyleung
+
+[General]
+force-http-engine-hosts = boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net
+
+[Script]
+http-request ^https?:\/\/(.+\.)?boxjs\.(com|net) script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, requires-body=true, timeout=120, tag=BoxJs
+
+[MITM]
+hostname = boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net

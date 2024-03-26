@@ -1,0 +1,13 @@
+# 规则名称:CaiNiao 菜鸟裹裹
+# 规则统计:9
+
+payload:
+  - DOMAIN-SUFFIX,cainiao.com
+  - DOMAIN-SUFFIX,cainiao.com.cn
+  - DOMAIN-SUFFIX,guoguo-app.com
+  - DOMAIN-SUFFIX,cainiao-inc.net
+  - DOMAIN-SUFFIX,cainiao-inc.cn
+  - DOMAIN-SUFFIX,cainiao-inc.com
+  - DOMAIN-SUFFIX,xiaog.xyz
+  - DOMAIN-SUFFIX,cainiaoyizhan.com
+  - DOMAIN-SUFFIX,56che.com

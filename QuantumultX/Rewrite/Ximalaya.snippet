@@ -1,0 +1,51 @@
+#!name = 喜马拉雅
+#!desc = 喜马拉雅去广告
+#!author = fmz200
+
+^https?:\/\/(adse\.wsa|adse|adbehavior|xdcs-collector)\.xima.*\.com\/.* url reject
+
+^https?:\/\/.*\.xima.*\.com/mobile-user/minorProtection/pop url reject
+
+^https?:\/\/.*\.xima.*\.com\/(dog-portal\/checkOld|(child-mobile\/child|aged-mobile\/aged)\/mode\/query) url reject
+
+^https?:\/\/.*\.xima.*\.com\/(hub)?guideWord url reject
+
+^https?:\/\/.*\.xima.*\.com\/api\/v\d\/adRealTime url reject
+
+^https?:\/\/.*\.xima.*\.com\/butler-portal\/versionCheck url reject
+
+^https?:\/\/.*\.xima.*\.com\/chaos-notice-web\/v1\/message\/preview\/list url reject
+
+^https?:\/\/.*\.xima.*\.com\/collector\/xl\/v\d url reject
+
+^https?:\/\/.*\.xima.*\.com\/discovery-category\/customCategories url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xmly_json.js
+
+^https?:\/\/.*\.xima.*\.com\/discovery-category\/v\d/category url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xmly_json.js
+
+^https?:\/\/.*\.xima.*\.com\/discovery-feed\/focus\/queryF url reject
+
+^https?:\/\/.*\.xima.*\.com\/discovery-feed\/isShowUserGiftPendant url reject
+
+^https?:\/\/.*\.xima.*\.com\/discovery-feed\/v\d\/mix url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xmly_json.js
+
+^https?:\/\/.*\.xima.*\.com\/focus-mobile\/focusPic url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xmly_json.js
+
+^https?:\/\/.*\.xima.*\.com\/hotWord url reject
+
+^https?:\/\/.*\.xima.*\.com\/mobile\/discovery\/v\d\/location url reject
+
+^https?:\/\/.*\.xima.*\.com\/mobile-playpage\/view\/ url reject
+
+^https?:\/\/.*\.xima.*\.com\/mobile-user\/unread url reject
+
+^https?:\/\/.*\.xima.*\.com\/mobile-user\/v\d\/homePage url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xmly_json.js
+
+^https?:\/\/.*\.xima.*\.com\/social-web\/bottomTabs\/dynamicEntrance\/status url reject
+
+^https?:\/\/.*\.xima.*\.com\/ting\/(loading|feed|home)? url reject
+
+^https?:\/\/.*\.xmcdn\.com\/\w{8}\/\w{4}-\w{16}\/.+gif$ url reject
+
+^https?:\/\/gslb.*\.xima.*\.com\/ url reject
+
+hostname = *.xima*.*.com

@@ -1,0 +1,6 @@
+# 规则名称:LeTV 乐视视频
+# 规则统计:2
+
+payload:
+  - DOMAIN-SUFFIX,le.com
+  - DOMAIN-SUFFIX,letv.com

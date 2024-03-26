@@ -1,0 +1,29 @@
+# 规则名称:Opera
+# 规则统计:22
+
+no_resolve: true
+domain_suffix_set:
+  - 1npq4.tk
+  - coastbyopera.com
+  - gamingbrowsers.com
+  - opera-api.com
+  - opera-api2.com
+  - opera-browser.com
+  - opera-mini.net
+  - opera.com
+  - opera.software
+  - operacdn.com
+  - operagx.com
+  - operasoftware.com
+  - otvs.tv
+  - xn--cer18jcpe41t.com
+ip_cidr_set:
+  - 141.0.8.0/21
+  - 185.26.180.0/22
+  - 195.189.142.0/23
+  - 37.228.104.0/21
+  - 77.111.244.0/22
+  - 82.145.208.0/20
+  - 91.203.97.0/24
+ip_cidr6_set:
+  - 2001:4c28::/32
