@@ -1,0 +1,72 @@
+name: 人人视频
+desc: 人人视频去广告
+author: fmz200
+
+http:
+  url-rewrite:
+    - ^https?:\/\/api\.rr\.tv\/.*?Version - reject
+
+    - https://api.rr.tv/storage/business/rootName/app/homePage\?dataType=JSON - reject-dict
+
+  script:
+    - match: ^https:\/\/api\.rr\.tv\/ad\/getAll
+      name: 人人视频
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https:\/\/api\.rr\.tv\/drama\/app\/get_combined_drama_detail
+      name: 人人视频
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https:\/\/api\.rr\.tv\/user\/privilege\/list
+      name: 人人视频
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https?:\/\/api\.rr\.tv\/\w{3}\/level\/info
+      name: 人人视频
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https?:\/\/api\.rr\.tv\/app\/config\/h5NativeBar
+      name: 人人视频
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: ^https?:\/\/api\.rr\.tv\/v3plus\/index\/channel\?pageNum=1&position=CHANNEL_MY
+      name: 人人视频
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: https://api.rr.tv/user/profile
+      name: 人人视频
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: https://api.rr.tv/v3plus/index/channel\?pageNum=1&position=CHANNEL_INDEX
+      name: 人人视频
+      type: response
+      require-body: true
+      timeout: 60
+
+    - match: https://api.rr.tv/watch/v4
+      name: 人人视频
+      type: response
+      require-body: true
+      timeout: 60
+
+  mitm:
+    - "api.rr.tv"
+
+script-providers:
+  人人视频:
+    url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js
+    interval: 86400

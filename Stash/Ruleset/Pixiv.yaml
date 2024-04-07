@@ -1,0 +1,7 @@
+# 规则名称:Pixiv
+# 规则统计:3
+
+payload:
+  - DOMAIN-SUFFIX,fanbox.cc
+  - DOMAIN-SUFFIX,pixiv.net
+  - DOMAIN-SUFFIX,pximg.net
