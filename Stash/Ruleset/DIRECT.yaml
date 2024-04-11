@@ -1,5 +1,5 @@
 # 规则名称:DIRECT
-# 规则统计:74577
+# 规则统计:74579
 
 payload:
   - '265.com'
@@ -14709,7 +14709,6 @@ payload:
   - '+.cdn-v.com'
   - '+.cdn.fun'
   - '+.cdn.jetbrains.com'
-  - '+.cdn.razersynapse.com'
   - '+.cdn.samsung.com'
   - '+.cdn.shanghai.nyu.edu'
   - '+.cdn08.com'
@@ -51345,6 +51344,9 @@ payload:
   - '+.raytoon.net'
   - '+.rayuu.com'
   - '+.rayyzx.com'
+  - '+.razerapi.com'
+  - '+.razersynapse.com'
+  - '+.razerzone.com'
   - '+.razrlele.com'
   - '+.raztb.com'
   - '+.rb139.com'

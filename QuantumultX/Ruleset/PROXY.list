@@ -1,5 +1,5 @@
 # 规则名称:PROXY
-# 规则统计:24150
+# 规则统计:24160
 
 HOST,3dns-1.adobe.com,PROXY
 HOST,3dns-2.adobe.com,PROXY
@@ -12377,7 +12377,12 @@ HOST-SUFFIX,jinx.com,PROXY
 HOST-SUFFIX,jitouch.com,PROXY
 HOST-SUFFIX,jitsi.org,PROXY
 HOST-SUFFIX,jiuse.ai,PROXY
+HOST-SUFFIX,jiuse.com.co,PROXY
 HOST-SUFFIX,jiuse.icu,PROXY
+HOST-SUFFIX,jiuse.io,PROXY
+HOST-SUFFIX,jiuse821.com,PROXY
+HOST-SUFFIX,jiuse822.com,PROXY
+HOST-SUFFIX,jiuse823.com,PROXY
 HOST-SUFFIX,jiyou520.com,PROXY
 HOST-SUFFIX,jiyu-kobo.co.jp,PROXY
 HOST-SUFFIX,jizzboom.com,PROXY
@@ -12465,6 +12470,9 @@ HOST-SUFFIX,jsdelivr.com,PROXY
 HOST-SUFFIX,jsdelivr.net,PROXY
 HOST-SUFFIX,jstage.jst.go.jp,PROXY
 HOST-SUFFIX,jstor.org,PROXY
+HOST-SUFFIX,jstv51.com,PROXY
+HOST-SUFFIX,jstv52.com,PROXY
+HOST-SUFFIX,jstv53.com,PROXY
 HOST-SUFFIX,jsz91.com,PROXY
 HOST-SUFFIX,jtube.space,PROXY
 HOST-SUFFIX,jtvnw.net,PROXY
@@ -17793,8 +17801,8 @@ HOST-SUFFIX,raw.githack.com,PROXY
 HOST-SUFFIX,rawgit.com,PROXY
 HOST-SUFFIX,rawgithub.com,PROXY
 HOST-SUFFIX,razer.com,PROXY
+HOST-SUFFIX,razerofficial.com,PROXY
 HOST-SUFFIX,razersupport.com,PROXY
-HOST-SUFFIX,razerzone.com,PROXY
 HOST-SUFFIX,razerzone.jp,PROXY
 HOST-SUFFIX,razyboard.com,PROXY
 HOST-SUFFIX,rb-crisis.com,PROXY
@@ -18454,6 +18462,7 @@ HOST-SUFFIX,sego8.cc,PROXY
 HOST-SUFFIX,sego8.co,PROXY
 HOST-SUFFIX,sego8.xyz,PROXY
 HOST-SUFFIX,sehuatang.net,PROXY
+HOST-SUFFIX,sehuatang.org,PROXY
 HOST-SUFFIX,seiroganmania.com,PROXY
 HOST-SUFFIX,seiron-sankei.com,PROXY
 HOST-SUFFIX,sejie.com,PROXY
@@ -18893,6 +18902,7 @@ HOST-SUFFIX,sidelinesnews.com,PROXY
 HOST-SUFFIX,sidelinessportseatery.com,PROXY
 HOST-SUFFIX,siege-amazon.com,PROXY
 HOST-SUFFIX,sierrafriendsoftibet.org,PROXY
+HOST-SUFFIX,sifangclub.com,PROXY
 HOST-SUFFIX,sigmoidoscopeexam.com,PROXY
 HOST-SUFFIX,sign.new,PROXY
 HOST-SUFFIX,signal.art,PROXY
