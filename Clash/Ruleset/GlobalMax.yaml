@@ -1,5 +1,5 @@
 # 规则名称:GlobalMax
-# 规则统计:24312
+# 规则统计:24322
 
 payload:
   - DOMAIN,adobeereg.com
@@ -9485,7 +9485,12 @@ payload:
   - DOMAIN-SUFFIX,jinsilubanzhao.com
   - DOMAIN-SUFFIX,jitsi.org
   - DOMAIN-SUFFIX,jiuse.ai
+  - DOMAIN-SUFFIX,jiuse.com.co
   - DOMAIN-SUFFIX,jiuse.icu
+  - DOMAIN-SUFFIX,jiuse.io
+  - DOMAIN-SUFFIX,jiuse821.com
+  - DOMAIN-SUFFIX,jiuse822.com
+  - DOMAIN-SUFFIX,jiuse823.com
   - DOMAIN-SUFFIX,jiuse904.com
   - DOMAIN-SUFFIX,jiuse905.com
   - DOMAIN-SUFFIX,jiuzhouyihuo.com
@@ -9558,6 +9563,9 @@ payload:
   - DOMAIN-SUFFIX,jsbridgestone.com
   - DOMAIN-SUFFIX,jsdelivr.com
   - DOMAIN-SUFFIX,jstage.jst.go.jp
+  - DOMAIN-SUFFIX,jstv51.com
+  - DOMAIN-SUFFIX,jstv52.com
+  - DOMAIN-SUFFIX,jstv53.com
   - DOMAIN-SUFFIX,jsz91.com
   - DOMAIN-SUFFIX,jtube.space
   - DOMAIN-SUFFIX,judeporn.com
@@ -13672,8 +13680,8 @@ payload:
   - DOMAIN-SUFFIX,ravm.tv
   - DOMAIN-SUFFIX,rawgithub.com
   - DOMAIN-SUFFIX,razer.com
+  - DOMAIN-SUFFIX,razerofficial.com
   - DOMAIN-SUFFIX,razersupport.com
-  - DOMAIN-SUFFIX,razerzone.com
   - DOMAIN-SUFFIX,razerzone.jp
   - DOMAIN-SUFFIX,rb-crisis.com
   - DOMAIN-SUFFIX,rb.com
@@ -14150,6 +14158,7 @@ payload:
   - DOMAIN-SUFFIX,sego8.co
   - DOMAIN-SUFFIX,sego8.xyz
   - DOMAIN-SUFFIX,sehuatang.net
+  - DOMAIN-SUFFIX,sehuatang.org
   - DOMAIN-SUFFIX,seiroganmania.com
   - DOMAIN-SUFFIX,seiron-sankei.com
   - DOMAIN-SUFFIX,sejie80.com
@@ -14503,6 +14512,7 @@ payload:
   - DOMAIN-SUFFIX,shywifeswap.com
   - DOMAIN-SUFFIX,sibreal.org
   - DOMAIN-SUFFIX,siege-amazon.com
+  - DOMAIN-SUFFIX,sifangclub.com
   - DOMAIN-SUFFIX,sigmoidoscopeexam.com
   - DOMAIN-SUFFIX,sign.new
   - DOMAIN-SUFFIX,signal.art
