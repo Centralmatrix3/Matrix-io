@@ -1,5 +1,5 @@
 # 规则名称:GreatFireWall GFW
-# 规则统计:6171
+# 规则统计:6172
 
 payload:
   - '+.000webhost.com'
@@ -640,7 +640,6 @@ payload:
   - '+.blogimg.jp'
   - '+.bloglines.com'
   - '+.bloglovin.com'
-  - '+.blogs.icerocket.com'
   - '+.blogs.libraryinformationtechnology.com'
   - '+.blogs.tampabay.com'
   - '+.blogs.yahoo.co.jp'
@@ -2743,6 +2742,7 @@ payload:
   - '+.ibvpn.com'
   - '+.icams.com'
   - '+.ice.audionow.com'
+  - '+.icedrive.net'
   - '+.icij.org'
   - '+.icl-fi.org'
   - '+.icoco.com'
@@ -4379,6 +4379,7 @@ payload:
   - '+.roodo.com'
   - '+.rosechina.net'
   - '+.rotten.com'
+  - '+.rou.video'
   - '+.rsdlmonitor.com'
   - '+.rsf-chinese.org'
   - '+.rsf.org'

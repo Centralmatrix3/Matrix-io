@@ -1,5 +1,5 @@
 # 规则名称:GreatFireWall GFW
-# 规则统计:6171
+# 规则统计:6172
 
 HOST-SUFFIX,000webhost.com,GreatFireWall
 HOST-SUFFIX,030buy.com,GreatFireWall
@@ -639,7 +639,6 @@ HOST-SUFFIX,blogger.com,GreatFireWall
 HOST-SUFFIX,blogimg.jp,GreatFireWall
 HOST-SUFFIX,bloglines.com,GreatFireWall
 HOST-SUFFIX,bloglovin.com,GreatFireWall
-HOST-SUFFIX,blogs.icerocket.com,GreatFireWall
 HOST-SUFFIX,blogs.libraryinformationtechnology.com,GreatFireWall
 HOST-SUFFIX,blogs.tampabay.com,GreatFireWall
 HOST-SUFFIX,blogs.yahoo.co.jp,GreatFireWall
@@ -2742,6 +2741,7 @@ HOST-SUFFIX,ibros.org,GreatFireWall
 HOST-SUFFIX,ibvpn.com,GreatFireWall
 HOST-SUFFIX,icams.com,GreatFireWall
 HOST-SUFFIX,ice.audionow.com,GreatFireWall
+HOST-SUFFIX,icedrive.net,GreatFireWall
 HOST-SUFFIX,icij.org,GreatFireWall
 HOST-SUFFIX,icl-fi.org,GreatFireWall
 HOST-SUFFIX,icoco.com,GreatFireWall
@@ -4378,6 +4378,7 @@ HOST-SUFFIX,ronjoneswriter.com,GreatFireWall
 HOST-SUFFIX,roodo.com,GreatFireWall
 HOST-SUFFIX,rosechina.net,GreatFireWall
 HOST-SUFFIX,rotten.com,GreatFireWall
+HOST-SUFFIX,rou.video,GreatFireWall
 HOST-SUFFIX,rsdlmonitor.com,GreatFireWall
 HOST-SUFFIX,rsf-chinese.org,GreatFireWall
 HOST-SUFFIX,rsf.org,GreatFireWall
