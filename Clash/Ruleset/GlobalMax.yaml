@@ -1,5 +1,5 @@
 # 规则名称:GlobalMax
-# 规则统计:24322
+# 规则统计:24323
 
 payload:
   - DOMAIN,adobeereg.com
@@ -12925,7 +12925,6 @@ payload:
   - DOMAIN-SUFFIX,pobl-content.com
   - DOMAIN-SUFFIX,pocketbiketrader.com
   - DOMAIN-SUFFIX,pocketcasts.com
-  - DOMAIN-SUFFIX,poe.com
   - DOMAIN-SUFFIX,poecdn.net
   - DOMAIN-SUFFIX,pogo.com
   - DOMAIN-SUFFIX,pogobeta.com
@@ -13909,7 +13908,6 @@ payload:
   - DOMAIN-SUFFIX,rootsigning.com
   - DOMAIN-SUFFIX,rosemarydoll.com
   - DOMAIN-SUFFIX,roshy.tv
-  - DOMAIN-SUFFIX,rou.video
   - DOMAIN-SUFFIX,roudao6.buzz
   - DOMAIN-SUFFIX,roudaosp.cc
   - DOMAIN-SUFFIX,roughebonysex.com
@@ -20703,6 +20701,7 @@ payload:
   - DOMAIN-SUFFIX,ibytedtos.com
   - DOMAIN-SUFFIX,ibyteimg.com
   - DOMAIN-SUFFIX,icams.com
+  - DOMAIN-SUFFIX,icedrive.net
   - DOMAIN-SUFFIX,icerocket.com
   - DOMAIN-SUFFIX,icij.org
   - DOMAIN-SUFFIX,icl-fi.org
@@ -22147,6 +22146,7 @@ payload:
   - DOMAIN-SUFFIX,podbean.com
   - DOMAIN-SUFFIX,podcast.co
   - DOMAIN-SUFFIX,podictionary.com
+  - DOMAIN-SUFFIX,poe.com
   - DOMAIN-SUFFIX,pokemon.com
   - DOMAIN-SUFFIX,pokerstars.com
   - DOMAIN-SUFFIX,pokerstars.net
@@ -22424,6 +22424,7 @@ payload:
   - DOMAIN-SUFFIX,roodo.com
   - DOMAIN-SUFFIX,rosechina.net
   - DOMAIN-SUFFIX,rotten.com
+  - DOMAIN-SUFFIX,rou.video
   - DOMAIN-SUFFIX,rsdlmonitor.com
   - DOMAIN-SUFFIX,rsf-chinese.org
   - DOMAIN-SUFFIX,rsf.org
