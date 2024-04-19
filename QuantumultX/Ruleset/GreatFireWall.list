@@ -1,5 +1,5 @@
 # 规则名称:GreatFireWall GFW
-# 规则统计:6172
+# 规则统计:6179
 
 HOST-SUFFIX,000webhost.com,GreatFireWall
 HOST-SUFFIX,030buy.com,GreatFireWall
@@ -901,6 +901,7 @@ HOST-SUFFIX,cdn-images.mailchimp.com,GreatFireWall
 HOST-SUFFIX,cdn-telegram.org,GreatFireWall
 HOST-SUFFIX,cdn.assets.lfpcontent.com,GreatFireWall
 HOST-SUFFIX,cdn.helixstudios.net,GreatFireWall
+HOST-SUFFIX,cdn.jwplayer.com,GreatFireWall
 HOST-SUFFIX,cdn.printfriendly.com,GreatFireWall
 HOST-SUFFIX,cdn.seatguru.com,GreatFireWall
 HOST-SUFFIX,cdn.softlayer.net,GreatFireWall
@@ -1614,6 +1615,7 @@ HOST-SUFFIX,etaa.org.au,GreatFireWall
 HOST-SUFFIX,etadult.com,GreatFireWall
 HOST-SUFFIX,etaiwannews.com,GreatFireWall
 HOST-SUFFIX,etherdelta.com,GreatFireWall
+HOST-SUFFIX,ethermine.org,GreatFireWall
 HOST-SUFFIX,etherscan.io,GreatFireWall
 HOST-SUFFIX,etizer.org,GreatFireWall
 HOST-SUFFIX,etokki.com,GreatFireWall
@@ -1650,6 +1652,7 @@ HOST-SUFFIX,eyny.com,GreatFireWall
 HOST-SUFFIX,ezpc.tk,GreatFireWall
 HOST-SUFFIX,ezpeer.com,GreatFireWall
 HOST-SUFFIX,ezua.com,GreatFireWall
+HOST-SUFFIX,f2pool.com,GreatFireWall
 HOST-SUFFIX,f8.com,GreatFireWall
 HOST-SUFFIX,fa.gov.tw,GreatFireWall
 HOST-SUFFIX,facebook.br,GreatFireWall
@@ -2656,6 +2659,7 @@ HOST-SUFFIX,hrcchina.org,GreatFireWall
 HOST-SUFFIX,hrcir.com,GreatFireWall
 HOST-SUFFIX,hrea.org,GreatFireWall
 HOST-SUFFIX,hrichina.org,GreatFireWall
+HOST-SUFFIX,hrntt.org,GreatFireWall
 HOST-SUFFIX,hrtsea.com,GreatFireWall
 HOST-SUFFIX,hrw.org,GreatFireWall
 HOST-SUFFIX,hrweb.org,GreatFireWall
@@ -3762,6 +3766,7 @@ HOST-SUFFIX,noxinfluencer.com,GreatFireWall
 HOST-SUFFIX,noypf.com,GreatFireWall
 HOST-SUFFIX,npa.go.jp,GreatFireWall
 HOST-SUFFIX,npa.gov.tw,GreatFireWall
+HOST-SUFFIX,npm.gov.tw,GreatFireWall
 HOST-SUFFIX,npnt.me,GreatFireWall
 HOST-SUFFIX,nps.gov,GreatFireWall
 HOST-SUFFIX,npsboost.com,GreatFireWall
@@ -4140,6 +4145,7 @@ HOST-SUFFIX,postimg.org,GreatFireWall
 HOST-SUFFIX,posts.careerengine.us,GreatFireWall
 HOST-SUFFIX,potato.im,GreatFireWall
 HOST-SUFFIX,potvpn.com,GreatFireWall
+HOST-SUFFIX,pourquoi.tw,GreatFireWall
 HOST-SUFFIX,power.com,GreatFireWall
 HOST-SUFFIX,powerapple.com,GreatFireWall
 HOST-SUFFIX,powercx.com,GreatFireWall
@@ -6090,6 +6096,7 @@ HOST-SUFFIX,yzzk.com,GreatFireWall
 HOST-SUFFIX,z-lib.org,GreatFireWall
 HOST-SUFFIX,zacebook.com,GreatFireWall
 HOST-SUFFIX,zalmos.com,GreatFireWall
+HOST-SUFFIX,zamimg.com,GreatFireWall
 HOST-SUFFIX,zannel.com,GreatFireWall
 HOST-SUFFIX,zaobao.com,GreatFireWall
 HOST-SUFFIX,zaobao.com.sg,GreatFireWall

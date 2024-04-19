@@ -1,5 +1,5 @@
 # 规则名称:PROXY
-# 规则统计:24208
+# 规则统计:24213
 
 payload:
   - '3dns-1.adobe.com'
@@ -7584,6 +7584,7 @@ payload:
   - '+.etherdelta.com'
   - '+.ethereum.foundation'
   - '+.ethereum.org'
+  - '+.ethermine.org'
   - '+.etherscan.io'
   - '+.etizer.org'
   - '+.etnet.com.hk'
@@ -7686,6 +7687,7 @@ payload:
   - '+.f-dro1d.org'
   - '+.f-droid.com'
   - '+.f-droid.org'
+  - '+.f2pool.com'
   - '+.f5pf.com'
   - '+.f6988.com'
   - '+.f8.com'
@@ -10884,6 +10886,7 @@ payload:
   - '+.hrea.org'
   - '+.hrecords.jp'
   - '+.hrichina.org'
+  - '+.hrntt.org'
   - '+.hrsaz.com'
   - '+.hrtsea.com'
   - '+.hrw.org'
@@ -17348,6 +17351,7 @@ payload:
   - '+.potato.im'
   - '+.potenza.jp'
   - '+.potvpn.com'
+  - '+.pourquoi.tw'
   - '+.povpornonly.com'
   - '+.povr.com'
   - '+.power.com'
@@ -24012,6 +24016,7 @@ payload:
   - '+.zacebook.com'
   - '+.zakzak.co.jp'
   - '+.zalmos.com'
+  - '+.zamimg.com'
   - '+.zannel.com'
   - '+.zaobao.com'
   - '+.zaobao.com.sg'
