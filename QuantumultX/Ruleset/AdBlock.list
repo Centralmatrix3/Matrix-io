@@ -1,5 +1,5 @@
 # 规则名称:AdBlock
-# 规则统计:99826
+# 规则统计:99827
 
 HOST-SUFFIX,0008d6ba2e.com,REJECT
 HOST-SUFFIX,000dn.com,REJECT
@@ -18659,6 +18659,7 @@ HOST-SUFFIX,sltint.adv.ott.cibntv.net,REJECT
 HOST-SUFFIX,topapi.cp12.ott.cibntv.net,REJECT
 HOST-SUFFIX,val.atm.cp31.ott.cibntv.net,REJECT
 HOST-SUFFIX,vali-g1.cp31.ott.cibntv.net,REJECT
+HOST-SUFFIX,ykad-data.cp31.ott.cibntv.net,REJECT
 HOST-SUFFIX,cibouleamazer.com,REJECT
 HOST-SUFFIX,cicamica.xyz,REJECT
 HOST-SUFFIX,yikrmn.ciceksepeti.com,REJECT
@@ -87877,7 +87878,6 @@ HOST-SUFFIX,starget.tv2.dk,REJECT
 HOST-SUFFIX,appwall.tv2phone.cn,REJECT
 HOST-SUFFIX,ana.tv5unis.ca,REJECT
 HOST-SUFFIX,ads.tvb.com,REJECT
-HOST-SUFFIX,ads.cdn.tvb.com,REJECT
 HOST-SUFFIX,tvbsfmswrjap.com,REJECT
 HOST-SUFFIX,tvbsjcmjndw.com,REJECT
 HOST-SUFFIX,koifrz.tvc-mall.com,REJECT
@@ -97946,6 +97946,7 @@ HOST-SUFFIX,ykatr.youku.com,REJECT
 HOST-SUFFIX,ykrec.youku.com,REJECT
 HOST-SUFFIX,ykrectab.youku.com,REJECT
 HOST-SUFFIX,pcapp-data-collect.youku.com,REJECT
+HOST-SUFFIX,valo.atm.youku.com,REJECT
 HOST-SUFFIX,app.youla.io,REJECT
 HOST-SUFFIX,youlamedia.com,REJECT
 HOST-SUFFIX,youle55.com,REJECT
