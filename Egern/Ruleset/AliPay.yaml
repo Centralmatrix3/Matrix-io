@@ -1,0 +1,9 @@
+# 规则名称:AliPay 支付宝
+# 规则统计:4
+
+domain_suffix_set:
+  - alipay.com
+  - alipay.com.cn
+  - alipayobjects.com
+domain_keyword_set:
+  - alipay

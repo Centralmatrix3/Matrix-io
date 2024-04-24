@@ -1,0 +1,28 @@
+# 规则名称:StreamingUK 英国媒体
+# 规则统计:22
+
+domain_set:
+  - aod-dash-uk-live.akamaized.net
+  - aod-hls-uk-live.akamaized.net
+  - d349g9zuie06uo.cloudfront.net
+  - itvpnpmobile-a.akamaihd.net
+  - vod-dash-uk-live.akamaized.net
+  - vod-thumb-uk-live.akamaized.net
+domain_suffix_set:
+  - bbc.co
+  - bbc.co.uk
+  - bbc.com
+  - bbc.net.uk
+  - bbcfmt.hs.llnwd.net
+  - bbci.co
+  - bbci.co.uk
+  - bidi.net.uk
+  - c4assets.com
+  - channel4.com
+  - channel5.com
+  - itv.com
+  - itvstatic.com
+  - my5.tv
+domain_keyword_set:
+  - bbcfmt
+  - uk-live

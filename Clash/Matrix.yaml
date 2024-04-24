@@ -1,0 +1,320 @@
+# 配置名称: Clash 配置
+# 配置作者: Centralmatrix3
+# 更新时间: 24-04-05 00:00
+
+port: 7890            # HTTP   端口
+socks-port: 7891      # Socks  端口
+redir-port: 7892      # Redir  端口
+mixed-port: 7893      # Mixed  端口
+tproxy-port: 7894     # Tproxy 端口
+allow-lan: true       # 允许局域网连接
+bind-address: '*'     # 地址绑定
+mode: Rule            # 规则模式
+log-level: info       # 日志级别
+ipv6: false           # IPv6 开关
+
+# 外部控制器
+external-controller: 127.0.0.1:9090
+
+# 服务器配置
+dns:
+  enable: false       # 禁用系统 DNS
+  ipv6: false         # 解析开关 IPv6
+  listen: 0.0.0.0:53  # DNS 监听
+  default-nameserver: # 常规 DNS
+    - 223.5.5.5
+    - 119.29.29.29
+
+  nameserver:         # 加密 DNS
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+
+  fallback:           # 国外 DNS
+    - https://dns.google/dns-query
+    - https://cloudflare-dns.com/dns-query
+
+# 增强模式:FAKE-IP或REDIR-HOST
+  enhanced-mode: fake-ip
+
+# FAKE-IP 范围
+  fake-ip-range: 198.18.0.1/16
+
+# FAKE-IP 过滤
+  fake-ip-filter:
+    - '*.lan'
+    - '*.linksys.com'
+    - '*.linksyssmartwifi.com'
+    - 'swscan.apple.com'
+    - 'mesu.apple.com'
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - 'time.*.edu.cn'
+    - '*.time.edu.cn'
+    - '*.ntp.org.cn'
+    - '+.pool.ntp.org'
+    - 'time1.cloud.tencent.com'
+    - '+.music.163.com'
+    - '*.126.net'
+    - 'musicapi.taihe.com'
+    - 'music.taihe.com'
+    - 'songsearch.kugou.com'
+    - 'trackercdn.kugou.com'
+    - '*.kuwo.cn'
+    - 'api-jooxtt.sanook.com'
+    - 'api.joox.com'
+    - 'joox.com'
+    - '+.y.qq.com'
+    - '+.music.tc.qq.com'
+    - 'aqqmusic.tc.qq.com'
+    - '+.stream.qqmusic.qq.com'
+    - '*.xiami.com'
+    - '+.music.migu.cn'
+    - '+.srv.nintendo.net'
+    - '+.stun.playstation.net'
+    - 'xbox.*.microsoft.com'
+    - '+.xboxlive.com'
+    - 'localhost.ptlogin2.qq.com'
+    - 'proxy.golang.org'
+    - 'stun.*.*'
+    - 'stun.*.*.*'
+    - '*.mcdn.bilivideo.cn'
+
+  fallback-filter:    # 回退过滤器
+    geoip: false      # GEOIP 启用
+    geoip-code: CN    # GEOIP 编码
+    ipcidr:           # IPCIDR
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+
+# 代理
+proxies: null
+
+# 代理订阅
+proxy-providers:
+  matrix:
+    type: http
+    url: "订阅链接" # 🧸
+    interval: 3600
+    path: ./Server/matrix.yaml
+    health-check:
+      enable: true
+      url: https://cp.cloudflare.com/generate_204
+      interval: 600
+
+# 代理策略组
+proxy-groups:
+  - name: "自行选择"
+    type: select
+    use:
+      - matrix
+
+  - name: "苹果服务"
+    type: select
+    proxies: 
+      - DIRECT
+      - 自行选择
+      - 自动选择
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 狮城节点
+      - 美国节点
+  
+  - name: "港台番剧"
+    type: select
+    proxies: 
+      - DIRECT
+      - 自行选择
+      - 自动选择
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 狮城节点
+      - 美国节点
+
+  - name: "国内媒体"
+    type: select
+    proxies: 
+      - DIRECT
+      - 自行选择
+      - 自动选择
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 狮城节点
+      - 美国节点
+
+  - name: "国际媒体"
+    type: select
+    proxies: 
+      - 自行选择
+      - 自动选择
+      - DIRECT
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 狮城节点
+      - 美国节点
+
+  - name: "全球加速"
+    type: select
+    proxies: 
+      - 自行选择
+      - 自动选择
+      - DIRECT
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 狮城节点
+      - 美国节点
+
+  - name: "黑白名单"
+    type: select
+    proxies: 
+      - 自行选择
+      - 自动选择
+      - DIRECT
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 狮城节点
+      - 美国节点
+
+  - name: "自动选择"
+    type: url-test
+    use: 
+      - matrix
+    url: "https://cp.cloudflare.com/generate_204"
+    interval: 1800
+
+  - name: "香港节点"
+    type: url-test
+    filter: "香港|港|HK|🇭🇰|(?i)Hong"
+    use: 
+      - matrix
+    url: "https://cp.cloudflare.com/generate_204"
+    interval: 1800
+
+  - name: "台湾节点"
+    type: url-test
+    filter: "台湾|台|TW|🇹🇼|(?i)Taiwan"
+    use: 
+      - matrix
+    url: "https://cp.cloudflare.com/generate_204"
+    interval: 1800
+
+  - name: "日本节点"
+    type: url-test
+    filter: "日本|日|JP|🇯🇵|(?i)Japan"
+    use: 
+      - matrix
+    url: "https://cp.cloudflare.com/generate_204"
+    interval: 1800
+
+  - name: "韩国节点"
+    type: url-test
+    filter: "韩国|韩|KR|🇰🇷|(?i)Korea"
+    use: 
+      - matrix
+    url: "https://cp.cloudflare.com/generate_204"
+    interval: 1800
+
+  - name: "狮城节点"
+    type: url-test
+    filter: "新加坡|狮|SG|🇸🇬|(?i)Singapore"
+    use: 
+      - matrix
+    url: "https://cp.cloudflare.com/generate_204"
+    interval: 1800
+ 
+  - name: "美国节点"
+    type: url-test
+    filter: "美国|美|US|🇺🇸|(?i)States"
+    use: 
+      - matrix
+    url: "https://cp.cloudflare.com/generate_204"
+    interval: 1800
+
+# 本地规则
+rules:
+  - RULE-SET, 规则修正, DIRECT
+  - RULE-SET, 广告拦截, REJECT
+  - RULE-SET, 国际媒体, 国际媒体
+  - RULE-SET, 港台番剧, 港台番剧
+  - RULE-SET, 国内媒体, 国内媒体 
+  - RULE-SET, 全球加速, 全球加速
+  - RULE-SET, 苹果服务, 苹果服务
+  - RULE-SET, 局域网络, DIRECT
+  - RULE-SET, 国内规则, DIRECT
+  - MATCH, 黑白名单
+
+# 远程规则
+rule-providers:
+  规则修正: 
+    behavior: classical
+    interval: 86400
+    type: http
+    path: ./Ruleset/Unbreak.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/Unbreak.yaml
+
+  广告拦截: 
+    behavior: domain
+    interval: 86400
+    type: http
+    path: ./Ruleset/AdBlock.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/AdBlock.yaml
+
+  国际媒体: 
+    behavior: classical
+    interval: 86400
+    type: http
+    path: ./Ruleset/Streaming.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/Streaming.yaml
+
+  港台番剧: 
+    behavior: classical
+    interval: 86400
+    type: http
+    path: ./Ruleset/StreamingSE.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/StreamingSE.yaml
+
+  国内媒体: 
+    behavior: classical
+    interval: 86400
+    type: http
+    path: ./Ruleset/StreamingCN.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/StreamingCN.yaml
+
+  全球加速: 
+    behavior: classical
+    interval: 86400
+    type: http
+    path: ./Ruleset/Global.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/Global.yaml
+
+  苹果服务: 
+    behavior: classical
+    interval: 86400
+    type: http
+    path: ./Ruleset/Apple.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/Apple.yaml
+
+  局域网络: 
+    behavior: classical
+    interval: 86400
+    type: http
+    path: ./Ruleset/LAN.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/LAN.yaml
+
+  国内规则: 
+    behavior: classical
+    interval: 86400
+    type: http
+    path: ./Ruleset/GEOIPCN.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/GEOIPCN.yaml

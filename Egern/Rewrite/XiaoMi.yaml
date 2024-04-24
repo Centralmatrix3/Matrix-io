@@ -1,0 +1,86 @@
+name: 小米
+description: 小米去广告
+author: fmz200
+
+url_rewrites:
+  - match: ^https:\/\/api-mifit-cn2\.huami\.com\/discovery\/mi\/cards\/startpage_ad
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/(api-mifit|api-mifit-\w+)\.huami\.com\/discovery\/mi\/discovery\/\w+_ad\?
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/home\.mi\.com\/cgi-op\/api\/v\d\/recommendation\/banner
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https:\/\/api\.indeedpower\.com\/v1\/m\/edu\/module\/homepage_banner\/\?randomStr
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/api-miprint\.hannto\.com\/v1\/c\/res\/app\/ad\/\?app_version
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/resource\/homePage\/pageConfig
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt
+    status_code: 307
+
+  - match: ^https?:\/\/api\.jr\.mi\.com\/jr\/api\/playScreen
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt
+    status_code: 307
+
+  - match: ^https?:\/\/api\.jr\.mi\.com\/v\d\/adv\/
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt
+    status_code: 307
+
+  - match: ^https?:\/\/api\.m\.mi\.com\/v\d\/app\/start
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt
+    status_code: 307
+
+  - match: ^https?:\/\/api-mifit.+?\.huami\.com\/discovery\/mi\/discovery\/.+?_ad\?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt
+    status_code: 307
+
+  - match: ^https?:\/\/api-mifit\.huami\.com\/discovery\/mi\/discovery\/homepage_ad\?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif
+    status_code: 307
+
+  - match: ^https?:\/\/api-mifit\.huami\.com\/discovery\/mi\/discovery\/sleep_ad\?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif
+    status_code: 307
+
+  - match: ^https?:\/\/api-mifit\.huami\.com\/discovery\/mi\/discovery\/sport_summary_ad\?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif
+    status_code: 307
+
+  - match: ^https?:\/\/api-mifit\.huami\.com\/discovery\/mi\/discovery\/sport_training_ad\?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif
+    status_code: 307
+
+  - match: ^https?:\/\/api-mifit\.huami\.com\/discovery\/mi\/discovery\/step_detail_ad\?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif
+    status_code: 307
+
+  - match: ^https?:\/\/api-mifit\.huami\.com\/discovery\/mi\/discovery\/training_video_ad\?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif
+    status_code: 307
+
+scriptings:
+  - http_response:
+      name: 小米
+      match: ^https:\/\/api\.m\.mi\.com\/v1\/(app\/start|order\/expressView)
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
+      timeout: 60
+      body_required: true
+
+mitm:
+  hostnames:
+    - api.indeedpower.com
+    - api.jr.mi.com
+    - api.m.mi.com
+    - api-mifit.huami.com
+    - api-mifit-cn2.huami.com
+    - api-miprint.hannto.com
+    - shopapi.io.mi.com
