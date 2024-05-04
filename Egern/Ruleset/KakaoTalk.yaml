@@ -1,0 +1,15 @@
+# 规则名称:KakaoTalk
+# 规则统计:9
+
+no_resolve: true
+domain_suffix_set:
+  - kakao.co.kr
+  - kakao.com
+  - kakaocdn.net
+ip_cidr_set:
+  - 1.201.0.0/24
+  - 27.0.236.0/22
+  - 103.27.148.0/22
+  - 103.246.56.0/22
+  - 110.76.140.0/22
+  - 113.61.104.0/22
