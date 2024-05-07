@@ -1,10 +1,13 @@
 # 规则名称:OpenAI
-# 规则统计:18
+# 规则统计:20
 
+domain_set:
+  - gemini.google.com
 domain_suffix_set:
   - api.statsig.com
   - auth0.com
   - challenges.cloudflare.com
+  - chatgpt.com
   - chatgpt.livekit.cloud
   - client-api.arkoselabs.com
   - events.statsigapi.net

@@ -1,9 +1,11 @@
 # 规则名称:OpenAI
-# 规则统计:18
+# 规则统计:20
 
+DOMAIN,gemini.google.com
 DOMAIN-SUFFIX,api.statsig.com
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,chatgpt.livekit.cloud
 DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,events.statsigapi.net

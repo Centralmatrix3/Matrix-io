@@ -1,9 +1,11 @@
 # 规则名称:OpenAI
-# 规则统计:18
+# 规则统计:20
 
+HOST,gemini.google.com,OpenAI
 HOST-SUFFIX,api.statsig.com,OpenAI
 HOST-SUFFIX,auth0.com,OpenAI
 HOST-SUFFIX,challenges.cloudflare.com,OpenAI
+HOST-SUFFIX,chatgpt.com,OpenAI
 HOST-SUFFIX,chatgpt.livekit.cloud,OpenAI
 HOST-SUFFIX,client-api.arkoselabs.com,OpenAI
 HOST-SUFFIX,events.statsigapi.net,OpenAI
