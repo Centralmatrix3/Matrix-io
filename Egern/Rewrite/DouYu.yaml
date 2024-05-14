@@ -1,0 +1,52 @@
+name: 斗鱼
+description: 斗鱼去广告
+author: fmz200
+
+url_rewrites:
+  - match: ^https?:\/\/capi\.douyucdn\.cn\/lapi\/sign\/app(api)?\/getinfo\?client_sys=ios
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/daoyu\.sdo\.com\/api\/userCommon\/getAppStartAd
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/douyucdn\.cn\/.+\/appapi\/getinfo
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/staticlive\.douyucdn\.cn\/.+\/getStartSend
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/staticlive\.douyucdn\.cn\/upload\/signs\/
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/capi\.douyucdn\.cn\/api\/ios_app\/check_update
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif
+    status_code: 307
+
+  - match: ^https?:\/\/capi\.douyucdn\.cn\/api\/v1\/getStartSend?client_sys=ios
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif
+    status_code: 307
+
+  - match: ^https?:\/\/douyucdn\.cn\/.+?\/appapi\/getinfo
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif
+    status_code: 307
+
+  - match: ^https?:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt
+    status_code: 307
+
+  - match: ^https?:\/\/staticlive\.douyucdn\.cn\/.+?\/getStartSend
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif
+    status_code: 307
+
+mitm:
+  hostnames:
+    - capi.douyucdn.cn
+    - daoyu.sdo.com
+    - douyucdn.cn
+    - rtbapi.douyucdn.cn
+    - staticlive.douyucdn.cn

@@ -1,0 +1,28 @@
+#!name = 斗鱼
+#!desc = 斗鱼去广告
+#!author = fmz200
+
+[URL Rewrite]
+^https?:\/\/capi\.douyucdn\.cn\/lapi\/sign\/app(api)?\/getinfo\?client_sys=ios - reject
+
+^https?:\/\/daoyu\.sdo\.com\/api\/userCommon\/getAppStartAd - reject
+
+^https?:\/\/douyucdn\.cn\/.+\/appapi\/getinfo - reject
+
+^https?:\/\/staticlive\.douyucdn\.cn\/.+\/getStartSend - reject
+
+^https?:\/\/staticlive\.douyucdn\.cn\/upload\/signs\/ - reject
+
+[Map Local]
+^https?:\/\/capi\.douyucdn\.cn\/api\/ios_app\/check_update data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif"
+
+^https?:\/\/capi\.douyucdn\.cn\/api\/v1\/getStartSend?client_sys=ios data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif"
+
+^https?:\/\/douyucdn\.cn\/.+?\/appapi\/getinfo data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif"
+
+^https?:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt"
+
+^https?:\/\/staticlive\.douyucdn\.cn\/.+?\/getStartSend data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif"
+
+[MITM]
+hostname = %APPEND% capi.douyucdn.cn, daoyu.sdo.com, douyucdn.cn, rtbapi.douyucdn.cn, staticlive.douyucdn.cn

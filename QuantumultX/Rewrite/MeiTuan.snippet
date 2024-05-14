@@ -1,0 +1,45 @@
+#!name = 美团
+#!desc = 美团去广告
+#!author = fmz200
+
+^http:\/\/s3plus\.meituan\.net\/.*\/brandcpt-vedio\/.*\?time url reject
+
+^http:\/\/wmapi\.meituan\.com\/api\/v7\/(loadInfo|openscreen|startpicture)\? url reject-dict
+
+^https:\/\/cdb\.meituan\.com\/marketing\/source\/getPageSlotList url reject-dict
+
+^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4) url reject
+
+^https?:\/\/apimobile\.meituan\.com\/appupdate\/mach\/checkUpdate? url reject
+
+^https?:\/\/flowplus\.meituan\.net\/v\d\/\w+\/linglong\/\d+\.(gif|jpg|mp4) url reject
+
+^https?:\/\/img\.meituan\.net\/(?>adunion|display|midas)\/.+?\.(gif|jpg|jpg\.webp)$ url reject-200
+
+^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/\w+\.(gif|jpg|jpg\.webp)$ url reject
+
+^https?:\/\/img\.meituan\.net\/(bizad|brandCpt)\/\w+\.(png|jpg) url reject
+
+^https?:\/\/img\.meituan\.net\/bizad\/.*.jpg url reject-200
+
+^https?:\/\/p\d.meituan.net\/movie\/.*?\?may_covertWebp url reject-img
+
+^https?:\/\/p\d\.meituan\.net\/movie\/[A-Za-z0-9]+?\.jpg\?may_covertWebp url reject-200
+
+^https?:\/\/p\d\.meituan\.net\/wmbanner\/[A-Za-z0-9]+?\.jpg url reject-200
+
+^https?:\/\/p\d{1}\.meituan\.net\/(adunion|display|mmc|wmbanner)\/ url reject
+
+^https?:\/\/peisongapi\.meituan\.com\/client\/getInitiateImage url reject-200
+
+^https?:\/\/s3plus\.meituan\.net\/.+?\/linglong\/ url reject
+
+^https?:\/\/s3plus\.meituan\.net\/v1\/mss_a002 url reject-img
+
+^https?:\/\/wmapi\.meituan\.com\/api\/v\d\/startpicture url reject
+
+^https?:\/\/wmapi\.meituan\.com\/api\/v\d+\/loadInfo\? url reject
+
+^https?:\/\/www\.meituan\.com\/api\/v\d\/appstatus\? url reject
+
+hostname = apimobile.meituan.net, cdb.meituan.com, flowplus.meituan.net, img.meituan.net, p*.meituan.net, peisongapi.meituan.com, s3plus.meituan.net, wmapi.meituan.com, wmapi.meituan.net, www.meituan.net

@@ -1,0 +1,60 @@
+name: 搜狐视频
+description: 搜狐视频去广告
+author: fmz200
+
+url_rewrites:
+  - match: ^https?:\/\/(api|api-bk\d+)\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/pic\.k\.sohu\.com\/img\d\/wb\/tj\/
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/agn\.aty\.sohu\.com\/m?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif
+    status_code: 307
+
+  - match: ^https?:\/\/api\.k\.sohu\.com\/api\/channel\/ad\/
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif
+    status_code: 307
+
+  - match: ^https?:\/\/api\.k\.sohu\.com\/api\/news\/adsense
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt
+    status_code: 307
+
+  - match: ^https?:\/\/hui\.sohu\.com\/predownload2\/?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif
+    status_code: 307
+
+  - match: ^https?:\/\/m\.aty\.sohu\.com\/openload?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif
+    status_code: 307
+
+  - match: ^https?:\/\/mmg\.aty\.sohu\.com\/mqs?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif
+    status_code: 307
+
+  - match: ^https?:\/\/mmg\.aty\.sohu\.com\/pvlog?
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif
+    status_code: 307
+
+  - match: ^https?:\/\/photocdn\.sohu\.com\/tvmobilemvms
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif
+    status_code: 307
+
+  - match: ^https?:\/\/pic\.k\.sohu\.com\/img8\/wb\/tj\/
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt
+    status_code: 307
+
+  - match: ^https?:\/\/s\.go\.sohu\.com\/adgtr\/\?gbcode=
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif
+    status_code: 307
+
+  - match: ^https?:\/\/s1\.api\.tv\.itc\.cn\/v4\/mobile\/control\/switch\.json
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt
+    status_code: 307
+
+mitm:
+  hostnames:
+    - '*.souhu.com'

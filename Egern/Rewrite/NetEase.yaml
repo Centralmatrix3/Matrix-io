@@ -1,0 +1,203 @@
+name: 网易
+description: 网易去广告
+author: fmz200
+
+url_rewrites:
+  - match: ^http:\/\/analytics\.163\.com\/ntes
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https://support.you.163.com/appversync/check.do
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https:\/\/appconf\.mail\.163\.com\/mmad\/get\.do
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/c\.m\.163\.com\/nc\/gl\/
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/client\.mail\.163.com\/apptrack\/confinfo\/(searchMultiAds.do|showAds.do)
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/client\.mail\.163\.com\/apptrack\/confinfo\/searchMultiAds
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/g1.163.com\/madfeedback
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/gw\.kaola\.com\/gw\/dgmobile\/newOpenAd
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/iadmusicmat\.music.126.net\/.*?jpg$
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/img1.126.net\/.+dpi=\w{7,8}
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/img1.126.net\/channel14\/
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/m\.you\.163\.com\/activity\/popWindow
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/nex.163.com\/q
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/oimage([a-z])([0-9])\.ydstatic\.com\/.+adpublish
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/p\.c\.music\.126.net\/.*?jpg$
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/p\d\.music\.126\.net\/\w+==\/\d+\.jpg$
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/yanxuan\.nosdn\.127\.net\/.*\.mp4
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https:\/\/api-overmind\.youdao\.com\/openapi\/get\/luna\/dict\/dict-mobile\/prod\/dictCommonConfig
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/cdke\.youdao\.com\/course3\/recommend\/dict\/startup
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/dict\.youdao\.com\/commonsearch
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/dict\.youdao\.com\/course\/tab\/translateTab
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/dict\.youdao\.com\/dictusertask\/system
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/dict\.youdao\.com\/vip\/activity\/couponinfo
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https:\/\/dictvip-business\.youdao\.com\/home\/ad
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https?:\/\/appconf\.mail\.163\.com\/mmad\/
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt
+    status_code: 307
+
+  - match: ^https?:\/\/dsp-impr2\.youdao\.com\/adload
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt
+    status_code: 307
+
+  - match: ^https?:\/\/easyreadfs\.nosdn\.127\.net\/ad-material\/
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt
+    status_code: 307
+
+  - match: ^https?:\/\/god\.gameyw\.netease\.com\/v\d\/ad\/serving\/(common|app-start)
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json
+    status_code: 307
+
+  - match: ^https?:\/\/impservice\.dictapp\.youdao\.com\/imp\/request
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif
+    status_code: 307
+
+  - match: ^https?:\/\/interface3?\.music\.163\.com/eapi/(ad|abtest|sp|hot|store|mlog|search/(specialkeyword|defaultkeyword|hot))
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif
+    status_code: 307
+
+  - match: ^https?:\/\/kaola-haitao\.oss\.kaolacdn.com\/.+?_\d{3,4}_\d{4}\.jpg\?x-oss-process=image\/resize,m_mfit,w_\d{3,4},h_\d{4}\/format,webp\/quality,Q_85
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt
+    status_code: 307
+
+  - match: ^https?:\/\/oimage\w\d\.ydstatic\.com\/image\?.+?=adpublish
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif
+    status_code: 307
+
+  - match: ^https?:\/\/ok\.166\.net\/reunionpub\/202[2-9]{1}-[0-9]{2}-[0-9]{2}\/ntesgod_cms\/.*.jpg$
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt
+    status_code: 307
+
+  - match: ^https?:\/\/oral\.youdao\.com\/oral\/adInfo
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif
+    status_code: 307
+
+  - match: ^https?:\/\/p[^4](c)?\.music\.126\.net\/\w+==\/10995\d{13}\.jpg$
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif
+    status_code: 307
+
+  - match: ^https?:\/\/p\.du\.163\.com\/ad\/
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt
+    status_code: 307
+
+  - match: ^https?:\/\/sp\.kaola\.com\/api\/openad
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt
+    status_code: 307
+
+  - match: ^https?:\/\/support\.you\.163\.com\/xhr\/boot\/getBootMedia\.json
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt
+    status_code: 307
+
+  - match: ^https?:\/\/www.icourse163.org\/.*?(Advertisement)
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif
+    status_code: 307
+
+  - match: ^https?:\/\/www\.icourse163\.org\/mob\/j\/v1\/mobRecommendRPCBean\.getMaxWeightAdvertisement\.rpc
+    location: https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt
+    status_code: 307
+
+scriptings:
+  - http_response:
+      name: 网易
+      match: ^https:\/\/dict\.youdao\.com\/(homepage\/promotion|course\/tab\/home|homepage\/tile)
+      script_url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/youdao/dict-youdao-ad.js
+      timeout: 60
+      body_required: true
+
+mitm:
+  hostnames:
+    - '*.music.126.net'
+    - analytics.163.com
+    - api-overmind.youdao.com
+    - appconf.mail.163.com
+    - c.m.163.com
+    - cdke.youdao.com
+    - client.mail.163.com
+    - dict.youdao.com
+    - dictvip-business.youdao.com
+    - dsp-impr2.youdao.com
+    - easyreadfs.nosdn.127.net
+    - g1.163.com
+    - god.gameyw.netease.com
+    - gw.kaola.com
+    - img1.126.net
+    - impservice.dictapp.youdao.com
+    - interface*.music.163.com
+    - kaola-haitao.oss.kaolacdn.com
+    - m.you.163.com
+    - nex.163.com
+    - oimage*.ydstatic.com
+    - ok.166.net
+    - oral.youdao.com
+    - p.du.163.com
+    - sp.kaola.com
+    - support.you.163.com
+    - www.icourse163.org
+    - yanxuan.nosdn.127.net
