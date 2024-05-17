@@ -16,7 +16,7 @@ jobs:
 
     steps: 
     - name: Checkout target repository
-      uses: actions/checkout@v4.1.5
+      uses: actions/checkout@v4.1.6
       with:
         repository: Centralmatrix3/Matrix-io
         path: Matrix-io-repo
