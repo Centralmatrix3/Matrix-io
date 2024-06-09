@@ -1,0 +1,90 @@
+#!name = 网易
+#!desc = 网易去广告
+#!author = fmz200
+
+[URL Rewrite]
+^http:\/\/analytics\.163\.com\/ntes - reject
+
+^https://support.you.163.com/appversync/check.do - reject
+
+^https:\/\/api-overmind\.youdao\.com\/openapi\/get\/luna\/dict\/dict-mobile\/prod\/dictCommonConfig - reject-dict
+
+^https:\/\/appconf\.mail\.163\.com\/mmad\/get\.do - reject
+
+^https:\/\/cdke\.youdao\.com\/course3\/recommend\/dict\/startup - reject-dict
+
+^https:\/\/dict\.youdao\.com\/commonsearch - reject-dict
+
+^https:\/\/dict\.youdao\.com\/course\/tab\/translateTab - reject-dict
+
+^https:\/\/dict\.youdao\.com\/dictusertask\/system - reject-dict
+
+^https:\/\/dict\.youdao\.com\/vip\/activity\/couponinfo - reject-dict
+
+^https:\/\/dictvip-business\.youdao\.com\/home\/ad - reject-dict
+
+^https?:\/\/appconf\.mail\.163\.com\/mmad\/ - reject-200
+
+^https?:\/\/c\.m\.163\.com\/nc\/gl\/ - reject
+
+^https?:\/\/client\.mail\.163.com\/apptrack\/confinfo\/(searchMultiAds.do|showAds.do) - reject
+
+^https?:\/\/client\.mail\.163\.com\/apptrack\/confinfo\/searchMultiAds - reject
+
+^https?:\/\/dsp-impr2\.youdao\.com\/adload - reject-200
+
+^https?:\/\/easyreadfs\.nosdn\.127\.net\/ad-material\/ - reject-200
+
+^https?:\/\/g1.163.com\/madfeedback - reject
+
+^https?:\/\/god\.gameyw\.netease\.com\/v\d\/ad\/serving\/(common|app-start) - reject-dict
+
+^https?:\/\/gw\.kaola\.com\/gw\/dgmobile\/newOpenAd - reject
+
+^https?:\/\/iadmusicmat\.music.126.net\/.*?jpg$ - reject
+
+^https?:\/\/img1.126.net\/.+dpi=\w{7,8} - reject
+
+^https?:\/\/img1.126.net\/channel14\/ - reject
+
+^https?:\/\/impservice\.dictapp\.youdao\.com\/imp\/request - reject-img
+
+^https?:\/\/interface3?\.music\.163\.com/eapi/(ad|abtest|sp|hot|store|mlog|search/(specialkeyword|defaultkeyword|hot)) - reject-img
+
+^https?:\/\/kaola-haitao\.oss\.kaolacdn.com\/.+?_\d{3,4}_\d{4}\.jpg\?x-oss-process=image\/resize,m_mfit,w_\d{3,4},h_\d{4}\/format,webp\/quality,Q_85 - reject-200
+
+^https?:\/\/m\.you\.163\.com\/activity\/popWindow - reject
+
+^https?:\/\/nex.163.com\/q - reject
+
+^https?:\/\/oimage([a-z])([0-9])\.ydstatic\.com\/.+adpublish - reject
+
+^https?:\/\/oimage\w\d\.ydstatic\.com\/image\?.+?=adpublish - reject-img
+
+^https?:\/\/ok\.166\.net\/reunionpub\/202[2-9]{1}-[0-9]{2}-[0-9]{2}\/ntesgod_cms\/.*.jpg$ - reject-200
+
+^https?:\/\/oral\.youdao\.com\/oral\/adInfo - reject-img
+
+^https?:\/\/p[^4](c)?\.music\.126\.net\/\w+==\/10995\d{13}\.jpg$ - reject-img
+
+^https?:\/\/p\.c\.music\.126.net\/.*?jpg$ - reject
+
+^https?:\/\/p\.du\.163\.com\/ad\/ - reject-200
+
+^https?:\/\/p\d\.music\.126\.net\/\w+==\/\d+\.jpg$ - reject
+
+^https?:\/\/sp\.kaola\.com\/api\/openad - reject-200
+
+^https?:\/\/support\.you\.163\.com\/xhr\/boot\/getBootMedia\.json - reject-200
+
+^https?:\/\/www.icourse163.org\/.*?(Advertisement) - reject-img
+
+^https?:\/\/www\.icourse163\.org\/mob\/j\/v1\/mobRecommendRPCBean\.getMaxWeightAdvertisement\.rpc - reject-200
+
+^https?:\/\/yanxuan\.nosdn\.127\.net\/.*\.mp4 - reject
+
+[Script]
+网易 = type=http-response,pattern=^https:\/\/dict\.youdao\.com\/(homepage\/promotion|course\/tab\/home|homepage\/tile),script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/youdao/dict-youdao-ad.js,requires-body=true,timeout=60
+
+[MITM]
+hostname = %APPEND% *.music.126.net, analytics.163.com, api-overmind.youdao.com, appconf.mail.163.com, c.m.163.com, cdke.youdao.com, client.mail.163.com, dict.youdao.com, dictvip-business.youdao.com, dsp-impr2.youdao.com, easyreadfs.nosdn.127.net, g1.163.com, god.gameyw.netease.com, gw.kaola.com, img1.126.net, impservice.dictapp.youdao.com, interface*.music.163.com, kaola-haitao.oss.kaolacdn.com, m.you.163.com, nex.163.com, oimage*.ydstatic.com, ok.166.net, oral.youdao.com, p.du.163.com, sp.kaola.com, support.you.163.com, www.icourse163.org, yanxuan.nosdn.127.net

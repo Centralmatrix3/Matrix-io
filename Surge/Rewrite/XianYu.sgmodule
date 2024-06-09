@@ -1,0 +1,28 @@
+#!name = 闲鱼
+#!desc = 闲鱼去广告
+#!author = fmz200
+
+[URL Rewrite]
+^https:\/\/gw\.alicdn\.com\/mt\/ - reject
+
+^https:\/\/gw\.alicdn\.com\/tfs\/.+\d{3,4}-\d{4} - reject
+
+^https?:\/\/(gw|heic)\.alicdn\.com\/\w{2}s\/[\w\/.-]+\.jpg_(9\d{2}|\d{4}) - reject
+
+^https?:\/\/(gw|heic)\.alicdn\.com\/imgextra\/.+\d{4}-\d{4}\.jpg_(9\d{2}|\d{4}) - reject
+
+^https?:\/\/(gw|heic)\.alicdn\.com\/imgextra\/\w{2}\/[\w!]+-\d-tps-\d{3,4}-\d{4}\.jpg_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q\d0\.jpg_\.(heic|webp)$ - reject
+
+[Map Local]
+^https?:\/\/(?>heic|gw)\.alicdn\.com\/tfs\/TB1.+?-\d{4}-\d{4}\.jpg_1200x1200q90\.jpg_\.\w{3,4}$ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt"
+
+^https?:\/\/asp\.cntv\.myalicdn\.com\/.+?\?maxbr=850 data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt"
+
+^https?:\/\/gw\.alicdn\.com\/tfs\/.+?\d{4}-\d{4}\/[a-z]{3}$ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt"
+
+^https?:\/\/gw\.alicdn\.com\/tfs\/TB1.+?750-\d{4} data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt"
+
+^https?:\/\/heic\.alicdn\.com\/tps\/i4\/.+?\.jpg_1200x1200q90\.jpg_\.heic$ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt"
+
+[MITM]
+hostname = %APPEND% asp.cntv.myalicdn.com, gw.alicdn.com, heic.alicdn.com

@@ -1,0 +1,13 @@
+# 规则名称:Binance
+# 规则统计:9
+
+payload:
+  - DOMAIN-SUFFIX,binance.com
+  - DOMAIN-SUFFIX,binance.me
+  - DOMAIN-SUFFIX,binance.cloud
+  - DOMAIN-SUFFIX,bntrace.com
+  - DOMAIN-SUFFIX,bnappzh.co
+  - DOMAIN-SUFFIX,bnbzh.ac
+  - DOMAIN-SUFFIX,bnbstatic.com
+  - DOMAIN-SUFFIX,saasexch.com
+  - DOMAIN-SUFFIX,appsflayer.com

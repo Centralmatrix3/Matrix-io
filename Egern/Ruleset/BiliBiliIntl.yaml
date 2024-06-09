@@ -1,0 +1,11 @@
+# 规则名称:BiliBiliIntl
+# 规则统计:6
+
+domain_set:
+  - apm-misaka.biliapi.net
+  - p.bstarstatic.com
+  - p-bstarstatic.akamaized.net
+  - upos-bstar-mirrorakam.akamaized.net
+  - upos-bstar1-mirrorakam.akamaized.net
+domain_suffix_set:
+  - biliintl.com

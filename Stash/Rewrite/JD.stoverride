@@ -1,0 +1,29 @@
+name: 京东
+desc: 京东去广告
+author: RuCu6
+
+rules:
+  - DOMAIN,dns.jd.com,REJECT
+  - IP-CIDR,101.124.19.122/32,REJECT,no-resolve
+  - IP-CIDR6,2402:db40:5100:1011::5/128,REJECT,no-resolve
+
+http:
+  url-rewrite:
+    - ^http:\/\/\w{32}\.jddebug\.com\/diagnose\? - reject
+
+    - ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(searchBoxWord|stationPullService|uniformRecommend[06]) - reject-dict
+
+  script:
+    - match: ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(deliverLayer|getTabHomeInfo|myOrderInfo|orderTrackBusiness|personinfoBusiness|start|welcomeHome)
+      name: 京东
+      type: response
+      require-body: true
+      timeout: 60
+
+  mitm:
+    - "api.m.jd.com"
+
+script-providers:
+  京东:
+    url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/jingdong.js
+    interval: 86400

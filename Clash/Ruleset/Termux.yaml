@@ -1,0 +1,7 @@
+# 规则名称:Termux
+# 规则统计:3
+
+payload:
+  - DOMAIN-SUFFIX,termux.com
+  - DOMAIN-SUFFIX,termux.dev
+  - DOMAIN-SUFFIX,termux.org

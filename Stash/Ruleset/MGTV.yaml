@@ -1,0 +1,7 @@
+# 规则名称:MGTV
+# 规则统计:3
+
+payload:
+  - DOMAIN-SUFFIX,hitv.com
+  - DOMAIN-SUFFIX,hunantv.com
+  - DOMAIN-SUFFIX,mgtv.com

@@ -1,0 +1,6 @@
+# 规则名称:SohuVideo
+# 规则统计:2
+
+payload:
+  - DOMAIN-SUFFIX,itc.cn
+  - DOMAIN-SUFFIX,sohu.com

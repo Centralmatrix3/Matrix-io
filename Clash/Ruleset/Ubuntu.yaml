@@ -1,0 +1,8 @@
+# 规则名称:Ubuntu
+# 规则统计:4
+
+payload:
+  - DOMAIN-SUFFIX,ubuntu-touch.io
+  - DOMAIN-SUFFIX,ubuntu.com
+  - DOMAIN-SUFFIX,ubuntu.net
+  - DOMAIN-SUFFIX,ubuntuforums.org

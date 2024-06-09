@@ -1,0 +1,10 @@
+# 规则名称:Landian
+# 规则统计:6
+
+payload:
+  - DOMAIN-SUFFIX,lancdn.com
+  - DOMAIN-SUFFIX,landian.vip
+  - DOMAIN-SUFFIX,landian.xyz
+  - DOMAIN-SUFFIX,landiannews.com
+  - DOMAIN-SUFFIX,ourl.co
+  - DOMAIN-SUFFIX,wsoso.com
