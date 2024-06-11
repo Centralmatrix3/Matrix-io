@@ -6,13 +6,13 @@ on:
     - cron: "0 0,12 * * *"
 
 jobs:
-  uodate:
+  update:
     runs-on: ubuntu-latest
     env:
       TZ: 'Asia/Shanghai'
 
     steps: 
-    - name: Checkout target repository
+    - name: Checkout Repository
       uses: actions/checkout@v4.1.6
       with:
         repository: Centralmatrix3/Matrix-io
