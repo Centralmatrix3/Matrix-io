@@ -201,7 +201,7 @@ jobs:
             sed -i -e 's/DOMAIN,/HOST,/g' -e 's/DOMAIN-SUFFIX,/HOST-SUFFIX,/g' -e 's/DOMAIN-KEYWORD,/HOST-KEYWORD,/g' -e 's/IP-CIDR6,/IP6-CIDR,/g' "$file"
             sed -i 's/,no-resolve//g' "$file"
             filename=$(basename "$file" .list)
-            awk -v policy="$filename" '!/\/\/|#|,policy|^ *$/ {print $0","policy; next} {print}' "$file" > tmpfile
+            awk -v policy="$filename" '!/\/\/|#|^ *$/ {print $0","policy; next} {print}' "$file" > tmpfile
             mv tmpfile "$file"
             filename=$(basename "$file" .list)
             awk -v fname="$filename" 'NR==1 {print "# 规则名称:" fname} {print}' "$file" > tmpfile
