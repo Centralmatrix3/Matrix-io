@@ -1,5 +1,5 @@
 # 规则名称:PROXY
-# 规则统计:24796
+# 规则统计:24799
 
 HOST,3dns-1.adobe.com,PROXY
 HOST,3dns-2.adobe.com,PROXY
@@ -4707,6 +4707,9 @@ HOST-SUFFIX,brutalfetish.com,PROXY
 HOST-SUFFIX,brutaltgp.com,PROXY
 HOST-SUFFIX,bs-adreview.com,PROXY
 HOST-SUFFIX,bs-awh.ne.jp,PROXY
+HOST-SUFFIX,bsky.app,PROXY
+HOST-SUFFIX,bsky.network,PROXY
+HOST-SUFFIX,bsky.social,PROXY
 HOST-SUFFIX,bstatic.com,PROXY
 HOST-SUFFIX,bsw.co.jp,PROXY
 HOST-SUFFIX,bsw.jp,PROXY

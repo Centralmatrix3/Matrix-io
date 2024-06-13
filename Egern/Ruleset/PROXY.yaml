@@ -1,5 +1,5 @@
 # 规则名称:PROXY
-# 规则统计:24796
+# 规则统计:24799
 
 domain_set:
   - 3dns-1.adobe.com
@@ -4709,6 +4709,9 @@ domain_suffix_set:
   - brutaltgp.com
   - bs-adreview.com
   - bs-awh.ne.jp
+  - bsky.app
+  - bsky.network
+  - bsky.social
   - bstatic.com
   - bsw.co.jp
   - bsw.jp
