@@ -1,0 +1,9 @@
+# 规则名称:Bitauto
+# 规则统计:5
+
+payload:
+  - DOMAIN-SUFFIX,bitauto.com
+  - DOMAIN-SUFFIX,bitautoimg.com
+  - DOMAIN-SUFFIX,cheyisou.com
+  - DOMAIN-SUFFIX,yccdn.com
+  - DOMAIN-SUFFIX,yiche.com

@@ -1,0 +1,116 @@
+name: 喜马拉雅
+description: 喜马拉雅去广告
+author: fmz200
+
+url_rewrites:
+  - match: ^https?:\/\/(adse\.wsa|adse|adbehavior|xdcs-collector)\.xima.*\.com\/.*
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/.*\.xima.*\.com/mobile-user/minorProtection/pop
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/.*\.xima.*\.com\/(dog-portal\/checkOld|(child-mobile\/child|aged-mobile\/aged)\/mode\/query)
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/.*\.xima.*\.com\/(hub)?guideWord
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/.*\.xima.*\.com\/api\/v\d\/adRealTime
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/.*\.xima.*\.com\/butler-portal\/versionCheck
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/.*\.xima.*\.com\/chaos-notice-web\/v1\/message\/preview\/list
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/.*\.xima.*\.com\/collector\/xl\/v\d
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/.*\.xima.*\.com\/discovery-feed\/focus\/queryF
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/.*\.xima.*\.com\/discovery-feed\/isShowUserGiftPendant
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/.*\.xima.*\.com\/hotWord
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/.*\.xima.*\.com\/mobile\/discovery\/v\d\/location
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/.*\.xima.*\.com\/mobile-playpage\/view\/
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/.*\.xima.*\.com\/mobile-user\/unread
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/.*\.xima.*\.com\/social-web\/bottomTabs\/dynamicEntrance\/status
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/.*\.xima.*\.com\/ting\/(loading|feed|home)?
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/.*\.xmcdn\.com\/\w{8}\/\w{4}-\w{16}\/.+gif$
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/gslb.*\.xima.*\.com\/
+    location: http://reject/
+    status_code: 307
+
+scriptings:
+  - http_response:
+      name: 喜马拉雅
+      match: ^https?:\/\/.*\.xima.*\.com\/discovery-category\/customCategories
+      script_url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xmly_json.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 喜马拉雅
+      match: ^https?:\/\/.*\.xima.*\.com\/discovery-category\/v\d/category
+      script_url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xmly_json.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 喜马拉雅
+      match: ^https?:\/\/.*\.xima.*\.com\/discovery-feed\/v\d\/mix
+      script_url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xmly_json.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 喜马拉雅
+      match: ^https?:\/\/.*\.xima.*\.com\/focus-mobile\/focusPic
+      script_url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xmly_json.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 喜马拉雅
+      match: ^https?:\/\/.*\.xima.*\.com\/mobile-user\/v\d\/homePage
+      script_url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xmly_json.js
+      timeout: 60
+      body_required: true
+
+mitm:
+  hostnames:
+    - '*.xima*.*.com'

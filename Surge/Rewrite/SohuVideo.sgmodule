@@ -1,0 +1,34 @@
+#!name = 搜狐视频
+#!desc = 搜狐视频去广告
+#!author = fmz200
+
+[URL Rewrite]
+^https?:\/\/(api|api-bk\d+)\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap - reject
+
+^https?:\/\/pic\.k\.sohu\.com\/img\d\/wb\/tj\/ - reject
+
+[Map Local]
+^https?:\/\/agn\.aty\.sohu\.com\/m? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif"
+
+^https?:\/\/api\.k\.sohu\.com\/api\/channel\/ad\/ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif"
+
+^https?:\/\/api\.k\.sohu\.com\/api\/news\/adsense data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt"
+
+^https?:\/\/hui\.sohu\.com\/predownload2\/? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif"
+
+^https?:\/\/m\.aty\.sohu\.com\/openload? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif"
+
+^https?:\/\/mmg\.aty\.sohu\.com\/mqs? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif"
+
+^https?:\/\/mmg\.aty\.sohu\.com\/pvlog? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif"
+
+^https?:\/\/photocdn\.sohu\.com\/tvmobilemvms data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif"
+
+^https?:\/\/pic\.k\.sohu\.com\/img8\/wb\/tj\/ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt"
+
+^https?:\/\/s\.go\.sohu\.com\/adgtr\/\?gbcode= data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif"
+
+^https?:\/\/s1\.api\.tv\.itc\.cn\/v4\/mobile\/control\/switch\.json data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt"
+
+[MITM]
+hostname = %APPEND% *.souhu.com

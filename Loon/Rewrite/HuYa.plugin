@@ -1,0 +1,15 @@
+#!name = 虎牙
+#!desc = 虎牙去广告
+#!author = fmz200
+
+[Rewrite]
+^http:\/\/cdn\.wup\.huya\.com\/launch\/queryHttpDns$ reject
+
+^https?://live-ads\.huya\.com/live/getAllEntrance.*$ reject-dict
+
+^https?:\/\/business\.msstatic\.com\/advertiser\/material reject
+
+^https?:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/ reject-img
+
+[MITM]
+hostname = business.msstatic.com, cdn.wup.huya.com, cdnfile1.msstatic.com, live-ads.huya.com

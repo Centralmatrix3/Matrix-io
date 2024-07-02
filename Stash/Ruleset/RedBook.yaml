@@ -1,0 +1,8 @@
+# 规则名称:RedBook
+# 规则统计:4
+
+payload:
+  - DOMAIN-SUFFIX,fengkongcloud.com
+  - DOMAIN-SUFFIX,xhscdn.com
+  - DOMAIN-SUFFIX,xhscdn.net
+  - DOMAIN-SUFFIX,xiaohongshu.com
