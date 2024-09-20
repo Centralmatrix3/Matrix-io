@@ -1,0 +1,81 @@
+name: 人人视频
+description: 人人视频去广告
+author: fmz200
+
+url_rewrites:
+  - match: ^https?:\/\/api\.rr\.tv\/.*?Version
+    location: http://reject/
+    status_code: 307
+
+scriptings:
+  - http_response:
+      name: 人人视频
+      match: ^https:\/\/api\.rr\.tv\/ad\/getAll
+      script_url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 人人视频
+      match: ^https:\/\/api\.rr\.tv\/drama\/app\/get_combined_drama_detail
+      script_url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 人人视频
+      match: ^https:\/\/api\.rr\.tv\/user\/privilege\/list
+      script_url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 人人视频
+      match: ^https:\/\/api.rr\.tv\/user\/profile
+      script_url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 人人视频
+      match: ^https:\/\/api.rr.tv\/v3plus\/index\/channel\?pageNum=1&position=CHANNEL_INDEX
+      script_url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 人人视频
+      match: ^https:\/\/api.rr.tv\/watch\/v4
+      script_url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 人人视频
+      match: ^https?:\/\/api\.rr\.tv\/\w{3}\/level\/info
+      script_url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 人人视频
+      match: ^https?:\/\/api\.rr\.tv\/app\/config\/h5NativeBar
+      script_url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 人人视频
+      match: ^https?:\/\/api\.rr\.tv\/v3plus\/index\/channel\?pageNum=1&position=CHANNEL_MY
+      script_url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js
+      timeout: 60
+      body_required: true
+
+map_locals:
+  - match: https:\/\/api.rr\.tv\/storage\/business\/rootName\/app\/homePage\?dataType=JSON
+    status_code: 200
+    body: '{}'
+
+mitm:
+  hostnames:
+    - api.rr.tv

@@ -1,0 +1,51 @@
+name: 闲鱼
+description: 闲鱼去广告
+author: fmz200
+
+url_rewrites:
+  - match: ^https:\/\/gw\.alicdn\.com\/mt\/
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https:\/\/gw\.alicdn\.com\/tfs\/.+\d{3,4}-\d{4}
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/(gw|heic)\.alicdn\.com\/\w{2}s\/[\w\/.-]+\.jpg_(9\d{2}|\d{4})
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/(gw|heic)\.alicdn\.com\/imgextra\/.+\d{4}-\d{4}\.jpg_(9\d{2}|\d{4})
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/(gw|heic)\.alicdn\.com\/imgextra\/\w{2}\/[\w!]+-\d-tps-\d{3,4}-\d{4}\.jpg_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q\d0\.jpg_\.(heic|webp)$
+    location: http://reject/
+    status_code: 307
+
+map_locals:
+  - match: ^https?:\/\/(?>heic|gw)\.alicdn\.com\/tfs\/TB1.+?-\d{4}-\d{4}\.jpg_1200x1200q90\.jpg_\.\w{3,4}$
+    status_code: 200
+    body: ' '
+
+  - match: ^https?:\/\/asp\.cntv\.myalicdn\.com\/.+?\?maxbr=850
+    status_code: 200
+    body: ' '
+
+  - match: ^https?:\/\/gw\.alicdn\.com\/tfs\/.+?\d{4}-\d{4}\/[a-z]{3}$
+    status_code: 200
+    body: ' '
+
+  - match: ^https?:\/\/gw\.alicdn\.com\/tfs\/TB1.+?750-\d{4}
+    status_code: 200
+    body: ' '
+
+  - match: ^https?:\/\/heic\.alicdn\.com\/tps\/i4\/.+?\.jpg_1200x1200q90\.jpg_\.heic$
+    status_code: 200
+    body: ' '
+
+mitm:
+  hostnames:
+    - asp.cntv.myalicdn.com
+    - gw.alicdn.com
+    - heic.alicdn.com

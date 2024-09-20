@@ -1,0 +1,28 @@
+name: 虎牙
+description: 虎牙去广告
+author: fmz200
+
+url_rewrites:
+  - match: ^http:\/\/cdn\.wup\.huya\.com\/launch\/queryHttpDns$
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/business\.msstatic\.com\/advertiser\/material
+    location: http://reject/
+    status_code: 307
+
+map_locals:
+  - match: ^https?:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/
+    status_code: 200
+    body: ''
+
+  - match: ^https?:\/\/live-ads\.huya\.com\/live\/getAllEntrance.*$
+    status_code: 200
+    body: '{}'
+
+mitm:
+  hostnames:
+    - business.msstatic.com
+    - cdn.wup.huya.com
+    - cdnfile1.msstatic.com
+    - live-ads.huya.com

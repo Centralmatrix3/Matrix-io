@@ -1,0 +1,6 @@
+# 规则名称: Copilot
+# 规则统计: 2
+
+payload:
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,copilot.microsoft.com

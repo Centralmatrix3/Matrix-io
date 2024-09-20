@@ -1,0 +1,27 @@
+# 规则名称: HMTMedia
+# 规则统计: 19
+
+no_resolve: true
+domain_set:
+  - api.biliapi.com
+  - api.biliapi.net
+  - api.bilibili.com
+  - app.biliapi.com
+  - app.biliapi.net
+  - app.bilibili.com
+  - cache.video.iqiyi.com
+  - grpc.biliapi.net
+  - m.bilibili.com
+  - mobileso.bz.mgtv.com
+  - upos-hz-mirrorakam.akamaized.net
+  - www.bilibili.com
+domain_suffix_set:
+  - api.mgtv.com
+  - wetv.vip
+  - wetvinfo.com
+domain_keyword_set:
+  - cn-hk-eq-bcache-
+ip_cidr_set:
+  - 116.211.202.206/32
+  - 116.211.202.216/32
+  - 150.109.28.51/32

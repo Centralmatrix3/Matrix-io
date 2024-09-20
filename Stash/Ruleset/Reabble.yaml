@@ -1,0 +1,6 @@
+# 规则名称: Reabble
+# 规则统计: 2
+
+payload:
+  - DOMAIN-SUFFIX,reabble.cn
+  - DOMAIN-SUFFIX,reabble.com

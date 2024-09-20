@@ -1,0 +1,169 @@
+name: 百度
+description: 百度去广告
+author: fmz200
+
+url_rewrites:
+  - match: (ps|sv|offnavi|newvector|ulog.imap|newloc)(.map)?.(baidu|n.shifen).com
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/afd\.baidu\.com\/afd\/entry
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/als\.baidu\.com\/clog\/clog
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/baichuan\.baidu\.com\/rs\/adpmobile\/launch
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/cover\.baidu\.com\/cover\/page\/dspSwitchAds\/
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/fcvbjbcebos\.baidu\.com\/.+.mp4
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/fc-video\.cdn\.bcebos\.com
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/guanggao
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/log.+?baidu\.com
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/mime\.baidu\.com\/v\d\/activity\/advertisement
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/mime\.baidu\.com\/v\d\/IosStart\/getStartInfo
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/mobads\.baidu\.com\/cpro\/ui\/mads.+
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/ndstatic\.cdn\.bcebos\.com\/activity\/welfare\/index\.html
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/ndstatic\.cdn\.bcebos\.com\/activity\/welfare\/js\/.+\.js
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/pan\.baidu\.com\/act\/.+\/bchannel\/list
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/pan\.baidu\.com\/act\/v\d\/(bchannel|welfare)\/list
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/pan\.baidu\.com\/api\/certuser\/get
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/pan\.baidu\.com\/api\/useractivity\/activity
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/pan\.baidu\.com\/component\/view\/(1510|1130)\?vip
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/pan\.baidu\.com\/pmall\/order\/privilege\/info
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/pan\.baidu\.com\/rest\/.+\/pcs\/adx
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/pan\.baidu\.com\/rest\/\d\.\d\/pcs\/adx
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/ad
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/rp\.hpplay\.cn\/logouts
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/staticsns\.cdn\.bcebos\.com\/amis\/.+/banner.png
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/update.pan.baidu.com\/statistics
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/update\.pan\.baidu\.com\/statistics
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/www.baidu.com\/?action=static&ms=1&version=css_page_2@0.*?
+    location: http://reject/
+    status_code: 307
+
+map_locals:
+  - match: ^https?:\/\/[\s\S]*\.baidu\.com/.*?ad[xs]\.php
+    status_code: 200
+    body: ''
+
+  - match: ^https?:\/\/api\d\.tuisong\.baidu\.com
+    status_code: 200
+    body: ''
+
+  - match: ^https?:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad
+    status_code: 200
+    body: ' '
+
+  - match: ^https?:\/\/fcvbjbcebos\.baidu\.com\/.+?\.mp4
+    status_code: 200
+    body: ''
+
+  - match: ^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/guanggao\/
+    status_code: 200
+    body: ' '
+
+  - match: ^https?:\/\/sa\d\.tuisong\.baidu\.com
+    status_code: 200
+    body: ''
+
+  - match: ^https?:\/\/t\d{2}\.baidu\.com
+    status_code: 200
+    body: ''
+
+mitm:
+  hostnames:
+    - afd.baidu.com
+    - api*.tuisong.baidu.com
+    - appwk.baidu.com
+    - baichuan.baidu.com
+    - cover.baidu.com
+    - fcvbjbcebos.baidu.com
+    - fc-video.cdn.bcebos.com
+    - issuecdn.baidupcs.com
+    - mime.baidu.com
+    - mobads.baidu.com
+    - ndstatic.cdn.bcebos.com
+    - pan.baidu.com
+    - rp.hpplay.cn
+    - sa*.tuisong.baidu.com
+    - staticsns.cdn.bcebos.com
+    - update.pan.baidu.com
+    - www.baidu.com

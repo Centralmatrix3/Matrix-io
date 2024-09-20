@@ -1,0 +1,30 @@
+#!name = 人人视频
+#!desc = 人人视频去广告
+#!author = fmz200
+
+[Rewrite]
+^https:\/\/api\.rr\.tv\/storage\/business\/rootName\/app\/homePage\?dataType=JSON reject-dict
+
+^https?:\/\/api\.rr\.tv\/.*?Version reject
+
+[Script]
+http-response ^https:\/\/api\.rr\.tv\/ad\/getAll script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js, requires-body=true, timeout=60, tag=人人视频
+
+http-response ^https:\/\/api\.rr\.tv\/drama\/app\/get_combined_drama_detail script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js, requires-body=true, timeout=60, tag=人人视频
+
+http-response ^https:\/\/api\.rr\.tv\/user\/privilege\/list script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js, requires-body=true, timeout=60, tag=人人视频
+
+http-response ^https:\/\/api\.rr\.tv\/user\/profile script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js, requires-body=true, timeout=60, tag=人人视频
+
+http-response ^https:\/\/api\.rr\.tv\/v3plus\/index\/channel\?pageNum=1&position=CHANNEL_INDEX script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js, requires-body=true, timeout=60, tag=人人视频
+
+http-response ^https:\/\/api\.rr\.tv\/watch\/v4 script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js, requires-body=true, timeout=60, tag=人人视频
+
+http-response ^https?:\/\/api\.rr\.tv\/\w{3}\/level\/info script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js, requires-body=true, timeout=60, tag=人人视频
+
+http-response ^https?:\/\/api\.rr\.tv\/app\/config\/h5NativeBar script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js, requires-body=true, timeout=60, tag=人人视频
+
+http-response ^https?:\/\/api\.rr\.tv\/v3plus\/index\/channel\?pageNum=1&position=CHANNEL_MY script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js, requires-body=true, timeout=60, tag=人人视频
+
+[MITM]
+hostname = api.rr.tv

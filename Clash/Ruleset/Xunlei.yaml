@@ -1,0 +1,12 @@
+# 规则名称: Xunlei
+# 规则统计: 8
+
+payload:
+  - DOMAIN-SUFFIX,00cdn.com
+  - DOMAIN-SUFFIX,88cdn.com
+  - DOMAIN-SUFFIX,kanimg.com
+  - DOMAIN-SUFFIX,kankan.com
+  - DOMAIN-SUFFIX,p2cdn.com
+  - DOMAIN-SUFFIX,sandai.net
+  - DOMAIN-SUFFIX,thundercdn.com
+  - DOMAIN-SUFFIX,xunlei.com

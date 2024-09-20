@@ -1,0 +1,86 @@
+#!name = 腾讯
+#!desc = 腾讯去广告
+#!author = fmz200
+
+[URL Rewrite]
+^http:\/\/[\d\.:]*\/?(defaultts\.tc|vmind\.qqvideo\.tc|finderpdd\.video)\.qq\.com\/\w+ - reject
+
+^http:\/\/apd-\w+\.v\.smtcdns\.com\/(defaultts|omts|vmind\.qqvideo)\.tc\.qq\.com\/\w+ - reject
+
+^http:\/\/apd-vlive\.apdcdn\.tc\.qq\.com\/vmind\.qqvideo\.tc\.qq\.com\/\w+ - reject
+
+^https:\/\/otheve.beacon\.qq.com\/analytics\/upload\?sid=.* - reject
+
+^https:\/\/us\.l\.qq\.com\/exapp - reject
+
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/music\/common\/upload\/t_splash_info\/ - reject
+
+^https?:\/\/.+?\/music\/common\/upload\/t_splash_info\/ - reject
+
+^https?:\/\/\w+\.beacon\.qq\.com - reject
+
+^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/app\/activity\/ - reject-200
+
+^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/splash\/ - reject-200
+
+^https?:\/\/4gimg\.map\.qq\.com\/mwaSplash\/ - reject-200
+
+^https?:\/\/api2\.helper\.qq\.com\/game\/buttons - reject-img
+
+^https?:\/\/bk\.bingo\.qq\.com/bk\/crx\/data\/videoAd.*$ - reject-dict
+
+^https?:\/\/bla\.gtimg\.com\/qqlive\/\d{6}.+?\.png - reject-img
+
+^https?:\/\/btrace\.qq\.com - reject-200
+
+^https?:\/\/discuz\.gtimg\.cn\/cloud\/scripts\/discuz_tips\.js - reject-img
+
+^https?:\/\/imgcache\.qq\.com\/qqlive\/ - reject-img
+
+^https?:\/\/lives\.l\.qq\.com\/livemsg\?sdtfrom= - reject-img
+
+^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg - reject
+
+^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qiantu\/upload\/ - reject-img
+
+^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qqpim\/public\/ios\/splash\/.+?\/\d{4}_\d{4} - reject-img
+
+^https?:\/\/mtteve\.beacon\.qq\.com\/analytics - reject-img
+
+^https?:\/\/news\.ssp\.qq\.com\/app - reject
+
+^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info - reject
+
+^https?:\/\/qzonestyle\.gtimg\.cn\/qzone\/biz\/gdt\/mob\/sdk\/ios\/v2\/ - reject-img
+
+^https?:\/\/r\.inews\.qq\.com\/(adsBlacklist|getFullScreenPic|getQQNewsRemoteConfig) - reject
+
+^https?:\/\/r\.inews\.qq\.com\/(getBannerAds|getNewsRemoteConfig|getSplash|searchHotCatList|upLoadLoc) - reject
+
+^https?:\/\/splashqqlive\.gtimg\.com\/website\/\d{6} - reject-img
+
+^https?:\/\/sports3\.gtimg\.com\/community\/20cf93884470434eaf38b2e77ab7796a\.png - reject
+
+^https?:\/\/ssl\.kohsocialapp\.qq\.com:\d+\/game\/buttons - reject
+
+^https?:\/\/ssl\.kohsocialapp\.qq\.com:10001\/game\/buttons - reject-200
+
+^https?:\/\/vv\.video\.qq\.com\/(diff|get)vmind - reject-dict
+
+^https?:\/\/vv\.video\.qq\.com\/getvmind\? - reject-200
+
+^https?:\/\/y\.gtimg\.cn\/music\/.*?_Ad/\d+\.png - reject-img
+
+^https?:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad/.*?\d{4}\.jpg - reject-img
+
+^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/t_splash_info\/ - reject
+
+^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/targeted_ads - reject-img
+
+[Script]
+腾讯 = type=http-response,pattern=^https:\/\/(news\.ssp\.qq\.com\/app|r\.inews\.qq\.com\/(get(QQNewsUnreadList|TagFeedList)|gw\/page\/event_detail|news_feed\/hot_module_list)),script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/qq-news.js,requires-body=true,timeout=60
+
+腾讯 = type=http-request,pattern=^https?:\/\/vv\.video\.qq\.com\/getvinfo,script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-body.js,requires-body=true,timeout=30,argument="&sppreviewtype=\d(.*)&spsrt=\d->&sppreviewtype=0$1&spsrt=0"
+
+[MITM]
+hostname = %APPEND% *.beacon.qq.com, 3gimg.qq.com, 4gimg.map.qq.com, api2.helper.qq.com, bk.bingo.qq.com, bla.gtimg.com, btrace.qq.com, discuz.gtimg.cn, imgcache.qq.com, lives.l.qq.com, mi.gdt.qq.com, mmgr.gtimg.com, mtteve.beacon.qq.com, news.ssp.qq.com, otheve.beacon.qq.com, qt.qq.com, qzonestyle.gtimg.cn, r.inews.qq.com, splashqqlive.gtimg.com, sports3.gtimg.com, ssl.kohsocialapp.qq.com, us.l.qq.com, vv.video.qq.com, y.gtimg.cn

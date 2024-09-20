@@ -1,0 +1,9 @@
+# 规则名称: WeTV
+# 规则统计: 3
+
+no_resolve: true
+domain_suffix_set:
+  - wetv.vip
+  - wetvinfo.com
+ip_cidr_set:
+  - 150.109.28.51/32

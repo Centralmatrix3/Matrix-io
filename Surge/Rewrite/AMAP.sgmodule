@@ -1,0 +1,62 @@
+#!name = 高德地图
+#!desc = 高德地图去广告
+#!author = RuCu6、kokoryh
+
+[Script]
+高德地图 = type=http-response,pattern=^http:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/header.js,timeout=60
+
+高德地图 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/aos\/perception\/publicTravel\/beforeNavi\?,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js,requires-body=true,timeout=60
+
+高德地图 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/bus\/plan\/integrate\?,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js,requires-body=true,timeout=60
+
+高德地图 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/c3frontend\/af-(hotel|launch)\/page\/main\?,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js,requires-body=true,timeout=60
+
+高德地图 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/perception\/drive\/(routeInfo|routePlan),script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js,requires-body=true,timeout=60
+
+高德地图 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search\/(common\/coupon\/info|poi\/detail),script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js,requires-body=true,timeout=60
+
+高德地图 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search_bff\/hotword\?,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js,requires-body=true,timeout=60
+
+高德地图 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search_business\/process\/marketingOperationStructured\?,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js,requires-body=true,timeout=60
+
+高德地图 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/(homepage|mps|search\/sp|sug|tips_operation_location),script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js,requires-body=true,timeout=60
+
+高德地图 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/(card-service-plan-home|main-page),script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js,requires-body=true,timeout=60
+
+高德地图 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/frogserver\/aocs\/updatable\/1\?,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js,requires-body=true,timeout=60
+
+高德地图 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/profile\/index\/nodefaasv3\?,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js,requires-body=true,timeout=60
+
+高德地图 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search\/nearbyrec_smart\?,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js,requires-body=true,timeout=60
+
+高德地图 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\?,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js,requires-body=true,timeout=60
+
+高德地图 = type=http-response,pattern=^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(car\/order\/content_info|order_web\/friendly_information),script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js,requires-body=true,timeout=60
+
+高德地图 = type=http-response,pattern=^https:\/\/m5-zb\.amap\.com\/ws\/promotion-web\/resource(\/home)?\?,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js,requires-body=true,timeout=60
+
+高德地图 = type=http-response,pattern=^https:\/\/m5-zb\.amap\.com\/ws\/sharedtrip\/taxi\/order_detail_car_tips\?,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js,requires-body=true,timeout=60
+
+[Map Local]
+^https:\/\/m5\.amap\.com\/ws\/aos\/main\/page\/product\/list\? data-type=text data="{}" status-code=200
+
+^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/card-service-(car-end|route-plan) data-type=text data="{}" status-code=200
+
+^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/tips_adv\? data-type=text data="{}" status-code=200
+
+^https:\/\/oss\.amap\.com\/ws\/banner\/lists\/\? data-type=text data="{}" status-code=200
+
+^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/(main-page-assets|main-page-location|ridewalk-end-fc) data-type=text data="{}" status-code=200
+
+^https:\/\/m5\.amap\.com\/ws\/(mapapi\/hint_text\/offline_data|message\/notice\/list|shield\/search\/new_hotword) data-type=text data="{}" status-code=200
+
+^https:\/\/m5\.amap\.com\/ws\/shield\/scene\/recommend\? data-type=text data="{}" status-code=200
+
+^https:\/\/m5\.amap\.com\/ws\/valueadded\/weather\/v2\? data-type=text data="{}" status-code=200
+
+^https:\/\/sns\.amap\.com\/ws\/msgbox\/pull_mp\? data-type=text data="{}" status-code=200
+
+^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(order\/car\/king_toolbox_car_bubble|tips\/onscene_visual_optimization) data-type=text data="{}" status-code=200
+
+[MITM]
+hostname = %APPEND% m5.amap.com, m5-zb.amap.com, oss.amap.com, sns.amap.com

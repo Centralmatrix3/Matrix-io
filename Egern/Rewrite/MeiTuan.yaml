@@ -1,0 +1,98 @@
+name: 美团
+description: 美团去广告
+author: fmz200
+
+url_rewrites:
+  - match: ^http:\/\/s3plus\.meituan\.net\/.*\/brandcpt-vedio\/.*\?time
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4)
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/apimobile\.meituan\.com\/appupdate\/mach\/checkUpdate?
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/flowplus\.meituan\.net\/v\d\/\w+\/linglong\/\d+\.(gif|jpg|mp4)
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/\w+\.(gif|jpg|jpg\.webp)$
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/img\.meituan\.net\/(bizad|brandCpt)\/\w+\.(png|jpg)
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/p\d{1}\.meituan\.net\/(adunion|display|mmc|wmbanner)\/
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/s3plus\.meituan\.net\/.+?\/linglong\/
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/wmapi\.meituan\.com\/api\/v\d\/startpicture
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/wmapi\.meituan\.com\/api\/v\d+\/loadInfo\?
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/www\.meituan\.com\/api\/v\d\/appstatus\?
+    location: http://reject/
+    status_code: 307
+
+map_locals:
+  - match: ^http:\/\/wmapi\.meituan\.com\/api\/v7\/(loadInfo|openscreen|startpicture)\?
+    status_code: 200
+    body: '{}'
+
+  - match: ^https:\/\/cdb\.meituan\.com\/marketing\/source\/getPageSlotList
+    status_code: 200
+    body: '{}'
+
+  - match: ^https?:\/\/img\.meituan\.net\/(?>adunion|display|midas)\/.+?\.(gif|jpg|jpg\.webp)$
+    status_code: 200
+    body: ' '
+
+  - match: ^https?:\/\/img\.meituan\.net\/bizad\/.*.jpg
+    status_code: 200
+    body: ' '
+
+  - match: ^https?:\/\/p\d.meituan.net\/movie\/.*?\?may_covertWebp
+    status_code: 200
+    body: ''
+
+  - match: ^https?:\/\/p\d\.meituan\.net\/movie\/[A-Za-z0-9]+?\.jpg\?may_covertWebp
+    status_code: 200
+    body: ' '
+
+  - match: ^https?:\/\/p\d\.meituan\.net\/wmbanner\/[A-Za-z0-9]+?\.jpg
+    status_code: 200
+    body: ' '
+
+  - match: ^https?:\/\/peisongapi\.meituan\.com\/client\/getInitiateImage
+    status_code: 200
+    body: ' '
+
+  - match: ^https?:\/\/s3plus\.meituan\.net\/v1\/mss_a002
+    status_code: 200
+    body: ''
+
+mitm:
+  hostnames:
+    - apimobile.meituan.net
+    - cdb.meituan.com
+    - flowplus.meituan.net
+    - img.meituan.net
+    - p*.meituan.net
+    - peisongapi.meituan.com
+    - s3plus.meituan.net
+    - wmapi.meituan.com
+    - wmapi.meituan.net
+    - www.meituan.net

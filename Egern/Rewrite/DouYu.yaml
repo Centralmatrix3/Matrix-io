@@ -1,0 +1,53 @@
+name: 斗鱼
+description: 斗鱼去广告
+author: fmz200
+
+url_rewrites:
+  - match: ^https?:\/\/capi\.douyucdn\.cn\/lapi\/sign\/app(api)?\/getinfo\?client_sys=ios
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/daoyu\.sdo\.com\/api\/userCommon\/getAppStartAd
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/douyucdn\.cn\/.+\/appapi\/getinfo
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/staticlive\.douyucdn\.cn\/.+\/getStartSend
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/staticlive\.douyucdn\.cn\/upload\/signs\/
+    location: http://reject/
+    status_code: 307
+
+map_locals:
+  - match: ^https?:\/\/capi\.douyucdn\.cn\/api\/ios_app\/check_update
+    status_code: 200
+    body: ''
+
+  - match: ^https?:\/\/capi\.douyucdn\.cn\/api\/v1\/getStartSend?client_sys=ios
+    status_code: 200
+    body: ''
+
+  - match: ^https?:\/\/douyucdn\.cn\/.+?\/appapi\/getinfo
+    status_code: 200
+    body: ''
+
+  - match: ^https?:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo
+    status_code: 200
+    body: ' '
+
+  - match: ^https?:\/\/staticlive\.douyucdn\.cn\/.+?\/getStartSend
+    status_code: 200
+    body: ''
+
+mitm:
+  hostnames:
+    - capi.douyucdn.cn
+    - daoyu.sdo.com
+    - douyucdn.cn
+    - rtbapi.douyucdn.cn
+    - staticlive.douyucdn.cn

@@ -1,0 +1,61 @@
+name: 搜狐视频
+description: 搜狐视频去广告
+author: fmz200
+
+url_rewrites:
+  - match: ^https?:\/\/(api|api-bk\d+)\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/pic\.k\.sohu\.com\/img\d\/wb\/tj\/
+    location: http://reject/
+    status_code: 307
+
+map_locals:
+  - match: ^https?:\/\/agn\.aty\.sohu\.com\/m?
+    status_code: 200
+    body: ''
+
+  - match: ^https?:\/\/api\.k\.sohu\.com\/api\/channel\/ad\/
+    status_code: 200
+    body: ''
+
+  - match: ^https?:\/\/api\.k\.sohu\.com\/api\/news\/adsense
+    status_code: 200
+    body: ' '
+
+  - match: ^https?:\/\/hui\.sohu\.com\/predownload2\/?
+    status_code: 200
+    body: ''
+
+  - match: ^https?:\/\/m\.aty\.sohu\.com\/openload?
+    status_code: 200
+    body: ''
+
+  - match: ^https?:\/\/mmg\.aty\.sohu\.com\/mqs?
+    status_code: 200
+    body: ''
+
+  - match: ^https?:\/\/mmg\.aty\.sohu\.com\/pvlog?
+    status_code: 200
+    body: ''
+
+  - match: ^https?:\/\/photocdn\.sohu\.com\/tvmobilemvms
+    status_code: 200
+    body: ''
+
+  - match: ^https?:\/\/pic\.k\.sohu\.com\/img8\/wb\/tj\/
+    status_code: 200
+    body: ' '
+
+  - match: ^https?:\/\/s\.go\.sohu\.com\/adgtr\/\?gbcode=
+    status_code: 200
+    body: ''
+
+  - match: ^https?:\/\/s1\.api\.tv\.itc\.cn\/v4\/mobile\/control\/switch\.json
+    status_code: 200
+    body: ' '
+
+mitm:
+  hostnames:
+    - '*.souhu.com'

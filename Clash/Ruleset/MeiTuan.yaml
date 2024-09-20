@@ -1,0 +1,10 @@
+# 规则名称: MeiTuan
+# 规则统计: 6
+
+payload:
+  - DOMAIN-SUFFIX,dianping.com
+  - DOMAIN-SUFFIX,maoyan.com
+  - DOMAIN-SUFFIX,meituan.com
+  - DOMAIN-SUFFIX,mtyun.com
+  - DOMAIN-SUFFIX,neixin.cn
+  - DOMAIN-SUFFIX,sankuai.com

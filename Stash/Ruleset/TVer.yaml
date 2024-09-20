@@ -1,0 +1,10 @@
+# 规则名称: TVer
+# 规则统计: 6
+
+payload:
+  - DOMAIN-SUFFIX,dogatch.jp
+  - DOMAIN-SUFFIX,edge.api.brightcove.com
+  - DOMAIN-SUFFIX,gorin.jp
+  - DOMAIN-SUFFIX,screens-lab.jp
+  - DOMAIN-SUFFIX,tver.co.jp
+  - DOMAIN-SUFFIX,tver.jp

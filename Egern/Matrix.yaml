@@ -1,0 +1,325 @@
+# 配置名称: Egern 配置
+# 配置作者: Centralmatrix3
+# 更新时间: 24-09-17 00:00
+
+# [端口设置]
+http_port: 8200      # HTTP  代理端口
+socks_port: 8300     # SOCKS 代理端口
+
+# [全局配置]
+ipv6: false          # 启用IPv6
+vif_only: true       # 接管模式
+compat_route: false  # 兼容模式
+hide_vpn_icon: false # 图标隐藏
+allow_external_connections: false
+
+# [延迟测试]
+direct_latency_test_url: http://taobao.com/
+proxy_latency_test_url: http://cp.cloudflare.com/generate_204
+
+# [GEO设置]
+geoip_db_url: https://github.com/Masaiki/GeoIP2-CN/raw/release/Country.mmdb
+
+# [DNS设置]
+dns:
+  bootstrap:
+    - 233.5.5.5
+    - 119.29.29.29
+  upstreams:
+    SecureDNS:
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+  forward:
+    - wildcard:
+        match: '*'
+        value: SecureDNS
+  public_ip_lookup_url: https://ifconfig.me/ip
+
+# [策略组]
+policy_groups:
+  - external:
+      name: 自行选择
+      type: select
+      urls:
+        - 订阅链接 # 🧸
+      filter: ^
+      interval: 1800
+      tolerance: 50
+      timeout: 5
+      update_interval: 86400
+      icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Static.png
+      hidden: false
+
+  - select:
+      name: 苹果服务
+      policies:
+        - DIRECT
+        - 自行选择
+        - 自动选择
+        - 香港节点
+        - 台湾节点
+        - 日本节点
+        - 韩国节点
+        - 狮城节点
+        - 美国节点
+      icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Apple-2.png
+      hidden: false
+
+  - select:
+      name: 港台番剧
+      policies:
+        - DIRECT
+        - 自行选择
+        - 自动选择
+        - 香港节点
+        - 台湾节点
+        - 日本节点
+        - 韩国节点
+        - 狮城节点
+        - 美国节点
+      icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/StreamingSE.png
+      hidden: false
+
+  - select:
+      name: 国内媒体
+      policies:
+        - DIRECT
+        - 自行选择
+        - 自动选择
+        - 香港节点
+        - 台湾节点
+        - 日本节点
+        - 韩国节点
+        - 狮城节点
+        - 美国节点
+      icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/StreamingCN.png
+      hidden: false
+
+  - select:
+      name: 国际媒体
+      policies:
+        - 自行选择
+        - 自动选择
+        - DIRECT
+        - 香港节点
+        - 台湾节点
+        - 日本节点
+        - 韩国节点
+        - 狮城节点
+        - 美国节点
+      icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Streaming.png
+      hidden: false
+
+  - select:
+      name: 全球加速
+      policies:
+        - 自行选择
+        - 自动选择
+        - DIRECT
+        - 香港节点
+        - 台湾节点
+        - 日本节点
+        - 韩国节点
+        - 狮城节点
+        - 美国节点
+      icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Global.png
+      hidden: false
+
+  - select:
+      name: 黑白名单
+      policies:
+        - 自行选择
+        - 自动选择
+        - DIRECT
+        - 香港节点
+        - 台湾节点
+        - 日本节点
+        - 韩国节点
+        - 狮城节点
+        - 美国节点
+      icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Final.png
+      hidden: false
+
+  - auto_test:
+      name: 自动选择
+      policies:
+        - 自行选择
+      flatten: true
+      filter: ^
+      interval: 1800
+      tolerance: 50
+      timeout: 5
+      icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Available.png
+      hidden: false
+
+  - auto_test:
+      name: 香港节点
+      policies:
+        - 自行选择
+      flatten: true
+      filter: 香港|港|HK|🇭🇰|(?i)Hong
+      interval: 1800
+      tolerance: 50
+      timeout: 5
+      icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/HK.png
+      hidden: false
+
+  - auto_test:
+      name: 台湾节点
+      policies:
+        - 自行选择
+      flatten: true
+      filter: 台湾|台|TW|🇹🇼|(?i)Taiwan
+      interval: 1800
+      tolerance: 50
+      timeout: 5
+      icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/TW.png
+      hidden: false
+
+  - auto_test:
+      name: 日本节点
+      policies:
+        - 自行选择
+      flatten: true
+      filter: 日本|日|JP|🇯🇵|(?i)Japan
+      interval: 1800
+      tolerance: 50
+      timeout: 5
+      icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/JP.png
+      hidden: false
+
+  - auto_test:
+      name: 韩国节点
+      policies:
+        - 自行选择
+      flatten: true
+      filter: 韩国|韩|KR|🇰🇷|(?i)Korea
+      interval: 1800
+      tolerance: 50
+      timeout: 5
+      icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/KR.png
+      hidden: false
+
+  - auto_test:
+      name: 狮城节点
+      policies:
+        - 自行选择
+      flatten: true
+      filter: 新加坡|狮|SG|🇸🇬|(?i)Singapore
+      interval: 1800
+      tolerance: 50
+      timeout: 5
+      icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/SG.png
+      hidden: false
+
+  - auto_test:
+      name: 美国节点
+      policies:
+        - 自行选择
+      flatten: true
+      filter: 美国|美|US|🇺🇸|(?i)States
+      interval: 1800
+      tolerance: 50
+      timeout: 5
+      icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/US.png
+      hidden: false
+
+# [分流规则]
+rules:
+  - rule_set:
+      match: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Ruleset/Unbreak.yaml
+      policy: DIRECT
+      update_interval: 86400
+      disabled: false
+
+  - rule_set:
+      match: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Ruleset/AdBlock.yaml
+      policy: REJECT
+      update_interval: 86400
+      disabled: false
+
+  - rule_set:
+      match: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Ruleset/Streaming.yaml
+      policy: 国际媒体
+      update_interval: 86400
+      disabled: false
+
+  - rule_set:
+      match: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Ruleset/StreamingSE.yaml
+      policy: 港台番剧
+      update_interval: 86400
+      disabled: false
+
+  - rule_set:
+      match: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Ruleset/StreamingCN.yaml
+      policy: 国内媒体
+      update_interval: 86400
+      disabled: false
+
+  - rule_set:
+      match: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Ruleset/Global.yaml
+      policy: 全球加速
+      update_interval: 86400
+      disabled: false
+
+  - rule_set:
+      match: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Ruleset/Apple.yaml
+      policy: 苹果服务
+      update_interval: 86400
+      disabled: false
+
+  - rule_set:
+      match: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Ruleset/LAN.yaml
+      policy: DIRECT
+      update_interval: 86400
+      disabled: false
+
+  - rule_set:
+      match: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Ruleset/GEOIPCN.yaml
+      policy: DIRECT
+      update_interval: 86400
+      disabled: false
+
+  - default:
+      policy: 黑白名单
+
+# [MITM]
+mitm:
+  enabled: true
+
+# [模块]
+modules:
+  - name: 高德去广告
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Rewrite/AMAP.yaml
+    update_interval: 86400
+    enabled: true
+
+  - name: 哔站去广告
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Rewrite/BiliBili.yaml
+    update_interval: 86400
+    enabled: true
+
+  - name: 菜鸟去广告
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Rewrite/CaiNiao.yaml
+    update_interval: 86400
+    enabled: true
+
+  - name: 微博去广告
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Rewrite/WeiBo.yaml
+    update_interval: 86400
+    enabled: true
+
+  - name: 油管去广告
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Rewrite/YouTube.yaml
+    update_interval: 86400
+    enabled: true
+
+  - name: 知乎去广告
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Rewrite/Zhihu.yaml
+    update_interval: 86400
+    enabled: true
+
+  - name: 重定向模块
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Rewrite/Redirect.yaml
+    update_interval: 86400
+    enabled: true

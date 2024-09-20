@@ -1,0 +1,34 @@
+#!name = 搜狐视频
+#!desc = 搜狐视频去广告
+#!author = fmz200
+
+[URL Rewrite]
+^https?:\/\/(api|api-bk\d+)\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap - reject
+
+^https?:\/\/pic\.k\.sohu\.com\/img\d\/wb\/tj\/ - reject
+
+[Map Local]
+^https?:\/\/agn\.aty\.sohu\.com\/m? data-type=tiny-gif status-code=200
+
+^https?:\/\/api\.k\.sohu\.com\/api\/channel\/ad\/ data-type=tiny-gif status-code=200
+
+^https?:\/\/api\.k\.sohu\.com\/api\/news\/adsense data-type=text data=" " status-code=200
+
+^https?:\/\/hui\.sohu\.com\/predownload2\/? data-type=tiny-gif status-code=200
+
+^https?:\/\/m\.aty\.sohu\.com\/openload? data-type=tiny-gif status-code=200
+
+^https?:\/\/mmg\.aty\.sohu\.com\/mqs? data-type=tiny-gif status-code=200
+
+^https?:\/\/mmg\.aty\.sohu\.com\/pvlog? data-type=tiny-gif status-code=200
+
+^https?:\/\/photocdn\.sohu\.com\/tvmobilemvms data-type=tiny-gif status-code=200
+
+^https?:\/\/pic\.k\.sohu\.com\/img8\/wb\/tj\/ data-type=text data=" " status-code=200
+
+^https?:\/\/s\.go\.sohu\.com\/adgtr\/\?gbcode= data-type=tiny-gif status-code=200
+
+^https?:\/\/s1\.api\.tv\.itc\.cn\/v4\/mobile\/control\/switch\.json data-type=text data=" " status-code=200
+
+[MITM]
+hostname = %APPEND% *.souhu.com

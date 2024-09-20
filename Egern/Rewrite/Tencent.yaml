@@ -1,0 +1,197 @@
+name: 腾讯
+description: 腾讯去广告
+author: fmz200
+
+url_rewrites:
+  - match: ^http:\/\/[\d\.:]*\/?(defaultts\.tc|vmind\.qqvideo\.tc|finderpdd\.video)\.qq\.com\/\w+
+    location: http://reject/
+    status_code: 307
+
+  - match: ^http:\/\/apd-\w+\.v\.smtcdns\.com\/(defaultts|omts|vmind\.qqvideo)\.tc\.qq\.com\/\w+
+    location: http://reject/
+    status_code: 307
+
+  - match: ^http:\/\/apd-vlive\.apdcdn\.tc\.qq\.com\/vmind\.qqvideo\.tc\.qq\.com\/\w+
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https:\/\/otheve\.beacon\.qq.com\/analytics\/upload\?sid=.*
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https:\/\/us\.l\.qq\.com\/exapp
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/music\/common\/upload\/t_splash_info\/
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/.+?\/music\/common\/upload\/t_splash_info\/
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/\w+\.beacon\.qq\.com
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/news\.ssp\.qq\.com\/app
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/r\.inews\.qq\.com\/(adsBlacklist|getFullScreenPic|getQQNewsRemoteConfig)
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/r\.inews\.qq\.com\/(getBannerAds|getNewsRemoteConfig|getSplash|searchHotCatList|upLoadLoc)
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/sports3\.gtimg\.com\/community\/20cf93884470434eaf38b2e77ab7796a\.png
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/ssl\.kohsocialapp\.qq\.com:\d+\/game\/buttons
+    location: http://reject/
+    status_code: 307
+
+  - match: ^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/t_splash_info\/
+    location: http://reject/
+    status_code: 307
+
+scriptings:
+  - http_response:
+      name: 腾讯
+      match: ^https:\/\/(news\.ssp\.qq\.com\/app|r\.inews\.qq\.com\/(get(QQNewsUnreadList|TagFeedList)|gw\/page\/event_detail|news_feed\/hot_module_list))
+      script_url: https://raw.githubusercontent.com/app2smile/rules/master/js/qq-news.js
+      timeout: 60
+      body_required: true
+
+  - http_request:
+      name: 腾讯
+      match: ^https?:\/\/vv\.video\.qq\.com\/getvinfo
+      script_url: https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-body.js
+      arguments:
+        _compat.$argument: '"&sppreviewtype=\d(.*)&spsrt=\d->&sppreviewtype=0$1&spsrt=0"'
+      timeout: 30
+      body_required: true
+
+map_locals:
+  - match: ^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/app\/activity\/
+    status_code: 200
+    body: ' '
+
+  - match: ^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/splash\/
+    status_code: 200
+    body: ' '
+
+  - match: ^https?:\/\/4gimg\.map\.qq\.com\/mwaSplash\/
+    status_code: 200
+    body: ' '
+
+  - match: ^https?:\/\/api2\.helper\.qq\.com\/game\/buttons
+    status_code: 200
+    body: ''
+
+  - match: ^https?:\/\/bk\.bingo\.qq\.com\/bk\/crx\/data\/videoAd.*$
+    status_code: 200
+    body: '{}'
+
+  - match: ^https?:\/\/bla\.gtimg\.com\/qqlive\/\d{6}.+?\.png
+    status_code: 200
+    body: ''
+
+  - match: ^https?:\/\/btrace\.qq\.com
+    status_code: 200
+    body: ' '
+
+  - match: ^https?:\/\/discuz\.gtimg\.cn\/cloud\/scripts\/discuz_tips\.js
+    status_code: 200
+    body: ''
+
+  - match: ^https?:\/\/imgcache\.qq\.com\/qqlive\/
+    status_code: 200
+    body: ''
+
+  - match: ^https?:\/\/lives\.l\.qq\.com\/livemsg\?sdtfrom=
+    status_code: 200
+    body: ''
+
+  - match: ^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qiantu\/upload\/
+    status_code: 200
+    body: ''
+
+  - match: ^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qqpim\/public\/ios\/splash\/.+?\/\d{4}_\d{4}
+    status_code: 200
+    body: ''
+
+  - match: ^https?:\/\/mtteve\.beacon\.qq\.com\/analytics
+    status_code: 200
+    body: ''
+
+  - match: ^https?:\/\/qzonestyle\.gtimg\.cn\/qzone\/biz\/gdt\/mob\/sdk\/ios\/v2\/
+    status_code: 200
+    body: ''
+
+  - match: ^https?:\/\/splashqqlive\.gtimg\.com\/website\/\d{6}
+    status_code: 200
+    body: ''
+
+  - match: ^https?:\/\/ssl\.kohsocialapp\.qq\.com:10001\/game\/buttons
+    status_code: 200
+    body: ' '
+
+  - match: ^https?:\/\/vv\.video\.qq\.com\/(diff|get)vmind
+    status_code: 200
+    body: '{}'
+
+  - match: ^https?:\/\/vv\.video\.qq\.com\/getvmind\?
+    status_code: 200
+    body: ' '
+
+  - match: ^https?:\/\/y\.gtimg\.cn\/music\/.*?_Ad/\d+\.png
+    status_code: 200
+    body: ''
+
+  - match: ^https?:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad/.*?\d{4}\.jpg
+    status_code: 200
+    body: ''
+
+  - match: ^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/targeted_ads
+    status_code: 200
+    body: ''
+
+mitm:
+  hostnames:
+    - '*.beacon.qq.com'
+    - 3gimg.qq.com
+    - 4gimg.map.qq.com
+    - api2.helper.qq.com
+    - bk.bingo.qq.com
+    - bla.gtimg.com
+    - btrace.qq.com
+    - discuz.gtimg.cn
+    - imgcache.qq.com
+    - lives.l.qq.com
+    - mi.gdt.qq.com
+    - mmgr.gtimg.com
+    - mtteve.beacon.qq.com
+    - news.ssp.qq.com
+    - otheve.beacon.qq.com
+    - qt.qq.com
+    - qzonestyle.gtimg.cn
+    - r.inews.qq.com
+    - splashqqlive.gtimg.com
+    - sports3.gtimg.com
+    - ssl.kohsocialapp.qq.com
+    - us.l.qq.com
+    - vv.video.qq.com
+    - y.gtimg.cn

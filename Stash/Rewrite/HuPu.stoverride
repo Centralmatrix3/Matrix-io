@@ -1,0 +1,27 @@
+name: 虎扑
+desc: 虎扑去广告
+author: fmz200
+
+http:
+  url-rewrite:
+    - ^https?:\/\/du\.hupucdn\.com\/\w+h\d{4} - reject-img
+
+    - ^https?:\/\/games\.mobileapi\.hupu\.com\/.+?\/(interfaceAdMonitor|interfaceAd)\/ - reject
+
+    - ^https?:\/\/games\.mobileapi\.hupu\.com\/.+?\/(search|interfaceAdMonitor|status|hupuBbsPm)/(hotkey|init|hupuBbsPm)\. - reject-img
+
+    - ^https?:\/\/games\.mobileapi\.hupu\.com\/.+?\/status\/init - reject
+
+    - ^https?:\/\/games\.mobileapi\.hupu\.com\/\d\/(?:\d\.){2}\d\/status\/init - reject
+
+    - ^https?:\/\/goblin\.hupu\.com\/.+\/interfaceAd\/getOther - reject
+
+    - ^https?:\/\/i\d\.hoopchina\.com\.cn/blogfile\//d+\//d+\/BbsImg\.(?<=(big.(png|jpg)))$ - reject-img
+
+    - ^https?:\/\/i1\.hoopchina\.com\.cn\/blogfile\/.+_\d{3}x\d{4} - reject-img
+
+  mitm:
+    - "du.hupucdn.com"
+    - "games.mobileapi.hupu.com"
+    - "goblin.hupu.com"
+    - "i*.hoopchina.com.cn"

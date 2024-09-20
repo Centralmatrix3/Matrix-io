@@ -1,0 +1,36 @@
+name: 京东
+description: 京东去广告
+author: RuCu6
+
+rules:
+  - domain:
+      match: dns.jd.com
+      policy: REJECT
+  - ip_cidr:
+      match: 101.124.19.122/32
+      policy: REJECT
+  - ip_cidr6:
+      match: 2402:db40:5100:1011::5/128
+      policy: REJECT
+
+url_rewrites:
+  - match: ^http:\/\/\w{32}\.jddebug\.com\/diagnose\?
+    location: http://reject/
+    status_code: 307
+
+scriptings:
+  - http_response:
+      name: 京东
+      match: ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(deliverLayer|getTabHomeInfo|myOrderInfo|orderTrackBusiness|personinfoBusiness|start|welcomeHome)
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/jingdong.js
+      timeout: 60
+      body_required: true
+
+map_locals:
+  - match: ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(searchBoxWord|stationPullService|uniformRecommend[06])
+    status_code: 200
+    body: '{}'
+
+mitm:
+  hostnames:
+    - api.m.jd.com

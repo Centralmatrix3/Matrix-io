@@ -1,0 +1,48 @@
+#!name = 美团
+#!desc = 美团去广告
+#!author = fmz200
+
+[URL Rewrite]
+^http:\/\/s3plus\.meituan\.net\/.*\/brandcpt-vedio\/.*\?time - reject
+
+^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4) - reject
+
+^https?:\/\/apimobile\.meituan\.com\/appupdate\/mach\/checkUpdate? - reject
+
+^https?:\/\/flowplus\.meituan\.net\/v\d\/\w+\/linglong\/\d+\.(gif|jpg|mp4) - reject
+
+^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/\w+\.(gif|jpg|jpg\.webp)$ - reject
+
+^https?:\/\/img\.meituan\.net\/(bizad|brandCpt)\/\w+\.(png|jpg) - reject
+
+^https?:\/\/p\d{1}\.meituan\.net\/(adunion|display|mmc|wmbanner)\/ - reject
+
+^https?:\/\/s3plus\.meituan\.net\/.+?\/linglong\/ - reject
+
+^https?:\/\/wmapi\.meituan\.com\/api\/v\d\/startpicture - reject
+
+^https?:\/\/wmapi\.meituan\.com\/api\/v\d+\/loadInfo\? - reject
+
+^https?:\/\/www\.meituan\.com\/api\/v\d\/appstatus\? - reject
+
+[Map Local]
+^http:\/\/wmapi\.meituan\.com\/api\/v7\/(loadInfo|openscreen|startpicture)\? data-type=text data="{}" status-code=200
+
+^https:\/\/cdb\.meituan\.com\/marketing\/source\/getPageSlotList data-type=text data="{}" status-code=200
+
+^https?:\/\/img\.meituan\.net\/(?>adunion|display|midas)\/.+?\.(gif|jpg|jpg\.webp)$ data-type=text data=" " status-code=200
+
+^https?:\/\/img\.meituan\.net\/bizad\/.*.jpg data-type=text data=" " status-code=200
+
+^https?:\/\/p\d.meituan.net\/movie\/.*?\?may_covertWebp data-type=tiny-gif status-code=200
+
+^https?:\/\/p\d\.meituan\.net\/movie\/[A-Za-z0-9]+?\.jpg\?may_covertWebp data-type=text data=" " status-code=200
+
+^https?:\/\/p\d\.meituan\.net\/wmbanner\/[A-Za-z0-9]+?\.jpg data-type=text data=" " status-code=200
+
+^https?:\/\/peisongapi\.meituan\.com\/client\/getInitiateImage data-type=text data=" " status-code=200
+
+^https?:\/\/s3plus\.meituan\.net\/v1\/mss_a002 data-type=tiny-gif status-code=200
+
+[MITM]
+hostname = %APPEND% apimobile.meituan.net, cdb.meituan.com, flowplus.meituan.net, img.meituan.net, p*.meituan.net, peisongapi.meituan.com, s3plus.meituan.net, wmapi.meituan.com, wmapi.meituan.net, www.meituan.net
