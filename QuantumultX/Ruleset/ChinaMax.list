@@ -1,5 +1,5 @@
 # 规则名称: ChinaMax
-# 规则统计: 112028
+# 规则统计: 112030
 
 HOST,1-fss24-s0.streamhoster.com,ChinaMax
 HOST,14033.live.streamtheworld.com,ChinaMax
@@ -111877,8 +111877,10 @@ IP6-CIDR,2a0f:7803:fe84::/48,ChinaMax
 IP6-CIDR,2a0f:7803:ff02:4000::/50,ChinaMax
 IP6-CIDR,2a0f:7803:ff02:8000::/50,ChinaMax
 IP6-CIDR,2a0f:7803:ff10:2000::/51,ChinaMax
+IP6-CIDR,2a0f:7804:da00::/40,ChinaMax
 IP6-CIDR,2a0f:8100::/29,ChinaMax
 IP6-CIDR,2a0f:85c1:816::/48,ChinaMax
+IP6-CIDR,2a0f:85c1:89a::/48,ChinaMax
 IP6-CIDR,2a0f:9400:6119::/48,ChinaMax
 IP6-CIDR,2a0f:9400:7700::/48,ChinaMax
 IP6-CIDR,2a0f:9407:f000::/36,ChinaMax
