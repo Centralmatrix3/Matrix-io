@@ -1,5 +1,5 @@
 # 规则名称: StreamingSE
-# 规则统计: 19
+# 规则统计: 16
 
 HOST,api.biliapi.com,StreamingSE
 HOST,api.biliapi.net,StreamingSE
@@ -14,9 +14,6 @@ HOST,mobileso.bz.mgtv.com,StreamingSE
 HOST,upos-hz-mirrorakam.akamaized.net,StreamingSE
 HOST,www.bilibili.com,StreamingSE
 HOST-SUFFIX,api.mgtv.com,StreamingSE
-HOST-SUFFIX,wetv.vip,StreamingSE
-HOST-SUFFIX,wetvinfo.com,StreamingSE
 HOST-KEYWORD,cn-hk-eq-bcache-,StreamingSE
 IP-CIDR,116.211.202.206/32,StreamingSE
 IP-CIDR,116.211.202.216/32,StreamingSE
-IP-CIDR,150.109.28.51/32,StreamingSE

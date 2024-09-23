@@ -1,5 +1,5 @@
 # 规则名称: StreamingCN
-# 规则统计: 145
+# 规则统计: 150
 
 HOST,apiintl.biliapi.net,StreamingCN
 HOST,aqqmusic.tc.qq.com,StreamingCN
@@ -7,6 +7,7 @@ HOST,intel-cache.m.iqiyi.com,StreamingCN
 HOST,intel-cache.video.iqiyi.com,StreamingCN
 HOST,intl-rcd.iqiyi.com,StreamingCN
 HOST,intl-subscription.iqiyi.com,StreamingCN
+HOST,moo.qq.com,StreamingCN
 HOST,upos-hz-mirrorakam.akamaized.net,StreamingCN
 HOST-SUFFIX,163yun.com,StreamingCN
 HOST-SUFFIX,71.am,StreamingCN
@@ -34,6 +35,7 @@ HOST-SUFFIX,biligame.net,StreamingCN
 HOST-SUFFIX,biliintl.co,StreamingCN
 HOST-SUFFIX,bilivideo.cn,StreamingCN
 HOST-SUFFIX,bilivideo.com,StreamingCN
+HOST-SUFFIX,bytefcdnrd.com,StreamingCN
 HOST-SUFFIX,cctv.cn,StreamingCN
 HOST-SUFFIX,cctv.com,StreamingCN
 HOST-SUFFIX,cctvpic.com,StreamingCN
@@ -49,7 +51,9 @@ HOST-SUFFIX,douyu.com,StreamingCN
 HOST-SUFFIX,douyu.tv,StreamingCN
 HOST-SUFFIX,douyucdn.cn,StreamingCN
 HOST-SUFFIX,douyucdn2.cn,StreamingCN
+HOST-SUFFIX,douyuscdn.com,StreamingCN
 HOST-SUFFIX,douyutv.com,StreamingCN
+HOST-SUFFIX,edgesrv.com,StreamingCN
 HOST-SUFFIX,hdslb.com,StreamingCN
 HOST-SUFFIX,hitv.com,StreamingCN
 HOST-SUFFIX,hunantv.com,StreamingCN
@@ -108,6 +112,7 @@ HOST-SUFFIX,y.qq.com,StreamingCN
 HOST-SUFFIX,ykimg.com,StreamingCN
 HOST-SUFFIX,youku.com,StreamingCN
 HOST-SUFFIX,yximgs.com,StreamingCN
+HOST-KEYWORD,qiyi,StreamingCN
 IP-CIDR,101.71.154.241/32,StreamingCN
 IP-CIDR,103.126.92.132/31,StreamingCN
 IP-CIDR,103.126.92.132/32,StreamingCN

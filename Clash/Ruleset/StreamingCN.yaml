@@ -1,5 +1,5 @@
 # 规则名称: StreamingCN
-# 规则统计: 145
+# 规则统计: 150
 
 payload:
   - DOMAIN,apiintl.biliapi.net
@@ -8,6 +8,7 @@ payload:
   - DOMAIN,intel-cache.video.iqiyi.com
   - DOMAIN,intl-rcd.iqiyi.com
   - DOMAIN,intl-subscription.iqiyi.com
+  - DOMAIN,moo.qq.com
   - DOMAIN,upos-hz-mirrorakam.akamaized.net
   - DOMAIN-SUFFIX,163yun.com
   - DOMAIN-SUFFIX,71.am
@@ -35,6 +36,7 @@ payload:
   - DOMAIN-SUFFIX,biliintl.co
   - DOMAIN-SUFFIX,bilivideo.cn
   - DOMAIN-SUFFIX,bilivideo.com
+  - DOMAIN-SUFFIX,bytefcdnrd.com
   - DOMAIN-SUFFIX,cctv.cn
   - DOMAIN-SUFFIX,cctv.com
   - DOMAIN-SUFFIX,cctvpic.com
@@ -50,7 +52,9 @@ payload:
   - DOMAIN-SUFFIX,douyu.tv
   - DOMAIN-SUFFIX,douyucdn.cn
   - DOMAIN-SUFFIX,douyucdn2.cn
+  - DOMAIN-SUFFIX,douyuscdn.com
   - DOMAIN-SUFFIX,douyutv.com
+  - DOMAIN-SUFFIX,edgesrv.com
   - DOMAIN-SUFFIX,hdslb.com
   - DOMAIN-SUFFIX,hitv.com
   - DOMAIN-SUFFIX,hunantv.com
@@ -109,6 +113,7 @@ payload:
   - DOMAIN-SUFFIX,ykimg.com
   - DOMAIN-SUFFIX,youku.com
   - DOMAIN-SUFFIX,yximgs.com
+  - DOMAIN-KEYWORD,qiyi
   - IP-CIDR,101.71.154.241/32,no-resolve
   - IP-CIDR,103.126.92.132/31,no-resolve
   - IP-CIDR,103.126.92.132/32,no-resolve

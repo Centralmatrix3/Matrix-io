@@ -1,5 +1,5 @@
 # 规则名称: StreamingSE
-# 规则统计: 19
+# 规则统计: 16
 
 DOMAIN,api.biliapi.com
 DOMAIN,api.biliapi.net
@@ -14,9 +14,6 @@ DOMAIN,mobileso.bz.mgtv.com
 DOMAIN,upos-hz-mirrorakam.akamaized.net
 DOMAIN,www.bilibili.com
 DOMAIN-SUFFIX,api.mgtv.com
-DOMAIN-SUFFIX,wetv.vip
-DOMAIN-SUFFIX,wetvinfo.com
 DOMAIN-KEYWORD,cn-hk-eq-bcache-
 IP-CIDR,116.211.202.206/32,no-resolve
 IP-CIDR,116.211.202.216/32,no-resolve
-IP-CIDR,150.109.28.51/32,no-resolve

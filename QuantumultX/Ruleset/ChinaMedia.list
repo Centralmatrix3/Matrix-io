@@ -1,5 +1,5 @@
 # 规则名称: ChinaMedia
-# 规则统计: 145
+# 规则统计: 150
 
 HOST,apiintl.biliapi.net,ChinaMedia
 HOST,aqqmusic.tc.qq.com,ChinaMedia
@@ -7,6 +7,7 @@ HOST,intel-cache.m.iqiyi.com,ChinaMedia
 HOST,intel-cache.video.iqiyi.com,ChinaMedia
 HOST,intl-rcd.iqiyi.com,ChinaMedia
 HOST,intl-subscription.iqiyi.com,ChinaMedia
+HOST,moo.qq.com,ChinaMedia
 HOST,upos-hz-mirrorakam.akamaized.net,ChinaMedia
 HOST-SUFFIX,163yun.com,ChinaMedia
 HOST-SUFFIX,71.am,ChinaMedia
@@ -34,6 +35,7 @@ HOST-SUFFIX,biligame.net,ChinaMedia
 HOST-SUFFIX,biliintl.co,ChinaMedia
 HOST-SUFFIX,bilivideo.cn,ChinaMedia
 HOST-SUFFIX,bilivideo.com,ChinaMedia
+HOST-SUFFIX,bytefcdnrd.com,ChinaMedia
 HOST-SUFFIX,cctv.cn,ChinaMedia
 HOST-SUFFIX,cctv.com,ChinaMedia
 HOST-SUFFIX,cctvpic.com,ChinaMedia
@@ -49,7 +51,9 @@ HOST-SUFFIX,douyu.com,ChinaMedia
 HOST-SUFFIX,douyu.tv,ChinaMedia
 HOST-SUFFIX,douyucdn.cn,ChinaMedia
 HOST-SUFFIX,douyucdn2.cn,ChinaMedia
+HOST-SUFFIX,douyuscdn.com,ChinaMedia
 HOST-SUFFIX,douyutv.com,ChinaMedia
+HOST-SUFFIX,edgesrv.com,ChinaMedia
 HOST-SUFFIX,hdslb.com,ChinaMedia
 HOST-SUFFIX,hitv.com,ChinaMedia
 HOST-SUFFIX,hunantv.com,ChinaMedia
@@ -108,6 +112,7 @@ HOST-SUFFIX,y.qq.com,ChinaMedia
 HOST-SUFFIX,ykimg.com,ChinaMedia
 HOST-SUFFIX,youku.com,ChinaMedia
 HOST-SUFFIX,yximgs.com,ChinaMedia
+HOST-KEYWORD,qiyi,ChinaMedia
 IP-CIDR,101.71.154.241/32,ChinaMedia
 IP-CIDR,103.126.92.132/31,ChinaMedia
 IP-CIDR,103.126.92.132/32,ChinaMedia

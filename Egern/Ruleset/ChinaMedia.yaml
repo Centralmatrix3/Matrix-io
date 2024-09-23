@@ -1,5 +1,5 @@
 # 规则名称: ChinaMedia
-# 规则统计: 145
+# 规则统计: 150
 
 no_resolve: true
 domain_set:
@@ -9,6 +9,7 @@ domain_set:
   - intel-cache.video.iqiyi.com
   - intl-rcd.iqiyi.com
   - intl-subscription.iqiyi.com
+  - moo.qq.com
   - upos-hz-mirrorakam.akamaized.net
 domain_suffix_set:
   - 163yun.com
@@ -37,6 +38,7 @@ domain_suffix_set:
   - biliintl.co
   - bilivideo.cn
   - bilivideo.com
+  - bytefcdnrd.com
   - cctv.cn
   - cctv.com
   - cctvpic.com
@@ -52,7 +54,9 @@ domain_suffix_set:
   - douyu.tv
   - douyucdn.cn
   - douyucdn2.cn
+  - douyuscdn.com
   - douyutv.com
+  - edgesrv.com
   - hdslb.com
   - hitv.com
   - hunantv.com
@@ -111,6 +115,8 @@ domain_suffix_set:
   - ykimg.com
   - youku.com
   - yximgs.com
+domain_keyword_set:
+  - qiyi
 ip_cidr_set:
   - 101.71.154.241/32
   - 103.126.92.132/31
