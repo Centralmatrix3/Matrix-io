@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain_suffix": [
+        "api.statsig.com",
+        "auth0.com",
+        "challenges.cloudflare.com",
+        "chatgpt.com",
+        "chatgpt.livekit.cloud",
+        "client-api.arkoselabs.com",
+        "events.statsigapi.net",
+        "featuregates.org",
+        "identrust.com",
+        "intercom.io",
+        "intercomcdn.com",
+        "oaistatic.com",
+        "oaiusercontent.com",
+        "openai.com",
+        "openaiapi-site.azureedge.net",
+        "sentry.io",
+        "stripe.com",
+        "turn.livekit.cloud"
+      ]
+    },
+    {
+      "domain_keyword": [
+        "openai"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "apm-misaka.biliapi.net",
+        "p-bstarstatic.akamaized.net",
+        "p.bstarstatic.com",
+        "upos-bstar-mirrorakam.akamaized.net",
+        "upos-bstar1-mirrorakam.akamaized.net"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "biliintl.com"
+      ]
+    }
+  ]
+}

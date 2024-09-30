@@ -1,0 +1,10 @@
+# 规则名称: EncoreTVB
+# 规则统计: 5
+
+domain_set:
+  - bcbolt446c5271-a.akamaihd.net
+  - edge.api.brightcove.com
+domain_suffix_set:
+  - content.jwplatform.com
+  - encoretvb.com
+  - videos-f.jwpsrv.com

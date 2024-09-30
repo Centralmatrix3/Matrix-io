@@ -1,0 +1,30 @@
+#!name = 网易云音乐
+#!desc = 网易云音乐去广告
+#!author = RuCu6、Keywos
+
+# [Rewrite]
+^https?:\/\/interface\d?\.music\.163\.com\/e?api\/(ocpc\/)?ad\/ url reject-dict
+
+^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:community\/friends\/fans-group\/artist\/group\/|mine\/applet\/redpoint|music\/songshare\/text\/recommend\/|resniche\/position\/play\/new\/|resource\/comments?\/musiciansaid\/|user\/sub\/artist) url reject-dict
+
+^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:delivery\/(batch-)?deliver|moment\/tab\/info\/|side-bar\/mini-program\/music-service\/account|yunbei\/account\/entrance\/) url reject-dict
+
+^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:ios\/version|mlivestream\/entrance\/playpage\/|link\/position\/show\/strategy|link\/scene\/show\/resource|v1\/content\/exposure\/comment\/banner\/) url reject-dict
+
+# [Script]
+^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:batch|v2\/resource\/comment\/floor\/get) url script-response-body https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/music163.js
+
+^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:homepage\/block\/page|link\/page\/rcmd\/(?:block\/resource\/multi\/refresh|resource\/show)) url script-response-body https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/music163.js
+
+^https?:\/\/interface\d?\.music\.163\.com\/eapi\/link\/home\/framework\/tab url script-response-body https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/music163.js
+
+^https?:\/\/interface\d?\.music\.163\.com\/eapi\/link\/page\/discovery\/resource\/show url script-response-body https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/music163.js
+
+^https?:\/\/interface\d?\.music\.163\.com\/eapi\/link\/position\/show\/resource url script-response-body https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/music163.js
+
+^https?:\/\/interface\d?\.music\.163\.com\/eapi\/user\/follow\/users\/mixed\/get url script-response-body https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/music163.js
+
+^https?:\/\/interface\d?\.music\.163\.com\/w?eapi\/(?:activity\/bonus\/playpage\/time\/query|resource-exposure\/|search\/(?:chart\/|default\/|rcmd\/keyword\/|specialkeyword\/)) url reject-dict
+
+# [MITM]
+hostname = interface*.music.163.com

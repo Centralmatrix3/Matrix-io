@@ -1,0 +1,280 @@
+# 配置名称: Stash 配置
+# 配置作者: Centralmatrix3
+# 更新时间: 24-10-01 00:00
+
+# [订阅信息]
+subscribe-url: 订阅链接 # 🧸
+
+# [订阅节点]
+proxy-providers:
+  Matrix:
+    url: 订阅链接 # 🧸
+    interval: 3600
+    benchmark-url: http://cp.cloudflare.com/generate_204
+    benchmark-timeout: 5
+
+# [全局配置]
+mode: rule      # 运行模式
+log-level: info # 日志级别
+
+# [DNS设置]
+dns:
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  fake-ip-filter:
+    - '*.lan'
+    - 'localhost.ptlogin2.qq.com'
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  follow-rule: null
+  skip-cert-verify: true
+
+# [策略组]
+proxy-groups:
+  - name: 自行选择
+    type: select
+    filter: ^
+    icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Static.png
+    interval: 1800
+    lazy: true
+    url: http://cp.cloudflare.com/generate_204
+    include-all: true
+    hidden: null
+
+  - name: 苹果服务
+    type: select
+    icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Apple-2.png
+    proxies:
+      - DIRECT
+      - 自行选择
+      - 自动选择
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 狮城节点
+      - 美国节点
+    hidden: null
+
+  - name: 港台番剧
+    type: select
+    icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/StreamingSE.png
+    proxies:
+      - DIRECT
+      - 自行选择
+      - 自动选择
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 狮城节点
+      - 美国节点
+    hidden: null
+
+  - name: 国内媒体
+    type: select
+    icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/StreamingCN.png
+    proxies:
+      - DIRECT
+      - 自行选择
+      - 自动选择
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 狮城节点
+      - 美国节点
+    hidden: null
+
+  - name: 国际媒体
+    type: select
+    icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Streaming.png
+    proxies:
+      - 自行选择
+      - 自动选择
+      - DIRECT
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 狮城节点
+      - 美国节点
+    hidden: null
+
+  - name: 全球加速
+    type: select
+    icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Global.png
+    proxies:
+      - 自行选择
+      - 自动选择
+      - DIRECT
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 狮城节点
+      - 美国节点
+    hidden: null
+
+  - name: 黑白名单
+    type: select
+    icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Final.png
+    proxies:
+      - 自行选择
+      - 自动选择
+      - DIRECT
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 狮城节点
+      - 美国节点
+    hidden: null
+
+  - name: 自动选择
+    type: url-test
+    filter: ^
+    icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Available.png
+    interval: 1800
+    tolerance: 50
+    lazy: true
+    url: http://cp.cloudflare.com/generate_204
+    include-all: true
+    hidden: null
+
+  - name: 香港节点
+    type: url-test
+    filter: "香港|港|HK|🇭🇰|(?i)Hong"
+    icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/HK.png
+    interval: 1800
+    tolerance: 50
+    lazy: true
+    url: http://cp.cloudflare.com/generate_204
+    include-all: true
+    hidden: null
+
+  - name: 台湾节点
+    type: url-test
+    filter: "台湾|台|TW|🇹🇼|(?i)Taiwan"
+    icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/TW.png
+    interval: 1800
+    tolerance: 50
+    lazy: true
+    url: http://cp.cloudflare.com/generate_204
+    include-all: true
+    hidden: null
+
+  - name: 日本节点
+    type: url-test
+    filter: "日本|日|JP|🇯🇵|(?i)Japan"
+    icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/JP.png
+    interval: 1800
+    tolerance: 50
+    lazy: true
+    url: http://cp.cloudflare.com/generate_204
+    include-all: true
+    hidden: null
+
+  - name: 韩国节点
+    type: url-test
+    filter: "韩国|韩|KR|🇰🇷|(?i)Korea"
+    icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/KR.png
+    interval: 1800
+    tolerance: 50
+    lazy: true
+    url: http://cp.cloudflare.com/generate_204
+    include-all: true
+    hidden: null
+
+  - name: 狮城节点
+    type: url-test
+    filter: "新加坡|狮|SG|🇸🇬|(?i)Singapore"
+    icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/SG.png
+    interval: 1800
+    tolerance: 50
+    lazy: true
+    url: http://cp.cloudflare.com/generate_204
+    include-all: true
+    hidden: null
+
+  - name: 美国节点
+    type: url-test
+    filter: "美国|美|US|🇺🇸|(?i)States"
+    icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/US.png
+    interval: 1800
+    tolerance: 50
+    lazy: true
+    url: http://cp.cloudflare.com/generate_204
+    include-all: true
+    hidden: null
+
+# [本地规则]
+rules:
+  - RULE-SET,规则修正,DIRECT
+  - RULE-SET,广告拦截,REJECT
+  - RULE-SET,国际媒体,国际媒体
+  - RULE-SET,港台番剧,港台番剧
+  - RULE-SET,国内媒体,国内媒体
+  - RULE-SET,全球加速,全球加速
+  - RULE-SET,苹果服务,苹果服务
+  - RULE-SET,局域网络,DIRECT
+  - RULE-SET,国内规则,DIRECT
+  - MATCH,黑白名单
+
+# [远程规则]
+rule-providers:
+  规则修正:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Stash/Ruleset/Unbreak.yaml
+    format: yaml
+
+  广告拦截:
+    behavior: domain
+    interval: 86400
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Stash/Ruleset/AdBlock.yaml
+    format: yaml
+
+  国际媒体:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Stash/Ruleset/Streaming.yaml
+    format: yaml
+
+  港台番剧:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Stash/Ruleset/StreamingSE.yaml
+    format: yaml
+
+  国内媒体:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Stash/Ruleset/StreamingCN.yaml
+    format: yaml
+
+  全球加速:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Stash/Ruleset/Global.yaml
+    format: yaml
+
+  苹果服务:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Stash/Ruleset/Apple.yaml
+    format: yaml
+
+  局域网络:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Stash/Ruleset/LAN.yaml
+    format: yaml
+
+  国内规则:
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Stash/Ruleset/GEOIPCN.yaml
+    format: yaml

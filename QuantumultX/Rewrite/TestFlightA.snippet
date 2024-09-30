@@ -1,0 +1,9 @@
+#!name = TestFlight
+#!desc = TestFlight账户管理
+#!author = NobyDa
+
+# [Script]
+^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/ url script-analyze-echo-response https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/TestFlightA.Js
+
+# [MITM]
+hostname = testflight.apple.com

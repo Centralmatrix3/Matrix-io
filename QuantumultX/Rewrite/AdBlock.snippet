@@ -1,0 +1,57 @@
+#!name = AdBlock
+#!desc = AdBlock合集
+#!author = RuCu6、lodepuly、fmz200、Keywos、kokoryh
+
+# [Rewrite]
+# 酷安
+^https:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch url reject-dict
+
+# 拼多多
+^https:\/\/api\.(?:pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash\? url reject-dict
+^https:\/\/api\.pinduoduo\.com\/api\/alexa\/goods\/back_up\? url reject-dict
+^https:\/\/api\.pinduoduo\.com\/api\/brand-olay\/goods_detail\/bybt_guide url reject-dict
+^https:\/\/api\.pinduoduo\.com\/api\/caterham\/v3\/query\/(?:likes|my_order_group|new_chat_group|order_express_group|personal) url reject-dict
+^https:\/\/api\.pinduoduo\.com\/api\/engels\/reviews\/require\/append url reject-dict
+^https:\/\/api\.pinduoduo\.com\/api\/flow\/hungary\/window\/global\/v2\? url reject-dict
+^https:\/\/api\.pinduoduo\.com\/api\/zaire_biz\/chat\/resource\/get_list_data url reject-dict
+^https:\/\/api\.pinduoduo\.com\/search_hotquery\? url reject-dict
+
+# 小红书
+^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/(?:v2\/guide\/user_banner|v3\/note\/guide) url reject-dict
+^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/surprisebox\/(?:get_style|open|submit_action) url reject-dict
+^https:\/\/www\.xiaohongshu\.com\/api\/marketing\/box\/trigger\? url reject-dict
+^https:\/\/www\.xiaohongshu\.com\/api\/sns\/(?:v1\/ads\/resource|v2\/hey\/\w+\/hey_gallery) url reject-dict
+
+# 微博国际版
+^https?:\/\/api\.weibo\.cn\/\d\/(cardlist\?v_f=\d|ad\/weibointl\?) url reject-dict
+^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=hot_search_users url reject-dict
+
+# [Script]
+# 酷安
+^https:\/\/api\.coolapk\.com\/v6\/feed\/(detail|replyList)\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js
+^https:\/\/api\.coolapk\.com\/v6\/main\/(dataList|indexV8|init) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js
+^https:\/\/api\.coolapk\.com\/v6\/page\/dataList\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js
+
+# 拼多多
+^https:\/\/api\.pinduoduo\.com\/api\/alexa\/homepage\/hub\? url script-response-body https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/pdd.js
+
+# 小红书
+^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/(?:v2\/note\/feed|v3\/note\/videofeed) url script-response-body https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/xiaohongshu.js
+^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/note\/(?:imagefeed|live_photo\/save) url script-response-body https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/xiaohongshu.js
+^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/search\/(?:banner|hot)_list url script-response-body https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/xiaohongshu.js
+^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/system_service\/config\? url script-response-body https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/xiaohongshu.js
+^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v10\/search\/notes\? url script-response-body https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/xiaohongshu.js
+^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/(?:note\/widgets|user\/followings\/followfeed) url script-response-body https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/xiaohongshu.js
+^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config url script-response-body https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/xiaohongshu.js
+^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v4\/followfeed\? url script-response-body https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/xiaohongshu.js
+^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v4\/search\/(?:hint|trending) url script-response-body https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/xiaohongshu.js
+^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v5\/recommend\/user\/follow_recommend\? url script-response-body https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/xiaohongshu.js
+^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v6\/homefeed\? url script-response-body https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/xiaohongshu.js
+
+# 微博国际版
+^https?:\/\/api\.weibo\.cn\/\d\/statuses\/.*timeline url script-response-body https://raw.githubusercontent.com/Keywos/rule/master/script/weibo_us/js/index.js
+^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php url script-response-body https://raw.githubusercontent.com/Keywos/rule/master/script/weibo_us/js/index.js
+^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?(ct=(feed&a=trends|user&a=get_searching_info)|a=(get_coopen_ads|user_center|search_topic|open_app&auth|icon_center)) url script-response-body https://raw.githubusercontent.com/Keywos/rule/master/script/weibo_us/js/index.js
+
+# [MITM]
+hostname = api.coolapk.com, api.pinduoduo.com, api.yangkeduo.com, edith.xiaohongshu.com, www.xiaohongshu.com, *api.weibo.cn, sdkapp.uve.weibo.com

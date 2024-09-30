@@ -1,0 +1,7 @@
+# 规则名称: Vancl
+# 规则统计: 3
+
+payload:
+  - DOMAIN-SUFFIX,vancl.com
+  - DOMAIN-SUFFIX,vanclimg.com
+  - DOMAIN-SUFFIX,vcimg.com

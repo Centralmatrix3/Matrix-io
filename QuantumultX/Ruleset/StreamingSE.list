@@ -1,0 +1,19 @@
+# 规则名称: StreamingSE
+# 规则统计: 16
+
+HOST,api.biliapi.com,StreamingSE
+HOST,api.biliapi.net,StreamingSE
+HOST,api.bilibili.com,StreamingSE
+HOST,app.biliapi.com,StreamingSE
+HOST,app.biliapi.net,StreamingSE
+HOST,app.bilibili.com,StreamingSE
+HOST,cache.video.iqiyi.com,StreamingSE
+HOST,grpc.biliapi.net,StreamingSE
+HOST,m.bilibili.com,StreamingSE
+HOST,mobileso.bz.mgtv.com,StreamingSE
+HOST,upos-hz-mirrorakam.akamaized.net,StreamingSE
+HOST,www.bilibili.com,StreamingSE
+HOST-SUFFIX,api.mgtv.com,StreamingSE
+HOST-KEYWORD,cn-hk-eq-bcache-,StreamingSE
+IP-CIDR,116.211.202.206/32,StreamingSE
+IP-CIDR,116.211.202.216/32,StreamingSE

@@ -1,0 +1,6 @@
+# 规则名称: Pandora
+# 规则统计: 2
+
+payload:
+  - DOMAIN-SUFFIX,p-cdn.us
+  - DOMAIN-SUFFIX,pandora.com

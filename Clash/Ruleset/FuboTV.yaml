@@ -1,0 +1,6 @@
+# 规则名称: FuboTV
+# 规则统计: 2
+
+payload:
+  - DOMAIN-SUFFIX,fubo.tv
+  - DOMAIN-SUFFIX,fubotv.com

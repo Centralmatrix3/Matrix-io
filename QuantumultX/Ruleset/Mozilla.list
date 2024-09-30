@@ -1,0 +1,26 @@
+# 规则名称: Mozilla
+# 规则统计: 23
+
+HOST,mdn.mozillademos.org,Mozilla
+HOST-SUFFIX,bugzilla.org,Mozilla
+HOST-SUFFIX,crates.io,Mozilla
+HOST-SUFFIX,developer.allizom.org,Mozilla
+HOST-SUFFIX,docs.rs,Mozilla
+HOST-SUFFIX,extensionworkshop.com,Mozilla
+HOST-SUFFIX,firefox.com,Mozilla
+HOST-SUFFIX,firefoxusercontent.com,Mozilla
+HOST-SUFFIX,getpocket.com,Mozilla
+HOST-SUFFIX,mdn.allizom.net,Mozilla
+HOST-SUFFIX,mdn.dev,Mozilla
+HOST-SUFFIX,mdn.mozit.cloud,Mozilla
+HOST-SUFFIX,mdnplay.dev,Mozilla
+HOST-SUFFIX,mdnyalp.dev,Mozilla
+HOST-SUFFIX,mozgcp.net,Mozilla
+HOST-SUFFIX,mozilla.com,Mozilla
+HOST-SUFFIX,mozilla.community,Mozilla
+HOST-SUFFIX,mozilla.net,Mozilla
+HOST-SUFFIX,mozilla.org,Mozilla
+HOST-SUFFIX,rust-lang.org,Mozilla
+HOST-SUFFIX,rustup.rs,Mozilla
+HOST-SUFFIX,seamonkey-project.org,Mozilla
+HOST-SUFFIX,thunderbird.net,Mozilla

@@ -1,0 +1,9 @@
+#!name = TestFlight
+#!desc = TestFlight下载修正
+#!author = NobyDa
+
+# [Script]
+^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$ url script-request-body https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/TestFlightD.Js
+
+# [MITM]
+hostname = testflight.apple.com

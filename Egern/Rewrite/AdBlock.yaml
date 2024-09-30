@@ -1,0 +1,184 @@
+name: AdBlock
+description: AdBlock合集
+author: RuCu6、lodepuly、fmz200、Keywos、kokoryh
+
+map_locals:
+  # 酷安
+  - match: ^https:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch
+    status_code: 200
+    body: '{}'
+
+  # 拼多多
+  - match: ^https:\/\/api\.(?:pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash\?
+    status_code: 200
+    body: '{}'
+  - match: ^https:\/\/api\.pinduoduo\.com\/api\/alexa\/goods\/back_up\?
+    status_code: 200
+    body: '{}'
+  - match: ^https:\/\/api\.pinduoduo\.com\/api\/brand-olay\/goods_detail\/bybt_guide
+    status_code: 200
+    body: '{}'
+  - match: ^https:\/\/api\.pinduoduo\.com\/api\/caterham\/v3\/query\/(?:likes|my_order_group|new_chat_group|order_express_group|personal)
+    status_code: 200
+    body: '{}'
+  - match: ^https:\/\/api\.pinduoduo\.com\/api\/engels\/reviews\/require\/append
+    status_code: 200
+    body: '{}'
+  - match: ^https:\/\/api\.pinduoduo\.com\/api\/flow\/hungary\/window\/global\/v2\?
+    status_code: 200
+    body: '{}'
+  - match: ^https:\/\/api\.pinduoduo\.com\/api\/zaire_biz\/chat\/resource\/get_list_data
+    status_code: 200
+    body: '{}'
+  - match: ^https:\/\/api\.pinduoduo\.com\/search_hotquery\?
+    status_code: 200
+    body: '{}'
+
+  # 小红书
+  - match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/(?:v2\/guide\/user_banner|v3\/note\/guide)
+    status_code: 200
+    body: '{}'
+  - match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/surprisebox\/(?:get_style|open|submit_action)
+    status_code: 200
+    body: '{}'
+  - match: ^https:\/\/www\.xiaohongshu\.com\/api\/marketing\/box\/trigger\?
+    status_code: 200
+    body: '{}'
+  - match: ^https:\/\/www\.xiaohongshu\.com\/api\/sns\/(?:v1\/ads\/resource|v2\/hey\/\w+\/hey_gallery)
+    status_code: 200
+    body: '{}'
+
+  # 微博国际版
+  - match: ^https?:\/\/api\.weibo\.cn\/\d\/(cardlist\?v_f=\d|ad\/weibointl\?)
+    status_code: 200
+    body: '{}'
+  - match: ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=hot_search_users
+    status_code: 200
+    body: '{}'
+
+scriptings:
+  # 酷安
+  - http_response:
+      name: 酷安
+      match: ^https:\/\/api\.coolapk\.com\/v6\/feed\/(detail|replyList)\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js
+      timeout: 60
+      body_required: true
+  - http_response:
+      name: 酷安
+      match: ^https:\/\/api\.coolapk\.com\/v6\/main\/(dataList|indexV8|init)
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js
+      timeout: 60
+      body_required: true
+  - http_response:
+      name: 酷安
+      match: ^https:\/\/api\.coolapk\.com\/v6\/page\/dataList\?
+      script_url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js
+      timeout: 60
+      body_required: true
+
+  # 拼多多
+  - http_response:
+      name: 拼多多
+      match: ^https:\/\/api\.pinduoduo\.com\/api\/alexa\/homepage\/hub\?
+      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/pdd.js
+      timeout: 60
+      body_required: true
+
+  # 小红书
+  - http_response:
+      name: 小红书
+      match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/(?:v2\/note\/feed|v3\/note\/videofeed)
+      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/xiaohongshu.js
+      timeout: 60
+      body_required: true
+  - http_response:
+      name: 小红书
+      match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/note\/(?:imagefeed|live_photo\/save)
+      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/xiaohongshu.js
+      timeout: 60
+      body_required: true
+  - http_response:
+      name: 小红书
+      match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/search\/(?:banner|hot)_list
+      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/xiaohongshu.js
+      timeout: 60
+      body_required: true
+  - http_response:
+      name: 小红书
+      match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/system_service\/config\?
+      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/xiaohongshu.js
+      timeout: 60
+      body_required: true
+  - http_response:
+      name: 小红书
+      match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v10\/search\/notes\?
+      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/xiaohongshu.js
+      timeout: 60
+      body_required: true
+  - http_response:
+      name: 小红书
+      match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/(?:note\/widgets|user\/followings\/followfeed)
+      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/xiaohongshu.js
+      timeout: 60
+      body_required: true
+  - http_response:
+      name: 小红书
+      match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config
+      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/xiaohongshu.js
+      timeout: 60
+      body_required: true
+  - http_response:
+      name: 小红书
+      match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v4\/followfeed\?
+      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/xiaohongshu.js
+      timeout: 60
+      body_required: true
+  - http_response:
+      name: 小红书
+      match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v4\/search\/(?:hint|trending)
+      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/xiaohongshu.js
+      timeout: 60
+      body_required: true
+  - http_response:
+      name: 小红书
+      match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v5\/recommend\/user\/follow_recommend\?
+      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/xiaohongshu.js
+      timeout: 60
+      body_required: true
+  - http_response:
+      name: 小红书
+      match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v6\/homefeed\?
+      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/xiaohongshu.js
+      timeout: 60
+      body_required: true
+
+  # 微博国际版
+  - http_response:
+      name: 微博国际版
+      match: ^https?:\/\/api\.weibo\.cn\/\d\/statuses\/.*timeline
+      script_url: https://raw.githubusercontent.com/Keywos/rule/master/script/weibo_us/js/index.js
+      timeout: 60
+      body_required: true
+  - http_response:
+      name: 微博国际版
+      match: ^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php
+      script_url: https://raw.githubusercontent.com/Keywos/rule/master/script/weibo_us/js/index.js
+      timeout: 60
+      body_required: true
+  - http_response:
+      name: 微博国际版
+      match: ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?(ct=(feed&a=trends|user&a=get_searching_info)|a=(get_coopen_ads|user_center|search_topic|open_app&auth|icon_center))
+      script_url: https://raw.githubusercontent.com/Keywos/rule/master/script/weibo_us/js/index.js
+      timeout: 60
+      body_required: true
+
+mitm:
+  hostnames:
+    - api.coolapk.com
+    - api.pinduoduo.com
+    - api.yangkeduo.com
+    - edith.xiaohongshu.com
+    - www.xiaohongshu.com
+    - '*api.weibo.cn'
+    - sdkapp.uve.weibo.com

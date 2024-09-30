@@ -1,0 +1,80 @@
+#!name = 微博
+#!desc = 微博去广告
+#!author = RuCu6、zmqcherish
+
+[URL Rewrite]
+^https:\/\/api\.weibo\.cn\/!\/sug\/list\/finderchange\? - reject-dict
+
+^https:\/\/api\.weibo\.cn\/2\/!\/chaohua\/discovery\/home_bottom\/switch\? - reject-dict
+
+^https:\/\/api\.weibo\.cn\/2\/!\/huati\/(?:discovery_home_bottom_getdotinfo|mobile_discovery_searchchange) - reject-dict
+
+^https:\/\/api\.weibo\.cn\/2\/!\/live\/media_homelist\? - reject-dict
+
+^https:\/\/api\.weibo\.cn\/2\/!\/wbox\/\w+\/(?:home_bottom_modal|interest_category) - reject-dict
+
+^https:\/\/api\.weibo\.cn\/2\/(?:ug\/checkin\/list|push\/daily) - reject-dict
+
+^https:\/\/api\.weibo\.cn\/2\/comments\/bullet_screens\? - reject-dict
+
+^https:\/\/api\.weibo\.cn\/2\/hot\/hours_spotlight\? - reject-dict
+
+^https:\/\/api\.weibo\.cn\/2\/photo\/info\? - reject-dict
+
+^https:\/\/api\.weibo\.cn\/2\/search\/container_discover\? - reject-dict
+
+^https:\/\/api\.weibo\.cn\/2\/statuses\/(?:container_positive|push_info) - reject-dict
+
+^https:\/\/api\.weibo\.cn\/2\/video\/redpacket\? - reject-dict
+
+^https:\/\/api\.weibo\.cn\/2\/vote\/get_vote_detail\? - reject-dict
+
+^https:\/\/bootrealtime\.uve\.weibo\.com\/v[23]\/ad\/realtime - reject-dict
+
+^https:\/\/card\.weibo\.com\/article\/m\/aj\/(?:reward|uvead) - reject-dict
+
+^https:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/(?:get-lbs-cell-info\.php|sdkconfig\.php) - reject-dict
+
+^https:\/\/weibo\.com\/ttarticle\/x\/m\/aj\/(?:reward|uvead) - reject-dict
+
+[Script]
+微博 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/!\/huati\/discovery_home_bottom_channels\?,script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/weibo.js,requires-body=true,timeout=60
+
+微博 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/(?:cardlist|page),script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/weibo.js,requires-body=true,timeout=60
+
+微博 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/(?:checkin\/show|client\/publisher_list|push\/active),script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/weibo.js,requires-body=true,timeout=60
+
+微博 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/(?:container\/asyn|flowlist|flowpage),script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/weibo.js,requires-body=true,timeout=60
+
+微博 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/comments\/build_comments\?,script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/weibo.js,requires-body=true,timeout=60
+
+微博 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/direct_messages\/user_list\?,script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/weibo.js,requires-body=true,timeout=60
+
+微博 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/friendships\/(?:create|destroy),script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/weibo.js,requires-body=true,timeout=60
+
+微博 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/groups\/allgroups\/v2\?,script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/weibo.js,requires-body=true,timeout=60
+
+微博 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/messageflow\/notice\?,script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/weibo.js,requires-body=true,timeout=60
+
+微博 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/profile\/(?:container_timeline|dealatt|me|statuses\/tab|userinfo),script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/weibo.js,requires-body=true,timeout=60
+
+微博 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/search\/(?:container_timeline|finder),script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/weibo.js,requires-body=true,timeout=60
+
+微博 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/searchall\?,script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/weibo.js,requires-body=true,timeout=60
+
+微博 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/statuses\/(?:container_timeline(?:_hot|_topic|_topicpage|_unread)?|unread_hot_timeline),script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/weibo.js,requires-body=true,timeout=60
+
+微博 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/statuses\/(?:extend|show),script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/weibo.js,requires-body=true,timeout=60
+
+微博 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/video\/tiny_stream_video_list\?,script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/weibo.js,requires-body=true,timeout=60
+
+微博 = type=http-response,pattern=^https:\/\/bootpreload\.uve\.weibo\.com\/v[12]\/ad\/preload,script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/weibo.js,requires-body=true,timeout=60
+
+微博 = type=http-response,pattern=^https:\/\/new\.vip\.weibo\.cn\/aj\/appicon\/list\?,script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/weibo.js,requires-body=true,timeout=60
+
+微博 = type=http-response,pattern=^https:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php,script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/weibo.js,requires-body=true,timeout=60
+
+微博 = type=http-response,pattern=^https:\/\/wbapp\.uve\.weibo\.com\/(?:preload\/get_ad|wbapplua\/wbpullad\.lua),script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/weibo.js,requires-body=true,timeout=60
+
+[MITM]
+hostname = %APPEND% *.weibo.cn, *.weibo.com, weibo.com

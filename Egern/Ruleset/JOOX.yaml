@@ -1,0 +1,13 @@
+# 规则名称: JOOX
+# 规则统计: 6
+
+no_resolve: true
+domain_suffix_set:
+  - i-joox.com
+  - joox.com
+  - sanook.com
+domain_keyword_set:
+  - jooxweb-api
+ip_cidr_set:
+  - 119.28.182.0/23
+  - 203.205.234.0/23
