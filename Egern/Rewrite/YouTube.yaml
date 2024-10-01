@@ -2,6 +2,11 @@ name: YouTube
 description: YouTube去广告
 author: Maasea
 
+map_locals:
+  - match: ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad
+    status_code: 200
+    body: '{}'
+
 scriptings:
   - http_request:
       name: YouTube
@@ -18,11 +23,6 @@ scriptings:
       timeout: 60
       body_required: true
       binary_body: true
-
-map_locals:
-  - match: ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad
-    status_code: 200
-    body: '{}'
 
 mitm:
   hostnames:
