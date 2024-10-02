@@ -107,7 +107,7 @@ http:
       require-body: true
       timeout: 60
 
-    - match: ^https:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\?
+    - match: ^https:\/\/m-cloud\.zhihu\.com\/api\/cloud\/zhihu\/config\/all\?
       name: 知乎
       type: response
       require-body: true

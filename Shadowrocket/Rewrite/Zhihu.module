@@ -66,7 +66,7 @@
 
 知乎 = type=http-response,pattern=^https:\/\/appcloud2\.zhihu\.com\/v3\/config,script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js,requires-body=true,timeout=60
 
-知乎 = type=http-response,pattern=^https:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\?,script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js,requires-body=true,timeout=60
+知乎 = type=http-response,pattern=^https:\/\/m-cloud\.zhihu\.com\/api\/cloud\/zhihu\/config\/all\?,script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js,requires-body=true,timeout=60
 
 知乎 = type=http-response,pattern=^https:\/\/www\.zhihu\.com\/api\/v4\/(?:articles|answers)\/\d+\/recommendations?\?,script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js,requires-body=true,timeout=60
 
