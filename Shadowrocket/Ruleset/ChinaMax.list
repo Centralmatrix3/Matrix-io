@@ -1,5 +1,5 @@
 # 规则名称: ChinaMax
-# 规则统计: 112094
+# 规则统计: 112095
 
 DOMAIN,1-fss24-s0.streamhoster.com
 DOMAIN,14033.live.streamtheworld.com
@@ -93136,7 +93136,7 @@ IP-CIDR,103.140.144.0/23,no-resolve
 IP-CIDR,103.140.152.0/23,no-resolve
 IP-CIDR,103.140.192.0/23,no-resolve
 IP-CIDR,103.140.228.0/23,no-resolve
-IP-CIDR,103.140.246.0/24,no-resolve
+IP-CIDR,103.140.246.0/23,no-resolve
 IP-CIDR,103.140.46.0/23,no-resolve
 IP-CIDR,103.140.70.0/23,no-resolve
 IP-CIDR,103.140.8.0/23,no-resolve
@@ -93223,6 +93223,7 @@ IP-CIDR,103.149.220.0/23,no-resolve
 IP-CIDR,103.149.242.0/23,no-resolve
 IP-CIDR,103.149.244.0/22,no-resolve
 IP-CIDR,103.149.248.0/23,no-resolve
+IP-CIDR,103.149.4.0/24,no-resolve
 IP-CIDR,103.149.44.0/23,no-resolve
 IP-CIDR,103.149.6.0/23,no-resolve
 IP-CIDR,103.15.16.0/22,no-resolve
@@ -111270,7 +111271,7 @@ IP-CIDR6,2a06:9f81:5100::/40,no-resolve
 IP-CIDR6,2a06:9f81:5400::/40,no-resolve
 IP-CIDR6,2a06:9f81:6100::/40,no-resolve
 IP-CIDR6,2a06:9f81:640a::/48,no-resolve
-IP-CIDR6,2a06:9f81:640f::/48,no-resolve
+IP-CIDR6,2a06:9f81:641a::/47,no-resolve
 IP-CIDR6,2a06:9f81:6466::/48,no-resolve
 IP-CIDR6,2a06:9f81:6488::/48,no-resolve
 IP-CIDR6,2a06:9f81:64a1::/48,no-resolve
@@ -111781,7 +111782,6 @@ IP-CIDR6,2a0a:6040:34ff::/48,no-resolve
 IP-CIDR6,2a0a:6040:d740::/48,no-resolve
 IP-CIDR6,2a0a:6040:ec00::/40,no-resolve
 IP-CIDR6,2a0a:6042:4100::/40,no-resolve
-IP-CIDR6,2a0a:6044:7a00::/40,no-resolve
 IP-CIDR6,2a0a:6044:b800::/40,no-resolve
 IP-CIDR6,2a0a:79c0:2b0::/44,no-resolve
 IP-CIDR6,2a0a:79c0:f2b0::/44,no-resolve
@@ -112047,6 +112047,7 @@ IP-CIDR6,2a13:df87:5030::/48,no-resolve
 IP-CIDR6,2a14:4b00:5c00::/38,no-resolve
 IP-CIDR6,2a14:4c41::/32,no-resolve
 IP-CIDR6,2a14:7580:5000::/36,no-resolve
+IP-CIDR6,2a14:7580:6000::/36,no-resolve
 IP-CIDR6,2a14:7581:9900::/40,no-resolve
 IP-CIDR6,2a14:7581:b20::/48,no-resolve
 IP-CIDR6,2a14:7581:ffb::/48,no-resolve
