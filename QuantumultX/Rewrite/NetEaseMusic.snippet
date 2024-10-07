@@ -11,6 +11,8 @@
 
 ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:ios\/version|mlivestream\/entrance\/playpage\/|link\/position\/show\/strategy|link\/scene\/show\/resource|v1\/content\/exposure\/comment\/banner\/) url reject-dict
 
+^https?:\/\/interface\d?\.music\.163\.com\/w?eapi\/(?:activity\/bonus\/playpage\/time\/query|resource-exposure\/|search\/(?:chart\/|default\/|rcmd\/keyword\/|specialkeyword\/)) url reject-dict
+
 # [Script]
 ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:batch|v2\/resource\/comment\/floor\/get) url script-response-body https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/music163.js
 
@@ -23,8 +25,6 @@
 ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/link\/position\/show\/resource url script-response-body https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/music163.js
 
 ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/user\/follow\/users\/mixed\/get url script-response-body https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/music163.js
-
-^https?:\/\/interface\d?\.music\.163\.com\/w?eapi\/(?:activity\/bonus\/playpage\/time\/query|resource-exposure\/|search\/(?:chart\/|default\/|rcmd\/keyword\/|specialkeyword\/)) url reject-dict
 
 # [MITM]
 hostname = interface*.music.163.com
