@@ -1,6 +1,6 @@
 # 配置名称: Clash 配置
 # 配置作者: Centralmatrix3
-# 更新时间: 24-10-01 00:00
+# 更新时间: 24-10-12 00:00
 
 # [端口设置]
 port: 7890                # HTTP   端口
@@ -9,7 +9,7 @@ redir-port: 7892          # REDIR  端口
 mixed-port: 7893          # MIXED  端口
 tproxy-port: 7894         # TPROXY 端口
 
-# [全局配置]
+# [通用设置]
 tcp-concurrent: true      # TCP并发
 allow-lan: true           # 允许LAN
 log-level: info           # 日志级别

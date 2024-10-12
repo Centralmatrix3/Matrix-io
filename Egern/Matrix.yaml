@@ -1,12 +1,12 @@
 # 配置名称: Egern 配置
 # 配置作者: Centralmatrix3
-# 更新时间: 24-10-01 00:00
+# 更新时间: 24-10-12 00:00
 
 # [端口设置]
 http_port: 8200      # HTTP  代理端口
 socks_port: 8300     # SOCKS 代理端口
 
-# [全局配置]
+# [通用设置]
 ipv6: false          # 启用IPv6
 vif_only: true       # 接管模式
 compat_route: false  # 兼容模式
