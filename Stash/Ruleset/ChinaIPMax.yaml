@@ -1,5 +1,5 @@
 # 规则名称: ChinaIPMax
-# 规则统计: 29804
+# 规则统计: 29803
 
 payload:
   - IP-CIDR,1.0.1.0/24,no-resolve
@@ -12716,7 +12716,6 @@ payload:
   - IP-CIDR,211.153.0.0/16,no-resolve
   - IP-CIDR,211.154.0.0/16,no-resolve
   - IP-CIDR,211.154.0.0/19,no-resolve
-  - IP-CIDR,211.154.0.0/20,no-resolve
   - IP-CIDR,211.154.128.0/17,no-resolve
   - IP-CIDR,211.154.32.0/20,no-resolve
   - IP-CIDR,211.154.48.0/21,no-resolve
