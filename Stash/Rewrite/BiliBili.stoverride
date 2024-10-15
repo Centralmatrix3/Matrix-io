@@ -123,7 +123,7 @@ http:
       require-body: true
       timeout: 60
 
-    - match: ^https:\/\/app\.bilibili\.com\/x\/v2\/search\/square
+    - match: ^https:\/\/app\.bilibili\.com\/x\/v2\/search\/square\?
       name: 哔哩哔哩.B
       type: response
       require-body: true

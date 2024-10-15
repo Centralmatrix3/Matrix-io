@@ -54,7 +54,7 @@ http-response ^https:\/\/app\.bilibili\.com\/x\/v2\/account\/(?:mine(\/ipad)?|my
 
 http-response ^https:\/\/app\.bilibili\.com\/x\/v2\/feed\/index(\/story)?\? script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/bilibili/json.js, requires-body=true, timeout=60, tag=哔哩哔哩
 
-http-response ^https:\/\/app\.bilibili\.com\/x\/v2\/search\/square script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/bilibili/json.js, requires-body=true, timeout=60, tag=哔哩哔哩
+http-response ^https:\/\/app\.bilibili\.com\/x\/v2\/search\/square\? script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/bilibili/json.js, requires-body=true, timeout=60, tag=哔哩哔哩
 
 http-response ^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/(?:brand\/list|event\/list2|list|show) script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/bilibili/json.js, requires-body=true, timeout=60, tag=哔哩哔哩
 
