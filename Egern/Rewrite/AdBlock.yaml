@@ -15,6 +15,9 @@ map_locals:
   - match: ^https:\/\/api\.pinduoduo\.com\/api\/alexa\/goods\/back_up\?
     status_code: 200
     body: '{}'
+  - match: ^https:\/\/api\.pinduoduo\.com\/api\/aquarius\/hungary\/global\/homepage\?
+    status_code: 200
+    body: '{}'
   - match: ^https:\/\/api\.pinduoduo\.com\/api\/brand-olay\/goods_detail\/bybt_guide
     status_code: 200
     body: '{}'
