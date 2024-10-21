@@ -22,7 +22,7 @@
 ^https:\/\/api\.pinduoduo\.com\/search_hotquery\? data-type=text data="{}" status-code=200
 
 [Script]
-拼多多 = type=http-response,pattern=^https:\/\/api\.pinduoduo\.com\/api\/alexa\/homepage\/hub\?,script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/pdd.js,requires-body=true,timeout=60
+拼多多 = type=http-response,pattern=^https:\/\/api\.pinduoduo\.com\/api\/alexa\/homepage\/hub\?,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Pinduoduo/Pinduoduo.js,requires-body=true,timeout=60
 
 [MITM]
 hostname = %APPEND% api.pinduoduo.com, api.yangkeduo.com
