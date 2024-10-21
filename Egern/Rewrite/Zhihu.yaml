@@ -92,84 +92,84 @@ scriptings:
   - http_response:
       name: 知乎
       match: ^https:\/\/(?:api|page-info)\.zhihu\.com\/(?:answers|articles)\/v2\/\d+
-      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js
       timeout: 60
       body_required: true
 
   - http_response:
       name: 知乎
       match: ^https:\/\/api\.zhihu\.com\/(?:moments_v3|topstory\/hot-lists\/total|topstory\/recommend)
-      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js
       timeout: 60
       body_required: true
 
   - http_response:
       name: 知乎
       match: ^https:\/\/api\.zhihu\.com\/bazaar\/vip_tab\/header\?
-      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js
       timeout: 60
       body_required: true
 
   - http_response:
       name: 知乎
       match: ^https:\/\/api\.zhihu\.com\/commercial_api\/app_float_layer
-      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js
       timeout: 60
       body_required: true
 
   - http_response:
       name: 知乎
       match: ^https:\/\/api\.zhihu\.com\/feed\/render\/tab\/config\?
-      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js
       timeout: 60
       body_required: true
 
   - http_response:
       name: 知乎
       match: ^https:\/\/api\.zhihu\.com\/next-(?:bff|data|render)
-      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js
       timeout: 60
       body_required: true
 
   - http_response:
       name: 知乎
       match: ^https:\/\/api\.zhihu\.com\/questions\/\d+(?:\/answers|\/feeds|\?include=)
-      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js
       timeout: 60
       body_required: true
 
   - http_response:
       name: 知乎
       match: ^https:\/\/api\.zhihu\.com\/root\/tab
-      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js
       timeout: 60
       body_required: true
 
   - http_response:
       name: 知乎
       match: ^https:\/\/api\.zhihu\.com\/v2\/topstory\/hot-lists\/everyone-seeing\?
-      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js
       timeout: 60
       body_required: true
 
   - http_response:
       name: 知乎
       match: ^https:\/\/appcloud2\.zhihu\.com\/v3\/config
-      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js
       timeout: 60
       body_required: true
 
   - http_response:
       name: 知乎
       match: ^https:\/\/m-cloud\.zhihu\.com\/api\/cloud\/zhihu\/config\/all\?
-      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js
       timeout: 60
       body_required: true
 
   - http_response:
       name: 知乎
       match: ^https:\/\/www\.zhihu\.com\/api\/v4\/(?:articles|answers)\/\d+\/recommendations?\?
-      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js
       timeout: 60
       body_required: true
 

@@ -26,15 +26,15 @@
 ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.adx\.flyad\.getad data-type=text data="{}" status-code=200
 
 [Script]
-菜鸟 = type=http-response,pattern=^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.app\.mine\.main\.cn,script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/cainiao.js,requires-body=true,timeout=60
+菜鸟 = type=http-response,pattern=^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.app\.mine\.main\.cn,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/CaiNiao/CaiNiao.js,requires-body=true,timeout=60
 
-菜鸟 = type=http-response,pattern=^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.m?show\.cn,script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/cainiao.js,requires-body=true,timeout=60
+菜鸟 = type=http-response,pattern=^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.m?show\.cn,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/CaiNiao/CaiNiao.js,requires-body=true,timeout=60
 
-菜鸟 = type=http-response,pattern=^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.(?:pickup\.empty\.page|protocol\.homepage)\.get\.cn,script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/cainiao.js,requires-body=true,timeout=60
+菜鸟 = type=http-response,pattern=^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.(?:pickup\.empty\.page|protocol\.homepage)\.get\.cn,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/CaiNiao/CaiNiao.js,requires-body=true,timeout=60
 
-菜鸟 = type=http-response,pattern=^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.nbfriend\.message\.conversation\.list\.cn,script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/cainiao.js,requires-body=true,timeout=60
+菜鸟 = type=http-response,pattern=^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.nbfriend\.message\.conversation\.list\.cn,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/CaiNiao/CaiNiao.js,requires-body=true,timeout=60
 
-菜鸟 = type=http-response,pattern=^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.mshow,script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/cainiao.js,requires-body=true,timeout=60
+菜鸟 = type=http-response,pattern=^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.mshow,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/CaiNiao/CaiNiao.js,requires-body=true,timeout=60
 
 [MITM]
 hostname = %APPEND% cn-acs.m.cainiao.com, guide-acs.m.taobao.com

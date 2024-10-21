@@ -144,8 +144,8 @@ http:
 
 script-providers:
   哔哩哔哩.A:
-    url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/bilibili/protoC.js
+    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/BiliBili/ProtoC.js
     interval: 86400
   哔哩哔哩.B:
-    url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/bilibili/json.js
+    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/BiliBili/JSON.js
     interval: 86400

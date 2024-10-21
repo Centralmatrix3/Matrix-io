@@ -46,29 +46,29 @@
 ^https:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation reject
 
 [Script]
-http-response ^https:\/\/(?:api|page-info)\.zhihu\.com\/(?:answers|articles)\/v2\/\d+ script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js, requires-body=true, timeout=60, tag=知乎
+http-response ^https:\/\/(?:api|page-info)\.zhihu\.com\/(?:answers|articles)\/v2\/\d+ script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js, requires-body=true, timeout=60, tag=知乎
 
-http-response ^https:\/\/api\.zhihu\.com\/(?:moments_v3|topstory\/hot-lists\/total|topstory\/recommend) script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js, requires-body=true, timeout=60, tag=知乎
+http-response ^https:\/\/api\.zhihu\.com\/(?:moments_v3|topstory\/hot-lists\/total|topstory\/recommend) script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js, requires-body=true, timeout=60, tag=知乎
 
-http-response ^https:\/\/api\.zhihu\.com\/bazaar\/vip_tab\/header\? script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js, requires-body=true, timeout=60, tag=知乎
+http-response ^https:\/\/api\.zhihu\.com\/bazaar\/vip_tab\/header\? script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js, requires-body=true, timeout=60, tag=知乎
 
-http-response ^https:\/\/api\.zhihu\.com\/commercial_api\/app_float_layer script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js, requires-body=true, timeout=60, tag=知乎
+http-response ^https:\/\/api\.zhihu\.com\/commercial_api\/app_float_layer script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js, requires-body=true, timeout=60, tag=知乎
 
-http-response ^https:\/\/api\.zhihu\.com\/feed\/render\/tab\/config\? script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js, requires-body=true, timeout=60, tag=知乎
+http-response ^https:\/\/api\.zhihu\.com\/feed\/render\/tab\/config\? script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js, requires-body=true, timeout=60, tag=知乎
 
-http-response ^https:\/\/api\.zhihu\.com\/next-(?:bff|data|render) script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js, requires-body=true, timeout=60, tag=知乎
+http-response ^https:\/\/api\.zhihu\.com\/next-(?:bff|data|render) script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js, requires-body=true, timeout=60, tag=知乎
 
-http-response ^https:\/\/api\.zhihu\.com\/questions\/\d+(?:\/answers|\/feeds|\?include=) script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js, requires-body=true, timeout=60, tag=知乎
+http-response ^https:\/\/api\.zhihu\.com\/questions\/\d+(?:\/answers|\/feeds|\?include=) script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js, requires-body=true, timeout=60, tag=知乎
 
-http-response ^https:\/\/api\.zhihu\.com\/root\/tab script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js, requires-body=true, timeout=60, tag=知乎
+http-response ^https:\/\/api\.zhihu\.com\/root\/tab script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js, requires-body=true, timeout=60, tag=知乎
 
-http-response ^https:\/\/api\.zhihu\.com\/v2\/topstory\/hot-lists\/everyone-seeing\? script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js, requires-body=true, timeout=60, tag=知乎
+http-response ^https:\/\/api\.zhihu\.com\/v2\/topstory\/hot-lists\/everyone-seeing\? script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js, requires-body=true, timeout=60, tag=知乎
 
-http-response ^https:\/\/appcloud2\.zhihu\.com\/v3\/config script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js, requires-body=true, timeout=60, tag=知乎
+http-response ^https:\/\/appcloud2\.zhihu\.com\/v3\/config script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js, requires-body=true, timeout=60, tag=知乎
 
-http-response ^https:\/\/m-cloud\.zhihu\.com\/api\/cloud\/zhihu\/config\/all\? script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js, requires-body=true, timeout=60, tag=知乎
+http-response ^https:\/\/m-cloud\.zhihu\.com\/api\/cloud\/zhihu\/config\/all\? script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js, requires-body=true, timeout=60, tag=知乎
 
-http-response ^https:\/\/www\.zhihu\.com\/api\/v4\/(?:articles|answers)\/\d+\/recommendations?\? script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js, requires-body=true, timeout=60, tag=知乎
+http-response ^https:\/\/www\.zhihu\.com\/api\/v4\/(?:articles|answers)\/\d+\/recommendations?\? script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js, requires-body=true, timeout=60, tag=知乎
 
 [MITM]
 hostname = *.zhihu.com

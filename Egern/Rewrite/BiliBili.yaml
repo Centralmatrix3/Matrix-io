@@ -47,7 +47,7 @@ scriptings:
   - http_response:
       name: 哔哩哔哩
       match: ^https:\/\/(?:app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.(?:view|viewunite)\.v1\.View\/(?:View|ViewProgress)$
-      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/bilibili/protoC.js
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/BiliBili/ProtoC.js
       timeout: 60
       body_required: true
       binary_body: true
@@ -55,7 +55,7 @@ scriptings:
   - http_response:
       name: 哔哩哔哩
       match: ^https:\/\/(?:app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.dynamic\.v2\.Dynamic\/DynAll$
-      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/bilibili/protoC.js
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/BiliBili/ProtoC.js
       timeout: 60
       body_required: true
       binary_body: true
@@ -63,7 +63,7 @@ scriptings:
   - http_response:
       name: 哔哩哔哩
       match: ^https:\/\/(?:app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.interface\.v1\.Teenagers\/ModeStatus
-      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/bilibili/protoC.js
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/BiliBili/ProtoC.js
       timeout: 60
       body_required: true
       binary_body: true
@@ -71,7 +71,7 @@ scriptings:
   - http_response:
       name: 哔哩哔哩
       match: ^https:\/\/(?:app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.show\.v1\.Popular\/Index$
-      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/bilibili/protoC.js
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/BiliBili/ProtoC.js
       timeout: 60
       body_required: true
       binary_body: true
@@ -79,7 +79,7 @@ scriptings:
   - http_response:
       name: 哔哩哔哩
       match: ^https:\/\/(?:app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.community\.service\.dm\.v1\.DM\/DmSegMobile
-      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/bilibili/protoC.js
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/BiliBili/ProtoC.js
       timeout: 60
       body_required: true
       binary_body: true
@@ -87,7 +87,7 @@ scriptings:
   - http_response:
       name: 哔哩哔哩
       match: ^https:\/\/(?:app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.community\.service\.dm\.v1\.DM\/DmView
-      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/bilibili/protoC.js
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/BiliBili/ProtoC.js
       timeout: 60
       body_required: true
       binary_body: true
@@ -95,7 +95,7 @@ scriptings:
   - http_response:
       name: 哔哩哔哩
       match: ^https:\/\/(?:app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.main\.community\.reply\.v1\.Reply\/MainList
-      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/bilibili/protoC.js
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/BiliBili/ProtoC.js
       timeout: 60
       body_required: true
       binary_body: true
@@ -103,7 +103,7 @@ scriptings:
   - http_response:
       name: 哔哩哔哩
       match: ^https:\/\/(?:app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.polymer\.app\.search\.v1\.Search\/SearchAll$
-      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/bilibili/protoC.js
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/BiliBili/ProtoC.js
       timeout: 60
       body_required: true
       binary_body: true
@@ -111,63 +111,63 @@ scriptings:
   - http_response:
       name: 哔哩哔哩
       match: ^https:\/\/api\.bilibili\.com\/pgc\/page\/(?:bangumi|cinema\/tab)
-      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/bilibili/json.js
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/BiliBili/JSON.js
       timeout: 60
       body_required: true
 
   - http_response:
       name: 哔哩哔哩
       match: ^https:\/\/api\.live\.bilibili\.com\/xlive\/app-room\/v1\/index\/getInfoByRoom\?
-      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/bilibili/json.js
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/BiliBili/JSON.js
       timeout: 60
       body_required: true
 
   - http_response:
       name: 哔哩哔哩
       match: ^https:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\?
-      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/bilibili/json.js
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/BiliBili/JSON.js
       timeout: 60
       body_required: true
 
   - http_response:
       name: 哔哩哔哩
       match: ^https:\/\/app\.bilibili\.com\/x\/resource\/show\/tab\/v2\?
-      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/bilibili/json.js
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/BiliBili/JSON.js
       timeout: 60
       body_required: true
 
   - http_response:
       name: 哔哩哔哩
       match: ^https:\/\/app\.bilibili\.com\/x\/resource\/top\/activity\?
-      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/bilibili/json.js
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/BiliBili/JSON.js
       timeout: 60
       body_required: true
 
   - http_response:
       name: 哔哩哔哩
       match: ^https:\/\/app\.bilibili\.com\/x\/v2\/account\/(?:mine(\/ipad)?|myinfo)
-      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/bilibili/json.js
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/BiliBili/JSON.js
       timeout: 60
       body_required: true
 
   - http_response:
       name: 哔哩哔哩
       match: ^https:\/\/app\.bilibili\.com\/x\/v2\/feed\/index(\/story)?\?
-      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/bilibili/json.js
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/BiliBili/JSON.js
       timeout: 60
       body_required: true
 
   - http_response:
       name: 哔哩哔哩
       match: ^https:\/\/app\.bilibili\.com\/x\/v2\/search\/square\?
-      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/bilibili/json.js
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/BiliBili/JSON.js
       timeout: 60
       body_required: true
 
   - http_response:
       name: 哔哩哔哩
       match: ^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/(?:brand\/list|event\/list2|list|show)
-      script_url: https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/bilibili/json.js
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/BiliBili/JSON.js
       timeout: 60
       body_required: true
 

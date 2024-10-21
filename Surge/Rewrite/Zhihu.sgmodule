@@ -47,29 +47,29 @@
 ^https:\/\/www\.zhihu\.com\/api\/v4\/search\/related_queries\/(?:article|answer)\/\d+ data-type=text data="{}" status-code=200
 
 [Script]
-知乎 = type=http-response,pattern=^https:\/\/(?:api|page-info)\.zhihu\.com\/(?:answers|articles)\/v2\/\d+,script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js,requires-body=true,timeout=60
+知乎 = type=http-response,pattern=^https:\/\/(?:api|page-info)\.zhihu\.com\/(?:answers|articles)\/v2\/\d+,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js,requires-body=true,timeout=60
 
-知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/(?:moments_v3|topstory\/hot-lists\/total|topstory\/recommend),script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js,requires-body=true,timeout=60
+知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/(?:moments_v3|topstory\/hot-lists\/total|topstory\/recommend),script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js,requires-body=true,timeout=60
 
-知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/bazaar\/vip_tab\/header\?,script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js,requires-body=true,timeout=60
+知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/bazaar\/vip_tab\/header\?,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js,requires-body=true,timeout=60
 
-知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/commercial_api\/app_float_layer,script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js,requires-body=true,timeout=60
+知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/commercial_api\/app_float_layer,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js,requires-body=true,timeout=60
 
-知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/feed\/render\/tab\/config\?,script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js,requires-body=true,timeout=60
+知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/feed\/render\/tab\/config\?,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js,requires-body=true,timeout=60
 
-知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/next-(?:bff|data|render),script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js,requires-body=true,timeout=60
+知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/next-(?:bff|data|render),script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js,requires-body=true,timeout=60
 
-知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/questions\/\d+(?:\/answers|\/feeds|\?include=),script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js,requires-body=true,timeout=60
+知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/questions\/\d+(?:\/answers|\/feeds|\?include=),script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js,requires-body=true,timeout=60
 
-知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/root\/tab,script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js,requires-body=true,timeout=60
+知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/root\/tab,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js,requires-body=true,timeout=60
 
-知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/v2\/topstory\/hot-lists\/everyone-seeing\?,script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js,requires-body=true,timeout=60
+知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/v2\/topstory\/hot-lists\/everyone-seeing\?,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js,requires-body=true,timeout=60
 
-知乎 = type=http-response,pattern=^https:\/\/appcloud2\.zhihu\.com\/v3\/config,script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js,requires-body=true,timeout=60
+知乎 = type=http-response,pattern=^https:\/\/appcloud2\.zhihu\.com\/v3\/config,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js,requires-body=true,timeout=60
 
-知乎 = type=http-response,pattern=^https:\/\/m-cloud\.zhihu\.com\/api\/cloud\/zhihu\/config\/all\?,script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js,requires-body=true,timeout=60
+知乎 = type=http-response,pattern=^https:\/\/m-cloud\.zhihu\.com\/api\/cloud\/zhihu\/config\/all\?,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js,requires-body=true,timeout=60
 
-知乎 = type=http-response,pattern=^https:\/\/www\.zhihu\.com\/api\/v4\/(?:articles|answers)\/\d+\/recommendations?\?,script-path=https://raw.githubusercontent.com/RuCu6/Loon/main/Scripts/zhihu.js,requires-body=true,timeout=60
+知乎 = type=http-response,pattern=^https:\/\/www\.zhihu\.com\/api\/v4\/(?:articles|answers)\/\d+\/recommendations?\?,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Source/Zhihu/Zhihu.js,requires-body=true,timeout=60
 
 [MITM]
 hostname = %APPEND% *.zhihu.com
