@@ -1,0 +1,9 @@
+#!name = 京东比价
+#!desc = 京东比价
+#!author = githubdulong
+
+# [Script]
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/JD.Price.Js
+
+# [MITM]
+hostname = api.m.jd.com

@@ -1,0 +1,35 @@
+name: YouTube
+desc: YouTube去广告
+author: Maasea
+
+http:
+  url-rewrite:
+    - ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad - reject-dict
+
+  script:
+    - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence|get_watch)
+      name: YouTube.A
+      type: request
+      require-body: true
+      binary-mode: true
+      timeout: 60
+
+    - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch)
+      name: YouTube.B
+      type: response
+      require-body: true
+      binary-mode: true
+      timeout: 60
+
+  mitm:
+    - "*.googlevideo.com"
+    - "youtubei.googleapis.com"
+
+script-providers:
+  YouTube.A:
+    url: https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/dist/youtube.request.preview.js
+    interval: 86400
+
+  YouTube.B:
+    url: https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/dist/youtube.response.preview.js
+    interval: 86400

@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_suffix": [
+        "dns.pub",
+        "dnsapi.cn",
+        "dnspod.cn",
+        "dnspod.com",
+        "dnspod.com.cn",
+        "dnspod.mobi",
+        "dnspod.net",
+        "dnspod.org",
+        "dnsv2.com",
+        "dnsv3.com",
+        "dnsv4.com",
+        "dnsv5.com",
+        "doh.pub",
+        "dot.pub"
+      ]
+    }
+  ]
+}

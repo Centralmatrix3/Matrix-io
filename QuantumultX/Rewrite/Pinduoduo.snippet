@@ -1,0 +1,28 @@
+#!name = 拼多多
+#!desc = 拼多多去广告
+#!author = RuCu6、lodepuly
+
+# [Rewrite]
+^https:\/\/api\.(?:pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash\? url reject-dict
+
+^https:\/\/api\.pinduoduo\.com\/api\/alexa\/goods\/back_up\? url reject-dict
+
+^https:\/\/api\.pinduoduo\.com\/api\/aquarius\/hungary\/global\/homepage\? url reject-dict
+
+^https:\/\/api\.pinduoduo\.com\/api\/brand-olay\/goods_detail\/bybt_guide url reject-dict
+
+^https:\/\/api\.pinduoduo\.com\/api\/caterham\/v3\/query\/(?:likes|my_order_group|new_chat_group|order_express_group|personal) url reject-dict
+
+^https:\/\/api\.pinduoduo\.com\/api\/engels\/reviews\/require\/append url reject-dict
+
+^https:\/\/api\.pinduoduo\.com\/api\/flow\/hungary\/window\/global\/v2\? url reject-dict
+
+^https:\/\/api\.pinduoduo\.com\/api\/zaire_biz\/chat\/resource\/get_list_data url reject-dict
+
+^https:\/\/api\.pinduoduo\.com\/search_hotquery\? url reject-dict
+
+# [Script]
+^https:\/\/api\.pinduoduo\.com\/api\/alexa\/homepage\/hub\? url script-response-body https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Pinduoduo/Pinduoduo.js
+
+# [MITM]
+hostname = api.pinduoduo.com, api.yangkeduo.com

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_suffix": [
+        "3scale.net",
+        "ansible.com",
+        "feedhenry.org",
+        "jboss.org",
+        "noobaa.io",
+        "redhat.com",
+        "stackrox.io"
+      ]
+    }
+  ]
+}

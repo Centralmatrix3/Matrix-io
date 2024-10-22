@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_suffix": [
+        "abema-tv.com",
+        "abema.io",
+        "abema.tv",
+        "ameba.jp",
+        "bucketeer.jp",
+        "hayabusa.io",
+        "hayabusa.media"
+      ]
+    },
+    {
+      "domain_keyword": [
+        "abematv.akamaized.net"
+      ]
+    }
+  ]
+}

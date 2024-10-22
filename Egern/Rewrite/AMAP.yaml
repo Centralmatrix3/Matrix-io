@@ -1,0 +1,168 @@
+name: 高德地图
+description: 高德地图去广告
+author: RuCu6、kokoryh
+
+map_locals:
+  - match: ^https:\/\/m5\.amap\.com\/ws\/(?:mapapi\/hint_text\/offline_data|message\/notice\/list|shield\/search\/new_hotword)
+    status_code: 200
+    body: '{}'
+
+  - match: ^https:\/\/m5\.amap\.com\/ws\/aos\/main\/page\/product\/list\?
+    status_code: 200
+    body: '{}'
+
+  - match: ^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/(?:main-page-assets|main-page-location|ridewalk-end-fc)
+    status_code: 200
+    body: '{}'
+
+  - match: ^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/card-service-(?:car-end|route-plan)
+    status_code: 200
+    body: '{}'
+
+  - match: ^https:\/\/m5\.amap\.com\/ws\/shield\/scene\/recommend\?
+    status_code: 200
+    body: '{}'
+
+  - match: ^https:\/\/m5\.amap\.com\/ws\/shield\/search\/new_hotword\?
+    status_code: 200
+    body: '{}'
+
+  - match: ^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/tips_adv\?
+    status_code: 200
+    body: '{}'
+
+  - match: ^https:\/\/m5\.amap\.com\/ws\/valueadded\/weather\/v2\?
+    status_code: 200
+    body: '{}'
+
+  - match: ^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(?:order\/car\/king_toolbox_car_bubble|tips\/onscene_visual_optimization)
+    status_code: 200
+    body: '{}'
+
+  - match: ^https:\/\/oss\.amap\.com\/ws\/banner\/lists\/\?
+    status_code: 200
+    body: '{}'
+
+  - match: ^https:\/\/sns\.amap\.com\/ws\/msgbox\/pull_mp\?
+    status_code: 200
+    body: '{}'
+
+scriptings:
+  - http_response:
+      name: 高德地图
+      match: ^https:\/\/m5\.amap\.com\/ws\/aos\/perception\/publicTravel\/beforeNavi\?
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/AMAP/AMAP.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 高德地图
+      match: ^https:\/\/m5\.amap\.com\/ws\/bus\/plan\/integrate\?
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/AMAP/AMAP.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 高德地图
+      match: ^https:\/\/m5\.amap\.com\/ws\/c3frontend\/af-(?:hotel|launch)\/page\/main\?
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/AMAP/AMAP.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 高德地图
+      match: ^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/(?:card-service-plan-home|main-page)
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/AMAP/AMAP.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 高德地图
+      match: ^https:\/\/m5\.amap\.com\/ws\/perception\/drive\/(?:routeInfo|routePlan)
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/AMAP/AMAP.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 高德地图
+      match: ^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/profile\/index\/nodefaasv3\?
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/AMAP/AMAP.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 高德地图
+      match: ^https:\/\/m5\.amap\.com\/ws\/shield\/frogserver\/aocs\/updatable\/1\?
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/AMAP/AMAP.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 高德地图
+      match: ^https:\/\/m5\.amap\.com\/ws\/shield\/search\/(?:common\/coupon\/info|poi\/detail)
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/AMAP/AMAP.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 高德地图
+      match: ^https:\/\/m5\.amap\.com\/ws\/shield\/search\/nearbyrec_smart\?
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/AMAP/AMAP.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 高德地图
+      match: ^https:\/\/m5\.amap\.com\/ws\/shield\/search_bff\/hotword\?
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/AMAP/AMAP.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 高德地图
+      match: ^https:\/\/m5\.amap\.com\/ws\/shield\/search_business\/process\/marketingOperationStructured\?
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/AMAP/AMAP.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 高德地图
+      match: ^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/(?:homepage|mps|search\/sp|sug|tips_operation_location)
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/AMAP/AMAP.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 高德地图
+      match: ^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\?
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/AMAP/AMAP.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 高德地图
+      match: ^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(?:car\/order\/content_info|order_web\/friendly_information)
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/AMAP/AMAP.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 高德地图
+      match: ^https:\/\/m5-zb\.amap\.com\/ws\/promotion-web\/resource(\/home)?\?
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/AMAP/AMAP.js
+      timeout: 60
+      body_required: true
+
+  - http_response:
+      name: 高德地图
+      match: ^https:\/\/m5-zb\.amap\.com\/ws\/sharedtrip\/taxi\/order_detail_car_tips\?
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/AMAP/AMAP.js
+      timeout: 60
+      body_required: true
+
+mitm:
+  hostnames:
+    - m5.amap.com
+    - m5-zb.amap.com
+    - oss.amap.com
+    - sns.amap.com

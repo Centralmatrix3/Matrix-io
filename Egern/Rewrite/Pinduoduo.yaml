@@ -1,0 +1,53 @@
+name: 拼多多
+description: 拼多多去广告
+author: RuCu6、lodepuly
+
+map_locals:
+  - match: ^https:\/\/api\.(?:pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash\?
+    status_code: 200
+    body: '{}'
+
+  - match: ^https:\/\/api\.pinduoduo\.com\/api\/alexa\/goods\/back_up\?
+    status_code: 200
+    body: '{}'
+
+  - match: ^https:\/\/api\.pinduoduo\.com\/api\/aquarius\/hungary\/global\/homepage\?
+    status_code: 200
+    body: '{}'
+
+  - match: ^https:\/\/api\.pinduoduo\.com\/api\/brand-olay\/goods_detail\/bybt_guide
+    status_code: 200
+    body: '{}'
+
+  - match: ^https:\/\/api\.pinduoduo\.com\/api\/caterham\/v3\/query\/(?:likes|my_order_group|new_chat_group|order_express_group|personal)
+    status_code: 200
+    body: '{}'
+
+  - match: ^https:\/\/api\.pinduoduo\.com\/api\/engels\/reviews\/require\/append
+    status_code: 200
+    body: '{}'
+
+  - match: ^https:\/\/api\.pinduoduo\.com\/api\/flow\/hungary\/window\/global\/v2\?
+    status_code: 200
+    body: '{}'
+
+  - match: ^https:\/\/api\.pinduoduo\.com\/api\/zaire_biz\/chat\/resource\/get_list_data
+    status_code: 200
+    body: '{}'
+
+  - match: ^https:\/\/api\.pinduoduo\.com\/search_hotquery\?
+    status_code: 200
+    body: '{}'
+
+scriptings:
+  - http_response:
+      name: 拼多多
+      match: ^https:\/\/api\.pinduoduo\.com\/api\/alexa\/homepage\/hub\?
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Pinduoduo/Pinduoduo.js
+      timeout: 60
+      body_required: true
+
+mitm:
+  hostnames:
+    - api.pinduoduo.com
+    - api.yangkeduo.com

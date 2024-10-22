@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "bcbolt446c5271-a.akamaihd.net",
+        "cbsi.live.ott.irdeto.com",
+        "cbsplaylistserver.aws.syncbak.com",
+        "cbsservice.aws.syncbak.com",
+        "content.jwplatform.com",
+        "edge.api.brightcove.com",
+        "link.theplatform.com",
+        "tv.applemusic.com",
+        "videos-f.jwpsrv.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "cbsaavideo.com",
+        "cbsi.com",
+        "cbsivideo.com",
+        "cws-hulu.conviva.com",
+        "encoretvb.com",
+        "hbo.com",
+        "hbogo.com",
+        "hbomax.com",
+        "hbomaxcdn.com",
+        "hbonow.com",
+        "hulu.com",
+        "hulu.hb.omtrdc.net",
+        "hulu.sc.omtrdc.net",
+        "huluad.com",
+        "huluim.com",
+        "hulustream.com",
+        "paramountplus.com",
+        "pbs.org",
+        "pplusstatic.com"
+      ]
+    }
+  ]
+}

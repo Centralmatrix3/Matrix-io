@@ -1,0 +1,7 @@
+# 规则名称: Coinone
+# 规则统计: 3
+
+payload:
+  - DOMAIN-SUFFIX,coinone.co.kr
+  - DOMAIN-SUFFIX,coinonecore.com
+  - DOMAIN-SUFFIX,coinonecorp.com

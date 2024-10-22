@@ -1,0 +1,24 @@
+# 规则名称: Developer
+# 规则统计: 20
+
+domain_suffix_set:
+  - apache.org
+  - docker.com
+  - docker.io
+  - elastic.co
+  - elastic.com
+  - gcr.io
+  - gitlab.com
+  - gitlab.io
+  - jitpack.io
+  - maven.org
+  - medium.com
+  - mvnrepository.com
+  - quay.io
+  - reddit.com
+  - redhat.com
+  - sonatype.org
+  - sourcegraph.com
+  - spring.io
+  - spring.net
+  - stackoverflow.com

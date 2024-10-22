@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "d151l6v8er5bdm.cloudfront.net"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "d151l6v8er5bdm.cloudfront.net",
+        "d1sgwhnao7452x.cloudfront.net",
+        "dazn-api.com",
+        "dazn.com",
+        "dazndn.com",
+        "dcblivedazn.akamaized.net",
+        "indazn.com",
+        "indaznlab.com",
+        "sentry.io"
+      ]
+    },
+    {
+      "domain_keyword": [
+        "voddazn"
+      ]
+    }
+  ]
+}

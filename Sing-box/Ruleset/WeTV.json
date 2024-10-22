@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_suffix": [
+        "wetv.vip",
+        "wetvinfo.com"
+      ]
+    },
+    {
+      "ip_cidr": [
+        "150.109.28.51/32"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+# 规则名称: TencentVideo
+# 规则统计: 3
+
+payload:
+  - DOMAIN-SUFFIX,v.qq.com
+  - DOMAIN-SUFFIX,v.smtcdns.com
+  - DOMAIN-SUFFIX,video.qq.com

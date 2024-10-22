@@ -1,0 +1,88 @@
+name: 网易云音乐
+description: 网易云音乐去广告
+author: RuCu6、Keywos
+
+header_rewrites:
+  - replace:
+    match: ^https?:\/\/interface\d?\.music\.163\.com\/e?api\/(?:batch|v2\/resource\/comment\/floor\/get|homepage\/block\/page|link\/home\/framework\/tab|link\/page\/rcmd\/block\/resource\/multi\/refresh|link\/page\/rcmd\/resource\/show|user\/follow\/users\/mixed\/get)
+    name: x-aeapi
+    value: 'false'
+    type: request
+
+map_locals:
+  - match: ^https:\/\/interface\d\.music\.163\.com\/eapi\/my\/podcast\/tab\/recommend
+    status_code: 200
+    body: '{}'
+
+  - match: ^https?:\/\/interface\d?\.music\.163\.com\/e?api\/(ocpc\/)?ad\/
+    status_code: 200
+    body: '{}'
+
+  - match: ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:community\/friends\/fans-group\/artist\/group\/|mine\/applet\/redpoint|music\/songshare\/text\/recommend\/|resniche\/position\/play\/new\/|resource\/comments?\/musiciansaid\/|user\/sub\/artist)
+    status_code: 200
+    body: '{}'
+
+  - match: ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:delivery\/(batch-)?deliver|moment\/tab\/info\/|side-bar\/mini-program\/music-service\/account|yunbei\/account\/entrance\/)
+    status_code: 200
+    body: '{}'
+
+  - match: ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:ios\/version|mlivestream\/entrance\/playpage\/|link\/position\/show\/strategy|link\/scene\/show\/resource|v1\/content\/exposure\/comment\/banner\/)
+    status_code: 200
+    body: '{}'
+
+  - match: ^https?:\/\/interface\d?\.music\.163\.com\/w?eapi\/(?:activity\/bonus\/playpage\/time\/query|resource-exposure\/|search\/(?:chart\/|default\/|rcmd\/keyword\/|specialkeyword\/))
+    status_code: 200
+    body: '{}'
+
+scriptings:
+  - http_response:
+      name: 网易云音乐
+      match: ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:batch|v2\/resource\/comment\/floor\/get)
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/NetEaseMusic/NetEaseMusic.js
+      timeout: 60
+      body_required: true
+      binary_body: true
+
+  - http_response:
+      name: 网易云音乐
+      match: ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:homepage\/block\/page|link\/page\/rcmd\/(?:block\/resource\/multi\/refresh|resource\/show))
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/NetEaseMusic/NetEaseMusic.js
+      timeout: 60
+      body_required: true
+      binary_body: true
+
+  - http_response:
+      name: 网易云音乐
+      match: ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/link\/home\/framework\/tab
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/NetEaseMusic/NetEaseMusic.js
+      timeout: 60
+      body_required: true
+      binary_body: true
+
+  - http_response:
+      name: 网易云音乐
+      match: ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/link\/page\/discovery\/resource\/show
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/NetEaseMusic/NetEaseMusic.js
+      timeout: 60
+      body_required: true
+      binary_body: true
+
+  - http_response:
+      name: 网易云音乐
+      match: ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/link\/position\/show\/resource
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/NetEaseMusic/NetEaseMusic.js
+      timeout: 60
+      body_required: true
+      binary_body: true
+
+  - http_response:
+      name: 网易云音乐
+      match: ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/user\/follow\/users\/mixed\/get
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/NetEaseMusic/NetEaseMusic.js
+      timeout: 60
+      body_required: true
+      binary_body: true
+
+mitm:
+  hostnames:
+    - interface*.music.163.com

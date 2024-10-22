@@ -1,0 +1,6 @@
+# 规则名称: NowE
+# 规则统计: 2
+
+payload:
+  - DOMAIN-SUFFIX,nowe.com
+  - DOMAIN-SUFFIX,nowestatic.com

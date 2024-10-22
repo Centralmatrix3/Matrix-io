@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "itvpnpmobile-a.akamaihd.net"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "itv.com",
+        "itvstatic.com"
+      ]
+    }
+  ]
+}
