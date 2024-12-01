@@ -1,0 +1,67 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "ad.10010.com",
+        "alt1-mtalk.google.com",
+        "alt2-mtalk.google.com",
+        "alt3-mtalk.google.com",
+        "alt4-mtalk.google.com",
+        "alt5-mtalk.google.com",
+        "alt6-mtalk.google.com",
+        "alt7-mtalk.google.com",
+        "alt8-mtalk.google.com",
+        "analytics.95516.com",
+        "analytics.strava.com",
+        "app.adjust.com",
+        "app.appsflyer.com",
+        "bdtj.tagtic.cn",
+        "ci.android.com",
+        "clientservices.googleapis.com",
+        "dl.google.com",
+        "dl.l.google.com",
+        "eco-push-api-client.meiqia.com",
+        "errlog.umeng.com",
+        "fairplay.l.qq.com",
+        "livew.l.qq.com",
+        "log.mmstat.com",
+        "msg.umeng.com",
+        "msg.umengcloud.com",
+        "mtalk.google.com",
+        "new-api.meiqia.com",
+        "origin-a.akamaihd.net",
+        "redirector.gvt1.com",
+        "rewards.hypixel.net",
+        "sycm.mmstat.com",
+        "tracking.miui.com",
+        "update.googleapis.com",
+        "vd.l.qq.com",
+        "vi.l.qq.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "baomitu.com",
+        "blog.google",
+        "bootcss.com",
+        "dizhensubao.getui.com",
+        "f.video.weibocdn.com",
+        "fus.cdn.krcom.cn",
+        "googletraveladservices.com",
+        "jiasule.com",
+        "koodomobile.ca",
+        "koodomobile.com",
+        "ol.epicgames.com",
+        "staticfile.org",
+        "tracking-protection.cdn.mozilla.net",
+        "upaiyun.com"
+      ]
+    },
+    {
+      "domain_keyword": [
+        "wb_ad"
+      ]
+    }
+  ]
+}
