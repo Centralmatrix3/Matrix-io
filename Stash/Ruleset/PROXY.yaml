@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 30885
+# 规则统计: 30886
 
 payload:
   - '3dns-1.adobe.com'
@@ -24822,6 +24822,7 @@ payload:
   - '+.sopcast.com'
   - '+.sopcast.org'
   - '+.soporn.com'
+  - '+.sora.com'
   - '+.sora6.com'
   - '+.sorazone.net'
   - '+.sorcerersarena.com'
