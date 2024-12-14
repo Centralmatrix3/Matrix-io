@@ -1,5 +1,5 @@
 # 规则名称: ChinaIPBGP
-# 规则统计: 4207
+# 规则统计: 4211
 
 IP-CIDR,1.1.8.0/24,no-resolve
 IP-CIDR,1.116.0.0/15,no-resolve
@@ -1091,6 +1091,10 @@ IP-CIDR,113.45.120.0/22,no-resolve
 IP-CIDR,113.45.128.0/17,no-resolve
 IP-CIDR,113.45.64.0/19,no-resolve
 IP-CIDR,113.45.96.0/22,no-resolve
+IP-CIDR,113.46.128.0/18,no-resolve
+IP-CIDR,113.46.192.0/19,no-resolve
+IP-CIDR,113.46.224.0/20,no-resolve
+IP-CIDR,113.46.240.0/21,no-resolve
 IP-CIDR,113.47.204.0/22,no-resolve
 IP-CIDR,113.47.220.0/22,no-resolve
 IP-CIDR,113.47.234.0/23,no-resolve
@@ -2136,7 +2140,6 @@ IP-CIDR,154.197.163.0/24,no-resolve
 IP-CIDR,154.197.168.0/24,no-resolve
 IP-CIDR,154.197.172.0/24,no-resolve
 IP-CIDR,154.197.224.0/24,no-resolve
-IP-CIDR,154.198.128.0/19,no-resolve
 IP-CIDR,154.198.214.0/23,no-resolve
 IP-CIDR,154.198.224.0/22,no-resolve
 IP-CIDR,154.205.112.0/21,no-resolve
@@ -2159,13 +2162,13 @@ IP-CIDR,156.107.170.0/24,no-resolve
 IP-CIDR,156.107.179.0/24,no-resolve
 IP-CIDR,156.107.181.0/24,no-resolve
 IP-CIDR,156.224.128.0/24,no-resolve
+IP-CIDR,156.224.168.0/24,no-resolve
 IP-CIDR,156.224.200.0/24,no-resolve
 IP-CIDR,156.227.40.0/21,no-resolve
 IP-CIDR,156.227.48.0/20,no-resolve
 IP-CIDR,156.232.10.0/23,no-resolve
 IP-CIDR,156.232.13.0/24,no-resolve
 IP-CIDR,156.232.9.0/24,no-resolve
-IP-CIDR,156.236.119.0/24,no-resolve
 IP-CIDR,156.239.0.0/20,no-resolve
 IP-CIDR,156.239.224.0/19,no-resolve
 IP-CIDR,156.239.64.0/18,no-resolve
@@ -3915,6 +3918,7 @@ IP-CIDR,45.80.188.0/24,no-resolve
 IP-CIDR,45.80.190.0/24,no-resolve
 IP-CIDR,45.81.34.0/24,no-resolve
 IP-CIDR,45.85.76.0/22,no-resolve
+IP-CIDR,45.91.83.0/24,no-resolve
 IP-CIDR,45.92.158.0/23,no-resolve
 IP-CIDR,47.112.0.0/13,no-resolve
 IP-CIDR,47.120.0.0/15,no-resolve
