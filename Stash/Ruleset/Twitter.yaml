@@ -1,5 +1,5 @@
 # 规则名称: Twitter
-# 规则统计: 11
+# 规则统计: 12
 
 payload:
   - DOMAIN-SUFFIX,periscope.tv
@@ -12,4 +12,5 @@ payload:
   - DOMAIN-SUFFIX,twitter.com
   - DOMAIN-SUFFIX,twitter.jp
   - DOMAIN-SUFFIX,vine.co
+  - DOMAIN-SUFFIX,x.com
   - DOMAIN-KEYWORD,twitter

@@ -1,5 +1,5 @@
 # 规则名称: Twitter
-# 规则统计: 11
+# 规则统计: 12
 
 domain_suffix_set:
   - periscope.tv
@@ -12,5 +12,6 @@ domain_suffix_set:
   - twitter.com
   - twitter.jp
   - vine.co
+  - x.com
 domain_keyword_set:
   - twitter
