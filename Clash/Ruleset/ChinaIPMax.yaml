@@ -1,5 +1,5 @@
 # 规则名称: ChinaIPMax
-# 规则统计: 30657
+# 规则统计: 30653
 
 payload:
   - IP-CIDR,1.0.1.0/24,no-resolve
@@ -3361,8 +3361,6 @@ payload:
   - IP-CIDR,103.36.244.0/22,no-resolve
   - IP-CIDR,103.36.28.0/22,no-resolve
   - IP-CIDR,103.36.36.0/22,no-resolve
-  - IP-CIDR,103.36.36.0/24,no-resolve
-  - IP-CIDR,103.36.38.0/23,no-resolve
   - IP-CIDR,103.36.56.0/21,no-resolve
   - IP-CIDR,103.36.56.0/22,no-resolve
   - IP-CIDR,103.36.60.0/22,no-resolve
@@ -7111,7 +7109,7 @@ payload:
   - IP-CIDR,119.235.136.0/24,no-resolve
   - IP-CIDR,119.235.138.0/24,no-resolve
   - IP-CIDR,119.235.143.0/24,no-resolve
-  - IP-CIDR,119.235.144.0/24,no-resolve
+  - IP-CIDR,119.235.144.0/23,no-resolve
   - IP-CIDR,119.235.146.0/24,no-resolve
   - IP-CIDR,119.235.151.0/24,no-resolve
   - IP-CIDR,119.235.160.0/20,no-resolve
@@ -8938,6 +8936,7 @@ payload:
   - IP-CIDR,154.223.168.0/24,no-resolve
   - IP-CIDR,154.223.178.0/24,no-resolve
   - IP-CIDR,154.223.188.0/23,no-resolve
+  - IP-CIDR,154.223.96.0/19,no-resolve
   - IP-CIDR,154.23.188.0/22,no-resolve
   - IP-CIDR,154.36.92.0/23,no-resolve
   - IP-CIDR,154.38.104.0/22,no-resolve
@@ -9016,8 +9015,7 @@ payload:
   - IP-CIDR,156.236.96.0/23,no-resolve
   - IP-CIDR,156.237.104.0/23,no-resolve
   - IP-CIDR,156.239.0.0/20,no-resolve
-  - IP-CIDR,156.239.224.0/19,no-resolve
-  - IP-CIDR,156.239.96.0/19,no-resolve
+  - IP-CIDR,156.239.64.0/18,no-resolve
   - IP-CIDR,156.242.5.0/24,no-resolve
   - IP-CIDR,156.242.6.0/24,no-resolve
   - IP-CIDR,156.245.128.0/21,no-resolve
@@ -16225,7 +16223,6 @@ payload:
   - IP-CIDR,45.202.209.0/24,no-resolve
   - IP-CIDR,45.202.210.0/23,no-resolve
   - IP-CIDR,45.202.212.0/24,no-resolve
-  - IP-CIDR,45.204.112.0/20,no-resolve
   - IP-CIDR,45.248.100.0/22,no-resolve
   - IP-CIDR,45.248.104.0/22,no-resolve
   - IP-CIDR,45.248.108.0/22,no-resolve
@@ -17058,7 +17055,6 @@ payload:
   - IP-CIDR,59.153.30.0/24,no-resolve
   - IP-CIDR,59.153.32.0/22,no-resolve
   - IP-CIDR,59.153.4.0/22,no-resolve
-  - IP-CIDR,59.153.4.0/23,no-resolve
   - IP-CIDR,59.153.60.0/22,no-resolve
   - IP-CIDR,59.153.64.0/21,no-resolve
   - IP-CIDR,59.153.64.0/22,no-resolve
