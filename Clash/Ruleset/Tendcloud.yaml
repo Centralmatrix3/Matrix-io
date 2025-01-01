@@ -1,0 +1,8 @@
+# 规则名称: Tendcloud
+# 规则统计: 4
+
+payload:
+  - DOMAIN-SUFFIX,cpatrk.net
+  - DOMAIN-SUFFIX,talkingdata.com
+  - DOMAIN-SUFFIX,talkinggame.com
+  - DOMAIN-SUFFIX,tendcloud.com

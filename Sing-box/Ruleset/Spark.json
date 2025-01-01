@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_suffix": [
+        "amplitude.com",
+        "firebaseio.com",
+        "hockeyapp.net",
+        "readdle.com",
+        "smartmailcloud.com"
+      ]
+    }
+  ]
+}

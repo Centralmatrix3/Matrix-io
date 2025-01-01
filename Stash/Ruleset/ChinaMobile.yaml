@@ -1,0 +1,11 @@
+# 规则名称: ChinaMobile
+# 规则统计: 7
+
+payload:
+  - DOMAIN-SUFFIX,10086.cn
+  - DOMAIN-SUFFIX,139.com
+  - DOMAIN-SUFFIX,chinamobile.com
+  - DOMAIN-SUFFIX,chinamobileltd.com
+  - DOMAIN-SUFFIX,cmccb2b.com
+  - DOMAIN-SUFFIX,monternet.com
+  - DOMAIN-SUFFIX,warmchina121.com
