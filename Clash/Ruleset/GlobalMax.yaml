@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 30986
+# 规则统计: 30990
 
 payload:
   - DOMAIN,adobeereg.com
@@ -12134,6 +12134,7 @@ payload:
   - DOMAIN-SUFFIX,grindr.com
   - DOMAIN-SUFFIX,grooby.com
   - DOMAIN-SUFFIX,grotty-monday.com
+  - DOMAIN-SUFFIX,ground.news
   - DOMAIN-SUFFIX,groupfun.com
   - DOMAIN-SUFFIX,groups.com
   - DOMAIN-SUFFIX,grows.ac.uk
@@ -13267,6 +13268,7 @@ payload:
   - DOMAIN-SUFFIX,hpinkjet.com
   - DOMAIN-SUFFIX,hpinstantink.ca
   - DOMAIN-SUFFIX,hpinstantink.com
+  - DOMAIN-SUFFIX,hpjav.com
   - DOMAIN-SUFFIX,hpjav.tv
   - DOMAIN-SUFFIX,hpkeyboard.com
   - DOMAIN-SUFFIX,hplaptop.com
@@ -13656,6 +13658,7 @@ payload:
   - DOMAIN-SUFFIX,iask.ca
   - DOMAIN-SUFFIX,iat.ac.uk
   - DOMAIN-SUFFIX,iav19.com
+  - DOMAIN-SUFFIX,iavian.net
   - DOMAIN-SUFFIX,iavnight.com
   - DOMAIN-SUFFIX,ib.metapix.net
   - DOMAIN-SUFFIX,ibb.co
@@ -20972,6 +20975,7 @@ payload:
   - DOMAIN-SUFFIX,pcdvd.com.tw
   - DOMAIN-SUFFIX,pcfe.ac.uk
   - DOMAIN-SUFFIX,pcfeonline.ac.uk
+  - DOMAIN-SUFFIX,pcgamestorrents.com
   - DOMAIN-SUFFIX,pchome.com.tw
   - DOMAIN-SUFFIX,pchomeec.tw
   - DOMAIN-SUFFIX,pchomeonline.com.tw
