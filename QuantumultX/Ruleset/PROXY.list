@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31560
+# 规则统计: 31561
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -18356,6 +18356,7 @@ HOST-SUFFIX,minbrowser.org,PROXY
 HOST-SUFFIX,mindgeek.com,PROXY
 HOST-SUFFIX,mindmeld.com,PROXY
 HOST-SUFFIX,mindrolling.org,PROXY
+HOST-SUFFIX,minecraft-services.net,PROXY
 HOST-SUFFIX,minecraft.net,PROXY
 HOST-SUFFIX,minecraft.wiki,PROXY
 HOST-SUFFIX,minecraftservices.com,PROXY
