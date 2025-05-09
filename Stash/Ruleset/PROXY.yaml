@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31561
+# 规则统计: 31562
 
 payload:
   - '1password.drift.click'
@@ -19105,6 +19105,7 @@ payload:
   - '+.mtw.tl'
   - '+.muarc.ac.uk'
   - '+.mubi.com'
+  - '+.mubicdn.net'
   - '+.muchohentai.com'
   - '+.muchomasporno.com'
   - '+.muchosucko.com'

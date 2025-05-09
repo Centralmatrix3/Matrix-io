@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31561
+# 规则统计: 31562
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -19104,6 +19104,7 @@ HOST-SUFFIX,mtvnservices.com,PROXY
 HOST-SUFFIX,mtw.tl,PROXY
 HOST-SUFFIX,muarc.ac.uk,PROXY
 HOST-SUFFIX,mubi.com,PROXY
+HOST-SUFFIX,mubicdn.net,PROXY
 HOST-SUFFIX,muchohentai.com,PROXY
 HOST-SUFFIX,muchomasporno.com,PROXY
 HOST-SUFFIX,muchosucko.com,PROXY
