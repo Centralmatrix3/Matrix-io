@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 31599
+# 规则统计: 31600
 
 payload:
   - DOMAIN,1password.drift.click
@@ -18784,6 +18784,7 @@ payload:
   - DOMAIN-SUFFIX,mu6bce1c.xyz
   - DOMAIN-SUFFIX,muarc.ac.uk
   - DOMAIN-SUFFIX,mubi.com
+  - DOMAIN-SUFFIX,mubicdn.net
   - DOMAIN-SUFFIX,muchohentai.com
   - DOMAIN-SUFFIX,muchomasporno.com
   - DOMAIN-SUFFIX,muchosucko.com
