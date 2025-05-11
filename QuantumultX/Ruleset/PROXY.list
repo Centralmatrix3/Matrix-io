@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31562
+# 规则统计: 31572
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -737,6 +737,7 @@ HOST-SUFFIX,1lib.education,PROXY
 HOST-SUFFIX,1lib.eu,PROXY
 HOST-SUFFIX,1lib.limited,PROXY
 HOST-SUFFIX,1lib.pl,PROXY
+HOST-SUFFIX,1lib.sk,PROXY
 HOST-SUFFIX,1lib.to,PROXY
 HOST-SUFFIX,1lib.tw,PROXY
 HOST-SUFFIX,1mobile.com,PROXY
@@ -12210,6 +12211,7 @@ HOST-SUFFIX,gmnetworks.net,PROXY
 HOST-SUFFIX,gmodules.com,PROXY
 HOST-SUFFIX,gmoney.org,PROXY
 HOST-SUFFIX,gmozomg.izihost.org,PROXY
+HOST-SUFFIX,gmp4.com,PROXY
 HOST-SUFFIX,gmsa.ac.uk,PROXY
 HOST-SUFFIX,gnai-dh.sbs,PROXY
 HOST-SUFFIX,gnailapp.sbs,PROXY
@@ -14266,6 +14268,7 @@ HOST-SUFFIX,i-lab.ac.uk,PROXY
 HOST-SUFFIX,i-o-u.info,PROXY
 HOST-SUFFIX,i-part.com.tw,PROXY
 HOST-SUFFIX,i-scmp.com,PROXY
+HOST-SUFFIX,i.111666.best,PROXY
 HOST-SUFFIX,i.lithium.com,PROXY
 HOST-SUFFIX,i.org,PROXY
 HOST-SUFFIX,i1.hk,PROXY
@@ -22867,6 +22870,7 @@ HOST-SUFFIX,puppiesofourtime.ac.uk,PROXY
 HOST-SUFFIX,pure18.com,PROXY
 HOST-SUFFIX,pureapk.com,PROXY
 HOST-SUFFIX,pureconcepts.net,PROXY
+HOST-SUFFIX,puredns.org,PROXY
 HOST-SUFFIX,pureinsight.org,PROXY
 HOST-SUFFIX,purelov5.com,PROXY
 HOST-SUFFIX,purelyceleb.com,PROXY
@@ -22973,6 +22977,7 @@ HOST-SUFFIX,qmced.ac.uk,PROXY
 HOST-SUFFIX,qml.ac.uk,PROXY
 HOST-SUFFIX,qmov.com,PROXY
 HOST-SUFFIX,qmov.net,PROXY
+HOST-SUFFIX,qmp4.com,PROXY
 HOST-SUFFIX,qmpgmc.ac.uk,PROXY
 HOST-SUFFIX,qmttqg3k.me,PROXY
 HOST-SUFFIX,qmu.ac.uk,PROXY
@@ -31335,9 +31340,14 @@ HOST-SUFFIX,yyjlymb.xyz,PROXY
 HOST-SUFFIX,yysub.net,PROXY
 HOST-SUFFIX,yzld188.top,PROXY
 HOST-SUFFIX,yzzk.com,PROXY
+HOST-SUFFIX,z-lib.fm,PROXY
+HOST-SUFFIX,z-lib.fo,PROXY
+HOST-SUFFIX,z-lib.gd,PROXY
+HOST-SUFFIX,z-lib.gl,PROXY
 HOST-SUFFIX,z-lib.io,PROXY
 HOST-SUFFIX,z-lib.org,PROXY
 HOST-SUFFIX,z-library.se,PROXY
+HOST-SUFFIX,z-library.sk,PROXY
 HOST-SUFFIX,z00.world,PROXY
 HOST-SUFFIX,z18r.co,PROXY
 HOST-SUFFIX,z18r.com,PROXY

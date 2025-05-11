@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31562
+# 规则统计: 31572
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -737,6 +737,7 @@ DOMAIN-SUFFIX,1lib.education
 DOMAIN-SUFFIX,1lib.eu
 DOMAIN-SUFFIX,1lib.limited
 DOMAIN-SUFFIX,1lib.pl
+DOMAIN-SUFFIX,1lib.sk
 DOMAIN-SUFFIX,1lib.to
 DOMAIN-SUFFIX,1lib.tw
 DOMAIN-SUFFIX,1mobile.com
@@ -12210,6 +12211,7 @@ DOMAIN-SUFFIX,gmnetworks.net
 DOMAIN-SUFFIX,gmodules.com
 DOMAIN-SUFFIX,gmoney.org
 DOMAIN-SUFFIX,gmozomg.izihost.org
+DOMAIN-SUFFIX,gmp4.com
 DOMAIN-SUFFIX,gmsa.ac.uk
 DOMAIN-SUFFIX,gnai-dh.sbs
 DOMAIN-SUFFIX,gnailapp.sbs
@@ -14266,6 +14268,7 @@ DOMAIN-SUFFIX,i-lab.ac.uk
 DOMAIN-SUFFIX,i-o-u.info
 DOMAIN-SUFFIX,i-part.com.tw
 DOMAIN-SUFFIX,i-scmp.com
+DOMAIN-SUFFIX,i.111666.best
 DOMAIN-SUFFIX,i.lithium.com
 DOMAIN-SUFFIX,i.org
 DOMAIN-SUFFIX,i1.hk
@@ -22867,6 +22870,7 @@ DOMAIN-SUFFIX,puppiesofourtime.ac.uk
 DOMAIN-SUFFIX,pure18.com
 DOMAIN-SUFFIX,pureapk.com
 DOMAIN-SUFFIX,pureconcepts.net
+DOMAIN-SUFFIX,puredns.org
 DOMAIN-SUFFIX,pureinsight.org
 DOMAIN-SUFFIX,purelov5.com
 DOMAIN-SUFFIX,purelyceleb.com
@@ -22973,6 +22977,7 @@ DOMAIN-SUFFIX,qmced.ac.uk
 DOMAIN-SUFFIX,qml.ac.uk
 DOMAIN-SUFFIX,qmov.com
 DOMAIN-SUFFIX,qmov.net
+DOMAIN-SUFFIX,qmp4.com
 DOMAIN-SUFFIX,qmpgmc.ac.uk
 DOMAIN-SUFFIX,qmttqg3k.me
 DOMAIN-SUFFIX,qmu.ac.uk
@@ -31335,9 +31340,14 @@ DOMAIN-SUFFIX,yyjlymb.xyz
 DOMAIN-SUFFIX,yysub.net
 DOMAIN-SUFFIX,yzld188.top
 DOMAIN-SUFFIX,yzzk.com
+DOMAIN-SUFFIX,z-lib.fm
+DOMAIN-SUFFIX,z-lib.fo
+DOMAIN-SUFFIX,z-lib.gd
+DOMAIN-SUFFIX,z-lib.gl
 DOMAIN-SUFFIX,z-lib.io
 DOMAIN-SUFFIX,z-lib.org
 DOMAIN-SUFFIX,z-library.se
+DOMAIN-SUFFIX,z-library.sk
 DOMAIN-SUFFIX,z00.world
 DOMAIN-SUFFIX,z18r.co
 DOMAIN-SUFFIX,z18r.com
