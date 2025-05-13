@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31572
+# 规则统计: 31573
 
 payload:
   - '1password.drift.click'
@@ -20239,6 +20239,7 @@ payload:
   - '+.nikke-jp.com'
   - '+.nikke-kr.com'
   - '+.nikke-sea.com'
+  - '+.nikke.hotcool.tw'
   - '+.nikkei-cnbc.co.jp'
   - '+.nikkei.co.jp'
   - '+.nikkei.com'

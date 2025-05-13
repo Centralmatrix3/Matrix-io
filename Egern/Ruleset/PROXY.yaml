@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31572
+# 规则统计: 31573
 
 domain_set:
   - 1password.drift.click
@@ -20240,6 +20240,7 @@ domain_suffix_set:
   - nikke-jp.com
   - nikke-kr.com
   - nikke-sea.com
+  - nikke.hotcool.tw
   - nikkei-cnbc.co.jp
   - nikkei.co.jp
   - nikkei.com

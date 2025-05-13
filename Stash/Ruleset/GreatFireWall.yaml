@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 6510
+# 规则统计: 6517
 
 payload:
   - '+.000webhost.com'
@@ -214,6 +214,7 @@ payload:
   - '+.ai-kan.net'
   - '+.ai-wen.net'
   - '+.ai.binwang.me'
+  - '+.ai.google'
   - '+.aiosearch.com'
   - '+.aiph.net'
   - '+.airasia.com'
@@ -3922,6 +3923,10 @@ payload:
   - '+.nicovideo.jp'
   - '+.nighost.org'
   - '+.nightswatch.top'
+  - '+.nikke-en.com'
+  - '+.nikke-jp.com'
+  - '+.nikke-kr.com'
+  - '+.nikke.hotcool.tw'
   - '+.nikkei.com'
   - '+.ninecommentaries.com'
   - '+.ninjacloak.com'
@@ -3955,6 +3960,7 @@ payload:
   - '+.nordstromrack.com'
   - '+.nordvpn.com'
   - '+.nos.nl'
+  - '+.notebooklm.google'
   - '+.notepad-plus-plus.org'
   - '+.nottinghampost.com'
   - '+.novelasia.com'
@@ -5401,6 +5407,7 @@ payload:
   - '+.tigervpn.com'
   - '+.tiktok.com'
   - '+.tiktokcdn-us.com'
+  - '+.tiktokcdn.com'
   - '+.tiktokv.com'
   - '+.tiktokv.us'
   - '+.tiltbrush.com'

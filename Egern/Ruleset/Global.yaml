@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7435
+# 规则统计: 7440
 
 no_resolve: true
 domain_set:
@@ -4406,6 +4406,10 @@ domain_suffix_set:
   - nightlife141.com
   - nightswatch.top
   - nike.com
+  - nikke-en.com
+  - nikke-jp.com
+  - nikke-kr.com
+  - nikke.hotcool.tw
   - nikkei.com
   - ninecommentaries.com
   - ning.com
@@ -4443,6 +4447,7 @@ domain_suffix_set:
   - nordstromrack.com
   - nordvpn.com
   - nos.nl
+  - notebooklm.google
   - notepad-plus-plus.org
   - notion.so
   - nottinghampost.com
