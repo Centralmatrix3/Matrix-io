@@ -1,4 +1,4 @@
-/*
+/**
 ----------------------------------------------------------
 author = KOP-XIAO
 update = 2025.05.14 22:30
@@ -6,7 +6,7 @@ update = 2025.05.14 22:30
 [general]
 resource_parser_url = https://github.com/Centralmatrix3/Matrix-io/raw/master/QuantumultX/Scripts/Resource-Parser.js
 ----------------------------------------------------------
-*/
+**/
 
 //beginning 解析器正常使用，調試註釋此部分
 
