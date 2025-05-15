@@ -1,7 +1,7 @@
 /**
 ----------------------------------------------------------
 author = KOP-XIAO
-update = 2025.05.14 22:30
+update = 2025.05.15 22:30
 ----------------------------------------------------------
 [general]
 resource_parser_url = https://github.com/Centralmatrix3/Matrix-io/raw/master/QuantumultX/Scripts/Resource-Parser.js
@@ -121,8 +121,8 @@ var Palpn = mark0 && para1.indexOf("alpn=") != -1 && version >= 712? para1.split
 var Pobfs = mark0 && para1.indexOf("obfs=") != -1 && version >= 770? para1.split("obfs=")[1].split("&")[0] : ""; // 指定特殊情况下的 obfs=xx-http 类型
 var Psession =  mark0 && para1.indexOf("tsession=") != -1 && version >= 771? para1.split("tsession=")[1].split("&")[0] : "";//tls-no-session-ticket and tls-no-session-reuse
 // 0/1 代表关闭 session-ticket/reuse，2 表示全部关闭。
-var Pmix = mark0 && version>=844? 1 : 0 // allow rewrite and filter mix from version 844
-var Pjsonjq = mark0 && version>=845? 0 : 1 // allow jsonjq from version 845
+var Pmix = version>=844? 1 : 0 // allow rewrite and filter mix from version 844
+var Pjsonjq = version>=845? 0 : 1 // allow jsonjq from version 845
 
 var RegoutList= [] ;//用于 regout参数删选提醒
 // URL-Scheme 增加配置
@@ -2250,7 +2250,7 @@ function isQuanX(content) {
 function isQuanXRewrite(content) {
   cnt = content.filter(Boolean)
   cnt0=[]
-  var RuleK = ["host,", "-suffix,", "domain,", "-keyword,", "ip-cidr,", "ip-cidr6,",  "geoip,", "user-agent,", "ip6-cidr,","force-http", "ip-asn"];
+  var RuleK = ["host,", "-suffix,", "DOMAIN","domain,", "-keyword,", "ip-cidr,", "ip-cidr6,",  "geoip,", "user-agent,", "ip6-cidr,","force-http", "ip-asn"];
   for (var i = 0; i< cnt.length; i++){
     if(cnt[i]){
       var cnti = cnt[i].trim()
