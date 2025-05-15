@@ -1,5 +1,5 @@
 # 规则名称: ChinaIPv6
-# 规则统计: 2040
+# 规则统计: 2039
 
 IP-CIDR6,2001:250:2000::/35,no-resolve
 IP-CIDR6,2001:250:4000::/34,no-resolve
@@ -473,7 +473,6 @@ IP-CIDR6,2401:5180::/32,no-resolve
 IP-CIDR6,2401:540::/32,no-resolve
 IP-CIDR6,2401:5680::/32,no-resolve
 IP-CIDR6,2401:58a0::/32,no-resolve
-IP-CIDR6,2401:5960::/32,no-resolve
 IP-CIDR6,2401:59c0::/32,no-resolve
 IP-CIDR6,2401:5b40::/32,no-resolve
 IP-CIDR6,2401:5c20::/32,no-resolve
