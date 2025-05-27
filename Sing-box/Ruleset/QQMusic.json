@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "aqqmusic.tc.qq.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "music.qq.com",
+        "music.tc.qq.com",
+        "qqmusic.qq.com",
+        "tencentmusic.com",
+        "y.qq.com"
+      ]
+    }
+  ]
+}

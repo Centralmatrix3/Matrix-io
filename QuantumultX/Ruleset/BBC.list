@@ -1,0 +1,17 @@
+# 规则名称: BBC
+# 规则统计: 14
+
+HOST,aod-dash-uk-live.akamaized.net,BBC
+HOST,aod-hls-uk-live.akamaized.net,BBC
+HOST,vod-dash-uk-live.akamaized.net,BBC
+HOST,vod-thumb-uk-live.akamaized.net,BBC
+HOST-SUFFIX,bbc.co,BBC
+HOST-SUFFIX,bbc.co.uk,BBC
+HOST-SUFFIX,bbc.com,BBC
+HOST-SUFFIX,bbc.net.uk,BBC
+HOST-SUFFIX,bbcfmt.hs.llnwd.net,BBC
+HOST-SUFFIX,bbci.co,BBC
+HOST-SUFFIX,bbci.co.uk,BBC
+HOST-SUFFIX,bidi.net.uk,BBC
+HOST-KEYWORD,bbcfmt,BBC
+HOST-KEYWORD,uk-live,BBC

@@ -1,0 +1,28 @@
+# 规则名称: Mozilla
+# 规则统计: 23
+
+domain_set:
+  - mdn.mozillademos.org
+domain_suffix_set:
+  - bugzilla.org
+  - crates.io
+  - developer.allizom.org
+  - docs.rs
+  - extensionworkshop.com
+  - firefox.com
+  - firefoxusercontent.com
+  - getpocket.com
+  - mdn.allizom.net
+  - mdn.dev
+  - mdn.mozit.cloud
+  - mdnplay.dev
+  - mdnyalp.dev
+  - mozgcp.net
+  - mozilla.com
+  - mozilla.community
+  - mozilla.net
+  - mozilla.org
+  - rust-lang.org
+  - rustup.rs
+  - seamonkey-project.org
+  - thunderbird.net

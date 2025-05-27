@@ -1,0 +1,23 @@
+# 规则名称: StreamingHK
+# 规则统计: 20
+
+HOST,api.viu.now.com,StreamingHK
+HOST,d1k2us671qcoau.cloudfront.net,StreamingHK
+HOST,d2anahhhmp1ffz.cloudfront.net,StreamingHK
+HOST,dfp6rglgjqszk.cloudfront.net,StreamingHK
+HOST,mytvsuperlimited.hb.omtrdc.net,StreamingHK
+HOST,mytvsuperlimited.sc.omtrdc.net,StreamingHK
+HOST-SUFFIX,cognito-identity.us-east-1.amazonaws.com,StreamingHK
+HOST-SUFFIX,d1k2us671qcoau.cloudfront.net,StreamingHK
+HOST-SUFFIX,d2anahhhmp1ffz.cloudfront.net,StreamingHK
+HOST-SUFFIX,dfp6rglgjqszk.cloudfront.net,StreamingHK
+HOST-SUFFIX,mobileanalytics.us-east-1.amazonaws.com,StreamingHK
+HOST-SUFFIX,mytvsuper.com,StreamingHK
+HOST-SUFFIX,nowe.com,StreamingHK
+HOST-SUFFIX,nowestatic.com,StreamingHK
+HOST-SUFFIX,tvb.com,StreamingHK
+HOST-SUFFIX,viu.com,StreamingHK
+HOST-SUFFIX,viu.now.com,StreamingHK
+HOST-SUFFIX,viu.tv,StreamingHK
+HOST-KEYWORD,nowtv100,StreamingHK
+HOST-KEYWORD,rthklive,StreamingHK

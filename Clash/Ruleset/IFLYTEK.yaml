@@ -1,0 +1,7 @@
+# 规则名称: IFLYTEK
+# 规则统计: 3
+
+payload:
+  - DOMAIN-SUFFIX,iflyink.com
+  - DOMAIN-SUFFIX,iflyrec.com
+  - DOMAIN-SUFFIX,iflytek.com
