@@ -1,5 +1,5 @@
 # 规则名称: ChinaMax
-# 规则统计: 141497
+# 规则统计: 141513
 
 no_resolve: true
 domain_set:
@@ -8609,7 +8609,6 @@ domain_suffix_set:
   - 88lan.com
   - 88laser.com
   - 88lianmengtu.com
-  - 88lmfff666.com
   - 88lot.com
   - 88meishi.com
   - 88mf.com
@@ -29730,10 +29729,17 @@ domain_suffix_set:
   - deweisi.net
   - dewiqq.asia
   - dewmobile.net
+  - dewu-inc.com
+  - dewu-inner.com
+  - dewu-inner.net
+  - dewu.co
   - dewu.com
   - dewu.net
   - dewucdn.com
+  - dewuhd.com
+  - dewuhui.com
   - dewumall.com
+  - dewuyouhui.com
   - dewx.net
   - dexejhyxh.com
   - dexian.mobi
@@ -32031,6 +32037,7 @@ domain_suffix_set:
   - du-xiaomai.com
   - du7.com
   - du8.com
+  - du8.ltd
   - dualaid.com
   - dualspace.com
   - dualspacetech.com
@@ -32382,6 +32389,7 @@ domain_suffix_set:
   - dvsadive.com
   - dvvvs.com
   - dw-microbiology.com
+  - dw2.co
   - dw4.co
   - dwbxg.com
   - dwdds.com
@@ -32389,6 +32397,7 @@ domain_suffix_set:
   - dwgbj.com
   - dwgszc.com
   - dwgwatch.com
+  - dwhhd.com
   - dwhub.net
   - dwhut.com
   - dwidc.com
@@ -40136,6 +40145,8 @@ domain_suffix_set:
   - giffox.com
   - gifhome.com
   - gifshow.com
+  - giftatdw.com
+  - giftattoday.com
   - giftres.com
   - giftsbeijing.com
   - gifu-pr.com
@@ -77164,6 +77175,7 @@ domain_suffix_set:
   - pandapaint.net
   - pandara.xyz
   - pandaremit.com
+  - pandarzli.com
   - pandateacher.com
   - pandatv.com
   - pandax.wiki
@@ -77708,6 +77720,7 @@ domain_suffix_set:
   - pengyaou.com
   - pengyihotel.com
   - pengyou.com
+  - pengyoudewu.com
   - pengyoukan.com
   - pengyuanled.com
   - pengyucpa.com
@@ -78576,7 +78589,11 @@ domain_suffix_set:
   - poinesttia.com
   - point-memory.com
   - poiuytw.com
+  - poizon-inner.com
+  - poizon-inner.net
+  - poizon-support.com
   - poizon.com
+  - poizon.net
   - poj.org
   - pojianyunfu.com
   - poke203.com
@@ -87720,6 +87737,7 @@ domain_suffix_set:
   - shizhihome.com
   - shizhongruyi.com
   - shizhuang-inc.com
+  - shizhuang-inc.net
   - shizhuolin.com
   - shizhuonet.com
   - shj6789.com
@@ -103339,6 +103357,7 @@ domain_suffix_set:
   - womeifilm.com
   - womeimenye.com
   - women-heart.com
+  - womendedw.com
   - womenjie.com
   - wonadea.com
   - wonder.wiki
@@ -121377,7 +121396,7 @@ ip_cidr_set:
   - 103.213.48.0/20
   - 103.213.64.0/19
   - 103.213.96.0/22
-  - 103.214.172.0/22
+  - 103.214.172.0/23
   - 103.214.212.0/22
   - 103.214.240.0/21
   - 103.214.48.0/22
@@ -124744,8 +124763,6 @@ ip_cidr_set:
   - 183.92.0.0/14
   - 184.154.28.210/32
   - 184.27.204.0/24
-  - 184.28.92.0/24
-  - 184.29.159.0/24
   - 185.109.236.0/24
   - 185.170.76.0/22
   - 185.175.100.0/22
@@ -124881,8 +124898,6 @@ ip_cidr_set:
   - 199.3.210.0/25
   - 199.65.192.0/21
   - 199.7.72.0/24
-  - 2.16.122.0/23
-  - 2.17.46.0/24
   - 2.56.255.0/24
   - 2.59.151.0/24
   - 20.134.160.0/20
@@ -126753,7 +126768,6 @@ ip_cidr_set:
   - 23.254.87.144/28
   - 23.26.132.0/24
   - 23.3.99.0/24
-  - 23.36.65.0/24
   - 23.40.241.251/32
   - 23.40.242.10/32
   - 23.48.160.0/24
@@ -126763,7 +126777,6 @@ ip_cidr_set:
   - 23.56.160.0/23
   - 23.59.248.0/23
   - 23.61.203.0/24
-  - 23.61.245.0/24
   - 23.63.29.0/24
   - 23.63.98.0/23
   - 235.254.196.101/32
@@ -141392,6 +141405,8 @@ ip_cidr6_set:
   - 2a13:a5c7:2801::/48
   - 2a13:a5c7:2803::/48
   - 2a13:a5c7:3100::/44
+  - 2a13:a5c7:3110::/47
+  - 2a13:a5c7:3112::/48
   - 2a13:aac4::/32
   - 2a13:b487:1b86::/47
   - 2a13:b487:1b88::/47
@@ -141459,6 +141474,7 @@ ip_cidr6_set:
   - 2a14:7581:b64::/48
   - 2a14:7581:b72::/48
   - 2a14:7581:bbb::/48
+  - 2a14:7581:bcd::/48
   - 2a14:7584:9000::/36
   - 2a14:7584::/36
   - 2a14:7c0:4a01::/48
