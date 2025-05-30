@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 6501
+# 规则统计: 6507
 
 payload:
   - '+.000webhost.com'
@@ -4632,9 +4632,15 @@ payload:
   - '+.s1.nudezz.com'
   - '+.s1heng.com'
   - '+.s1s1s1.com'
+  - '+.s3-ap-northeast-1.amazonaws.com'
+  - '+.s3-ap-northeast-2.amazonaws.com'
   - '+.s3-ap-southeast-1.amazonaws.com'
   - '+.s3-ap-southeast-2.amazonaws.com'
+  - '+.s3-eu-central-1.amazonaws.com'
   - '+.s3.amazonaws.com'
+  - '+.s3.ap-northeast-2.amazonaws.com'
+  - '+.s3.eu-central-1.amazonaws.com'
+  - '+.s3.us-east-1.amazonaws.com'
   - '+.s8forum.com'
   - '+.sa.hao123.com'
   - '+.sacks.com'
