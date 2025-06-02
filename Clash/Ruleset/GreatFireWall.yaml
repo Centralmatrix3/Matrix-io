@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 6508
+# 规则统计: 6509
 
 payload:
   - '+.000webhost.com'
@@ -1292,6 +1292,7 @@ payload:
   - '+.ct.org.tw'
   - '+.ctao.org'
   - '+.ctfriend.net'
+  - '+.ctinews.com'
   - '+.ctitv.com.tw'
   - '+.ctowc.org'
   - '+.cts.com.tw'

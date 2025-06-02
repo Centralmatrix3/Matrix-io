@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 6508
+# 规则统计: 6509
 
 HOST-SUFFIX,000webhost.com,GreatFireWall
 HOST-SUFFIX,030buy.com,GreatFireWall
@@ -1291,6 +1291,7 @@ HOST-SUFFIX,csw.org.uk,GreatFireWall
 HOST-SUFFIX,ct.org.tw,GreatFireWall
 HOST-SUFFIX,ctao.org,GreatFireWall
 HOST-SUFFIX,ctfriend.net,GreatFireWall
+HOST-SUFFIX,ctinews.com,GreatFireWall
 HOST-SUFFIX,ctitv.com.tw,GreatFireWall
 HOST-SUFFIX,ctowc.org,GreatFireWall
 HOST-SUFFIX,cts.com.tw,GreatFireWall

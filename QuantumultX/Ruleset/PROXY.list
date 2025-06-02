@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31750
+# 规则统计: 31751
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -7704,6 +7704,7 @@ HOST-SUFFIX,ctexcel.us,PROXY
 HOST-SUFFIX,ctfassets.net,PROXY
 HOST-SUFFIX,ctfriend.net,PROXY
 HOST-SUFFIX,ctg.ac.uk,PROXY
+HOST-SUFFIX,ctinews.com,PROXY
 HOST-SUFFIX,ctitv.com.tw,PROXY
 HOST-SUFFIX,ctk.ac.uk,PROXY
 HOST-SUFFIX,ctkaquinas.ac.uk,PROXY

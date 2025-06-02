@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31750
+# 规则统计: 31751
 
 domain_set:
   - 1password.drift.click
@@ -7706,6 +7706,7 @@ domain_suffix_set:
   - ctfassets.net
   - ctfriend.net
   - ctg.ac.uk
+  - ctinews.com
   - ctitv.com.tw
   - ctk.ac.uk
   - ctkaquinas.ac.uk
