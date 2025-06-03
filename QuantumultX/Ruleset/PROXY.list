@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31751
+# 规则统计: 31756
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -173,6 +173,7 @@ HOST,firebaselogging.googleapis.com,PROXY
 HOST,firebaseperusertopics-pa.googleapis.com,PROXY
 HOST,firebaseremoteconfig.googleapis.com,PROXY
 HOST,firstsearch.oclc.org,PROXY
+HOST,flightsimulator.azureedge.net,PROXY
 HOST,fontshop-prod-responsive-images.s3.amazonaws.com,PROXY
 HOST,foxnewsplayer-a.akamaihd.net,PROXY
 HOST,gamedownloads-rockstargames-com.akamaized.net,PROXY
@@ -275,6 +276,7 @@ HOST,practivate.adobe.newoa,PROXY
 HOST,practivate.adobe.ntp,PROXY
 HOST,prd-priconne-redive.akamaized.net,PROXY
 HOST,preprod-publicca.googleapis.com,PROXY
+HOST,prodforza.blob.core.windows.net,PROXY
 HOST,production-openaicom-storage.azureedge.net,PROXY
 HOST,psg-int-centralus.cloudapp.net,PROXY
 HOST,psg-int-eastus.cloudapp.net,PROXY
@@ -3037,6 +3039,7 @@ HOST-SUFFIX,asminternational.org,PROXY
 HOST-SUFFIX,asmr.gay,PROXY
 HOST-SUFFIX,asmrbuluo.com,PROXY
 HOST-SUFFIX,asn-online.org,PROXY
+HOST-SUFFIX,asobostudio.com,PROXY
 HOST-SUFFIX,asp-cc.com,PROXY
 HOST-SUFFIX,asp.net,PROXY
 HOST-SUFFIX,aspbjournals.org,PROXY
@@ -11042,6 +11045,7 @@ HOST-SUFFIX,flickr.net,PROXY
 HOST-SUFFIX,flickrhivemind.net,PROXY
 HOST-SUFFIX,flickriver.com,PROXY
 HOST-SUFFIX,fliggy.hk,PROXY
+HOST-SUFFIX,flightsimulator.com,PROXY
 HOST-SUFFIX,fling.com,PROXY
 HOST-SUFFIX,flipboard.com,PROXY
 HOST-SUFFIX,flipfap.com,PROXY
@@ -11160,6 +11164,7 @@ HOST-SUFFIX,forum.sina.com.hk,PROXY
 HOST-SUFFIX,forum.slime.com.tw,PROXY
 HOST-SUFFIX,forum.xinbao.de,PROXY
 HOST-SUFFIX,forum4hk.com,PROXY
+HOST-SUFFIX,forza.net,PROXY
 HOST-SUFFIX,forzamotorsport.net,PROXY
 HOST-SUFFIX,forzaracingchampionship.com,PROXY
 HOST-SUFFIX,forzarc.com,PROXY

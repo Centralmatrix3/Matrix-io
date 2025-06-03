@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 31770
+# 规则统计: 31771
 
 payload:
   - DOMAIN,1password.drift.click
@@ -7168,6 +7168,7 @@ payload:
   - DOMAIN-SUFFIX,ctfassets.net
   - DOMAIN-SUFFIX,ctfriend.net
   - DOMAIN-SUFFIX,ctg.ac.uk
+  - DOMAIN-SUFFIX,ctinews.com
   - DOMAIN-SUFFIX,ctitv.com.tw
   - DOMAIN-SUFFIX,ctk.ac.uk
   - DOMAIN-SUFFIX,ctkaquinas.ac.uk

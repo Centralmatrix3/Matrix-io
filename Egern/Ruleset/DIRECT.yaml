@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 121527
+# 规则统计: 121582
 
 domain_set:
   - 265.com
@@ -20,14 +20,12 @@ domain_set:
   - amp-api-edge-lb.itunes-apple.com.akadns.net
   - amp-api-edge.apps.apple.com
   - amp-api-search-edge.apps.apple.com
+  - amp-api-updates.apps.apple.com
   - amp-api.apps.apple.com
   - amp-api.media.apple.com
   - amp-api.music.apple.com
   - aod.itunes.apple.com
   - api-edge.apps.apple.com
-  - api-p-ap-c.smoot.apple.com
-  - api-p-ap-d.smoot.apple.com
-  - api-p-ap-e.smoot.apple.com
   - app-analytics-services.com
   - app-measurement-cn.com
   - app-measurement.com
@@ -41,6 +39,7 @@ domain_set:
   - auth.music.apple.com
   - avail.googleflights.net
   - b.c2r.ts.cdn.office.net
+  - bag-cdn.itunes-apple.com.akadns.net
   - bag.itunes.apple.com
   - bbs.ztedevices.com
   - beacons.gcp.gvt2.com
@@ -123,6 +122,8 @@ domain_set:
   - dejavu.apple.com
   - devblogs.microsoft.com
   - developer.microsoft.com
+  - devimages-cdn.apple.com
+  - devstreaming-cdn.apple.com
   - dg-meta.video.google.com
   - discussionschinese.apple.com
   - dl.google.com
@@ -184,18 +185,17 @@ domain_set:
   - gsp12-cn.ls.apple.com
   - gsp13-cn.ls.apple.com
   - gsp4-cn.ls.apple.com
-  - gsp4-cn.ls.apple.com.edgekey.net
   - gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net
   - gsp5-cn.ls.apple.com
   - gsp85-cn-ssl.ls.apple.com
   - gspe11-2-cn-ssl.ls.apple.com
   - gspe12-cn-ssl.ls.apple.com
+  - gspe19-2-cn-ssl.ls-apple.com.akadns.net
   - gspe19-2-cn-ssl.ls.apple.com
   - gspe19-cn-ssl.ls.apple.com
   - gspe19-cn.ls-apple.com.akadns.net
   - gspe19-cn.ls.apple.com
   - gspe21-ssl.ls.apple.com
-  - gspe21.ls.apple.com
   - gspe35-ssl.ls.apple.com
   - gspe79-cn-ssl.ls.apple.com
   - gspe85-cn-ssl.ls.apple.com
@@ -213,8 +213,6 @@ domain_set:
   - icloud.cdn-apple.com
   - images-cn-8.ssl-images-amazon.com
   - images-cn.ssl-images-amazon.com
-  - images.apple.com
-  - images.apple.com.akadns.net
   - images.apple.com.edgekey.net.globalredir.akadns.net
   - imasdk.googleapis.com
   - inappcheck-cn.itunes-apple.com.akadns.net
@@ -236,6 +234,7 @@ domain_set:
   - ipcdn.apple.com
   - iphone-ld.apple.com
   - iphone-ld.origin-apple.com.akadns.net
+  - is-ssl.mzstatic.com-cn-lb.itunes-apple.com.akadns.net
   - is1-ssl.mzstatic.com
   - is1.mzstatic.com
   - is2-ssl.mzstatic.com
@@ -461,7 +460,6 @@ domain_set:
   - www-googletagmanager.l.google.com
   - www.amd.com
   - www.apple.com
-  - www.apple.com.edgekey.net
   - www.apple.com.edgekey.net.globalredir.akadns.net
   - www.destinationurl.com
   - www.entrust.cn
@@ -38027,7 +38025,64 @@ domain_suffix_set:
   - frostwell.cc
   - frostwell.net
   - frostwing98.com
+  - frp-act.com
+  - frp-air.com
+  - frp-all.com
+  - frp-any.com
+  - frp-arm.com
+  - frp-art.com
+  - frp-bag.com
+  - frp-bar.com
+  - frp-bid.com
+  - frp-box.com
+  - frp-boy.com
+  - frp-bus.com
+  - frp-car.com
   - frp-china.net
+  - frp-dad.com
+  - frp-dog.com
+  - frp-dry.com
+  - frp-egg.com
+  - frp-end.com
+  - frp-era.com
+  - frp-fan.com
+  - frp-fee.com
+  - frp-fog.com
+  - frp-fox.com
+  - frp-fun.com
+  - frp-gap.com
+  - frp-gas.com
+  - frp-gym.com
+  - frp-hat.com
+  - frp-hen.com
+  - frp-hip.com
+  - frp-hub.com
+  - frp-ice.com
+  - frp-key.com
+  - frp-kit.com
+  - frp-lab.com
+  - frp-leg.com
+  - frp-mad.com
+  - frp-man.com
+  - frp-mix.com
+  - frp-mom.com
+  - frp-net.com
+  - frp-now.com
+  - frp-nut.com
+  - frp-oak.com
+  - frp-off.com
+  - frp-oil.com
+  - frp-one.com
+  - frp-own.com
+  - frp-pen.com
+  - frp-put.com
+  - frp-rib.com
+  - frp-rug.com
+  - frp-run.com
+  - frp-say.com
+  - frp-sea.com
+  - frp-shy.com
+  - frp-six.com
   - frpapp.com
   - frt.ltd
   - frtgraphite.com

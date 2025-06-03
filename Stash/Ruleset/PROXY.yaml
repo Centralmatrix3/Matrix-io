@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31751
+# 规则统计: 31756
 
 payload:
   - '1password.drift.click'
@@ -174,6 +174,7 @@ payload:
   - 'firebaseperusertopics-pa.googleapis.com'
   - 'firebaseremoteconfig.googleapis.com'
   - 'firstsearch.oclc.org'
+  - 'flightsimulator.azureedge.net'
   - 'fontshop-prod-responsive-images.s3.amazonaws.com'
   - 'foxnewsplayer-a.akamaihd.net'
   - 'gamedownloads-rockstargames-com.akamaized.net'
@@ -276,6 +277,7 @@ payload:
   - 'practivate.adobe.ntp'
   - 'prd-priconne-redive.akamaized.net'
   - 'preprod-publicca.googleapis.com'
+  - 'prodforza.blob.core.windows.net'
   - 'production-openaicom-storage.azureedge.net'
   - 'psg-int-centralus.cloudapp.net'
   - 'psg-int-eastus.cloudapp.net'
@@ -3038,6 +3040,7 @@ payload:
   - '+.asmr.gay'
   - '+.asmrbuluo.com'
   - '+.asn-online.org'
+  - '+.asobostudio.com'
   - '+.asp-cc.com'
   - '+.asp.net'
   - '+.aspbjournals.org'
@@ -11043,6 +11046,7 @@ payload:
   - '+.flickrhivemind.net'
   - '+.flickriver.com'
   - '+.fliggy.hk'
+  - '+.flightsimulator.com'
   - '+.fling.com'
   - '+.flipboard.com'
   - '+.flipfap.com'
@@ -11161,6 +11165,7 @@ payload:
   - '+.forum.slime.com.tw'
   - '+.forum.xinbao.de'
   - '+.forum4hk.com'
+  - '+.forza.net'
   - '+.forzamotorsport.net'
   - '+.forzaracingchampionship.com'
   - '+.forzarc.com'
