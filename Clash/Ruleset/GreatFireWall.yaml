@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 6509
+# 规则统计: 6511
 
 payload:
   - '+.000webhost.com'
@@ -960,6 +960,7 @@ payload:
   - '+.cdjp.org'
   - '+.cdn-images.mailchimp.com'
   - '+.cdn-telegram.org'
+  - '+.cdn.arstechnica.net'
   - '+.cdn.assets.lfpcontent.com'
   - '+.cdn.helixstudios.net'
   - '+.cdn.jwplayer.com'
@@ -1120,6 +1121,7 @@ payload:
   - '+.churchinhongkong.org'
   - '+.chushigangdrug.ch'
   - '+.ci-en.jp'
+  - '+.cici.com'
   - '+.ciciai.com'
   - '+.cienen.com'
   - '+.cineastentreff.de'

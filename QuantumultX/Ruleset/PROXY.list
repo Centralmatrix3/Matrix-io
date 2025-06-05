@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31756
+# 规则统计: 31758
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -6384,6 +6384,7 @@ HOST-SUFFIX,cdn-images.mailchimp.com,PROXY
 HOST-SUFFIX,cdn-telegram.org,PROXY
 HOST-SUFFIX,cdn-terapeak.com,PROXY
 HOST-SUFFIX,cdn.ac.uk,PROXY
+HOST-SUFFIX,cdn.arstechnica.net,PROXY
 HOST-SUFFIX,cdn.assets.lfpcontent.com,PROXY
 HOST-SUFFIX,cdn.printfriendly.com,PROXY
 HOST-SUFFIX,cdn.seatguru.com,PROXY
@@ -6857,6 +6858,7 @@ HOST-SUFFIX,cia.ac.uk,PROXY
 HOST-SUFFIX,cias.ac.uk,PROXY
 HOST-SUFFIX,ciattackers.com,PROXY
 HOST-SUFFIX,cib.ac.uk,PROXY
+HOST-SUFFIX,cici.com,PROXY
 HOST-SUFFIX,ciciai.com,PROXY
 HOST-SUFFIX,cicl.ac.uk,PROXY
 HOST-SUFFIX,cied.ac.uk,PROXY

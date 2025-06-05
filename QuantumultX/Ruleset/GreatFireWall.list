@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 6509
+# 规则统计: 6511
 
 HOST-SUFFIX,000webhost.com,GreatFireWall
 HOST-SUFFIX,030buy.com,GreatFireWall
@@ -959,6 +959,7 @@ HOST-SUFFIX,cdig.info,GreatFireWall
 HOST-SUFFIX,cdjp.org,GreatFireWall
 HOST-SUFFIX,cdn-images.mailchimp.com,GreatFireWall
 HOST-SUFFIX,cdn-telegram.org,GreatFireWall
+HOST-SUFFIX,cdn.arstechnica.net,GreatFireWall
 HOST-SUFFIX,cdn.assets.lfpcontent.com,GreatFireWall
 HOST-SUFFIX,cdn.helixstudios.net,GreatFireWall
 HOST-SUFFIX,cdn.jwplayer.com,GreatFireWall
@@ -1119,6 +1120,7 @@ HOST-SUFFIX,chubun.com,GreatFireWall
 HOST-SUFFIX,churchinhongkong.org,GreatFireWall
 HOST-SUFFIX,chushigangdrug.ch,GreatFireWall
 HOST-SUFFIX,ci-en.jp,GreatFireWall
+HOST-SUFFIX,cici.com,GreatFireWall
 HOST-SUFFIX,ciciai.com,GreatFireWall
 HOST-SUFFIX,cienen.com,GreatFireWall
 HOST-SUFFIX,cineastentreff.de,GreatFireWall

@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31756
+# 规则统计: 31758
 
 payload:
   - '1password.drift.click'
@@ -6385,6 +6385,7 @@ payload:
   - '+.cdn-telegram.org'
   - '+.cdn-terapeak.com'
   - '+.cdn.ac.uk'
+  - '+.cdn.arstechnica.net'
   - '+.cdn.assets.lfpcontent.com'
   - '+.cdn.printfriendly.com'
   - '+.cdn.seatguru.com'
@@ -6858,6 +6859,7 @@ payload:
   - '+.cias.ac.uk'
   - '+.ciattackers.com'
   - '+.cib.ac.uk'
+  - '+.cici.com'
   - '+.ciciai.com'
   - '+.cicl.ac.uk'
   - '+.cied.ac.uk'

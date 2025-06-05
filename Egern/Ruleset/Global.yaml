@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7400
+# 规则统计: 7402
 
 no_resolve: true
 domain_set:
@@ -1056,6 +1056,7 @@ domain_suffix_set:
   - cdjp.org
   - cdn-images.mailchimp.com
   - cdn-telegram.org
+  - cdn.arstechnica.net
   - cdn.assets.lfpcontent.com
   - cdn.helixstudios.net
   - cdn.jwplayer.com
@@ -1225,6 +1226,7 @@ domain_suffix_set:
   - churchinhongkong.org
   - chushigangdrug.ch
   - ci-en.jp
+  - cici.com
   - ciciai.com
   - cienen.com
   - cineastentreff.de
