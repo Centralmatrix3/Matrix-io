@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7402
+# 规则统计: 7403
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -1328,6 +1328,7 @@ payload:
   - DOMAIN-SUFFIX,codeshare.io
   - DOMAIN-SUFFIX,codeskulptor.org
   - DOMAIN-SUFFIX,cofacts.tw
+  - DOMAIN-SUFFIX,coffeemanga.to
   - DOMAIN-SUFFIX,coin2co.in
   - DOMAIN-SUFFIX,coinbase.com
   - DOMAIN-SUFFIX,coinbene.com

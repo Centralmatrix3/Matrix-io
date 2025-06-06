@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31758
+# 规则统计: 31759
 
 domain_set:
   - 1password.drift.click
@@ -7250,6 +7250,7 @@ domain_suffix_set:
   - coem.ac.uk
   - cof.ac.uk
   - cofacts.tw
+  - coffeemanga.to
   - cogc.ac.uk
   - coin2co.in
   - coinalyze.net
