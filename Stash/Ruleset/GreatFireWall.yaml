@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 6513
+# 规则统计: 6514
 
 payload:
   - '+.000webhost.com'
@@ -3361,6 +3361,7 @@ payload:
   - '+.line.naver.jp'
   - '+.linear-abematv.akamaized.net'
   - '+.linglingfa.com'
+  - '+.lingualeo.com'
   - '+.lingvodics.com'
   - '+.link-o-rama.com'
   - '+.linkedin.com'
