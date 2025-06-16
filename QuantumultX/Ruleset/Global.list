@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7301
+# 规则统计: 7302
 
 HOST,cloud.oracle.com,Global
 HOST,steambroadcast.akamaized.net,Global
@@ -2374,6 +2374,7 @@ HOST-SUFFIX,githubmemory.com,Global
 HOST-SUFFIX,githubusercontent.com,Global
 HOST-SUFFIX,gitlab.com,Global
 HOST-SUFFIX,gitlab.io,Global
+HOST-SUFFIX,gitlab.net,Global
 HOST-SUFFIX,gitmemory.com,Global
 HOST-SUFFIX,gizlen.net,Global
 HOST-SUFFIX,gjczz.com,Global

@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7301
+# 规则统计: 7302
 
 no_resolve: true
 domain_set:
@@ -2377,6 +2377,7 @@ domain_suffix_set:
   - githubusercontent.com
   - gitlab.com
   - gitlab.io
+  - gitlab.net
   - gitmemory.com
   - gizlen.net
   - gjczz.com

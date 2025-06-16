@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 31781
+# 规则统计: 31790
 
 payload:
   - DOMAIN,1password.drift.click
@@ -828,6 +828,7 @@ payload:
   - DOMAIN-SUFFIX,aboutyourmini.com
   - DOMAIN-SUFFIX,abow.jp
   - DOMAIN-SUFFIX,abpchina.org
+  - DOMAIN-SUFFIX,abplive.com
   - DOMAIN-SUFFIX,abrsm.ac.uk
   - DOMAIN-SUFFIX,abs.ac.uk
   - DOMAIN-SUFFIX,abs.edu
@@ -897,6 +898,7 @@ payload:
   - DOMAIN-SUFFIX,acgnx.se
   - DOMAIN-SUFFIX,acgvipss.com
   - DOMAIN-SUFFIX,acgwr.com
+  - DOMAIN-SUFFIX,acgww.cyou
   - DOMAIN-SUFFIX,achat-followers-instagram.com
   - DOMAIN-SUFFIX,acheter-followers-instagram.com
   - DOMAIN-SUFFIX,acheterdesfollowersinstagram.com
@@ -10430,6 +10432,7 @@ payload:
   - DOMAIN-SUFFIX,financeleadsonline.com
   - DOMAIN-SUFFIX,financetwitter.com
   - DOMAIN-SUFFIX,financialadvisoriq.com
+  - DOMAIN-SUFFIX,financialexpress.com
   - DOMAIN-SUFFIX,financialsoccer.ca
   - DOMAIN-SUFFIX,finchvpn.com
   - DOMAIN-SUFFIX,find-apple.com
@@ -13170,6 +13173,7 @@ payload:
   - DOMAIN-SUFFIX,himemix.net
   - DOMAIN-SUFFIX,hindawi.com
   - DOMAIN-SUFFIX,hindiweb.com
+  - DOMAIN-SUFFIX,hindustantimes.com
   - DOMAIN-SUFFIX,hinet.net
   - DOMAIN-SUFFIX,hipaa6020.com
   - DOMAIN-SUFFIX,hiperduct.ac.uk
@@ -14511,6 +14515,7 @@ payload:
   - DOMAIN-SUFFIX,indiansexstories.net
   - DOMAIN-SUFFIX,indiansexstories2.net
   - DOMAIN-SUFFIX,indiatimes.com
+  - DOMAIN-SUFFIX,indiatoday.in
   - DOMAIN-SUFFIX,indiemerch.com
   - DOMAIN-SUFFIX,indienudes.com
   - DOMAIN-SUFFIX,indies-av.co.jp
@@ -19684,6 +19689,7 @@ payload:
   - DOMAIN-SUFFIX,newhighlandvision.com
   - DOMAIN-SUFFIX,newhtbook.com
   - DOMAIN-SUFFIX,newi.ac.uk
+  - DOMAIN-SUFFIX,newindianexpress.com
   - DOMAIN-SUFFIX,newipnow.com
   - DOMAIN-SUFFIX,newisiknowledge.com
   - DOMAIN-SUFFIX,newlandmagazine.com.au
@@ -19703,6 +19709,7 @@ payload:
   - DOMAIN-SUFFIX,news.net.au
   - DOMAIN-SUFFIX,news1.kr
   - DOMAIN-SUFFIX,news100.com.tw
+  - DOMAIN-SUFFIX,news18.com
   - DOMAIN-SUFFIX,newsadds.com.au
   - DOMAIN-SUFFIX,newsamerica.com
   - DOMAIN-SUFFIX,newsancai.com
@@ -25648,6 +25655,7 @@ payload:
   - DOMAIN-SUFFIX,stak.ac.uk
   - DOMAIN-SUFFIX,stamford.ac.uk
   - DOMAIN-SUFFIX,stamfordparktrust.ac.uk
+  - DOMAIN-SUFFIX,standard.co.uk
   - DOMAIN-SUFFIX,standardsuniversity.org
   - DOMAIN-SUFFIX,standupfortibet.org
   - DOMAIN-SUFFIX,standwithhk.org
@@ -26764,6 +26772,7 @@ payload:
   - DOMAIN-SUFFIX,theguardian.com
   - DOMAIN-SUFFIX,theguardiandns.com
   - DOMAIN-SUFFIX,thehabibshow.com
+  - DOMAIN-SUFFIX,thehansindia.com
   - DOMAIN-SUFFIX,thehealthsite.com
   - DOMAIN-SUFFIX,thehenleycollege.ac.uk
   - DOMAIN-SUFFIX,thehentaiworld.com

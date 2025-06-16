@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5851
+# 规则统计: 5853
 
 domain_suffix_set:
   - 000webhost.com
@@ -1968,6 +1968,7 @@ domain_suffix_set:
   - githubassets.com
   - githubcopilot.com
   - githubusercontent.com
+  - gitlab.net
   - gizlen.net
   - gjczz.com
   - glarity.app
@@ -2395,6 +2396,7 @@ domain_suffix_set:
   - himalayanglacier.com
   - himemix.com
   - hindustantimes.com
+  - hinet.net
   - hitbtc.com
   - hitomi.la
   - hiveon.net
