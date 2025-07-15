@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5866
+# 规则统计: 5867
 
 payload:
   - '+.000webhost.com'
@@ -5606,6 +5606,7 @@ payload:
   - '+.www.thechinastory.org'
   - '+.www.wan-press.org'
   - '+.www.websnapr.com'
+  - '+.www.xicons.org'
   - '+.www.zensur.freerk.com'
   - '+.www1.american.edu'
   - '+.www1.biz'

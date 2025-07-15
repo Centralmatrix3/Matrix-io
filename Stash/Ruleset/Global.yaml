@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7319
+# 规则统计: 7320
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -6889,6 +6889,7 @@ payload:
   - DOMAIN-SUFFIX,www.thechinastory.org
   - DOMAIN-SUFFIX,www.wan-press.org
   - DOMAIN-SUFFIX,www.websnapr.com
+  - DOMAIN-SUFFIX,www.xicons.org
   - DOMAIN-SUFFIX,www.zensur.freerk.com
   - DOMAIN-SUFFIX,www1.american.edu
   - DOMAIN-SUFFIX,www1.biz
