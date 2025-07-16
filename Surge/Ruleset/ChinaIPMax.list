@@ -13001,7 +13001,6 @@ IP-CIDR,210.5.128.0/19,no-resolve
 IP-CIDR,210.5.128.0/20,no-resolve
 IP-CIDR,210.5.144.0/20,no-resolve
 IP-CIDR,210.5.56.0/21,no-resolve
-IP-CIDR,210.5.6.0/23,no-resolve
 IP-CIDR,210.5.60.0/22,no-resolve
 IP-CIDR,210.5.60.0/24,no-resolve
 IP-CIDR,210.51.0.0/16,no-resolve
@@ -17673,8 +17672,9 @@ IP-CIDR,8.148.32.0/22,no-resolve
 IP-CIDR,8.148.36.0/22,no-resolve
 IP-CIDR,8.148.36.0/23,no-resolve
 IP-CIDR,8.148.38.0/24,no-resolve
-IP-CIDR,8.148.40.0/22,no-resolve
+IP-CIDR,8.148.40.0/23,no-resolve
 IP-CIDR,8.148.42.0/24,no-resolve
+IP-CIDR,8.148.43.0/24,no-resolve
 IP-CIDR,8.148.44.0/22,no-resolve
 IP-CIDR,8.148.48.0/20,no-resolve
 IP-CIDR,8.148.64.0/18,no-resolve
