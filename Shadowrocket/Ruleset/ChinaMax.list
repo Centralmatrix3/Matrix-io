@@ -1,5 +1,5 @@
 # 规则名称: ChinaMax
-# 规则统计: 139317
+# 规则统计: 139320
 
 DOMAIN,1-fss24-s0.streamhoster.com
 DOMAIN,14033.live.streamtheworld.com
@@ -127173,6 +127173,7 @@ IP-CIDR,45.57.138.144/28,no-resolve
 IP-CIDR,45.65.16.0/20,no-resolve
 IP-CIDR,45.78.80.0/20,no-resolve
 IP-CIDR,45.82.241.0/24,no-resolve
+IP-CIDR,45.87.101.0/24,no-resolve
 IP-CIDR,45.87.53.0/24,no-resolve
 IP-CIDR,45.87.54.0/24,no-resolve
 IP-CIDR,45.9.11.0/24,no-resolve
@@ -135982,6 +135983,7 @@ IP-CIDR6,2404:2280:196::/48,no-resolve
 IP-CIDR6,2404:2280:198::/45,no-resolve
 IP-CIDR6,2404:2280:1a4::/46,no-resolve
 IP-CIDR6,2404:2280:1a8::/47,no-resolve
+IP-CIDR6,2404:2280:1ae::/48,no-resolve
 IP-CIDR6,2404:2280:1b0::/48,no-resolve
 IP-CIDR6,2404:2280:1b2::/48,no-resolve
 IP-CIDR6,2404:2280:1b4::/46,no-resolve
@@ -136000,12 +136002,10 @@ IP-CIDR6,2404:2280:1d3::/48,no-resolve
 IP-CIDR6,2404:2280:1d4::/48,no-resolve
 IP-CIDR6,2404:2280:1d6::/47,no-resolve
 IP-CIDR6,2404:2280:1d8::/45,no-resolve
-IP-CIDR6,2404:2280:1e0::/45,no-resolve
-IP-CIDR6,2404:2280:1e8::/46,no-resolve
-IP-CIDR6,2404:2280:1ec::/47,no-resolve
-IP-CIDR6,2404:2280:1ee::/48,no-resolve
+IP-CIDR6,2404:2280:1e0::/44,no-resolve
 IP-CIDR6,2404:2280:1f0::/45,no-resolve
 IP-CIDR6,2404:2280:1f8::/46,no-resolve
+IP-CIDR6,2404:2280:1fd::/48,no-resolve
 IP-CIDR6,2404:2280:1fe::/48,no-resolve
 IP-CIDR6,2404:2280:202::/47,no-resolve
 IP-CIDR6,2404:2280:204::/46,no-resolve
@@ -136017,7 +136017,9 @@ IP-CIDR6,2404:2280:214::/48,no-resolve
 IP-CIDR6,2404:2280:217::/48,no-resolve
 IP-CIDR6,2404:2280:218::/48,no-resolve
 IP-CIDR6,2404:2280:21a::/48,no-resolve
+IP-CIDR6,2404:2280:221::/48,no-resolve
 IP-CIDR6,2404:2280:271::/48,no-resolve
+IP-CIDR6,2404:2280:27c::/48,no-resolve
 IP-CIDR6,2404:240::/32,no-resolve
 IP-CIDR6,2404:280::/32,no-resolve
 IP-CIDR6,2404:30c0::/32,no-resolve
@@ -137794,6 +137796,7 @@ IP-CIDR6,2a06:1281:8000::/36,no-resolve
 IP-CIDR6,2a06:1287:3901:1::/64,no-resolve
 IP-CIDR6,2a06:1287:3910::/48,no-resolve
 IP-CIDR6,2a06:1287:3921::/48,no-resolve
+IP-CIDR6,2a06:3605::/32,no-resolve
 IP-CIDR6,2a06:3606::/31,no-resolve
 IP-CIDR6,2a06:9f45:1111::/48,no-resolve
 IP-CIDR6,2a06:9f81:4100::/48,no-resolve
@@ -139226,7 +139229,6 @@ IP-CIDR6,2a14:67c1:a100::/43,no-resolve
 IP-CIDR6,2a14:67c1:a121::/48,no-resolve
 IP-CIDR6,2a14:67c1:a125::/48,no-resolve
 IP-CIDR6,2a14:67c1:a126::/47,no-resolve
-IP-CIDR6,2a14:67c1:a141::/48,no-resolve
 IP-CIDR6,2a14:67c1:a142::/48,no-resolve
 IP-CIDR6,2a14:67c1:a144::/48,no-resolve
 IP-CIDR6,2a14:67c1:a150::/44,no-resolve
@@ -139242,6 +139244,7 @@ IP-CIDR6,2a14:67c1:b132::/48,no-resolve
 IP-CIDR6,2a14:67c1:b4d0::/44,no-resolve
 IP-CIDR6,2a14:67c1:b4e0::/43,no-resolve
 IP-CIDR6,2a14:67c1:b500::/48,no-resolve
+IP-CIDR6,2a14:67c1:b561::/48,no-resolve
 IP-CIDR6,2a14:67c1:b563::/48,no-resolve
 IP-CIDR6,2a14:67c1:b566::/48,no-resolve
 IP-CIDR6,2a14:67c1:b582::/48,no-resolve
