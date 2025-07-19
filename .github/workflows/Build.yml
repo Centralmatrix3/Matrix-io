@@ -20,7 +20,7 @@ jobs:
 
       - name: Matrix-io
         run: |
-          curl -Ls https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Source/Build.sh | bash
+          curl -Ls https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Source/BuildX.sh | bash
           for file in Matrix-io-repo/*/Ruleset/*.{list,yaml,json}; do
             [ ! -f "$file" ] && echo "$file not found." && continue
             sed -i -e '/^#/d' -e '/^$/d' "$file"
