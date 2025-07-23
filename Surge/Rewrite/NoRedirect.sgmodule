@@ -1,0 +1,9 @@
+#!name = NoRedirect
+#!desc = NoRedirect防跳转
+#!author = app2smile
+
+[Script]
+NoRedirect = type=http-response,pattern=^https:\/\/boxer\.baidu\.com\/scheme\?scheme,script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Surge/Scripts/NoRedirect.js,timeout=120
+
+[MITM]
+hostname = %APPEND% boxer.baidu.com
