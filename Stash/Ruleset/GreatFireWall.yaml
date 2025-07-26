@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5867
+# 规则统计: 5868
 
 payload:
   - '+.000webhost.com'
@@ -5711,6 +5711,7 @@ payload:
   - '+.yam.org.tw'
   - '+.yande.re'
   - '+.yanghengjun.com'
+  - '+.yangzhi.org'
   - '+.yasni.co.uk'
   - '+.yasukuni.or.jp'
   - '+.yayabay.com'

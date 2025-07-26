@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7320
+# 规则统计: 7321
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -7023,6 +7023,7 @@ payload:
   - DOMAIN-SUFFIX,yandex.ru
   - DOMAIN-SUFFIX,yanghengjun.com
   - DOMAIN-SUFFIX,yangjianli.com
+  - DOMAIN-SUFFIX,yangzhi.org
   - DOMAIN-SUFFIX,yasni.co.uk
   - DOMAIN-SUFFIX,yasukuni.or.jp
   - DOMAIN-SUFFIX,yayabay.com
