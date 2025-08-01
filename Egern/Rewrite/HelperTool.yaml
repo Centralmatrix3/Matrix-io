@@ -56,10 +56,11 @@ scriptings:
 
 mitm:
   hostnames:
-    - boxjs.com
-    - boxjs.net
-    - '*.boxjs.com'
-    - '*.boxjs.net'
-    - script.hub
-    - '*.script.hub'
-    - sub.store
+    includes:
+      - boxjs.com
+      - boxjs.net
+      - '*.boxjs.com'
+      - '*.boxjs.net'
+      - script.hub
+      - '*.script.hub'
+      - sub.store
