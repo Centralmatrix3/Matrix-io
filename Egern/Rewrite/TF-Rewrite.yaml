@@ -1,0 +1,14 @@
+name: TestFlight
+description: TestFlight下载修正
+author: mieqq
+
+body_rewrites:
+  - request_regex:
+      match: ^https?://testflight\.apple\.com/v\d/accounts/.+?/install$
+      find: (\"storefrontId\")\s?:\s?\".+?\"
+      replace: $1:"143441-19,29"
+
+mitm:
+  hostnames:
+    includes:
+      - testflight.apple.com
