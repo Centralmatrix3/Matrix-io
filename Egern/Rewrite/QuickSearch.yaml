@@ -343,4 +343,5 @@ url_rewrites:
 
 mitm:
   hostnames:
-    - duckduckgo.com
+    includes:
+      - duckduckgo.com
