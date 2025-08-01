@@ -1,0 +1,250 @@
+name: Build
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "5 0,12 * * *"
+
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    env:
+      TZ: "Asia/Shanghai"
+      SING_BOX_VERSION: 1.11.15
+    steps: 
+      - name: Checkout Repository
+        uses: actions/checkout@v4.2.2
+        with:
+          repository: Centralmatrix3/Matrix-io
+          path: Matrix-io-repo
+
+      - name: Matrix-io
+        run: |
+          curl -Ls https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Source/BuildAction.sh | bash
+          for file in Matrix-io-repo/*/Ruleset/*.{list,yaml,json}; do
+            [ ! -f "$file" ] && echo "$file not found." && continue
+            sed -i -e '/^#/d' -e '/^$/d' "$file"
+          done
+
+      - name: Clash
+        run: |
+          cd Matrix-io-repo/Clash/Ruleset
+          for file in *.yaml; do
+            [ ! -f "$file" ] && echo "$file not found." && continue
+            file_names="${file%.yaml}"
+            if [[ "$file" =~ ^(AdBlock|Advertising|GreatFireWall|DIRECT|PROXY|REJECT)\.yaml$ ]]; then
+              sed -i -e 's/^DOMAIN,//' -e 's/^DOMAIN-SUFFIX,/+./' "$file"
+              awk '{print "  - \x27" $0 "\x27"}' "$file" > tmpfile && mv tmpfile "$file"
+            elif [[ "$file" == *CIDR*.yaml ]]; then
+              sed -i -e 's/^IP-CIDR,//' -e 's/^IP-CIDR6,//' "$file"
+              awk '{print "  - \x27" $0 "\x27"}' "$file" > tmpfile && mv tmpfile "$file"
+            else
+              awk '{print "  - " $0}' "$file" > tmpfile && mv tmpfile "$file"
+            fi
+            rule_count=$(grep -c '^  - ' "$file")
+            {
+              echo "# 规则名称: $file_names"
+              echo "# 规则统计: $rule_count"
+              echo
+              echo "payload:"
+              cat "$file"
+            } > tmpfile && mv tmpfile "$file"
+          done
+
+      - name: Egern
+        run: |
+          cd Matrix-io-repo/Egern/Ruleset
+          for file in *.yaml; do
+            [ ! -f "$file" ] && echo "$file not found." && continue
+            file_names="${file%.yaml}"
+            grep -q ',no-resolve' "$file" && sed -i '1i\no_resolve: true' "$file"
+            awk '
+              BEGIN { domain=suffix=keyword=cidr4=cidr6=asn=geoip=0 }
+              { gsub(/,no-resolve/, "", $0); if ($0 ~ /^DOMAIN,/) {
+                  split($0, arr, ",");
+                  if (!domain++) print "domain_set:";
+                  print "  - " arr[2];
+              } else if ($0 ~ /^DOMAIN-SUFFIX,/) {
+                  split($0, arr, ",");
+                  if (!suffix++) print "domain_suffix_set:";
+                  print "  - " arr[2];
+              } else if ($0 ~ /^DOMAIN-KEYWORD,/) {
+                  split($0, arr, ",");
+                  if (!keyword++) print "domain_keyword_set:";
+                  print "  - " arr[2];
+              } else if ($0 ~ /^IP-CIDR,/) {
+                  split($0, arr, ",");
+                  if (!cidr4++) print "ip_cidr_set:";
+                  print "  - " arr[2];
+              } else if ($0 ~ /^IP-CIDR6,/) {
+                  split($0, arr, ",");
+                  if (!ip_cidr6++) print "ip_cidr6_set:";
+                  print "  - " arr[2];
+              } else if ($0 ~ /^IP-ASN,/) {
+                  split($0, arr, ",");
+                  if (!asn++) print "asn_set:";
+                  print "  - " arr[2];
+              } else if ($0 ~ /^GEOIP,/) {
+                  split($0, arr, ",");
+                  if (!geoip++) print "geoip_set:";
+                  print "  - " arr[2];
+              } else { print $0; }
+            }' "$file" > tmpfile && mv tmpfile "$file"
+            rule_count=$(grep -c '^  - ' "$file")
+            {
+              echo "# 规则名称: $file_names"
+              echo "# 规则统计: $rule_count"
+              echo
+              cat "$file"
+            } > tmpfile && mv tmpfile "$file"
+          done
+
+      - name: Loon
+        run: |
+          cd Matrix-io-repo/Loon/Ruleset
+          for file in *.list; do
+            [ ! -f "$file" ] && echo "$file not found." && continue
+            file_names="${file%.list}"
+            rule_count=$(wc -l < "$file")
+            {
+              echo "# 规则名称: $file_names"
+              echo "# 规则统计: $rule_count"
+              echo
+              cat "$file"
+            } > tmpfile && mv tmpfile "$file"
+          done
+
+      - name: QuantumultX
+        run: |
+          cd Matrix-io-repo/QuantumultX/Ruleset
+          for file in *.list; do
+            [ ! -f "$file" ] && echo "$file not found." && continue
+            file_names="${file%.list}"
+            sed -i -e 's/^DOMAIN,/HOST,/g; s/^DOMAIN-SUFFIX,/HOST-SUFFIX,/g; s/^DOMAIN-KEYWORD,/HOST-KEYWORD,/g' \
+                   -e 's/^DOMAIN-WILDCARD,/HOST-WILDCARD,/g; s/^IP-CIDR6,/IP6-CIDR,/g; s/,no-resolve//g' "$file"
+            awk -v policy="$file_names" '{ print $0 "," policy }' "$file" > tmpfile && mv tmpfile "$file"
+            rule_count=$(wc -l < "$file")
+            {
+              echo "# 规则名称: $file_names"
+              echo "# 规则统计: $rule_count"
+              echo
+              cat "$file"
+            } > tmpfile && mv tmpfile "$file"
+          done
+
+      - name: Shadowrocket
+        run: |
+          cd Matrix-io-repo/Shadowrocket/Ruleset
+          for file in *.list; do
+            [ ! -f "$file" ] && echo "$file not found." && continue
+            file_names="${file%.list}"
+            rule_count=$(wc -l < "$file")
+            {
+              echo "# 规则名称: $file_names"
+              echo "# 规则统计: $rule_count"
+              echo
+              cat "$file"
+            } > tmpfile && mv tmpfile "$file"
+          done
+
+      - name: Sing-box
+        run: |
+          curl -L -o sing-box.tar.gz "https://github.com/SagerNet/sing-box/releases/download/v${SING_BOX_VERSION}/sing-box-${SING_BOX_VERSION}-linux-amd64.tar.gz"
+          tar -xzf sing-box.tar.gz
+          chmod +x sing-box-${SING_BOX_VERSION}-linux-amd64/sing-box
+          sudo mv sing-box-${SING_BOX_VERSION}-linux-amd64/sing-box /usr/local/bin/sing-box
+          sing-box version
+          cd Matrix-io-repo/Sing-box/Ruleset
+          for file in *.json; do
+            [ ! -f "$file" ] && echo "$file not found." && continue
+            file_names="${file%.json}"
+            tmp=$(mktemp)
+            echo '{' > "$tmp"
+            echo '  "version": 2,' >> "$tmp"
+            echo '  "rules": [' >> "$tmp"
+            first_entry=true
+            add_rule_block() {
+              local json_key="$1"
+              shift
+              local values
+              values=$(grep -E "^($(IFS=\|; echo "$*"))," "$file" | cut -d, -f2)
+              [ -z "$values" ] && return
+              $first_entry || echo ',' >> "$tmp"
+              first_entry=false
+              echo '    {' >> "$tmp"
+              echo "      \"$json_key\": [" >> "$tmp"
+              echo "$values" | jq -R . | jq -s . | jq -r '.[]' | sed 's/^/        "/;s/$/",/' >> "$tmp"
+              sed -i '$ s/,$//' "$tmp"
+              echo '      ]' >> "$tmp"
+              echo -n '    }' >> "$tmp"
+            }
+            add_rule_block "domain" "DOMAIN"
+            add_rule_block "domain_suffix" "DOMAIN-SUFFIX"
+            add_rule_block "domain_keyword" "DOMAIN-KEYWORD"
+            add_rule_block "ip_cidr" "IP-CIDR" "IP-CIDR6"
+            echo >> "$tmp"
+            echo '  ]' >> "$tmp"
+            echo '}' >> "$tmp"
+            mv "$tmp" "$file"
+            sing-box rule-set compile "$file" -o "${file_names}.srs"
+          done
+          rm -rf sing-box.tar.gz sing-box-${SING_BOX_VERSION}-linux-amd64
+
+      - name: Stash
+        run: |
+          cd Matrix-io-repo/Stash/Ruleset
+          for file in *.yaml; do
+            [ ! -f "$file" ] && echo "$file not found." && continue
+            file_names="${file%.yaml}"
+            if [[ "$file" =~ ^(AdBlock|Advertising|GreatFireWall|DIRECT|PROXY|REJECT)\.yaml$ ]]; then
+              sed -i -e 's/^DOMAIN,//' -e 's/^DOMAIN-SUFFIX,/+./' "$file"
+              awk '{print "  - \x27" $0 "\x27"}' "$file" > tmpfile && mv tmpfile "$file"
+            elif [[ "$file" == *CIDR*.yaml ]]; then
+              sed -i -e 's/^IP-CIDR,//' -e 's/^IP-CIDR6,//' "$file"
+              awk '{print "  - \x27" $0 "\x27"}' "$file" > tmpfile && mv tmpfile "$file"
+            else
+              awk '{print "  - " $0}' "$file" > tmpfile && mv tmpfile "$file"
+            fi
+            rule_count=$(grep -c '^  - ' "$file")
+            {
+              echo "# 规则名称: $file_names"
+              echo "# 规则统计: $rule_count"
+              echo
+              echo "payload:"
+              cat "$file"
+            } > tmpfile && mv tmpfile "$file"
+          done
+
+      - name: Surge
+        run: |
+          cd Matrix-io-repo/Surge/Ruleset
+          for file in *.list; do
+            [ ! -f "$file" ] && echo "$file not found." && continue
+            file_names="${file%.list}"
+            rule_count=$(wc -l < "$file")
+            {
+              echo "# 规则名称: $file_names"
+              echo "# 规则统计: $rule_count"
+              echo
+              cat "$file"
+            } > tmpfile && mv tmpfile "$file"
+          done
+
+      - name: Push Update
+        run: |
+          cd Matrix-io-repo
+          if [[ -n $(git status -s) ]]; then
+            git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+            git config --local user.name "${{ github.actor }}"
+            git add -A
+            git commit -m "$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')"
+            git push origin master
+          else
+            echo "No changes to commit."
+          fi
+
+      - name: Cleanup Workflow
+        uses: Mattraks/delete-workflow-runs@main
+        with:
+          retain_days: 0
+          keep_minimum_runs: 2
