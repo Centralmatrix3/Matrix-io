@@ -13,10 +13,11 @@ scriptings:
 
 mitm:
   hostnames:
-    - boxjs.com
-    - boxjs.net
-    - '*.boxjs.com'
-    - '*.boxjs.net'
+    includes:
+      - boxjs.com
+      - boxjs.net
+      - '*.boxjs.com'
+      - '*.boxjs.net'
 ----------------------------------------
 */
 
