@@ -13,7 +13,8 @@ scriptings:
 
 mitm:
   hostnames:
-    - testflight.apple.com
+    includes:
+      - testflight.apple.com
 ----------------------------------------
 */
 
