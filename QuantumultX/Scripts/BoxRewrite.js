@@ -6,7 +6,7 @@
 [rewrite_local]
 ^https?:\/\/(.+\.)?boxjs\.(com|net) url script-analyze-echo-response https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/BoxRewrite.js
 
-[MITM]
+[mitm]
 hostname = boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net
 ----------------------------------------
 */
