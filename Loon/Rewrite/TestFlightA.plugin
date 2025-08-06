@@ -1,0 +1,9 @@
+#!name = TestFlight
+#!desc = TestFlight账户管理
+#!author = NobyDa
+
+[Script]
+http-request ^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/ script-path=https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Loon/Scripts/TestFlightA.js, requires-body=true, timeout=120, tag=TF账户管理
+
+[MITM]
+hostname = testflight.apple.com

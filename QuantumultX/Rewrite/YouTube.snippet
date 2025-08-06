@@ -1,0 +1,12 @@
+#!name = YouTube
+#!desc = YouTube去广告
+#!author = Maasea
+
+# [Rewrite]
+^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad url reject-dict
+
+# [Script]
+^https:\/\/youtubei\.googleapis\.com\/(youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch))(\?(.*))?$ url script-response-body https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.response.js
+
+# [MITM]
+hostname = *.googlevideo.com, youtubei.googleapis.com

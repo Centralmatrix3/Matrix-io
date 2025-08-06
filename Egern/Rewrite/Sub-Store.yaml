@@ -1,0 +1,29 @@
+name: Sub-Store
+description: https://sub.store
+author: Peng-YM
+
+scriptings:
+  - http_request:
+      name: Sub-Store
+      match: ^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info)))
+      script_url: https://raw.githubusercontent.com/sub-store-org/Sub-Store/release/sub-store-1.min.js
+      timeout: 120
+      body_required: true
+
+  - http_request:
+      name: Sub-Store
+      match: ^https?:\/\/sub\.store
+      script_url: https://raw.githubusercontent.com/sub-store-org/Sub-Store/release/sub-store-0.min.js
+      timeout: 120
+      body_required: true
+
+  - schedule:
+      name: Sub-Store
+      cron: 0 0 * * *
+      script_url: https://raw.githubusercontent.com/sub-store-org/Sub-Store/release/cron-sync-artifacts.min.js
+      timeout: 120
+
+mitm:
+  hostnames:
+    includes:
+      - sub.store
