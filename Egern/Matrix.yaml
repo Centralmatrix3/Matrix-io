@@ -16,7 +16,7 @@ compat_route: false # 兼容模式
 direct_latency_test_url: http://taobao.com/
 proxy_latency_test_url: http://cp.cloudflare.com/generate_204
 
-# [GEO设置]
+# [数据库]
 geoip_db_url: https://github.com/Masaiki/GeoIP2-CN/raw/release/Country.mmdb
 
 # [DNS设置]
