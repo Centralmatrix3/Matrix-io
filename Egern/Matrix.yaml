@@ -2,16 +2,21 @@
 # 配置作者: Centralmatrix3
 # 更新时间: 25-08-03 00:00
 
-# [端口设置]
+# [本地代理]
 http_port: 8200     # HTTP  代理端口
 socks_port: 8300    # SOCKS 代理端口
+allow_external_connections: false
 
 # [通用设置]
 ipv6: false         # 启用IPv6
 vif_only: true      # 代理模式
 compat_route: false # 兼容模式
+
+# [延迟测试]
 direct_latency_test_url: http://taobao.com/
 proxy_latency_test_url: http://cp.cloudflare.com/generate_204
+
+# [GEO设置]
 geoip_db_url: https://github.com/Masaiki/GeoIP2-CN/raw/release/Country.mmdb
 
 # [DNS设置]
@@ -221,60 +226,70 @@ policy_groups:
 # [分流规则]
 rules:
   - rule_set:
+      name: 规则修正
       match: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Ruleset/Unbreak.yaml
       policy: DIRECT
       update_interval: 86400
       disabled: false
 
   - rule_set:
+      name: 广告拦截
       match: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Ruleset/Advertising.yaml
       policy: REJECT
       update_interval: 86400
       disabled: false
 
   - rule_set:
+      name: 港台番剧
       match: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Ruleset/HMTMedia.yaml
       policy: 港台番剧
       update_interval: 86400
       disabled: false
 
   - rule_set:
+      name: 国内媒体
       match: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Ruleset/ChinaMedia.yaml
       policy: 国内媒体
       update_interval: 86400
       disabled: false
 
   - rule_set:
+      name: 国际媒体
       match: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Ruleset/GlobalMedia.yaml
       policy: 国际媒体
       update_interval: 86400
       disabled: false
 
   - rule_set:
+      name: 全球加速
       match: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Ruleset/Global.yaml
       policy: 全球加速
       update_interval: 86400
       disabled: false
 
   - rule_set:
+      name: 苹果服务
       match: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Ruleset/Apple.yaml
       policy: 苹果服务
       update_interval: 86400
       disabled: false
 
   - rule_set:
+      name: 局域网络
       match: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Ruleset/LAN.yaml
       policy: DIRECT
       update_interval: 86400
       disabled: false
 
   - rule_set:
+      name: 国内规则
       match: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Ruleset/GEOIPCN.yaml
       policy: DIRECT
       update_interval: 86400
       disabled: false
 
   - default:
+      name: 黑白名单
       policy: 黑白名单
 
 # [MITM]
