@@ -25,7 +25,7 @@ profile:
   store-selected: true
   store-fake-ip: true
 
-# [GEO设置]
+# [数据库]
 geodata-mode: true
 geo-auto-update: true
 geo-update-interval: 24
