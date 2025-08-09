@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5872
+# 规则统计: 5874
 
 domain_suffix_set:
   - 000webhost.com
@@ -552,6 +552,7 @@ domain_suffix_set:
   - bitcointalk.org
   - bitcoinworld.com
   - bitfinex.com
+  - bitget.com
   - bithumb.com
   - bitmex.com
   - bitshare.com
@@ -1047,6 +1048,7 @@ domain_suffix_set:
   - clipfish.de
   - cloud.dify.ai
   - cloud.mail.ru
+  - cloudflare-dns.com
   - cloudflare-ipfs.com
   - cloudfunctions.net
   - club1069.com
@@ -5174,6 +5176,7 @@ domain_suffix_set:
   - unstable.icu
   - unwire.hk
   - uocn.org
+  - upbit.com
   - updates.tdesktop.com
   - upghsbc.com
   - upholdjustice.org
@@ -5595,7 +5598,6 @@ domain_suffix_set:
   - www.moztw.org
   - www.msn.com
   - www.nbc.com
-  - www.nodeloc.com
   - www.owind.com
   - www.oxid.it
   - www.powerpointninja.com

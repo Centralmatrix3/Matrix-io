@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5872
+# 规则统计: 5874
 
 HOST-SUFFIX,000webhost.com,GreatFireWall
 HOST-SUFFIX,030buy.com,GreatFireWall
@@ -551,6 +551,7 @@ HOST-SUFFIX,bitchute.com,GreatFireWall
 HOST-SUFFIX,bitcointalk.org,GreatFireWall
 HOST-SUFFIX,bitcoinworld.com,GreatFireWall
 HOST-SUFFIX,bitfinex.com,GreatFireWall
+HOST-SUFFIX,bitget.com,GreatFireWall
 HOST-SUFFIX,bithumb.com,GreatFireWall
 HOST-SUFFIX,bitmex.com,GreatFireWall
 HOST-SUFFIX,bitshare.com,GreatFireWall
@@ -1046,6 +1047,7 @@ HOST-SUFFIX,clipconverter.cc,GreatFireWall
 HOST-SUFFIX,clipfish.de,GreatFireWall
 HOST-SUFFIX,cloud.dify.ai,GreatFireWall
 HOST-SUFFIX,cloud.mail.ru,GreatFireWall
+HOST-SUFFIX,cloudflare-dns.com,GreatFireWall
 HOST-SUFFIX,cloudflare-ipfs.com,GreatFireWall
 HOST-SUFFIX,cloudfunctions.net,GreatFireWall
 HOST-SUFFIX,club1069.com,GreatFireWall
@@ -5173,6 +5175,7 @@ HOST-SUFFIX,unseen.is,GreatFireWall
 HOST-SUFFIX,unstable.icu,GreatFireWall
 HOST-SUFFIX,unwire.hk,GreatFireWall
 HOST-SUFFIX,uocn.org,GreatFireWall
+HOST-SUFFIX,upbit.com,GreatFireWall
 HOST-SUFFIX,updates.tdesktop.com,GreatFireWall
 HOST-SUFFIX,upghsbc.com,GreatFireWall
 HOST-SUFFIX,upholdjustice.org,GreatFireWall
@@ -5594,7 +5597,6 @@ HOST-SUFFIX,www.monlamit.org,GreatFireWall
 HOST-SUFFIX,www.moztw.org,GreatFireWall
 HOST-SUFFIX,www.msn.com,GreatFireWall
 HOST-SUFFIX,www.nbc.com,GreatFireWall
-HOST-SUFFIX,www.nodeloc.com,GreatFireWall
 HOST-SUFFIX,www.owind.com,GreatFireWall
 HOST-SUFFIX,www.oxid.it,GreatFireWall
 HOST-SUFFIX,www.powerpointninja.com,GreatFireWall

@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7325
+# 规则统计: 7327
 
 HOST,cloud.oracle.com,Global
 HOST,steambroadcast.akamaized.net,Global
@@ -671,6 +671,7 @@ HOST-SUFFIX,bitchute.com,Global
 HOST-SUFFIX,bitcointalk.org,Global
 HOST-SUFFIX,bitcoinworld.com,Global
 HOST-SUFFIX,bitfinex.com,Global
+HOST-SUFFIX,bitget.com,Global
 HOST-SUFFIX,bithumb.com,Global
 HOST-SUFFIX,bitinka.com.ar,Global
 HOST-SUFFIX,bitmex.com,Global
@@ -1245,6 +1246,7 @@ HOST-SUFFIX,cloakpoint.com,Global
 HOST-SUFFIX,cloud.dify.ai,Global
 HOST-SUFFIX,cloud.mail.ru,Global
 HOST-SUFFIX,cloudcone.com,Global
+HOST-SUFFIX,cloudflare-dns.com,Global
 HOST-SUFFIX,cloudflare-ipfs.com,Global
 HOST-SUFFIX,cloudfront.net,Global
 HOST-SUFFIX,cloudfunctions.net,Global
@@ -6375,6 +6377,7 @@ HOST-SUFFIX,unstable.icu,Global
 HOST-SUFFIX,untraceable.us,Global
 HOST-SUFFIX,unwire.hk,Global
 HOST-SUFFIX,uocn.org,Global
+HOST-SUFFIX,upbit.com,Global
 HOST-SUFFIX,updates.tdesktop.com,Global
 HOST-SUFFIX,updatestar.com,Global
 HOST-SUFFIX,upghsbc.com,Global
@@ -6877,7 +6880,6 @@ HOST-SUFFIX,www.monlamit.org,Global
 HOST-SUFFIX,www.moztw.org,Global
 HOST-SUFFIX,www.msn.com,Global
 HOST-SUFFIX,www.nbc.com,Global
-HOST-SUFFIX,www.nodeloc.com,Global
 HOST-SUFFIX,www.owind.com,Global
 HOST-SUFFIX,www.oxid.it,Global
 HOST-SUFFIX,www.powerpointninja.com,Global

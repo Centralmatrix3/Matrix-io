@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7325
+# 规则统计: 7327
 
 no_resolve: true
 domain_set:
@@ -674,6 +674,7 @@ domain_suffix_set:
   - bitcointalk.org
   - bitcoinworld.com
   - bitfinex.com
+  - bitget.com
   - bithumb.com
   - bitinka.com.ar
   - bitmex.com
@@ -1248,6 +1249,7 @@ domain_suffix_set:
   - cloud.dify.ai
   - cloud.mail.ru
   - cloudcone.com
+  - cloudflare-dns.com
   - cloudflare-ipfs.com
   - cloudfront.net
   - cloudfunctions.net
@@ -6378,6 +6380,7 @@ domain_suffix_set:
   - untraceable.us
   - unwire.hk
   - uocn.org
+  - upbit.com
   - updates.tdesktop.com
   - updatestar.com
   - upghsbc.com
@@ -6880,7 +6883,6 @@ domain_suffix_set:
   - www.moztw.org
   - www.msn.com
   - www.nbc.com
-  - www.nodeloc.com
   - www.owind.com
   - www.oxid.it
   - www.powerpointninja.com
