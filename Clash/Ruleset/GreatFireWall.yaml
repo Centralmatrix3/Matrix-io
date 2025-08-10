@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5874
+# 规则统计: 5875
 
 payload:
   - '+.000webhost.com'
@@ -3165,6 +3165,7 @@ payload:
   - '+.matters.town'
   - '+.matthewdgreen.wordpress.com'
   - '+.mattwilcox.net'
+  - '+.maven.neoforged.net'
   - '+.maxing.jp'
   - '+.mayimayi.com'
   - '+.mcadforums.com'

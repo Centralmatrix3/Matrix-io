@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 31829
+# 规则统计: 31830
 
 payload:
   - DOMAIN,1password.drift.click
@@ -28233,6 +28233,7 @@ payload:
   - DOMAIN-SUFFIX,up.gcp.googlers.com
   - DOMAIN-SUFFIX,up01.cc
   - DOMAIN-SUFFIX,upa.ac.uk
+  - DOMAIN-SUFFIX,upbit.com
   - DOMAIN-SUFFIX,update.crashlytics.com
   - DOMAIN-SUFFIX,updates.ac.uk
   - DOMAIN-SUFFIX,updatestar.com

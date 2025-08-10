@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7327
+# 规则统计: 7328
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -3860,6 +3860,7 @@ payload:
   - DOMAIN-SUFFIX,matthewdgreen.wordpress.com
   - DOMAIN-SUFFIX,mattwilcox.net
   - DOMAIN-SUFFIX,maturejp.com
+  - DOMAIN-SUFFIX,maven.neoforged.net
   - DOMAIN-SUFFIX,maven.org
   - DOMAIN-SUFFIX,maxing.jp
   - DOMAIN-SUFFIX,mayimayi.com

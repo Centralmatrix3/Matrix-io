@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 31829
+# 规则统计: 31830
 
 no_resolve: true
 domain_set:
@@ -28235,6 +28235,7 @@ domain_suffix_set:
   - up.gcp.googlers.com
   - up01.cc
   - upa.ac.uk
+  - upbit.com
   - update.crashlytics.com
   - updates.ac.uk
   - updatestar.com
