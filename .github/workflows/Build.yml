@@ -13,7 +13,7 @@ jobs:
       SING_BOX_VERSION: 1.11.15
     steps: 
       - name: Checkout Repository
-        uses: actions/checkout@v4.2.2
+        uses: actions/checkout@v5.0.0
         with:
           repository: Centralmatrix3/Matrix-io
           path: Matrix-io-repo
