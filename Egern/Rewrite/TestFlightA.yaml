@@ -1,0 +1,16 @@
+name: TestFlight
+description: TestFlight账户管理
+author: NobyDa
+
+scriptings:
+  - http_request:
+      name: TF账户管理
+      match: ^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/
+      script_url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Egern/Scripts/TestFlightA.js
+      timeout: 120
+      body_required: true
+
+mitm:
+  hostnames:
+    includes:
+      - testflight.apple.com
