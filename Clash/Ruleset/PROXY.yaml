@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31162
+# 规则统计: 31164
 
 payload:
   - '1password.drift.click'
@@ -4252,6 +4252,7 @@ payload:
   - '+.bethsoft.com'
   - '+.betterbim.com'
   - '+.betterexplained.com'
+  - '+.betterhash.net'
   - '+.betterhdporn.com'
   - '+.betternet.co'
   - '+.betternike.com'
@@ -13231,6 +13232,7 @@ payload:
   - '+.herokucdn.com'
   - '+.herokucharge.com'
   - '+.herokussl.com'
+  - '+.herominers.com'
   - '+.heron.ac.uk'
   - '+.herringnetwork.com'
   - '+.hertfordshire.ac.uk'

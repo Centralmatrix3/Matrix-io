@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5879
+# 规则统计: 5882
 
 payload:
   - '+.000webhost.com'
@@ -515,6 +515,7 @@ payload:
   - '+.bet365.com'
   - '+.betaclouds.net'
   - '+.betfair.com'
+  - '+.betterhash.net'
   - '+.betternet.co'
   - '+.bettervpn.com'
   - '+.bettween.com'
@@ -2373,6 +2374,7 @@ payload:
   - '+.heqinglian.net'
   - '+.heritage.org'
   - '+.herokuapp.com'
+  - '+.herominers.com'
   - '+.hexieshe.com'
   - '+.hexieshe.xyz'
   - '+.hexxeh.net'
@@ -2743,6 +2745,7 @@ payload:
   - '+.itaiwan.gov.tw'
   - '+.italiatibet.org'
   - '+.itasoftware.com'
+  - '+.itch.io'
   - '+.itemdb.com'
   - '+.itemfix.com'
   - '+.ithelp.ithome.com.tw'
