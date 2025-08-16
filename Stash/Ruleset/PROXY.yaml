@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31164
+# 规则统计: 31165
 
 payload:
   - '1password.drift.click'
@@ -25935,6 +25935,7 @@ payload:
   - '+.swap.ac.uk'
   - '+.swapbox.ac.uk'
   - '+.swapsmut.com'
+  - '+.swapspace.co'
   - '+.swarf.ac.uk'
   - '+.sway-cdn.com'
   - '+.sway.com'

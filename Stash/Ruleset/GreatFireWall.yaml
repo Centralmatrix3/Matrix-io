@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5882
+# 规则统计: 5883
 
 payload:
   - '+.000webhost.com'
@@ -4615,6 +4615,7 @@ payload:
   - '+.surrenderat20.net'
   - '+.svsfx.com'
   - '+.swagbucks.com'
+  - '+.swapspace.co'
   - '+.swissinfo.ch'
   - '+.swissvpn.net'
   - '+.switch1.jp'

@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7297
+# 规则统计: 7298
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -5664,6 +5664,7 @@ payload:
   - DOMAIN-SUFFIX,suyangg.com
   - DOMAIN-SUFFIX,svsfx.com
   - DOMAIN-SUFFIX,swagbucks.com
+  - DOMAIN-SUFFIX,swapspace.co
   - DOMAIN-SUFFIX,swissinfo.ch
   - DOMAIN-SUFFIX,swissvpn.net
   - DOMAIN-SUFFIX,switch1.jp

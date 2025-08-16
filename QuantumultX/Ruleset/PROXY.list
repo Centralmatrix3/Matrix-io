@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31164
+# 规则统计: 31165
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -25934,6 +25934,7 @@ HOST-SUFFIX,swanseamet.ac.uk,PROXY
 HOST-SUFFIX,swap.ac.uk,PROXY
 HOST-SUFFIX,swapbox.ac.uk,PROXY
 HOST-SUFFIX,swapsmut.com,PROXY
+HOST-SUFFIX,swapspace.co,PROXY
 HOST-SUFFIX,swarf.ac.uk,PROXY
 HOST-SUFFIX,sway-cdn.com,PROXY
 HOST-SUFFIX,sway.com,PROXY
