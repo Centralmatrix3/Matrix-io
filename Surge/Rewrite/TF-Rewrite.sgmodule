@@ -1,0 +1,9 @@
+#!name = TestFlight
+#!desc = TestFlight下载修正
+#!author = mieqq
+
+[Body Rewrite]
+http-request-jq ^https?://testflight\.apple\.com/v\d/accounts/.+?/install$ '.storefrontId = "143441-19,29"'
+
+[MITM]
+hostname = %APPEND% testflight.apple.com
