@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5893
+# 规则统计: 5895
 
 HOST-SUFFIX,000webhost.com,GreatFireWall
 HOST-SUFFIX,030buy.com,GreatFireWall
@@ -1855,6 +1855,8 @@ HOST-SUFFIX,ftvnews.com.tw,GreatFireWall
 HOST-SUFFIX,ftx.com,GreatFireWall
 HOST-SUFFIX,fucd.com,GreatFireWall
 HOST-SUFFIX,fuchsia.dev,GreatFireWall
+HOST-SUFFIX,fuckccp.com,GreatFireWall
+HOST-SUFFIX,fuckccp.xyz,GreatFireWall
 HOST-SUFFIX,fuckgfw.org,GreatFireWall
 HOST-SUFFIX,fulione.com,GreatFireWall
 HOST-SUFFIX,fullerconsideration.com,GreatFireWall
