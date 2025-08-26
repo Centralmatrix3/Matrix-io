@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31178
+# 规则统计: 31183
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -19364,6 +19364,7 @@ HOST-SUFFIX,navisworks.net,PROXY
 HOST-SUFFIX,navyfamily.navy.mil,PROXY
 HOST-SUFFIX,navyreserve.navy.mil,PROXY
 HOST-SUFFIX,naweeklytimes.com,PROXY
+HOST-SUFFIX,naydex.net,PROXY
 HOST-SUFFIX,nazarene.ac.uk,PROXY
 HOST-SUFFIX,nbabot.net,PROXY
 HOST-SUFFIX,nbc.co,PROXY
@@ -24894,6 +24895,7 @@ HOST-SUFFIX,sneakerskick.com,PROXY
 HOST-SUFFIX,sneakme.net,PROXY
 HOST-SUFFIX,snjulebu.com,PROXY
 HOST-SUFFIX,snk-corp.co.jp,PROXY
+HOST-SUFFIX,snk-corp.info,PROXY
 HOST-SUFFIX,snkplaymore.info,PROXY
 HOST-SUFFIX,snow.me,PROXY
 HOST-SUFFIX,snowcorp.com,PROXY
@@ -27272,6 +27274,8 @@ HOST-SUFFIX,tubevintageporn.com,PROXY
 HOST-SUFFIX,tubewolf.com,PROXY
 HOST-SUFFIX,tubexclips.com,PROXY
 HOST-SUFFIX,tubi.io,PROXY
+HOST-SUFFIX,tubi.tv,PROXY
+HOST-SUFFIX,tubi.video,PROXY
 HOST-SUFFIX,tubinge.com,PROXY
 HOST-SUFFIX,tubitv.com,PROXY
 HOST-SUFFIX,tubsexer.com,PROXY
@@ -30523,6 +30527,7 @@ HOST-SUFFIX,yandex-images.clstorage.net,PROXY
 HOST-SUFFIX,yandex.aero,PROXY
 HOST-SUFFIX,yandex.az,PROXY
 HOST-SUFFIX,yandex.by,PROXY
+HOST-SUFFIX,yandex.cloud,PROXY
 HOST-SUFFIX,yandex.co.il,PROXY
 HOST-SUFFIX,yandex.com,PROXY
 HOST-SUFFIX,yandex.com.am,PROXY

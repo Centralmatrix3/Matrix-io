@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31178
+# 规则统计: 31183
 
 domain_set:
   - 1password.drift.click
@@ -19366,6 +19366,7 @@ domain_suffix_set:
   - navyfamily.navy.mil
   - navyreserve.navy.mil
   - naweeklytimes.com
+  - naydex.net
   - nazarene.ac.uk
   - nbabot.net
   - nbc.co
@@ -24896,6 +24897,7 @@ domain_suffix_set:
   - sneakme.net
   - snjulebu.com
   - snk-corp.co.jp
+  - snk-corp.info
   - snkplaymore.info
   - snow.me
   - snowcorp.com
@@ -27274,6 +27276,8 @@ domain_suffix_set:
   - tubewolf.com
   - tubexclips.com
   - tubi.io
+  - tubi.tv
+  - tubi.video
   - tubinge.com
   - tubitv.com
   - tubsexer.com
@@ -30525,6 +30529,7 @@ domain_suffix_set:
   - yandex.aero
   - yandex.az
   - yandex.by
+  - yandex.cloud
   - yandex.co.il
   - yandex.com
   - yandex.com.am
