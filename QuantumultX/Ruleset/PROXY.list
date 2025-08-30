@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31428
+# 规则统计: 31429
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -8877,6 +8877,7 @@ HOST-SUFFIX,download.com,PROXY
 HOST-SUFFIX,download.qatp1.net,PROXY
 HOST-SUFFIX,downloadpass.com,PROXY
 HOST-SUFFIX,downloadsforipod.com,PROXY
+HOST-SUFFIX,dpdns.org,PROXY
 HOST-SUFFIX,dphk.org,PROXY
 HOST-SUFFIX,dpoc.ac.uk,PROXY
 HOST-SUFFIX,dpool.top,PROXY

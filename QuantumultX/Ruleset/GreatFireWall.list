@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5897
+# 规则统计: 5898
 
 HOST-SUFFIX,000webhost.com,GreatFireWall
 HOST-SUFFIX,030buy.com,GreatFireWall
@@ -1373,6 +1373,7 @@ HOST-SUFFIX,dougscripts.com,GreatFireWall
 HOST-SUFFIX,doujincafe.com,GreatFireWall
 HOST-SUFFIX,download.aircrack-ng.org,GreatFireWall
 HOST-SUFFIX,download.cnet.com,GreatFireWall
+HOST-SUFFIX,dpdns.org,GreatFireWall
 HOST-SUFFIX,dphk.org,GreatFireWall
 HOST-SUFFIX,dpool.top,GreatFireWall
 HOST-SUFFIX,dpp.org.tw,GreatFireWall

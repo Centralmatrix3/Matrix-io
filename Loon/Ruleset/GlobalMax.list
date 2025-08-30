@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 32093
+# 规则统计: 32096
 
 DOMAIN,1password.drift.click
 DOMAIN,adobeereg.com
@@ -1754,6 +1754,7 @@ DOMAIN-SUFFIX,amazonaws.org
 DOMAIN-SUFFIX,amazonaws.tv
 DOMAIN-SUFFIX,amazonbusiness.org
 DOMAIN-SUFFIX,amazonbusinessblog.com
+DOMAIN-SUFFIX,amazoncognito.com
 DOMAIN-SUFFIX,amazondevicesupport.com
 DOMAIN-SUFFIX,amazonfctours.com
 DOMAIN-SUFFIX,amazonianblog.com
@@ -3043,6 +3044,8 @@ DOMAIN-SUFFIX,awjq.cc
 DOMAIN-SUFFIX,awlc.ac.uk
 DOMAIN-SUFFIX,aws-iot-hackathon.com
 DOMAIN-SUFFIX,aws.com
+DOMAIN-SUFFIX,awsapprunner.com
+DOMAIN-SUFFIX,awsapps.com
 DOMAIN-SUFFIX,awsautopilot.com
 DOMAIN-SUFFIX,awsautoscaling.com
 DOMAIN-SUFFIX,awsbraket.com

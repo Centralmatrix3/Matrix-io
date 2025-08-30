@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5897
+# 规则统计: 5898
 
 domain_suffix_set:
   - 000webhost.com
@@ -1374,6 +1374,7 @@ domain_suffix_set:
   - doujincafe.com
   - download.aircrack-ng.org
   - download.cnet.com
+  - dpdns.org
   - dphk.org
   - dpool.top
   - dpp.org.tw

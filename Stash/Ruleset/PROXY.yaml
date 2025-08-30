@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31428
+# 规则统计: 31429
 
 payload:
   - '1password.drift.click'
@@ -8878,6 +8878,7 @@ payload:
   - '+.download.qatp1.net'
   - '+.downloadpass.com'
   - '+.downloadsforipod.com'
+  - '+.dpdns.org'
   - '+.dphk.org'
   - '+.dpoc.ac.uk'
   - '+.dpool.top'
