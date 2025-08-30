@@ -2,7 +2,6 @@
   <h2>Repository Matrix-io</h2>
 </div>
 
-<!------------------
 <div align="center">
   <a href="https://github.com/Centralmatrix3/Matrix-io">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Centralmatrix3&repo=Matrix-io&theme=transparent" />
@@ -11,8 +10,8 @@
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Centralmatrix3&repo=Scripts&theme=transparent" />
   </a>
 </div>
-------------------->
 
+<!------------------
 <div align="center">
   <table>
     <tr>
@@ -53,3 +52,4 @@
     </tr>
   </table>
 </div>
+------------------->
