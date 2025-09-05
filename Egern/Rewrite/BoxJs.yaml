@@ -1,0 +1,19 @@
+name: BoxJs
+description: https://boxjs.com
+author: chavyleung
+
+scriptings:
+  - http_request:
+      name: BoxJs
+      match: ^https?:\/\/(.+\.)?boxjs\.(com|net)
+      script_url: https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js
+      timeout: 120
+      body_required: true
+
+mitm:
+  hostnames:
+    includes:
+      - boxjs.com
+      - boxjs.net
+      - '*.boxjs.com'
+      - '*.boxjs.net'
