@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5897
+# 规则统计: 5900
 
 domain_suffix_set:
   - 000webhost.com
@@ -739,6 +739,8 @@ domain_suffix_set:
   - bsky.app
   - bsky.network
   - bsky.social
+  - bt4g.org
+  - bt4gprx.com
   - bt95.com
   - btaia.com
   - btbit.net
@@ -4685,6 +4687,7 @@ domain_suffix_set:
   - talkonly.net
   - tanc.org
   - tangren.us
+  - tanks.gg
   - taoism.net
   - tapanwap.com
   - tapatalk.com

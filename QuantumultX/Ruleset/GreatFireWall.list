@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5897
+# 规则统计: 5900
 
 HOST-SUFFIX,000webhost.com,GreatFireWall
 HOST-SUFFIX,030buy.com,GreatFireWall
@@ -738,6 +738,8 @@ HOST-SUFFIX,brutaltgp.com,GreatFireWall
 HOST-SUFFIX,bsky.app,GreatFireWall
 HOST-SUFFIX,bsky.network,GreatFireWall
 HOST-SUFFIX,bsky.social,GreatFireWall
+HOST-SUFFIX,bt4g.org,GreatFireWall
+HOST-SUFFIX,bt4gprx.com,GreatFireWall
 HOST-SUFFIX,bt95.com,GreatFireWall
 HOST-SUFFIX,btaia.com,GreatFireWall
 HOST-SUFFIX,btbit.net,GreatFireWall
@@ -4684,6 +4686,7 @@ HOST-SUFFIX,talkcc.com,GreatFireWall
 HOST-SUFFIX,talkonly.net,GreatFireWall
 HOST-SUFFIX,tanc.org,GreatFireWall
 HOST-SUFFIX,tangren.us,GreatFireWall
+HOST-SUFFIX,tanks.gg,GreatFireWall
 HOST-SUFFIX,taoism.net,GreatFireWall
 HOST-SUFFIX,tapanwap.com,GreatFireWall
 HOST-SUFFIX,tapatalk.com,GreatFireWall

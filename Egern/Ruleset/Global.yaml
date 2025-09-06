@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7311
+# 规则统计: 7314
 
 no_resolve: true
 domain_set:
@@ -889,6 +889,8 @@ domain_suffix_set:
   - bsky.network
   - bsky.social
   - bt2mag.com
+  - bt4g.org
+  - bt4gprx.com
   - bt95.com
   - btaia.com
   - btbit.net
@@ -5747,6 +5749,7 @@ domain_suffix_set:
   - tanc.org
   - tangben.com
   - tangren.us
+  - tanks.gg
   - taoism.net
   - taolun.info
   - tap.io

@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7311
+# 规则统计: 7314
 
 HOST,cloud.oracle.com,Global
 HOST,steambroadcast.akamaized.net,Global
@@ -886,6 +886,8 @@ HOST-SUFFIX,bsky.app,Global
 HOST-SUFFIX,bsky.network,Global
 HOST-SUFFIX,bsky.social,Global
 HOST-SUFFIX,bt2mag.com,Global
+HOST-SUFFIX,bt4g.org,Global
+HOST-SUFFIX,bt4gprx.com,Global
 HOST-SUFFIX,bt95.com,Global
 HOST-SUFFIX,btaia.com,Global
 HOST-SUFFIX,btbit.net,Global
@@ -5744,6 +5746,7 @@ HOST-SUFFIX,tamiaode.tk,Global
 HOST-SUFFIX,tanc.org,Global
 HOST-SUFFIX,tangben.com,Global
 HOST-SUFFIX,tangren.us,Global
+HOST-SUFFIX,tanks.gg,Global
 HOST-SUFFIX,taoism.net,Global
 HOST-SUFFIX,taolun.info,Global
 HOST-SUFFIX,tap.io,Global

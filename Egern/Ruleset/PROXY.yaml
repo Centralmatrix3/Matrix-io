@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31428
+# 规则统计: 31431
 
 domain_set:
   - 1password.drift.click
@@ -5659,6 +5659,8 @@ domain_suffix_set:
   - bsw.co.jp
   - bsw.jp
   - bsxm1213.pro
+  - bt4g.org
+  - bt4gprx.com
   - bt95.com
   - btaia.com
   - btas.ac.uk
@@ -26394,6 +26396,7 @@ domain_suffix_set:
   - tandfonline.com
   - tanflix.com
   - tangren.us
+  - tanks.gg
   - tantaly.com
   - taoil-cn.sbs
   - taoism.net

@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31428
+# 规则统计: 31431
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -5657,6 +5657,8 @@ HOST-SUFFIX,bsu.ac.uk,PROXY
 HOST-SUFFIX,bsw.co.jp,PROXY
 HOST-SUFFIX,bsw.jp,PROXY
 HOST-SUFFIX,bsxm1213.pro,PROXY
+HOST-SUFFIX,bt4g.org,PROXY
+HOST-SUFFIX,bt4gprx.com,PROXY
 HOST-SUFFIX,bt95.com,PROXY
 HOST-SUFFIX,btaia.com,PROXY
 HOST-SUFFIX,btas.ac.uk,PROXY
@@ -26392,6 +26394,7 @@ HOST-SUFFIX,tandf.co.uk,PROXY
 HOST-SUFFIX,tandfonline.com,PROXY
 HOST-SUFFIX,tanflix.com,PROXY
 HOST-SUFFIX,tangren.us,PROXY
+HOST-SUFFIX,tanks.gg,PROXY
 HOST-SUFFIX,tantaly.com,PROXY
 HOST-SUFFIX,taoil-cn.sbs,PROXY
 HOST-SUFFIX,taoism.net,PROXY

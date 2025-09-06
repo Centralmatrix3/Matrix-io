@@ -1,5 +1,5 @@
 # 规则名称: ChinaIPBGP
-# 规则统计: 3943
+# 规则统计: 3938
 
 IP-CIDR,1.1.8.0/24,no-resolve
 IP-CIDR,1.116.0.0/15,no-resolve
@@ -663,7 +663,7 @@ IP-CIDR,103.77.28.0/22,no-resolve
 IP-CIDR,103.78.126.0/23,no-resolve
 IP-CIDR,103.78.228.0/22,no-resolve
 IP-CIDR,103.79.200.0/22,no-resolve
-IP-CIDR,103.79.228.0/23,no-resolve
+IP-CIDR,103.79.229.0/24,no-resolve
 IP-CIDR,103.79.24.0/22,no-resolve
 IP-CIDR,103.8.220.0/22,no-resolve
 IP-CIDR,103.8.33.0/24,no-resolve
@@ -2029,10 +2029,6 @@ IP-CIDR,154.72.44.0/24,no-resolve
 IP-CIDR,154.8.128.0/17,no-resolve
 IP-CIDR,154.8.48.0/20,no-resolve
 IP-CIDR,154.89.32.0/20,no-resolve
-IP-CIDR,154.89.49.0/24,no-resolve
-IP-CIDR,154.89.50.0/23,no-resolve
-IP-CIDR,154.89.52.0/22,no-resolve
-IP-CIDR,154.89.56.0/21,no-resolve
 IP-CIDR,155.126.176.0/23,no-resolve
 IP-CIDR,156.107.160.0/24,no-resolve
 IP-CIDR,156.107.170.0/24,no-resolve
@@ -2136,8 +2132,6 @@ IP-CIDR,175.190.126.0/23,no-resolve
 IP-CIDR,175.190.24.0/21,no-resolve
 IP-CIDR,175.24.0.0/15,no-resolve
 IP-CIDR,175.27.0.0/16,no-resolve
-IP-CIDR,175.29.107.0/24,no-resolve
-IP-CIDR,175.29.108.0/22,no-resolve
 IP-CIDR,175.30.0.0/15,no-resolve
 IP-CIDR,175.42.0.0/15,no-resolve
 IP-CIDR,175.44.0.0/16,no-resolve
@@ -3171,7 +3165,7 @@ IP-CIDR,222.126.128.0/23,no-resolve
 IP-CIDR,222.126.132.0/23,no-resolve
 IP-CIDR,222.126.141.0/24,no-resolve
 IP-CIDR,222.126.142.0/23,no-resolve
-IP-CIDR,222.126.144.0/22,no-resolve
+IP-CIDR,222.126.146.0/23,no-resolve
 IP-CIDR,222.126.148.0/23,no-resolve
 IP-CIDR,222.126.152.0/21,no-resolve
 IP-CIDR,222.126.164.0/24,no-resolve
@@ -3400,7 +3394,8 @@ IP-CIDR,42.240.0.0/21,no-resolve
 IP-CIDR,42.240.12.0/24,no-resolve
 IP-CIDR,42.240.128.0/17,no-resolve
 IP-CIDR,42.240.16.0/24,no-resolve
-IP-CIDR,42.240.20.0/24,no-resolve
+IP-CIDR,42.240.20.0/23,no-resolve
+IP-CIDR,42.240.22.0/24,no-resolve
 IP-CIDR,42.240.8.0/22,no-resolve
 IP-CIDR,42.242.0.0/15,no-resolve
 IP-CIDR,42.244.0.0/14,no-resolve
