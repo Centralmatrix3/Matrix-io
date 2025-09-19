@@ -102,22 +102,6 @@ jobs:
             } > "$tmpfile" && mv "$tmpfile" "$file"
           done
 
-      - name: Surge
-        run: |
-          for file in Matrix-io-repo/{Loon,Shadowrocket,Surge}/Ruleset/*.list; do
-            [ ! -f "$file" ] && echo "$file not found." && continue
-            file_names="$(basename "$file")"
-            rule_names="${file_names%.list}"
-            rule_count=$(wc -l < "$file")
-            tmpfile=$(mktemp)
-            {
-              echo "# 规则名称: $rule_names"
-              echo "# 规则统计: $rule_count"
-              echo
-              cat "$file"
-            } > "$tmpfile" && mv "$tmpfile" "$file"
-          done
-
       - name: QuantumultX
         run: |
           for file in Matrix-io-repo/QuantumultX/Ruleset/*.list; do
@@ -179,6 +163,22 @@ jobs:
             sing-box rule-set compile "$file" -o "${file%.json}.srs"
           done
           rm -rf sing-box.tar.gz sing-box-${SING_BOX_VERSION}-linux-amd64
+
+      - name: Surge
+        run: |
+          for file in Matrix-io-repo/{Loon,Shadowrocket,Surge}/Ruleset/*.list; do
+            [ ! -f "$file" ] && echo "$file not found." && continue
+            file_names="$(basename "$file")"
+            rule_names="${file_names%.list}"
+            rule_count=$(wc -l < "$file")
+            tmpfile=$(mktemp)
+            {
+              echo "# 规则名称: $rule_names"
+              echo "# 规则统计: $rule_count"
+              echo
+              cat "$file"
+            } > "$tmpfile" && mv "$tmpfile" "$file"
+          done
 
       - name: Push Update
         run: |
