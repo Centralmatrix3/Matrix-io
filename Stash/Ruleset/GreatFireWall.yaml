@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5904
+# 规则统计: 5908
 
 payload:
   - '+.000webhost.com'
@@ -1908,6 +1908,7 @@ payload:
   - '+.gardennetworks.com'
   - '+.gardennetworks.org'
   - '+.gartlive.com'
+  - '+.garudalinux.org'
   - '+.gate.io'
   - '+.gatecoin.com'
   - '+.gather.com'
@@ -1983,6 +1984,7 @@ payload:
   - '+.githubassets.com'
   - '+.githubcopilot.com'
   - '+.githubusercontent.com'
+  - '+.gitlab.com'
   - '+.gitlab.net'
   - '+.gizlen.net'
   - '+.gjczz.com'
@@ -3564,6 +3566,7 @@ payload:
   - '+.ninjacloak.com'
   - '+.ninjaproxy.ninja'
   - '+.nintendium.com'
+  - '+.nirsoft.net'
   - '+.nitter.cc'
   - '+.nitter.net'
   - '+.niu.moe'
@@ -5399,6 +5402,7 @@ payload:
   - '+.vpnworldwide.com'
   - '+.vporn.com'
   - '+.vpser.net'
+  - '+.vpsxb.net'
   - '+.vraiesagesse.net'
   - '+.vrchat.com'
   - '+.vrmtr.com'
