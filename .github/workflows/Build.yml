@@ -190,7 +190,7 @@ jobs:
             git commit -m "$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')"
             git push origin master
           else
-            echo "No changes to commit."
+            echo "No Repository Update Detected."
           fi
 
       - name: Cleanup Workflow
