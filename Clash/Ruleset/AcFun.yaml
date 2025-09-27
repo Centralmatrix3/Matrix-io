@@ -1,0 +1,8 @@
+# 规则名称: AcFun
+# 规则统计: 4
+
+payload:
+  - DOMAIN-SUFFIX,acfun.cn
+  - DOMAIN-SUFFIX,acfun.com
+  - DOMAIN-SUFFIX,acfun.tv
+  - DOMAIN-SUFFIX,aixifan.com

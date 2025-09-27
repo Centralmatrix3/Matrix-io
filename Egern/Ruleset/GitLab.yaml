@@ -1,0 +1,11 @@
+# 规则名称: GitLab
+# 规则统计: 6
+
+domain_suffix_set:
+  - gitlab.com
+  - gitlab.io
+  - gitlab.net
+  - gitter-static.net
+  - gitter.im
+domain_keyword_set:
+  - gitlab
