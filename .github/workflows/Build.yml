@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TZ: "Asia/Shanghai"
-      SING_BOX_VERSION: 1.12.3
+      SING_BOX_VERSION: "1.12.8"
     steps: 
       - name: Checkout Repository
         uses: actions/checkout@v5.0.0
@@ -21,7 +21,7 @@ jobs:
 
       - name: Matrix-io
         run: |
-          curl -fsSL https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Source/Build.sh | bash
+          curl -fsSL "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Source/Build.sh" | bash
           for file in Matrix-io-repo/*/Ruleset/*.{list,yaml,json}; do
             [ ! -f "$file" ] && echo "$file not found." && continue
             sed -i -E '/^[[:space:]]*(#|$)/d' "$file"
@@ -31,19 +31,18 @@ jobs:
         run: |
           for file in Matrix-io-repo/{Clash,Stash}/Ruleset/*.yaml; do
             [ ! -f "$file" ] && echo "$file not found." && continue
-            file_names="$(basename "$file")"
-            rule_names="${file_names%.yaml}"
-            if [[ "$file_names" =~ ^(AdBlock|Advertising|GreatFireWall|DIRECT|PROXY|REJECT)\.yaml$ ]]; then
+            rule_names="$(basename "$file" .yaml)"
+            if [[ "$rule_names" =~ ^(AdBlock|Advertising|GreatFireWall|DIRECT|PROXY|REJECT)$ ]]; then
               sed -i -e 's/^DOMAIN,//' -e 's/^DOMAIN-SUFFIX,/+./' "$file"
               sed -i -e "s/^/  - '/" -e "s/$/'/" "$file"
-            elif [[ "$file_names" == *CIDR*.yaml ]]; then
+            elif [[ "$rule_names" == *CIDR* ]]; then
               sed -i -e 's/^IP-CIDR,//' -e 's/^IP-CIDR6,//' "$file"
               sed -i -e "s/^/  - '/" -e "s/$/'/" "$file"
             else
               sed -i -e "s/^/  - /" "$file"
             fi
-            rule_count=$(grep -c '^  - ' "$file")
-            tmpfile=$(mktemp)
+            rule_count="$(grep -c '^  - ' "$file")"
+            tmpfile="$(mktemp)"
             {
               echo "# 规则名称: $rule_names"
               echo "# 规则统计: $rule_count"
@@ -57,10 +56,9 @@ jobs:
         run: |
           for file in Matrix-io-repo/Egern/Ruleset/*.yaml; do
             [ ! -f "$file" ] && echo "$file not found." && continue
-            file_names="$(basename "$file")"
-            rule_names="${file_names%.yaml}"
+            rule_names="$(basename "$file" .yaml)"
             grep -q 'no-resolve' "$file" && sed -i '1i no_resolve: true' "$file"
-            tmpfile=$(mktemp)
+            tmpfile="$(mktemp)"
             awk -v keep_unmatched=1 '
               BEGIN { domain=suffix=keyword=wildcard=cidr4=cidr6=ipasn=geoip=0 }
               { if ($0 ~ /^DOMAIN,/) {
@@ -96,9 +94,9 @@ jobs:
                 if (!geoip++) print "geoip_set:";
                 print "  - " arr[2];
               } else { if (keep_unmatched) print $0 }
-            } ' "$file" > tmpfile && mv tmpfile "$file"
-            rule_count=$(grep -c '^  - ' "$file")
-            tmpfile=$(mktemp)
+            } ' "$file" > "$tmpfile" && mv "$tmpfile" "$file"
+            rule_count="$(grep -c '^  - ' "$file")"
+            tmpfile="$(mktemp)"
             {
               echo "# 规则名称: $rule_names"
               echo "# 规则统计: $rule_count"
@@ -111,13 +109,12 @@ jobs:
         run: |
           for file in Matrix-io-repo/QuantumultX/Ruleset/*.list; do
             [ ! -f "$file" ] && echo "$file not found." && continue
-            file_names="$(basename "$file")"
-            rule_names="${file_names%.list}"
-            sed -i -E 's/^DOMAIN(-SUFFIX|-KEYWORD|-WILDCARD)?,/HOST\1,/g' "$file"
-            sed -i -E 's/^IP-CIDR6,/IP6-CIDR,/g; s/,no-resolve//g' "$file"
+            rule_names="$(basename "$file" .list)"
+            sed -i -E 's/^DOMAIN(-SUFFIX|-KEYWORD|-WILDCARD)?,/HOST\1,/' "$file"
+            sed -i -E 's/^IP-CIDR6,/IP6-CIDR,/; s/,no-resolve//' "$file"
             sed -i -e "s/$/,$rule_names/" "$file"
-            rule_count=$(wc -l < "$file")
-            tmpfile=$(mktemp)
+            rule_count="$(wc -l < "$file")"
+            tmpfile="$(mktemp)"
             {
               echo "# 规则名称: $rule_names"
               echo "# 规则统计: $rule_count"
@@ -128,16 +125,15 @@ jobs:
 
       - name: Sing-box
         run: |
-          curl -L -o sing-box.tar.gz "https://github.com/SagerNet/sing-box/releases/download/v${SING_BOX_VERSION}/sing-box-${SING_BOX_VERSION}-linux-amd64.tar.gz"
-          tar -xzf sing-box.tar.gz
-          chmod +x sing-box-${SING_BOX_VERSION}-linux-amd64/sing-box
-          sudo mv sing-box-${SING_BOX_VERSION}-linux-amd64/sing-box /usr/local/bin/sing-box
+          curl -L -o "sing-box.tar.gz" "https://github.com/SagerNet/sing-box/releases/download/v${SING_BOX_VERSION}/sing-box-${SING_BOX_VERSION}-linux-amd64.tar.gz"
+          tar -xzf "sing-box.tar.gz"
+          chmod +x "sing-box-${SING_BOX_VERSION}-linux-amd64/sing-box"
+          sudo mv "sing-box-${SING_BOX_VERSION}-linux-amd64/sing-box" /usr/local/bin/sing-box
           sing-box version
           for file in Matrix-io-repo/Sing-box/Ruleset/*.json; do
             [ ! -f "$file" ] && echo "$file not found." && continue
-            file_names="$(basename "$file")"
-            rule_names="${file_names%.json}"
-            tmpfile=$(mktemp)
+            rule_names="$(basename "$file" .json)"
+            tmpfile="$(mktemp)"
             echo '{' > "$tmpfile"
             echo '  "version": 3,' >> "$tmpfile"
             echo '  "rules": [' >> "$tmpfile"
@@ -172,10 +168,9 @@ jobs:
         run: |
           for file in Matrix-io-repo/{Loon,Shadowrocket,Surge}/Ruleset/*.list; do
             [ ! -f "$file" ] && echo "$file not found." && continue
-            file_names="$(basename "$file")"
-            rule_names="${file_names%.list}"
-            rule_count=$(wc -l < "$file")
-            tmpfile=$(mktemp)
+            rule_names="$(basename "$file" .list)"
+            rule_count="$(wc -l < "$file")"
+            tmpfile="$(mktemp)"
             {
               echo "# 规则名称: $rule_names"
               echo "# 规则统计: $rule_count"
