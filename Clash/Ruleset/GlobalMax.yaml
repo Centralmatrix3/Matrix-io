@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 32109
+# 规则统计: 32110
 
 payload:
   - DOMAIN,1password.drift.click
@@ -26704,6 +26704,7 @@ payload:
   - DOMAIN-SUFFIX,tapbots.com
   - DOMAIN-SUFFIX,tapbots.net
   - DOMAIN-SUFFIX,tapestry.ac.uk
+  - DOMAIN-SUFFIX,taptap.io
   - DOMAIN-SUFFIX,taptap.tw
   - DOMAIN-SUFFIX,taptotokyo.com
   - DOMAIN-SUFFIX,taqunuhai.vip

@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7327
+# 规则统计: 7328
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -157,6 +157,7 @@ payload:
   - DOMAIN-SUFFIX,91vps.club
   - DOMAIN-SUFFIX,92ccav.com
   - DOMAIN-SUFFIX,991.com
+  - DOMAIN-SUFFIX,996.icu
   - DOMAIN-SUFFIX,99btgc01.com
   - DOMAIN-SUFFIX,99cn.info
   - DOMAIN-SUFFIX,9bis.com
