@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31449
+# 规则统计: 31450
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -5676,7 +5676,6 @@ HOST-SUFFIX,btcbank.bank,PROXY
 HOST-SUFFIX,btcbox.co.jp,PROXY
 HOST-SUFFIX,btctrade.im,PROXY
 HOST-SUFFIX,btdig.com,PROXY
-HOST-SUFFIX,btdigg.org,PROXY
 HOST-SUFFIX,btec.co.uk,PROXY
 HOST-SUFFIX,btguard.com,PROXY
 HOST-SUFFIX,btku.me,PROXY
@@ -29450,6 +29449,7 @@ HOST-SUFFIX,webpkgcache.com,PROXY
 HOST-SUFFIX,webrtc.org,PROXY
 HOST-SUFFIX,webrush.net,PROXY
 HOST-SUFFIX,webs-tv.net,PROXY
+HOST-SUFFIX,websdr.org,PROXY
 HOST-SUFFIX,website.informer.com,PROXY
 HOST-SUFFIX,website.new,PROXY
 HOST-SUFFIX,websitepulse.com,PROXY
@@ -30318,6 +30318,7 @@ HOST-SUFFIX,xn--ruq8a011kt6y.xn--hxt814e,PROXY
 HOST-SUFFIX,xn--sgt856gbjl.cc,PROXY
 HOST-SUFFIX,xn--sjqr38j.com,PROXY
 HOST-SUFFIX,xn--tkry91n.com,PROXY
+HOST-SUFFIX,xn--u2u927b.com,PROXY
 HOST-SUFFIX,xn--ubt498knmf.com,PROXY
 HOST-SUFFIX,xn--uis17aj9kmuf.com,PROXY
 HOST-SUFFIX,xn--urs05q.jp,PROXY

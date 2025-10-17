@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5922
+# 规则统计: 5923
 
 HOST-SUFFIX,000webhost.com,GreatFireWall
 HOST-SUFFIX,030buy.com,GreatFireWall
@@ -755,7 +755,6 @@ HOST-SUFFIX,btc98.com,GreatFireWall
 HOST-SUFFIX,btcbank.bank,GreatFireWall
 HOST-SUFFIX,btctrade.im,GreatFireWall
 HOST-SUFFIX,btdig.com,GreatFireWall
-HOST-SUFFIX,btdigg.org,GreatFireWall
 HOST-SUFFIX,btguard.com,GreatFireWall
 HOST-SUFFIX,btku.me,GreatFireWall
 HOST-SUFFIX,btku.org,GreatFireWall
@@ -5475,6 +5474,7 @@ HOST-SUFFIX,webpkgcache.com,GreatFireWall
 HOST-SUFFIX,webrtc.org,GreatFireWall
 HOST-SUFFIX,webrush.net,GreatFireWall
 HOST-SUFFIX,webs-tv.net,GreatFireWall
+HOST-SUFFIX,websdr.org,GreatFireWall
 HOST-SUFFIX,website.informer.com,GreatFireWall
 HOST-SUFFIX,website.new,GreatFireWall
 HOST-SUFFIX,websitepulse.com,GreatFireWall
@@ -5722,6 +5722,7 @@ HOST-SUFFIX,xn--ngstr-lra8j.com,GreatFireWall
 HOST-SUFFIX,xn--noss43i.com,GreatFireWall
 HOST-SUFFIX,xn--oiq.cc,GreatFireWall
 HOST-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c,GreatFireWall
+HOST-SUFFIX,xn--u2u927b.com,GreatFireWall
 HOST-SUFFIX,xnpool.com,GreatFireWall
 HOST-SUFFIX,xnxx.com,GreatFireWall
 HOST-SUFFIX,xpdo.net,GreatFireWall

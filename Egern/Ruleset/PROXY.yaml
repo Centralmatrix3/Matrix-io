@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31449
+# 规则统计: 31450
 
 domain_set:
   - 1password.drift.click
@@ -5678,7 +5678,6 @@ domain_suffix_set:
   - btcbox.co.jp
   - btctrade.im
   - btdig.com
-  - btdigg.org
   - btec.co.uk
   - btguard.com
   - btku.me
@@ -29452,6 +29451,7 @@ domain_suffix_set:
   - webrtc.org
   - webrush.net
   - webs-tv.net
+  - websdr.org
   - website.informer.com
   - website.new
   - websitepulse.com
@@ -30320,6 +30320,7 @@ domain_suffix_set:
   - xn--sgt856gbjl.cc
   - xn--sjqr38j.com
   - xn--tkry91n.com
+  - xn--u2u927b.com
   - xn--ubt498knmf.com
   - xn--uis17aj9kmuf.com
   - xn--urs05q.jp
