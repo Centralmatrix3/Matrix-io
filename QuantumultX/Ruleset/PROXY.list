@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31450
+# 规则统计: 31461
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -182,6 +182,7 @@ HOST,gamedownloads-rockstargames-com.akamaized.net,PROXY
 HOST,gamer-cds.cdn.hinet.net,PROXY
 HOST,gamer2-cds.cdn.hinet.net,PROXY
 HOST,gigabyte2.azureedge.net,PROXY
+HOST,github-api.arkoselabs.com,PROXY
 HOST,github-cloud.s3.amazonaws.com,PROXY
 HOST,gitlab-assets.oss-cn-hongkong.aliyuncs.com,PROXY
 HOST,google-ohttp-relay-safebrowsing.fastly-edge.com,PROXY
@@ -399,6 +400,7 @@ HOST,statics-marketingsites-eus-ms-com.akamaized.net,PROXY
 HOST,statics-marketingsites-wcus-ms-com.akamaized.net,PROXY
 HOST,steambroadcast.akamaized.net,PROXY
 HOST,steamcdn-a.akamaihd.net,PROXY
+HOST,steamcloudsweden.blob.core.windows.net,PROXY
 HOST,steamcommunity-a.akamaihd.net,PROXY
 HOST,steamcommunity-a.akamaihd.net.edgesuite.net,PROXY
 HOST,steammobile.akamaized.net,PROXY
@@ -589,6 +591,7 @@ HOST,wwis-dubc1-vip98.adobe.com,PROXY
 HOST,wwis-dubc1-vip99.adobe.com,PROXY
 HOST,www-cdn.icloud.com.akadns.net,PROXY
 HOST,yangzhi.app,PROXY
+HOST,yt3.googleusercontent.com,PROXY
 HOST,zeenews-fonts.s3.amazonaws.com,PROXY
 HOST,ztedevices.com,PROXY
 HOST-SUFFIX,000webhost.com,PROXY
@@ -5253,6 +5256,7 @@ HOST-SUFFIX,bnef.com,PROXY
 HOST-SUFFIX,bnext.com.tw,PROXY
 HOST-SUFFIX,bnn.co,PROXY
 HOST-SUFFIX,bnrmetal.com,PROXY
+HOST-SUFFIX,bntrace.com,PROXY
 HOST-SUFFIX,bnu.ac.uk,PROXY
 HOST-SUFFIX,boa.ac.uk,PROXY
 HOST-SUFFIX,boardreader.com,PROXY
@@ -6482,6 +6486,7 @@ HOST-SUFFIX,cepacol.com,PROXY
 HOST-SUFFIX,ceramics-cadcam.com,PROXY
 HOST-SUFFIX,cercia.ac.uk,PROXY
 HOST-SUFFIX,cerdas.com,PROXY
+HOST-SUFFIX,cerebras.ai,PROXY
 HOST-SUFFIX,ceredigion.ac.uk,PROXY
 HOST-SUFFIX,ceri.ac.uk,PROXY
 HOST-SUFFIX,cerlim.ac.uk,PROXY
@@ -6982,6 +6987,8 @@ HOST-SUFFIX,classicnike.com,PROXY
 HOST-SUFFIX,classics.ac.uk,PROXY
 HOST-SUFFIX,classymomsex.com,PROXY
 HOST-SUFFIX,claude.ai,PROXY
+HOST-SUFFIX,claude.com,PROXY
+HOST-SUFFIX,claudemcpclient.com,PROXY
 HOST-SUFFIX,claudeusercontent.com,PROXY
 HOST-SUFFIX,clb.org.hk,PROXY
 HOST-SUFFIX,clc-london.ac.uk,PROXY
@@ -15695,6 +15702,7 @@ HOST-SUFFIX,jasper.ai,PROXY
 HOST-SUFFIX,jav-angel.net,PROXY
 HOST-SUFFIX,jav-subtitles.com,PROXY
 HOST-SUFFIX,jav-vr.net,PROXY
+HOST-SUFFIX,jav.app,PROXY
 HOST-SUFFIX,jav.com,PROXY
 HOST-SUFFIX,jav.dog,PROXY
 HOST-SUFFIX,jav.gallery,PROXY
@@ -17707,6 +17715,7 @@ HOST-SUFFIX,marlab.ac.uk,PROXY
 HOST-SUFFIX,marlin.ac.uk,PROXY
 HOST-SUFFIX,marplecollege.ac.uk,PROXY
 HOST-SUFFIX,marranazas.com,PROXY
+HOST-SUFFIX,marscode.com,PROXY
 HOST-SUFFIX,martau.com,PROXY
 HOST-SUFFIX,martsangkagyuofficial.org,PROXY
 HOST-SUFFIX,maruta.be,PROXY
@@ -20047,6 +20056,7 @@ HOST-SUFFIX,nfsc.global,PROXY
 HOST-SUFFIX,nfscdict.com,PROXY
 HOST-SUFFIX,nfscofficial.com,PROXY
 HOST-SUFFIX,nfsworld.com,PROXY
+HOST-SUFFIX,nftstatic.com,PROXY
 HOST-SUFFIX,nftstorage.link,PROXY
 HOST-SUFFIX,nga.mil,PROXY
 HOST-SUFFIX,ngc.ac.uk,PROXY
@@ -27298,6 +27308,7 @@ HOST-SUFFIX,tracker.network,PROXY
 HOST-SUFFIX,tracking-location.com,PROXY
 HOST-SUFFIX,tradevip1.com,PROXY
 HOST-SUFFIX,tradingview.com,PROXY
+HOST-SUFFIX,trae.ai,PROXY
 HOST-SUFFIX,traffcoll.ac.uk,PROXY
 HOST-SUFFIX,trafficmanager.net,PROXY
 HOST-SUFFIX,trafford.ac.uk,PROXY

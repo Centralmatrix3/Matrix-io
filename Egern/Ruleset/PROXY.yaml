@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31450
+# 规则统计: 31461
 
 domain_set:
   - 1password.drift.click
@@ -183,6 +183,7 @@ domain_set:
   - gamer-cds.cdn.hinet.net
   - gamer2-cds.cdn.hinet.net
   - gigabyte2.azureedge.net
+  - github-api.arkoselabs.com
   - github-cloud.s3.amazonaws.com
   - gitlab-assets.oss-cn-hongkong.aliyuncs.com
   - google-ohttp-relay-safebrowsing.fastly-edge.com
@@ -400,6 +401,7 @@ domain_set:
   - statics-marketingsites-wcus-ms-com.akamaized.net
   - steambroadcast.akamaized.net
   - steamcdn-a.akamaihd.net
+  - steamcloudsweden.blob.core.windows.net
   - steamcommunity-a.akamaihd.net
   - steamcommunity-a.akamaihd.net.edgesuite.net
   - steammobile.akamaized.net
@@ -590,6 +592,7 @@ domain_set:
   - wwis-dubc1-vip99.adobe.com
   - www-cdn.icloud.com.akadns.net
   - yangzhi.app
+  - yt3.googleusercontent.com
   - zeenews-fonts.s3.amazonaws.com
   - ztedevices.com
 domain_suffix_set:
@@ -5255,6 +5258,7 @@ domain_suffix_set:
   - bnext.com.tw
   - bnn.co
   - bnrmetal.com
+  - bntrace.com
   - bnu.ac.uk
   - boa.ac.uk
   - boardreader.com
@@ -6484,6 +6488,7 @@ domain_suffix_set:
   - ceramics-cadcam.com
   - cercia.ac.uk
   - cerdas.com
+  - cerebras.ai
   - ceredigion.ac.uk
   - ceri.ac.uk
   - cerlim.ac.uk
@@ -6984,6 +6989,8 @@ domain_suffix_set:
   - classics.ac.uk
   - classymomsex.com
   - claude.ai
+  - claude.com
+  - claudemcpclient.com
   - claudeusercontent.com
   - clb.org.hk
   - clc-london.ac.uk
@@ -15697,6 +15704,7 @@ domain_suffix_set:
   - jav-angel.net
   - jav-subtitles.com
   - jav-vr.net
+  - jav.app
   - jav.com
   - jav.dog
   - jav.gallery
@@ -17709,6 +17717,7 @@ domain_suffix_set:
   - marlin.ac.uk
   - marplecollege.ac.uk
   - marranazas.com
+  - marscode.com
   - martau.com
   - martsangkagyuofficial.org
   - maruta.be
@@ -20049,6 +20058,7 @@ domain_suffix_set:
   - nfscdict.com
   - nfscofficial.com
   - nfsworld.com
+  - nftstatic.com
   - nftstorage.link
   - nga.mil
   - ngc.ac.uk
@@ -27300,6 +27310,7 @@ domain_suffix_set:
   - tracking-location.com
   - tradevip1.com
   - tradingview.com
+  - trae.ai
   - traffcoll.ac.uk
   - trafficmanager.net
   - trafford.ac.uk
