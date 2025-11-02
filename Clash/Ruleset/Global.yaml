@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7337
+# 规则统计: 7338
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -5830,6 +5830,7 @@ payload:
   - DOMAIN-SUFFIX,telesco.pe
   - DOMAIN-SUFFIX,tellapart.com
   - DOMAIN-SUFFIX,tellme.pw
+  - DOMAIN-SUFFIX,temu.com
   - DOMAIN-SUFFIX,tenacy.com
   - DOMAIN-SUFFIX,tenor.com
   - DOMAIN-SUFFIX,tensorflow.org

@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5924
+# 规则统计: 5925
 
 payload:
   - '+.000webhost.com'
@@ -4757,6 +4757,7 @@ payload:
   - '+.telesco.pe'
   - '+.tellapart.com'
   - '+.tellme.pw'
+  - '+.temu.com'
   - '+.tenacy.com'
   - '+.tenor.com'
   - '+.tensorflow.org'

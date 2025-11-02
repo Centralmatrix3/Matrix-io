@@ -1,5 +1,5 @@
 # 规则名称: ChinaIPMax
-# 规则统计: 29734
+# 规则统计: 29735
 
 IP-CIDR,1.0.1.0/24,no-resolve
 IP-CIDR,1.0.2.0/23,no-resolve
@@ -16000,6 +16000,7 @@ IP-CIDR,45.113.20.0/22,no-resolve
 IP-CIDR,45.113.200.0/21,no-resolve
 IP-CIDR,45.113.200.0/22,no-resolve
 IP-CIDR,45.113.204.0/22,no-resolve
+IP-CIDR,45.113.206.0/24,no-resolve
 IP-CIDR,45.113.208.0/20,no-resolve
 IP-CIDR,45.113.208.0/22,no-resolve
 IP-CIDR,45.113.212.0/22,no-resolve

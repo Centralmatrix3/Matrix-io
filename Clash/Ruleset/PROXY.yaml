@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31582
+# 规则统计: 31584
 
 payload:
   - '1password.drift.click'
@@ -14910,6 +14910,7 @@ payload:
   - '+.imlab.ac.uk'
   - '+.imlive.co'
   - '+.imlive.com'
+  - '+.immersivetranslate.com'
   - '+.immidio.com'
   - '+.immoral.jp'
   - '+.immxd.com'
@@ -26702,6 +26703,7 @@ payload:
   - '+.temenos.ac.uk'
   - '+.temetube.xyz'
   - '+.tempusuk.ac.uk'
+  - '+.temu.com'
   - '+.tenacy.com'
   - '+.tenbyfotolia.com'
   - '+.tencent.co.id'
