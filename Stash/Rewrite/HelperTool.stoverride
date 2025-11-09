@@ -1,0 +1,91 @@
+name: HelperTool
+desc: boxjs.com、script.hub、sub.store
+author: chavyleung、小白脸、xream、keywos、ckyb、Peng-YM
+
+http:
+  script:
+    - match: ^https?:\/\/(.+\.)?boxjs\.(com|net)
+      name: BoxJs
+      type: request
+      require-body: true
+      timeout: 120
+
+    - match: ^https?:\/\/script\.hub\/($|edit\/|reload)
+      name: ScriptHub.A
+      type: request
+      timeout: 120
+
+    - match: ^https?:\/\/script\.hub\/file\/_start_\/.+type=(?:qx-rewrite|surge-module|loon-plugin|all-module)
+      name: ScriptHub.B
+      type: request
+      timeout: 120
+
+    - match: ^https?:\/\/script\.hub\/file\/_start_\/.+type=rule-set
+      name: ScriptHub.C
+      type: request
+      timeout: 120
+
+    - match: ^https?:\/\/script\.hub\/convert\/
+      name: ScriptHub.D
+      type: request
+      timeout: 120
+
+    - match: ^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info)))
+      name: SubStore.A
+      type: request
+      require-body: true
+      timeout: 120
+
+    - match: ^https?:\/\/sub\.store
+      name: SubStore.B
+      type: request
+      require-body: true
+      timeout: 120
+
+  mitm:
+    - "boxjs.com"
+    - "boxjs.net"
+    - "*.boxjs.com"
+    - "*.boxjs.net"
+    - "script.hub"
+    - "*.script.hub"
+    - "sub.store"
+
+cron:
+  script:
+    - name: SubStore.C
+      cron: "0 0 * * *"
+      timeout: 120
+
+script-providers:
+  BoxJs:
+    url: https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js
+    interval: 86400
+
+  ScriptHub.A:
+    url: https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/script-hub.js
+    interval: 86400
+
+  ScriptHub.B:
+    url: https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/Rewrite-Parser.js
+    interval: 86400
+
+  ScriptHub.C:
+    url: https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/rule-parser.js
+    interval: 86400
+
+  ScriptHub.D:
+    url: https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/script-converter.js
+    interval: 86400
+
+  SubStore.A:
+    url: https://raw.githubusercontent.com/sub-store-org/Sub-Store/release/sub-store-1.min.js
+    interval: 86400
+
+  SubStore.B:
+    url: https://raw.githubusercontent.com/sub-store-org/Sub-Store/release/sub-store-0.min.js
+    interval: 86400
+
+  SubStore.C:
+    url: https://raw.githubusercontent.com/sub-store-org/Sub-Store/release/cron-sync-artifacts.min.js
+    interval: 86400
