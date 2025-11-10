@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31613
+# 规则统计: 31616
 
 domain_set:
   - 1password.drift.click
@@ -7240,6 +7240,8 @@ domain_suffix_set:
   - cofacts.tw
   - coffeemanga.to
   - cogc.ac.uk
+  - cohere.ai
+  - cohere.com
   - coinalyze.net
   - coinbase.com
   - coinbene.com
@@ -26743,6 +26745,7 @@ domain_suffix_set:
   - tentowns.ac.uk
   - tenzinpalmo.com
   - terabox.com
+  - teraboxcdn.com
   - terapeack.com
   - terapeak.ca
   - terapeak.com

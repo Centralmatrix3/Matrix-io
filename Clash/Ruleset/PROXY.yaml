@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31613
+# 规则统计: 31616
 
 payload:
   - '1password.drift.click'
@@ -7239,6 +7239,8 @@ payload:
   - '+.cofacts.tw'
   - '+.coffeemanga.to'
   - '+.cogc.ac.uk'
+  - '+.cohere.ai'
+  - '+.cohere.com'
   - '+.coinalyze.net'
   - '+.coinbase.com'
   - '+.coinbene.com'
@@ -26742,6 +26744,7 @@ payload:
   - '+.tentowns.ac.uk'
   - '+.tenzinpalmo.com'
   - '+.terabox.com'
+  - '+.teraboxcdn.com'
   - '+.terapeack.com'
   - '+.terapeak.ca'
   - '+.terapeak.com'

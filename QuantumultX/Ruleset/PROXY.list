@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31613
+# 规则统计: 31616
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -7238,6 +7238,8 @@ HOST-SUFFIX,cof.ac.uk,PROXY
 HOST-SUFFIX,cofacts.tw,PROXY
 HOST-SUFFIX,coffeemanga.to,PROXY
 HOST-SUFFIX,cogc.ac.uk,PROXY
+HOST-SUFFIX,cohere.ai,PROXY
+HOST-SUFFIX,cohere.com,PROXY
 HOST-SUFFIX,coinalyze.net,PROXY
 HOST-SUFFIX,coinbase.com,PROXY
 HOST-SUFFIX,coinbene.com,PROXY
@@ -26741,6 +26743,7 @@ HOST-SUFFIX,tensorflow.org,PROXY
 HOST-SUFFIX,tentowns.ac.uk,PROXY
 HOST-SUFFIX,tenzinpalmo.com,PROXY
 HOST-SUFFIX,terabox.com,PROXY
+HOST-SUFFIX,teraboxcdn.com,PROXY
 HOST-SUFFIX,terapeack.com,PROXY
 HOST-SUFFIX,terapeak.ca,PROXY
 HOST-SUFFIX,terapeak.com,PROXY

@@ -1,5 +1,5 @@
 # 规则名称: ChinaMax
-# 规则统计: 137515
+# 规则统计: 137519
 
 DOMAIN,1-fss24-s0.streamhoster.com
 DOMAIN,14033.live.streamtheworld.com
@@ -53003,7 +53003,6 @@ DOMAIN-SUFFIX,inferoey.com
 DOMAIN-SUFFIX,infertilitybridge.com
 DOMAIN-SUFFIX,infimotion.com
 DOMAIN-SUFFIX,infineon-autoeco.com
-DOMAIN-SUFFIX,infineon.com
 DOMAIN-SUFFIX,infini-ai.com
 DOMAIN-SUFFIX,infinisign.com
 DOMAIN-SUFFIX,infinitescript.com
@@ -92839,7 +92838,6 @@ DOMAIN-SUFFIX,thzab.com
 DOMAIN-SUFFIX,thzu.cc
 DOMAIN-SUFFIX,ti-node.com
 DOMAIN-SUFFIX,ti-solar.com
-DOMAIN-SUFFIX,ti.com
 DOMAIN-SUFFIX,ti0s.com
 DOMAIN-SUFFIX,tiamaes.com
 DOMAIN-SUFFIX,tian-gang.com
@@ -137142,6 +137140,9 @@ IP-CIDR6,2a0c:9e06:75::/48,no-resolve
 IP-CIDR6,2a0c:9e06:76::/47,no-resolve
 IP-CIDR6,2a0c:9e06:79::/48,no-resolve
 IP-CIDR6,2a0c:b641:571::/48,no-resolve
+IP-CIDR6,2a0c:b641:725::/48,no-resolve
+IP-CIDR6,2a0c:b641:726::/47,no-resolve
+IP-CIDR6,2a0c:b641:728::/47,no-resolve
 IP-CIDR6,2a0d:2406:1c2e::/48,no-resolve
 IP-CIDR6,2a0d:2580:8888::/48,no-resolve
 IP-CIDR6,2a0d:2587:3501::/48,no-resolve
@@ -137239,6 +137240,8 @@ IP-CIDR6,2a0f:1cc5:f05::/48,no-resolve
 IP-CIDR6,2a0f:1cc6:b100::/44,no-resolve
 IP-CIDR6,2a0f:5707:ac00::/47,no-resolve
 IP-CIDR6,2a0f:6284:300::/40,no-resolve
+IP-CIDR6,2a0f:6284:400::/42,no-resolve
+IP-CIDR6,2a0f:6284:440::/43,no-resolve
 IP-CIDR6,2a0f:6284:4b00::/40,no-resolve
 IP-CIDR6,2a0f:6284:4c30::/48,no-resolve
 IP-CIDR6,2a0f:6284:4c40::/43,no-resolve
@@ -137437,6 +137440,7 @@ IP-CIDR6,2a14:7580:fff4::/48,no-resolve
 IP-CIDR6,2a14:7580:fff7::/48,no-resolve
 IP-CIDR6,2a14:7580:fffa::/48,no-resolve
 IP-CIDR6,2a14:7581:30b5::/48,no-resolve
+IP-CIDR6,2a14:7581:30b6::/48,no-resolve
 IP-CIDR6,2a14:7581:30c0::/44,no-resolve
 IP-CIDR6,2a14:7581:3100::/40,no-resolve
 IP-CIDR6,2a14:7581:3401::/48,no-resolve
