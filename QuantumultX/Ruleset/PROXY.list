@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31616
+# 规则统计: 31649
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -16316,7 +16316,40 @@ HOST-SUFFIX,karmapa.org,PROXY
 HOST-SUFFIX,karupsha.com,PROXY
 HOST-SUFFIX,karupspc.com,PROXY
 HOST-SUFFIX,kaspersky-labs.com,PROXY
+HOST-SUFFIX,kaspersky.be,PROXY
+HOST-SUFFIX,kaspersky.ca,PROXY
+HOST-SUFFIX,kaspersky.co.in,PROXY
+HOST-SUFFIX,kaspersky.co.jp,PROXY
+HOST-SUFFIX,kaspersky.co.kr,PROXY
+HOST-SUFFIX,kaspersky.co.th,PROXY
+HOST-SUFFIX,kaspersky.co.uk,PROXY
+HOST-SUFFIX,kaspersky.co.za,PROXY
 HOST-SUFFIX,kaspersky.com,PROXY
+HOST-SUFFIX,kaspersky.com.au,PROXY
+HOST-SUFFIX,kaspersky.com.br,PROXY
+HOST-SUFFIX,kaspersky.com.hk,PROXY
+HOST-SUFFIX,kaspersky.com.pl,PROXY
+HOST-SUFFIX,kaspersky.com.tr,PROXY
+HOST-SUFFIX,kaspersky.com.tw,PROXY
+HOST-SUFFIX,kaspersky.com.vn,PROXY
+HOST-SUFFIX,kaspersky.cz,PROXY
+HOST-SUFFIX,kaspersky.de,PROXY
+HOST-SUFFIX,kaspersky.dk,PROXY
+HOST-SUFFIX,kaspersky.dz,PROXY
+HOST-SUFFIX,kaspersky.es,PROXY
+HOST-SUFFIX,kaspersky.fi,PROXY
+HOST-SUFFIX,kaspersky.fr,PROXY
+HOST-SUFFIX,kaspersky.gr,PROXY
+HOST-SUFFIX,kaspersky.it,PROXY
+HOST-SUFFIX,kaspersky.kz,PROXY
+HOST-SUFFIX,kaspersky.ma,PROXY
+HOST-SUFFIX,kaspersky.my,PROXY
+HOST-SUFFIX,kaspersky.nl,PROXY
+HOST-SUFFIX,kaspersky.pt,PROXY
+HOST-SUFFIX,kaspersky.ro,PROXY
+HOST-SUFFIX,kaspersky.rs,PROXY
+HOST-SUFFIX,kaspersky.ru,PROXY
+HOST-SUFFIX,kaspersky.se,PROXY
 HOST-SUFFIX,kastatic.org,PROXY
 HOST-SUFFIX,katestube.com,PROXY
 HOST-SUFFIX,kavkazr.com,PROXY
