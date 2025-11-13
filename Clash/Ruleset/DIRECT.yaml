@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 116849
+# 规则统计: 116850
 
 payload:
   - '265.com'
@@ -27703,6 +27703,7 @@ payload:
   - '+.cztv.cc'
   - '+.cztv.com'
   - '+.cztv.tv'
+  - '+.cztvcdn.com'
   - '+.cztvcloud.com'
   - '+.cztzkg.com'
   - '+.czur.com'
@@ -38509,6 +38510,7 @@ payload:
   - '+.geekmaker.com'
   - '+.geekman.vip'
   - '+.geeknev.com'
+  - '+.geekpark'
   - '+.geekpark.net'
   - '+.geekpwn.org'
   - '+.geeksblog.cc'
@@ -92895,7 +92897,6 @@ payload:
   - '+.tinyyuan.com'
   - '+.tipaipai.com'
   - '+.tipask.com'
-  - '+.tipdim.org'
   - '+.tipdm.com'
   - '+.tipdm.org'
   - '+.tipray.com'

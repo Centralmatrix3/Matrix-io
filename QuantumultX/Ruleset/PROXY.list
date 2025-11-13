@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31649
+# 规则统计: 31658
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -1639,6 +1639,8 @@ HOST-SUFFIX,afao.ac.uk,PROXY
 HOST-SUFFIX,afappyending.com,PROXY
 HOST-SUFFIX,afewmomentswith.com,PROXY
 HOST-SUFFIX,affect3dstore.com,PROXY
+HOST-SUFFIX,affinity.api.serifservices.com,PROXY
+HOST-SUFFIX,affinity.studio,PROXY
 HOST-SUFFIX,affirmtrust.com,PROXY
 HOST-SUFFIX,afi.ac.uk,PROXY
 HOST-SUFFIX,afkv28.com,PROXY
@@ -3860,6 +3862,7 @@ HOST-SUFFIX,bcrncdn.com,PROXY
 HOST-SUFFIX,bctcs.ac.uk,PROXY
 HOST-SUFFIX,bcu.ac.uk,PROXY
 HOST-SUFFIX,bcuc.ac.uk,PROXY
+HOST-SUFFIX,bcvcdn.com,PROXY
 HOST-SUFFIX,bcvp0rtal.com,PROXY
 HOST-SUFFIX,bcy01.com,PROXY
 HOST-SUFFIX,bdc.ac.uk,PROXY
@@ -4348,6 +4351,7 @@ HOST-SUFFIX,bfnn.org,PROXY
 HOST-SUFFIX,bfsh.hk,PROXY
 HOST-SUFFIX,bftv.ac.uk,PROXY
 HOST-SUFFIX,bgc.ac.uk,PROXY
+HOST-SUFFIX,bgicdn.com,PROXY
 HOST-SUFFIX,bgm.tv,PROXY
 HOST-SUFFIX,bgme.me,PROXY
 HOST-SUFFIX,bgov.com,PROXY
@@ -6136,6 +6140,7 @@ HOST-SUFFIX,cantab.ac.uk,PROXY
 HOST-SUFFIX,canterbury.ac.uk,PROXY
 HOST-SUFFIX,canterburycollege.ac.uk,PROXY
 HOST-SUFFIX,canterburytrust.ac.uk,PROXY
+HOST-SUFFIX,canva.com,PROXY
 HOST-SUFFIX,canyu.org,PROXY
 HOST-SUFFIX,caobian.info,PROXY
 HOST-SUFFIX,caochangqing.com,PROXY
@@ -12721,6 +12726,7 @@ HOST-SUFFIX,googleartproject.com,PROXY
 HOST-SUFFIX,googleblog.com,PROXY
 HOST-SUFFIX,googlebot.com,PROXY
 HOST-SUFFIX,googlecapital.com,PROXY
+HOST-SUFFIX,googlecensorship.org,PROXY
 HOST-SUFFIX,googlecert.net,PROXY
 HOST-SUFFIX,googlechinawebmaster.com,PROXY
 HOST-SUFFIX,googlecode.com,PROXY
@@ -12883,6 +12889,7 @@ HOST-SUFFIX,greatermanchesterinternationalmedicalschool.ac.uk,PROXY
 HOST-SUFFIX,greatermanchestermedicalschool.ac.uk,PROXY
 HOST-SUFFIX,greatfire.org,PROXY
 HOST-SUFFIX,greatfire.us7.list-manage.com,PROXY
+HOST-SUFFIX,greatfirevpn.com,PROXY
 HOST-SUFFIX,greatfirewall.biz,PROXY
 HOST-SUFFIX,greatfirewallofchina.org,PROXY
 HOST-SUFFIX,greatretroporn.com,PROXY
@@ -19882,6 +19889,7 @@ HOST-SUFFIX,neo-miracle.com,PROXY
 HOST-SUFFIX,neodaas.ac.uk,PROXY
 HOST-SUFFIX,neonatalsociety.ac.uk,PROXY
 HOST-SUFFIX,neotokyo.supertop-100.com,PROXY
+HOST-SUFFIX,neovim.io,PROXY
 HOST-SUFFIX,neow.in,PROXY
 HOST-SUFFIX,neowin.net,PROXY
 HOST-SUFFIX,nerap.ac.uk,PROXY
@@ -31494,6 +31502,7 @@ HOST-SUFFIX,zeit.co,PROXY
 HOST-SUFFIX,zeit.sh,PROXY
 HOST-SUFFIX,zeitworld.com,PROXY
 HOST-SUFFIX,zello.com,PROXY
+HOST-SUFFIX,zen-browser.app,PROXY
 HOST-SUFFIX,zen8ok.xyz,PROXY
 HOST-SUFFIX,zencdn.net,PROXY
 HOST-SUFFIX,zencoder.com,PROXY
