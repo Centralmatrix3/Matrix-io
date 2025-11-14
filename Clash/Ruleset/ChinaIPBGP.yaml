@@ -1,5 +1,5 @@
 # 规则名称: ChinaIPBGP
-# 规则统计: 3940
+# 规则统计: 3938
 
 payload:
   - IP-CIDR,1.1.8.0/24,no-resolve
@@ -1837,7 +1837,6 @@ payload:
   - IP-CIDR,124.240.0.0/17,no-resolve
   - IP-CIDR,124.240.128.0/18,no-resolve
   - IP-CIDR,124.243.192.0/18,no-resolve
-  - IP-CIDR,124.248.0.0/22,no-resolve
   - IP-CIDR,124.248.64.0/18,no-resolve
   - IP-CIDR,124.250.0.0/15,no-resolve
   - IP-CIDR,124.254.0.0/18,no-resolve
@@ -2009,8 +2008,7 @@ payload:
   - IP-CIDR,150.138.0.0/15,no-resolve
   - IP-CIDR,150.158.0.0/16,no-resolve
   - IP-CIDR,150.223.0.0/16,no-resolve
-  - IP-CIDR,150.242.120.0/24,no-resolve
-  - IP-CIDR,150.242.122.0/23,no-resolve
+  - IP-CIDR,150.242.120.0/22,no-resolve
   - IP-CIDR,150.242.156.0/23,no-resolve
   - IP-CIDR,150.242.168.0/22,no-resolve
   - IP-CIDR,150.242.184.0/22,no-resolve

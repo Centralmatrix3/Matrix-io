@@ -1,5 +1,5 @@
 # 规则名称: ChinaMax
-# 规则统计: 137522
+# 规则统计: 137538
 
 no_resolve: true
 domain_set:
@@ -17,6 +17,7 @@ domain_set:
   - 6.mms.vlog.xuite.net
   - a.xttv.top
   - abclive2-lh.akamaihd.net
+  - activate.activation-v2.kaspersky.com
   - activation-v2.kaspersky.com
   - admob-cn.com
   - afcs.dell.com
@@ -123,6 +124,18 @@ domain_set:
   - kcrw.streamguys1.com
   - kjzz.streamguys1.com
   - kpbs-wowza.streamguys1.com
+  - ksn-cinfo.geoksn.kaspersky.com
+  - ksn-crypto-wifiplus.geoksn.kaspersky.com
+  - ksn-dc1-cert.geoksn.kaspersky.com
+  - ksn-dc1-file.geoksn.kaspersky.com
+  - ksn-dc1.geoksn.kaspersky.com
+  - ksn-file.geoksn.kaspersky.com
+  - ksn-info.geoksn.kaspersky.com
+  - ksn-kas.geoksn.kaspersky.com
+  - ksn-mdr.geoksn.kaspersky.com
+  - ksn-tcert.geoksn.kaspersky.com
+  - ksn-url.geoksn.kaspersky.com
+  - ksn-verdict.geoksn.kaspersky.com
   - kut-hls.streamguys1.com
   - kwmu-flash.streamguys1.com
   - lb.streaming.sk
@@ -197,6 +210,7 @@ domain_set:
   - redirector.offline-maps.gvt1.com
   - redirector.snap.gvt1.com
   - redirector.xn--ngstr-lra8j.com
+  - refresh-bkg.activation-v2.kaspersky.com
   - rfcmedia.streamguys1.com
   - rfimonde-lh.akamaihd.net
   - rmtv24hweblive-lh.akamaihd.net
@@ -27292,6 +27306,7 @@ domain_suffix_set:
   - cztv.cc
   - cztv.com
   - cztv.tv
+  - cztvcdn.com
   - cztvcloud.com
   - cztzkg.com
   - czur.com
@@ -137246,6 +137261,7 @@ ip_cidr6_set:
   - 2a0f:1cc5:f05::/48
   - 2a0f:1cc6:b100::/44
   - 2a0f:5707:ac00::/47
+  - 2a0f:6284:3000::/36
   - 2a0f:6284:300::/40
   - 2a0f:6284:400::/42
   - 2a0f:6284:440::/43
@@ -137293,6 +137309,7 @@ ip_cidr6_set:
   - 2a0f:9400:7700::/48
   - 2a0f:9407:f000::/36
   - 2a0f:ac00::/29
+  - 2a0f:ea47:fc1d::/48
   - 2a10:2f00:15a::/48
   - 2a10:500:4600::/40
   - 2a10:9007:5:3::/64
@@ -137425,7 +137442,7 @@ ip_cidr6_set:
   - 2a14:67c1:b582::/48
   - 2a14:67c1:b586::/48
   - 2a14:67c1:b588::/47
-  - 2a14:67c1:b590::/48
+  - 2a14:67c1:b590::/47
   - 2a14:67c1:b599::/48
   - 2a14:67c1:b5a1::/48
   - 2a14:67c1:c300::/40
@@ -137459,9 +137476,8 @@ ip_cidr6_set:
   - 2a14:7581:b16:2c00::/56
   - 2a14:7581:b17:2c00::/56
   - 2a14:7581:b20::/46
-  - 2a14:7581:b40::/48
-  - 2a14:7581:b44::/48
-  - 2a14:7581:b60::/48
+  - 2a14:7581:b40::/45
+  - 2a14:7581:b60::/44
   - 2a14:7581:ba0::/48
   - 2a14:7581:bbb::/48
   - 2a14:7581:bcd::/48

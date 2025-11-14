@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31658
+# 规则统计: 31668
 
 domain_set:
   - 1password.drift.click
@@ -101,9 +101,13 @@ domain_set:
   - d1m7jfoe9zdc1j.cloudfront.net
   - d1mhjrowxxagfy.cloudfront.net
   - d1oca24q5dwo6d.cloudfront.net
+  - d1v5ir2lpwr8os.cloudfront.net
   - d1w2poirtb3as9.cloudfront.net
   - d1xhnb4ptk05mw.cloudfront.net
   - d1ymi26ma8va5x.cloudfront.net
+  - d22qjgkvxw22r6.cloudfront.net
+  - d25xi40x97liuc.cloudfront.net
+  - d27xxe7juh1us6.cloudfront.net
   - d29vzk4ow07wi7.cloudfront.net
   - d2aba1wr3818hz.cloudfront.net
   - d2anahhhmp1ffz.cloudfront.net
@@ -137,6 +141,7 @@ domain_set:
   - dl.begellhouse.com
   - dlgarenanow-a.akamaihd.net
   - dlmobilegarena-a.akamaihd.net
+  - dmqdd6hw24ucf.cloudfront.net
   - docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com
   - docker-pinata-support.s3.amazonaws.com
   - download.visualstudio.microsoft.com
@@ -207,6 +212,9 @@ domain_set:
   - hub.slarker.me
   - hulu.playback.edge.bamgrid.com
   - i.jeded.com
+  - images-eu.ssl-images-amazon.com
+  - images-fe.ssl-images-amazon.com
+  - images-na.ssl-images-amazon.com
   - img-prod-cms-rt-microsoft-com.akamaized.net
   - img-s-msn-com.akamaized.net
   - impala-media-production.s3.amazonaws.com
@@ -231,6 +239,7 @@ domain_set:
   - misa-prod.s3.ap-northeast-1.amazonaws.com
   - mobilelive-hamivideo.cdn.hinet.net
   - mscrl.microsoft.com
+  - msh.amazon.co.uk
   - mtalk-dev.google.com
   - mtalk-staging.google.com
   - mtalk.google.com
@@ -400,6 +409,7 @@ domain_set:
   - spotify.map.fastlylb.net
   - ssl-lvlt.cdn.ea.com
   - static-hamivideo.cdn.hinet.net
+  - static.siege-amazon.com
   - statics-marketingsites-eas-ms-com.akamaized.net
   - statics-marketingsites-eus-ms-com.akamaized.net
   - statics-marketingsites-wcus-ms-com.akamaized.net

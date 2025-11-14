@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31658
+# 规则统计: 31668
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -100,9 +100,13 @@ DOMAIN,d1k2us671qcoau.cloudfront.net
 DOMAIN,d1m7jfoe9zdc1j.cloudfront.net
 DOMAIN,d1mhjrowxxagfy.cloudfront.net
 DOMAIN,d1oca24q5dwo6d.cloudfront.net
+DOMAIN,d1v5ir2lpwr8os.cloudfront.net
 DOMAIN,d1w2poirtb3as9.cloudfront.net
 DOMAIN,d1xhnb4ptk05mw.cloudfront.net
 DOMAIN,d1ymi26ma8va5x.cloudfront.net
+DOMAIN,d22qjgkvxw22r6.cloudfront.net
+DOMAIN,d25xi40x97liuc.cloudfront.net
+DOMAIN,d27xxe7juh1us6.cloudfront.net
 DOMAIN,d29vzk4ow07wi7.cloudfront.net
 DOMAIN,d2aba1wr3818hz.cloudfront.net
 DOMAIN,d2anahhhmp1ffz.cloudfront.net
@@ -136,6 +140,7 @@ DOMAIN,discord-attachments-uploads-prd.storage.googleapis.com
 DOMAIN,dl.begellhouse.com
 DOMAIN,dlgarenanow-a.akamaihd.net
 DOMAIN,dlmobilegarena-a.akamaihd.net
+DOMAIN,dmqdd6hw24ucf.cloudfront.net
 DOMAIN,docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com
 DOMAIN,docker-pinata-support.s3.amazonaws.com
 DOMAIN,download.visualstudio.microsoft.com
@@ -206,6 +211,9 @@ DOMAIN,hpstore.corpmerchandise.com
 DOMAIN,hub.slarker.me
 DOMAIN,hulu.playback.edge.bamgrid.com
 DOMAIN,i.jeded.com
+DOMAIN,images-eu.ssl-images-amazon.com
+DOMAIN,images-fe.ssl-images-amazon.com
+DOMAIN,images-na.ssl-images-amazon.com
 DOMAIN,img-prod-cms-rt-microsoft-com.akamaized.net
 DOMAIN,img-s-msn-com.akamaized.net
 DOMAIN,impala-media-production.s3.amazonaws.com
@@ -230,6 +238,7 @@ DOMAIN,medone-education.thieme.com
 DOMAIN,misa-prod.s3.ap-northeast-1.amazonaws.com
 DOMAIN,mobilelive-hamivideo.cdn.hinet.net
 DOMAIN,mscrl.microsoft.com
+DOMAIN,msh.amazon.co.uk
 DOMAIN,mtalk-dev.google.com
 DOMAIN,mtalk-staging.google.com
 DOMAIN,mtalk.google.com
@@ -399,6 +408,7 @@ DOMAIN,spotify.map.fastly.net
 DOMAIN,spotify.map.fastlylb.net
 DOMAIN,ssl-lvlt.cdn.ea.com
 DOMAIN,static-hamivideo.cdn.hinet.net
+DOMAIN,static.siege-amazon.com
 DOMAIN,statics-marketingsites-eas-ms-com.akamaized.net
 DOMAIN,statics-marketingsites-eus-ms-com.akamaized.net
 DOMAIN,statics-marketingsites-wcus-ms-com.akamaized.net

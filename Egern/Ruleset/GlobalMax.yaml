@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 32269
+# 规则统计: 32310
 
 no_resolve: true
 domain_set:
@@ -1196,6 +1196,8 @@ domain_suffix_set:
   - afappyending.com
   - afewmomentswith.com
   - affect3dstore.com
+  - affinity.api.serifservices.com
+  - affinity.studio
   - affirmtrust.com
   - afi.ac.uk
   - afkv28.com
@@ -3921,6 +3923,7 @@ domain_suffix_set:
   - bfsh.hk
   - bftv.ac.uk
   - bgc.ac.uk
+  - bgicdn.com
   - bgm.tv
   - bgme.me
   - bgov.com
@@ -5721,6 +5724,7 @@ domain_suffix_set:
   - canterburycollege.ac.uk
   - canterburytrust.ac.uk
   - cantonese.asia
+  - canva.com
   - canyu.org
   - cao.im
   - caobian.info
@@ -12524,6 +12528,7 @@ domain_suffix_set:
   - googleblog.com
   - googlebot.com
   - googlecapital.com
+  - googlecensorship.org
   - googlecert.net
   - googlechinawebmaster.com
   - googlecode.com
@@ -12694,6 +12699,7 @@ domain_suffix_set:
   - greatermanchesterinternationalmedicalschool.ac.uk
   - greatermanchestermedicalschool.ac.uk
   - greatfire.org
+  - greatfirevpn.com
   - greatfirewall.biz
   - greatfirewallofchina.net
   - greatfirewallofchina.org
@@ -16234,7 +16240,40 @@ domain_suffix_set:
   - karmapa.org
   - karupsha.com
   - karupspc.com
+  - kaspersky.be
+  - kaspersky.ca
+  - kaspersky.co.in
+  - kaspersky.co.jp
+  - kaspersky.co.kr
+  - kaspersky.co.th
+  - kaspersky.co.uk
+  - kaspersky.co.za
   - kaspersky.com
+  - kaspersky.com.au
+  - kaspersky.com.br
+  - kaspersky.com.hk
+  - kaspersky.com.pl
+  - kaspersky.com.tr
+  - kaspersky.com.tw
+  - kaspersky.com.vn
+  - kaspersky.cz
+  - kaspersky.de
+  - kaspersky.dk
+  - kaspersky.dz
+  - kaspersky.es
+  - kaspersky.fi
+  - kaspersky.fr
+  - kaspersky.gr
+  - kaspersky.it
+  - kaspersky.kz
+  - kaspersky.ma
+  - kaspersky.my
+  - kaspersky.nl
+  - kaspersky.pt
+  - kaspersky.ro
+  - kaspersky.rs
+  - kaspersky.ru
+  - kaspersky.se
   - kastatic.org
   - kat.cr
   - katestube.com
@@ -19885,6 +19924,7 @@ domain_suffix_set:
   - neoforged.net
   - neonatalsociety.ac.uk
   - neotokyo.supertop-100.com
+  - neovim.io
   - neow.in
   - neowin.net
   - nepusoku.com
@@ -31951,6 +31991,7 @@ domain_suffix_set:
   - zeit.sh
   - zeitworld.com
   - zello.com
+  - zen-browser.app
   - zen8ok.xyz
   - zencdn.net
   - zencoder.com

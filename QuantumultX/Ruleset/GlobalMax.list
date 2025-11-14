@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 32269
+# 规则统计: 32310
 
 HOST,1password.drift.click,GlobalMax
 HOST,adobeereg.com,GlobalMax
@@ -1193,6 +1193,8 @@ HOST-SUFFIX,afao.ac.uk,GlobalMax
 HOST-SUFFIX,afappyending.com,GlobalMax
 HOST-SUFFIX,afewmomentswith.com,GlobalMax
 HOST-SUFFIX,affect3dstore.com,GlobalMax
+HOST-SUFFIX,affinity.api.serifservices.com,GlobalMax
+HOST-SUFFIX,affinity.studio,GlobalMax
 HOST-SUFFIX,affirmtrust.com,GlobalMax
 HOST-SUFFIX,afi.ac.uk,GlobalMax
 HOST-SUFFIX,afkv28.com,GlobalMax
@@ -3918,6 +3920,7 @@ HOST-SUFFIX,bfnn.org,GlobalMax
 HOST-SUFFIX,bfsh.hk,GlobalMax
 HOST-SUFFIX,bftv.ac.uk,GlobalMax
 HOST-SUFFIX,bgc.ac.uk,GlobalMax
+HOST-SUFFIX,bgicdn.com,GlobalMax
 HOST-SUFFIX,bgm.tv,GlobalMax
 HOST-SUFFIX,bgme.me,GlobalMax
 HOST-SUFFIX,bgov.com,GlobalMax
@@ -5718,6 +5721,7 @@ HOST-SUFFIX,canterbury.ac.uk,GlobalMax
 HOST-SUFFIX,canterburycollege.ac.uk,GlobalMax
 HOST-SUFFIX,canterburytrust.ac.uk,GlobalMax
 HOST-SUFFIX,cantonese.asia,GlobalMax
+HOST-SUFFIX,canva.com,GlobalMax
 HOST-SUFFIX,canyu.org,GlobalMax
 HOST-SUFFIX,cao.im,GlobalMax
 HOST-SUFFIX,caobian.info,GlobalMax
@@ -12521,6 +12525,7 @@ HOST-SUFFIX,googleartproject.com,GlobalMax
 HOST-SUFFIX,googleblog.com,GlobalMax
 HOST-SUFFIX,googlebot.com,GlobalMax
 HOST-SUFFIX,googlecapital.com,GlobalMax
+HOST-SUFFIX,googlecensorship.org,GlobalMax
 HOST-SUFFIX,googlecert.net,GlobalMax
 HOST-SUFFIX,googlechinawebmaster.com,GlobalMax
 HOST-SUFFIX,googlecode.com,GlobalMax
@@ -12691,6 +12696,7 @@ HOST-SUFFIX,greatermanchestercolleges.ac.uk,GlobalMax
 HOST-SUFFIX,greatermanchesterinternationalmedicalschool.ac.uk,GlobalMax
 HOST-SUFFIX,greatermanchestermedicalschool.ac.uk,GlobalMax
 HOST-SUFFIX,greatfire.org,GlobalMax
+HOST-SUFFIX,greatfirevpn.com,GlobalMax
 HOST-SUFFIX,greatfirewall.biz,GlobalMax
 HOST-SUFFIX,greatfirewallofchina.net,GlobalMax
 HOST-SUFFIX,greatfirewallofchina.org,GlobalMax
@@ -16231,7 +16237,40 @@ HOST-SUFFIX,karmapa-teachings.org,GlobalMax
 HOST-SUFFIX,karmapa.org,GlobalMax
 HOST-SUFFIX,karupsha.com,GlobalMax
 HOST-SUFFIX,karupspc.com,GlobalMax
+HOST-SUFFIX,kaspersky.be,GlobalMax
+HOST-SUFFIX,kaspersky.ca,GlobalMax
+HOST-SUFFIX,kaspersky.co.in,GlobalMax
+HOST-SUFFIX,kaspersky.co.jp,GlobalMax
+HOST-SUFFIX,kaspersky.co.kr,GlobalMax
+HOST-SUFFIX,kaspersky.co.th,GlobalMax
+HOST-SUFFIX,kaspersky.co.uk,GlobalMax
+HOST-SUFFIX,kaspersky.co.za,GlobalMax
 HOST-SUFFIX,kaspersky.com,GlobalMax
+HOST-SUFFIX,kaspersky.com.au,GlobalMax
+HOST-SUFFIX,kaspersky.com.br,GlobalMax
+HOST-SUFFIX,kaspersky.com.hk,GlobalMax
+HOST-SUFFIX,kaspersky.com.pl,GlobalMax
+HOST-SUFFIX,kaspersky.com.tr,GlobalMax
+HOST-SUFFIX,kaspersky.com.tw,GlobalMax
+HOST-SUFFIX,kaspersky.com.vn,GlobalMax
+HOST-SUFFIX,kaspersky.cz,GlobalMax
+HOST-SUFFIX,kaspersky.de,GlobalMax
+HOST-SUFFIX,kaspersky.dk,GlobalMax
+HOST-SUFFIX,kaspersky.dz,GlobalMax
+HOST-SUFFIX,kaspersky.es,GlobalMax
+HOST-SUFFIX,kaspersky.fi,GlobalMax
+HOST-SUFFIX,kaspersky.fr,GlobalMax
+HOST-SUFFIX,kaspersky.gr,GlobalMax
+HOST-SUFFIX,kaspersky.it,GlobalMax
+HOST-SUFFIX,kaspersky.kz,GlobalMax
+HOST-SUFFIX,kaspersky.ma,GlobalMax
+HOST-SUFFIX,kaspersky.my,GlobalMax
+HOST-SUFFIX,kaspersky.nl,GlobalMax
+HOST-SUFFIX,kaspersky.pt,GlobalMax
+HOST-SUFFIX,kaspersky.ro,GlobalMax
+HOST-SUFFIX,kaspersky.rs,GlobalMax
+HOST-SUFFIX,kaspersky.ru,GlobalMax
+HOST-SUFFIX,kaspersky.se,GlobalMax
 HOST-SUFFIX,kastatic.org,GlobalMax
 HOST-SUFFIX,kat.cr,GlobalMax
 HOST-SUFFIX,katestube.com,GlobalMax
@@ -19882,6 +19921,7 @@ HOST-SUFFIX,neodaas.ac.uk,GlobalMax
 HOST-SUFFIX,neoforged.net,GlobalMax
 HOST-SUFFIX,neonatalsociety.ac.uk,GlobalMax
 HOST-SUFFIX,neotokyo.supertop-100.com,GlobalMax
+HOST-SUFFIX,neovim.io,GlobalMax
 HOST-SUFFIX,neow.in,GlobalMax
 HOST-SUFFIX,neowin.net,GlobalMax
 HOST-SUFFIX,nepusoku.com,GlobalMax
@@ -31948,6 +31988,7 @@ HOST-SUFFIX,zeit.co,GlobalMax
 HOST-SUFFIX,zeit.sh,GlobalMax
 HOST-SUFFIX,zeitworld.com,GlobalMax
 HOST-SUFFIX,zello.com,GlobalMax
+HOST-SUFFIX,zen-browser.app,GlobalMax
 HOST-SUFFIX,zen8ok.xyz,GlobalMax
 HOST-SUFFIX,zencdn.net,GlobalMax
 HOST-SUFFIX,zencoder.com,GlobalMax

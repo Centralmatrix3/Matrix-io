@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 32269
+# 规则统计: 32310
 
 DOMAIN,1password.drift.click
 DOMAIN,adobeereg.com
@@ -1193,6 +1193,8 @@ DOMAIN-SUFFIX,afao.ac.uk
 DOMAIN-SUFFIX,afappyending.com
 DOMAIN-SUFFIX,afewmomentswith.com
 DOMAIN-SUFFIX,affect3dstore.com
+DOMAIN-SUFFIX,affinity.api.serifservices.com
+DOMAIN-SUFFIX,affinity.studio
 DOMAIN-SUFFIX,affirmtrust.com
 DOMAIN-SUFFIX,afi.ac.uk
 DOMAIN-SUFFIX,afkv28.com
@@ -3918,6 +3920,7 @@ DOMAIN-SUFFIX,bfnn.org
 DOMAIN-SUFFIX,bfsh.hk
 DOMAIN-SUFFIX,bftv.ac.uk
 DOMAIN-SUFFIX,bgc.ac.uk
+DOMAIN-SUFFIX,bgicdn.com
 DOMAIN-SUFFIX,bgm.tv
 DOMAIN-SUFFIX,bgme.me
 DOMAIN-SUFFIX,bgov.com
@@ -5718,6 +5721,7 @@ DOMAIN-SUFFIX,canterbury.ac.uk
 DOMAIN-SUFFIX,canterburycollege.ac.uk
 DOMAIN-SUFFIX,canterburytrust.ac.uk
 DOMAIN-SUFFIX,cantonese.asia
+DOMAIN-SUFFIX,canva.com
 DOMAIN-SUFFIX,canyu.org
 DOMAIN-SUFFIX,cao.im
 DOMAIN-SUFFIX,caobian.info
@@ -12521,6 +12525,7 @@ DOMAIN-SUFFIX,googleartproject.com
 DOMAIN-SUFFIX,googleblog.com
 DOMAIN-SUFFIX,googlebot.com
 DOMAIN-SUFFIX,googlecapital.com
+DOMAIN-SUFFIX,googlecensorship.org
 DOMAIN-SUFFIX,googlecert.net
 DOMAIN-SUFFIX,googlechinawebmaster.com
 DOMAIN-SUFFIX,googlecode.com
@@ -12691,6 +12696,7 @@ DOMAIN-SUFFIX,greatermanchestercolleges.ac.uk
 DOMAIN-SUFFIX,greatermanchesterinternationalmedicalschool.ac.uk
 DOMAIN-SUFFIX,greatermanchestermedicalschool.ac.uk
 DOMAIN-SUFFIX,greatfire.org
+DOMAIN-SUFFIX,greatfirevpn.com
 DOMAIN-SUFFIX,greatfirewall.biz
 DOMAIN-SUFFIX,greatfirewallofchina.net
 DOMAIN-SUFFIX,greatfirewallofchina.org
@@ -16231,7 +16237,40 @@ DOMAIN-SUFFIX,karmapa-teachings.org
 DOMAIN-SUFFIX,karmapa.org
 DOMAIN-SUFFIX,karupsha.com
 DOMAIN-SUFFIX,karupspc.com
+DOMAIN-SUFFIX,kaspersky.be
+DOMAIN-SUFFIX,kaspersky.ca
+DOMAIN-SUFFIX,kaspersky.co.in
+DOMAIN-SUFFIX,kaspersky.co.jp
+DOMAIN-SUFFIX,kaspersky.co.kr
+DOMAIN-SUFFIX,kaspersky.co.th
+DOMAIN-SUFFIX,kaspersky.co.uk
+DOMAIN-SUFFIX,kaspersky.co.za
 DOMAIN-SUFFIX,kaspersky.com
+DOMAIN-SUFFIX,kaspersky.com.au
+DOMAIN-SUFFIX,kaspersky.com.br
+DOMAIN-SUFFIX,kaspersky.com.hk
+DOMAIN-SUFFIX,kaspersky.com.pl
+DOMAIN-SUFFIX,kaspersky.com.tr
+DOMAIN-SUFFIX,kaspersky.com.tw
+DOMAIN-SUFFIX,kaspersky.com.vn
+DOMAIN-SUFFIX,kaspersky.cz
+DOMAIN-SUFFIX,kaspersky.de
+DOMAIN-SUFFIX,kaspersky.dk
+DOMAIN-SUFFIX,kaspersky.dz
+DOMAIN-SUFFIX,kaspersky.es
+DOMAIN-SUFFIX,kaspersky.fi
+DOMAIN-SUFFIX,kaspersky.fr
+DOMAIN-SUFFIX,kaspersky.gr
+DOMAIN-SUFFIX,kaspersky.it
+DOMAIN-SUFFIX,kaspersky.kz
+DOMAIN-SUFFIX,kaspersky.ma
+DOMAIN-SUFFIX,kaspersky.my
+DOMAIN-SUFFIX,kaspersky.nl
+DOMAIN-SUFFIX,kaspersky.pt
+DOMAIN-SUFFIX,kaspersky.ro
+DOMAIN-SUFFIX,kaspersky.rs
+DOMAIN-SUFFIX,kaspersky.ru
+DOMAIN-SUFFIX,kaspersky.se
 DOMAIN-SUFFIX,kastatic.org
 DOMAIN-SUFFIX,kat.cr
 DOMAIN-SUFFIX,katestube.com
@@ -19882,6 +19921,7 @@ DOMAIN-SUFFIX,neodaas.ac.uk
 DOMAIN-SUFFIX,neoforged.net
 DOMAIN-SUFFIX,neonatalsociety.ac.uk
 DOMAIN-SUFFIX,neotokyo.supertop-100.com
+DOMAIN-SUFFIX,neovim.io
 DOMAIN-SUFFIX,neow.in
 DOMAIN-SUFFIX,neowin.net
 DOMAIN-SUFFIX,nepusoku.com
@@ -31948,6 +31988,7 @@ DOMAIN-SUFFIX,zeit.co
 DOMAIN-SUFFIX,zeit.sh
 DOMAIN-SUFFIX,zeitworld.com
 DOMAIN-SUFFIX,zello.com
+DOMAIN-SUFFIX,zen-browser.app
 DOMAIN-SUFFIX,zen8ok.xyz
 DOMAIN-SUFFIX,zencdn.net
 DOMAIN-SUFFIX,zencoder.com

@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31658
+# 规则统计: 31668
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -100,9 +100,13 @@ HOST,d1k2us671qcoau.cloudfront.net,PROXY
 HOST,d1m7jfoe9zdc1j.cloudfront.net,PROXY
 HOST,d1mhjrowxxagfy.cloudfront.net,PROXY
 HOST,d1oca24q5dwo6d.cloudfront.net,PROXY
+HOST,d1v5ir2lpwr8os.cloudfront.net,PROXY
 HOST,d1w2poirtb3as9.cloudfront.net,PROXY
 HOST,d1xhnb4ptk05mw.cloudfront.net,PROXY
 HOST,d1ymi26ma8va5x.cloudfront.net,PROXY
+HOST,d22qjgkvxw22r6.cloudfront.net,PROXY
+HOST,d25xi40x97liuc.cloudfront.net,PROXY
+HOST,d27xxe7juh1us6.cloudfront.net,PROXY
 HOST,d29vzk4ow07wi7.cloudfront.net,PROXY
 HOST,d2aba1wr3818hz.cloudfront.net,PROXY
 HOST,d2anahhhmp1ffz.cloudfront.net,PROXY
@@ -136,6 +140,7 @@ HOST,discord-attachments-uploads-prd.storage.googleapis.com,PROXY
 HOST,dl.begellhouse.com,PROXY
 HOST,dlgarenanow-a.akamaihd.net,PROXY
 HOST,dlmobilegarena-a.akamaihd.net,PROXY
+HOST,dmqdd6hw24ucf.cloudfront.net,PROXY
 HOST,docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com,PROXY
 HOST,docker-pinata-support.s3.amazonaws.com,PROXY
 HOST,download.visualstudio.microsoft.com,PROXY
@@ -206,6 +211,9 @@ HOST,hpstore.corpmerchandise.com,PROXY
 HOST,hub.slarker.me,PROXY
 HOST,hulu.playback.edge.bamgrid.com,PROXY
 HOST,i.jeded.com,PROXY
+HOST,images-eu.ssl-images-amazon.com,PROXY
+HOST,images-fe.ssl-images-amazon.com,PROXY
+HOST,images-na.ssl-images-amazon.com,PROXY
 HOST,img-prod-cms-rt-microsoft-com.akamaized.net,PROXY
 HOST,img-s-msn-com.akamaized.net,PROXY
 HOST,impala-media-production.s3.amazonaws.com,PROXY
@@ -230,6 +238,7 @@ HOST,medone-education.thieme.com,PROXY
 HOST,misa-prod.s3.ap-northeast-1.amazonaws.com,PROXY
 HOST,mobilelive-hamivideo.cdn.hinet.net,PROXY
 HOST,mscrl.microsoft.com,PROXY
+HOST,msh.amazon.co.uk,PROXY
 HOST,mtalk-dev.google.com,PROXY
 HOST,mtalk-staging.google.com,PROXY
 HOST,mtalk.google.com,PROXY
@@ -399,6 +408,7 @@ HOST,spotify.map.fastly.net,PROXY
 HOST,spotify.map.fastlylb.net,PROXY
 HOST,ssl-lvlt.cdn.ea.com,PROXY
 HOST,static-hamivideo.cdn.hinet.net,PROXY
+HOST,static.siege-amazon.com,PROXY
 HOST,statics-marketingsites-eas-ms-com.akamaized.net,PROXY
 HOST,statics-marketingsites-eus-ms-com.akamaized.net,PROXY
 HOST,statics-marketingsites-wcus-ms-com.akamaized.net,PROXY
