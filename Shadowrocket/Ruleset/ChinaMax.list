@@ -1,5 +1,5 @@
 # 规则名称: ChinaMax
-# 规则统计: 137835
+# 规则统计: 137837
 
 DOMAIN,1-fss24-s0.streamhoster.com
 DOMAIN,14033.live.streamtheworld.com
@@ -12087,6 +12087,7 @@ DOMAIN-SUFFIX,anyv.net
 DOMAIN-SUFFIX,anyview.net
 DOMAIN-SUFFIX,anyway.fm
 DOMAIN-SUFFIX,anyway.red
+DOMAIN-SUFFIX,anywlan.com
 DOMAIN-SUFFIX,anywood.com
 DOMAIN-SUFFIX,anyxz.com
 DOMAIN-SUFFIX,anzerclub.com
@@ -121173,7 +121174,6 @@ IP-CIDR,154.72.47.0/24,no-resolve
 IP-CIDR,154.8.128.0/17,no-resolve
 IP-CIDR,154.8.48.0/20,no-resolve
 IP-CIDR,154.89.32.0/20,no-resolve
-IP-CIDR,154.89.53.0/24,no-resolve
 IP-CIDR,154.91.158.0/23,no-resolve
 IP-CIDR,155.102.0.0/16,no-resolve
 IP-CIDR,155.117.164.0/24,no-resolve
@@ -121855,6 +121855,7 @@ IP-CIDR,193.119.0.0/19,no-resolve
 IP-CIDR,193.17.120.0/22,no-resolve
 IP-CIDR,193.20.64.0/22,no-resolve
 IP-CIDR,193.200.222.160/28,no-resolve
+IP-CIDR,193.233.49.0/24,no-resolve
 IP-CIDR,193.3.56.73/32,no-resolve
 IP-CIDR,193.32.227.48/28,no-resolve
 IP-CIDR,193.56.20.0/24,no-resolve
@@ -123714,7 +123715,6 @@ IP-CIDR,225.1.8.84/31,no-resolve
 IP-CIDR,225.1.8.88/31,no-resolve
 IP-CIDR,225.1.8.9/32,no-resolve
 IP-CIDR,23.133.188.0/24,no-resolve
-IP-CIDR,23.140.100.0/24,no-resolve
 IP-CIDR,23.158.104.0/25,no-resolve
 IP-CIDR,23.158.104.128/26,no-resolve
 IP-CIDR,23.158.104.192/27,no-resolve
@@ -135817,6 +135817,7 @@ IP-CIDR6,2602:fe9f:a00::/48,no-resolve
 IP-CIDR6,2602:fed2:7051::/48,no-resolve
 IP-CIDR6,2602:feda:1bf::/48,no-resolve
 IP-CIDR6,2602:feda:1d1::/48,no-resolve
+IP-CIDR6,2602:feda:1d3::/48,no-resolve
 IP-CIDR6,2602:feda:1df::/48,no-resolve
 IP-CIDR6,2602:feda:2d0::/44,no-resolve
 IP-CIDR6,2602:feda:2f0::/44,no-resolve
@@ -137490,7 +137491,7 @@ IP-CIDR6,2a0e:aa06:40e::/48,no-resolve
 IP-CIDR6,2a0e:aa06:440::/48,no-resolve
 IP-CIDR6,2a0e:aa06:490::/44,no-resolve
 IP-CIDR6,2a0e:aa06:4e0::/44,no-resolve
-IP-CIDR6,2a0e:aa06:501::/48,no-resolve
+IP-CIDR6,2a0e:aa06:500::/44,no-resolve
 IP-CIDR6,2a0e:aa06:520::/48,no-resolve
 IP-CIDR6,2a0e:aa06:525::/48,no-resolve
 IP-CIDR6,2a0e:aa06:541::/48,no-resolve
@@ -137525,6 +137526,7 @@ IP-CIDR6,2a0e:aa07:e220::/44,no-resolve
 IP-CIDR6,2a0e:aa07:f012::/48,no-resolve
 IP-CIDR6,2a0e:aa07:f0d0::/46,no-resolve
 IP-CIDR6,2a0e:aa07:f0d4::/47,no-resolve
+IP-CIDR6,2a0e:aa07:f0d8::/48,no-resolve
 IP-CIDR6,2a0e:aa07:f0de::/47,no-resolve
 IP-CIDR6,2a0e:b107:12b::/48,no-resolve
 IP-CIDR6,2a0e:b107:14a0::/44,no-resolve
@@ -137537,7 +137539,7 @@ IP-CIDR6,2a0e:b107:2440::/44,no-resolve
 IP-CIDR6,2a0e:b107:2715::/48,no-resolve
 IP-CIDR6,2a0e:b107:272::/48,no-resolve
 IP-CIDR6,2a0e:b107:740::/44,no-resolve
-IP-CIDR6,2a0e:b107:c10::/48,no-resolve
+IP-CIDR6,2a0e:b107:c10::/47,no-resolve
 IP-CIDR6,2a0e:b107:da0::/44,no-resolve
 IP-CIDR6,2a0e:b107:dce::/48,no-resolve
 IP-CIDR6,2a0e:d781::/32,no-resolve
