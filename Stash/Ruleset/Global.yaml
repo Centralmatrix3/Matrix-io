@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7363
+# 规则统计: 7364
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -237,6 +237,7 @@ payload:
   - DOMAIN-SUFFIX,ai-kan.net
   - DOMAIN-SUFFIX,ai-wen.net
   - DOMAIN-SUFFIX,ai.binwang.me
+  - DOMAIN-SUFFIX,ai.dev
   - DOMAIN-SUFFIX,ai.google
   - DOMAIN-SUFFIX,aiosearch.com
   - DOMAIN-SUFFIX,aiph.net

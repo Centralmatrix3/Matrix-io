@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5947
+# 规则统计: 5948
 
 HOST-SUFFIX,000webhost.com,GreatFireWall
 HOST-SUFFIX,030buy.com,GreatFireWall
@@ -194,6 +194,7 @@ HOST-SUFFIX,agnesb.fr,GreatFireWall
 HOST-SUFFIX,agoogleaday.com,GreatFireWall
 HOST-SUFFIX,agro.hk,GreatFireWall
 HOST-SUFFIX,ai.binwang.me,GreatFireWall
+HOST-SUFFIX,ai.dev,GreatFireWall
 HOST-SUFFIX,aiosearch.com,GreatFireWall
 HOST-SUFFIX,aiph.net,GreatFireWall
 HOST-SUFFIX,airasia.com,GreatFireWall

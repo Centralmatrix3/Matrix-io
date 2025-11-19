@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5947
+# 规则统计: 5948
 
 payload:
   - '+.000webhost.com'
@@ -195,6 +195,7 @@ payload:
   - '+.agoogleaday.com'
   - '+.agro.hk'
   - '+.ai.binwang.me'
+  - '+.ai.dev'
   - '+.aiosearch.com'
   - '+.aiph.net'
   - '+.airasia.com'

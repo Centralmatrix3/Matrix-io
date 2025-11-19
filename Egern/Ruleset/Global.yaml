@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7363
+# 规则统计: 7364
 
 no_resolve: true
 domain_set:
@@ -239,6 +239,7 @@ domain_suffix_set:
   - ai-kan.net
   - ai-wen.net
   - ai.binwang.me
+  - ai.dev
   - ai.google
   - aiosearch.com
   - aiph.net
