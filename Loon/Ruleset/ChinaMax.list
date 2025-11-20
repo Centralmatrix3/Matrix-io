@@ -1,5 +1,5 @@
 # 规则名称: ChinaMax
-# 规则统计: 137837
+# 规则统计: 137839
 
 DOMAIN,1-fss24-s0.streamhoster.com
 DOMAIN,14033.live.streamtheworld.com
@@ -119154,6 +119154,7 @@ IP-CIDR,103.43.124.0/22,no-resolve
 IP-CIDR,103.43.132.0/22,no-resolve
 IP-CIDR,103.43.140.0/22,no-resolve
 IP-CIDR,103.43.16.0/22,no-resolve
+IP-CIDR,103.43.175.0/24,no-resolve
 IP-CIDR,103.43.184.0/21,no-resolve
 IP-CIDR,103.43.192.0/21,no-resolve
 IP-CIDR,103.43.208.0/22,no-resolve
@@ -121162,6 +121163,7 @@ IP-CIDR,154.19.85.0/24,no-resolve
 IP-CIDR,154.19.86.0/23,no-resolve
 IP-CIDR,154.19.88.0/21,no-resolve
 IP-CIDR,154.19.96.0/19,no-resolve
+IP-CIDR,154.203.16.0/24,no-resolve
 IP-CIDR,154.208.140.0/22,no-resolve
 IP-CIDR,154.208.144.0/20,no-resolve
 IP-CIDR,154.208.160.0/21,no-resolve

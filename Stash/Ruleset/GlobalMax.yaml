@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 32388
+# 规则统计: 32390
 
 payload:
   - DOMAIN,1password.drift.click
@@ -1274,6 +1274,7 @@ payload:
   - DOMAIN-SUFFIX,ahxxx.club
   - DOMAIN-SUFFIX,ai-kan.net
   - DOMAIN-SUFFIX,ai-wen.net
+  - DOMAIN-SUFFIX,ai.dev
   - DOMAIN-SUFFIX,ai3sd.ac.uk
   - DOMAIN-SUFFIX,ai7995.site
   - DOMAIN-SUFFIX,ai91porn.cc
@@ -18919,6 +18920,7 @@ payload:
   - DOMAIN-SUFFIX,mizuhobank.co.jp
   - DOMAIN-SUFFIX,mizzmona.com
   - DOMAIN-SUFFIX,mjib.gov.tw
+  - DOMAIN-SUFFIX,mjj.rip
   - DOMAIN-SUFFIX,mjv-art.org
   - DOMAIN-SUFFIX,mk.shrimpia.network
   - DOMAIN-SUFFIX,mk.yopo.work

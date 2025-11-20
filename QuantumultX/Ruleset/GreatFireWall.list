@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5948
+# 规则统计: 5953
 
 HOST-SUFFIX,000webhost.com,GreatFireWall
 HOST-SUFFIX,030buy.com,GreatFireWall
@@ -1064,6 +1064,7 @@ HOST-SUFFIX,cloud.dify.ai,GreatFireWall
 HOST-SUFFIX,cloud.mail.ru,GreatFireWall
 HOST-SUFFIX,cloudflare-dns.com,GreatFireWall
 HOST-SUFFIX,cloudflare-ipfs.com,GreatFireWall
+HOST-SUFFIX,cloudflarestatus.com,GreatFireWall
 HOST-SUFFIX,cloudfunctions.net,GreatFireWall
 HOST-SUFFIX,club1069.com,GreatFireWall
 HOST-SUFFIX,clubhouseapi.com,GreatFireWall
@@ -3051,6 +3052,7 @@ HOST-SUFFIX,liaowangxizang.net,GreatFireWall
 HOST-SUFFIX,liberal.org.hk,GreatFireWall
 HOST-SUFFIX,libertysculpturepark.com,GreatFireWall
 HOST-SUFFIX,libertytimes.com.tw,GreatFireWall
+HOST-SUFFIX,library-access.sk,GreatFireWall
 HOST-SUFFIX,library.usc.cuhk.edu.hk,GreatFireWall
 HOST-SUFFIX,libredd.it,GreatFireWall
 HOST-SUFFIX,lifemiles.com,GreatFireWall
@@ -3276,6 +3278,7 @@ HOST-SUFFIX,microvpn.com,GreatFireWall
 HOST-SUFFIX,middle-way.net,GreatFireWall
 HOST-SUFFIX,mihr.com,GreatFireWall
 HOST-SUFFIX,mihua.org,GreatFireWall
+HOST-SUFFIX,mij.rip,GreatFireWall
 HOST-SUFFIX,mikanani.me,GreatFireWall
 HOST-SUFFIX,mike.cz.cc,GreatFireWall
 HOST-SUFFIX,mikesoltys.com,GreatFireWall
@@ -3320,6 +3323,7 @@ HOST-SUFFIX,mixi.jp,GreatFireWall
 HOST-SUFFIX,mixpod.com,GreatFireWall
 HOST-SUFFIX,mixx.com,GreatFireWall
 HOST-SUFFIX,mizzmona.com,GreatFireWall
+HOST-SUFFIX,mji.rip,GreatFireWall
 HOST-SUFFIX,mjib.gov.tw,GreatFireWall
 HOST-SUFFIX,mjj.rip,GreatFireWall
 HOST-SUFFIX,mjlsh.usc.cuhk.edu.hk,GreatFireWall
@@ -5740,6 +5744,7 @@ HOST-SUFFIX,xml-training-guide.com,GreatFireWall
 HOST-SUFFIX,xmovies.com,GreatFireWall
 HOST-SUFFIX,xn--11xs86f.icu,GreatFireWall
 HOST-SUFFIX,xn--4gq171p.com,GreatFireWall
+HOST-SUFFIX,xn--9iqy04a7fi01l.com,GreatFireWall
 HOST-SUFFIX,xn--9pr62r24a.com,GreatFireWall
 HOST-SUFFIX,xn--czq75pvv1aj5c.org,GreatFireWall
 HOST-SUFFIX,xn--i2ru8q2qg.com,GreatFireWall
