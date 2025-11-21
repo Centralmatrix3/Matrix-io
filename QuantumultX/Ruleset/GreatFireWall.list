@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5953
+# 规则统计: 5955
 
 HOST-SUFFIX,000webhost.com,GreatFireWall
 HOST-SUFFIX,030buy.com,GreatFireWall
@@ -2311,6 +2311,7 @@ HOST-SUFFIX,gravatar.com,GreatFireWall
 HOST-SUFFIX,greasyfork.org,GreatFireWall
 HOST-SUFFIX,greatfire.org,GreatFireWall
 HOST-SUFFIX,greatfire.us7.list-manage.com,GreatFireWall
+HOST-SUFFIX,greatfirevpn.com,GreatFireWall
 HOST-SUFFIX,greatfirewall.biz,GreatFireWall
 HOST-SUFFIX,greatfirewallofchina.org,GreatFireWall
 HOST-SUFFIX,greatroc.org,GreatFireWall
@@ -5578,6 +5579,7 @@ HOST-SUFFIX,wikinews.org,GreatFireWall
 HOST-SUFFIX,wikipedia.com,GreatFireWall
 HOST-SUFFIX,wikipedia.org,GreatFireWall
 HOST-SUFFIX,wikisource.org,GreatFireWall
+HOST-SUFFIX,wikiunblocked.org,GreatFireWall
 HOST-SUFFIX,wikiversity.org,GreatFireWall
 HOST-SUFFIX,wikivoyage.org,GreatFireWall
 HOST-SUFFIX,wikiwand.com,GreatFireWall

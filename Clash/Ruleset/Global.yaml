@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7369
+# 规则统计: 7371
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -2795,6 +2795,7 @@ payload:
   - DOMAIN-SUFFIX,great-roc.org
   - DOMAIN-SUFFIX,greatfire.org
   - DOMAIN-SUFFIX,greatfire.us7.list-manage.com
+  - DOMAIN-SUFFIX,greatfirevpn.com
   - DOMAIN-SUFFIX,greatfirewall.biz
   - DOMAIN-SUFFIX,greatfirewallofchina.net
   - DOMAIN-SUFFIX,greatfirewallofchina.org
@@ -6808,6 +6809,7 @@ payload:
   - DOMAIN-SUFFIX,wikipedia.org
   - DOMAIN-SUFFIX,wikiquote.org
   - DOMAIN-SUFFIX,wikisource.org
+  - DOMAIN-SUFFIX,wikiunblocked.org
   - DOMAIN-SUFFIX,wikiversity.org
   - DOMAIN-SUFFIX,wikivoyage.org
   - DOMAIN-SUFFIX,wikiwand.com

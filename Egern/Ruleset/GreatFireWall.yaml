@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5953
+# 规则统计: 5955
 
 domain_suffix_set:
   - 000webhost.com
@@ -2312,6 +2312,7 @@ domain_suffix_set:
   - greasyfork.org
   - greatfire.org
   - greatfire.us7.list-manage.com
+  - greatfirevpn.com
   - greatfirewall.biz
   - greatfirewallofchina.org
   - greatroc.org
@@ -5579,6 +5580,7 @@ domain_suffix_set:
   - wikipedia.com
   - wikipedia.org
   - wikisource.org
+  - wikiunblocked.org
   - wikiversity.org
   - wikivoyage.org
   - wikiwand.com

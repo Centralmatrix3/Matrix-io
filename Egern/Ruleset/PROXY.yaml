@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26193
+# 规则统计: 26196
 
 domain_set:
   - 1password.drift.click
@@ -840,6 +840,7 @@ domain_suffix_set:
   - 21naturals.com
   - 21sextury.com
   - 21vv.cc
+  - 22112211.xyz
   - 228.net.tw
   - 233abc.com
   - 2371tom.com
@@ -17125,7 +17126,9 @@ domain_suffix_set:
   - nobel.se
   - nobelprize.org
   - nochubank.or.jp
+  - nodeimage.com
   - nodejs.org
+  - nodequality.com
   - nodeseek.com
   - nodesource.com
   - noisullifb.com

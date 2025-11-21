@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26193
+# 规则统计: 26196
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -838,6 +838,7 @@ HOST-SUFFIX,21hub.com,PROXY
 HOST-SUFFIX,21naturals.com,PROXY
 HOST-SUFFIX,21sextury.com,PROXY
 HOST-SUFFIX,21vv.cc,PROXY
+HOST-SUFFIX,22112211.xyz,PROXY
 HOST-SUFFIX,228.net.tw,PROXY
 HOST-SUFFIX,233abc.com,PROXY
 HOST-SUFFIX,2371tom.com,PROXY
@@ -17123,7 +17124,9 @@ HOST-SUFFIX,no-ip.org,PROXY
 HOST-SUFFIX,nobel.se,PROXY
 HOST-SUFFIX,nobelprize.org,PROXY
 HOST-SUFFIX,nochubank.or.jp,PROXY
+HOST-SUFFIX,nodeimage.com,PROXY
 HOST-SUFFIX,nodejs.org,PROXY
+HOST-SUFFIX,nodequality.com,PROXY
 HOST-SUFFIX,nodeseek.com,PROXY
 HOST-SUFFIX,nodesource.com,PROXY
 HOST-SUFFIX,noisullifb.com,PROXY

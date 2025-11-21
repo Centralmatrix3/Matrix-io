@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7369
+# 规则统计: 7371
 
 HOST,cloud.oracle.com,Global
 HOST,steambroadcast.akamaized.net,Global
@@ -2794,6 +2794,7 @@ HOST-SUFFIX,great-firewall.com,Global
 HOST-SUFFIX,great-roc.org,Global
 HOST-SUFFIX,greatfire.org,Global
 HOST-SUFFIX,greatfire.us7.list-manage.com,Global
+HOST-SUFFIX,greatfirevpn.com,Global
 HOST-SUFFIX,greatfirewall.biz,Global
 HOST-SUFFIX,greatfirewallofchina.net,Global
 HOST-SUFFIX,greatfirewallofchina.org,Global
@@ -6807,6 +6808,7 @@ HOST-SUFFIX,wikipedia.com,Global
 HOST-SUFFIX,wikipedia.org,Global
 HOST-SUFFIX,wikiquote.org,Global
 HOST-SUFFIX,wikisource.org,Global
+HOST-SUFFIX,wikiunblocked.org,Global
 HOST-SUFFIX,wikiversity.org,Global
 HOST-SUFFIX,wikivoyage.org,Global
 HOST-SUFFIX,wikiwand.com,Global
