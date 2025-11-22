@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5955
+# 规则统计: 5954
 
 payload:
   - '+.000webhost.com'
@@ -3151,7 +3151,6 @@ payload:
   - '+.lyfhk.net'
   - '+.lzjscript.com'
   - '+.lzmtnews.org'
-  - '+.m-team.cc'
   - '+.m.hkgalden.com'
   - '+.m.me'
   - '+.m.moegirl.org'
