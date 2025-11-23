@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7371
+# 规则统计: 7373
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -4239,6 +4239,7 @@ payload:
   - DOMAIN-SUFFIX,nalandawest.org
   - DOMAIN-SUFFIX,namgyal.org
   - DOMAIN-SUFFIX,namgyalmonastery.org
+  - DOMAIN-SUFFIX,namu.wiki
   - DOMAIN-SUFFIX,nanopool.org
   - DOMAIN-SUFFIX,nanyang.com
   - DOMAIN-SUFFIX,nanyangpost.com
@@ -4756,6 +4757,7 @@ payload:
   - DOMAIN-SUFFIX,picgo.net
   - DOMAIN-SUFFIX,picidae.net
   - DOMAIN-SUFFIX,picjs.xyz
+  - DOMAIN-SUFFIX,picsart.com
   - DOMAIN-SUFFIX,picturedip.com
   - DOMAIN-SUFFIX,picturesocial.com
   - DOMAIN-SUFFIX,picuki.com

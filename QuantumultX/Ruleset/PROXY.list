@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26195
+# 规则统计: 26207
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -1378,6 +1378,7 @@ HOST-SUFFIX,addtoany.com,PROXY
 HOST-SUFFIX,addyoutube.com,PROXY
 HOST-SUFFIX,adelaidebbs.com,PROXY
 HOST-SUFFIX,adelaidenow.com.au,PROXY
+HOST-SUFFIX,adfox.ru,PROXY
 HOST-SUFFIX,adgoogle.net,PROXY
 HOST-SUFFIX,adguard-dns.com,PROXY
 HOST-SUFFIX,adguard-dns.io,PROXY
@@ -1412,6 +1413,7 @@ HOST-SUFFIX,adidas.ru,PROXY
 HOST-SUFFIX,adidas.se,PROXY
 HOST-SUFFIX,adinst.com,PROXY
 HOST-SUFFIX,admeld.com,PROXY
+HOST-SUFFIX,admetrica.ru,PROXY
 HOST-SUFFIX,admob-cn.com,PROXY
 HOST-SUFFIX,admob.com,PROXY
 HOST-SUFFIX,adobe-aemassets-value.com,PROXY
@@ -11418,6 +11420,7 @@ HOST-SUFFIX,heywire.com,PROXY
 HOST-SUFFIX,heyzo.com,PROXY
 HOST-SUFFIX,hf-iphone.com,PROXY
 HOST-SUFFIX,hf.co,PROXY
+HOST-SUFFIX,hf.space,PROXY
 HOST-SUFFIX,hg.cool,PROXY
 HOST-SUFFIX,hgamer.pro,PROXY
 HOST-SUFFIX,hgseav.com,PROXY
@@ -14003,6 +14006,7 @@ HOST-SUFFIX,kinkypeepz.com,PROXY
 HOST-SUFFIX,kinmen.org.tw,PROXY
 HOST-SUFFIX,kinmen.travel,PROXY
 HOST-SUFFIX,kinokuniya.com,PROXY
+HOST-SUFFIX,kinopoisk-ru.clstorage.net,PROXY
 HOST-SUFFIX,kinopoisk.ru,PROXY
 HOST-SUFFIX,kir.jp,PROXY
 HOST-SUFFIX,kir2kos.net,PROXY
@@ -16512,6 +16516,7 @@ HOST-SUFFIX,namethatporn.com,PROXY
 HOST-SUFFIX,namethatpornad.com,PROXY
 HOST-SUFFIX,namgyal.org,PROXY
 HOST-SUFFIX,namgyalmonastery.org,PROXY
+HOST-SUFFIX,namu.wiki,PROXY
 HOST-SUFFIX,nan-net.com,PROXY
 HOST-SUFFIX,nanopool.org,PROXY
 HOST-SUFFIX,nantobank.co.jp,PROXY
@@ -18328,6 +18333,7 @@ HOST-SUFFIX,picnik.com,PROXY
 HOST-SUFFIX,picpost.com,PROXY
 HOST-SUFFIX,pics.ee,PROXY
 HOST-SUFFIX,pics.vc,PROXY
+HOST-SUFFIX,picsart.com,PROXY
 HOST-SUFFIX,picsee.co,PROXY
 HOST-SUFFIX,picsee.pro,PROXY
 HOST-SUFFIX,pictoa.com,PROXY
@@ -24395,6 +24401,8 @@ HOST-SUFFIX,websitepulse.com,PROXY
 HOST-SUFFIX,webtoons.com,PROXY
 HOST-SUFFIX,webtoonscorp.com,PROXY
 HOST-SUFFIX,webtype.com,PROXY
+HOST-SUFFIX,webvisor.com,PROXY
+HOST-SUFFIX,webvisor.org,PROXY
 HOST-SUFFIX,webwarper.net,PROXY
 HOST-SUFFIX,webworkerdaily.com,PROXY
 HOST-SUFFIX,wechatlawsuit.com,PROXY
@@ -25389,6 +25397,7 @@ HOST-SUFFIX,ya.ru,PROXY
 HOST-SUFFIX,yaddal.tv,PROXY
 HOST-SUFFIX,yadi.sk,PROXY
 HOST-SUFFIX,yadori.club,PROXY
+HOST-SUFFIX,yads.tech,PROXY
 HOST-SUFFIX,yaeby.info,PROXY
 HOST-SUFFIX,yaeby.pro,PROXY
 HOST-SUFFIX,yahoo,PROXY
@@ -25562,6 +25571,7 @@ HOST-SUFFIX,yande.re,PROXY
 HOST-SUFFIX,yandex,PROXY
 HOST-SUFFIX,yandex-bank.net,PROXY
 HOST-SUFFIX,yandex-images.clstorage.net,PROXY
+HOST-SUFFIX,yandex-team.ru,PROXY
 HOST-SUFFIX,yandex.aero,PROXY
 HOST-SUFFIX,yandex.az,PROXY
 HOST-SUFFIX,yandex.by,PROXY
@@ -25597,6 +25607,7 @@ HOST-SUFFIX,yandex.uz,PROXY
 HOST-SUFFIX,yandexadexchange.net,PROXY
 HOST-SUFFIX,yandexcloud.net,PROXY
 HOST-SUFFIX,yandexcom.net,PROXY
+HOST-SUFFIX,yandexmetrica.com,PROXY
 HOST-SUFFIX,yandexwebcache.org,PROXY
 HOST-SUFFIX,yanghengjun.com,PROXY
 HOST-SUFFIX,yangzhi.org,PROXY
@@ -25612,6 +25623,7 @@ HOST-SUFFIX,yarininsuyu.com,PROXY
 HOST-SUFFIX,yarnpkg.com,PROXY
 HOST-SUFFIX,yasarang.net,PROXY
 HOST-SUFFIX,yasni.co.uk,PROXY
+HOST-SUFFIX,yastat.net,PROXY
 HOST-SUFFIX,yastatic.net,PROXY
 HOST-SUFFIX,yasukuni.or.jp,PROXY
 HOST-SUFFIX,yavtube.com,PROXY

@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5954
+# 规则统计: 5956
 
 payload:
   - '+.000webhost.com'
@@ -3473,6 +3473,7 @@ payload:
   - '+.nalandawest.org'
   - '+.namgyal.org'
   - '+.namgyalmonastery.org'
+  - '+.namu.wiki'
   - '+.nanopool.org'
   - '+.nanyang.com'
   - '+.nanyangpost.com'
@@ -3897,6 +3898,7 @@ payload:
   - '+.picacomiccn.com'
   - '+.picasaweb.com'
   - '+.picidae.net'
+  - '+.picsart.com'
   - '+.picturedip.com'
   - '+.picturesocial.com'
   - '+.picuki.com'

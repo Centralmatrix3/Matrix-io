@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26195
+# 规则统计: 26207
 
 domain_set:
   - 1password.drift.click
@@ -1380,6 +1380,7 @@ domain_suffix_set:
   - addyoutube.com
   - adelaidebbs.com
   - adelaidenow.com.au
+  - adfox.ru
   - adgoogle.net
   - adguard-dns.com
   - adguard-dns.io
@@ -1414,6 +1415,7 @@ domain_suffix_set:
   - adidas.se
   - adinst.com
   - admeld.com
+  - admetrica.ru
   - admob-cn.com
   - admob.com
   - adobe-aemassets-value.com
@@ -11420,6 +11422,7 @@ domain_suffix_set:
   - heyzo.com
   - hf-iphone.com
   - hf.co
+  - hf.space
   - hg.cool
   - hgamer.pro
   - hgseav.com
@@ -14005,6 +14008,7 @@ domain_suffix_set:
   - kinmen.org.tw
   - kinmen.travel
   - kinokuniya.com
+  - kinopoisk-ru.clstorage.net
   - kinopoisk.ru
   - kir.jp
   - kir2kos.net
@@ -16514,6 +16518,7 @@ domain_suffix_set:
   - namethatpornad.com
   - namgyal.org
   - namgyalmonastery.org
+  - namu.wiki
   - nan-net.com
   - nanopool.org
   - nantobank.co.jp
@@ -18330,6 +18335,7 @@ domain_suffix_set:
   - picpost.com
   - pics.ee
   - pics.vc
+  - picsart.com
   - picsee.co
   - picsee.pro
   - pictoa.com
@@ -24397,6 +24403,8 @@ domain_suffix_set:
   - webtoons.com
   - webtoonscorp.com
   - webtype.com
+  - webvisor.com
+  - webvisor.org
   - webwarper.net
   - webworkerdaily.com
   - wechatlawsuit.com
@@ -25391,6 +25399,7 @@ domain_suffix_set:
   - yaddal.tv
   - yadi.sk
   - yadori.club
+  - yads.tech
   - yaeby.info
   - yaeby.pro
   - yahoo
@@ -25564,6 +25573,7 @@ domain_suffix_set:
   - yandex
   - yandex-bank.net
   - yandex-images.clstorage.net
+  - yandex-team.ru
   - yandex.aero
   - yandex.az
   - yandex.by
@@ -25599,6 +25609,7 @@ domain_suffix_set:
   - yandexadexchange.net
   - yandexcloud.net
   - yandexcom.net
+  - yandexmetrica.com
   - yandexwebcache.org
   - yanghengjun.com
   - yangzhi.org
@@ -25614,6 +25625,7 @@ domain_suffix_set:
   - yarnpkg.com
   - yasarang.net
   - yasni.co.uk
+  - yastat.net
   - yastatic.net
   - yasukuni.or.jp
   - yavtube.com
