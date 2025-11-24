@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 32397
+# 规则统计: 32409
 
 no_resolve: true
 domain_set:
@@ -1000,6 +1000,7 @@ domain_suffix_set:
   - adelaidebbs.com
   - adelaidenow.com.au
   - adeptt.ac.uk
+  - adfox.ru
   - adgoogle.net
   - adguard-dns.com
   - adguard-dns.io
@@ -1036,6 +1037,7 @@ domain_suffix_set:
   - adlib.ac.uk
   - adls.ac.uk
   - admeld.com
+  - admetrica.ru
   - admob-cn.com
   - adobe-aemassets-value.com
   - adobe-audience-finder.com
@@ -13462,6 +13464,7 @@ domain_suffix_set:
   - heyzo.com
   - hf-iphone.com
   - hf.co
+  - hf.space
   - hfaes.ac.uk
   - hfals.ac.uk
   - hfma.ac.uk
@@ -16495,6 +16498,7 @@ domain_suffix_set:
   - kinmen.org.tw
   - kinmen.travel
   - kinokuniya.com
+  - kinopoisk-ru.clstorage.net
   - kinopoisk.ru
   - kir.jp
   - kir2kos.net
@@ -19751,6 +19755,7 @@ domain_suffix_set:
   - namgyalmonastery.org
   - namsisi.com
   - namss.ac.uk
+  - namu.wiki
   - nan-net.com
   - nanocmos.ac.uk
   - nanonamad.com
@@ -22228,6 +22233,7 @@ domain_suffix_set:
   - picpost.com
   - pics.ee
   - pics.vc
+  - picsart.com
   - picsee.co
   - picsee.pro
   - pictoa.com
@@ -30168,6 +30174,8 @@ domain_suffix_set:
   - webtoons.com
   - webtoonscorp.com
   - webtype.com
+  - webvisor.com
+  - webvisor.org
   - webwarper.net
   - webworkerdaily.com
   - wechatlawsuit.com
@@ -31335,6 +31343,7 @@ domain_suffix_set:
   - yaddal.tv
   - yadi.sk
   - yadori.club
+  - yads.tech
   - yaeby.info
   - yaeby.pro
   - yahoo-news.com.hk
@@ -31507,6 +31516,7 @@ domain_suffix_set:
   - yande.re
   - yandex-bank.net
   - yandex-images.clstorage.net
+  - yandex-team.ru
   - yandex.aero
   - yandex.az
   - yandex.by
@@ -31541,6 +31551,7 @@ domain_suffix_set:
   - yandexadexchange.net
   - yandexcloud.net
   - yandexcom.net
+  - yandexmetrica.com
   - yandexwebcache.org
   - yanghengjun.com
   - yangjianli.com
@@ -31556,6 +31567,7 @@ domain_suffix_set:
   - yarnpkg.com
   - yasarang.net
   - yasni.co.uk
+  - yastat.net
   - yastatic.net
   - yasukuni.or.jp
   - yatong.info
