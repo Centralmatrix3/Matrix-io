@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26209
+# 规则统计: 26204
 
 domain_set:
   - 1password.drift.click
@@ -2177,8 +2177,8 @@ domain_suffix_set:
   - anchor.fm
   - anchorfree.com
   - ancsconf.org
-  - and
   - andfaraway.net
+  - android
   - android-x86.org
   - android.com
   - androidapksfree.com
@@ -5509,7 +5509,6 @@ domain_suffix_set:
   - cbc.ca
   - cbi.ir
   - cbm.com.mm
-  - cbs
   - cbs.com
   - cbs.ntu.edu.tw
   - cbsaavideo.com
@@ -15108,7 +15107,6 @@ domain_suffix_set:
   - mcaf.ee
   - mcafee.com
   - mcb.com.mm
-  - mcd
   - mcd-holdings.co.jp
   - mcd.com
   - mcdelivery.co.id
@@ -15121,7 +15119,6 @@ domain_suffix_set:
   - mcdelivery.com.tw
   - mcdindia.com
   - mcdindonesia.com
-  - mcdonalds
   - mcdonalds-online.com
   - mcdonalds.be
   - mcdonalds.ca
@@ -20651,7 +20648,6 @@ domain_suffix_set:
   - shotwithgeforce.com
   - showhaotu.com
   - shownote.com
-  - showtime
   - showtime.com
   - showtime.jp
   - showtimeanytime.com
@@ -22142,7 +22138,6 @@ domain_suffix_set:
   - thegithubshop.com
   - thegly.com
   - thegooglestore.com
-  - theguardian
   - theguardian.com
   - theguardiandns.com
   - thehabibshow.com

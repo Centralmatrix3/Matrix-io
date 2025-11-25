@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26209
+# 规则统计: 26204
 
 payload:
   - '1password.drift.click'
@@ -2176,8 +2176,8 @@ payload:
   - '+.anchor.fm'
   - '+.anchorfree.com'
   - '+.ancsconf.org'
-  - '+.and'
   - '+.andfaraway.net'
+  - '+.android'
   - '+.android-x86.org'
   - '+.android.com'
   - '+.androidapksfree.com'
@@ -5508,7 +5508,6 @@ payload:
   - '+.cbc.ca'
   - '+.cbi.ir'
   - '+.cbm.com.mm'
-  - '+.cbs'
   - '+.cbs.com'
   - '+.cbs.ntu.edu.tw'
   - '+.cbsaavideo.com'
@@ -15107,7 +15106,6 @@ payload:
   - '+.mcaf.ee'
   - '+.mcafee.com'
   - '+.mcb.com.mm'
-  - '+.mcd'
   - '+.mcd-holdings.co.jp'
   - '+.mcd.com'
   - '+.mcdelivery.co.id'
@@ -15120,7 +15118,6 @@ payload:
   - '+.mcdelivery.com.tw'
   - '+.mcdindia.com'
   - '+.mcdindonesia.com'
-  - '+.mcdonalds'
   - '+.mcdonalds-online.com'
   - '+.mcdonalds.be'
   - '+.mcdonalds.ca'
@@ -20650,7 +20647,6 @@ payload:
   - '+.shotwithgeforce.com'
   - '+.showhaotu.com'
   - '+.shownote.com'
-  - '+.showtime'
   - '+.showtime.com'
   - '+.showtime.jp'
   - '+.showtimeanytime.com'
@@ -22141,7 +22137,6 @@ payload:
   - '+.thegithubshop.com'
   - '+.thegly.com'
   - '+.thegooglestore.com'
-  - '+.theguardian'
   - '+.theguardian.com'
   - '+.theguardiandns.com'
   - '+.thehabibshow.com'

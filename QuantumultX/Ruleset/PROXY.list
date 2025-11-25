@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26209
+# 规则统计: 26204
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -2175,8 +2175,8 @@ HOST-SUFFIX,ancensored.com,PROXY
 HOST-SUFFIX,anchor.fm,PROXY
 HOST-SUFFIX,anchorfree.com,PROXY
 HOST-SUFFIX,ancsconf.org,PROXY
-HOST-SUFFIX,and,PROXY
 HOST-SUFFIX,andfaraway.net,PROXY
+HOST-SUFFIX,android,PROXY
 HOST-SUFFIX,android-x86.org,PROXY
 HOST-SUFFIX,android.com,PROXY
 HOST-SUFFIX,androidapksfree.com,PROXY
@@ -5507,7 +5507,6 @@ HOST-SUFFIX,cbbank.com.mm,PROXY
 HOST-SUFFIX,cbc.ca,PROXY
 HOST-SUFFIX,cbi.ir,PROXY
 HOST-SUFFIX,cbm.com.mm,PROXY
-HOST-SUFFIX,cbs,PROXY
 HOST-SUFFIX,cbs.com,PROXY
 HOST-SUFFIX,cbs.ntu.edu.tw,PROXY
 HOST-SUFFIX,cbsaavideo.com,PROXY
@@ -15106,7 +15105,6 @@ HOST-SUFFIX,mcadforums.com,PROXY
 HOST-SUFFIX,mcaf.ee,PROXY
 HOST-SUFFIX,mcafee.com,PROXY
 HOST-SUFFIX,mcb.com.mm,PROXY
-HOST-SUFFIX,mcd,PROXY
 HOST-SUFFIX,mcd-holdings.co.jp,PROXY
 HOST-SUFFIX,mcd.com,PROXY
 HOST-SUFFIX,mcdelivery.co.id,PROXY
@@ -15119,7 +15117,6 @@ HOST-SUFFIX,mcdelivery.com.sg,PROXY
 HOST-SUFFIX,mcdelivery.com.tw,PROXY
 HOST-SUFFIX,mcdindia.com,PROXY
 HOST-SUFFIX,mcdindonesia.com,PROXY
-HOST-SUFFIX,mcdonalds,PROXY
 HOST-SUFFIX,mcdonalds-online.com,PROXY
 HOST-SUFFIX,mcdonalds.be,PROXY
 HOST-SUFFIX,mcdonalds.ca,PROXY
@@ -20649,7 +20646,6 @@ HOST-SUFFIX,shotgunvfx.com,PROXY
 HOST-SUFFIX,shotwithgeforce.com,PROXY
 HOST-SUFFIX,showhaotu.com,PROXY
 HOST-SUFFIX,shownote.com,PROXY
-HOST-SUFFIX,showtime,PROXY
 HOST-SUFFIX,showtime.com,PROXY
 HOST-SUFFIX,showtime.jp,PROXY
 HOST-SUFFIX,showtimeanytime.com,PROXY
@@ -22140,7 +22136,6 @@ HOST-SUFFIX,thegioitinhoc.vn,PROXY
 HOST-SUFFIX,thegithubshop.com,PROXY
 HOST-SUFFIX,thegly.com,PROXY
 HOST-SUFFIX,thegooglestore.com,PROXY
-HOST-SUFFIX,theguardian,PROXY
 HOST-SUFFIX,theguardian.com,PROXY
 HOST-SUFFIX,theguardiandns.com,PROXY
 HOST-SUFFIX,thehabibshow.com,PROXY
