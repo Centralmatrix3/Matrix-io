@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26204
+# 规则统计: 26201
 
 domain_set:
   - 1password.drift.click
@@ -4086,7 +4086,6 @@ domain_suffix_set:
   - bing.com
   - bing.net
   - bing123.com
-  - bingads.com
   - bingagencyawards.com
   - bingapis.com
   - bingapistatistics.com
@@ -8723,7 +8722,6 @@ domain_suffix_set:
   - facebook30.net
   - facebook30.org
   - facebook4business.com
-  - facebookads.com
   - facebookadvertisingsecrets.com
   - facebookappcenter.info
   - facebookappcenter.net
@@ -15374,7 +15372,6 @@ domain_suffix_set:
   - microsoft365.com
   - microsoftaccountguard.com
   - microsoftadc.com
-  - microsoftads.com
   - microsoftadvertising.com
   - microsoftadvertisingregionalawards.com
   - microsoftaffiliates.com
@@ -16124,7 +16121,6 @@ domain_suffix_set:
   - ms365surfaceoffer.com
   - ms4dre.com
   - msa-it.org
-  - msads.net
   - msauth.net
   - mschallenge2018.com
   - msdn.com
@@ -20240,6 +20236,7 @@ domain_suffix_set:
   - sensualgirls.org
   - sensualmothers.com
   - sensueel.net
+  - sentry-cdn.com
   - sentry.io
   - senzuritv.net
   - seqing.one

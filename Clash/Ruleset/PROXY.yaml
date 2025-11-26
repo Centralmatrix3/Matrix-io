@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26204
+# 规则统计: 26201
 
 payload:
   - '1password.drift.click'
@@ -4085,7 +4085,6 @@ payload:
   - '+.bing.com'
   - '+.bing.net'
   - '+.bing123.com'
-  - '+.bingads.com'
   - '+.bingagencyawards.com'
   - '+.bingapis.com'
   - '+.bingapistatistics.com'
@@ -8722,7 +8721,6 @@ payload:
   - '+.facebook30.net'
   - '+.facebook30.org'
   - '+.facebook4business.com'
-  - '+.facebookads.com'
   - '+.facebookadvertisingsecrets.com'
   - '+.facebookappcenter.info'
   - '+.facebookappcenter.net'
@@ -15373,7 +15371,6 @@ payload:
   - '+.microsoft365.com'
   - '+.microsoftaccountguard.com'
   - '+.microsoftadc.com'
-  - '+.microsoftads.com'
   - '+.microsoftadvertising.com'
   - '+.microsoftadvertisingregionalawards.com'
   - '+.microsoftaffiliates.com'
@@ -16123,7 +16120,6 @@ payload:
   - '+.ms365surfaceoffer.com'
   - '+.ms4dre.com'
   - '+.msa-it.org'
-  - '+.msads.net'
   - '+.msauth.net'
   - '+.mschallenge2018.com'
   - '+.msdn.com'
@@ -20239,6 +20235,7 @@ payload:
   - '+.sensualgirls.org'
   - '+.sensualmothers.com'
   - '+.sensueel.net'
+  - '+.sentry-cdn.com'
   - '+.sentry.io'
   - '+.senzuritv.net'
   - '+.seqing.one'

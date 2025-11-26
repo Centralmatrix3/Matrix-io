@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 32409
+# 规则统计: 32411
 
 payload:
   - DOMAIN,1password.drift.click
@@ -1276,6 +1276,7 @@ payload:
   - DOMAIN-SUFFIX,ahvideosexe.com
   - DOMAIN-SUFFIX,ahxxx.club
   - DOMAIN-SUFFIX,ai-kan.net
+  - DOMAIN-SUFFIX,ai-sdk.dev
   - DOMAIN-SUFFIX,ai-wen.net
   - DOMAIN-SUFFIX,ai.dev
   - DOMAIN-SUFFIX,ai3sd.ac.uk
@@ -21494,6 +21495,7 @@ payload:
   - DOMAIN-SUFFIX,origin.tv
   - DOMAIN-SUFFIX,originalhulu.com
   - DOMAIN-SUFFIX,originalindianporn.com
+  - DOMAIN-SUFFIX,originlab.com
   - DOMAIN-SUFFIX,orithegame.com
   - DOMAIN-SUFFIX,orkut.com
   - DOMAIN-SUFFIX,orl.ly

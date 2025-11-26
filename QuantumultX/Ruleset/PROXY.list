@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26204
+# 规则统计: 26201
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -4084,7 +4084,6 @@ HOST-SUFFIX,bing,PROXY
 HOST-SUFFIX,bing.com,PROXY
 HOST-SUFFIX,bing.net,PROXY
 HOST-SUFFIX,bing123.com,PROXY
-HOST-SUFFIX,bingads.com,PROXY
 HOST-SUFFIX,bingagencyawards.com,PROXY
 HOST-SUFFIX,bingapis.com,PROXY
 HOST-SUFFIX,bingapistatistics.com,PROXY
@@ -8721,7 +8720,6 @@ HOST-SUFFIX,facebook30.com,PROXY
 HOST-SUFFIX,facebook30.net,PROXY
 HOST-SUFFIX,facebook30.org,PROXY
 HOST-SUFFIX,facebook4business.com,PROXY
-HOST-SUFFIX,facebookads.com,PROXY
 HOST-SUFFIX,facebookadvertisingsecrets.com,PROXY
 HOST-SUFFIX,facebookappcenter.info,PROXY
 HOST-SUFFIX,facebookappcenter.net,PROXY
@@ -15372,7 +15370,6 @@ HOST-SUFFIX,microsoft.vn,PROXY
 HOST-SUFFIX,microsoft365.com,PROXY
 HOST-SUFFIX,microsoftaccountguard.com,PROXY
 HOST-SUFFIX,microsoftadc.com,PROXY
-HOST-SUFFIX,microsoftads.com,PROXY
 HOST-SUFFIX,microsoftadvertising.com,PROXY
 HOST-SUFFIX,microsoftadvertisingregionalawards.com,PROXY
 HOST-SUFFIX,microsoftaffiliates.com,PROXY
@@ -16122,7 +16119,6 @@ HOST-SUFFIX,ms-studiosmedia.com,PROXY
 HOST-SUFFIX,ms365surfaceoffer.com,PROXY
 HOST-SUFFIX,ms4dre.com,PROXY
 HOST-SUFFIX,msa-it.org,PROXY
-HOST-SUFFIX,msads.net,PROXY
 HOST-SUFFIX,msauth.net,PROXY
 HOST-SUFFIX,mschallenge2018.com,PROXY
 HOST-SUFFIX,msdn.com,PROXY
@@ -20238,6 +20234,7 @@ HOST-SUFFIX,sensorynetworks.com,PROXY
 HOST-SUFFIX,sensualgirls.org,PROXY
 HOST-SUFFIX,sensualmothers.com,PROXY
 HOST-SUFFIX,sensueel.net,PROXY
+HOST-SUFFIX,sentry-cdn.com,PROXY
 HOST-SUFFIX,sentry.io,PROXY
 HOST-SUFFIX,senzuritv.net,PROXY
 HOST-SUFFIX,seqing.one,PROXY
