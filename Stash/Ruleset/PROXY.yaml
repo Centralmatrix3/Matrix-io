@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26201
+# 规则统计: 26203
 
 payload:
   - '1password.drift.click'
@@ -1776,6 +1776,7 @@ payload:
   - '+.akinator.com'
   - '+.akita-bank.co.jp'
   - '+.akow.org'
+  - '+.akstat.io'
   - '+.akthelp.com'
   - '+.al-islam.com'
   - '+.alabout.com'
@@ -25597,6 +25598,7 @@ payload:
   - '+.yandex.sx'
   - '+.yandex.tj'
   - '+.yandex.tm'
+  - '+.yandex.tr'
   - '+.yandex.ua'
   - '+.yandex.uz'
   - '+.yandexadexchange.net'
