@@ -1,5 +1,5 @@
 # 规则名称: ChinaMax
-# 规则统计: 137561
+# 规则统计: 137572
 
 DOMAIN,1-fss24-s0.streamhoster.com
 DOMAIN,14033.live.streamtheworld.com
@@ -25861,6 +25861,7 @@ DOMAIN-SUFFIX,cqshulan.com
 DOMAIN-SUFFIX,cqshyzx.com
 DOMAIN-SUFFIX,cqsifang.com
 DOMAIN-SUFFIX,cqsj365.com
+DOMAIN-SUFFIX,cqsjb.com
 DOMAIN-SUFFIX,cqsjbc.com
 DOMAIN-SUFFIX,cqsjky.com
 DOMAIN-SUFFIX,cqsjnzx.com
@@ -103311,6 +103312,7 @@ DOMAIN-SUFFIX,xhjt.com
 DOMAIN-SUFFIX,xhkt.tv
 DOMAIN-SUFFIX,xhlaowu.com
 DOMAIN-SUFFIX,xhlcsl.com
+DOMAIN-SUFFIX,xhlsgs.com
 DOMAIN-SUFFIX,xhma.com
 DOMAIN-SUFFIX,xhmedia.com
 DOMAIN-SUFFIX,xhmwxy.com
@@ -104835,6 +104837,7 @@ DOMAIN-SUFFIX,xinwengood.com
 DOMAIN-SUFFIX,xinwenku.com
 DOMAIN-SUFFIX,xinwenlianbo.tv
 DOMAIN-SUFFIX,xinwo.com
+DOMAIN-SUFFIX,xinwuji.com
 DOMAIN-SUFFIX,xinwulan.com
 DOMAIN-SUFFIX,xinxe.com
 DOMAIN-SUFFIX,xinxi28.com
@@ -109911,6 +109914,7 @@ DOMAIN-SUFFIX,yoka.com
 DOMAIN-SUFFIX,yokacdn.com
 DOMAIN-SUFFIX,yokagames.com
 DOMAIN-SUFFIX,yokaimg.com
+DOMAIN-SUFFIX,yokaverse.com
 DOMAIN-SUFFIX,yokechina.com
 DOMAIN-SUFFIX,yokmob.com
 DOMAIN-SUFFIX,yokong.com
@@ -119242,6 +119246,7 @@ IP-CIDR,103.40.128.0/22,no-resolve
 IP-CIDR,103.40.156.0/22,no-resolve
 IP-CIDR,103.40.16.0/20,no-resolve
 IP-CIDR,103.40.164.0/22,no-resolve
+IP-CIDR,103.40.173.0/24,no-resolve
 IP-CIDR,103.40.174.0/23,no-resolve
 IP-CIDR,103.40.192.0/22,no-resolve
 IP-CIDR,103.40.212.0/22,no-resolve
@@ -122397,7 +122402,6 @@ IP-CIDR,202.57.240.0/20,no-resolve
 IP-CIDR,202.58.0.0/24,no-resolve
 IP-CIDR,202.58.104.0/22,no-resolve
 IP-CIDR,202.58.112.0/22,no-resolve
-IP-CIDR,202.58.122.0/24,no-resolve
 IP-CIDR,202.59.0.0/23,no-resolve
 IP-CIDR,202.59.212.0/22,no-resolve
 IP-CIDR,202.59.236.0/24,no-resolve
@@ -136019,6 +136023,7 @@ IP-CIDR6,2a05:dfc1:16ff::/48,no-resolve
 IP-CIDR6,2a05:dfc1:5efb:141::/64,no-resolve
 IP-CIDR6,2a05:e580:700::/40,no-resolve
 IP-CIDR6,2a06:1281:8000::/36,no-resolve
+IP-CIDR6,2a06:1284::/32,no-resolve
 IP-CIDR6,2a06:1287:3901:1::/64,no-resolve
 IP-CIDR6,2a06:1287:3910::/48,no-resolve
 IP-CIDR6,2a06:1287:3921::/48,no-resolve
@@ -136043,6 +136048,7 @@ IP-CIDR6,2a07:f480::/29,no-resolve
 IP-CIDR6,2a09:2700:2800::/40,no-resolve
 IP-CIDR6,2a09:2702:48::/48,no-resolve
 IP-CIDR6,2a09:4c0:0:30::/64,no-resolve
+IP-CIDR6,2a09:54c5::/32,no-resolve
 IP-CIDR6,2a09:54c6:3000::/36,no-resolve
 IP-CIDR6,2a09:54c6:b000::/36,no-resolve
 IP-CIDR6,2a09:54c6:c000::/36,no-resolve
@@ -137287,6 +137293,7 @@ IP-CIDR6,2a0f:1cc5:20::/44,no-resolve
 IP-CIDR6,2a0f:1cc5:600::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:f00::/46,no-resolve
 IP-CIDR6,2a0f:1cc5:f04::/47,no-resolve
+IP-CIDR6,2a0f:1cc5:f06::/48,no-resolve
 IP-CIDR6,2a0f:1cc6:b100::/48,no-resolve
 IP-CIDR6,2a0f:1cc6:b102::/47,no-resolve
 IP-CIDR6,2a0f:1cc6:b104::/48,no-resolve
@@ -137434,6 +137441,7 @@ IP-CIDR6,2a14:67c1:a081::/48,no-resolve
 IP-CIDR6,2a14:67c1:a100::/43,no-resolve
 IP-CIDR6,2a14:67c1:a125::/48,no-resolve
 IP-CIDR6,2a14:67c1:a126::/48,no-resolve
+IP-CIDR6,2a14:67c1:a128::/48,no-resolve
 IP-CIDR6,2a14:67c1:a144::/48,no-resolve
 IP-CIDR6,2a14:67c1:b000::/48,no-resolve
 IP-CIDR6,2a14:67c1:b065::/48,no-resolve
@@ -137468,6 +137476,8 @@ IP-CIDR6,2a14:67c1:b5a1::/48,no-resolve
 IP-CIDR6,2a14:67c1:c300::/40,no-resolve
 IP-CIDR6,2a14:7580:740::/44,no-resolve
 IP-CIDR6,2a14:7580:750::/47,no-resolve
+IP-CIDR6,2a14:7580:775::/48,no-resolve
+IP-CIDR6,2a14:7580:777::/48,no-resolve
 IP-CIDR6,2a14:7580:9200::/40,no-resolve
 IP-CIDR6,2a14:7580:9400::/39,no-resolve
 IP-CIDR6,2a14:7580:c1c::/48,no-resolve
@@ -137500,6 +137510,7 @@ IP-CIDR6,2a14:7581:bbb::/48,no-resolve
 IP-CIDR6,2a14:7581:bcd::/48,no-resolve
 IP-CIDR6,2a14:7581:bff::/48,no-resolve
 IP-CIDR6,2a14:7581:ffb::/48,no-resolve
+IP-CIDR6,2a14:7581:ffd::/48,no-resolve
 IP-CIDR6,2a14:7583:f201::/48,no-resolve
 IP-CIDR6,2a14:7583:f203::/48,no-resolve
 IP-CIDR6,2a14:7583:f204::/48,no-resolve
