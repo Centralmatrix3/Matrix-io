@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26219
+# 规则统计: 26222
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -254,6 +254,8 @@ HOST,notary-submissions-prod.s3-accelerate.amazonaws.com,PROXY
 HOST,notary-submissions-prod.s3.us-west-2.amazonaws.com,PROXY
 HOST,notify.ppy.sh,PROXY
 HOST,np-edge.itunes.apple.com,PROXY
+HOST,ntdofifreepc-tgc.cdn.hinet.net,PROXY
+HOST,ntdofifreevcpc-tgc.cdn.hinet.net,PROXY
 HOST,ntp-b.nist.gov,PROXY
 HOST,ntp-c.colorado.edu,PROXY
 HOST,ntp-d.nist.gov,PROXY
@@ -17500,6 +17502,7 @@ HOST-SUFFIX,offresspecialesbmw.ca,PROXY
 HOST-SUFFIX,offrezdesipods.com,PROXY
 HOST-SUFFIX,offworldindustries.com,PROXY
 HOST-SUFFIX,offworldindustries.net,PROXY
+HOST-SUFFIX,ofiii.com,PROXY
 HOST-SUFFIX,ofile.org,PROXY
 HOST-SUFFIX,ogakikyoritsu.co.jp,PROXY
 HOST-SUFFIX,ogameblog.com,PROXY

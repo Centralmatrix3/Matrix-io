@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26219
+# 规则统计: 26222
 
 domain_set:
   - 1password.drift.click
@@ -255,6 +255,8 @@ domain_set:
   - notary-submissions-prod.s3.us-west-2.amazonaws.com
   - notify.ppy.sh
   - np-edge.itunes.apple.com
+  - ntdofifreepc-tgc.cdn.hinet.net
+  - ntdofifreevcpc-tgc.cdn.hinet.net
   - ntp-b.nist.gov
   - ntp-c.colorado.edu
   - ntp-d.nist.gov
@@ -17502,6 +17504,7 @@ domain_suffix_set:
   - offrezdesipods.com
   - offworldindustries.com
   - offworldindustries.net
+  - ofiii.com
   - ofile.org
   - ogakikyoritsu.co.jp
   - ogameblog.com
