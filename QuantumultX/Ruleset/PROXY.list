@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26222
+# 规则统计: 26225
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -17532,6 +17532,8 @@ HOST-SUFFIX,okex.com,PROXY
 HOST-SUFFIX,okinawabank.co.jp,PROXY
 HOST-SUFFIX,okk.tw,PROXY
 HOST-SUFFIX,okkisokuho.com,PROXY
+HOST-SUFFIX,okko.sport,PROXY
+HOST-SUFFIX,okko.tv,PROXY
 HOST-SUFFIX,okpool.me,PROXY
 HOST-SUFFIX,okx-dns.com,PROXY
 HOST-SUFFIX,okx-dns1.com,PROXY
@@ -18502,6 +18504,7 @@ HOST-SUFFIX,player.fm,PROXY
 HOST-SUFFIX,playerjs.io,PROXY
 HOST-SUFFIX,playfab.com,PROXY
 HOST-SUFFIX,playfabapi.com,PROXY
+HOST-SUFFIX,playfamily.ru,PROXY
 HOST-SUFFIX,playforceone.com,PROXY
 HOST-SUFFIX,playhearthstone.com,PROXY
 HOST-SUFFIX,playmation.com,PROXY

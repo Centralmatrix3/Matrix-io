@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26222
+# 规则统计: 26225
 
 domain_set:
   - 1password.drift.click
@@ -17534,6 +17534,8 @@ domain_suffix_set:
   - okinawabank.co.jp
   - okk.tw
   - okkisokuho.com
+  - okko.sport
+  - okko.tv
   - okpool.me
   - okx-dns.com
   - okx-dns1.com
@@ -18504,6 +18506,7 @@ domain_suffix_set:
   - playerjs.io
   - playfab.com
   - playfabapi.com
+  - playfamily.ru
   - playforceone.com
   - playhearthstone.com
   - playmation.com

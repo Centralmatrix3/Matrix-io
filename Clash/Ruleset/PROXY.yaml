@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26222
+# 规则统计: 26225
 
 payload:
   - '1password.drift.click'
@@ -17533,6 +17533,8 @@ payload:
   - '+.okinawabank.co.jp'
   - '+.okk.tw'
   - '+.okkisokuho.com'
+  - '+.okko.sport'
+  - '+.okko.tv'
   - '+.okpool.me'
   - '+.okx-dns.com'
   - '+.okx-dns1.com'
@@ -18503,6 +18505,7 @@ payload:
   - '+.playerjs.io'
   - '+.playfab.com'
   - '+.playfabapi.com'
+  - '+.playfamily.ru'
   - '+.playforceone.com'
   - '+.playhearthstone.com'
   - '+.playmation.com'
