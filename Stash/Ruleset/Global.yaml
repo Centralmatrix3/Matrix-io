@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7373
+# 规则统计: 7374
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -7181,6 +7181,7 @@ payload:
   - DOMAIN-SUFFIX,zannel.com
   - DOMAIN-SUFFIX,zaobao.com
   - DOMAIN-SUFFIX,zaobao.com.sg
+  - DOMAIN-SUFFIX,zaochenbao.com
   - DOMAIN-SUFFIX,zaozon.com
   - DOMAIN-SUFFIX,zapto.org
   - DOMAIN-SUFFIX,zattoo.com

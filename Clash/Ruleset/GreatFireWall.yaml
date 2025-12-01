@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5956
+# 规则统计: 5957
 
 payload:
   - '+.000webhost.com'
@@ -5888,6 +5888,7 @@ payload:
   - '+.zalmos.com'
   - '+.zamimg.com'
   - '+.zaobao.com.sg'
+  - '+.zaochenbao.com'
   - '+.zapto.org'
   - '+.zattoo.com'
   - '+.zb.com'
