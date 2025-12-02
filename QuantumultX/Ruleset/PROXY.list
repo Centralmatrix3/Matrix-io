@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26228
+# 规则统计: 26241
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -1111,6 +1111,8 @@ HOST-SUFFIX,7mm.tv,PROXY
 HOST-SUFFIX,7mmtv.sx,PROXY
 HOST-SUFFIX,7mmtv.tv,PROXY
 HOST-SUFFIX,7tb.cc,PROXY
+HOST-SUFFIX,7tv.app,PROXY
+HOST-SUFFIX,7tv.io,PROXY
 HOST-SUFFIX,8-d.com,PROXY
 HOST-SUFFIX,8008206616.com,PROXY
 HOST-SUFFIX,8111y.top,PROXY
@@ -5416,6 +5418,7 @@ HOST-SUFFIX,canonfoundation.org,PROXY
 HOST-SUFFIX,canonical.com,PROXY
 HOST-SUFFIX,canonproprinters.com,PROXY
 HOST-SUFFIX,canva.com,PROXY
+HOST-SUFFIX,canvastatus.com,PROXY
 HOST-SUFFIX,canyu.org,PROXY
 HOST-SUFFIX,caobian.info,PROXY
 HOST-SUFFIX,caochangqing.com,PROXY
@@ -11027,6 +11030,8 @@ HOST-SUFFIX,h2porn.com,PROXY
 HOST-SUFFIX,h528.com,PROXY
 HOST-SUFFIX,h5dm.com,PROXY
 HOST-SUFFIX,h5galgame.me,PROXY
+HOST-SUFFIX,habr.com,PROXY
+HOST-SUFFIX,habrastorage.org,PROXY
 HOST-SUFFIX,hackday.com.au,PROXY
 HOST-SUFFIX,hacken.cc,PROXY
 HOST-SUFFIX,hacker.org,PROXY
@@ -15288,6 +15293,7 @@ HOST-SUFFIX,metabora.io,PROXY
 HOST-SUFFIX,metabrainz.org,PROXY
 HOST-SUFFIX,metacloud.com,PROXY
 HOST-SUFFIX,metacpan.org,PROXY
+HOST-SUFFIX,metacritic.com,PROXY
 HOST-SUFFIX,metacubex.one,PROXY
 HOST-SUFFIX,metafilter.com,PROXY
 HOST-SUFFIX,metalpha.finance,PROXY
@@ -19875,6 +19881,7 @@ HOST-SUFFIX,rssmeme.com,PROXY
 HOST-SUFFIX,rstatic.net,PROXY
 HOST-SUFFIX,rt.com,PROXY
 HOST-SUFFIX,rtalabel.org,PROXY
+HOST-SUFFIX,rtbcdn.ru,PROXY
 HOST-SUFFIX,rthk.hk,PROXY
 HOST-SUFFIX,rthk.org.hk,PROXY
 HOST-SUFFIX,rti.org.tw,PROXY
@@ -19925,6 +19932,7 @@ HOST-SUFFIX,rutracker.org,PROXY
 HOST-SUFFIX,rutrecker.net,PROXY
 HOST-SUFFIX,rutrk.org,PROXY
 HOST-SUFFIX,rutube.ru,PROXY
+HOST-SUFFIX,rutubelist.ru,PROXY
 HOST-SUFFIX,ruvideos.net,PROXY
 HOST-SUFFIX,rxhj.net,PROXY
 HOST-SUFFIX,ryokoyomiuri.co.jp,PROXY
@@ -22003,6 +22011,7 @@ HOST-SUFFIX,tellapart.com,PROXY
 HOST-SUFFIX,tellme.pw,PROXY
 HOST-SUFFIX,tellmewhygame.com,PROXY
 HOST-SUFFIX,temetube.xyz,PROXY
+HOST-SUFFIX,temp-mail.org,PROXY
 HOST-SUFFIX,temu.com,PROXY
 HOST-SUFFIX,tenacy.com,PROXY
 HOST-SUFFIX,tenbyfotolia.com,PROXY
@@ -23380,6 +23389,8 @@ HOST-SUFFIX,vaultify.com,PROXY
 HOST-SUFFIX,vaultify.info,PROXY
 HOST-SUFFIX,vaultify.net,PROXY
 HOST-SUFFIX,vaultproject.io,PROXY
+HOST-SUFFIX,vbcdn.com,PROXY
+HOST-SUFFIX,vbcdn.net,PROXY
 HOST-SUFFIX,vbejeyv.shop,PROXY
 HOST-SUFFIX,vcanedge.com,PROXY
 HOST-SUFFIX,vce.com,PROXY
@@ -23583,7 +23594,9 @@ HOST-SUFFIX,viacbs.com,PROXY
 HOST-SUFFIX,viacom.com,PROXY
 HOST-SUFFIX,viacomcbs.com,PROXY
 HOST-SUFFIX,viacomcbspressexpress.com,PROXY
+HOST-SUFFIX,viber.co,PROXY
 HOST-SUFFIX,viber.com,PROXY
+HOST-SUFFIX,viber.me,PROXY
 HOST-SUFFIX,vica.info,PROXY
 HOST-SUFFIX,victimsofcommunism.org,PROXY
 HOST-SUFFIX,vid.me,PROXY
