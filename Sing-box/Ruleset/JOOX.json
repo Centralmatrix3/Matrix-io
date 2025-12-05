@@ -1,0 +1,23 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "i-joox.com",
+        "joox.com",
+        "sanook.com"
+      ]
+    },
+    {
+      "domain_keyword": [
+        "jooxweb-api"
+      ]
+    },
+    {
+      "ip_cidr": [
+        "119.28.182.0/23",
+        "203.205.234.0/23"
+      ]
+    }
+  ]
+}
