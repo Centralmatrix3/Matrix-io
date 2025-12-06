@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26279
+# 规则统计: 26283
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -22469,6 +22469,7 @@ HOST-SUFFIX,tiffany-towers.com,PROXY
 HOST-SUFFIX,tig-ol-bitties.live,PROXY
 HOST-SUFFIX,tigervpn.com,PROXY
 HOST-SUFFIX,tik-tokapi.com,PROXY
+HOST-SUFFIX,tiktok-row.net,PROXY
 HOST-SUFFIX,tiktok.com,PROXY
 HOST-SUFFIX,tiktokcdn-eu.com,PROXY
 HOST-SUFFIX,tiktokcdn-us.com,PROXY
@@ -22476,6 +22477,8 @@ HOST-SUFFIX,tiktokcdn.com,PROXY
 HOST-SUFFIX,tiktokd.net,PROXY
 HOST-SUFFIX,tiktokd.org,PROXY
 HOST-SUFFIX,tiktokeu-cdn.com,PROXY
+HOST-SUFFIX,tiktokglobalshopv.com,PROXY
+HOST-SUFFIX,tiktokminis.us,PROXY
 HOST-SUFFIX,tiktokrow-cdn.com,PROXY
 HOST-SUFFIX,tiktokv.com,PROXY
 HOST-SUFFIX,tiktokv.eu,PROXY
@@ -26246,6 +26249,7 @@ HOST-SUFFIX,zophar.net,PROXY
 HOST-SUFFIX,zopim.com,PROXY
 HOST-SUFFIX,zorglist.com,PROXY
 HOST-SUFFIX,zorrovpn.com,PROXY
+HOST-SUFFIX,zotero.org,PROXY
 HOST-SUFFIX,zozotown.com,PROXY
 HOST-SUFFIX,zpn.im,PROXY
 HOST-SUFFIX,zqqpwz.com,PROXY

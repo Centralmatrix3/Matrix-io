@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26279
+# 规则统计: 26283
 
 domain_set:
   - 1password.drift.click
@@ -22471,6 +22471,7 @@ domain_suffix_set:
   - tig-ol-bitties.live
   - tigervpn.com
   - tik-tokapi.com
+  - tiktok-row.net
   - tiktok.com
   - tiktokcdn-eu.com
   - tiktokcdn-us.com
@@ -22478,6 +22479,8 @@ domain_suffix_set:
   - tiktokd.net
   - tiktokd.org
   - tiktokeu-cdn.com
+  - tiktokglobalshopv.com
+  - tiktokminis.us
   - tiktokrow-cdn.com
   - tiktokv.com
   - tiktokv.eu
@@ -26248,6 +26251,7 @@ domain_suffix_set:
   - zopim.com
   - zorglist.com
   - zorrovpn.com
+  - zotero.org
   - zozotown.com
   - zpn.im
   - zqqpwz.com

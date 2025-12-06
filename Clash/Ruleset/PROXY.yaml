@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26279
+# 规则统计: 26283
 
 payload:
   - '1password.drift.click'
@@ -22470,6 +22470,7 @@ payload:
   - '+.tig-ol-bitties.live'
   - '+.tigervpn.com'
   - '+.tik-tokapi.com'
+  - '+.tiktok-row.net'
   - '+.tiktok.com'
   - '+.tiktokcdn-eu.com'
   - '+.tiktokcdn-us.com'
@@ -22477,6 +22478,8 @@ payload:
   - '+.tiktokd.net'
   - '+.tiktokd.org'
   - '+.tiktokeu-cdn.com'
+  - '+.tiktokglobalshopv.com'
+  - '+.tiktokminis.us'
   - '+.tiktokrow-cdn.com'
   - '+.tiktokv.com'
   - '+.tiktokv.eu'
@@ -26247,6 +26250,7 @@ payload:
   - '+.zopim.com'
   - '+.zorglist.com'
   - '+.zorrovpn.com'
+  - '+.zotero.org'
   - '+.zozotown.com'
   - '+.zpn.im'
   - '+.zqqpwz.com'
