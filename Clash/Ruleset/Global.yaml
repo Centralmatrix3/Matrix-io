@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7374
+# 规则统计: 7377
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -1543,6 +1543,7 @@ payload:
   - DOMAIN-SUFFIX,demo.unlock-music.dev
   - DOMAIN-SUFFIX,democrats.org
   - DOMAIN-SUFFIX,demosisto.hk
+  - DOMAIN-SUFFIX,deno.com
   - DOMAIN-SUFFIX,deno.dev
   - DOMAIN-SUFFIX,depositphotos.com
   - DOMAIN-SUFFIX,derekhsu.homeip.net
@@ -3455,7 +3456,6 @@ payload:
   - DOMAIN-SUFFIX,jgoodies.com
   - DOMAIN-SUFFIX,jiangweiping.com
   - DOMAIN-SUFFIX,jiaoyou8.com
-  - DOMAIN-SUFFIX,jichangtj.com
   - DOMAIN-SUFFIX,jiehua.cz
   - DOMAIN-SUFFIX,jiepang.com
   - DOMAIN-SUFFIX,jieshibaobao.com
@@ -3833,7 +3833,6 @@ payload:
   - DOMAIN-SUFFIX,lzjscript.com
   - DOMAIN-SUFFIX,lzmtnews.org
   - DOMAIN-SUFFIX,m-sport.co.uk
-  - DOMAIN-SUFFIX,m-team.cc
   - DOMAIN-SUFFIX,m.hkgalden.com
   - DOMAIN-SUFFIX,m.me
   - DOMAIN-SUFFIX,m.moegirl.org
@@ -4497,6 +4496,7 @@ payload:
   - DOMAIN-SUFFIX,nzchinese.com
   - DOMAIN-SUFFIX,nzchinese.net.nz
   - DOMAIN-SUFFIX,o3o.ca
+  - DOMAIN-SUFFIX,oaiusercontent.com
   - DOMAIN-SUFFIX,oanda.com
   - DOMAIN-SUFFIX,oann.com
   - DOMAIN-SUFFIX,oauth.net
@@ -4655,6 +4655,7 @@ payload:
   - DOMAIN-SUFFIX,paljorpublications.com
   - DOMAIN-SUFFIX,palmislife.com
   - DOMAIN-SUFFIX,paltalk.com
+  - DOMAIN-SUFFIX,palworldgame.com
   - DOMAIN-SUFFIX,panamapapers.sueddeutsche.de
   - DOMAIN-SUFFIX,pancakeswap.finance
   - DOMAIN-SUFFIX,pandafan.pub
@@ -4896,6 +4897,7 @@ payload:
   - DOMAIN-SUFFIX,primevideo.com
   - DOMAIN-SUFFIX,printfriendly.com
   - DOMAIN-SUFFIX,prism-break.org
+  - DOMAIN-SUFFIX,prismic.io
   - DOMAIN-SUFFIX,prisoneralert.com
   - DOMAIN-SUFFIX,pritunl.com
   - DOMAIN-SUFFIX,privacybox.de
@@ -5486,6 +5488,7 @@ payload:
   - DOMAIN-SUFFIX,sndcdn.com
   - DOMAIN-SUFFIX,sneakme.net
   - DOMAIN-SUFFIX,snowlionpub.com
+  - DOMAIN-SUFFIX,sntp.uk
   - DOMAIN-SUFFIX,sobees.com
   - DOMAIN-SUFFIX,soc.mil
   - DOMAIN-SUFFIX,social.datalabour.com

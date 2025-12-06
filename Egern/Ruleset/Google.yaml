@@ -1,11 +1,12 @@
 # 规则名称: Google
-# 规则统计: 24
+# 规则统计: 25
 
 no_resolve: true
 domain_suffix_set:
   - 1e100.net
   - 2mdn.net
   - app-measurement.net
+  - c.gle
   - g.co
   - ggpht.com
   - goo.gl

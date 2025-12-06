@@ -1,9 +1,10 @@
 # 规则名称: Alibaba
-# 规则统计: 38
+# 规则统计: 41
 
 HOST-SUFFIX,1688.com,Alibaba
 HOST-SUFFIX,aliapp.org,Alibaba
 HOST-SUFFIX,alibaba.com,Alibaba
+HOST-SUFFIX,alibabachengdun.com,Alibaba
 HOST-SUFFIX,alibabacloud.com,Alibaba
 HOST-SUFFIX,alibabausercontent.com,Alibaba
 HOST-SUFFIX,alicdn.com,Alibaba
@@ -23,6 +24,7 @@ HOST-SUFFIX,amap.com,Alibaba
 HOST-SUFFIX,autonavi.com,Alibaba
 HOST-SUFFIX,dingtalk.com,Alibaba
 HOST-SUFFIX,ele.me,Alibaba
+HOST-SUFFIX,elemecdn.com,Alibaba
 HOST-SUFFIX,hichina.com,Alibaba
 HOST-SUFFIX,mmstat.com,Alibaba
 HOST-SUFFIX,mxhichina.com,Alibaba
@@ -31,6 +33,7 @@ HOST-SUFFIX,soku.com,Alibaba
 HOST-SUFFIX,taobao.com,Alibaba
 HOST-SUFFIX,taobaocdn.com,Alibaba
 HOST-SUFFIX,tbcache.com,Alibaba
+HOST-SUFFIX,tbcdn.cn,Alibaba
 HOST-SUFFIX,tbcdn.com,Alibaba
 HOST-SUFFIX,tmall.com,Alibaba
 HOST-SUFFIX,tmall.hk,Alibaba

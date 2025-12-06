@@ -1,10 +1,11 @@
 # 规则名称: Alibaba
-# 规则统计: 38
+# 规则统计: 41
 
 domain_suffix_set:
   - 1688.com
   - aliapp.org
   - alibaba.com
+  - alibabachengdun.com
   - alibabacloud.com
   - alibabausercontent.com
   - alicdn.com
@@ -24,6 +25,7 @@ domain_suffix_set:
   - autonavi.com
   - dingtalk.com
   - ele.me
+  - elemecdn.com
   - hichina.com
   - mmstat.com
   - mxhichina.com
@@ -32,6 +34,7 @@ domain_suffix_set:
   - taobao.com
   - taobaocdn.com
   - tbcache.com
+  - tbcdn.cn
   - tbcdn.com
   - tmall.com
   - tmall.hk
