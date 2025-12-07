@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26283
+# 规则统计: 26289
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -2758,6 +2758,7 @@ HOST-SUFFIX,archives.gov,PROXY
 HOST-SUFFIX,archivx.to,PROXY
 HOST-SUFFIX,archlinux.org,PROXY
 HOST-SUFFIX,archlinuxarm.org,PROXY
+HOST-SUFFIX,arcraiders.com,PROXY
 HOST-SUFFIX,arctosia.com,PROXY
 HOST-SUFFIX,area120.com,PROXY
 HOST-SUFFIX,area51.to,PROXY
@@ -8222,6 +8223,8 @@ HOST-SUFFIX,emac.in,PROXY
 HOST-SUFFIX,emaga.com,PROXY
 HOST-SUFFIX,emagic.de,PROXY
 HOST-SUFFIX,emanna.com,PROXY
+HOST-SUFFIX,embark-studios.com,PROXY
+HOST-SUFFIX,embark.games,PROXY
 HOST-SUFFIX,embase.com,PROXY
 HOST-SUFFIX,embed-cdn.com,PROXY
 HOST-SUFFIX,embed.ly,PROXY
@@ -8865,6 +8868,8 @@ HOST-SUFFIX,facegbook.com,PROXY
 HOST-SUFFIX,faceid99.com,PROXY
 HOST-SUFFIX,faceid99.net,PROXY
 HOST-SUFFIX,faceidglobal.com,PROXY
+HOST-SUFFIX,faceit-cdn.net,PROXY
+HOST-SUFFIX,faceit.com,PROXY
 HOST-SUFFIX,faceless.me,PROXY
 HOST-SUFFIX,faceobk.com,PROXY
 HOST-SUFFIX,faceobok.com,PROXY
@@ -19567,6 +19572,7 @@ HOST-SUFFIX,rea.io,PROXY
 HOST-SUFFIX,rea.tech,PROXY
 HOST-SUFFIX,reabble.com,PROXY
 HOST-SUFFIX,reachporn.com,PROXY
+HOST-SUFFIX,reachthefinals.com,PROXY
 HOST-SUFFIX,reachtheworldonfacebook.com,PROXY
 HOST-SUFFIX,react.com,PROXY
 HOST-SUFFIX,reactjs.com,PROXY

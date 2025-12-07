@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26283
+# 规则统计: 26289
 
 payload:
   - '1password.drift.click'
@@ -2759,6 +2759,7 @@ payload:
   - '+.archivx.to'
   - '+.archlinux.org'
   - '+.archlinuxarm.org'
+  - '+.arcraiders.com'
   - '+.arctosia.com'
   - '+.area120.com'
   - '+.area51.to'
@@ -8223,6 +8224,8 @@ payload:
   - '+.emaga.com'
   - '+.emagic.de'
   - '+.emanna.com'
+  - '+.embark-studios.com'
+  - '+.embark.games'
   - '+.embase.com'
   - '+.embed-cdn.com'
   - '+.embed.ly'
@@ -8866,6 +8869,8 @@ payload:
   - '+.faceid99.com'
   - '+.faceid99.net'
   - '+.faceidglobal.com'
+  - '+.faceit-cdn.net'
+  - '+.faceit.com'
   - '+.faceless.me'
   - '+.faceobk.com'
   - '+.faceobok.com'
@@ -19568,6 +19573,7 @@ payload:
   - '+.rea.tech'
   - '+.reabble.com'
   - '+.reachporn.com'
+  - '+.reachthefinals.com'
   - '+.reachtheworldonfacebook.com'
   - '+.react.com'
   - '+.reactjs.com'
