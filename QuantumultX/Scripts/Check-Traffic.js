@@ -1,10 +1,10 @@
 /*
- * @name = Networks-Traffic
- * @desc = Networks-Traffic
+ * @name = 策略流量查询
+ * @desc = 策略流量查询
  * @author = KOP-XIAO
 ----------------------------------------
 [task_local]
-event-interaction https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/Networks-Traffic.js, tag=策略流量查询, img-url=arrow.up.arrow.down.circle.system, enabled=true
+event-interaction https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/Check-Traffic.js, tag=策略流量查询, img-url=arrow.up.arrow.down.circle.system, enabled=true
 ----------------------------------------
 */
 

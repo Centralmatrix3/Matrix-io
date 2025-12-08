@@ -1,6 +1,6 @@
 /*
- * @name = TestFlightD
- * @desc = TestFlightD
+ * @name = TestFlight
+ * @desc = TestFlight下载修正
  * @author = NobyDa
 ----------------------------------------
 [rewrite_local]

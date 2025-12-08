@@ -1,10 +1,10 @@
 /*
- * @name = DNS-ClearCache
- * @desc = DNS-ClearCache
+ * @name = 清理DNS缓存
+ * @desc = 清理DNS缓存
  * @author = crossutility
 ----------------------------------------
 [task_local]
-0 0 * * * https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/DNS-ClearCache.js, tag=清除DNS缓存, img-url=trash.circle.system, enabled=true
+0 0 * * * https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/DNS-Clear-Cache.js, tag=清理DNS缓存, img-url=trash.circle.system, enabled=true
 ----------------------------------------
 */
 
@@ -14,7 +14,7 @@ const message = {
 
 $configuration.sendMessage(message).then(resolve => {
     if (resolve.ret) {
-        console.log("dnsCache Cleared!");
+        console.log("DNS Cache Cleared!");
     } else {
         console.log(resolve.error);
     }

@@ -1,6 +1,6 @@
 /*
- * @name = TestFlightX
- * @desc = TestFlightX
+ * @name = TestFlight
+ * @desc = TestFlight强制安装
  * @author = Skyxim
 ----------------------------------------
 [Script]

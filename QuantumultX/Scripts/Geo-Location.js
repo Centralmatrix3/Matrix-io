@@ -1,14 +1,12 @@
 /*
- * @name = Geo-Location
- * @desc = Geo-Location
+ * @name = GeoIP查询
+ * @desc = GeoIP查询
  * @author = KOP-XIAO
 ----------------------------------------
 [task_local]
-event-interaction https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/Geo-Location.js, tag=节点信息查询, img-url=tag.circle.system, enabled=true
+event-interaction https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/Geo-Location.js, tag=GeoIP查询, img-url=tag.circle.system, enabled=true
 ----------------------------------------
 */
-
-// var content= `<p style="text-align: center; font-family: -apple-system; font-size: large; font-weight: bold">` + response.body + `</p>`;
 
   var url = "https://api.ip.sb/geoip"
   var opts = {

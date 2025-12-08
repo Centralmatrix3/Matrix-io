@@ -4,11 +4,9 @@ author = KOP-XIAO
 update = 2025.05.16 17:30
 ----------------------------------------------------------
 [general]
-resource_parser_url = https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/Resource-Parser.js
+resource_parser_url = https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/Parser.js
 ----------------------------------------------------------
 */
-
-//beginning 解析器正常使用，調試註釋此部分
 
 let [link0, content0, subinfo] = [$resource.link, $resource.content, $resource.info]
 let version = typeof $environment != "undefined" ? Number($environment.version.split("build")[1]): 0 // 版本号
@@ -587,7 +585,7 @@ function Type_Check(subs) {
     return type
 }
 
-// 检查节点名字(重复以及空名)等QuanX 不允许的情形，以及多个空格等“不规范”方式
+// 检查节点名字(重复以及空名)等QuanX 不允许的情形，以及多个空格等"不规范"方式
 function TagCheck_QX(content) {
   typefix = {"shadowsocks":["𝐬𝐬","𝐒𝐒","🅢🅢","🆂🆂","ⓢⓢ","🅂🅂","SS"],"shadowsocksr":["𝐬𝐬𝐫","𝐒𝐒𝐑","🅢🅢🅡","🆂🆂🆁","ⓢⓢⓡ","🅂🅂🅁","SSR"],"vmess":["𝐯𝐦𝐞𝐬𝐬","𝐕𝐌𝐄𝐒𝐒","🅥🅜🅔🅢🅢","🆅🅼🅴🆂🆂","ⓥⓜⓔⓢⓢ","🅅🄼🄴🅂🅂","VMESS"],"trojan":["𝐭𝐫𝐨𝐣𝐚𝐧","𝐓𝐑𝐎𝐉𝐀𝐍","🅣🅡🅞🅙🅐🅝","🆃🆁🅾🅹🅰🅽","ⓣⓡⓞⓙⓐⓝ","🅃🅁🄾🄹🄰🄽","TROJAN"],"http":["𝐡𝐭𝐭𝐩","𝐇𝐓𝐓𝐏","🅗🅣🅣🅟","🅷🆃🆃🅿","ⓗⓣⓣⓟ","🄷🅃🅃🄿","HTTP"],"socks5":["𝐬𝐨𝗰𝗸𝐬","𝐒𝐎𝐂𝐊𝐒","🅢🅞🅒🅚🅢","🆂🅾🅲🅺🆂","ⓢⓄⒸⓀⓢ","🅂🄾🄲🄺🅂","SOCKS"],"vless":["𝐯𝐥𝐞𝐬𝐬","𝐕𝐋𝐄𝐒𝐒","🅥🅛🅔🅢🅢","🆅🅻🅴🆂🆂","ⓥⓛⓔⓢⓢ","🅅🄻🄴🅂🅂","VLESS"]}
   console.log(content)
@@ -637,7 +635,7 @@ function TagCheck_QX(content) {
     }
     if (nulllist.length >= 1) {
         no = nulllist.length <= 10 ? emojino[nulllist.length] : nulllist.length;
-        $notify("⚠️ 引用" + "⟦" + subtag + "⟧" + " 内有" + no + "个空节点名 ", "✅ 已将节点“类型+IP”设为节点名", " ⨁ " + nulllist.join("\n ⨁ "), nan_link)
+        $notify("⚠️ 引用" + "⟦" + subtag + "⟧" + " 内有" + no + "个空节点名 ", "✅ 已将节点"类型+IP"设为节点名", " ⨁ " + nulllist.join("\n ⨁ "), nan_link)
     }
     if (duplist.length >= 1) {
         no = duplist.length <= 10 ? emojino[duplist.length] : duplist.length;

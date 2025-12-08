@@ -1,14 +1,13 @@
 /*
- * @name = GoogleCheck
- * @desc = GoogleCheck
+ * @name = 谷歌送中检测
+ * @desc = 谷歌送中检测
  * @author = KOP-XIAO
 ----------------------------------------
 [task_local]
-event-interaction https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/GoogleCheck.js, tag=媒体解锁查询, img-url=drop.circle.system, enabled=true
+event-interaction https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/Check-Google.js, tag=谷歌送中检测, img-url=drop.circle.system, enabled=true
 ----------------------------------------
 */
 
-//var policy = $environment.params
 var cronsign = $environment.executeType == 0 || $environment.executeType == "0" || $environment.executeType == "-1"? "Y" : "N"
 var policy = $environment.executeType == 0 || $environment.executeType == "0" || $environment.executeType == "-1"? GetPolicy($environment.sourcePath) : $environment.params
 console.log(JSON.stringify($environment))

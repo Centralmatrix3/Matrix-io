@@ -1,10 +1,10 @@
 /*
- * @name = StreamingCheck
- * @desc = StreamingCheck
+ * @name = 媒体解锁检测
+ * @desc = 媒体解锁检测
  * @author = KOP-XIAO
 ----------------------------------------
 [task_local]
-event-interaction https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/StreamingCheck.js, tag=媒体解锁查询, img-url=play.circle.system, enabled=true
+event-interaction https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/Check-Media.js, tag=媒体解锁检测, img-url=play.circle.system, enabled=true
 ----------------------------------------
 */
 

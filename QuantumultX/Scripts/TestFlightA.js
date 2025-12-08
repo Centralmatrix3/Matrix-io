@@ -1,6 +1,6 @@
 /*
- * @name = TestFlightA
- * @desc = TestFlightA
+ * @name = TestFlight
+ * @desc = TestFlight账户管理
  * @author = NobyDa
 ----------------------------------------
 [rewrite_local]
