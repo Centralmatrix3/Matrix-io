@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 32485
+# 规则统计: 32494
 
 HOST,1password.drift.click,GlobalMax
 HOST,adobeereg.com,GlobalMax
@@ -37,7 +37,6 @@ HOST,crl.versign.net,GlobalMax
 HOST,databank.worldbank.org,GlobalMax
 HOST,datarouter.apps.netherrealm.com,GlobalMax
 HOST,default.exp-tas.com,GlobalMax
-HOST,deribit.cdn.prismic.io,GlobalMax
 HOST,deutschewelle.h-cdn.com,GlobalMax
 HOST,dl.begellhouse.com,GlobalMax
 HOST,ea.tt.omtrdc.net,GlobalMax
@@ -2084,7 +2083,6 @@ HOST-SUFFIX,api.ai,GlobalMax
 HOST-SUFFIX,api.mixpanel.com,GlobalMax
 HOST-SUFFIX,api.nebula-emby.com,GlobalMax
 HOST-SUFFIX,api.news,GlobalMax
-HOST-SUFFIX,api.palworldgame.com,GlobalMax
 HOST-SUFFIX,apiary.io,GlobalMax
 HOST-SUFFIX,apibay.org,GlobalMax
 HOST-SUFFIX,apigee.com,GlobalMax
@@ -2517,6 +2515,7 @@ HOST-SUFFIX,archlinux.org,GlobalMax
 HOST-SUFFIX,archlinuxarm.org,GlobalMax
 HOST-SUFFIX,archway.ac.uk,GlobalMax
 HOST-SUFFIX,arcom.ac.uk,GlobalMax
+HOST-SUFFIX,arcraiders.com,GlobalMax
 HOST-SUFFIX,arctic.ac.uk,GlobalMax
 HOST-SUFFIX,arctosia.com,GlobalMax
 HOST-SUFFIX,arden.ac.uk,GlobalMax
@@ -5496,6 +5495,7 @@ HOST-SUFFIX,c-msedge.net,GlobalMax
 HOST-SUFFIX,c-scaipe.ac.uk,GlobalMax
 HOST-SUFFIX,c-span.org,GlobalMax
 HOST-SUFFIX,c-spanvideo.org,GlobalMax
+HOST-SUFFIX,c.gle,GlobalMax
 HOST-SUFFIX,c.mi.com,GlobalMax
 HOST-SUFFIX,c0930.com,GlobalMax
 HOST-SUFFIX,c100tibet.org,GlobalMax
@@ -9496,6 +9496,8 @@ HOST-SUFFIX,emahsn.ac.uk,GlobalMax
 HOST-SUFFIX,email-bimm.ac.uk,GlobalMax
 HOST-SUFFIX,emanna.com,GlobalMax
 HOST-SUFFIX,emas.ac.uk,GlobalMax
+HOST-SUFFIX,embark-studios.com,GlobalMax
+HOST-SUFFIX,embark.games,GlobalMax
 HOST-SUFFIX,embase.com,GlobalMax
 HOST-SUFFIX,embed-cdn.com,GlobalMax
 HOST-SUFFIX,embed.ly,GlobalMax
@@ -10303,6 +10305,8 @@ HOST-SUFFIX,facegbook.com,GlobalMax
 HOST-SUFFIX,faceid99.com,GlobalMax
 HOST-SUFFIX,faceid99.net,GlobalMax
 HOST-SUFFIX,faceidglobal.com,GlobalMax
+HOST-SUFFIX,faceit-cdn.net,GlobalMax
+HOST-SUFFIX,faceit.com,GlobalMax
 HOST-SUFFIX,faceless.me,GlobalMax
 HOST-SUFFIX,faceobk.com,GlobalMax
 HOST-SUFFIX,faceobok.com,GlobalMax
@@ -14786,7 +14790,6 @@ HOST-SUFFIX,imageglass.org,GlobalMax
 HOST-SUFFIX,imagemodeler.com,GlobalMax
 HOST-SUFFIX,imagepost.com,GlobalMax
 HOST-SUFFIX,images-gaytube.com,GlobalMax
-HOST-SUFFIX,images.prismic.io,GlobalMax
 HOST-SUFFIX,imageshack.com,GlobalMax
 HOST-SUFFIX,imageshack.us,GlobalMax
 HOST-SUFFIX,imagetwist.com,GlobalMax
@@ -17494,7 +17497,6 @@ HOST-SUFFIX,lstmed.ac.uk,GlobalMax
 HOST-SUFFIX,lstmliverpool.ac.uk,GlobalMax
 HOST-SUFFIX,lstonline.ac.uk,GlobalMax
 HOST-SUFFIX,lsxszzg.com,GlobalMax
-HOST-SUFFIX,lt.sntp.uk,GlobalMax
 HOST-SUFFIX,ltcc.ac.uk,GlobalMax
 HOST-SUFFIX,ltea.ac.uk,GlobalMax
 HOST-SUFFIX,ltegroup.ac.uk,GlobalMax
@@ -17585,7 +17587,6 @@ HOST-SUFFIX,lzmtnews.org,GlobalMax
 HOST-SUFFIX,m-power.com,GlobalMax
 HOST-SUFFIX,m-rhex.ac.uk,GlobalMax
 HOST-SUFFIX,m-sport.co.uk,GlobalMax
-HOST-SUFFIX,m-team.cc,GlobalMax
 HOST-SUFFIX,m.me,GlobalMax
 HOST-SUFFIX,m12.vc,GlobalMax
 HOST-SUFFIX,m25lib.ac.uk,GlobalMax
@@ -21727,6 +21728,7 @@ HOST-SUFFIX,palmers.ac.uk,GlobalMax
 HOST-SUFFIX,palmislife.com,GlobalMax
 HOST-SUFFIX,pals.ac.uk,GlobalMax
 HOST-SUFFIX,paltalk.com,GlobalMax
+HOST-SUFFIX,palworldgame.com,GlobalMax
 HOST-SUFFIX,panasonic.com,GlobalMax
 HOST-SUFFIX,panasonic.jp,GlobalMax
 HOST-SUFFIX,pancakeswap.finance,GlobalMax
@@ -23099,6 +23101,7 @@ HOST-SUFFIX,printspots.net,GlobalMax
 HOST-SUFFIX,prioned.ac.uk,GlobalMax
 HOST-SUFFIX,prism-break.org,GlobalMax
 HOST-SUFFIX,prism.ac.uk,GlobalMax
+HOST-SUFFIX,prismic.io,GlobalMax
 HOST-SUFFIX,prismlauncher.org,GlobalMax
 HOST-SUFFIX,prismlive.com,GlobalMax
 HOST-SUFFIX,prisoneralert.com,GlobalMax
@@ -23732,6 +23735,7 @@ HOST-SUFFIX,reabble.com,GlobalMax
 HOST-SUFFIX,reach.ac.uk,GlobalMax
 HOST-SUFFIX,reachingwider.ac.uk,GlobalMax
 HOST-SUFFIX,reachporn.com,GlobalMax
+HOST-SUFFIX,reachthefinals.com,GlobalMax
 HOST-SUFFIX,reachtheworldonfacebook.com,GlobalMax
 HOST-SUFFIX,react.com,GlobalMax
 HOST-SUFFIX,reactjs.com,GlobalMax
@@ -25732,6 +25736,7 @@ HOST-SUFFIX,snow.me,GlobalMax
 HOST-SUFFIX,snowcorp.com,GlobalMax
 HOST-SUFFIX,snowlionpub.com,GlobalMax
 HOST-SUFFIX,snowmiku.com,GlobalMax
+HOST-SUFFIX,sntp.uk,GlobalMax
 HOST-SUFFIX,snug.ac.uk,GlobalMax
 HOST-SUFFIX,so-net.ne.jp,GlobalMax
 HOST-SUFFIX,so-net.net.tw,GlobalMax
@@ -27715,11 +27720,14 @@ HOST-SUFFIX,tig-ol-bitties.live,GlobalMax
 HOST-SUFFIX,tigervpn.com,GlobalMax
 HOST-SUFFIX,tiipple.ac.uk,GlobalMax
 HOST-SUFFIX,tik-tokapi.com,GlobalMax
+HOST-SUFFIX,tiktok-row.net,GlobalMax
 HOST-SUFFIX,tiktok.com,GlobalMax
 HOST-SUFFIX,tiktokcdn-eu.com,GlobalMax
 HOST-SUFFIX,tiktokcdn-us.com,GlobalMax
 HOST-SUFFIX,tiktokcdn.com,GlobalMax
 HOST-SUFFIX,tiktokeu-cdn.com,GlobalMax
+HOST-SUFFIX,tiktokglobalshopv.com,GlobalMax
+HOST-SUFFIX,tiktokminis.us,GlobalMax
 HOST-SUFFIX,tiktokv.com,GlobalMax
 HOST-SUFFIX,tiktokv.eu,GlobalMax
 HOST-SUFFIX,tiktokv.us,GlobalMax
@@ -32296,6 +32304,7 @@ HOST-SUFFIX,zophar.net,GlobalMax
 HOST-SUFFIX,zopim.com,GlobalMax
 HOST-SUFFIX,zorglist.com,GlobalMax
 HOST-SUFFIX,zorrovpn.com,GlobalMax
+HOST-SUFFIX,zotero.org,GlobalMax
 HOST-SUFFIX,zozotown.com,GlobalMax
 HOST-SUFFIX,zpn.im,GlobalMax
 HOST-SUFFIX,zqqpwz.com,GlobalMax

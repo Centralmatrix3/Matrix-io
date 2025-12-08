@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26289
+# 规则统计: 26290
 
 payload:
   - '1password.drift.click'
@@ -12578,6 +12578,7 @@ payload:
   - '+.imagebam.com'
   - '+.imagecurl.com'
   - '+.imagecurl.org'
+  - '+.imagedelivery.net'
   - '+.imagefap.com'
   - '+.imageflea.com'
   - '+.imageglass.org'

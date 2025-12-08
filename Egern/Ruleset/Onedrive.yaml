@@ -1,8 +1,9 @@
 # 规则名称: Onedrive
-# 规则统计: 14
+# 规则统计: 15
 
 domain_suffix_set:
   - livefilestore.com
+  - microsoftpersonalcontent.com
   - oneclient.sfx.ms
   - onedrive.com
   - onedrive.live.com

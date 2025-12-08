@@ -1,5 +1,5 @@
 # 规则名称: ChinaMax
-# 规则统计: 137809
+# 规则统计: 137786
 
 no_resolve: true
 domain_set:
@@ -10035,7 +10035,6 @@ domain_suffix_set:
   - aesucai.com
   - aevit.xyz
   - aexpec.com
-  - af-south-1.myhuaweicloud.com
   - af122.com
   - af36.com
   - af360.com
@@ -12262,9 +12261,6 @@ domain_suffix_set:
   - aozhanls.com
   - aozhougoufang.com
   - ap-china.com
-  - ap-southeast-1.myhuaweicloud.com
-  - ap-southeast-2.myhuaweicloud.com
-  - ap-southeast-3.myhuaweicloud.com
   - ap1983.com
   - ap4r.com
   - ap88.com
@@ -12549,7 +12545,6 @@ domain_suffix_set:
   - aqviwv.com
   - aqvx8mcr392mv7.com
   - aqxx.org
-  - aqyad.com
   - aqyqqy.com
   - aqyun.com
   - aqyzm.com
@@ -23303,7 +23298,6 @@ domain_suffix_set:
   - clloz.com
   - clmpg.com
   - clngaa.com
-  - cloooud.com
   - cloopen.com
   - cloopen.net
   - cloopm.com
@@ -23746,8 +23740,6 @@ domain_suffix_set:
   - cn-chx.com
   - cn-comfort.com
   - cn-cr.com
-  - cn-east-2.myhuaweicloud.com
-  - cn-east-3.myhuaweicloud.com
   - cn-elite.com
   - cn-em.com
   - cn-ferment.com
@@ -23771,14 +23763,6 @@ domain_suffix_set:
   - cn-msedge.net
   - cn-mw.com
   - cn-natural.com
-  - cn-north-1.myhuaweicloud.com
-  - cn-north-2.myhuaweicloud.com
-  - cn-north-3.myhuaweicloud.com
-  - cn-north-4.myhuaweicloud.com
-  - cn-north-5.myhuaweicloud.com
-  - cn-north-6.myhuaweicloud.com
-  - cn-north-9.myhuaweicloud.com
-  - cn-northeast-1.myhuaweicloud.com
   - cn-only.com
   - cn-psy.com
   - cn-railway.net
@@ -23789,10 +23773,6 @@ domain_suffix_set:
   - cn-sdf.com
   - cn-shine.com
   - cn-soft.com
-  - cn-south-1.myhuaweicloud.com
-  - cn-south-2.myhuaweicloud.com
-  - cn-south-4.myhuaweicloud.com
-  - cn-southwest-2.myhuaweicloud.com
   - cn-tf.com
   - cn-tom.com
   - cn-truck.com
@@ -33641,7 +33621,6 @@ domain_suffix_set:
   - etzj.net
   - etzqw.com
   - etzzy.com
-  - eu-west-0.myhuaweicloud.com
   - eu4cn.com
   - eub-inc.com
   - euci-software.com
@@ -61881,8 +61860,6 @@ domain_suffix_set:
   - la-bbs.net
   - la-chinata.hk
   - la-mo.com
-  - la-north-2.myhuaweicloud.com
-  - la-south-2.myhuaweicloud.com
   - la-technology.com
   - la31.com
   - laawoo.com
@@ -66489,6 +66466,7 @@ domain_suffix_set:
   - m-finder.com
   - m-hero.com
   - m-rainbow.com
+  - m-team.cc
   - m.travelzoo.com
   - m1.run
   - m123.com
@@ -70388,6 +70366,7 @@ domain_suffix_set:
   - myhuaweicloud-date.com
   - myhuaweicloud-koodrive.com
   - myhuaweicloud-obs.com
+  - myhuaweicloud.com
   - myhuilv.com
   - myhwcdn.com
   - myhwcloudlive.com
@@ -70690,7 +70669,6 @@ domain_suffix_set:
   - n802.com
   - n8soft.com
   - n9z.net
-  - na-mexico-1.myhuaweicloud.com
   - na.ci
   - naaln.com
   - nabluemedia.com
@@ -76166,7 +76144,6 @@ domain_suffix_set:
   - pkm360.com
   - pkma.cc
   - pko123.com
-  - pkoplink.com
   - pkpky.com
   - pkpmjc.com
   - pkpmsoft.com
@@ -81557,7 +81534,6 @@ domain_suffix_set:
   - rtyhfg.com
   - rtyxpt.com
   - rtyy.com
-  - ru-northwest-2.myhuaweicloud.com
   - ru5sq.com
   - rua93.online
   - ruan.cloud
@@ -82015,7 +81991,6 @@ domain_suffix_set:
   - s98s2.com
   - s9hospital.com
   - s9yun.com
-  - sa-brazil-1.myhuaweicloud.com
   - sa-ec.com
   - sa-log.com
   - sa-tencentclb.cloud
@@ -125451,6 +125426,7 @@ ip_cidr_set:
   - 45.151.47.0/24
   - 45.152.24.0/22
   - 45.154.244.0/24
+  - 45.157.88.0/24
   - 45.192.21.0/24
   - 45.195.6.0/24
   - 45.202.209.0/24
@@ -137530,16 +137506,17 @@ ip_cidr6_set:
   - 2a0e:ec05:79c0::/42
   - 2a0e:ec05:7a00::/40
   - 2a0e:ec05:7b00::/42
-  - 2a0f:1cc5:100::/44
+  - 2a0f:1cc5:100::/43
   - 2a0f:1cc5:10::/47
+  - 2a0f:1cc5:1c00::/48
   - 2a0f:1cc5:20::/44
   - 2a0f:1cc5:600::/47
   - 2a0f:1cc5:610::/48
+  - 2a0f:1cc5:900::/40
   - 2a0f:1cc5:f00::/46
   - 2a0f:1cc5:f04::/47
   - 2a0f:1cc5:f06::/48
-  - 2a0f:1cc6:b100::/48
-  - 2a0f:1cc6:b102::/47
+  - 2a0f:1cc6:b100::/46
   - 2a0f:5707:ac01::/48
   - 2a0f:6284:3000::/36
   - 2a0f:6284:300::/40
@@ -137750,7 +137727,7 @@ ip_cidr6_set:
   - 2a14:7581:b20::/46
   - 2a14:7581:b40::/45
   - 2a14:7581:b60::/44
-  - 2a14:7581:ba0::/44
+  - 2a14:7581:ba0::/48
   - 2a14:7581:bbb::/48
   - 2a14:7581:bcd::/48
   - 2a14:7581:bff::/48

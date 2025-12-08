@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26289
+# 规则统计: 26290
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -12577,6 +12577,7 @@ HOST-SUFFIX,imageab.com,PROXY
 HOST-SUFFIX,imagebam.com,PROXY
 HOST-SUFFIX,imagecurl.com,PROXY
 HOST-SUFFIX,imagecurl.org,PROXY
+HOST-SUFFIX,imagedelivery.net,PROXY
 HOST-SUFFIX,imagefap.com,PROXY
 HOST-SUFFIX,imageflea.com,PROXY
 HOST-SUFFIX,imageglass.org,PROXY

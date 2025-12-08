@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 32485
+# 规则统计: 32494
 
 no_resolve: true
 domain_set:
@@ -39,7 +39,6 @@ domain_set:
   - databank.worldbank.org
   - datarouter.apps.netherrealm.com
   - default.exp-tas.com
-  - deribit.cdn.prismic.io
   - deutschewelle.h-cdn.com
   - dl.begellhouse.com
   - ea.tt.omtrdc.net
@@ -2087,7 +2086,6 @@ domain_suffix_set:
   - api.mixpanel.com
   - api.nebula-emby.com
   - api.news
-  - api.palworldgame.com
   - apiary.io
   - apibay.org
   - apigee.com
@@ -2520,6 +2518,7 @@ domain_suffix_set:
   - archlinuxarm.org
   - archway.ac.uk
   - arcom.ac.uk
+  - arcraiders.com
   - arctic.ac.uk
   - arctosia.com
   - arden.ac.uk
@@ -5499,6 +5498,7 @@ domain_suffix_set:
   - c-scaipe.ac.uk
   - c-span.org
   - c-spanvideo.org
+  - c.gle
   - c.mi.com
   - c0930.com
   - c100tibet.org
@@ -9499,6 +9499,8 @@ domain_suffix_set:
   - email-bimm.ac.uk
   - emanna.com
   - emas.ac.uk
+  - embark-studios.com
+  - embark.games
   - embase.com
   - embed-cdn.com
   - embed.ly
@@ -10306,6 +10308,8 @@ domain_suffix_set:
   - faceid99.com
   - faceid99.net
   - faceidglobal.com
+  - faceit-cdn.net
+  - faceit.com
   - faceless.me
   - faceobk.com
   - faceobok.com
@@ -14789,7 +14793,6 @@ domain_suffix_set:
   - imagemodeler.com
   - imagepost.com
   - images-gaytube.com
-  - images.prismic.io
   - imageshack.com
   - imageshack.us
   - imagetwist.com
@@ -17497,7 +17500,6 @@ domain_suffix_set:
   - lstmliverpool.ac.uk
   - lstonline.ac.uk
   - lsxszzg.com
-  - lt.sntp.uk
   - ltcc.ac.uk
   - ltea.ac.uk
   - ltegroup.ac.uk
@@ -17588,7 +17590,6 @@ domain_suffix_set:
   - m-power.com
   - m-rhex.ac.uk
   - m-sport.co.uk
-  - m-team.cc
   - m.me
   - m12.vc
   - m25lib.ac.uk
@@ -21730,6 +21731,7 @@ domain_suffix_set:
   - palmislife.com
   - pals.ac.uk
   - paltalk.com
+  - palworldgame.com
   - panasonic.com
   - panasonic.jp
   - pancakeswap.finance
@@ -23102,6 +23104,7 @@ domain_suffix_set:
   - prioned.ac.uk
   - prism-break.org
   - prism.ac.uk
+  - prismic.io
   - prismlauncher.org
   - prismlive.com
   - prisoneralert.com
@@ -23735,6 +23738,7 @@ domain_suffix_set:
   - reach.ac.uk
   - reachingwider.ac.uk
   - reachporn.com
+  - reachthefinals.com
   - reachtheworldonfacebook.com
   - react.com
   - reactjs.com
@@ -25735,6 +25739,7 @@ domain_suffix_set:
   - snowcorp.com
   - snowlionpub.com
   - snowmiku.com
+  - sntp.uk
   - snug.ac.uk
   - so-net.ne.jp
   - so-net.net.tw
@@ -27718,11 +27723,14 @@ domain_suffix_set:
   - tigervpn.com
   - tiipple.ac.uk
   - tik-tokapi.com
+  - tiktok-row.net
   - tiktok.com
   - tiktokcdn-eu.com
   - tiktokcdn-us.com
   - tiktokcdn.com
   - tiktokeu-cdn.com
+  - tiktokglobalshopv.com
+  - tiktokminis.us
   - tiktokv.com
   - tiktokv.eu
   - tiktokv.us
@@ -32299,6 +32307,7 @@ domain_suffix_set:
   - zopim.com
   - zorglist.com
   - zorrovpn.com
+  - zotero.org
   - zozotown.com
   - zpn.im
   - zqqpwz.com
