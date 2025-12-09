@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26290
+# 规则统计: 26291
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -19446,6 +19446,7 @@ HOST-SUFFIX,r18.com,PROXY
 HOST-SUFFIX,r18av.com,PROXY
 HOST-SUFFIX,r18lu-avi.shop,PROXY
 HOST-SUFFIX,r18lu.com,PROXY
+HOST-SUFFIX,r2.dev,PROXY
 HOST-SUFFIX,r34porn.net,PROXY
 HOST-SUFFIX,rabbitscams.com,PROXY
 HOST-SUFFIX,rabbitscams.sex,PROXY
