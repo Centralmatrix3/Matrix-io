@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26291
+# 规则统计: 26292
 
 payload:
   - '1password.drift.click'
@@ -19340,6 +19340,7 @@ payload:
   - '+.qmp4.com'
   - '+.qmttqg3k.me'
   - '+.qnap.com'
+  - '+.qobuz.com'
   - '+.qombol.com'
   - '+.qoo10.jp'
   - '+.qooqlevideo.com'
