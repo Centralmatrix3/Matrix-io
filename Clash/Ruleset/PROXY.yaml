@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26292
+# 规则统计: 26296
 
 payload:
   - '1password.drift.click'
@@ -18586,7 +18586,10 @@ payload:
   - '+.poecdn.net'
   - '+.pogo.com'
   - '+.pogobeta.com'
+  - '+.poi.icu'
   - '+.poi.moe'
+  - '+.poi6.net'
+  - '+.poihub.com'
   - '+.points-media.com'
   - '+.poisontube.com'
   - '+.pojapp.cfd'
@@ -19140,6 +19143,7 @@ payload:
   - '+.product.co.jp'
   - '+.profilemaster.com'
   - '+.profreeporno.com'
+  - '+.project-poi.com'
   - '+.project-syndicate.org'
   - '+.projectapex.com'
   - '+.projectara.com'

@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26292
+# 规则统计: 26296
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -18585,7 +18585,10 @@ HOST-SUFFIX,poe.com,PROXY
 HOST-SUFFIX,poecdn.net,PROXY
 HOST-SUFFIX,pogo.com,PROXY
 HOST-SUFFIX,pogobeta.com,PROXY
+HOST-SUFFIX,poi.icu,PROXY
 HOST-SUFFIX,poi.moe,PROXY
+HOST-SUFFIX,poi6.net,PROXY
+HOST-SUFFIX,poihub.com,PROXY
 HOST-SUFFIX,points-media.com,PROXY
 HOST-SUFFIX,poisontube.com,PROXY
 HOST-SUFFIX,pojapp.cfd,PROXY
@@ -19139,6 +19142,7 @@ HOST-SUFFIX,prodrive-japan.com,PROXY
 HOST-SUFFIX,product.co.jp,PROXY
 HOST-SUFFIX,profilemaster.com,PROXY
 HOST-SUFFIX,profreeporno.com,PROXY
+HOST-SUFFIX,project-poi.com,PROXY
 HOST-SUFFIX,project-syndicate.org,PROXY
 HOST-SUFFIX,projectapex.com,PROXY
 HOST-SUFFIX,projectara.com,PROXY

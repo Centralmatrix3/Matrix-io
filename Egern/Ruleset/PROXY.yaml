@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26292
+# 规则统计: 26296
 
 domain_set:
   - 1password.drift.click
@@ -18587,7 +18587,10 @@ domain_suffix_set:
   - poecdn.net
   - pogo.com
   - pogobeta.com
+  - poi.icu
   - poi.moe
+  - poi6.net
+  - poihub.com
   - points-media.com
   - poisontube.com
   - pojapp.cfd
@@ -19141,6 +19144,7 @@ domain_suffix_set:
   - product.co.jp
   - profilemaster.com
   - profreeporno.com
+  - project-poi.com
   - project-syndicate.org
   - projectapex.com
   - projectara.com
