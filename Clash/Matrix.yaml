@@ -104,7 +104,7 @@ proxy-groups:
 
   - name: "苹果服务"
     type: select
-    icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Apple-2.png
+    icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Apple-v2.png
     proxies:
       - DIRECT
       - REJECT
