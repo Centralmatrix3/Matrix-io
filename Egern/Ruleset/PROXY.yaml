@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26296
+# 规则统计: 26303
 
 domain_set:
   - 1password.drift.click
@@ -311,6 +311,10 @@ domain_set:
   - roblox-load-generator-configuration.s3.us-east-2.amazonaws.com
   - roblox-poc.global.ssl.fastly.net
   - robloxcorp.s.llnwi.net
+  - roovza-launches.appsflyersdk.com
+  - roovza.inapps.appsflyersdk.com
+  - roovza.launches.appsflyersdk.com
+  - roovza.skadsdk.appsflyersdk.com
   - rss.4040940.xyz
   - rss.datuan.dev
   - rss.littlebaby.life
@@ -5222,6 +5226,7 @@ domain_suffix_set:
   - bypasscensorship.org
   - byrut.org
   - byspotify.com
+  - bytedapm.com
   - byteglb.com
   - byteoversea.com
   - byteoversea.net
@@ -16860,6 +16865,7 @@ domain_suffix_set:
   - nextwork.hk
   - nextwork.tw
   - nexus
+  - nexus-cdn.com
   - nexusmods.com
   - nf.id.au
   - nfjtyd.com
@@ -22484,6 +22490,7 @@ domain_suffix_set:
   - tig-ol-bitties.live
   - tigervpn.com
   - tik-tokapi.com
+  - tiktok-minis.com
   - tiktok-row.net
   - tiktok.com
   - tiktokcdn-eu.com

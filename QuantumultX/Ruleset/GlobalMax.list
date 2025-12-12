@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 32496
+# 规则统计: 32501
 
 HOST,1password.drift.click,GlobalMax
 HOST,adobeereg.com,GlobalMax
@@ -22510,7 +22510,10 @@ HOST-SUFFIX,poe.com,GlobalMax
 HOST-SUFFIX,poecdn.net,GlobalMax
 HOST-SUFFIX,pogo.com,GlobalMax
 HOST-SUFFIX,pogobeta.com,GlobalMax
+HOST-SUFFIX,poi.icu,GlobalMax
 HOST-SUFFIX,poi.moe,GlobalMax
+HOST-SUFFIX,poi6.net,GlobalMax
+HOST-SUFFIX,poihub.com,GlobalMax
 HOST-SUFFIX,point.ac.uk,GlobalMax
 HOST-SUFFIX,pointblank.ac.uk,GlobalMax
 HOST-SUFFIX,pointblankmusicschool.ac.uk,GlobalMax
@@ -23139,6 +23142,7 @@ HOST-SUFFIX,profile.ac.uk,GlobalMax
 HOST-SUFFIX,profilemaster.com,GlobalMax
 HOST-SUFFIX,profreeporno.com,GlobalMax
 HOST-SUFFIX,programme3.ac.uk,GlobalMax
+HOST-SUFFIX,project-poi.com,GlobalMax
 HOST-SUFFIX,project-syndicate.org,GlobalMax
 HOST-SUFFIX,projectapex.com,GlobalMax
 HOST-SUFFIX,projectara.com,GlobalMax
@@ -23402,6 +23406,7 @@ HOST-SUFFIX,qmul.ac.uk,GlobalMax
 HOST-SUFFIX,qmw.ac.uk,GlobalMax
 HOST-SUFFIX,qmzdd.com,GlobalMax
 HOST-SUFFIX,qnap.com,GlobalMax
+HOST-SUFFIX,qobuz.com,GlobalMax
 HOST-SUFFIX,qombol.com,GlobalMax
 HOST-SUFFIX,qoo10.jp,GlobalMax
 HOST-SUFFIX,qooqlevideo.com,GlobalMax

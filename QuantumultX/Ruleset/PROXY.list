@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26296
+# 规则统计: 26303
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -310,6 +310,10 @@ HOST,rink.hockeyapp.net,PROXY
 HOST,roblox-load-generator-configuration.s3.us-east-2.amazonaws.com,PROXY
 HOST,roblox-poc.global.ssl.fastly.net,PROXY
 HOST,robloxcorp.s.llnwi.net,PROXY
+HOST,roovza-launches.appsflyersdk.com,PROXY
+HOST,roovza.inapps.appsflyersdk.com,PROXY
+HOST,roovza.launches.appsflyersdk.com,PROXY
+HOST,roovza.skadsdk.appsflyersdk.com,PROXY
 HOST,rss.4040940.xyz,PROXY
 HOST,rss.datuan.dev,PROXY
 HOST,rss.littlebaby.life,PROXY
@@ -5220,6 +5224,7 @@ HOST-SUFFIX,bynet.co.il,PROXY
 HOST-SUFFIX,bypasscensorship.org,PROXY
 HOST-SUFFIX,byrut.org,PROXY
 HOST-SUFFIX,byspotify.com,PROXY
+HOST-SUFFIX,bytedapm.com,PROXY
 HOST-SUFFIX,byteglb.com,PROXY
 HOST-SUFFIX,byteoversea.com,PROXY
 HOST-SUFFIX,byteoversea.net,PROXY
@@ -16858,6 +16863,7 @@ HOST-SUFFIX,nextwork.com.tw,PROXY
 HOST-SUFFIX,nextwork.hk,PROXY
 HOST-SUFFIX,nextwork.tw,PROXY
 HOST-SUFFIX,nexus,PROXY
+HOST-SUFFIX,nexus-cdn.com,PROXY
 HOST-SUFFIX,nexusmods.com,PROXY
 HOST-SUFFIX,nf.id.au,PROXY
 HOST-SUFFIX,nfjtyd.com,PROXY
@@ -22482,6 +22488,7 @@ HOST-SUFFIX,tiffany-towers.com,PROXY
 HOST-SUFFIX,tig-ol-bitties.live,PROXY
 HOST-SUFFIX,tigervpn.com,PROXY
 HOST-SUFFIX,tik-tokapi.com,PROXY
+HOST-SUFFIX,tiktok-minis.com,PROXY
 HOST-SUFFIX,tiktok-row.net,PROXY
 HOST-SUFFIX,tiktok.com,PROXY
 HOST-SUFFIX,tiktokcdn-eu.com,PROXY

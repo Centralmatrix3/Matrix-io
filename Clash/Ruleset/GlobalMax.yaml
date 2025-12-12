@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 32496
+# 规则统计: 32501
 
 payload:
   - DOMAIN,1password.drift.click
@@ -22511,7 +22511,10 @@ payload:
   - DOMAIN-SUFFIX,poecdn.net
   - DOMAIN-SUFFIX,pogo.com
   - DOMAIN-SUFFIX,pogobeta.com
+  - DOMAIN-SUFFIX,poi.icu
   - DOMAIN-SUFFIX,poi.moe
+  - DOMAIN-SUFFIX,poi6.net
+  - DOMAIN-SUFFIX,poihub.com
   - DOMAIN-SUFFIX,point.ac.uk
   - DOMAIN-SUFFIX,pointblank.ac.uk
   - DOMAIN-SUFFIX,pointblankmusicschool.ac.uk
@@ -23140,6 +23143,7 @@ payload:
   - DOMAIN-SUFFIX,profilemaster.com
   - DOMAIN-SUFFIX,profreeporno.com
   - DOMAIN-SUFFIX,programme3.ac.uk
+  - DOMAIN-SUFFIX,project-poi.com
   - DOMAIN-SUFFIX,project-syndicate.org
   - DOMAIN-SUFFIX,projectapex.com
   - DOMAIN-SUFFIX,projectara.com
@@ -23403,6 +23407,7 @@ payload:
   - DOMAIN-SUFFIX,qmw.ac.uk
   - DOMAIN-SUFFIX,qmzdd.com
   - DOMAIN-SUFFIX,qnap.com
+  - DOMAIN-SUFFIX,qobuz.com
   - DOMAIN-SUFFIX,qombol.com
   - DOMAIN-SUFFIX,qoo10.jp
   - DOMAIN-SUFFIX,qooqlevideo.com
