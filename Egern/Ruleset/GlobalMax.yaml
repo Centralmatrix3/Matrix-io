@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 32501
+# 规则统计: 32549
 
 no_resolve: true
 domain_set:
@@ -81,6 +81,10 @@ domain_set:
   - public-us-pingsx.api.clonoth.com
   - push-apple.com.akadns.net
   - qualcomm.sc.omtrdc.net
+  - roovza-launches.appsflyersdk.com
+  - roovza.inapps.appsflyersdk.com
+  - roovza.launches.appsflyersdk.com
+  - roovza.skadsdk.appsflyersdk.com
   - rss.4040940.xyz
   - rss.datuan.dev
   - rss.littlebaby.life
@@ -497,6 +501,8 @@ domain_suffix_set:
   - 4everoutside.com
   - 4everproxy.com
   - 4f1v1.top
+  - 4gamer.net
+  - 4gamers.com.tw
   - 4gls.ac.uk
   - 4greedy.com
   - 4gtv.tv
@@ -1461,6 +1467,7 @@ domain_suffix_set:
   - akatest.tripcdn.com
   - akatns.net
   - akiba-online.com
+  - akiba-souken.com
   - akiba-web.com
   - akinator.com
   - akita-bank.co.jp
@@ -2141,6 +2148,7 @@ domain_suffix_set:
   - appdynamics.org
   - appe-store.com
   - appexchange.com
+  - appget.com
   - appl-e.com
   - appl.com
   - appl4e.com
@@ -2452,6 +2460,7 @@ domain_suffix_set:
   - applicationinsights.net
   - applle.com
   - applw.com
+  - appmedia.jp
   - appmediagroup.com
   - approvedusedbmw.com
   - appsflayer.com
@@ -2955,6 +2964,7 @@ domain_suffix_set:
   - autodeskworkshop.com
   - autodeskworkshop.net
   - autodraw.com
+  - automaton-media.com
   - automobile.fr
   - automotive-cadcam.com
   - autosketch.com
@@ -5352,6 +5362,7 @@ domain_suffix_set:
   - bumptop.org
   - bumptunes.com
   - bunbunhk.com
+  - bunka.go.jp
   - bunnylust.com
   - burningcamel.com
   - burnley.ac.uk
@@ -7038,6 +7049,7 @@ domain_suffix_set:
   - cookiepro.com
   - cool-comics.com
   - cool18.com
+  - cool3c.com
   - coolaler.com
   - coolder.com
   - coolinet.net
@@ -7940,7 +7952,9 @@ domain_suffix_set:
   - demos.ac.uk
   - demosisto.hk
   - den.ac.uk
+  - denfaminicogamer.jp
   - dengeamerika.com
+  - dengekionline.com
   - dengiamerika.com
   - deno.com
   - deno.dev
@@ -8774,6 +8788,7 @@ domain_suffix_set:
   - dubox.com
   - ducere.ac.uk
   - duchy.ac.uk
+  - duck.ai
   - duck.co
   - duck.com
   - duckdns.org
@@ -9774,6 +9789,7 @@ domain_suffix_set:
   - erogazopple.com
   - erogazou-pinkline.com
   - erogazoufactory.com
+  - eroge-road.com
   - erohentai.net
   - erolabs.cloud
   - erolabs.com
@@ -10419,6 +10435,7 @@ domain_suffix_set:
   - familystrokes.com
   - familyswap.xxx
   - famima.vn
+  - famitsu.com
   - famosascalvas.com
   - famous-nudes.com
   - famous.ac.uk
@@ -11673,13 +11690,18 @@ domain_suffix_set:
   - game735.com
   - gamebase.com.tw
   - gamebeforethegame.com
+  - gamebiz.jp
+  - gamebusiness.jp
   - gamejolt.com
   - gameloft.com
+  - gamemeca.com
   - gameon-masters.com
+  - gameover.com.hk
   - gamepass.com
   - gamepedia.com
   - gameplan.ac.uk
   - gamer.com.tw
+  - gamer.ne.jp
   - gameroom.com
   - gamerotic.com
   - gamerp.jp
@@ -11687,6 +11709,7 @@ domain_suffix_set:
   - gamesfirsthelsinki.com
   - gamesfuckgirls.com
   - gamesofdesire.com
+  - gamespark.jp
   - gamesstack.com
   - gameuxmasterguide.com
   - gamez.com.tw
@@ -11951,6 +11974,7 @@ domain_suffix_set:
   - getlantern.org
   - getmalus.com
   - getmdl.io
+  - getnews.jp
   - getoutline.org
   - getpocket.com
   - getporn.tv
@@ -12752,6 +12776,7 @@ domain_suffix_set:
   - greatfirewall.biz
   - greatfirewallofchina.net
   - greatfirewallofchina.org
+  - greatgame.asia
   - greatretroporn.com
   - greatroc.org
   - greatroc.tw
@@ -13688,6 +13713,7 @@ domain_suffix_set:
   - hnext.jp
   - hnjhj.com
   - hnntube.com
+  - hobbigame.com
   - hobonichielog.com
   - hochi.news
   - hochu.tv
@@ -14607,7 +14633,9 @@ domain_suffix_set:
   - igi-global.com
   - igmg.de
   - igmm.ac.uk
+  - ign.com
   - ign.jp
+  - ignimg.com
   - ignite.ac.uk
   - ignitedetroit.net
   - ignites.com
@@ -14970,6 +14998,7 @@ domain_suffix_set:
   - insecam.org
   - inshot.cc
   - inshot.com
+  - inside-games.jp
   - inside.com.tw
   - insidefilms.com
   - insidemacintosh.com
@@ -15594,6 +15623,7 @@ domain_suffix_set:
   - ithome.com.tw
   - itiger.com
   - itlearningspace-scot.ac.uk
+  - itmedia.co.jp
   - itnel.com
   - itnow.ac.uk
   - itol.ac.uk
@@ -16600,6 +16630,7 @@ domain_suffix_set:
   - kotlinlang.org
   - koubaibu.jp
   - kouwobb.com
+  - kpacg.com
   - kphimsex.net
   - kpht85.com
   - kpinsurances.com
@@ -17610,6 +17641,7 @@ domain_suffix_set:
   - mac.eu
   - mac.rs
   - mac.wang
+  - macaodaily.com
   - macappsto.re
   - macaulay.ac.uk
   - macbook.co
@@ -17680,6 +17712,7 @@ domain_suffix_set:
   - madewithcode.com
   - madewithmaya.com
   - madewithstudiotools.com
+  - madewithunity.jp
   - madhomemadeporn.com
   - madonna-av.com
   - madou.club
@@ -17697,6 +17730,7 @@ domain_suffix_set:
   - madvr.com
   - madvr.net
   - madvrlabs.llc
+  - maedahiroyuki.com
   - maes.ac.uk
   - mafia-linkz.to
   - mageconf.com
@@ -17836,6 +17870,7 @@ domain_suffix_set:
   - mansurfer.com
   - manta.com
   - mantais.ac.uk
+  - mantan-web.jp
   - mantochichi.com
   - manufacturingedc.ac.uk
   - manurefetish.com
@@ -18220,6 +18255,7 @@ domain_suffix_set:
   - media-imdb.com
   - media.org.hk
   - mediachinese.com
+  - mediaclip.jp
   - mediafiles-cisco.com
   - mediafire.com
   - mediafreakcity.com
@@ -19038,6 +19074,7 @@ domain_suffix_set:
   - moegirl.org
   - moeimg.net
   - moemax.net
+  - moepedia.net
   - moeshare.cc
   - moez-m.com
   - mof.kemomi.me
@@ -20298,6 +20335,7 @@ domain_suffix_set:
   - nextwork.com.tw
   - nextwork.hk
   - nextwork.tw
+  - nexus-cdn.com
   - nexusmods.com
   - nf.id.au
   - nfacstem.ac.uk
@@ -21355,6 +21393,7 @@ domain_suffix_set:
   - onlineapplestore.com
   - onlinecha.com
   - onlinefucktube.com
+  - onlinegamer.jp
   - onlinegeeksquad.com
   - onlineinstagram.com
   - onlinemonsterbeatsonsale.com
@@ -23411,6 +23450,7 @@ domain_suffix_set:
   - qnap.com
   - qobuz.com
   - qombol.com
+  - qoo-app.com
   - qoo10.jp
   - qooqlevideo.com
   - qoos.com
@@ -23813,6 +23853,7 @@ domain_suffix_set:
   - realraptalk.com
   - realsexdoll.com
   - realsexpass.com
+  - realsound.jp
   - realteengirls.com
   - realtor.com
   - realtype.co.jp
@@ -24434,6 +24475,7 @@ domain_suffix_set:
   - sages.ac.uk
   - sahabatsetiasmartone.com
   - sahfos.ac.uk
+  - saiganak.com
   - sainsbury-laboratory.ac.uk
   - sainsburycentre.ac.uk
   - sainsburyinstituteforart.ac.uk
@@ -27305,6 +27347,7 @@ domain_suffix_set:
   - tg-me.com
   - tg.dev
   - tgac.ac.uk
+  - tgdaily.co.kr
   - tgfcer.com
   - tgirlcentral.com
   - tgirlpostop.com
@@ -27561,6 +27604,7 @@ domain_suffix_set:
   - thirdns.de
   - thisav.com
   - thisav.org
+  - thisisgame.com
   - thisismoney.co.uk
   - thisispolaris.com
   - thismon.ee
@@ -27730,6 +27774,7 @@ domain_suffix_set:
   - tigervpn.com
   - tiipple.ac.uk
   - tik-tokapi.com
+  - tiktok-minis.com
   - tiktok-row.net
   - tiktok.com
   - tiktokcdn-eu.com
@@ -30112,6 +30157,7 @@ domain_suffix_set:
   - want520.com
   - wantblogger.com
   - wantmywife.com
+  - wanuxi.com
   - wanz-factory.com
   - wapedia.mobi
   - waplog.com
@@ -30141,6 +30187,7 @@ domain_suffix_set:
   - watch-ebay.org
   - watch-my-gf.com
   - watch-porn.net
+  - watch.impress.co.jp
   - watch8x.com
   - watchanimeattheoffice.com
   - watchdisneyfe.com
@@ -31766,6 +31813,7 @@ domain_suffix_set:
   - yorkshireuniversities.ac.uk
   - yorksj.ac.uk
   - yorkstonemasonrycove.ac.uk
+  - yorozoonews.jp
   - yoshisnewisland.com
   - you-get.org
   - you.com
