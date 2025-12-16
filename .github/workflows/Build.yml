@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v6.0.1
         with:
           repository: Centralmatrix3/Matrix-io
-          path: Matrix-io-repo
+          path: Matrix-io
 
       - name: Build
         run: |
@@ -26,21 +26,21 @@ jobs:
 
       - name: Egern
         run: |
-          for dir in Matrix-io-repo/Egern/Ruleset; do
+          for dir in Matrix-io/Egern/Ruleset; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
             python Build.py Egern "$dir"
           done
 
       - name: QuantumultX
         run: |
-          for dir in Matrix-io-repo/QuantumultX/Ruleset; do
+          for dir in Matrix-io/QuantumultX/Ruleset; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
             python Build.py QuantumultX "$dir"
           done
 
       - name: Singbox
         run: |
-          for dir in Matrix-io-repo/Sing-box/Ruleset; do
+          for dir in Matrix-io/Sing-box/Ruleset; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
             python Build.py Singbox "$dir"
           done
@@ -52,7 +52,7 @@ jobs:
           chmod +x "sing-box-${SING_BOX_VERSION}-linux-amd64/sing-box"
           sudo  mv "sing-box-${SING_BOX_VERSION}-linux-amd64/sing-box" /usr/local/bin/sing-box
           sing-box version
-          for file in Matrix-io-repo/Sing-box/Ruleset/*.json; do
+          for file in Matrix-io/Sing-box/Ruleset/*.json; do
             [ ! -f "$file" ] && echo "$file not found." && continue
             sing-box rule-set compile "$file" -o "${file%.json}.srs"
           done
@@ -60,21 +60,21 @@ jobs:
 
       - name: Stash
         run: |
-          for dir in Matrix-io-repo/{Clash,Stash}/Ruleset; do
+          for dir in Matrix-io/{Clash,Stash}/Ruleset; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
             python Build.py Stash "$dir"
           done
 
       - name: Surge
         run: |
-          for dir in Matrix-io-repo/{Loon,Shadowrocket,Surge}/Ruleset; do
+          for dir in Matrix-io/{Loon,Shadowrocket,Surge}/Ruleset; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
             python Build.py Surge "$dir"
           done
 
       - name: Push Update
         run: |
-          cd Matrix-io-repo
+          cd Matrix-io
           if [[ -n $(git status -s) ]]; then
             git config --local user.email "${{ github.actor }}@users.noreply.github.com"
             git config --local user.name "${{ github.actor }}"
