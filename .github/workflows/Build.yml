@@ -44,9 +44,6 @@ jobs:
             [ ! -d "$dir" ] && echo "$dir not found." && continue
             python Build.py Singbox "$dir"
           done
-
-      - name: Compile
-        run: |
           curl -fsSL -o sing-box.tar.gz "https://github.com/SagerNet/sing-box/releases/download/v${SING_BOX_VERSION}/sing-box-${SING_BOX_VERSION}-linux-amd64.tar.gz"
           tar -xzf sing-box.tar.gz
           chmod +x "sing-box-${SING_BOX_VERSION}-linux-amd64/sing-box"
