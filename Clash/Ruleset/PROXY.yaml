@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26402
+# 规则统计: 26404
 
 payload:
   - '1password.drift.click'
@@ -4140,6 +4140,7 @@ payload:
   - '+.bit-z.com'
   - '+.bit.do'
   - '+.bit.ly'
+  - '+.bitbaby.com'
   - '+.bitballoon.com'
   - '+.bitbank.cc'
   - '+.bitbay.net'
@@ -12366,6 +12367,7 @@ payload:
   - '+.icuminside.com'
   - '+.id.hao123.com'
   - '+.idarkdoll.com'
+  - '+.idcflare.com'
   - '+.idea-server.com'
   - '+.ideal-teens.com'
   - '+.ideapocket.com'

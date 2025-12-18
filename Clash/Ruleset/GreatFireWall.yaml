@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5962
+# 规则统计: 5964
 
 payload:
   - '+.000webhost.com'
@@ -558,6 +558,7 @@ payload:
   - '+.bit-z.com'
   - '+.bit.do'
   - '+.bit.ly'
+  - '+.bitbaby.com'
   - '+.bitbay.net'
   - '+.bitchute.com'
   - '+.bitcointalk.org'
@@ -2634,6 +2635,7 @@ payload:
   - '+.icu-project.org'
   - '+.id.hao123.com'
   - '+.id.heroku.com'
+  - '+.idcflare.com'
   - '+.idemocracy.asia'
   - '+.identi.ca'
   - '+.idiomconnection.com'

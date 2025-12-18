@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26402
+# 规则统计: 26404
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -4139,6 +4139,7 @@ HOST-SUFFIX,bisyoujyogyaruge.topaz.ne.jp,PROXY
 HOST-SUFFIX,bit-z.com,PROXY
 HOST-SUFFIX,bit.do,PROXY
 HOST-SUFFIX,bit.ly,PROXY
+HOST-SUFFIX,bitbaby.com,PROXY
 HOST-SUFFIX,bitballoon.com,PROXY
 HOST-SUFFIX,bitbank.cc,PROXY
 HOST-SUFFIX,bitbay.net,PROXY
@@ -12365,6 +12366,7 @@ HOST-SUFFIX,icu-project.org,PROXY
 HOST-SUFFIX,icuminside.com,PROXY
 HOST-SUFFIX,id.hao123.com,PROXY
 HOST-SUFFIX,idarkdoll.com,PROXY
+HOST-SUFFIX,idcflare.com,PROXY
 HOST-SUFFIX,idea-server.com,PROXY
 HOST-SUFFIX,ideal-teens.com,PROXY
 HOST-SUFFIX,ideapocket.com,PROXY

@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5962
+# 规则统计: 5964
 
 HOST-SUFFIX,000webhost.com,GreatFireWall
 HOST-SUFFIX,030buy.com,GreatFireWall
@@ -557,6 +557,7 @@ HOST-SUFFIX,bird.so,GreatFireWall
 HOST-SUFFIX,bit-z.com,GreatFireWall
 HOST-SUFFIX,bit.do,GreatFireWall
 HOST-SUFFIX,bit.ly,GreatFireWall
+HOST-SUFFIX,bitbaby.com,GreatFireWall
 HOST-SUFFIX,bitbay.net,GreatFireWall
 HOST-SUFFIX,bitchute.com,GreatFireWall
 HOST-SUFFIX,bitcointalk.org,GreatFireWall
@@ -2633,6 +2634,7 @@ HOST-SUFFIX,iconpaper.org,GreatFireWall
 HOST-SUFFIX,icu-project.org,GreatFireWall
 HOST-SUFFIX,id.hao123.com,GreatFireWall
 HOST-SUFFIX,id.heroku.com,GreatFireWall
+HOST-SUFFIX,idcflare.com,GreatFireWall
 HOST-SUFFIX,idemocracy.asia,GreatFireWall
 HOST-SUFFIX,identi.ca,GreatFireWall
 HOST-SUFFIX,idiomconnection.com,GreatFireWall

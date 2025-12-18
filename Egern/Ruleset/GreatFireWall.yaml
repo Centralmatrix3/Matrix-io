@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5962
+# 规则统计: 5964
 
 domain_suffix_set:
   - 000webhost.com
@@ -558,6 +558,7 @@ domain_suffix_set:
   - bit-z.com
   - bit.do
   - bit.ly
+  - bitbaby.com
   - bitbay.net
   - bitchute.com
   - bitcointalk.org
@@ -2634,6 +2635,7 @@ domain_suffix_set:
   - icu-project.org
   - id.hao123.com
   - id.heroku.com
+  - idcflare.com
   - idemocracy.asia
   - identi.ca
   - idiomconnection.com
