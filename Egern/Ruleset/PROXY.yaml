@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26404
+# 规则统计: 26405
 
 domain_set:
   - 1password.drift.click
@@ -3247,6 +3247,7 @@ domain_suffix_set:
   - aws
   - aws-iot-hackathon.com
   - aws.com
+  - aws.dev
   - awsapprunner.com
   - awsapps.com
   - awsautopilot.com

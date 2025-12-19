@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26404
+# 规则统计: 26405
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -3245,6 +3245,7 @@ DOMAIN-SUFFIX,awjq.cc
 DOMAIN-SUFFIX,aws
 DOMAIN-SUFFIX,aws-iot-hackathon.com
 DOMAIN-SUFFIX,aws.com
+DOMAIN-SUFFIX,aws.dev
 DOMAIN-SUFFIX,awsapprunner.com
 DOMAIN-SUFFIX,awsapps.com
 DOMAIN-SUFFIX,awsautopilot.com

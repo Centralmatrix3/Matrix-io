@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26404
+# 规则统计: 26405
 
 payload:
   - '1password.drift.click'
@@ -3246,6 +3246,7 @@ payload:
   - '+.aws'
   - '+.aws-iot-hackathon.com'
   - '+.aws.com'
+  - '+.aws.dev'
   - '+.awsapprunner.com'
   - '+.awsapps.com'
   - '+.awsautopilot.com'

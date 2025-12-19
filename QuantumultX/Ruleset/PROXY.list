@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26404
+# 规则统计: 26405
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -3245,6 +3245,7 @@ HOST-SUFFIX,awjq.cc,PROXY
 HOST-SUFFIX,aws,PROXY
 HOST-SUFFIX,aws-iot-hackathon.com,PROXY
 HOST-SUFFIX,aws.com,PROXY
+HOST-SUFFIX,aws.dev,PROXY
 HOST-SUFFIX,awsapprunner.com,PROXY
 HOST-SUFFIX,awsapps.com,PROXY
 HOST-SUFFIX,awsautopilot.com,PROXY
