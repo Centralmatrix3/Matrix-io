@@ -44,8 +44,8 @@
       <td align="center"><a href="https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Surge/Matrix.conf"><strong>配置</strong></a></td>
     </tr>
     <tr>
-      <td align="center" colspan="2"><strong><a href="https://github.com/Centralmatrix3/Scripts/blob/master/NOTICE.md#免责声明">免责声明</a></strong></td>
-      <td align="center" colspan="2"><strong><a href="https://github.com/Centralmatrix3/Scripts/blob/master/NOTICE.md#特别感谢">特别感谢</a></strong></td>
+      <td align="center" colspan="2"><strong><a href="https://github.com/Centralmatrix3/Scripts/blob/master/notice.md#免责声明">免责声明</a></strong></td>
+      <td align="center" colspan="2"><strong><a href="https://github.com/Centralmatrix3/Scripts/blob/master/notice.md#特别感谢">特别感谢</a></strong></td>
     </tr>
   </table>
 </div>
