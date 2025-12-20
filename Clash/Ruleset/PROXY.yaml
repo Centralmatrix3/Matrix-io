@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26405
+# 规则统计: 26412
 
 payload:
   - '1password.drift.click'
@@ -255,7 +255,13 @@ payload:
   - 'notary-submissions-prod.s3.us-west-2.amazonaws.com'
   - 'notify.ppy.sh'
   - 'np-edge.itunes.apple.com'
+  - 'ntdfreemobile-tgc.cdn.hinet.net'
+  - 'ntdfreepc-tgc.cdn.hinet.net'
+  - 'ntdfreetv-tgc.cdn.hinet.net'
+  - 'ntdfreevcpc-tgc.cdn.hinet.net'
+  - 'ntdofifreemobile-tgc.cdn.hinet.net'
   - 'ntdofifreepc-tgc.cdn.hinet.net'
+  - 'ntdofifreetv-tgc.cdn.hinet.net'
   - 'ntdofifreevcpc-tgc.cdn.hinet.net'
   - 'ntp-b.nist.gov'
   - 'ntp-c.colorado.edu'
@@ -18077,6 +18083,7 @@ payload:
   - '+.parstream.net'
   - '+.parstream.org'
   - '+.partmaker.com'
+  - '+.partnerstack.xyz'
   - '+.partycasino.com'
   - '+.partylikeits1986.org'
   - '+.partypoker.com'

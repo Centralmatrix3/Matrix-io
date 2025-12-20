@@ -1,5 +1,5 @@
 # 规则名称: ChinaIPBGP
-# 规则统计: 3941
+# 规则统计: 3934
 
 payload:
   - IP-CIDR,1.1.8.0/24,no-resolve
@@ -172,6 +172,7 @@ payload:
   - IP-CIDR,103.111.64.0/24,no-resolve
   - IP-CIDR,103.113.4.0/22,no-resolve
   - IP-CIDR,103.114.100.0/22,no-resolve
+  - IP-CIDR,103.114.212.0/23,no-resolve
   - IP-CIDR,103.114.236.0/22,no-resolve
   - IP-CIDR,103.115.120.0/24,no-resolve
   - IP-CIDR,103.115.248.0/22,no-resolve
@@ -351,7 +352,6 @@ payload:
   - IP-CIDR,103.216.136.0/22,no-resolve
   - IP-CIDR,103.216.152.0/22,no-resolve
   - IP-CIDR,103.216.252.0/22,no-resolve
-  - IP-CIDR,103.217.180.0/24,no-resolve
   - IP-CIDR,103.217.184.0/21,no-resolve
   - IP-CIDR,103.217.192.0/20,no-resolve
   - IP-CIDR,103.218.216.0/22,no-resolve
@@ -1990,8 +1990,7 @@ payload:
   - IP-CIDR,144.12.0.0/16,no-resolve
   - IP-CIDR,144.123.0.0/16,no-resolve
   - IP-CIDR,144.255.0.0/16,no-resolve
-  - IP-CIDR,144.48.180.0/23,no-resolve
-  - IP-CIDR,144.48.182.0/24,no-resolve
+  - IP-CIDR,144.48.180.0/22,no-resolve
   - IP-CIDR,144.48.184.0/22,no-resolve
   - IP-CIDR,144.48.212.0/22,no-resolve
   - IP-CIDR,144.48.64.0/22,no-resolve
@@ -3446,13 +3445,8 @@ payload:
   - IP-CIDR,43.226.128.0/19,no-resolve
   - IP-CIDR,43.226.164.0/22,no-resolve
   - IP-CIDR,43.226.236.0/22,no-resolve
-  - IP-CIDR,43.226.32.0/20,no-resolve
-  - IP-CIDR,43.226.48.0/24,no-resolve
-  - IP-CIDR,43.226.50.0/23,no-resolve
-  - IP-CIDR,43.226.52.0/22,no-resolve
-  - IP-CIDR,43.226.56.0/21,no-resolve
-  - IP-CIDR,43.226.64.0/21,no-resolve
-  - IP-CIDR,43.226.76.0/22,no-resolve
+  - IP-CIDR,43.226.32.0/19,no-resolve
+  - IP-CIDR,43.226.64.0/20,no-resolve
   - IP-CIDR,43.227.104.0/22,no-resolve
   - IP-CIDR,43.227.140.0/22,no-resolve
   - IP-CIDR,43.227.152.0/21,no-resolve
@@ -3461,9 +3455,7 @@ payload:
   - IP-CIDR,43.227.192.0/19,no-resolve
   - IP-CIDR,43.227.252.0/22,no-resolve
   - IP-CIDR,43.227.56.0/21,no-resolve
-  - IP-CIDR,43.227.64.0/22,no-resolve
-  - IP-CIDR,43.227.69.0/24,no-resolve
-  - IP-CIDR,43.227.70.0/23,no-resolve
+  - IP-CIDR,43.227.64.0/21,no-resolve
   - IP-CIDR,43.227.80.0/20,no-resolve
   - IP-CIDR,43.228.0.0/19,no-resolve
   - IP-CIDR,43.228.204.0/22,no-resolve
@@ -3637,6 +3629,7 @@ payload:
   - IP-CIDR,45.192.21.0/24,no-resolve
   - IP-CIDR,45.248.108.0/24,no-resolve
   - IP-CIDR,45.248.8.0/22,no-resolve
+  - IP-CIDR,45.249.188.0/24,no-resolve
   - IP-CIDR,45.249.208.0/23,no-resolve
   - IP-CIDR,45.249.212.0/22,no-resolve
   - IP-CIDR,45.250.152.0/23,no-resolve
