@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26412
+# 规则统计: 26420
 
 domain_set:
   - 1password.drift.click
@@ -7448,6 +7448,8 @@ domain_suffix_set:
   - dmed.technology
   - dmgmediaprivacy.co.uk
   - dmhy.org
+  - dmit.io
+  - dmit.sh
   - dml-lang.org
   - dmm-extension.com
   - dmm.co.jp
@@ -7888,6 +7890,7 @@ domain_suffix_set:
   - dynu.net
   - dynupdate.no-ip.com
   - dysfz.cc
+  - dzcdn.net
   - dzen.ru
   - dzeninfra.ru
   - dzze.com
@@ -8369,6 +8372,7 @@ domain_suffix_set:
   - entrust.com
   - entrust.net
   - entrustdatacard.com
+  - eotarchive.org
   - epac.to
   - epicbrowser.com
   - epicgames.com
@@ -10387,6 +10391,7 @@ domain_suffix_set:
   - ghcr.io
   - ghettotube.com
   - ghidra-sre.org
+  - ghostarchive.org
   - ghostgames.com
   - ghostpath.com
   - ghut.org
@@ -15365,6 +15370,7 @@ domain_suffix_set:
   - meme111.com
   - memealerts.com
   - memehk.com
+  - mementoweb.org
   - memes.tw
   - memri.org
   - memrijttm.org
@@ -18396,6 +18402,7 @@ domain_suffix_set:
   - perfecttitspics.com
   - periscope.tv
   - perl.org
+  - perma.cc
   - perplexity.ai
   - perplexity.com
   - persagg.com
@@ -24558,6 +24565,7 @@ domain_suffix_set:
   - webcammedellin.co
   - webcams.tv
   - webcamtubexxx.com
+  - webcitation.org
   - webevader.org
   - webex.ca
   - webex.co.in

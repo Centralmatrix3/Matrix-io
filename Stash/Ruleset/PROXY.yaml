@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26412
+# 规则统计: 26420
 
 payload:
   - '1password.drift.click'
@@ -7447,6 +7447,8 @@ payload:
   - '+.dmed.technology'
   - '+.dmgmediaprivacy.co.uk'
   - '+.dmhy.org'
+  - '+.dmit.io'
+  - '+.dmit.sh'
   - '+.dml-lang.org'
   - '+.dmm-extension.com'
   - '+.dmm.co.jp'
@@ -7887,6 +7889,7 @@ payload:
   - '+.dynu.net'
   - '+.dynupdate.no-ip.com'
   - '+.dysfz.cc'
+  - '+.dzcdn.net'
   - '+.dzen.ru'
   - '+.dzeninfra.ru'
   - '+.dzze.com'
@@ -8368,6 +8371,7 @@ payload:
   - '+.entrust.com'
   - '+.entrust.net'
   - '+.entrustdatacard.com'
+  - '+.eotarchive.org'
   - '+.epac.to'
   - '+.epicbrowser.com'
   - '+.epicgames.com'
@@ -10386,6 +10390,7 @@ payload:
   - '+.ghcr.io'
   - '+.ghettotube.com'
   - '+.ghidra-sre.org'
+  - '+.ghostarchive.org'
   - '+.ghostgames.com'
   - '+.ghostpath.com'
   - '+.ghut.org'
@@ -15364,6 +15369,7 @@ payload:
   - '+.meme111.com'
   - '+.memealerts.com'
   - '+.memehk.com'
+  - '+.mementoweb.org'
   - '+.memes.tw'
   - '+.memri.org'
   - '+.memrijttm.org'
@@ -18395,6 +18401,7 @@ payload:
   - '+.perfecttitspics.com'
   - '+.periscope.tv'
   - '+.perl.org'
+  - '+.perma.cc'
   - '+.perplexity.ai'
   - '+.perplexity.com'
   - '+.persagg.com'
@@ -24557,6 +24564,7 @@ payload:
   - '+.webcammedellin.co'
   - '+.webcams.tv'
   - '+.webcamtubexxx.com'
+  - '+.webcitation.org'
   - '+.webevader.org'
   - '+.webex.ca'
   - '+.webex.co.in'
