@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5965
+# 规则统计: 5966
 
 domain_suffix_set:
   - 000webhost.com
@@ -4604,6 +4604,7 @@ domain_suffix_set:
   - startuplivingchina.com
   - stat.gov.tw
   - static-economist.com
+  - static.pocketcasts.com
   - static.shemalez.com
   - static01.nyt.com
   - staticflickr.com

@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5965
+# 规则统计: 5966
 
 HOST-SUFFIX,000webhost.com,GreatFireWall
 HOST-SUFFIX,030buy.com,GreatFireWall
@@ -4603,6 +4603,7 @@ HOST-SUFFIX,startpage.com,GreatFireWall
 HOST-SUFFIX,startuplivingchina.com,GreatFireWall
 HOST-SUFFIX,stat.gov.tw,GreatFireWall
 HOST-SUFFIX,static-economist.com,GreatFireWall
+HOST-SUFFIX,static.pocketcasts.com,GreatFireWall
 HOST-SUFFIX,static.shemalez.com,GreatFireWall
 HOST-SUFFIX,static01.nyt.com,GreatFireWall
 HOST-SUFFIX,staticflickr.com,GreatFireWall
