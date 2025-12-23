@@ -1,5 +1,5 @@
 # 规则名称: AdBlock
-# 规则统计: 100190
+# 规则统计: 100192
 
 payload:
   - '+.0.myikas.com'
@@ -72767,6 +72767,7 @@ payload:
   - '+.sdk-ab-config.qquanquan.com'
   - '+.sdk-analytics-web.cloud.itau.com.br'
   - '+.sdk-cache.video.ptqy.gitv.tv'
+  - '+.sdk-config.tanx.com'
   - '+.sdk.api.bjshcw.com'
   - '+.sdk.api.oaid.wocloud.cn'
   - '+.sdk.appadhoc.com.bsclink.cn'
@@ -80634,6 +80635,7 @@ payload:
   - '+.statistics.tuv.com'
   - '+.statistics.wibiya.com'
   - '+.statisticsaccent.com'
+  - '+.statisticslinks.com'
   - '+.statisticsplatform.com'
   - '+.statistiek.rijksoverheid.nl'
   - '+.statistik-gallup.net'
