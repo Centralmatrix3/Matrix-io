@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26420
+# 规则统计: 26426
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -6285,6 +6285,7 @@ HOST-SUFFIX,collegesexgames.com,PROXY
 HOST-SUFFIX,colliderporn.com,PROXY
 HOST-SUFFIX,collins.co.uk,PROXY
 HOST-SUFFIX,collins.in,PROXY
+HOST-SUFFIX,collinsdictionary.com,PROXY
 HOST-SUFFIX,colombianas.webcam,PROXY
 HOST-SUFFIX,colorfulstage.com,PROXY
 HOST-SUFFIX,colorprotechnology.com,PROXY
@@ -10030,21 +10031,18 @@ HOST-SUFFIX,fusker.xxx,PROXY
 HOST-SUFFIX,futanarihq.com,PROXY
 HOST-SUFFIX,futhead.com,PROXY
 HOST-SUFFIX,futpromos.com,PROXY
-HOST-SUFFIX,futuesop.com,PROXY
 HOST-SUFFIX,futufin.com,PROXY
 HOST-SUFFIX,futuhk.com,PROXY
+HOST-SUFFIX,futuhkapp.com,PROXY
 HOST-SUFFIX,futuhn.com,PROXY
 HOST-SUFFIX,futuholdings.com,PROXY
 HOST-SUFFIX,futunited.com,PROXY
-HOST-SUFFIX,futuniuniu.com,PROXY
-HOST-SUFFIX,futunn.com,PROXY
 HOST-SUFFIX,futurechinaforum.org,PROXY
 HOST-SUFFIX,futuremessage.org,PROXY
 HOST-SUFFIX,futureofbritishmanufacturing.com,PROXY
 HOST-SUFFIX,futureofbusinesssurvey.org,PROXY
 HOST-SUFFIX,futureofmaktingthings.com,PROXY
 HOST-SUFFIX,futureshop.ca,PROXY
-HOST-SUFFIX,futustatic.com,PROXY
 HOST-SUFFIX,fux.com,PROXY
 HOST-SUFFIX,fuxporn.com,PROXY
 HOST-SUFFIX,fuyindiantai.org,PROXY
@@ -14337,6 +14335,7 @@ HOST-SUFFIX,lbtube.com,PROXY
 HOST-SUFFIX,lcgirls.com,PROXY
 HOST-SUFFIX,lcsmerch.com,PROXY
 HOST-SUFFIX,ld.hao123img.com,PROXY
+HOST-SUFFIX,ldoceonline.com,PROXY
 HOST-SUFFIX,ldplayer.net,PROXY
 HOST-SUFFIX,ldplayer.tw,PROXY
 HOST-SUFFIX,ldstatic.com,PROXY
@@ -16871,6 +16870,7 @@ HOST-SUFFIX,newmitbbs.com,PROXY
 HOST-SUFFIX,newmonst1erbeatsto1re.com,PROXY
 HOST-SUFFIX,newmonsterbeatsheadphones.com,PROXY
 HOST-SUFFIX,newnews.ca,PROXY
+HOST-SUFFIX,newpipe.net,PROXY
 HOST-SUFFIX,newpppp.com,PROXY
 HOST-SUFFIX,news.co.uk,PROXY
 HOST-SUFFIX,news.com.au,PROXY
@@ -24394,7 +24394,12 @@ HOST-SUFFIX,vpsxb.net,PROXY
 HOST-SUFFIX,vraiesagesse.net,PROXY
 HOST-SUFFIX,vrbgay.com,PROXY
 HOST-SUFFIX,vrcams.io,PROXY
+HOST-SUFFIX,vrcdn.cloud,PROXY
+HOST-SUFFIX,vrcdn.live,PROXY
+HOST-SUFFIX,vrcdn.video,PROXY
+HOST-SUFFIX,vrchat.cloud,PROXY
 HOST-SUFFIX,vrchat.com,PROXY
+HOST-SUFFIX,vrchat.net,PROXY
 HOST-SUFFIX,vred-essentials.com,PROXY
 HOST-SUFFIX,vredessentials.com,PROXY
 HOST-SUFFIX,vredprofessional.com,PROXY
@@ -24589,6 +24594,7 @@ HOST-SUFFIX,webjb.org,PROXY
 HOST-SUFFIX,webkit.org,PROXY
 HOST-SUFFIX,webkitgtk.org,PROXY
 HOST-SUFFIX,weblagu.com,PROXY
+HOST-SUFFIX,weblate.org,PROXY
 HOST-SUFFIX,webmoneyinfo.com,PROXY
 HOST-SUFFIX,webmproject.org,PROXY
 HOST-SUFFIX,webnovel.com,PROXY
