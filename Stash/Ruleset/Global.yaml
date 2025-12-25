@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7386
+# 规则统计: 7387
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -4286,6 +4286,7 @@ payload:
   - DOMAIN-SUFFIX,neo-miracle.com
   - DOMAIN-SUFFIX,neoforged.net
   - DOMAIN-SUFFIX,neowin.net
+  - DOMAIN-SUFFIX,nephobox.com
   - DOMAIN-SUFFIX,netalert.me
   - DOMAIN-SUFFIX,netbirds.com
   - DOMAIN-SUFFIX,netcolony.com

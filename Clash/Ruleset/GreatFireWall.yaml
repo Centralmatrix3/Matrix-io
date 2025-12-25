@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5966
+# 规则统计: 5967
 
 payload:
   - '+.000webhost.com'
@@ -3512,6 +3512,7 @@ payload:
   - '+.nemesis2.qx.net'
   - '+.neo-miracle.com'
   - '+.neowin.net'
+  - '+.nephobox.com'
   - '+.netalert.me'
   - '+.netbirds.com'
   - '+.netcolony.com'
