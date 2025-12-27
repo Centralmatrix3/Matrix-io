@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7387
+# 规则统计: 7388
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -3807,6 +3807,7 @@ payload:
   - DOMAIN-SUFFIX,lotsawahouse.org
   - DOMAIN-SUFFIX,lotuslight.org.hk
   - DOMAIN-SUFFIX,lotuslight.org.tw
+  - DOMAIN-SUFFIX,lovart.ai
   - DOMAIN-SUFFIX,loved.hk
   - DOMAIN-SUFFIX,lovetvshow.com
   - DOMAIN-SUFFIX,lpsg.com
