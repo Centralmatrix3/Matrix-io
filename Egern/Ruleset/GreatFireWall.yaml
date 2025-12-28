@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5967
+# 规则统计: 5969
 
 domain_suffix_set:
   - 000webhost.com
@@ -224,6 +224,7 @@ domain_suffix_set:
   - aliengu.com
   - alive.bar
   - aljazeera.com
+  - aljazeera.net
   - alkasir.com
   - all4mom.org
   - allcoin.com
@@ -1290,7 +1291,6 @@ domain_suffix_set:
   - delcamp.net
   - demo.unlock-music.dev
   - demosisto.hk
-  - deno.dev
   - depositphotos.com
   - desc.se
   - desipro.de
@@ -1360,7 +1360,6 @@ domain_suffix_set:
   - docker.com
   - docker.io
   - dockerstatus.com
-  - docs.deno.com
   - docs.new
   - doctorvoice.org
   - documentingreality.com
@@ -1986,6 +1985,7 @@ domain_suffix_set:
   - gfw.press
   - gfw.report
   - gfwatch.org
+  - gfwbao.com
   - ggpht.com
   - ggssl.com
   - ghidra-sre.org
@@ -2774,6 +2774,7 @@ domain_suffix_set:
   - ismprofessional.net
   - isohunt.com
   - israbox.com
+  - issues.chromium.org
   - issuu.com
   - istars.co.nz
   - istockphoto.com
@@ -4612,6 +4613,7 @@ domain_suffix_set:
   - stboy.net
   - stc.com.sa
   - steamcommunity.com
+  - steamladder.com
   - steamstatic.com
   - steel-storm.com
   - steemit.com

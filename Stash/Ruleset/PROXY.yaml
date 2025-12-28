@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26428
+# 规则统计: 26429
 
 payload:
   - '1password.drift.click'
@@ -7046,7 +7046,6 @@ payload:
   - '+.dengekionline.com'
   - '+.dengiamerika.com'
   - '+.deno.com'
-  - '+.deno.dev'
   - '+.deno.land'
   - '+.dentalhypotheses.com'
   - '+.dependabot.com'
@@ -10371,6 +10370,7 @@ payload:
   - '+.gfw.press'
   - '+.gfw.report'
   - '+.gfwatch.org'
+  - '+.gfwbao.com'
   - '+.gfx.ms'
   - '+.gfycat.com'
   - '+.gfysex.com'
@@ -21642,6 +21642,7 @@ payload:
   - '+.steamdb.info'
   - '+.steamdeck.com'
   - '+.steamgames.com'
+  - '+.steamladder.com'
   - '+.steamofporn.com'
   - '+.steampowered.com'
   - '+.steamserver.net'

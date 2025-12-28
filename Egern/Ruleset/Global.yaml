@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7388
+# 规则统计: 7391
 
 no_resolve: true
 domain_set:
@@ -279,6 +279,7 @@ domain_suffix_set:
   - aliengu.com
   - alive.bar
   - aljazeera.com
+  - aljazeera.net
   - alkasir.com
   - all4mom.org
   - allcoin.com
@@ -1634,7 +1635,6 @@ domain_suffix_set:
   - docker.io
   - dockerstatus.com
   - docs.cfw.lbyczf.com
-  - docs.deno.com
   - docs.new
   - doctorvoice.org
   - documentingreality.com
@@ -2397,6 +2397,7 @@ domain_suffix_set:
   - gfw.press
   - gfw.report
   - gfwatch.org
+  - gfwbao.com
   - gfwlist.end
   - gfwlist.start
   - ggpht.com
@@ -3373,6 +3374,7 @@ domain_suffix_set:
   - ismprofessional.net
   - isohunt.com
   - israbox.com
+  - issues.chromium.org
   - issuu.com
   - istars.co.nz
   - istarshine.com
@@ -5652,6 +5654,7 @@ domain_suffix_set:
   - steam-chat.com
   - steamcommunity.com
   - steamgames.com
+  - steamladder.com
   - steampowered.com
   - steamserver.net
   - steamstat.us

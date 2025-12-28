@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26428
+# 规则统计: 26429
 
 domain_set:
   - 1password.drift.click
@@ -7047,7 +7047,6 @@ domain_suffix_set:
   - dengekionline.com
   - dengiamerika.com
   - deno.com
-  - deno.dev
   - deno.land
   - dentalhypotheses.com
   - dependabot.com
@@ -10372,6 +10371,7 @@ domain_suffix_set:
   - gfw.press
   - gfw.report
   - gfwatch.org
+  - gfwbao.com
   - gfx.ms
   - gfycat.com
   - gfysex.com
@@ -21643,6 +21643,7 @@ domain_suffix_set:
   - steamdb.info
   - steamdeck.com
   - steamgames.com
+  - steamladder.com
   - steamofporn.com
   - steampowered.com
   - steamserver.net
