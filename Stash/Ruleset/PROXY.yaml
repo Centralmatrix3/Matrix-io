@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26429
+# 规则统计: 26431
 
 payload:
   - '1password.drift.click'
@@ -2775,6 +2775,7 @@ payload:
   - '+.archivx.to'
   - '+.archlinux.org'
   - '+.archlinuxarm.org'
+  - '+.archlinuxcn.org'
   - '+.arcraiders.com'
   - '+.arctosia.com'
   - '+.area120.com'
@@ -10553,6 +10554,7 @@ payload:
   - '+.gockhuatviet.com'
   - '+.godaddy'
   - '+.godaddy.com'
+  - '+.godbolt.org'
   - '+.godfootsteps.org'
   - '+.godoc.org'
   - '+.godsdirectcontact.co.uk'

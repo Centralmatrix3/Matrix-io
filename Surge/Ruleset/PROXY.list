@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26429
+# 规则统计: 26431
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -2774,6 +2774,7 @@ DOMAIN-SUFFIX,archives.gov
 DOMAIN-SUFFIX,archivx.to
 DOMAIN-SUFFIX,archlinux.org
 DOMAIN-SUFFIX,archlinuxarm.org
+DOMAIN-SUFFIX,archlinuxcn.org
 DOMAIN-SUFFIX,arcraiders.com
 DOMAIN-SUFFIX,arctosia.com
 DOMAIN-SUFFIX,area120.com
@@ -10552,6 +10553,7 @@ DOMAIN-SUFFIX,gobuyonlinestore.net
 DOMAIN-SUFFIX,gockhuatviet.com
 DOMAIN-SUFFIX,godaddy
 DOMAIN-SUFFIX,godaddy.com
+DOMAIN-SUFFIX,godbolt.org
 DOMAIN-SUFFIX,godfootsteps.org
 DOMAIN-SUFFIX,godoc.org
 DOMAIN-SUFFIX,godsdirectcontact.co.uk

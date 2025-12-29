@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26429
+# 规则统计: 26431
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -2774,6 +2774,7 @@ HOST-SUFFIX,archives.gov,PROXY
 HOST-SUFFIX,archivx.to,PROXY
 HOST-SUFFIX,archlinux.org,PROXY
 HOST-SUFFIX,archlinuxarm.org,PROXY
+HOST-SUFFIX,archlinuxcn.org,PROXY
 HOST-SUFFIX,arcraiders.com,PROXY
 HOST-SUFFIX,arctosia.com,PROXY
 HOST-SUFFIX,area120.com,PROXY
@@ -10552,6 +10553,7 @@ HOST-SUFFIX,gobuyonlinestore.net,PROXY
 HOST-SUFFIX,gockhuatviet.com,PROXY
 HOST-SUFFIX,godaddy,PROXY
 HOST-SUFFIX,godaddy.com,PROXY
+HOST-SUFFIX,godbolt.org,PROXY
 HOST-SUFFIX,godfootsteps.org,PROXY
 HOST-SUFFIX,godoc.org,PROXY
 HOST-SUFFIX,godsdirectcontact.co.uk,PROXY

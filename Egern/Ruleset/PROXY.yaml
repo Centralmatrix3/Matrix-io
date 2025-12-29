@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26429
+# 规则统计: 26431
 
 domain_set:
   - 1password.drift.click
@@ -2776,6 +2776,7 @@ domain_suffix_set:
   - archivx.to
   - archlinux.org
   - archlinuxarm.org
+  - archlinuxcn.org
   - arcraiders.com
   - arctosia.com
   - area120.com
@@ -10554,6 +10555,7 @@ domain_suffix_set:
   - gockhuatviet.com
   - godaddy
   - godaddy.com
+  - godbolt.org
   - godfootsteps.org
   - godoc.org
   - godsdirectcontact.co.uk
