@@ -3,75 +3,53 @@ name: Build
 on:
   workflow_dispatch:
   schedule:
-    - cron: "5 0,12 * * *"
+    - cron: "0 0,12 * * *"
 
 jobs:
   Build:
     runs-on: ubuntu-latest
     env:
       TZ: "Asia/Shanghai"
-      SING_BOX_VERSION: "1.12.13"
+      SING_BOX_VERSION: "1.12.14"
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v6.0.1
+
+      - name: Checkout Repository
+        uses: actions/checkout@v6.0.1
         with:
-          repository: Centralmatrix3/Matrix-io
-          path: Matrix-io
+          repository: Centralmatrix3/Scripts
+          path: Scripts
 
-      - name: Build
+      - name: Prepare Rule
         run: |
-          curl -fsSL -o Build.py https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Build.py
-          curl -fsSL -o Build.sh https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Build.sh
-          bash Build.sh
+          bash Scripts/Scripts/Build.sh
 
-      - name: Egern
+      - name: Process Rule
         run: |
-          for dir in Matrix-io/Egern/Ruleset; do
-            [ ! -d "$dir" ] && echo "$dir not found." && continue
-            python Build.py Egern "$dir"
-          done
+          python Scripts/Scripts/Build.py Stash Clash/Ruleset
+          python Scripts/Scripts/Build.py Egern Egern/Ruleset
+          python Scripts/Scripts/Build.py Surge Loon/Ruleset
+          python Scripts/Scripts/Build.py QuantumultX QuantumultX/Ruleset
+          python Scripts/Scripts/Build.py Surge Shadowrocket/Ruleset
+          python Scripts/Scripts/Build.py Singbox Sing-box/Ruleset
+          python Scripts/Scripts/Build.py Stash Stash/Ruleset
+          python Scripts/Scripts/Build.py Surge Surge/Ruleset
 
-      - name: QuantumultX
+      - name: Compile Rule
         run: |
-          for dir in Matrix-io/QuantumultX/Ruleset; do
-            [ ! -d "$dir" ] && echo "$dir not found." && continue
-            python Build.py QuantumultX "$dir"
-          done
-
-      - name: Singbox
-        run: |
-          for dir in Matrix-io/Sing-box/Ruleset; do
-            [ ! -d "$dir" ] && echo "$dir not found." && continue
-            python Build.py Singbox "$dir"
-          done
           curl -fsSL -o sing-box.tar.gz "https://github.com/SagerNet/sing-box/releases/download/v${SING_BOX_VERSION}/sing-box-${SING_BOX_VERSION}-linux-amd64.tar.gz"
           tar -xzf sing-box.tar.gz
           chmod +x "sing-box-${SING_BOX_VERSION}-linux-amd64/sing-box"
           sudo  mv "sing-box-${SING_BOX_VERSION}-linux-amd64/sing-box" /usr/local/bin/sing-box
           sing-box version
-          for file in Matrix-io/Sing-box/Ruleset/*.json; do
+          for file in Sing-box/Ruleset/*.json; do
             [ ! -f "$file" ] && echo "$file not found." && continue
             sing-box rule-set compile "$file" -o "${file%.json}.srs"
-          done
-          rm -rf sing-box.tar.gz "sing-box-${SING_BOX_VERSION}-linux-amd64"
-
-      - name: Stash
-        run: |
-          for dir in Matrix-io/{Clash,Stash}/Ruleset; do
-            [ ! -d "$dir" ] && echo "$dir not found." && continue
-            python Build.py Stash "$dir"
-          done
-
-      - name: Surge
-        run: |
-          for dir in Matrix-io/{Loon,Shadowrocket,Surge}/Ruleset; do
-            [ ! -d "$dir" ] && echo "$dir not found." && continue
-            python Build.py Surge "$dir"
           done
 
       - name: Push Update
         run: |
-          cd Matrix-io
           if [[ -n $(git status -s) ]]; then
             git config --local user.email "${{ github.actor }}@users.noreply.github.com"
             git config --local user.name "${{ github.actor }}"
