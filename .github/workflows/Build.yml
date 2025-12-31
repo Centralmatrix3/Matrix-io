@@ -21,9 +21,8 @@ jobs:
           repository: Centralmatrix3/Scripts
           path: Scripts
 
-      - name: Prepare Rule
-        run: |
-          bash Scripts/Scripts/Build.sh
+      - name: Build
+        run: bash Scripts/Scripts/Build.sh
 
       - name: Egern
         run: |
