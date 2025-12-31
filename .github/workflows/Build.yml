@@ -29,21 +29,21 @@ jobs:
         run: |
           for dir in Egern/Ruleset; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
-            python Build.py Egern "$dir"
+            python Scripts/Scripts/Build.py Egern "$dir"
           done
 
       - name: QuantumultX
         run: |
           for dir in QuantumultX/Ruleset; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
-            python Build.py QuantumultX "$dir"
+            python Scripts/Scripts/Build.py QuantumultX "$dir"
           done
 
       - name: Singbox
         run: |
           for dir in Sing-box/Ruleset; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
-            python Build.py Singbox "$dir"
+            python Scripts/Scripts/Build.py Singbox "$dir"
           done
           curl -fsSL -o sing-box.tar.gz "https://github.com/SagerNet/sing-box/releases/download/v${SING_BOX_VERSION}/sing-box-${SING_BOX_VERSION}-linux-amd64.tar.gz"
           tar -xzf sing-box.tar.gz
@@ -60,14 +60,14 @@ jobs:
         run: |
           for dir in {Clash,Stash}/Ruleset; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
-            python Build.py Stash "$dir"
+            python Scripts/Scripts/Build.py Stash "$dir"
           done
 
       - name: Surge
         run: |
           for dir in {Loon,Shadowrocket,Surge}/Ruleset; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
-            python Build.py Surge "$dir"
+            python Scripts/Scripts/Build.py Surge "$dir"
           done
 
       - name: Push Update
