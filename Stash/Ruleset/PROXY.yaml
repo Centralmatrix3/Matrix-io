@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26431
+# 规则统计: 26432
 
 payload:
   - '1password.drift.click'
@@ -11472,6 +11472,7 @@ payload:
   - '+.herokussl.com'
   - '+.herominers.com'
   - '+.herringnetwork.com'
+  - '+.hetzner-cloud.de'
   - '+.hetzner.cloud'
   - '+.hetzner.com'
   - '+.hetzner.company'

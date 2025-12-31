@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26431
+# 规则统计: 26432
 
 domain_set:
   - 1password.drift.click
@@ -11473,6 +11473,7 @@ domain_suffix_set:
   - herokussl.com
   - herominers.com
   - herringnetwork.com
+  - hetzner-cloud.de
   - hetzner.cloud
   - hetzner.com
   - hetzner.company

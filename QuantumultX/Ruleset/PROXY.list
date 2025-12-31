@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26431
+# 规则统计: 26432
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -11471,6 +11471,7 @@ HOST-SUFFIX,herokucharge.com,PROXY
 HOST-SUFFIX,herokussl.com,PROXY
 HOST-SUFFIX,herominers.com,PROXY
 HOST-SUFFIX,herringnetwork.com,PROXY
+HOST-SUFFIX,hetzner-cloud.de,PROXY
 HOST-SUFFIX,hetzner.cloud,PROXY
 HOST-SUFFIX,hetzner.com,PROXY
 HOST-SUFFIX,hetzner.company,PROXY
