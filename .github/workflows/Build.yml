@@ -22,8 +22,8 @@ jobs:
           path: Scripts
 
       - name: Prepare Rule
-        working-directory: Scripts/Scripts
-        run: bash Build.sh
+        run: |
+          bash Scripts/Scripts/Build.sh
 
       - name: Egern
         run: |
