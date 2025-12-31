@@ -74,7 +74,7 @@ jobs:
           if [[ -n $(git status -s) ]]; then
             git config --local user.email "${{ github.actor }}@users.noreply.github.com"
             git config --local user.name "${{ github.actor }}"
-            git add -A # ":!Scripts"
+            git add -A
             git commit -m "$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')"
             git push origin master
           else
