@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26432
+# 规则统计: 26435
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -3331,6 +3331,7 @@ DOMAIN-SUFFIX,azureserviceprofiler.com
 DOMAIN-SUFFIX,azuresmartspaces.net
 DOMAIN-SUFFIX,azurestackvalidation.com
 DOMAIN-SUFFIX,azurewebsites.net
+DOMAIN-SUFFIX,b-cdn.net
 DOMAIN-SUFFIX,b-eroland.net
 DOMAIN-SUFFIX,b-ok.africa
 DOMAIN-SUFFIX,b-ok.asia
@@ -5134,6 +5135,8 @@ DOMAIN-SUFFIX,bumptop.org
 DOMAIN-SUFFIX,bumptunes.com
 DOMAIN-SUFFIX,bunbunhk.com
 DOMAIN-SUFFIX,bunka.go.jp
+DOMAIN-SUFFIX,bunny.net
+DOMAIN-SUFFIX,bunnycdn.com
 DOMAIN-SUFFIX,bunnylust.com
 DOMAIN-SUFFIX,burningcamel.com
 DOMAIN-SUFFIX,burstly.net

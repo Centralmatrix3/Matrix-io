@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26432
+# 规则统计: 26435
 
 payload:
   - '1password.drift.click'
@@ -3332,6 +3332,7 @@ payload:
   - '+.azuresmartspaces.net'
   - '+.azurestackvalidation.com'
   - '+.azurewebsites.net'
+  - '+.b-cdn.net'
   - '+.b-eroland.net'
   - '+.b-ok.africa'
   - '+.b-ok.asia'
@@ -5135,6 +5136,8 @@ payload:
   - '+.bumptunes.com'
   - '+.bunbunhk.com'
   - '+.bunka.go.jp'
+  - '+.bunny.net'
+  - '+.bunnycdn.com'
   - '+.bunnylust.com'
   - '+.burningcamel.com'
   - '+.burstly.net'

@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26432
+# 规则统计: 26435
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -3331,6 +3331,7 @@ HOST-SUFFIX,azureserviceprofiler.com,PROXY
 HOST-SUFFIX,azuresmartspaces.net,PROXY
 HOST-SUFFIX,azurestackvalidation.com,PROXY
 HOST-SUFFIX,azurewebsites.net,PROXY
+HOST-SUFFIX,b-cdn.net,PROXY
 HOST-SUFFIX,b-eroland.net,PROXY
 HOST-SUFFIX,b-ok.africa,PROXY
 HOST-SUFFIX,b-ok.asia,PROXY
@@ -5134,6 +5135,8 @@ HOST-SUFFIX,bumptop.org,PROXY
 HOST-SUFFIX,bumptunes.com,PROXY
 HOST-SUFFIX,bunbunhk.com,PROXY
 HOST-SUFFIX,bunka.go.jp,PROXY
+HOST-SUFFIX,bunny.net,PROXY
+HOST-SUFFIX,bunnycdn.com,PROXY
 HOST-SUFFIX,bunnylust.com,PROXY
 HOST-SUFFIX,burningcamel.com,PROXY
 HOST-SUFFIX,burstly.net,PROXY
