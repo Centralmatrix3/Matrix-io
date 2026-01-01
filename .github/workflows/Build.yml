@@ -22,7 +22,8 @@ jobs:
           path: Scripts
 
       - name: Build
-        run: bash Scripts/Scripts/Build.sh
+        run: |
+          bash Scripts/Scripts/Build.sh
 
       - name: Egern
         run: |
