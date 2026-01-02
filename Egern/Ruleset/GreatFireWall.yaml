@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5969
+# 规则统计: 5971
 
 domain_suffix_set:
   - 000webhost.com
@@ -3869,6 +3869,7 @@ domain_suffix_set:
   - pdetails.com
   - pdproxy.com
   - pds.nasa.gov
+  - pdst.fm
   - peace.ca
   - peacefire.org
   - peeasian.com
@@ -5262,6 +5263,7 @@ domain_suffix_set:
   - unstable.icu
   - unwire.hk
   - uocn.org
+  - up.audio
   - upbit.com
   - updates.tdesktop.com
   - upghsbc.com
