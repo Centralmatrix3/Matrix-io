@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7402
+# 规则统计: 7407
 
 no_resolve: true
 domain_set:
@@ -241,6 +241,7 @@ domain_suffix_set:
   - ai.binwang.me
   - ai.dev
   - ai.google
+  - ai.studio
   - aiosearch.com
   - aiph.net
   - airasia.com
@@ -1512,6 +1513,7 @@ domain_suffix_set:
   - daxa.cn
   - dayabook.com
   - daylife.com
+  - dazn.com
   - db.tt
   - dbc.hk
   - dbgjd.com
@@ -4585,6 +4587,8 @@ domain_suffix_set:
   - onthehunt.com
   - ontrac.com
   - oojj.de
+  - ooni.io
+  - ooni.org
   - oopsforum.com
   - open.com.hk
   - open.firstory.me
@@ -6996,6 +7000,7 @@ domain_suffix_set:
   - xbookcn.com
   - xbtce.com
   - xcafe.in
+  - xcancel.com
   - xcity.jp
   - xcritic.com
   - xerotica.com

@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5988
+# 规则统计: 5993
 
 domain_suffix_set:
   - 000webhost.com
@@ -196,6 +196,7 @@ domain_suffix_set:
   - agro.hk
   - ai.binwang.me
   - ai.dev
+  - ai.studio
   - aiosearch.com
   - aiph.net
   - airasia.com
@@ -1263,6 +1264,7 @@ domain_suffix_set:
   - dawangidc.com
   - daxa.cn
   - daylife.com
+  - dazn.com
   - db.tt
   - dbgjd.com
   - dcard.tw
@@ -3758,6 +3760,8 @@ domain_suffix_set:
   - onthehunt.com
   - ontrac.com
   - oojj.de
+  - ooni.io
+  - ooni.org
   - open.com.hk
   - open.firstory.me
   - openai.com
@@ -5744,6 +5748,7 @@ domain_suffix_set:
   - xbookcn.com
   - xbtce.com
   - xcafe.in
+  - xcancel.com
   - xcity.jp
   - xcritic.com
   - xerotica.com

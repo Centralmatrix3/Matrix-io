@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26579
+# 规则统计: 26582
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -1698,6 +1698,7 @@ HOST-SUFFIX,ahxxx.club,PROXY
 HOST-SUFFIX,ai-sdk.dev,PROXY
 HOST-SUFFIX,ai.binwang.me,PROXY
 HOST-SUFFIX,ai.dev,PROXY
+HOST-SUFFIX,ai.studio,PROXY
 HOST-SUFFIX,ai7995.site,PROXY
 HOST-SUFFIX,ai91porn.cc,PROXY
 HOST-SUFFIX,aiaa.org,PROXY
@@ -17935,6 +17936,7 @@ HOST-SUFFIX,ontrac.com,PROXY
 HOST-SUFFIX,onxxxtube.com,PROXY
 HOST-SUFFIX,onxxxvideo.com,PROXY
 HOST-SUFFIX,oojj.de,PROXY
+HOST-SUFFIX,ooni.io,PROXY
 HOST-SUFFIX,ooni.org,PROXY
 HOST-SUFFIX,ootbstudio.co.kr,PROXY
 HOST-SUFFIX,op.gg,PROXY
@@ -20235,13 +20237,13 @@ HOST-SUFFIX,rustdesk.com,PROXY
 HOST-SUFFIX,rustup.rs,PROXY
 HOST-SUFFIX,rusvpn.com,PROXY
 HOST-SUFFIX,ruten.com.tw,PROXY
+HOST-SUFFIX,rutor.info,PROXY
 HOST-SUFFIX,rutracker.cc,PROXY
 HOST-SUFFIX,rutracker.cr,PROXY
 HOST-SUFFIX,rutracker.me,PROXY
 HOST-SUFFIX,rutracker.net,PROXY
 HOST-SUFFIX,rutracker.nl,PROXY
 HOST-SUFFIX,rutracker.org,PROXY
-HOST-SUFFIX,rutrecker.net,PROXY
 HOST-SUFFIX,rutrk.org,PROXY
 HOST-SUFFIX,rutube.ru,PROXY
 HOST-SUFFIX,rutubelist.ru,PROXY
@@ -25287,6 +25289,7 @@ HOST-SUFFIX,xbx.lv,PROXY
 HOST-SUFFIX,xcafe.com,PROXY
 HOST-SUFFIX,xcafe.in,PROXY
 HOST-SUFFIX,xcams.com,PROXY
+HOST-SUFFIX,xcancel.com,PROXY
 HOST-SUFFIX,xcg123.com,PROXY
 HOST-SUFFIX,xchina.co,PROXY
 HOST-SUFFIX,xchina.fun,PROXY

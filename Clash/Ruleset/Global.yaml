@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7402
+# 规则统计: 7407
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -239,6 +239,7 @@ payload:
   - DOMAIN-SUFFIX,ai.binwang.me
   - DOMAIN-SUFFIX,ai.dev
   - DOMAIN-SUFFIX,ai.google
+  - DOMAIN-SUFFIX,ai.studio
   - DOMAIN-SUFFIX,aiosearch.com
   - DOMAIN-SUFFIX,aiph.net
   - DOMAIN-SUFFIX,airasia.com
@@ -1510,6 +1511,7 @@ payload:
   - DOMAIN-SUFFIX,daxa.cn
   - DOMAIN-SUFFIX,dayabook.com
   - DOMAIN-SUFFIX,daylife.com
+  - DOMAIN-SUFFIX,dazn.com
   - DOMAIN-SUFFIX,db.tt
   - DOMAIN-SUFFIX,dbc.hk
   - DOMAIN-SUFFIX,dbgjd.com
@@ -4583,6 +4585,8 @@ payload:
   - DOMAIN-SUFFIX,onthehunt.com
   - DOMAIN-SUFFIX,ontrac.com
   - DOMAIN-SUFFIX,oojj.de
+  - DOMAIN-SUFFIX,ooni.io
+  - DOMAIN-SUFFIX,ooni.org
   - DOMAIN-SUFFIX,oopsforum.com
   - DOMAIN-SUFFIX,open.com.hk
   - DOMAIN-SUFFIX,open.firstory.me
@@ -6994,6 +6998,7 @@ payload:
   - DOMAIN-SUFFIX,xbookcn.com
   - DOMAIN-SUFFIX,xbtce.com
   - DOMAIN-SUFFIX,xcafe.in
+  - DOMAIN-SUFFIX,xcancel.com
   - DOMAIN-SUFFIX,xcity.jp
   - DOMAIN-SUFFIX,xcritic.com
   - DOMAIN-SUFFIX,xerotica.com

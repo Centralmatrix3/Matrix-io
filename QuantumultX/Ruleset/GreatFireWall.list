@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5988
+# 规则统计: 5993
 
 HOST-SUFFIX,000webhost.com,GreatFireWall
 HOST-SUFFIX,030buy.com,GreatFireWall
@@ -195,6 +195,7 @@ HOST-SUFFIX,agoogleaday.com,GreatFireWall
 HOST-SUFFIX,agro.hk,GreatFireWall
 HOST-SUFFIX,ai.binwang.me,GreatFireWall
 HOST-SUFFIX,ai.dev,GreatFireWall
+HOST-SUFFIX,ai.studio,GreatFireWall
 HOST-SUFFIX,aiosearch.com,GreatFireWall
 HOST-SUFFIX,aiph.net,GreatFireWall
 HOST-SUFFIX,airasia.com,GreatFireWall
@@ -1262,6 +1263,7 @@ HOST-SUFFIX,david-kilgour.com,GreatFireWall
 HOST-SUFFIX,dawangidc.com,GreatFireWall
 HOST-SUFFIX,daxa.cn,GreatFireWall
 HOST-SUFFIX,daylife.com,GreatFireWall
+HOST-SUFFIX,dazn.com,GreatFireWall
 HOST-SUFFIX,db.tt,GreatFireWall
 HOST-SUFFIX,dbgjd.com,GreatFireWall
 HOST-SUFFIX,dcard.tw,GreatFireWall
@@ -3757,6 +3759,8 @@ HOST-SUFFIX,onmypc.org,GreatFireWall
 HOST-SUFFIX,onthehunt.com,GreatFireWall
 HOST-SUFFIX,ontrac.com,GreatFireWall
 HOST-SUFFIX,oojj.de,GreatFireWall
+HOST-SUFFIX,ooni.io,GreatFireWall
+HOST-SUFFIX,ooni.org,GreatFireWall
 HOST-SUFFIX,open.com.hk,GreatFireWall
 HOST-SUFFIX,open.firstory.me,GreatFireWall
 HOST-SUFFIX,openai.com,GreatFireWall
@@ -5743,6 +5747,7 @@ HOST-SUFFIX,xbabe.com,GreatFireWall
 HOST-SUFFIX,xbookcn.com,GreatFireWall
 HOST-SUFFIX,xbtce.com,GreatFireWall
 HOST-SUFFIX,xcafe.in,GreatFireWall
+HOST-SUFFIX,xcancel.com,GreatFireWall
 HOST-SUFFIX,xcity.jp,GreatFireWall
 HOST-SUFFIX,xcritic.com,GreatFireWall
 HOST-SUFFIX,xerotica.com,GreatFireWall
