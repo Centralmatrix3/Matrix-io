@@ -1,5 +1,5 @@
 # 规则名称: AdBlock
-# 规则统计: 98910
+# 规则统计: 98911
 
 payload:
   - '+.0.myikas.com'
@@ -8122,7 +8122,6 @@ payload:
   - '+.ali-pro-pull.kwai.net.iberostar.com'
   - '+.ali8.alinea.fr'
   - '+.alia-iso.com'
-  - '+.aliapp.org'
   - '+.alias.cloud-marketing.dimensiondata.com'
   - '+.aliasanvil.com'
   - '+.aliasfoot.com'
@@ -16828,6 +16827,7 @@ payload:
   - '+.cdn.xbcpcn.com'
   - '+.cdn.xiaoduoai.com'
   - '+.cdn.yld.is'
+  - '+.cdn.ynuf.aliapp.org'
   - '+.cdn0.mobmore.com'
   - '+.cdn1.crispadvertising.com'
   - '+.cdn1.lbesec.com'
@@ -89244,6 +89244,7 @@ payload:
   - '+.umbkhpryixebl.space'
   - '+.umbrella6.top'
   - '+.umc.danuoyi.alicdn.com'
+  - '+.umdc.aliapp.org'
   - '+.umdlbn.globetrotter.de'
   - '+.umdpva.gakumado.mynavi.jp'
   - '+.umdwwuasqcdar.online'
