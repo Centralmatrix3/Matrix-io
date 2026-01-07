@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26582
+# 规则统计: 26593
 
 domain_set:
   - 1password.drift.click
@@ -17129,6 +17129,15 @@ domain_suffix_set:
   - nginx.com
   - nginx.org
   - nginxconfig.io
+  - ngrok-free.app
+  - ngrok-free.dev
+  - ngrok-free.pizza
+  - ngrok.app
+  - ngrok.com
+  - ngrok.dev
+  - ngrok.io
+  - ngrok.pizza
+  - ngrok.pro
   - nhentai.com
   - nhentai.io
   - nhentai.net
@@ -18646,6 +18655,8 @@ domain_suffix_set:
   - ping.sx
   - pingan.com.hk
   - pingguotv.xyz
+  - pinggy.io
+  - pinggy.link
   - pingxiangpuer.com
   - pinimg.com
   - pinkcore.com

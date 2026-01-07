@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7407
+# 规则统计: 7406
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -3374,7 +3374,6 @@ payload:
   - DOMAIN-SUFFIX,ismprofessional.net
   - DOMAIN-SUFFIX,isohunt.com
   - DOMAIN-SUFFIX,israbox.com
-  - DOMAIN-SUFFIX,issues.chromium.org
   - DOMAIN-SUFFIX,issuu.com
   - DOMAIN-SUFFIX,istars.co.nz
   - DOMAIN-SUFFIX,istarshine.com

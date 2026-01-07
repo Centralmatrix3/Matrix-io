@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26582
+# 规则统计: 26593
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -17127,6 +17127,15 @@ HOST-SUFFIX,ngeo.com,PROXY
 HOST-SUFFIX,nginx.com,PROXY
 HOST-SUFFIX,nginx.org,PROXY
 HOST-SUFFIX,nginxconfig.io,PROXY
+HOST-SUFFIX,ngrok-free.app,PROXY
+HOST-SUFFIX,ngrok-free.dev,PROXY
+HOST-SUFFIX,ngrok-free.pizza,PROXY
+HOST-SUFFIX,ngrok.app,PROXY
+HOST-SUFFIX,ngrok.com,PROXY
+HOST-SUFFIX,ngrok.dev,PROXY
+HOST-SUFFIX,ngrok.io,PROXY
+HOST-SUFFIX,ngrok.pizza,PROXY
+HOST-SUFFIX,ngrok.pro,PROXY
 HOST-SUFFIX,nhentai.com,PROXY
 HOST-SUFFIX,nhentai.io,PROXY
 HOST-SUFFIX,nhentai.net,PROXY
@@ -18644,6 +18653,8 @@ HOST-SUFFIX,ping.pe,PROXY
 HOST-SUFFIX,ping.sx,PROXY
 HOST-SUFFIX,pingan.com.hk,PROXY
 HOST-SUFFIX,pingguotv.xyz,PROXY
+HOST-SUFFIX,pinggy.io,PROXY
+HOST-SUFFIX,pinggy.link,PROXY
 HOST-SUFFIX,pingxiangpuer.com,PROXY
 HOST-SUFFIX,pinimg.com,PROXY
 HOST-SUFFIX,pinkcore.com,PROXY
