@@ -1,5 +1,5 @@
 # 规则名称: ChinaMax
-# 规则统计: 128317
+# 规则统计: 128326
 
 payload:
   - DOMAIN,1-fss24-s0.streamhoster.com
@@ -68149,6 +68149,7 @@ payload:
   - DOMAIN-SUFFIX,mobotap.com
   - DOMAIN-SUFFIX,mobring.co
   - DOMAIN-SUFFIX,mobrtb.com
+  - DOMAIN-SUFFIX,mobsdks.com
   - DOMAIN-SUFFIX,mobsurl.com
   - DOMAIN-SUFFIX,mobtou.com
   - DOMAIN-SUFFIX,mobvoi.com
@@ -81439,6 +81440,7 @@ payload:
   - DOMAIN-SUFFIX,school888.com
   - DOMAIN-SUFFIX,schoolinweb.com
   - DOMAIN-SUFFIX,schoolpi.net
+  - DOMAIN-SUFFIX,schoopia.com
   - DOMAIN-SUFFIX,schstv.com
   - DOMAIN-SUFFIX,scht.cc
   - DOMAIN-SUFFIX,schwarzeni.com
@@ -92641,6 +92643,7 @@ payload:
   - DOMAIN-SUFFIX,tongxue.com
   - DOMAIN-SUFFIX,tongxue365.com
   - DOMAIN-SUFFIX,tongxue8.com
+  - DOMAIN-SUFFIX,tongxuepie.com
   - DOMAIN-SUFFIX,tongyangship.com
   - DOMAIN-SUFFIX,tongyaoplay.com
   - DOMAIN-SUFFIX,tongyavisa.com
@@ -119129,8 +119132,7 @@ payload:
   - IP-CIDR,128.107.24.0/23,no-resolve
   - IP-CIDR,128.108.0.0/16,no-resolve
   - IP-CIDR,128.177.173.46/32,no-resolve
-  - IP-CIDR,128.254.240.0/23,no-resolve
-  - IP-CIDR,128.254.242.0/24,no-resolve
+  - IP-CIDR,128.254.240.0/22,no-resolve
   - IP-CIDR,129.204.0.0/16,no-resolve
   - IP-CIDR,129.211.0.0/16,no-resolve
   - IP-CIDR,129.223.254.0/24,no-resolve
@@ -119465,6 +119467,10 @@ payload:
   - IP-CIDR,154.72.47.0/24,no-resolve
   - IP-CIDR,154.8.128.0/17,no-resolve
   - IP-CIDR,154.8.48.0/20,no-resolve
+  - IP-CIDR,154.83.158.0/24,no-resolve
+  - IP-CIDR,154.83.187.0/24,no-resolve
+  - IP-CIDR,154.83.211.0/24,no-resolve
+  - IP-CIDR,154.83.247.0/24,no-resolve
   - IP-CIDR,154.84.180.0/24,no-resolve
   - IP-CIDR,154.89.32.0/20,no-resolve
   - IP-CIDR,154.91.158.0/23,no-resolve
@@ -128167,6 +128173,8 @@ payload:
   - IP-CIDR6,2a14:4c41::/32,no-resolve
   - IP-CIDR6,2a14:67c1:702::/47,no-resolve
   - IP-CIDR6,2a14:67c1:704::/48,no-resolve
+  - IP-CIDR6,2a14:67c1:70::/48,no-resolve
+  - IP-CIDR6,2a14:67c1:73::/48,no-resolve
   - IP-CIDR6,2a14:67c1:74::/48,no-resolve
   - IP-CIDR6,2a14:67c1:8000::/36,no-resolve
   - IP-CIDR6,2a14:67c1:800::/48,no-resolve
@@ -128202,7 +128210,7 @@ payload:
   - IP-CIDR6,2a14:67c1:b146::/48,no-resolve
   - IP-CIDR6,2a14:67c1:b441::/48,no-resolve
   - IP-CIDR6,2a14:67c1:b442::/48,no-resolve
-  - IP-CIDR6,2a14:67c1:b460::/48,no-resolve
+  - IP-CIDR6,2a14:67c1:b460::/44,no-resolve
   - IP-CIDR6,2a14:67c1:b490::/45,no-resolve
   - IP-CIDR6,2a14:67c1:b4e0::/44,no-resolve
   - IP-CIDR6,2a14:67c1:b500::/47,no-resolve
@@ -128263,7 +128271,8 @@ payload:
   - IP-CIDR6,2a14:7583:f268::/48,no-resolve
   - IP-CIDR6,2a14:7583:f300::/46,no-resolve
   - IP-CIDR6,2a14:7583:f304::/47,no-resolve
-  - IP-CIDR6,2a14:7583:f4f1::/48,no-resolve
+  - IP-CIDR6,2a14:7583:f4f0::/47,no-resolve
+  - IP-CIDR6,2a14:7583:f4f4::/48,no-resolve
   - IP-CIDR6,2a14:7583:f4fe::/48,no-resolve
   - IP-CIDR6,2a14:7583:f500::/48,no-resolve
   - IP-CIDR6,2a14:7583:f701::/48,no-resolve
