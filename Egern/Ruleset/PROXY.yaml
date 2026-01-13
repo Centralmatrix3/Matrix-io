@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26618
+# 规则统计: 26643
 
 domain_set:
   - 1password.drift.click
@@ -5138,6 +5138,7 @@ domain_suffix_set:
   - brotli.org
   - brourou.com
   - browser.kagi.com
+  - browser.run
   - browserleaks.com
   - brucewang.net
   - brutalbdsmtube.com
@@ -5775,6 +5776,7 @@ domain_suffix_set:
   - cfargotunnel.com
   - cfblob.com
   - cfd-tv.com
+  - cfdata.org
   - cfdesign.com
   - cfhks.org.hk
   - cfl.re
@@ -6197,26 +6199,34 @@ domain_suffix_set:
   - cloudflare-gateway.com
   - cloudflare-ipfs.com
   - cloudflare-quic.com
+  - cloudflare-terms-of-service-abuse.com
   - cloudflare.com
+  - cloudflare.dev
   - cloudflare.net
   - cloudflare.tv
   - cloudflareaccess.com
   - cloudflareapps.com
   - cloudflarebolt.com
+  - cloudflarebrowser.com
+  - cloudflarechallenge.com
   - cloudflareclient.com
+  - cloudflarecp.com
   - cloudflareinsights.com
   - cloudflareok.com
   - cloudflarepartners.com
   - cloudflareportal.com
   - cloudflarepreview.com
   - cloudflareregistrar.com
+  - cloudflareresearch.com
   - cloudflareresolve.com
   - cloudflaressl.com
   - cloudflarestatus.com
   - cloudflarestorage.com
   - cloudflarestream.com
+  - cloudflaresupport.com
   - cloudflaretest.com
   - cloudflarewarp.com
+  - cloudflareworkers.com
   - cloudfront.com
   - cloudfront.net
   - cloudfunctions.net
@@ -6722,6 +6732,7 @@ domain_suffix_set:
   - cutt.ly
   - cw.com.tw
   - cwcams.com
+  - cxacg.com
   - cy22.tv
   - cyber-bay.info
   - cyber-bay.org
@@ -8403,6 +8414,7 @@ domain_suffix_set:
   - enbank.ir
   - encoretvb.com
   - encrypt.me
+  - encryptedsni.com
   - encuentroscasualesoecuador.com
   - encyclopedia.com
   - enema-porn.com
@@ -8642,6 +8654,7 @@ domain_suffix_set:
   - espn.net
   - espncdn.com
   - espnqa.com
+  - esports.gg
   - esposasymaridos.com
   - espressif.com
   - esri.com
@@ -10187,10 +10200,12 @@ domain_suffix_set:
   - game-platform.net
   - game-repack.site
   - game735.com
+  - gameapps.hk
   - gamebase.com.tw
   - gamebeforethegame.com
   - gamebiz.jp
   - gamebusiness.jp
+  - gamefocus.co.kr
   - gamejolt.com
   - gamemeca.com
   - gameon-masters.com
@@ -12603,6 +12618,7 @@ domain_suffix_set:
   - ig.me
   - igaychat.com
   - igayporn.tv
+  - igcc.jp
   - igcd.net
   - igcdn.com
   - igetnaughty.com
@@ -12920,6 +12936,7 @@ domain_suffix_set:
   - inoreader.com
   - inote.tw
   - inporn.com
+  - inquirer.net
   - insecam.org
   - inshot.cc
   - inshot.com
@@ -15050,6 +15067,7 @@ domain_suffix_set:
   - mahabodhi.org
   - mahajantech.com
   - mahjongsoul.com
+  - maidonanews.jp
   - maiio.net
   - mail-archive.com
   - mail.com
@@ -16156,6 +16174,7 @@ domain_suffix_set:
   - modperl.pl
   - modrinth.com
   - modular.im
+  - moedigi.com
   - moeero-library.com
   - moeerolibrary.com
   - moefuns.co
@@ -16659,6 +16678,7 @@ domain_suffix_set:
   - mymoe.moe
   - mymom.info
   - mymusclevideo.com
+  - mynavi.jp
   - mynetav.net
   - mynetav.org
   - mynetname.net
@@ -17966,6 +17986,7 @@ domain_suffix_set:
   - openapiplatform.com
   - openapiservice.com
   - openart.ai
+  - openbook.org.tw
   - opencas.io
   - opencollective.com
   - opencreate.org
@@ -20026,6 +20047,7 @@ domain_suffix_set:
   - renzhe.cloud
   - repe21.com
   - repo.new
+  - repotama.com
   - repsils.no
   - repsneakermall.com
   - repswing.com
@@ -21608,6 +21630,7 @@ domain_suffix_set:
   - spyjinx.com
   - sqlite.org
   - sqlserveronlinux.com
+  - sqool.net
   - squ1.com
   - squadbusters.com
   - squarecapital.com
@@ -22209,6 +22232,7 @@ domain_suffix_set:
   - talkonly.net
   - talksport.com
   - tamilsexvideos.cc
+  - tampermonkey.net
   - tamtam.chat
   - tanc.org
   - tandberg-china.com
@@ -22988,6 +23012,7 @@ domain_suffix_set:
   - toxin-up.sbs
   - toxinzoo.sbs
   - toy-cadcam.com
+  - toy-people.com
   - toycadcam.com
   - toyobank.co.jp
   - toypark.in
