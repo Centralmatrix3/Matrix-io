@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26643
+# 规则统计: 26655
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -39,6 +39,8 @@ HOST,amp.akamaized.net,PROXY
 HOST,android.googlesource.com,PROXY
 HOST,angle.com.tw,PROXY
 HOST,anime-rule34-world.b-cdn.net,PROXY
+HOST,antigravity-pa.googleapis.com,PROXY
+HOST,antigravity.googleapis.com,PROXY
 HOST,aod-pod-uk-live.akamaized.net,PROXY
 HOST,api-p.videomarket.jp,PROXY
 HOST,api.viu.now.com,PROXY
@@ -89,6 +91,8 @@ HOST,cisco.evergage.com,PROXY
 HOST,ciscolivehls-i.akamaihd.net,PROXY
 HOST,client-teamviewer-com.trafficmanager.net,PROXY
 HOST,clients1.google.com,PROXY
+HOST,cloudaicompanion.googleapis.com,PROXY
+HOST,cloudcode-pa.googleapis.com,PROXY
 HOST,cloudsync-prod.s3.amazonaws.com,PROXY
 HOST,community.oneplus.com,PROXY
 HOST,configuration-lb.ls-apple.com.akadns.net,PROXY
@@ -125,6 +129,7 @@ HOST,d3r7nsslvs6aaf.cloudfront.net,PROXY
 HOST,d3vd9lfkzbru3h.cloudfront.net,PROXY
 HOST,d6d4ismr40iw.cloudfront.net,PROXY
 HOST,d6tizftlrpuof.cloudfront.net,PROXY
+HOST,daily-cloudcode-pa.googleapis.com,PROXY
 HOST,databank.worldbank.org,PROXY
 HOST,database.asahi.com,PROXY
 HOST,datarouter.apps.netherrealm.com,PROXY
@@ -252,6 +257,8 @@ HOST,nationalaustraliaban.tt.omtrdc.net,PROXY
 HOST,netflix.com.edgesuite.net,PROXY
 HOST,notary-submissions-prod.s3-accelerate.amazonaws.com,PROXY
 HOST,notary-submissions-prod.s3.us-west-2.amazonaws.com,PROXY
+HOST,notebooklm-pa.googleapis.com,PROXY
+HOST,notebooklm.googleapis.com,PROXY
 HOST,notify.ppy.sh,PROXY
 HOST,np-edge.itunes.apple.com,PROXY
 HOST,ntdfreemobile-tgc.cdn.hinet.net,PROXY
@@ -7310,6 +7317,7 @@ HOST-SUFFIX,digitalprototyping.com,PROXY
 HOST-SUFFIX,digitaltrends.com,PROXY
 HOST-SUFFIX,diigo.com,PROXY
 HOST-SUFFIX,dilcdn.com,PROXY
+HOST-SUFFIX,dinopoloclub.com,PROXY
 HOST-SUFFIX,dinotube.com,PROXY
 HOST-SUFFIX,dipity.com,PROXY
 HOST-SUFFIX,dirctv.com,PROXY
@@ -16157,6 +16165,7 @@ HOST-SUFFIX,mobilepornmovies.com,PROXY
 HOST-SUFFIX,mobileview.page,PROXY
 HOST-SUFFIX,mobilevrxxx.com,PROXY
 HOST-SUFFIX,mobileways.de,PROXY
+HOST-SUFFIX,mobimon.com.tw,PROXY
 HOST-SUFFIX,mobmyanmar.com,PROXY
 HOST-SUFFIX,moby.to,PROXY
 HOST-SUFFIX,mobypicture.com,PROXY
@@ -17492,6 +17501,7 @@ HOST-SUFFIX,nowjav.com,PROXY
 HOST-SUFFIX,nownews.com,PROXY
 HOST-SUFFIX,nowtorrents.com,PROXY
 HOST-SUFFIX,noxinfluencer.com,PROXY
+HOST-SUFFIX,noxygames.com,PROXY
 HOST-SUFFIX,nozomi.la,PROXY
 HOST-SUFFIX,npa.go.jp,PROXY
 HOST-SUFFIX,npm.community,PROXY
@@ -19829,6 +19839,8 @@ HOST-SUFFIX,ravm.tv,PROXY
 HOST-SUFFIX,raw.githack.com,PROXY
 HOST-SUFFIX,rawgit.com,PROXY
 HOST-SUFFIX,rawgithub.com,PROXY
+HOST-SUFFIX,rayark.download,PROXY
+HOST-SUFFIX,rayark.net,PROXY
 HOST-SUFFIX,razer.com,PROXY
 HOST-SUFFIX,razerofficial.com,PROXY
 HOST-SUFFIX,razersupport.com,PROXY

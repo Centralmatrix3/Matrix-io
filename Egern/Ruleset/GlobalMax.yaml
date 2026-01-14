@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 32823
+# 规则统计: 32847
 
 no_resolve: true
 domain_set:
@@ -5321,6 +5321,7 @@ domain_suffix_set:
   - brotli.org
   - brourou.com
   - browser.kagi.com
+  - browser.run
   - brox-coll.ac.uk
   - broxtowe.ac.uk
   - brucewang.net
@@ -6256,6 +6257,7 @@ domain_suffix_set:
   - cfas.ac.uk
   - cfblob.com
   - cfd-tv.com
+  - cfdata.org
   - cfdesign.com
   - cfhks.org.hk
   - cfl.re
@@ -6821,26 +6823,34 @@ domain_suffix_set:
   - cloudflare-gateway.com
   - cloudflare-ipfs.com
   - cloudflare-quic.com
+  - cloudflare-terms-of-service-abuse.com
   - cloudflare.com
+  - cloudflare.dev
   - cloudflare.net
   - cloudflare.tv
   - cloudflareaccess.com
   - cloudflareapps.com
   - cloudflarebolt.com
+  - cloudflarebrowser.com
+  - cloudflarechallenge.com
   - cloudflareclient.com
+  - cloudflarecp.com
   - cloudflareinsights.com
   - cloudflareok.com
   - cloudflarepartners.com
   - cloudflareportal.com
   - cloudflarepreview.com
   - cloudflareregistrar.com
+  - cloudflareresearch.com
   - cloudflareresolve.com
   - cloudflaressl.com
   - cloudflarestatus.com
   - cloudflarestorage.com
   - cloudflarestream.com
+  - cloudflaresupport.com
   - cloudflaretest.com
   - cloudflarewarp.com
+  - cloudflareworkers.com
   - cloudfront.com
   - cloudfront.net
   - cloudfunctions.net
@@ -9686,6 +9696,7 @@ domain_suffix_set:
   - enbit.ac.uk
   - encoretvb.com
   - encrypt.me
+  - encryptedsni.com
   - encuentroscasualesoecuador.com
   - encyclopedia.com
   - enema-porn.com
@@ -10013,6 +10024,7 @@ domain_suffix_set:
   - espn.net
   - espncdn.com
   - espnqa.com
+  - esports.gg
   - esposasymaridos.com
   - esrc.ac.uk
   - esrcfestival.ac.uk
@@ -11808,10 +11820,12 @@ domain_suffix_set:
   - game-platform.net
   - game-repack.site
   - game735.com
+  - gameapps.hk
   - gamebase.com.tw
   - gamebeforethegame.com
   - gamebiz.jp
   - gamebusiness.jp
+  - gamefocus.co.kr
   - gamejolt.com
   - gameloft.com
   - gamemeca.com
@@ -14791,6 +14805,7 @@ domain_suffix_set:
   - ig.me
   - igaychat.com
   - igayporn.tv
+  - igcc.jp
   - igcd.net
   - igcdn.com
   - iger.ac.uk
@@ -15160,6 +15175,7 @@ domain_suffix_set:
   - inoreader.com
   - inote.tw
   - inporn.com
+  - inquirer.net
   - inquisitionspostmortem.ac.uk
   - insder.co
   - insecam.org
@@ -17955,6 +17971,7 @@ domain_suffix_set:
   - mahajantech.com
   - mahjongsoul.com
   - mahsc.ac.uk
+  - maidonanews.jp
   - maiio.net
   - mail-archive.com
   - mail.com
@@ -19277,6 +19294,7 @@ domain_suffix_set:
   - modrinth.com
   - modular.im
   - moeaic.gov.tw
+  - moedigi.com
   - moeero-library.com
   - moeerolibrary.com
   - moefuns.co
@@ -19879,6 +19897,7 @@ domain_suffix_set:
   - mymom.info
   - mymusclevideo.com
   - mymusic.net.tw
+  - mynavi.jp
   - mynescol.ac.uk
   - mynetav.net
   - mynetav.org
@@ -21683,6 +21702,7 @@ domain_suffix_set:
   - openapiservice.com
   - openart.ai
   - openbase.com
+  - openbook.org.tw
   - opencas.io
   - opencollective.com
   - opencreate.org
@@ -24238,6 +24258,7 @@ domain_suffix_set:
   - repe21.com
   - repo.new
   - repositorynet.ac.uk
+  - repotama.com
   - repsils.no
   - repsneakermall.com
   - repswing.com
@@ -26466,6 +26487,7 @@ domain_suffix_set:
   - sqhwesternconsortium.ac.uk
   - sqlite.org
   - sqlserveronlinux.com
+  - sqool.net
   - squ1.com
   - squadbusters.com
   - squarecapital.com
@@ -27315,6 +27337,7 @@ domain_suffix_set:
   - tamiaode.tk
   - tamilsexvideos.cc
   - tampabay.com
+  - tampermonkey.net
   - tamtam.chat
   - tamworth.ac.uk
   - tamworthandlichfield.ac.uk
@@ -28266,6 +28289,7 @@ domain_suffix_set:
   - toxin-up.sbs
   - toxinzoo.sbs
   - toy-cadcam.com
+  - toy-people.com
   - toycadcam.com
   - toyobank.co.jp
   - toypark.in

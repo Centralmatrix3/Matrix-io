@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26643
+# 规则统计: 26655
 
 domain_set:
   - 1password.drift.click
@@ -40,6 +40,8 @@ domain_set:
   - android.googlesource.com
   - angle.com.tw
   - anime-rule34-world.b-cdn.net
+  - antigravity-pa.googleapis.com
+  - antigravity.googleapis.com
   - aod-pod-uk-live.akamaized.net
   - api-p.videomarket.jp
   - api.viu.now.com
@@ -90,6 +92,8 @@ domain_set:
   - ciscolivehls-i.akamaihd.net
   - client-teamviewer-com.trafficmanager.net
   - clients1.google.com
+  - cloudaicompanion.googleapis.com
+  - cloudcode-pa.googleapis.com
   - cloudsync-prod.s3.amazonaws.com
   - community.oneplus.com
   - configuration-lb.ls-apple.com.akadns.net
@@ -126,6 +130,7 @@ domain_set:
   - d3vd9lfkzbru3h.cloudfront.net
   - d6d4ismr40iw.cloudfront.net
   - d6tizftlrpuof.cloudfront.net
+  - daily-cloudcode-pa.googleapis.com
   - databank.worldbank.org
   - database.asahi.com
   - datarouter.apps.netherrealm.com
@@ -253,6 +258,8 @@ domain_set:
   - netflix.com.edgesuite.net
   - notary-submissions-prod.s3-accelerate.amazonaws.com
   - notary-submissions-prod.s3.us-west-2.amazonaws.com
+  - notebooklm-pa.googleapis.com
+  - notebooklm.googleapis.com
   - notify.ppy.sh
   - np-edge.itunes.apple.com
   - ntdfreemobile-tgc.cdn.hinet.net
@@ -7312,6 +7319,7 @@ domain_suffix_set:
   - digitaltrends.com
   - diigo.com
   - dilcdn.com
+  - dinopoloclub.com
   - dinotube.com
   - dipity.com
   - dirctv.com
@@ -16159,6 +16167,7 @@ domain_suffix_set:
   - mobileview.page
   - mobilevrxxx.com
   - mobileways.de
+  - mobimon.com.tw
   - mobmyanmar.com
   - moby.to
   - mobypicture.com
@@ -17494,6 +17503,7 @@ domain_suffix_set:
   - nownews.com
   - nowtorrents.com
   - noxinfluencer.com
+  - noxygames.com
   - nozomi.la
   - npa.go.jp
   - npm.community
@@ -19831,6 +19841,8 @@ domain_suffix_set:
   - raw.githack.com
   - rawgit.com
   - rawgithub.com
+  - rayark.download
+  - rayark.net
   - razer.com
   - razerofficial.com
   - razersupport.com
