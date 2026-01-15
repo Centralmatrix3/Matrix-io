@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26655
+# 规则统计: 26658
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -21089,6 +21089,8 @@ HOST-SUFFIX,signalr.net,PROXY
 HOST-SUFFIX,signalusers.org,PROXY
 HOST-SUFFIX,sigops.org,PROXY
 HOST-SUFFIX,sigopt.com,PROXY
+HOST-SUFFIX,sih-db.com,PROXY
+HOST-SUFFIX,sih.app,PROXY
 HOST-SUFFIX,sijihuisuo.club,PROXY
 HOST-SUFFIX,sijihuisuo.com,PROXY
 HOST-SUFFIX,sikiswap.com,PROXY
@@ -21845,6 +21847,7 @@ HOST-SUFFIX,steamcontent.com,PROXY
 HOST-SUFFIX,steamdb.info,PROXY
 HOST-SUFFIX,steamdeck.com,PROXY
 HOST-SUFFIX,steamgames.com,PROXY
+HOST-SUFFIX,steaminventoryhelper.com,PROXY
 HOST-SUFFIX,steamladder.com,PROXY
 HOST-SUFFIX,steamofporn.com,PROXY
 HOST-SUFFIX,steampowered.com,PROXY

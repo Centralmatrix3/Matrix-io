@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26655
+# 规则统计: 26658
 
 domain_set:
   - 1password.drift.click
@@ -21091,6 +21091,8 @@ domain_suffix_set:
   - signalusers.org
   - sigops.org
   - sigopt.com
+  - sih-db.com
+  - sih.app
   - sijihuisuo.club
   - sijihuisuo.com
   - sikiswap.com
@@ -21847,6 +21849,7 @@ domain_suffix_set:
   - steamdb.info
   - steamdeck.com
   - steamgames.com
+  - steaminventoryhelper.com
   - steamladder.com
   - steamofporn.com
   - steampowered.com
