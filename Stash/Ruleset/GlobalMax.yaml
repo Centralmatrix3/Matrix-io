@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 32847
+# 规则统计: 32857
 
 payload:
   - DOMAIN,1password.drift.click
@@ -8274,6 +8274,7 @@ payload:
   - DOMAIN-SUFFIX,dilcdn.com
   - DOMAIN-SUFFIX,dilstoncollege.ac.uk
   - DOMAIN-SUFFIX,dingchin.com.tw
+  - DOMAIN-SUFFIX,dinopoloclub.com
   - DOMAIN-SUFFIX,dinotube.com
   - DOMAIN-SUFFIX,dipity.com
   - DOMAIN-SUFFIX,dippam.ac.uk
@@ -19272,6 +19273,7 @@ payload:
   - DOMAIN-SUFFIX,mobilevrxxx.com
   - DOMAIN-SUFFIX,mobileways.de
   - DOMAIN-SUFFIX,mobilitymoodplace.ac.uk
+  - DOMAIN-SUFFIX,mobimon.com.tw
   - DOMAIN-SUFFIX,mobmyanmar.com
   - DOMAIN-SUFFIX,moby.to
   - DOMAIN-SUFFIX,mobypicture.com
@@ -20809,9 +20811,12 @@ payload:
   - DOMAIN-SUFFIX,nikezoom.com
   - DOMAIN-SUFFIX,nikkan-gendai.com
   - DOMAIN-SUFFIX,nikkansports.com
+  - DOMAIN-SUFFIX,nikke-de.com
   - DOMAIN-SUFFIX,nikke-en.com
+  - DOMAIN-SUFFIX,nikke-fr.com
   - DOMAIN-SUFFIX,nikke-jp.com
   - DOMAIN-SUFFIX,nikke-kr.com
+  - DOMAIN-SUFFIX,nikke-sea.com
   - DOMAIN-SUFFIX,nikkei-cnbc.co.jp
   - DOMAIN-SUFFIX,nikkei.co.jp
   - DOMAIN-SUFFIX,nikkei.com
@@ -21052,6 +21057,7 @@ payload:
   - DOMAIN-SUFFIX,nowtorrents.com
   - DOMAIN-SUFFIX,nox.ac.uk
   - DOMAIN-SUFFIX,noxinfluencer.com
+  - DOMAIN-SUFFIX,noxygames.com
   - DOMAIN-SUFFIX,noypf.com
   - DOMAIN-SUFFIX,nozomi.la
   - DOMAIN-SUFFIX,npa.go.jp
@@ -23950,6 +23956,8 @@ payload:
   - DOMAIN-SUFFIX,rawgit.com
   - DOMAIN-SUFFIX,rawgithub.com
   - DOMAIN-SUFFIX,raxcdn.com
+  - DOMAIN-SUFFIX,rayark.download
+  - DOMAIN-SUFFIX,rayark.net
   - DOMAIN-SUFFIX,razer.com
   - DOMAIN-SUFFIX,razerofficial.com
   - DOMAIN-SUFFIX,razersupport.com
@@ -25733,6 +25741,8 @@ payload:
   - DOMAIN-SUFFIX,signalusers.org
   - DOMAIN-SUFFIX,sigops.org
   - DOMAIN-SUFFIX,sigopt.com
+  - DOMAIN-SUFFIX,sih-db.com
+  - DOMAIN-SUFFIX,sih.app
   - DOMAIN-SUFFIX,sihe.ac.uk
   - DOMAIN-SUFFIX,sijihuisuo.club
   - DOMAIN-SUFFIX,sijihuisuo.com
