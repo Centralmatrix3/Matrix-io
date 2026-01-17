@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26661
+# 规则统计: 26665
 
 payload:
   - '1password.drift.click'
@@ -17536,15 +17536,19 @@ payload:
   - '+.ntdimg.com'
   - '+.ntdtv-dc.com'
   - '+.ntdtv.ca'
+  - '+.ntdtv.co.il'
   - '+.ntdtv.co.kr'
   - '+.ntdtv.com'
   - '+.ntdtv.com.tw'
   - '+.ntdtv.cz'
+  - '+.ntdtv.fr'
   - '+.ntdtv.jp'
   - '+.ntdtv.kr'
   - '+.ntdtv.org'
   - '+.ntdtv.ru'
+  - '+.ntdtv.se'
   - '+.ntdtvla.com'
+  - '+.ntdvideo.tw'
   - '+.ntdvn.com'
   - '+.ntnews.com.au'
   - '+.ntp-os01.ocn.ad.jp'

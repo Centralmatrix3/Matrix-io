@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26661
+# 规则统计: 26665
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -17535,15 +17535,19 @@ HOST-SUFFIX,ntdca.com,PROXY
 HOST-SUFFIX,ntdimg.com,PROXY
 HOST-SUFFIX,ntdtv-dc.com,PROXY
 HOST-SUFFIX,ntdtv.ca,PROXY
+HOST-SUFFIX,ntdtv.co.il,PROXY
 HOST-SUFFIX,ntdtv.co.kr,PROXY
 HOST-SUFFIX,ntdtv.com,PROXY
 HOST-SUFFIX,ntdtv.com.tw,PROXY
 HOST-SUFFIX,ntdtv.cz,PROXY
+HOST-SUFFIX,ntdtv.fr,PROXY
 HOST-SUFFIX,ntdtv.jp,PROXY
 HOST-SUFFIX,ntdtv.kr,PROXY
 HOST-SUFFIX,ntdtv.org,PROXY
 HOST-SUFFIX,ntdtv.ru,PROXY
+HOST-SUFFIX,ntdtv.se,PROXY
 HOST-SUFFIX,ntdtvla.com,PROXY
+HOST-SUFFIX,ntdvideo.tw,PROXY
 HOST-SUFFIX,ntdvn.com,PROXY
 HOST-SUFFIX,ntnews.com.au,PROXY
 HOST-SUFFIX,ntp-os01.ocn.ad.jp,PROXY
