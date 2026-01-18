@@ -21,25 +21,25 @@ jobs:
           repository: Centralmatrix3/Scripts
           path: Scripts
 
-      - name: Build
+      - name: Process Source
         run: |
           bash Scripts/Scripts/Build.sh
 
-      - name: Egern
+      - name: Process Egern
         run: |
           for dir in Egern/Ruleset; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
             python Scripts/Scripts/Build.py Egern "$dir"
           done
 
-      - name: QuantumultX
+      - name: Process QuantumultX
         run: |
           for dir in QuantumultX/Ruleset; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
             python Scripts/Scripts/Build.py QuantumultX "$dir"
           done
 
-      - name: Singbox
+      - name: Process Singbox
         run: |
           for dir in Sing-box/Ruleset; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
@@ -55,21 +55,21 @@ jobs:
             sing-box rule-set compile "$file" -o "${file%.json}.srs"
           done
 
-      - name: Stash
+      - name: Process Stash
         run: |
           for dir in {Clash,Stash}/Ruleset; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
             python Scripts/Scripts/Build.py Stash "$dir"
           done
 
-      - name: Surge
+      - name: Process Surge
         run: |
           for dir in {Loon,Shadowrocket,Surge}/Ruleset; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
             python Scripts/Scripts/Build.py Surge "$dir"
           done
 
-      - name: Push Update
+      - name: Process Update
         run: |
           if [[ -n $(git status -s) ]]; then
             git config --local user.email "${{ github.actor }}@users.noreply.github.com"
