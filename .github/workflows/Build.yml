@@ -69,7 +69,7 @@ jobs:
             python Scripts/Scripts/Build.py Surge "$dir"
           done
 
-      - name: Process Update
+      - name: Process Push
         run: |
           if [[ -n $(git status -s) ]]; then
             git config --local user.email "${{ github.actor }}@users.noreply.github.com"
