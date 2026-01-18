@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5993
+# 规则统计: 5998
 
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,030buy.com
@@ -208,6 +208,7 @@ DOMAIN-SUFFIX,ait.org.tw
 DOMAIN-SUFFIX,aiweiwei.com
 DOMAIN-SUFFIX,aiweiweiblog.com
 DOMAIN-SUFFIX,akademiye.org
+DOMAIN-SUFFIX,akamai.tvb.com
 DOMAIN-SUFFIX,akamaihd.net
 DOMAIN-SUFFIX,akiba-online.com
 DOMAIN-SUFFIX,akiba-web.com
@@ -281,7 +282,10 @@ DOMAIN-SUFFIX,angola.org
 DOMAIN-SUFFIX,angularjs.org
 DOMAIN-SUFFIX,animecrazy.net
 DOMAIN-SUFFIX,aniscartujo.com
+DOMAIN-SUFFIX,annas-archive.in
+DOMAIN-SUFFIX,annas-archive.li
 DOMAIN-SUFFIX,annas-archive.org
+DOMAIN-SUFFIX,annas-archive.pm
 DOMAIN-SUFFIX,annas-archive.se
 DOMAIN-SUFFIX,annatam.com
 DOMAIN-SUFFIX,anobii.com
@@ -1784,7 +1788,6 @@ DOMAIN-SUFFIX,forum.cyberctm.com
 DOMAIN-SUFFIX,forum.mymaji.com
 DOMAIN-SUFFIX,forum.palmislife.com
 DOMAIN-SUFFIX,forum.slime.com.tw
-DOMAIN-SUFFIX,forum.tvb.com
 DOMAIN-SUFFIX,forum.xinbao.de
 DOMAIN-SUFFIX,forum4hk.com
 DOMAIN-SUFFIX,fountmedia.io
@@ -3467,6 +3470,7 @@ DOMAIN-SUFFIX,myspace.com
 DOMAIN-SUFFIX,myspacecdn.com
 DOMAIN-SUFFIX,mytalkbox.com
 DOMAIN-SUFFIX,mytizi.com
+DOMAIN-SUFFIX,mytvsuper.com
 DOMAIN-SUFFIX,mywife.cc
 DOMAIN-SUFFIX,mywww.biz
 DOMAIN-SUFFIX,myz.info
@@ -5131,6 +5135,7 @@ DOMAIN-SUFFIX,tuzaijidi.com
 DOMAIN-SUFFIX,tv.com
 DOMAIN-SUFFIX,tv.jtbc.joins.com
 DOMAIN-SUFFIX,tvants.com
+DOMAIN-SUFFIX,tvbanywhere.com
 DOMAIN-SUFFIX,tvboxnow.com
 DOMAIN-SUFFIX,tvider.com
 DOMAIN-SUFFIX,tvmost.com.hk

@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26665
+# 规则统计: 26672
 
 domain_set:
   - 1password.drift.click
@@ -315,6 +315,7 @@ domain_set:
   - production-openaicom-storage.azureedge.net
   - psg-int-centralus.cloudapp.net
   - psg-int-eastus.cloudapp.net
+  - pubg1.battleye.com
   - public-us-pingsx.api.clonoth.com
   - publicca.googleapis.com
   - push-apple.com.akadns.net
@@ -2327,7 +2328,10 @@ domain_suffix_set:
   - ankarazirvesi2018.com
   - anm.co.uk
   - annamilk.com
+  - annas-archive.in
+  - annas-archive.li
   - annas-archive.org
+  - annas-archive.pm
   - annas-archive.se
   - annatam.com
   - annstores.net
@@ -14360,6 +14364,7 @@ domain_suffix_set:
   - kpkuang.org
   - kpptoto.info
   - kqes.net
+  - kraftonde.com
   - kraken.com
   - kraken.onl
   - krakenjs.com
@@ -18823,6 +18828,7 @@ domain_suffix_set:
   - playapex.com
   - playartifact.com
   - playbar.biz
+  - playbattlegrounds.com
   - playboy.com
   - playboy.com.uk
   - playboyplus.com
@@ -19531,6 +19537,7 @@ domain_suffix_set:
   - ptzwx.com
   - pu82.vip
   - pub.dev
+  - pubg.com
   - public-sex-porn.com
   - public-trust.com
   - publicagentxxx.com

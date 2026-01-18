@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26665
+# 规则统计: 26672
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -314,6 +314,7 @@ HOST,prodforza.blob.core.windows.net,PROXY
 HOST,production-openaicom-storage.azureedge.net,PROXY
 HOST,psg-int-centralus.cloudapp.net,PROXY
 HOST,psg-int-eastus.cloudapp.net,PROXY
+HOST,pubg1.battleye.com,PROXY
 HOST,public-us-pingsx.api.clonoth.com,PROXY
 HOST,publicca.googleapis.com,PROXY
 HOST,push-apple.com.akadns.net,PROXY
@@ -2325,7 +2326,10 @@ HOST-SUFFIX,anistreaming.xyz,PROXY
 HOST-SUFFIX,ankarazirvesi2018.com,PROXY
 HOST-SUFFIX,anm.co.uk,PROXY
 HOST-SUFFIX,annamilk.com,PROXY
+HOST-SUFFIX,annas-archive.in,PROXY
+HOST-SUFFIX,annas-archive.li,PROXY
 HOST-SUFFIX,annas-archive.org,PROXY
+HOST-SUFFIX,annas-archive.pm,PROXY
 HOST-SUFFIX,annas-archive.se,PROXY
 HOST-SUFFIX,annatam.com,PROXY
 HOST-SUFFIX,annstores.net,PROXY
@@ -14358,6 +14362,7 @@ HOST-SUFFIX,kpinsurances.com,PROXY
 HOST-SUFFIX,kpkuang.org,PROXY
 HOST-SUFFIX,kpptoto.info,PROXY
 HOST-SUFFIX,kqes.net,PROXY
+HOST-SUFFIX,kraftonde.com,PROXY
 HOST-SUFFIX,kraken.com,PROXY
 HOST-SUFFIX,kraken.onl,PROXY
 HOST-SUFFIX,krakenjs.com,PROXY
@@ -18821,6 +18826,7 @@ HOST-SUFFIX,play4free.com,PROXY
 HOST-SUFFIX,playapex.com,PROXY
 HOST-SUFFIX,playartifact.com,PROXY
 HOST-SUFFIX,playbar.biz,PROXY
+HOST-SUFFIX,playbattlegrounds.com,PROXY
 HOST-SUFFIX,playboy.com,PROXY
 HOST-SUFFIX,playboy.com.uk,PROXY
 HOST-SUFFIX,playboyplus.com,PROXY
@@ -19529,6 +19535,7 @@ HOST-SUFFIX,ptwxz.com,PROXY
 HOST-SUFFIX,ptzwx.com,PROXY
 HOST-SUFFIX,pu82.vip,PROXY
 HOST-SUFFIX,pub.dev,PROXY
+HOST-SUFFIX,pubg.com,PROXY
 HOST-SUFFIX,public-sex-porn.com,PROXY
 HOST-SUFFIX,public-trust.com,PROXY
 HOST-SUFFIX,publicagentxxx.com,PROXY

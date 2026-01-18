@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 32857
+# 规则统计: 32864
 
 HOST,1password.drift.click,GlobalMax
 HOST,adobeereg.com,GlobalMax
@@ -21130,14 +21130,18 @@ HOST-SUFFIX,ntdca.com,GlobalMax
 HOST-SUFFIX,ntdimg.com,GlobalMax
 HOST-SUFFIX,ntdtv-dc.com,GlobalMax
 HOST-SUFFIX,ntdtv.ca,GlobalMax
+HOST-SUFFIX,ntdtv.co.il,GlobalMax
 HOST-SUFFIX,ntdtv.co.kr,GlobalMax
 HOST-SUFFIX,ntdtv.com,GlobalMax
 HOST-SUFFIX,ntdtv.com.tw,GlobalMax
 HOST-SUFFIX,ntdtv.cz,GlobalMax
+HOST-SUFFIX,ntdtv.fr,GlobalMax
 HOST-SUFFIX,ntdtv.jp,GlobalMax
 HOST-SUFFIX,ntdtv.kr,GlobalMax
 HOST-SUFFIX,ntdtv.ru,GlobalMax
+HOST-SUFFIX,ntdtv.se,GlobalMax
 HOST-SUFFIX,ntdtvla.com,GlobalMax
+HOST-SUFFIX,ntdvideo.tw,GlobalMax
 HOST-SUFFIX,ntdvn.com,GlobalMax
 HOST-SUFFIX,ntec.ac.uk,GlobalMax
 HOST-SUFFIX,ntfs.ac.uk,GlobalMax
@@ -31580,6 +31584,7 @@ HOST-SUFFIX,xuehua.us,GlobalMax
 HOST-SUFFIX,xuite.net,GlobalMax
 HOST-SUFFIX,xujan.com,GlobalMax
 HOST-SUFFIX,xuzhiyong.net,GlobalMax
+HOST-SUFFIX,xv-ru.com,GlobalMax
 HOST-SUFFIX,xv1.monster,GlobalMax
 HOST-SUFFIX,xvbelink.com,GlobalMax
 HOST-SUFFIX,xvds.tv,GlobalMax
@@ -31593,8 +31598,10 @@ HOST-SUFFIX,xvideo.vlog.br,GlobalMax
 HOST-SUFFIX,xvideo1.org,GlobalMax
 HOST-SUFFIX,xvideo2.org,GlobalMax
 HOST-SUFFIX,xvideoporno.tv,GlobalMax
+HOST-SUFFIX,xvideos-ar.com,GlobalMax
 HOST-SUFFIX,xvideos-cdn.com,GlobalMax
 HOST-SUFFIX,xvideos-dl.top,GlobalMax
+HOST-SUFFIX,xvideos-india.com,GlobalMax
 HOST-SUFFIX,xvideos-porn-video.com,GlobalMax
 HOST-SUFFIX,xvideos-xxxx.com,GlobalMax
 HOST-SUFFIX,xvideos.blog,GlobalMax

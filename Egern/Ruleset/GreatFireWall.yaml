@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5993
+# 规则统计: 5998
 
 domain_suffix_set:
   - 000webhost.com
@@ -209,6 +209,7 @@ domain_suffix_set:
   - aiweiwei.com
   - aiweiweiblog.com
   - akademiye.org
+  - akamai.tvb.com
   - akamaihd.net
   - akiba-online.com
   - akiba-web.com
@@ -282,7 +283,10 @@ domain_suffix_set:
   - angularjs.org
   - animecrazy.net
   - aniscartujo.com
+  - annas-archive.in
+  - annas-archive.li
   - annas-archive.org
+  - annas-archive.pm
   - annas-archive.se
   - annatam.com
   - anobii.com
@@ -1785,7 +1789,6 @@ domain_suffix_set:
   - forum.mymaji.com
   - forum.palmislife.com
   - forum.slime.com.tw
-  - forum.tvb.com
   - forum.xinbao.de
   - forum4hk.com
   - fountmedia.io
@@ -3468,6 +3471,7 @@ domain_suffix_set:
   - myspacecdn.com
   - mytalkbox.com
   - mytizi.com
+  - mytvsuper.com
   - mywife.cc
   - mywww.biz
   - myz.info
@@ -5132,6 +5136,7 @@ domain_suffix_set:
   - tv.com
   - tv.jtbc.joins.com
   - tvants.com
+  - tvbanywhere.com
   - tvboxnow.com
   - tvider.com
   - tvmost.com.hk

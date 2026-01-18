@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5993
+# 规则统计: 5998
 
 HOST-SUFFIX,000webhost.com,GreatFireWall
 HOST-SUFFIX,030buy.com,GreatFireWall
@@ -208,6 +208,7 @@ HOST-SUFFIX,ait.org.tw,GreatFireWall
 HOST-SUFFIX,aiweiwei.com,GreatFireWall
 HOST-SUFFIX,aiweiweiblog.com,GreatFireWall
 HOST-SUFFIX,akademiye.org,GreatFireWall
+HOST-SUFFIX,akamai.tvb.com,GreatFireWall
 HOST-SUFFIX,akamaihd.net,GreatFireWall
 HOST-SUFFIX,akiba-online.com,GreatFireWall
 HOST-SUFFIX,akiba-web.com,GreatFireWall
@@ -281,7 +282,10 @@ HOST-SUFFIX,angola.org,GreatFireWall
 HOST-SUFFIX,angularjs.org,GreatFireWall
 HOST-SUFFIX,animecrazy.net,GreatFireWall
 HOST-SUFFIX,aniscartujo.com,GreatFireWall
+HOST-SUFFIX,annas-archive.in,GreatFireWall
+HOST-SUFFIX,annas-archive.li,GreatFireWall
 HOST-SUFFIX,annas-archive.org,GreatFireWall
+HOST-SUFFIX,annas-archive.pm,GreatFireWall
 HOST-SUFFIX,annas-archive.se,GreatFireWall
 HOST-SUFFIX,annatam.com,GreatFireWall
 HOST-SUFFIX,anobii.com,GreatFireWall
@@ -1784,7 +1788,6 @@ HOST-SUFFIX,forum.cyberctm.com,GreatFireWall
 HOST-SUFFIX,forum.mymaji.com,GreatFireWall
 HOST-SUFFIX,forum.palmislife.com,GreatFireWall
 HOST-SUFFIX,forum.slime.com.tw,GreatFireWall
-HOST-SUFFIX,forum.tvb.com,GreatFireWall
 HOST-SUFFIX,forum.xinbao.de,GreatFireWall
 HOST-SUFFIX,forum4hk.com,GreatFireWall
 HOST-SUFFIX,fountmedia.io,GreatFireWall
@@ -3467,6 +3470,7 @@ HOST-SUFFIX,myspace.com,GreatFireWall
 HOST-SUFFIX,myspacecdn.com,GreatFireWall
 HOST-SUFFIX,mytalkbox.com,GreatFireWall
 HOST-SUFFIX,mytizi.com,GreatFireWall
+HOST-SUFFIX,mytvsuper.com,GreatFireWall
 HOST-SUFFIX,mywife.cc,GreatFireWall
 HOST-SUFFIX,mywww.biz,GreatFireWall
 HOST-SUFFIX,myz.info,GreatFireWall
@@ -5131,6 +5135,7 @@ HOST-SUFFIX,tuzaijidi.com,GreatFireWall
 HOST-SUFFIX,tv.com,GreatFireWall
 HOST-SUFFIX,tv.jtbc.joins.com,GreatFireWall
 HOST-SUFFIX,tvants.com,GreatFireWall
+HOST-SUFFIX,tvbanywhere.com,GreatFireWall
 HOST-SUFFIX,tvboxnow.com,GreatFireWall
 HOST-SUFFIX,tvider.com,GreatFireWall
 HOST-SUFFIX,tvmost.com.hk,GreatFireWall
