@@ -21,7 +21,7 @@ jobs:
           repository: Centralmatrix3/Scripts
           path: Scripts
 
-      - name: Process Source
+      - name: Loading Rule
         run: |
           bash Scripts/Scripts/Build.sh
 
@@ -69,7 +69,7 @@ jobs:
             python Scripts/Scripts/Build.py Surge "$dir"
           done
 
-      - name: Commits Push
+      - name: Process Push
         run: |
           if [[ -n $(git status -s) ]]; then
             git config --local user.email "${{ github.actor }}@users.noreply.github.com"
