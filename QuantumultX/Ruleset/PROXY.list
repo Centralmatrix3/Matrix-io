@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26672
+# 规则统计: 26676
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -5623,6 +5623,7 @@ HOST-SUFFIX,casquesbeatsaudio.com,PROXY
 HOST-SUFFIX,castbox.fm,PROXY
 HOST-SUFFIX,castingcouch-x.com,PROXY
 HOST-SUFFIX,castro.fm,PROXY
+HOST-SUFFIX,cataboom.com,PROXY
 HOST-SUFFIX,catalina.hk,PROXY
 HOST-SUFFIX,catalinacruz.com,PROXY
 HOST-SUFFIX,catbox.moe,PROXY
@@ -6458,6 +6459,7 @@ HOST-SUFFIX,conoha.jp,PROXY
 HOST-SUFFIX,conquerwithcharacter.com,PROXY
 HOST-SUFFIX,conscrypt.com,PROXY
 HOST-SUFFIX,conscrypt.org,PROXY
+HOST-SUFFIX,consentpro.com,PROXY
 HOST-SUFFIX,constructware.com,PROXY
 HOST-SUFFIX,consul.io,PROXY
 HOST-SUFFIX,contactmagazine.net,PROXY
@@ -18098,6 +18100,7 @@ HOST-SUFFIX,orsm.net,PROXY
 HOST-SUFFIX,orthopaedic-cadcam.com,PROXY
 HOST-SUFFIX,orthotics-cadcam.com,PROXY
 HOST-SUFFIX,osakamotion.net,PROXY
+HOST-SUFFIX,osano.com,PROXY
 HOST-SUFFIX,osapublishing.org,PROXY
 HOST-SUFFIX,osdn.net,PROXY
 HOST-SUFFIX,osfoora.com,PROXY
@@ -23650,6 +23653,7 @@ HOST-SUFFIX,uselessjunk.com,PROXY
 HOST-SUFFIX,usenix.org,PROXY
 HOST-SUFFIX,useplannr.com,PROXY
 HOST-SUFFIX,userapi.com,PROXY
+HOST-SUFFIX,usercentrics.eu,PROXY
 HOST-SUFFIX,usercontent.dev,PROXY
 HOST-SUFFIX,userpxt.io,PROXY
 HOST-SUFFIX,users.skynet.be,PROXY

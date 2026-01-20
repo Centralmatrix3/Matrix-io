@@ -1,5 +1,5 @@
 # 规则名称: ChinaMax
-# 规则统计: 128083
+# 规则统计: 128101
 
 payload:
   - DOMAIN,1-fss24-s0.streamhoster.com
@@ -7956,6 +7956,7 @@ payload:
   - DOMAIN-SUFFIX,88106.com
   - DOMAIN-SUFFIX,88116008.com
   - DOMAIN-SUFFIX,8811777.com
+  - DOMAIN-SUFFIX,881812c.com
   - DOMAIN-SUFFIX,8821.com
   - DOMAIN-SUFFIX,8825.com
   - DOMAIN-SUFFIX,88303887.com
@@ -8701,6 +8702,7 @@ payload:
   - DOMAIN-SUFFIX,962360.com
   - DOMAIN-SUFFIX,962518.com
   - DOMAIN-SUFFIX,962600.com
+  - DOMAIN-SUFFIX,96262.com
   - DOMAIN-SUFFIX,96335.com
   - DOMAIN-SUFFIX,96355.com
   - DOMAIN-SUFFIX,96369.net
@@ -35855,6 +35857,7 @@ payload:
   - DOMAIN-SUFFIX,fuca-china.com
   - DOMAIN-SUFFIX,fucantec.com
   - DOMAIN-SUFFIX,fuchaipower.com
+  - DOMAIN-SUFFIX,fuchaoqun.com
   - DOMAIN-SUFFIX,fuchen33.com
   - DOMAIN-SUFFIX,fuchengshicai.com
   - DOMAIN-SUFFIX,fuchuangyu.com
@@ -46630,6 +46633,7 @@ payload:
   - DOMAIN-SUFFIX,hlbe365.com
   - DOMAIN-SUFFIX,hlbeixiu.com
   - DOMAIN-SUFFIX,hlbeixiu.net
+  - DOMAIN-SUFFIX,hlbf.net
   - DOMAIN-SUFFIX,hlblz.com
   - DOMAIN-SUFFIX,hlbn.cc
   - DOMAIN-SUFFIX,hlbryy.com
@@ -67328,6 +67332,7 @@ payload:
   - DOMAIN-SUFFIX,miit-kjcg.com
   - DOMAIN-SUFFIX,mij.cc
   - DOMAIN-SUFFIX,mijewelries.com
+  - DOMAIN-SUFFIX,miji8.com
   - DOMAIN-SUFFIX,mijia.tech
   - DOMAIN-SUFFIX,mijian360.com
   - DOMAIN-SUFFIX,mijiannet.com
@@ -70384,7 +70389,6 @@ payload:
   - DOMAIN-SUFFIX,nffq.net
   - DOMAIN-SUFFIX,nffund.com
   - DOMAIN-SUFFIX,nfgjhr.com
-  - DOMAIN-SUFFIX,nfksjkfs.com
   - DOMAIN-SUFFIX,nflchina.com
   - DOMAIN-SUFFIX,nflsxl.com
   - DOMAIN-SUFFIX,nfmedia.com
@@ -72138,6 +72142,7 @@ payload:
   - DOMAIN-SUFFIX,nuomili.com
   - DOMAIN-SUFFIX,nuomiphp.com
   - DOMAIN-SUFFIX,nuomisi.com
+  - DOMAIN-SUFFIX,nuona.com
   - DOMAIN-SUFFIX,nuonuo.com
   - DOMAIN-SUFFIX,nuoshell.com
   - DOMAIN-SUFFIX,nuoshou2023.com
@@ -82982,6 +82987,7 @@ payload:
   - DOMAIN-SUFFIX,shanhs.com
   - DOMAIN-SUFFIX,shanhu188.com
   - DOMAIN-SUFFIX,shanhu99.com
+  - DOMAIN-SUFFIX,shanhuijiangtang.com
   - DOMAIN-SUFFIX,shanhuu.com
   - DOMAIN-SUFFIX,shanjianzhan.com
   - DOMAIN-SUFFIX,shanjinqh.com
@@ -87165,6 +87171,7 @@ payload:
   - DOMAIN-SUFFIX,starcharge.com
   - DOMAIN-SUFFIX,stardata360.com
   - DOMAIN-SUFFIX,starde.net
+  - DOMAIN-SUFFIX,stardict.net
   - DOMAIN-SUFFIX,stardict.org
   - DOMAIN-SUFFIX,stardoctor.com
   - DOMAIN-SUFFIX,stards.com
@@ -97890,6 +97897,7 @@ payload:
   - DOMAIN-SUFFIX,wengbi.com
   - DOMAIN-SUFFIX,wengegroup.com
   - DOMAIN-SUFFIX,wengem.com
+  - DOMAIN-SUFFIX,wengkui.com
   - DOMAIN-SUFFIX,wengmeiling.com
   - DOMAIN-SUFFIX,wenguang.com
   - DOMAIN-SUFFIX,wenguangta.com
@@ -120244,6 +120252,8 @@ payload:
   - IP-CIDR,202.27.12.0/24,no-resolve
   - IP-CIDR,202.27.136.0/23,no-resolve
   - IP-CIDR,202.27.14.0/24,no-resolve
+  - IP-CIDR,202.28.194.0/24,no-resolve
+  - IP-CIDR,202.29.12.0/24,no-resolve
   - IP-CIDR,202.3.128.0/23,no-resolve
   - IP-CIDR,202.30.124.0/24,no-resolve
   - IP-CIDR,202.36.226.0/24,no-resolve
@@ -123739,6 +123749,7 @@ payload:
   - IP-CIDR,69.231.128.0/18,no-resolve
   - IP-CIDR,69.234.192.0/18,no-resolve
   - IP-CIDR,69.235.128.0/18,no-resolve
+  - IP-CIDR,69.33.13.0/24,no-resolve
   - IP-CIDR,69.85.93.0/24,no-resolve
   - IP-CIDR,71.131.192.0/18,no-resolve
   - IP-CIDR,71.132.0.0/18,no-resolve
@@ -123808,6 +123819,7 @@ payload:
   - IP-CIDR6,2001:250::/30,no-resolve
   - IP-CIDR6,2001:254::/31,no-resolve
   - IP-CIDR6,2001:256::/32,no-resolve
+  - IP-CIDR6,2001:3c8:1012::/48,no-resolve
   - IP-CIDR6,2001:4438::/32,no-resolve
   - IP-CIDR6,2001:4510::/29,no-resolve
   - IP-CIDR6,2001:470:ee53::/48,no-resolve
@@ -124024,7 +124036,7 @@ payload:
   - IP-CIDR6,2400:60c0::/32,no-resolve
   - IP-CIDR6,2400:61c0::/32,no-resolve
   - IP-CIDR6,2400:6200::/32,no-resolve
-  - IP-CIDR6,2400:6460:300::/48,no-resolve
+  - IP-CIDR6,2400:6460:300::/40,no-resolve
   - IP-CIDR6,2400:6460:500::/40,no-resolve
   - IP-CIDR6,2400:6460::/39,no-resolve
   - IP-CIDR6,2400:6500:0:7300::/56,no-resolve
@@ -124540,9 +124552,7 @@ payload:
   - IP-CIDR6,2401:f860:7::/48,no-resolve
   - IP-CIDR6,2401:f860:86::/47,no-resolve
   - IP-CIDR6,2401:f860:88::/47,no-resolve
-  - IP-CIDR6,2401:f860:90::/46,no-resolve
-  - IP-CIDR6,2401:f860:94::/47,no-resolve
-  - IP-CIDR6,2401:f860:97::/48,no-resolve
+  - IP-CIDR6,2401:f860:90::/45,no-resolve
   - IP-CIDR6,2401:f860:b::/48,no-resolve
   - IP-CIDR6,2401:f860:d::/48,no-resolve
   - IP-CIDR6,2401:f860:f6::/48,no-resolve
@@ -124774,6 +124784,7 @@ payload:
   - IP-CIDR6,2402:e140::/32,no-resolve
   - IP-CIDR6,2402:e2c0::/32,no-resolve
   - IP-CIDR6,2402:e380:100::/40,no-resolve
+  - IP-CIDR6,2402:e380:15::/48,no-resolve
   - IP-CIDR6,2402:e3c0::/32,no-resolve
   - IP-CIDR6,2402:e480::/32,no-resolve
   - IP-CIDR6,2402:e540::/32,no-resolve
@@ -127757,6 +127768,8 @@ payload:
   - IP-CIDR6,2a0e:aa07:e210::/48,no-resolve
   - IP-CIDR6,2a0e:aa07:e21c::/47,no-resolve
   - IP-CIDR6,2a0e:aa07:e220::/44,no-resolve
+  - IP-CIDR6,2a0e:aa07:e280::/46,no-resolve
+  - IP-CIDR6,2a0e:aa07:e28a::/48,no-resolve
   - IP-CIDR6,2a0e:aa07:f012::/48,no-resolve
   - IP-CIDR6,2a0e:aa07:f0d0::/46,no-resolve
   - IP-CIDR6,2a0e:aa07:f0d4::/47,no-resolve
@@ -127786,7 +127799,7 @@ payload:
   - IP-CIDR6,2a0e:ec05:7a00::/40,no-resolve
   - IP-CIDR6,2a0e:ec05:7b00::/42,no-resolve
   - IP-CIDR6,2a0f:1cc5:100::/43,no-resolve
-  - IP-CIDR6,2a0f:1cc5:10::/47,no-resolve
+  - IP-CIDR6,2a0f:1cc5:10::/46,no-resolve
   - IP-CIDR6,2a0f:1cc5:1200::/40,no-resolve
   - IP-CIDR6,2a0f:1cc5:130::/44,no-resolve
   - IP-CIDR6,2a0f:1cc5:1310::/44,no-resolve
@@ -127813,6 +127826,7 @@ payload:
   - IP-CIDR6,2a0f:1cc5:ffff::/48,no-resolve
   - IP-CIDR6,2a0f:1cc6:b110::/47,no-resolve
   - IP-CIDR6,2a0f:1cc6:bab4::/48,no-resolve
+  - IP-CIDR6,2a0f:1cc6:bab9::/48,no-resolve
   - IP-CIDR6,2a0f:5707:ac01::/48,no-resolve
   - IP-CIDR6,2a0f:6282::/32,no-resolve
   - IP-CIDR6,2a0f:6284:3000::/39,no-resolve
@@ -127987,6 +128001,7 @@ payload:
   - IP-CIDR6,2a14:67c3:30::/44,no-resolve
   - IP-CIDR6,2a14:67c3:520::/44,no-resolve
   - IP-CIDR6,2a14:67c3:c0::/48,no-resolve
+  - IP-CIDR6,2a14:7580:71f::/48,no-resolve
   - IP-CIDR6,2a14:7580:730::/44,no-resolve
   - IP-CIDR6,2a14:7580:740::/44,no-resolve
   - IP-CIDR6,2a14:7580:750::/47,no-resolve
@@ -127997,6 +128012,8 @@ payload:
   - IP-CIDR6,2a14:7580:df00::/40,no-resolve
   - IP-CIDR6,2a14:7580:e200::/40,no-resolve
   - IP-CIDR6,2a14:7580:e610::/44,no-resolve
+  - IP-CIDR6,2a14:7580:ed60::/47,no-resolve
+  - IP-CIDR6,2a14:7580:ed64::/47,no-resolve
   - IP-CIDR6,2a14:7580:ee0f::/48,no-resolve
   - IP-CIDR6,2a14:7580:fe00::/40,no-resolve
   - IP-CIDR6,2a14:7580:ff40::/48,no-resolve
@@ -128027,7 +128044,8 @@ payload:
   - IP-CIDR6,2a14:7583:f264::/48,no-resolve
   - IP-CIDR6,2a14:7583:f268::/48,no-resolve
   - IP-CIDR6,2a14:7583:f300::/46,no-resolve
-  - IP-CIDR6,2a14:7583:f305::/48,no-resolve
+  - IP-CIDR6,2a14:7583:f304::/47,no-resolve
+  - IP-CIDR6,2a14:7583:f46a::/48,no-resolve
   - IP-CIDR6,2a14:7583:f4f0::/47,no-resolve
   - IP-CIDR6,2a14:7583:f4f4::/48,no-resolve
   - IP-CIDR6,2a14:7583:f4fe::/48,no-resolve
