@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5998
+# 规则统计: 6000
 
 payload:
   - '+.000webhost.com'
@@ -5558,6 +5558,7 @@ payload:
   - '+.wefong.com'
   - '+.wego.here.com'
   - '+.weiboleak.com'
+  - '+.weights.com'
   - '+.weihuo.org'
   - '+.weijingsheng.org'
   - '+.weiming.info'
@@ -5879,6 +5880,7 @@ payload:
   - '+.youdontcare.com'
   - '+.youjizz.com'
   - '+.youmaker.com'
+  - '+.youmind.com'
   - '+.youngpornvideos.com'
   - '+.youngspiration.hk'
   - '+.youpai.org'
