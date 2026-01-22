@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 32871
+# 规则统计: 32845
 
 HOST,1password.drift.click,GlobalMax
 HOST,adobeereg.com,GlobalMax
@@ -99,6 +99,8 @@ HOST,rsshub.rssforever.com,GlobalMax
 HOST,rsshub.umzzz.com,GlobalMax
 HOST,rsshub.woodland.cafe,GlobalMax
 HOST,rsshub2.asailor.org,GlobalMax
+HOST,standchartbank.sc.omtrdc.net,GlobalMax
+HOST,standchartbank.tt.omtrdc.net,GlobalMax
 HOST,straitsx-826709081262441084-b790f87a2ae6fd417434295.freshchat.com,GlobalMax
 HOST,tesla-cdn.thron.com,GlobalMax
 HOST,time.windows.com,GlobalMax
@@ -1247,7 +1249,6 @@ HOST-SUFFIX,adwords.com,GlobalMax
 HOST-SUFFIX,adwordsexpress.com,GlobalMax
 HOST-SUFFIX,adx.promo,GlobalMax
 HOST-SUFFIX,ae-ad-1.myhuaweicloud.com,GlobalMax
-HOST-SUFFIX,ae-rus.net,GlobalMax
 HOST-SUFFIX,ae.hao123.com,GlobalMax
 HOST-SUFFIX,ae.org,GlobalMax
 HOST-SUFFIX,aeasyshop.com,GlobalMax
@@ -1267,12 +1268,9 @@ HOST-SUFFIX,aerospace-cadcam.com,GlobalMax
 HOST-SUFFIX,aerospace-design.com,GlobalMax
 HOST-SUFFIX,aerospace-training-wales.ac.uk,GlobalMax
 HOST-SUFFIX,aes.ac.uk,GlobalMax
-HOST-SUFFIX,aestatic.net,GlobalMax
 HOST-SUFFIX,aesworkshops.com,GlobalMax
 HOST-SUFFIX,aex.com,GlobalMax
-HOST-SUFFIX,af-east-201.myhuaweicloud.com,GlobalMax
 HOST-SUFFIX,af-north-1.myhuaweicloud.com,GlobalMax
-HOST-SUFFIX,af-west-202.myhuaweicloud.com,GlobalMax
 HOST-SUFFIX,af.mil,GlobalMax
 HOST-SUFFIX,afantibbs.com,GlobalMax
 HOST-SUFFIX,afao.ac.uk,GlobalMax
@@ -1458,9 +1456,6 @@ HOST-SUFFIX,ajplus.net,GlobalMax
 HOST-SUFFIX,ajsands.com,GlobalMax
 HOST-SUFFIX,ajsjx.com,GlobalMax
 HOST-SUFFIX,ajtalk.com,GlobalMax
-HOST-SUFFIX,ak-p.tripcdn.com,GlobalMax
-HOST-SUFFIX,ak-s-cw.tripcdn.com,GlobalMax
-HOST-SUFFIX,ak-s.tripcdn.com,GlobalMax
 HOST-SUFFIX,ak1.net,GlobalMax
 HOST-SUFFIX,aka-ai.com,GlobalMax
 HOST-SUFFIX,aka-ai.net,GlobalMax
@@ -1525,7 +1520,6 @@ HOST-SUFFIX,akamqi.com,GlobalMax
 HOST-SUFFIX,akasha.world,GlobalMax
 HOST-SUFFIX,akastream.com,GlobalMax
 HOST-SUFFIX,akastream.net,GlobalMax
-HOST-SUFFIX,akatest.tripcdn.com,GlobalMax
 HOST-SUFFIX,akatns.net,GlobalMax
 HOST-SUFFIX,akiba-online.com,GlobalMax
 HOST-SUFFIX,akiba-souken.com,GlobalMax
@@ -2130,16 +2124,11 @@ HOST-SUFFIX,ap-jakarta.myqcloud.com,GlobalMax
 HOST-SUFFIX,ap-jakarta.tencentcos.com,GlobalMax
 HOST-SUFFIX,ap-mumbai.myqcloud.com,GlobalMax
 HOST-SUFFIX,ap-mumbai.tencentcos.com,GlobalMax
-HOST-SUFFIX,ap-northeast-201.myhuaweicloud.com,GlobalMax
 HOST-SUFFIX,ap-seoul.myqcloud.com,GlobalMax
 HOST-SUFFIX,ap-seoul.tencentcos.com,GlobalMax
 HOST-SUFFIX,ap-singapore.myqcloud.com,GlobalMax
 HOST-SUFFIX,ap-singapore.tencentcos.com,GlobalMax
-HOST-SUFFIX,ap-southeast-201.myhuaweicloud.com,GlobalMax
-HOST-SUFFIX,ap-southeast-202.myhuaweicloud.com,GlobalMax
-HOST-SUFFIX,ap-southeast-203.myhuaweicloud.com,GlobalMax
 HOST-SUFFIX,ap-southeast-4.myhuaweicloud.com,GlobalMax
-HOST-SUFFIX,ap-southeast-5.myhuaweicloud.com,GlobalMax
 HOST-SUFFIX,ap-tokyo.myqcloud.com,GlobalMax
 HOST-SUFFIX,ap-tokyo.tencentcos.com,GlobalMax
 HOST-SUFFIX,ap.org,GlobalMax
@@ -2666,10 +2655,6 @@ HOST-SUFFIX,arvanstorage.ir,GlobalMax
 HOST-SUFFIX,arxiv.org,GlobalMax
 HOST-SUFFIX,arzon.jp,GlobalMax
 HOST-SUFFIX,as-hp.ca,GlobalMax
-HOST-SUFFIX,as-south-0.myhuaweicloud.com,GlobalMax
-HOST-SUFFIX,as-south-201.myhuaweicloud.com,GlobalMax
-HOST-SUFFIX,as-south-205.myhuaweicloud.com,GlobalMax
-HOST-SUFFIX,as-south-207.myhuaweicloud.com,GlobalMax
 HOST-SUFFIX,asacp.org,GlobalMax
 HOST-SUFFIX,asagaku.com,GlobalMax
 HOST-SUFFIX,asahi.com,GlobalMax
@@ -3152,9 +3137,6 @@ HOST-SUFFIX,avxhm.se,GlobalMax
 HOST-SUFFIX,avxlive.icu,GlobalMax
 HOST-SUFFIX,avxxc.com,GlobalMax
 HOST-SUFFIX,avyahoo.com,GlobalMax
-HOST-SUFFIX,aw-d.tripcdn.com,GlobalMax
-HOST-SUFFIX,aw-p.tripcdn.com,GlobalMax
-HOST-SUFFIX,aw-s.tripcdn.com,GlobalMax
 HOST-SUFFIX,awabank.co.jp,GlobalMax
 HOST-SUFFIX,awayoutgame.com,GlobalMax
 HOST-SUFFIX,aweencore.com,GlobalMax
@@ -5591,9 +5573,7 @@ HOST-SUFFIX,bynet.co.il,GlobalMax
 HOST-SUFFIX,bypasscensorship.org,GlobalMax
 HOST-SUFFIX,byrut.org,GlobalMax
 HOST-SUFFIX,byspotify.com,GlobalMax
-HOST-SUFFIX,byteglb.com,GlobalMax
 HOST-SUFFIX,byteoversea.com,GlobalMax
-HOST-SUFFIX,byteoversea.net,GlobalMax
 HOST-SUFFIX,bytick.com,GlobalMax
 HOST-SUFFIX,byzantine-ahrb-centre.ac.uk,GlobalMax
 HOST-SUFFIX,byzantium.ac.uk,GlobalMax
@@ -5614,7 +5594,6 @@ HOST-SUFFIX,c4assets.com,GlobalMax
 HOST-SUFFIX,c4ccetl.ac.uk,GlobalMax
 HOST-SUFFIX,c4rex.co,GlobalMax
 HOST-SUFFIX,c4slive.com,GlobalMax
-HOST-SUFFIX,ca-east-201.myhuaweicloud.com,GlobalMax
 HOST-SUFFIX,ca.file.myqcloud.com,GlobalMax
 HOST-SUFFIX,caacentre.ac.uk,GlobalMax
 HOST-SUFFIX,caadoc.ac.uk,GlobalMax
@@ -5975,6 +5954,7 @@ HOST-SUFFIX,castlecollege.ac.uk,GlobalMax
 HOST-SUFFIX,castlereagh.ac.uk,GlobalMax
 HOST-SUFFIX,castro.fm,GlobalMax
 HOST-SUFFIX,casualhomemadesex.com,GlobalMax
+HOST-SUFFIX,cataboom.com,GlobalMax
 HOST-SUFFIX,catalina.hk,GlobalMax
 HOST-SUFFIX,catalinacruz.com,GlobalMax
 HOST-SUFFIX,cataloguementalhealth.ac.uk,GlobalMax
@@ -7142,6 +7122,7 @@ HOST-SUFFIX,conoha.jp,GlobalMax
 HOST-SUFFIX,conquerwithcharacter.com,GlobalMax
 HOST-SUFFIX,conscrypt.com,GlobalMax
 HOST-SUFFIX,conscrypt.org,GlobalMax
+HOST-SUFFIX,consentpro.com,GlobalMax
 HOST-SUFFIX,conservatoiresuk.ac.uk,GlobalMax
 HOST-SUFFIX,consilience.ac.uk,GlobalMax
 HOST-SUFFIX,constitutionalism.solutions,GlobalMax
@@ -7497,7 +7478,6 @@ HOST-SUFFIX,cudos.ac.uk,GlobalMax
 HOST-SUFFIX,cue.ac.uk,GlobalMax
 HOST-SUFFIX,cuebic.biz,GlobalMax
 HOST-SUFFIX,cuffiesaldi.com,GlobalMax
-HOST-SUFFIX,cuguplus.com,GlobalMax
 HOST-SUFFIX,cuhk.edu.hk,GlobalMax
 HOST-SUFFIX,cuhkacs.org,GlobalMax
 HOST-SUFFIX,cuhop.ac.uk,GlobalMax
@@ -7529,7 +7509,6 @@ HOST-SUFFIX,cumswappingsis.com,GlobalMax
 HOST-SUFFIX,cumteenporn.com,GlobalMax
 HOST-SUFFIX,cunhua.pics,GlobalMax
 HOST-SUFFIX,cuniq.com,GlobalMax
-HOST-SUFFIX,cuniq.sg,GlobalMax
 HOST-SUFFIX,cuntempire.com,GlobalMax
 HOST-SUFFIX,cuntwars.com,GlobalMax
 HOST-SUFFIX,cunw.ac.uk,GlobalMax
@@ -10071,17 +10050,12 @@ HOST-SUFFIX,ettrade.com.hk,GlobalMax
 HOST-SUFFIX,etviet.com,GlobalMax
 HOST-SUFFIX,etvonline.hk,GlobalMax
 HOST-SUFFIX,etwealth.com,GlobalMax
-HOST-SUFFIX,eu-central-201.myhuaweicloud.com,GlobalMax
-HOST-SUFFIX,eu-central-202.myhuaweicloud.com,GlobalMax
 HOST-SUFFIX,eu-consumer-empowerment.com,GlobalMax
 HOST-SUFFIX,eu-frankfurt.myqcloud.com,GlobalMax
 HOST-SUFFIX,eu-frankfurt.tencentcos.com,GlobalMax
 HOST-SUFFIX,eu-moscow.myqcloud.com,GlobalMax
 HOST-SUFFIX,eu-moscow.tencentcos.com,GlobalMax
-HOST-SUFFIX,eu-north-201.myhuaweicloud.com,GlobalMax
-HOST-SUFFIX,eu-west-1.myhuaweicloud.com,GlobalMax
 HOST-SUFFIX,eu-west-101.myhuaweicloud.com,GlobalMax
-HOST-SUFFIX,eu-west-201.myhuaweicloud.com,GlobalMax
 HOST-SUFFIX,eu.org,GlobalMax
 HOST-SUFFIX,eubluecardvisa.com,GlobalMax
 HOST-SUFFIX,eucasino.com,GlobalMax
@@ -16923,7 +16897,6 @@ HOST-SUFFIX,l-0005.dc-msedge.net,GlobalMax
 HOST-SUFFIX,l-msedge.net,GlobalMax
 HOST-SUFFIX,la-forum.org,GlobalMax
 HOST-SUFFIX,la-mama.ru,GlobalMax
-HOST-SUFFIX,la-north-205.myhuaweicloud.com,GlobalMax
 HOST-SUFFIX,laban.ac.uk,GlobalMax
 HOST-SUFFIX,labiennale.org,GlobalMax
 HOST-SUFFIX,labinacell.ac.uk,GlobalMax
@@ -17461,6 +17434,7 @@ HOST-SUFFIX,liveleak.com,GlobalMax
 HOST-SUFFIX,livemint.com,GlobalMax
 HOST-SUFFIX,livemodels.co,GlobalMax
 HOST-SUFFIX,livenet.ac.uk,GlobalMax
+HOST-SUFFIX,liveperson.net,GlobalMax
 HOST-SUFFIX,livephotos.tv,GlobalMax
 HOST-SUFFIX,liveporngirls.com,GlobalMax
 HOST-SUFFIX,liveprivates.com,GlobalMax
@@ -17699,6 +17673,7 @@ HOST-SUFFIX,lp99.pw,GlobalMax
 HOST-SUFFIX,lpc.ac.uk,GlobalMax
 HOST-SUFFIX,lpmde.ac.uk,GlobalMax
 HOST-SUFFIX,lpsg.com,GlobalMax
+HOST-SUFFIX,lpsnmedia.net,GlobalMax
 HOST-SUFFIX,lputil.com,GlobalMax
 HOST-SUFFIX,lqh0bon3.xyz,GlobalMax
 HOST-SUFFIX,lqpjw.cyou,GlobalMax
@@ -18456,9 +18431,6 @@ HOST-SUFFIX,mdtt-tv.sbs,GlobalMax
 HOST-SUFFIX,mdx.ac.uk,GlobalMax
 HOST-SUFFIX,mdyy.de,GlobalMax
 HOST-SUFFIX,me-east-1.myhuaweicloud.com,GlobalMax
-HOST-SUFFIX,me-east-205.myhuaweicloud.com,GlobalMax
-HOST-SUFFIX,me-east-208.myhuaweicloud.com,GlobalMax
-HOST-SUFFIX,me-east-209.myhuaweicloud.com,GlobalMax
 HOST-SUFFIX,me-gay.com,GlobalMax
 HOST-SUFFIX,me.me,GlobalMax
 HOST-SUFFIX,meadjohnson.com,GlobalMax
@@ -19995,7 +19967,6 @@ HOST-SUFFIX,n8agrifood.ac.uk,GlobalMax
 HOST-SUFFIX,na-ashburn.myqcloud.com,GlobalMax
 HOST-SUFFIX,na-ashburn.tencentcos.com,GlobalMax
 HOST-SUFFIX,na-att-idns.net,GlobalMax
-HOST-SUFFIX,na-east-0.myhuaweicloud.com,GlobalMax
 HOST-SUFFIX,na-me.ac.uk,GlobalMax
 HOST-SUFFIX,na-siliconvalley.myqcloud.com,GlobalMax
 HOST-SUFFIX,na-siliconvalley.tencentcos.com,GlobalMax
@@ -21834,6 +21805,7 @@ HOST-SUFFIX,orzdream.com,GlobalMax
 HOST-SUFFIX,orzistic.org,GlobalMax
 HOST-SUFFIX,orzqwq.com,GlobalMax
 HOST-SUFFIX,osakamotion.net,GlobalMax
+HOST-SUFFIX,osano.com,GlobalMax
 HOST-SUFFIX,osc.ac.uk,GlobalMax
 HOST-SUFFIX,oscar.ac.uk,GlobalMax
 HOST-SUFFIX,oscg.ac.uk,GlobalMax
@@ -24621,7 +24593,6 @@ HOST-SUFFIX,rti.tw,GlobalMax
 HOST-SUFFIX,rtings.com,GlobalMax
 HOST-SUFFIX,rtycminnesota.org,GlobalMax
 HOST-SUFFIX,ru-moscow-1.myhuaweicloud.com,GlobalMax
-HOST-SUFFIX,ru-northwest-201.myhuaweicloud.com,GlobalMax
 HOST-SUFFIX,rua-project.ac.uk,GlobalMax
 HOST-SUFFIX,ruanyifeng.com,GlobalMax
 HOST-SUFFIX,ruby-lang.org,GlobalMax
@@ -24647,8 +24618,6 @@ HOST-SUFFIX,ruleporn.com,GlobalMax
 HOST-SUFFIX,rumah123.com,GlobalMax
 HOST-SUFFIX,rumble.com,GlobalMax
 HOST-SUFFIX,rumporn.com,GlobalMax
-HOST-SUFFIX,rumt-sg.com,GlobalMax
-HOST-SUFFIX,rumt-us.com,GlobalMax
 HOST-SUFFIX,run.app,GlobalMax
 HOST-SUFFIX,runbtx.com,GlobalMax
 HOST-SUFFIX,rundf665.cyou,GlobalMax
@@ -24916,6 +24885,7 @@ HOST-SUFFIX,sbux.com.my,GlobalMax
 HOST-SUFFIX,sbuxcard.com,GlobalMax
 HOST-SUFFIX,sc-cdn.net,GlobalMax
 HOST-SUFFIX,sc-toolkit.ac.uk,GlobalMax
+HOST-SUFFIX,sc.com,GlobalMax
 HOST-SUFFIX,sc1.ac.uk,GlobalMax
 HOST-SUFFIX,sca-tolo.info,GlobalMax
 HOST-SUFFIX,scaan.ac.uk,GlobalMax
@@ -26620,6 +26590,7 @@ HOST-SUFFIX,stak.ac.uk,GlobalMax
 HOST-SUFFIX,stamford.ac.uk,GlobalMax
 HOST-SUFFIX,stamfordparktrust.ac.uk,GlobalMax
 HOST-SUFFIX,standard.co.uk,GlobalMax
+HOST-SUFFIX,standardchartered.com,GlobalMax
 HOST-SUFFIX,standardsuniversity.org,GlobalMax
 HOST-SUFFIX,standupfortibet.org,GlobalMax
 HOST-SUFFIX,standwithhk.org,GlobalMax
@@ -27808,7 +27779,6 @@ HOST-SUFFIX,thepervs.com,GlobalMax
 HOST-SUFFIX,thepiratebay.ee,GlobalMax
 HOST-SUFFIX,thepiratebay.org,GlobalMax
 HOST-SUFFIX,theplatform.com,GlobalMax
-HOST-SUFFIX,thepoizon.ru,GlobalMax
 HOST-SUFFIX,theporn.cc,GlobalMax
 HOST-SUFFIX,thepornarea.com,GlobalMax
 HOST-SUFFIX,thepornbest.com,GlobalMax
@@ -29260,7 +29230,6 @@ HOST-SUFFIX,urlborg.com,GlobalMax
 HOST-SUFFIX,urlgalleries.net,GlobalMax
 HOST-SUFFIX,urlparser.com,GlobalMax
 HOST-SUFFIX,urukawa.com,GlobalMax
-HOST-SUFFIX,us-east-1.myhuaweicloud.com,GlobalMax
 HOST-SUFFIX,us.to,GlobalMax
 HOST-SUFFIX,us.weibo.com,GlobalMax
 HOST-SUFFIX,usa-beatsbydreheadphonesonsale.net,GlobalMax
@@ -29281,6 +29250,7 @@ HOST-SUFFIX,usembassy.gov,GlobalMax
 HOST-SUFFIX,usenix.org,GlobalMax
 HOST-SUFFIX,useplannr.com,GlobalMax
 HOST-SUFFIX,userapi.com,GlobalMax
+HOST-SUFFIX,usercentrics.eu,GlobalMax
 HOST-SUFFIX,usercontent.dev,GlobalMax
 HOST-SUFFIX,usercontent.goog,GlobalMax
 HOST-SUFFIX,userpxt.io,GlobalMax
@@ -30630,6 +30600,7 @@ HOST-SUFFIX,weekmag.info,GlobalMax
 HOST-SUFFIX,wefightcensorship.org,GlobalMax
 HOST-SUFFIX,wefong.com,GlobalMax
 HOST-SUFFIX,weiboleak.com,GlobalMax
+HOST-SUFFIX,weights.com,GlobalMax
 HOST-SUFFIX,weihuo.org,GlobalMax
 HOST-SUFFIX,weijingsheng.org,GlobalMax
 HOST-SUFFIX,weimi180.com,GlobalMax
@@ -32145,6 +32116,9 @@ HOST-SUFFIX,youjizz.com,GlobalMax
 HOST-SUFFIX,youjizz.sex,GlobalMax
 HOST-SUFFIX,youlucky.com,GlobalMax
 HOST-SUFFIX,youmaker.com,GlobalMax
+HOST-SUFFIX,youmind.ai,GlobalMax
+HOST-SUFFIX,youmind.com,GlobalMax
+HOST-SUFFIX,youmind.site,GlobalMax
 HOST-SUFFIX,young-amateur-movies.com,GlobalMax
 HOST-SUFFIX,young-webcam.net,GlobalMax
 HOST-SUFFIX,young-xxx.net,GlobalMax

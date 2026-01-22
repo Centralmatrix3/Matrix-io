@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26434
+# 规则统计: 26437
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -10280,6 +10280,7 @@ HOST-SUFFIX,geocities.co.jp,PROXY
 HOST-SUFFIX,geocities.com,PROXY
 HOST-SUFFIX,geocities.jp,PROXY
 HOST-SUFFIX,geodesummit.com,PROXY
+HOST-SUFFIX,geogebra.org,PROXY
 HOST-SUFFIX,geolytics.com,PROXY
 HOST-SUFFIX,geoport.com,PROXY
 HOST-SUFFIX,geospatialimaging.com,PROXY
@@ -24759,6 +24760,7 @@ HOST-SUFFIX,wiivc.net,PROXY
 HOST-SUFFIX,wikaba.com,PROXY
 HOST-SUFFIX,wikawika.xyz,PROXY
 HOST-SUFFIX,wiki.gamerp.jp,PROXY
+HOST-SUFFIX,wiki.gg,PROXY
 HOST-SUFFIX,wiki.keso.cn,PROXY
 HOST-SUFFIX,wiki.oauth.net,PROXY
 HOST-SUFFIX,wiki.phonegap.com,PROXY
@@ -24892,6 +24894,7 @@ HOST-SUFFIX,wokar.org,PROXY
 HOST-SUFFIX,wolfatbestbuy.com,PROXY
 HOST-SUFFIX,wolfatbestbuy.net,PROXY
 HOST-SUFFIX,wolfax.com,PROXY
+HOST-SUFFIX,wolframalpha.com,PROXY
 HOST-SUFFIX,wolfsex-me.sbs,PROXY
 HOST-SUFFIX,wolterskluwer.com,PROXY
 HOST-SUFFIX,wombo.ai,PROXY

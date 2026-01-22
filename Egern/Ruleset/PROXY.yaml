@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26434
+# 规则统计: 26437
 
 domain_set:
   - 1password.drift.click
@@ -10282,6 +10282,7 @@ domain_suffix_set:
   - geocities.com
   - geocities.jp
   - geodesummit.com
+  - geogebra.org
   - geolytics.com
   - geoport.com
   - geospatialimaging.com
@@ -24761,6 +24762,7 @@ domain_suffix_set:
   - wikaba.com
   - wikawika.xyz
   - wiki.gamerp.jp
+  - wiki.gg
   - wiki.keso.cn
   - wiki.oauth.net
   - wiki.phonegap.com
@@ -24894,6 +24896,7 @@ domain_suffix_set:
   - wolfatbestbuy.com
   - wolfatbestbuy.net
   - wolfax.com
+  - wolframalpha.com
   - wolfsex-me.sbs
   - wolterskluwer.com
   - wombo.ai

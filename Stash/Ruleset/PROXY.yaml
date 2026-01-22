@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26434
+# 规则统计: 26437
 
 payload:
   - '1password.drift.click'
@@ -10281,6 +10281,7 @@ payload:
   - '+.geocities.com'
   - '+.geocities.jp'
   - '+.geodesummit.com'
+  - '+.geogebra.org'
   - '+.geolytics.com'
   - '+.geoport.com'
   - '+.geospatialimaging.com'
@@ -24760,6 +24761,7 @@ payload:
   - '+.wikaba.com'
   - '+.wikawika.xyz'
   - '+.wiki.gamerp.jp'
+  - '+.wiki.gg'
   - '+.wiki.keso.cn'
   - '+.wiki.oauth.net'
   - '+.wiki.phonegap.com'
@@ -24893,6 +24895,7 @@ payload:
   - '+.wolfatbestbuy.com'
   - '+.wolfatbestbuy.net'
   - '+.wolfax.com'
+  - '+.wolframalpha.com'
   - '+.wolfsex-me.sbs'
   - '+.wolterskluwer.com'
   - '+.wombo.ai'
