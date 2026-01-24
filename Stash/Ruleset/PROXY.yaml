@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26440
+# 规则统计: 26441
 
 payload:
   - '1password.drift.click'
@@ -4120,6 +4120,7 @@ payload:
   - '+.binance.vision'
   - '+.binanceapi.com'
   - '+.binancecnt.com'
+  - '+.binanceru.net'
   - '+.binancezh.be'
   - '+.binancezh.biz'
   - '+.binancezh.cc'

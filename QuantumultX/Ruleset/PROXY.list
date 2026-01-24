@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26440
+# 规则统计: 26441
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -4119,6 +4119,7 @@ HOST-SUFFIX,binance.us,PROXY
 HOST-SUFFIX,binance.vision,PROXY
 HOST-SUFFIX,binanceapi.com,PROXY
 HOST-SUFFIX,binancecnt.com,PROXY
+HOST-SUFFIX,binanceru.net,PROXY
 HOST-SUFFIX,binancezh.be,PROXY
 HOST-SUFFIX,binancezh.biz,PROXY
 HOST-SUFFIX,binancezh.cc,PROXY
