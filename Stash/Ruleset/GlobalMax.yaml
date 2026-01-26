@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 32850
+# 规则统计: 32851
 
 payload:
   - DOMAIN,1password.drift.click
@@ -4167,6 +4167,7 @@ payload:
   - DOMAIN-SUFFIX,binance.vision
   - DOMAIN-SUFFIX,binanceapi.com
   - DOMAIN-SUFFIX,binancecnt.com
+  - DOMAIN-SUFFIX,binanceru.net
   - DOMAIN-SUFFIX,binancezh.be
   - DOMAIN-SUFFIX,binancezh.biz
   - DOMAIN-SUFFIX,binancezh.cc
