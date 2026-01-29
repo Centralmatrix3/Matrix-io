@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 6000
+# 规则统计: 6001
 
 HOST-SUFFIX,000webhost.com,GreatFireWall
 HOST-SUFFIX,030buy.com,GreatFireWall
@@ -430,6 +430,7 @@ HOST-SUFFIX,b0ne.com,GreatFireWall
 HOST-SUFFIX,babylonbee.com,GreatFireWall
 HOST-SUFFIX,babynet.com.hk,GreatFireWall
 HOST-SUFFIX,backchina.com,GreatFireWall
+HOST-SUFFIX,backend-v2.crixet.com,GreatFireWall
 HOST-SUFFIX,backpackers.com.tw,GreatFireWall
 HOST-SUFFIX,backtotiananmen.com,GreatFireWall
 HOST-SUFFIX,bad.news,GreatFireWall

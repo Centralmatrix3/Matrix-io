@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 115094
+# 规则统计: 115095
 
 payload:
   - '265.com'
@@ -28,6 +28,7 @@ payload:
   - 'amp-api.apps.apple.com'
   - 'amp-api.media.apple.com'
   - 'amp-api.music.apple.com'
+  - 'aod-ssl.itunes.apple.com'
   - 'aod.itunes.apple.com'
   - 'api-edge.apps.apple.com'
   - 'app-analytics-services.com'

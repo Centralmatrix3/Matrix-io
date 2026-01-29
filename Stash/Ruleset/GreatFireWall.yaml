@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 6000
+# 规则统计: 6001
 
 payload:
   - '+.000webhost.com'
@@ -431,6 +431,7 @@ payload:
   - '+.babylonbee.com'
   - '+.babynet.com.hk'
   - '+.backchina.com'
+  - '+.backend-v2.crixet.com'
   - '+.backpackers.com.tw'
   - '+.backtotiananmen.com'
   - '+.bad.news'

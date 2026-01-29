@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26446
+# 规则统计: 26458
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -289,6 +289,7 @@ HOST,oneocsp.microsoft.com,PROXY
 HOST,ood.opsource.net,PROXY
 HOST,openaiapi-site.azureedge.net,PROXY
 HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,PROXY
+HOST,openaicom.imgix.net,PROXY
 HOST,openaicomproductionae4b.blob.core.windows.net,PROXY
 HOST,opgg-static.akamaized.net,PROXY
 HOST,origin-a.akamaihd.net,PROXY
@@ -2812,6 +2813,8 @@ HOST-SUFFIX,argotunnel.com,PROXY
 HOST-SUFFIX,aria.ms,PROXY
 HOST-SUFFIX,ark.to,PROXY
 HOST-SUFFIX,arlingtoncemetery.mil,PROXY
+HOST-SUFFIX,arma3.com,PROXY
+HOST-SUFFIX,armaplatform.com,PROXY
 HOST-SUFFIX,armovs.com,PROXY
 HOST-SUFFIX,arnoldrenderer.com,PROXY
 HOST-SUFFIX,arphic.com,PROXY
@@ -3487,6 +3490,7 @@ HOST-SUFFIX,battleforcecomix.com,PROXY
 HOST-SUFFIX,battlefront2.com,PROXY
 HOST-SUFFIX,battlefrontii.com,PROXY
 HOST-SUFFIX,battlelog.com,PROXY
+HOST-SUFFIX,battleye.com,PROXY
 HOST-SUFFIX,baxsound.com,PROXY
 HOST-SUFFIX,bayareabmw.com,PROXY
 HOST-SUFFIX,bayvoice.net,PROXY
@@ -4165,6 +4169,7 @@ HOST-SUFFIX,biqle.ru,PROXY
 HOST-SUFFIX,bird.so,PROXY
 HOST-SUFFIX,bisq.io,PROXY
 HOST-SUFFIX,bisq.network,PROXY
+HOST-SUFFIX,bistudio.com,PROXY
 HOST-SUFFIX,bisyoujyogyaruge.topaz.ne.jp,PROXY
 HOST-SUFFIX,bit-z.com,PROXY
 HOST-SUFFIX,bit.do,PROXY
@@ -4847,6 +4852,7 @@ HOST-SUFFIX,bodgirls.com,PROXY
 HOST-SUFFIX,bodog88.com,PROXY
 HOST-SUFFIX,bodyandsoul.com.au,PROXY
 HOST-SUFFIX,bodyfluids-jav.com,PROXY
+HOST-SUFFIX,bohemia.net,PROXY
 HOST-SUFFIX,boj.or.jp,PROXY
 HOST-SUFFIX,bokep.net,PROXY
 HOST-SUFFIX,bokepseks.org,PROXY
@@ -6524,6 +6530,7 @@ HOST-SUFFIX,cricketcountry.com,PROXY
 HOST-SUFFIX,cristyli.com,PROXY
 HOST-SUFFIX,crit-staging.com,PROXY
 HOST-SUFFIX,critiquebrainz.org,PROXY
+HOST-SUFFIX,crixet.com,PROXY
 HOST-SUFFIX,crmdynint-gcc.com,PROXY
 HOST-SUFFIX,crmdynint.com,PROXY
 HOST-SUFFIX,crocotube.com,PROXY
@@ -6807,6 +6814,7 @@ HOST-SUFFIX,daylenerio.com,PROXY
 HOST-SUFFIX,daylife.com,PROXY
 HOST-SUFFIX,daytonbmw.com,PROXY
 HOST-SUFFIX,daytontrucktires.com,PROXY
+HOST-SUFFIX,dayz.com,PROXY
 HOST-SUFFIX,dazn-api.com,PROXY
 HOST-SUFFIX,dazn.com,PROXY
 HOST-SUFFIX,dazndn.com,PROXY
@@ -14925,6 +14933,7 @@ HOST-SUFFIX,mairbeats.com,PROXY
 HOST-SUFFIX,maizhong.org,PROXY
 HOST-SUFFIX,makaan.com,PROXY
 HOST-SUFFIX,makeanything.com,PROXY
+HOST-SUFFIX,makearmanotwar.com,PROXY
 HOST-SUFFIX,makebettercode.com,PROXY
 HOST-SUFFIX,makecode.org,PROXY
 HOST-SUFFIX,makeeu.com,PROXY
@@ -20885,6 +20894,7 @@ HOST-SUFFIX,sih.app,PROXY
 HOST-SUFFIX,sijihuisuo.club,PROXY
 HOST-SUFFIX,sijihuisuo.com,PROXY
 HOST-SUFFIX,sikiswap.com,PROXY
+HOST-SUFFIX,silicagame.com,PROXY
 HOST-SUFFIX,silicon-mobility.com,PROXY
 HOST-SUFFIX,siliconmobility.com,PROXY
 HOST-SUFFIX,silkbook.com,PROXY
@@ -23824,6 +23834,7 @@ HOST-SUFFIX,vietdaikynguyen.com,PROXY
 HOST-SUFFIX,viewerswives.net,PROXY
 HOST-SUFFIX,viewgals.com,PROXY
 HOST-SUFFIX,viewpointsfromfacebook.com,PROXY
+HOST-SUFFIX,vigorgame.com,PROXY
 HOST-SUFFIX,vijayatemple.org,PROXY
 HOST-SUFFIX,vikiporn.com,PROXY
 HOST-SUFFIX,vilanet.me,PROXY
@@ -25913,6 +25924,7 @@ HOST-SUFFIX,yipub.com,PROXY
 HOST-SUFFIX,yiqiedoushiganggangkaishi.org,PROXY
 HOST-SUFFIX,yizhihongxing.com,PROXY
 HOST-SUFFIX,yjcontentdelivery.com,PROXY
+HOST-SUFFIX,ylands.com,PROXY
 HOST-SUFFIX,ymail.com,PROXY
 HOST-SUFFIX,ymhsf.top,PROXY
 HOST-SUFFIX,ymhsf1.top,PROXY

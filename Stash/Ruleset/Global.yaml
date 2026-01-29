@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7413
+# 规则统计: 7414
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -529,6 +529,7 @@ payload:
   - DOMAIN-SUFFIX,babylonbee.com
   - DOMAIN-SUFFIX,babynet.com.hk
   - DOMAIN-SUFFIX,backchina.com
+  - DOMAIN-SUFFIX,backend-v2.crixet.com
   - DOMAIN-SUFFIX,backpackers.com.tw
   - DOMAIN-SUFFIX,backtotiananmen.com
   - DOMAIN-SUFFIX,bad.news
