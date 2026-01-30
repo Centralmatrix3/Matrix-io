@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 6001
+# 规则统计: 6002
 
 domain_suffix_set:
   - 000webhost.com
@@ -1845,6 +1845,7 @@ domain_suffix_set:
   - freess.org
   - freessh.us
   - freetcp.com
+  - freeterabox.com
   - freetibet.net
   - freetibet.org
   - freetibetanheroes.org

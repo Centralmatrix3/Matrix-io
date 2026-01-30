@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 6001
+# 规则统计: 6002
 
 payload:
   - '+.000webhost.com'
@@ -1845,6 +1845,7 @@ payload:
   - '+.freess.org'
   - '+.freessh.us'
   - '+.freetcp.com'
+  - '+.freeterabox.com'
   - '+.freetibet.net'
   - '+.freetibet.org'
   - '+.freetibetanheroes.org'

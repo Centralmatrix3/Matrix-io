@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26458
+# 规则统计: 26465
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -2939,10 +2939,12 @@ HOST-SUFFIX,ateam-oracle.com,PROXY
 HOST-SUFFIX,atgfw.org,PROXY
 HOST-SUFFIX,athenaeizou.com,PROXY
 HOST-SUFFIX,atkgallery.com,PROXY
+HOST-SUFFIX,atl-paas.net,PROXY
 HOST-SUFFIX,atlanta168.com,PROXY
 HOST-SUFFIX,atlantaminidealers.com,PROXY
 HOST-SUFFIX,atlasdmt.com,PROXY
 HOST-SUFFIX,atlasonepoint.com,PROXY
+HOST-SUFFIX,atlassian-dev.net,PROXY
 HOST-SUFFIX,atlassian.com,PROXY
 HOST-SUFFIX,atlassian.net,PROXY
 HOST-SUFFIX,atnext.com,PROXY
@@ -9576,6 +9578,9 @@ HOST-SUFFIX,fotolia.tv,PROXY
 HOST-SUFFIX,fotolja.com,PROXY
 HOST-SUFFIX,fotoscaserasx.com,PROXY
 HOST-SUFFIX,foundationdb.org,PROXY
+HOST-SUFFIX,foundationdns.com,PROXY
+HOST-SUFFIX,foundationdns.net,PROXY
+HOST-SUFFIX,foundationdns.org,PROXY
 HOST-SUFFIX,fountmedia.io,PROXY
 HOST-SUFFIX,fourthinternational.org,PROXY
 HOST-SUFFIX,fourthns.systems,PROXY
@@ -13694,6 +13699,7 @@ HOST-SUFFIX,jinpianwang.com,PROXY
 HOST-SUFFIX,jinrizhiyi.news,PROXY
 HOST-SUFFIX,jintian.net,PROXY
 HOST-SUFFIX,jinx.com,PROXY
+HOST-SUFFIX,jira.com,PROXY
 HOST-SUFFIX,jitouch.com,PROXY
 HOST-SUFFIX,jitsi.org,PROXY
 HOST-SUFFIX,jiuse.ai,PROXY
@@ -21459,6 +21465,7 @@ HOST-SUFFIX,srcf.ucam.org,PROXY
 HOST-SUFFIX,srebrenica360.com,PROXY
 HOST-SUFFIX,srtcdn.net,PROXY
 HOST-SUFFIX,srttu.edu,PROXY
+HOST-SUFFIX,ss-inf.net,PROXY
 HOST-SUFFIX,ss-link.com,PROXY
 HOST-SUFFIX,ss.pythonic.life,PROXY
 HOST-SUFFIX,ss2.us,PROXY

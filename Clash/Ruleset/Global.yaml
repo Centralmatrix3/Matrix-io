@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7414
+# 规则统计: 7415
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -2225,6 +2225,7 @@ payload:
   - DOMAIN-SUFFIX,freess.org
   - DOMAIN-SUFFIX,freessh.us
   - DOMAIN-SUFFIX,freetcp.com
+  - DOMAIN-SUFFIX,freeterabox.com
   - DOMAIN-SUFFIX,freetibet.net
   - DOMAIN-SUFFIX,freetibet.org
   - DOMAIN-SUFFIX,freetibetanheroes.org

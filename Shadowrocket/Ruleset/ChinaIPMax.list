@@ -1,5 +1,5 @@
 # 规则名称: ChinaIPMax
-# 规则统计: 23150
+# 规则统计: 23151
 
 IP-CIDR,1.0.1.0/24,no-resolve
 IP-CIDR,1.0.2.0/23,no-resolve
@@ -4094,6 +4094,7 @@ IP-CIDR,103.62.80.0/21,no-resolve
 IP-CIDR,103.62.80.0/22,no-resolve
 IP-CIDR,103.62.84.0/22,no-resolve
 IP-CIDR,103.62.88.0/22,no-resolve
+IP-CIDR,103.62.88.0/23,no-resolve
 IP-CIDR,103.62.96.0/19,no-resolve
 IP-CIDR,103.62.96.0/22,no-resolve
 IP-CIDR,103.63.140.0/22,no-resolve
@@ -6864,13 +6865,12 @@ IP-CIDR,116.78.0.0/16,no-resolve
 IP-CIDR,116.8.0.0/14,no-resolve
 IP-CIDR,116.85.0.0/16,no-resolve
 IP-CIDR,116.85.0.0/17,no-resolve
-IP-CIDR,116.85.1.0/24,no-resolve
+IP-CIDR,116.85.0.0/22,no-resolve
 IP-CIDR,116.85.128.0/18,no-resolve
 IP-CIDR,116.85.13.0/24,no-resolve
-IP-CIDR,116.85.14.0/24,no-resolve
+IP-CIDR,116.85.14.0/23,no-resolve
 IP-CIDR,116.85.16.0/23,no-resolve
 IP-CIDR,116.85.192.0/19,no-resolve
-IP-CIDR,116.85.2.0/23,no-resolve
 IP-CIDR,116.85.224.0/20,no-resolve
 IP-CIDR,116.85.240.0/20,no-resolve
 IP-CIDR,116.85.240.0/21,no-resolve
@@ -10585,6 +10585,7 @@ IP-CIDR,202.111.230.0/24,no-resolve
 IP-CIDR,202.111.240.0/23,no-resolve
 IP-CIDR,202.111.242.0/24,no-resolve
 IP-CIDR,202.111.244.0/22,no-resolve
+IP-CIDR,202.111.248.0/24,no-resolve
 IP-CIDR,202.111.32.0/24,no-resolve
 IP-CIDR,202.111.33.0/25,no-resolve
 IP-CIDR,202.111.33.128/26,no-resolve
