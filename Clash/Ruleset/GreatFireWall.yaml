@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 6002
+# 规则统计: 6004
 
 payload:
   - '+.000webhost.com'
@@ -4455,6 +4455,7 @@ payload:
   - '+.silkbook.com'
   - '+.silvergatebank.com'
   - '+.simbolostwitter.com'
+  - '+.simianx.ai'
   - '+.simplecd.me'
   - '+.simplecd.org'
   - '+.simpleproductivityblog.com'
@@ -5859,6 +5860,7 @@ payload:
   - '+.yesasia.com.hk'
   - '+.yespornplease.com'
   - '+.yeyeclub.com'
+  - '+.yfsp.tv'
   - '+.ygto.com'
   - '+.yhcw.net'
   - '+.yibada.com'
