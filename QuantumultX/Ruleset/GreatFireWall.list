@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 6004
+# 规则统计: 6007
 
 HOST-SUFFIX,000webhost.com,GreatFireWall
 HOST-SUFFIX,030buy.com,GreatFireWall
@@ -468,6 +468,7 @@ HOST-SUFFIX,bb-chat.tv,GreatFireWall
 HOST-SUFFIX,bbc.co.uk,GreatFireWall
 HOST-SUFFIX,bbc.com,GreatFireWall
 HOST-SUFFIX,bbc.in,GreatFireWall
+HOST-SUFFIX,bbc.pdn.tritondigital.com,GreatFireWall
 HOST-SUFFIX,bbcchinese.com,GreatFireWall
 HOST-SUFFIX,bbchat.tv,GreatFireWall
 HOST-SUFFIX,bbci.co.uk,GreatFireWall
@@ -1274,6 +1275,7 @@ HOST-SUFFIX,db.tt,GreatFireWall
 HOST-SUFFIX,dbgjd.com,GreatFireWall
 HOST-SUFFIX,dcard.tw,GreatFireWall
 HOST-SUFFIX,dcmilitary.com,GreatFireWall
+HOST-SUFFIX,dcs-spotify.megaphone.fm,GreatFireWall
 HOST-SUFFIX,ddc.com.tw,GreatFireWall
 HOST-SUFFIX,ddex.io,GreatFireWall
 HOST-SUFFIX,ddns.info,GreatFireWall
@@ -2404,6 +2406,7 @@ HOST-SUFFIX,hegre-art.com,GreatFireWall
 HOST-SUFFIX,helloandroid.com,GreatFireWall
 HOST-SUFFIX,helloqueer.com,GreatFireWall
 HOST-SUFFIX,hellouk.org,GreatFireWall
+HOST-SUFFIX,help.byspotify.com,GreatFireWall
 HOST-SUFFIX,helpeachpeople.com,GreatFireWall
 HOST-SUFFIX,helpster.de,GreatFireWall
 HOST-SUFFIX,helpzhuling.org,GreatFireWall

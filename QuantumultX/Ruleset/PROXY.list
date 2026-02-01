@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26466
+# 规则统计: 26468
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -3508,6 +3508,7 @@ HOST-SUFFIX,bbc.com,PROXY
 HOST-SUFFIX,bbc.in,PROXY
 HOST-SUFFIX,bbc.mp-pxcdn.com,PROXY
 HOST-SUFFIX,bbc.net.uk,PROXY
+HOST-SUFFIX,bbc.pdn.tritondigital.com,PROXY
 HOST-SUFFIX,bbcchinese.com,PROXY
 HOST-SUFFIX,bbchat.tv,PROXY
 HOST-SUFFIX,bbci.co.uk,PROXY
@@ -14701,6 +14702,7 @@ HOST-SUFFIX,lostbetsgames.com,PROXY
 HOST-SUFFIX,lotcrap.com,PROXY
 HOST-SUFFIX,lotsawahouse.org,PROXY
 HOST-SUFFIX,lotuslight.org.tw,PROXY
+HOST-SUFFIX,louisvuitton.com,PROXY
 HOST-SUFFIX,lovart.ai,PROXY
 HOST-SUFFIX,love-sextoys.co.uk,PROXY
 HOST-SUFFIX,love4porn.com,PROXY

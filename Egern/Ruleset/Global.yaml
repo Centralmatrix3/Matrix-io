@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7417
+# 规则统计: 7420
 
 no_resolve: true
 domain_set:
@@ -575,6 +575,7 @@ domain_suffix_set:
   - bbc.co.uk
   - bbc.com
   - bbc.in
+  - bbc.pdn.tritondigital.com
   - bbcchinese.com
   - bbchat.tv
   - bbci.co.uk
@@ -1524,6 +1525,7 @@ domain_suffix_set:
   - dbgjd.com
   - dcard.tw
   - dcmilitary.com
+  - dcs-spotify.megaphone.fm
   - ddc.com.tw
   - ddex.io
   - ddhw.info
@@ -2925,6 +2927,7 @@ domain_suffix_set:
   - helloss.pw
   - hellotxt.com
   - hellouk.org
+  - help.byspotify.com
   - helpeachpeople.com
   - helplinfen.com
   - helpster.de

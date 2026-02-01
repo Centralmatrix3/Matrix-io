@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 6004
+# 规则统计: 6007
 
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,030buy.com
@@ -468,6 +468,7 @@ DOMAIN-SUFFIX,bb-chat.tv
 DOMAIN-SUFFIX,bbc.co.uk
 DOMAIN-SUFFIX,bbc.com
 DOMAIN-SUFFIX,bbc.in
+DOMAIN-SUFFIX,bbc.pdn.tritondigital.com
 DOMAIN-SUFFIX,bbcchinese.com
 DOMAIN-SUFFIX,bbchat.tv
 DOMAIN-SUFFIX,bbci.co.uk
@@ -1274,6 +1275,7 @@ DOMAIN-SUFFIX,db.tt
 DOMAIN-SUFFIX,dbgjd.com
 DOMAIN-SUFFIX,dcard.tw
 DOMAIN-SUFFIX,dcmilitary.com
+DOMAIN-SUFFIX,dcs-spotify.megaphone.fm
 DOMAIN-SUFFIX,ddc.com.tw
 DOMAIN-SUFFIX,ddex.io
 DOMAIN-SUFFIX,ddns.info
@@ -2404,6 +2406,7 @@ DOMAIN-SUFFIX,hegre-art.com
 DOMAIN-SUFFIX,helloandroid.com
 DOMAIN-SUFFIX,helloqueer.com
 DOMAIN-SUFFIX,hellouk.org
+DOMAIN-SUFFIX,help.byspotify.com
 DOMAIN-SUFFIX,helpeachpeople.com
 DOMAIN-SUFFIX,helpster.de
 DOMAIN-SUFFIX,helpzhuling.org
