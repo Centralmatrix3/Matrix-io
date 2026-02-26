@@ -1,0 +1,9 @@
+#!name = TestFlight
+#!desc = TestFlight强制安装
+#!author = Skyxim
+
+# [Script]
+^https:\/\/testflight\.apple\.com((\/v3\/accounts\/.+?\/apps$)|(\/v2\/accounts\/.+?\/apps\/.+?\/builds\/.+)) url script-response-body https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/QuantumultX/Scripts/TestFlightX.js
+
+# [MITM]
+hostname = testflight.apple.com

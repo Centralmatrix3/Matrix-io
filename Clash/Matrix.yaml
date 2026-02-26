@@ -1,0 +1,350 @@
+# 配置名称: Clash 配置
+# 配置作者: Centralmatrix3
+# 更新时间: 26-02-25 00:00
+
+# [端口设置]
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+tproxy-port: 7894
+
+# [通用设置]
+external-controller: 0.0.0.0:9090
+geodata-loader: standard
+unified-delay: true
+allow-lan: true
+ipv6: true
+mode: rule
+log-level: info
+tcp-concurrent: true
+find-process-mode: strict
+global-client-fingerprint: chrome
+
+# [数据库]
+geodata-mode: false
+geo-auto-update: true
+geo-update-interval: 24
+geox-url:
+  geoip: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/release/geoip.dat"
+  geosite: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/release/geosite.dat"
+  mmdb: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/release/country.mmdb"
+  asn: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/release/GeoLite2-ASN.mmdb"
+
+# [DNS设置]
+dns:
+  enable: true
+  ipv6: false
+  prefer-h3: false
+  listen: 0.0.0.0:1053
+  enhanced-mode: fake-ip
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fake-ip-filter:
+    - '*.lan'
+    - '+.local'
+  fake-ip-range: 198.18.0.1/16
+
+# [TUN设置]
+tun:
+  enable: true
+  stack: mixed
+  dns-hijack:
+    - any:53
+  auto-route: true
+  auto-detect-interface: true
+
+# [缓存设置]
+profile:
+  store-selected: true
+  store-fake-ip: true
+
+# [嗅探设置]
+sniffer:
+  enable: true
+  force-dns-mapping: true
+  parse-pure-ip: true
+  override-destination: true
+  sniff:
+    HTTP:
+      ports: [80,8080-8880]
+      override-destination: true
+    TLS:
+      ports: [443,8443]
+    QUIC:
+      ports: [443,8443]
+
+# [订阅节点]
+proxy-providers:
+  subscribe:
+    type: http
+    url: "https://your-service-provider"
+    path: ./Server/subscribe.yaml
+    interval: 86400
+    health-check:
+      enable: true
+      url: https://cp.cloudflare.com/generate_204
+      interval: 1800
+      timeout: 5000
+
+# [策略组]
+proxy-groups:
+  - name: "自行选择"
+    type: select
+    icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Static.png
+    url: "https://cp.cloudflare.com/generate_204"
+    include-all: true
+    filter: "^"
+    interval: 1800
+    lazy: true
+
+  - name: "苹果服务"
+    type: select
+    icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Apple-v2.png
+    proxies:
+      - DIRECT
+      - REJECT
+      - 自行选择
+      - 自动选择
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 狮城节点
+      - 美国节点
+
+  - name: "港台媒体"
+    type: select
+    icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/StreamingSE.png
+    proxies:
+      - DIRECT
+      - REJECT
+      - 自行选择
+      - 自动选择
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 狮城节点
+      - 美国节点
+
+  - name: "国内媒体"
+    type: select
+    icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/StreamingCN.png
+    proxies:
+      - DIRECT
+      - REJECT
+      - 自行选择
+      - 自动选择
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 狮城节点
+      - 美国节点
+
+  - name: "国外媒体"
+    type: select
+    icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Streaming.png
+    proxies:
+      - 自行选择
+      - 自动选择
+      - DIRECT
+      - REJECT
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 狮城节点
+      - 美国节点
+
+  - name: "国外网站"
+    type: select
+    icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Global.png
+    proxies:
+      - 自行选择
+      - 自动选择
+      - DIRECT
+      - REJECT
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 狮城节点
+      - 美国节点
+
+  - name: "黑白名单"
+    type: select
+    icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Final.png
+    proxies:
+      - 自行选择
+      - 自动选择
+      - DIRECT
+      - REJECT
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 狮城节点
+      - 美国节点
+
+  - name: "自动选择"
+    type: url-test
+    icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Available.png
+    url: "https://cp.cloudflare.com/generate_204"
+    include-all: true
+    filter: "^"
+    tolerance: 50
+    interval: 1800
+    lazy: true
+
+  - name: "香港节点"
+    type: url-test
+    icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/HK.png
+    url: "https://cp.cloudflare.com/generate_204"
+    include-all: true
+    filter: "香港|港|🇭🇰|HK|(?i)Hong"
+    tolerance: 50
+    interval: 1800
+    lazy: true
+
+  - name: "台湾节点"
+    type: url-test
+    icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/TW.png
+    url: "https://cp.cloudflare.com/generate_204"
+    include-all: true
+    filter: "台湾|台|TW|🇹🇼|(?i)Taiwan"
+    tolerance: 50
+    interval: 1800
+    lazy: true
+
+  - name: "日本节点"
+    type: url-test
+    icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/JP.png
+    url: "https://cp.cloudflare.com/generate_204"
+    include-all: true
+    filter: "日本|日|JP|🇯🇵|(?i)Japan"
+    tolerance: 50
+    interval: 1800
+    lazy: true
+
+  - name: "韩国节点"
+    type: url-test
+    icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/KR.png
+    url: "https://cp.cloudflare.com/generate_204"
+    include-all: true
+    filter: "韩国|韩|KR|🇰🇷|(?i)Korea"
+    tolerance: 50
+    interval: 1800
+    lazy: true
+
+  - name: "狮城节点"
+    type: url-test
+    icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/SG.png
+    url: "https://cp.cloudflare.com/generate_204"
+    include-all: true
+    filter: "新加坡|狮|SG|🇸🇬|(?i)Singapore"
+    tolerance: 50
+    interval: 1800
+    lazy: true
+
+  - name: "美国节点"
+    type: url-test
+    icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/US.png
+    url: "https://cp.cloudflare.com/generate_204"
+    include-all: true
+    filter: "美国|美|US|🇺🇸|(?i)States"
+    tolerance: 50
+    interval: 1800
+    lazy: true
+
+# [本地规则]
+rules:
+  - RULE-SET,规则修正,DIRECT
+  - RULE-SET,广告拦截,REJECT
+  - RULE-SET,港台媒体,港台媒体
+  - RULE-SET,国内媒体,国内媒体
+  - RULE-SET,国外媒体,国外媒体
+  - RULE-SET,国外网站,国外网站
+  - RULE-SET,苹果服务,苹果服务
+  - RULE-SET,局域网络,DIRECT
+  - RULE-SET,国内网站,DIRECT
+  - MATCH,黑白名单
+
+# [远程规则]
+rule-providers:
+  规则修正:
+    type: http
+    path: ./Ruleset/Unbreak.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/Unbreak.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+
+  广告拦截:
+    type: http
+    path: ./Ruleset/Advertising.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/Advertising.yaml
+    behavior: domain
+    interval: 86400
+    format: yaml
+
+  港台媒体:
+    type: http
+    path: ./Ruleset/HMTMedia.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/HMTMedia.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+
+  国内媒体:
+    type: http
+    path: ./Ruleset/ChinaMedia.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/ChinaMedia.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+
+  国外媒体:
+    type: http
+    path: ./Ruleset/GlobalMedia.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/GlobalMedia.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+
+  国外网站:
+    type: http
+    path: ./Ruleset/Global.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/Global.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+
+  苹果服务:
+    type: http
+    path: ./Ruleset/Apple.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/Apple.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+
+  局域网络:
+    type: http
+    path: ./Ruleset/LAN.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/LAN.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+
+  国内网站:
+    type: http
+    path: ./Ruleset/GEOIPCN.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Clash/Ruleset/GEOIPCN.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml

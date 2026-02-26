@@ -1,0 +1,347 @@
+name: 快捷搜索
+description: 快捷搜索(命令+空格+关键词)
+author: ddgksf2013
+
+url_rewrites:
+  # [指令:yd 内容:xxx (有道词典)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=yd\+([^&]+).+
+    location: http://dict.youdao.com/search?q=$1
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+yd.+
+    location: http://dict.youdao.com/search?q=$1
+    status_code: 302
+
+  # [指令:trc 内容:xxx (Google译至中)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=trc\+([^&]+).+
+    location: https://translate.google.com/#view=home&op=translate&sl=auto&tl=zh-CN&text=$1
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+trc.+
+    location: https://translate.google.com/#view=home&op=translate&sl=auto&tl=zh-CN&text=$1
+    status_code: 302
+
+  # [指令:tre 内容:xxx (Google译至英)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=tre\+([^&]+).+
+    location: https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text=$1
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+tre.+
+    location: https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text=$1
+    status_code: 302
+
+  # [指令:trj 内容:xxx (Google译至日)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=trj\+([^&]+).+
+    location: https://translate.google.com/#view=home&op=translate&sl=auto&tl=ja&text=$1
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+trj.+
+    location: https://translate.google.com/#view=home&op=translate&sl=auto&tl=ja&text=$1
+    status_code: 302
+
+  # [指令:tt 内容:xxx (头条)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=tt\+([^&]+).+
+    location: https://so.toutiao.com/search?keyword=$1
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+tt.+
+    location: https://so.toutiao.com/search?keyword=$1
+    status_code: 302
+
+  # [指令:db 内容:xxx (豆瓣)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=db\+([^&]+).+
+    location: https://m.douban.com/search?query=$1
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+db.+
+    location: https://m.douban.com/search?query=$1
+    status_code: 302
+
+  # [指令:zh 内容:xxx (知乎)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=zh\+([^&]+).+
+    location: http://www.zhihu.com/search?q=$1
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+zh.+
+    location: http://www.zhihu.com/search?q=$1
+    status_code: 302
+
+  # [指令:微博 内容:xxx (微博)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=wb\+([^&]+).+
+    location: https://s.weibo.com/weibo/$1
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+wb.+
+    location: https://s.weibo.com/weibo/$1
+    status_code: 302
+
+  # [指令:微信 内容:xxx (微信)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=wx\+([^&]+).+
+    location: https://weixin.sogou.com/weixinwap?query=$1
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+wx.+
+    location: https://weixin.sogou.com/weixinwap?query=$1
+    status_code: 302
+
+  # [指令:up 内容:xxx (Unsplash)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=up\+([^&]+).+
+    location: https://unsplash.com/s/photos/$1
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+up.+
+    location: https://unsplash.com/s/photos/$1
+    status_code: 302
+
+  # [指令:sspai 内容:xxx (少数派站内搜索)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=sspai\+([^&]+).+
+    location: https://sspai.com/search/post/$1
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+sspai.+
+    location: https://sspai.com/search/post/$1
+    status_code: 302
+
+  # [指令:ssp 内容:xxx (Google搜索少数派)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=ssp\+([^&]+).+
+    location: https://www.google.com/search?as_q=$1&as_sitesearch=sspai.com
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+ssp.+
+    location: https://www.google.com/search?as_q=$1&as_sitesearch=sspai.com
+    status_code: 302
+
+  # [指令:tw 内容:xxx (Twitter)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=tw\+([^&]+).+
+    location: https://twitter.com/search?q=$1
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+tw.+
+    location: https://twitter.com/search?q=$1
+    status_code: 302
+
+  # [指令:gh 内容:xxx (Github)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+
+    location: https://github.com/search?q=$1
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+gh.+
+    location: https://github.com/search?q=$1
+    status_code: 302
+
+  # [指令:gu 内容:xxx (Github User)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=gu\+([^&]+).+
+    location: https://github.com/search?q=$1&type=users
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+gu.+
+    location: https://github.com/search?q=$1&type=users
+    status_code: 302
+
+  # [指令:gc 内容:xxx (GitHub Code)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=gc\+([^&]+).+
+    location: https://github.com/search?o=desc&q=$1&s=indexed&type=Code
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+gc.+
+    location: https://github.com/search?o=desc&q=$1&s=indexed&type=Code
+    status_code: 302
+
+  # [指令:so 内容:xxx (Stack Overflow)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=so\+([^&]+).+
+    location: https://stackoverflow.com/search?q=$1
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+so.+
+    location: https://stackoverflow.com/search?q=$1
+    status_code: 302
+
+  # [指令:se 内容:xxx (Stack Exchange)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=se\+([^&]+).+
+    location: https://stackexchange.com/search?q=$1
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+se.+
+    location: https://stackexchange.com/search?q=$1
+    status_code: 302
+
+  # [指令:wa 内容:xxx (WolframAlpha)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=wa\+([^&]+).+
+    location: https://www.wolframalpha.com/input/?i=$1
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+wa.+
+    location: https://www.wolframalpha.com/input/?i=$1
+    status_code: 302
+
+  # [指令:rd 内容:xxx (Reddit)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=rd\+([^&]+).+
+    location: https://www.reddit.com/search?q=$1
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+rd.+
+    location: https://www.reddit.com/search?q=$1
+    status_code: 302
+
+  # [指令:zdm 内容:xxx (什么值得买)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=zdm\+([^&]+).+
+    location: https://search.m.smzdm.com/?v=b&s=$1
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+zdm.+
+    location: https://search.m.smzdm.com/?v=b&s=$1
+    status_code: 302
+
+  # [指令:jd 内容:xxx (京东)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=jd\+([^&]+).+
+    location: openapp.jdmobile://virtual?params={"des":"productList","keyWord":"$1","from":"search","category":"jump"}
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+jd.+
+    location: openapp.jdmobile://virtual?params={"des":"productList","keyWord":"$1","from":"search","category":"jump"}
+    status_code: 302
+
+  # [指令:tb 内容:xxx (淘宝)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=tb\+([^&]+).+
+    location: taobao://s.taobao.com?q=$1
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+tb.+
+    location: taobao://s.taobao.com?q=$1
+    status_code: 302
+
+  # [指令:yt 内容:xxx (YouTube)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=yt\+([^&]+).+
+    location: https://www.youtube.com/results?search_query=$1
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+yt.+
+    location: https://www.youtube.com/results?search_query=$1
+    status_code: 302
+
+  # [指令:bli 内容:xxx (哔哩哔哩)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=bli\+([^&]+).+
+    location: https://m.bilibili.com/search?keyword=$1
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+bli.+
+    location: https://m.bilibili.com/search?keyword=$1
+    status_code: 302
+
+  # [指令:gd 内容:xxx (谷歌搜索Drive资源)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=gd\+([^&]+).+
+    location: https://www.google.com/search?q=%22Google+Drive%22+$1
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+gd.+
+    location: https://www.google.com/search?q=%22Google+Drive%22+$1
+    status_code: 302
+
+  # [指令:tgd 内容:xxx (t.me搜索Drive资源)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=tgd\+([^&]+).+
+    location: https://t.me/s/gdurl?q=$1
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+tgd.+
+    location: https://t.me/s/gdurl?q=$1
+    status_code: 302
+
+  # [指令:ph 内容:xxx (PornHub)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=ph\+([^&]+).+
+    location: https://cn.pornhub.com/video/search?search=$1
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+ph.+
+    location: https://cn.pornhub.com/video/search?search=$1
+    status_code: 302
+
+  # [指令:af 内容:xxx (AcFun)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=af\+([^&]+).+
+    location: https://www.acfun.cn/search?keyword=$1
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+af.+
+    location: https://www.acfun.cn/search?keyword=$1
+    status_code: 302
+
+# [指令:ys 内容:xxx (茶杯狐Cupfox)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=ys\+([^&]+).+
+    location: https://cupfox.app/search?key=$1
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+ys.+
+    location: https://cupfox.app/search?key=$1
+    status_code: 302
+
+  # [苹果换区输入区号搜索 指令:cn (切换至中国区)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=cn&.+
+    location: https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143465&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=cn&urlDesc=
+    status_code: 302
+
+  # [苹果换区输入区号搜索 指令:hk (切换至香港区)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=hk&.+
+    location: https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143463&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=hk&urlDesc=
+    status_code: 302
+
+  # [苹果换区输入区号搜索 指令:tw (切换至台湾区)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=tw&.+
+    location: https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143470&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tw&urlDesc=
+    status_code: 302
+
+  # [苹果换区输入区号搜索 指令:us (切换至美国区)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=us&.+
+    location: https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143441&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=us&urlDesc=
+    status_code: 302
+
+  # [苹果换区输入区号搜索 指令:jp (切换至日本区)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=jp&.+
+    location: https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143462&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=jp&urlDesc=
+    status_code: 302
+
+  # [苹果换区输入区号搜索 指令:kr (切换至韩国区)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=kr&.+
+    location: https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143466&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=kr&urlDesc=
+    status_code: 302
+
+  # [苹果换区输入区号搜索 指令:tr (切换至土耳其区)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=tr&.+
+    location: https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143480&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tr&urlDesc=
+    status_code: 302
+
+  # [苹果换区输入区号搜索 指令:sg (切换至新加坡区)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=sg&.+
+    location: https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143464&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tr&urlDesc=
+    status_code: 302
+
+  # [指令:bd 内容:xxx (百度搜索)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+
+    location: https://www.baidu.com/s?wd=$1
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=((.(?!bd))+)\+bd.+
+    location: https://www.baidu.com/s?wd=$1
+    status_code: 302
+
+  # [指令:wk 内容:xxx (维基搜索)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=wk\+([^&]+).+
+    location: https://zh.wikipedia.org/wiki/$1
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+wk.+
+    location: https://zh.wikipedia.org/wiki/$1
+    status_code: 302
+
+  # [指令:wz 内容:xxx (无追搜索)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=wz\+([^&]+).+
+    location: https://www.wuzhuiso.com/s?q=$1
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+wz.+
+    location: https://www.wuzhuiso.com/s?q=$1
+    status_code: 302
+
+  # [指令:yh 内容:xxx (油猴搜索)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=yh\+([^&]+).+
+    location: https://greasyfork.org/zh-CN/scripts?q=$1
+    status_code: 302
+
+  # [指令:gi 内容:xxx (谷歌图片)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=gi\+([^&]+).+
+    location: https://www.google.com/search?&tbm=isch&q=$1
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+gi.+
+    location: https://www.google.com/search?&tbm=isch&q=$1
+    status_code: 302
+
+  # [指令:by 内容:xxx (必应)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=by\+([^&]+).+
+    location: https://www.bing.com/search?q=$1
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+by.+
+    location: https://www.bing.com/search?q=$1
+    status_code: 302
+
+  # [指令:ios 内容:xxx (苹果软件搜索)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=ios\+([^&]+).+
+    location: https://www.qimai.cn/search/index/search/$1
+    status_code: 302
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+ios.+
+    location: https://www.qimai.cn/search/index/search/$1
+    status_code: 302
+
+  # [指令:无 内容:xxx (默认Google)]
+  - match: ^https:\/\/duckduckgo.com\/\?q=([^&]+).+
+    location: https://www.google.com/search?q=$1
+    status_code: 302
+
+mitm:
+  hostnames:
+    includes:
+      - duckduckgo.com

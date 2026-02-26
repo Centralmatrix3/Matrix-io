@@ -1,0 +1,23 @@
+#!name = HelperTool
+#!desc = boxjs.com、script.hub、sub.store
+#!author = chavyleung、小白脸、xream、keywos、ckyb、Peng-YM
+
+[Script]
+http-request ^https?:\/\/(.+\.)?boxjs\.(com|net) script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, requires-body=true, timeout=120, tag=BoxJs
+
+http-request ^https?:\/\/script\.hub\/($|edit\/|reload) script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/script-hub.js, timeout=120, tag=ScriptHub
+
+http-request ^https?:\/\/script\.hub\/file\/_start_\/.+type=(?:qx-rewrite|surge-module|loon-plugin|all-module) script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/Rewrite-Parser.js, timeout=120, tag=ScriptHub
+
+http-request ^https?:\/\/script\.hub\/file\/_start_\/.+type=rule-set script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/rule-parser.js, timeout=120, tag=ScriptHub
+
+http-request ^https?:\/\/script\.hub\/convert\/ script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/script-converter.js, timeout=120, tag=ScriptHub
+
+http-request ^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))) script-path=https://raw.githubusercontent.com/sub-store-org/Sub-Store/release/sub-store-1.min.js, requires-body=true, timeout=120, tag=Sub-Store
+
+http-request ^https?:\/\/sub\.store script-path=https://raw.githubusercontent.com/sub-store-org/Sub-Store/release/sub-store-0.min.js, requires-body=true, timeout=120, tag=Sub-Store
+
+cron "0 0 * * *" script-path=https://raw.githubusercontent.com/sub-store-org/Sub-Store/release/cron-sync-artifacts.min.js, tag=Sub-Store
+
+[MITM]
+hostname = boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net, script.hub, *.script.hub, sub.store
