@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 25139
+# 规则统计: 25141
 
 payload:
   - '1password.drift.click'
@@ -303,6 +303,7 @@ payload:
   - 'pki.google.com'
   - 'play-edge.itunes.apple.com'
   - 'poshtestgallery.cloudapp.net'
+  - 'ppl-ai-file-upload.s3.amazonaws.com'
   - 'pplx-res.cloudinary.com'
   - 'practivate.adobe'
   - 'practivate.adobe.com'
@@ -24549,6 +24550,7 @@ payload:
   - '+.yandexcloud.net'
   - '+.yandexcom.net'
   - '+.yandexmetrica.com'
+  - '+.yandexwebcache.net'
   - '+.yandexwebcache.org'
   - '+.yangzhi.org'
   - '+.yantaqu.com'

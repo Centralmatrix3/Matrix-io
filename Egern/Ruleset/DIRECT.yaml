@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 117499
+# 规则统计: 117503
 
 domain_set:
   - 265.com
@@ -23,6 +23,7 @@ domain_set:
   - amp-api-edge-lb-cn.itunes-apple.com.akadns.net
   - amp-api-edge-lb.itunes-apple.com.akadns.net
   - amp-api-edge.apps.apple.com
+  - amp-api-edge.music.apple.com
   - amp-api-search-edge.apps.apple.com
   - amp-api-updates.apps.apple.com
   - amp-api.apps.apple.com
@@ -337,6 +338,8 @@ domain_set:
   - monitoring.qpdp1.net
   - moocs.unipus.cn
   - music.apple.com
+  - musicstatus.music.apple.com
+  - mvod.itunes.apple.com
   - myapp.itunes.apple.com
   - myvs.download.prss.microsoft.com
   - nexus.dell.com
@@ -493,6 +496,7 @@ domain_set:
   - snpi.dell.com
   - software.download.prss.microsoft.com
   - sp.itunes.apple.com
+  - speedysub.music.apple.com
   - ss.bjmu.edu.cn
   - ssl-google-analytics.l.google.com
   - ssl.gstatic.com

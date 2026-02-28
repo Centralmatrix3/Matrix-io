@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 25139
+# 规则统计: 25141
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -302,6 +302,7 @@ HOST,pchomeonline.com.tw,PROXY
 HOST,pki.google.com,PROXY
 HOST,play-edge.itunes.apple.com,PROXY
 HOST,poshtestgallery.cloudapp.net,PROXY
+HOST,ppl-ai-file-upload.s3.amazonaws.com,PROXY
 HOST,pplx-res.cloudinary.com,PROXY
 HOST,practivate.adobe,PROXY
 HOST,practivate.adobe.com,PROXY
@@ -24548,6 +24549,7 @@ HOST-SUFFIX,yandexadexchange.net,PROXY
 HOST-SUFFIX,yandexcloud.net,PROXY
 HOST-SUFFIX,yandexcom.net,PROXY
 HOST-SUFFIX,yandexmetrica.com,PROXY
+HOST-SUFFIX,yandexwebcache.net,PROXY
 HOST-SUFFIX,yandexwebcache.org,PROXY
 HOST-SUFFIX,yangzhi.org,PROXY
 HOST-SUFFIX,yantaqu.com,PROXY

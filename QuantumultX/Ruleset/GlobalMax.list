@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 33125
+# 规则统计: 33140
 
 HOST,1password.drift.click,GlobalMax
 HOST,adobeereg.com,GlobalMax
@@ -886,6 +886,7 @@ HOST-SUFFIX,aboutamazon.in,GlobalMax
 HOST-SUFFIX,aboutamazon.it,GlobalMax
 HOST-SUFFIX,aboutamazon.jp,GlobalMax
 HOST-SUFFIX,aboutamazon.pl,GlobalMax
+HOST-SUFFIX,aboutamazon.sg,GlobalMax
 HOST-SUFFIX,aboutfacebook.com,GlobalMax
 HOST-SUFFIX,aboutgfw.com,GlobalMax
 HOST-SUFFIX,aboutmcdonalds.com,GlobalMax
@@ -1924,24 +1925,35 @@ HOST-SUFFIX,amazon-lantern.com,GlobalMax
 HOST-SUFFIX,amazon-launchpad.com,GlobalMax
 HOST-SUFFIX,amazon.ae,GlobalMax
 HOST-SUFFIX,amazon.ca,GlobalMax
+HOST-SUFFIX,amazon.cl,GlobalMax
 HOST-SUFFIX,amazon.co,GlobalMax
 HOST-SUFFIX,amazon.co.jp,GlobalMax
 HOST-SUFFIX,amazon.co.uk,GlobalMax
+HOST-SUFFIX,amazon.co.za,GlobalMax
 HOST-SUFFIX,amazon.com,GlobalMax
 HOST-SUFFIX,amazon.com.au,GlobalMax
+HOST-SUFFIX,amazon.com.be,GlobalMax
 HOST-SUFFIX,amazon.com.br,GlobalMax
+HOST-SUFFIX,amazon.com.co,GlobalMax
 HOST-SUFFIX,amazon.com.mx,GlobalMax
+HOST-SUFFIX,amazon.com.ng,GlobalMax
 HOST-SUFFIX,amazon.com.tr,GlobalMax
 HOST-SUFFIX,amazon.de,GlobalMax
 HOST-SUFFIX,amazon.dev,GlobalMax
+HOST-SUFFIX,amazon.eg,GlobalMax
 HOST-SUFFIX,amazon.es,GlobalMax
 HOST-SUFFIX,amazon.fr,GlobalMax
+HOST-SUFFIX,amazon.ie,GlobalMax
 HOST-SUFFIX,amazon.in,GlobalMax
 HOST-SUFFIX,amazon.it,GlobalMax
 HOST-SUFFIX,amazon.jobs,GlobalMax
 HOST-SUFFIX,amazon.jp,GlobalMax
+HOST-SUFFIX,amazon.lu,GlobalMax
 HOST-SUFFIX,amazon.nl,GlobalMax
+HOST-SUFFIX,amazon.pl,GlobalMax
 HOST-SUFFIX,amazon.red,GlobalMax
+HOST-SUFFIX,amazon.sa,GlobalMax
+HOST-SUFFIX,amazon.se,GlobalMax
 HOST-SUFFIX,amazon.sg,GlobalMax
 HOST-SUFFIX,amazonalexavoxcon.com,GlobalMax
 HOST-SUFFIX,amazonauthorinsights.com,GlobalMax
@@ -3284,6 +3296,7 @@ HOST-SUFFIX,awsstatic.com,GlobalMax
 HOST-SUFFIX,awsthinkbox.com,GlobalMax
 HOST-SUFFIX,awstrack.me,GlobalMax
 HOST-SUFFIX,awstrust.com,GlobalMax
+HOST-SUFFIX,awswaf.com,GlobalMax
 HOST-SUFFIX,awwcn.buzz,GlobalMax
 HOST-SUFFIX,awwcn.xyz,GlobalMax
 HOST-SUFFIX,awxcdn.com,GlobalMax
@@ -25311,6 +25324,7 @@ HOST-SUFFIX,seas.ac.uk,GlobalMax
 HOST-SUFFIX,seasidestory.tokyo,GlobalMax
 HOST-SUFFIX,seatguru.com,GlobalMax
 HOST-SUFFIX,seattlefdc.com,GlobalMax
+HOST-SUFFIX,seattlespheres.com,GlobalMax
 HOST-SUFFIX,secom.co.jp,GlobalMax
 HOST-SUFFIX,secomtrust.net,GlobalMax
 HOST-SUFFIX,second-ns.com,GlobalMax
@@ -31597,6 +31611,7 @@ HOST-SUFFIX,xiaoshuobb.life,GlobalMax
 HOST-SUFFIX,xiaoyaoge.xyz,GlobalMax
 HOST-SUFFIX,xiaxiaoqiang.net,GlobalMax
 HOST-SUFFIX,xicons.org,GlobalMax
+HOST-SUFFIX,xie56.xyz,GlobalMax
 HOST-SUFFIX,xiezhua.com,GlobalMax
 HOST-SUFFIX,xihua.es,GlobalMax
 HOST-SUFFIX,xinaia-av.buzz,GlobalMax

@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 33125
+# 规则统计: 33140
 
 payload:
   - DOMAIN,1password.drift.click
@@ -887,6 +887,7 @@ payload:
   - DOMAIN-SUFFIX,aboutamazon.it
   - DOMAIN-SUFFIX,aboutamazon.jp
   - DOMAIN-SUFFIX,aboutamazon.pl
+  - DOMAIN-SUFFIX,aboutamazon.sg
   - DOMAIN-SUFFIX,aboutfacebook.com
   - DOMAIN-SUFFIX,aboutgfw.com
   - DOMAIN-SUFFIX,aboutmcdonalds.com
@@ -1925,24 +1926,35 @@ payload:
   - DOMAIN-SUFFIX,amazon-launchpad.com
   - DOMAIN-SUFFIX,amazon.ae
   - DOMAIN-SUFFIX,amazon.ca
+  - DOMAIN-SUFFIX,amazon.cl
   - DOMAIN-SUFFIX,amazon.co
   - DOMAIN-SUFFIX,amazon.co.jp
   - DOMAIN-SUFFIX,amazon.co.uk
+  - DOMAIN-SUFFIX,amazon.co.za
   - DOMAIN-SUFFIX,amazon.com
   - DOMAIN-SUFFIX,amazon.com.au
+  - DOMAIN-SUFFIX,amazon.com.be
   - DOMAIN-SUFFIX,amazon.com.br
+  - DOMAIN-SUFFIX,amazon.com.co
   - DOMAIN-SUFFIX,amazon.com.mx
+  - DOMAIN-SUFFIX,amazon.com.ng
   - DOMAIN-SUFFIX,amazon.com.tr
   - DOMAIN-SUFFIX,amazon.de
   - DOMAIN-SUFFIX,amazon.dev
+  - DOMAIN-SUFFIX,amazon.eg
   - DOMAIN-SUFFIX,amazon.es
   - DOMAIN-SUFFIX,amazon.fr
+  - DOMAIN-SUFFIX,amazon.ie
   - DOMAIN-SUFFIX,amazon.in
   - DOMAIN-SUFFIX,amazon.it
   - DOMAIN-SUFFIX,amazon.jobs
   - DOMAIN-SUFFIX,amazon.jp
+  - DOMAIN-SUFFIX,amazon.lu
   - DOMAIN-SUFFIX,amazon.nl
+  - DOMAIN-SUFFIX,amazon.pl
   - DOMAIN-SUFFIX,amazon.red
+  - DOMAIN-SUFFIX,amazon.sa
+  - DOMAIN-SUFFIX,amazon.se
   - DOMAIN-SUFFIX,amazon.sg
   - DOMAIN-SUFFIX,amazonalexavoxcon.com
   - DOMAIN-SUFFIX,amazonauthorinsights.com
@@ -3285,6 +3297,7 @@ payload:
   - DOMAIN-SUFFIX,awsthinkbox.com
   - DOMAIN-SUFFIX,awstrack.me
   - DOMAIN-SUFFIX,awstrust.com
+  - DOMAIN-SUFFIX,awswaf.com
   - DOMAIN-SUFFIX,awwcn.buzz
   - DOMAIN-SUFFIX,awwcn.xyz
   - DOMAIN-SUFFIX,awxcdn.com
@@ -25312,6 +25325,7 @@ payload:
   - DOMAIN-SUFFIX,seasidestory.tokyo
   - DOMAIN-SUFFIX,seatguru.com
   - DOMAIN-SUFFIX,seattlefdc.com
+  - DOMAIN-SUFFIX,seattlespheres.com
   - DOMAIN-SUFFIX,secom.co.jp
   - DOMAIN-SUFFIX,secomtrust.net
   - DOMAIN-SUFFIX,second-ns.com
@@ -31598,6 +31612,7 @@ payload:
   - DOMAIN-SUFFIX,xiaoyaoge.xyz
   - DOMAIN-SUFFIX,xiaxiaoqiang.net
   - DOMAIN-SUFFIX,xicons.org
+  - DOMAIN-SUFFIX,xie56.xyz
   - DOMAIN-SUFFIX,xiezhua.com
   - DOMAIN-SUFFIX,xihua.es
   - DOMAIN-SUFFIX,xinaia-av.buzz

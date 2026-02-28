@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 117499
+# 规则统计: 117503
 
 HOST,265.com,DIRECT
 HOST,2mdn-cn.net,DIRECT
@@ -22,6 +22,7 @@ HOST,alibaba.cdn.steampipe.steamcontent.com,DIRECT
 HOST,amp-api-edge-lb-cn.itunes-apple.com.akadns.net,DIRECT
 HOST,amp-api-edge-lb.itunes-apple.com.akadns.net,DIRECT
 HOST,amp-api-edge.apps.apple.com,DIRECT
+HOST,amp-api-edge.music.apple.com,DIRECT
 HOST,amp-api-search-edge.apps.apple.com,DIRECT
 HOST,amp-api-updates.apps.apple.com,DIRECT
 HOST,amp-api.apps.apple.com,DIRECT
@@ -336,6 +337,8 @@ HOST,ml.cdn-apple.com,DIRECT
 HOST,monitoring.qpdp1.net,DIRECT
 HOST,moocs.unipus.cn,DIRECT
 HOST,music.apple.com,DIRECT
+HOST,musicstatus.music.apple.com,DIRECT
+HOST,mvod.itunes.apple.com,DIRECT
 HOST,myapp.itunes.apple.com,DIRECT
 HOST,myvs.download.prss.microsoft.com,DIRECT
 HOST,nexus.dell.com,DIRECT
@@ -492,6 +495,7 @@ HOST,snp.cdn.dell.com,DIRECT
 HOST,snpi.dell.com,DIRECT
 HOST,software.download.prss.microsoft.com,DIRECT
 HOST,sp.itunes.apple.com,DIRECT
+HOST,speedysub.music.apple.com,DIRECT
 HOST,ss.bjmu.edu.cn,DIRECT
 HOST,ssl-google-analytics.l.google.com,DIRECT
 HOST,ssl.gstatic.com,DIRECT

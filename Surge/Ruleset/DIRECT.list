@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 117499
+# 规则统计: 117503
 
 DOMAIN,265.com
 DOMAIN,2mdn-cn.net
@@ -22,6 +22,7 @@ DOMAIN,alibaba.cdn.steampipe.steamcontent.com
 DOMAIN,amp-api-edge-lb-cn.itunes-apple.com.akadns.net
 DOMAIN,amp-api-edge-lb.itunes-apple.com.akadns.net
 DOMAIN,amp-api-edge.apps.apple.com
+DOMAIN,amp-api-edge.music.apple.com
 DOMAIN,amp-api-search-edge.apps.apple.com
 DOMAIN,amp-api-updates.apps.apple.com
 DOMAIN,amp-api.apps.apple.com
@@ -336,6 +337,8 @@ DOMAIN,ml.cdn-apple.com
 DOMAIN,monitoring.qpdp1.net
 DOMAIN,moocs.unipus.cn
 DOMAIN,music.apple.com
+DOMAIN,musicstatus.music.apple.com
+DOMAIN,mvod.itunes.apple.com
 DOMAIN,myapp.itunes.apple.com
 DOMAIN,myvs.download.prss.microsoft.com
 DOMAIN,nexus.dell.com
@@ -492,6 +495,7 @@ DOMAIN,snp.cdn.dell.com
 DOMAIN,snpi.dell.com
 DOMAIN,software.download.prss.microsoft.com
 DOMAIN,sp.itunes.apple.com
+DOMAIN,speedysub.music.apple.com
 DOMAIN,ss.bjmu.edu.cn
 DOMAIN,ssl-google-analytics.l.google.com
 DOMAIN,ssl.gstatic.com
