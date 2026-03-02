@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 33140
+# 规则统计: 33141
 
 no_resolve: true
 domain_set:
@@ -32254,6 +32254,7 @@ domain_suffix_set:
   - yandexcloud.net
   - yandexcom.net
   - yandexmetrica.com
+  - yandexwebcache.net
   - yandexwebcache.org
   - yanghengjun.com
   - yangjianli.com

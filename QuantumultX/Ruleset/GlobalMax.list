@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 33140
+# 规则统计: 33141
 
 HOST,1password.drift.click,GlobalMax
 HOST,adobeereg.com,GlobalMax
@@ -32251,6 +32251,7 @@ HOST-SUFFIX,yandexadexchange.net,GlobalMax
 HOST-SUFFIX,yandexcloud.net,GlobalMax
 HOST-SUFFIX,yandexcom.net,GlobalMax
 HOST-SUFFIX,yandexmetrica.com,GlobalMax
+HOST-SUFFIX,yandexwebcache.net,GlobalMax
 HOST-SUFFIX,yandexwebcache.org,GlobalMax
 HOST-SUFFIX,yanghengjun.com,GlobalMax
 HOST-SUFFIX,yangjianli.com,GlobalMax

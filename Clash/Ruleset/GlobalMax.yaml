@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 33140
+# 规则统计: 33141
 
 payload:
   - DOMAIN,1password.drift.click
@@ -32252,6 +32252,7 @@ payload:
   - DOMAIN-SUFFIX,yandexcloud.net
   - DOMAIN-SUFFIX,yandexcom.net
   - DOMAIN-SUFFIX,yandexmetrica.com
+  - DOMAIN-SUFFIX,yandexwebcache.net
   - DOMAIN-SUFFIX,yandexwebcache.org
   - DOMAIN-SUFFIX,yanghengjun.com
   - DOMAIN-SUFFIX,yangjianli.com
