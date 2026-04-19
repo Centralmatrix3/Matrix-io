@@ -1,0 +1,11 @@
+# 规则名称: HBO
+# 规则统计: 7
+
+payload:
+  - DOMAIN-SUFFIX,discomax.com
+  - DOMAIN-SUFFIX,hbo.com
+  - DOMAIN-SUFFIX,hbogo.com
+  - DOMAIN-SUFFIX,hbomax.com
+  - DOMAIN-SUFFIX,hbomaxcdn.com
+  - DOMAIN-SUFFIX,hbonow.com
+  - DOMAIN-SUFFIX,max.com
