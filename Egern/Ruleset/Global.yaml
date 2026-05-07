@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7307
+# 规则统计: 7331
 
 no_resolve: true
 domain_set:
@@ -190,6 +190,7 @@ domain_suffix_set:
   - accountkit.com
   - aceros-de-hispania.com
   - acevpn.com
+  - acg.mn
   - acg.rip
   - acg18.me
   - acgbox.org
@@ -712,6 +713,7 @@ domain_suffix_set:
   - blacklogic.com
   - blackmagicdesign.com
   - blackvpn.com
+  - bleepingcomputer.com
   - blewpass.com
   - blingblingsquad.net
   - blinkx.com
@@ -847,6 +849,7 @@ domain_suffix_set:
   - books.com.tw
   - booktopia.com.au
   - bookwalker.com.tw
+  - boomplay.com
   - boomssr.com
   - bootstrapcdn.com
   - borgenmagazine.com
@@ -1292,6 +1295,7 @@ domain_suffix_set:
   - cna.com.tw
   - cnabc.com
   - cnbbnews.wordpress.com
+  - cnbc.com
   - cnbeta.com.tw
   - cnd.org
   - cnet.com
@@ -1403,6 +1407,7 @@ domain_suffix_set:
   - ctfriend.net
   - ctinets.com
   - ctinews.com
+  - ctinsider.com
   - ctitv.com.tw
   - ctowc.org
   - cts.com.tw
@@ -1769,6 +1774,7 @@ domain_suffix_set:
   - edgecastcdn.net
   - edgesuite.net
   - edicypages.com
+  - edigest.hk
   - edmontonchina.cn
   - edmontonservice.com
   - edns.biz
@@ -2953,6 +2959,7 @@ domain_suffix_set:
   - hinet.net
   - hitbtc.com
   - hitomi.la
+  - hive.blog
   - hiveon.net
   - hiwifi.com
   - hizb-ut-tahrir.info
@@ -3272,6 +3279,7 @@ domain_suffix_set:
   - inews-api.tvb.com
   - info-graf.fr
   - informer.com
+  - infosec.exchange
   - infura.io
   - inherit.live
   - initiativesforchina.org
@@ -3538,6 +3546,7 @@ domain_suffix_set:
   - karkhung.com
   - karmapa-teachings.org
   - karmapa.org
+  - kathmandupost.com
   - kawaiikawaii.jp
   - kawase.com
   - kb.monitorware.com
@@ -3689,6 +3698,7 @@ domain_suffix_set:
   - liberal.org.hk
   - libertysculpturepark.com
   - libertytimes.com.tw
+  - libgen.is
   - library-access.sk
   - library.usc.cuhk.edu.hk
   - libraryinformationtechnology.com
@@ -3903,6 +3913,7 @@ domain_suffix_set:
   - mediachinese.com
   - mediafire.com
   - mediafreakcity.com
+  - mediamatters.org
   - mediawiki.org
   - medium.com
   - meee.com.tw
@@ -4030,6 +4041,7 @@ domain_suffix_set:
   - mizzmona.com
   - mji.rip
   - mjj.rip
+  - mjj.today
   - mjlsh.usc.cuhk.edu.hk
   - mk5000.com
   - mlc.ai
@@ -4122,6 +4134,7 @@ domain_suffix_set:
   - mummysgold.com
   - murmur.tw
   - muscdn.com
+  - music.amazon.com
   - musicade.net
   - musical.ly
   - musixmatch.com
@@ -4295,12 +4308,14 @@ domain_suffix_set:
   - newscn.org
   - newsdetox.ca
   - newsdh.com
+  - newshub.co.nz
   - newsmax.com
   - newspeak.cc
   - newstamago.com
   - newstapa.org
   - newstarnet.com
   - newstatesman.com
+  - newstimes.com
   - newsweek.com
   - newtaiwan.com.tw
   - newtalk.tw
@@ -4321,6 +4336,8 @@ domain_suffix_set:
   - nflximg.net
   - nflxso.net
   - nflxvideo.net
+  - nfsc.press
+  - nfscofficial.com
   - nftstorage.link
   - ng.mil
   - nga.mil
@@ -4582,6 +4599,7 @@ domain_suffix_set:
   - over-blog.com
   - overcast.fm
   - overdaily.org
+  - overdrive.com
   - overplay.net
   - oversea.istarshine.com
   - ovi.com
@@ -4678,6 +4696,7 @@ domain_suffix_set:
   - penchinese.com
   - penchinese.net
   - pendrivelinux.com
+  - penguin.com.au
   - pengyulong.com
   - penisbot.com
   - pentalogic.net
@@ -5150,6 +5169,7 @@ domain_suffix_set:
   - rti.org.tw
   - rti.tw
   - rtm.tnt-ea.com
+  - rts.ch
   - rtycminnesota.org
   - ruanyifeng.com
   - rukor.org
@@ -5837,6 +5857,7 @@ domain_suffix_set:
   - tgfcer.com
   - tgstat.com
   - thaicn.com
+  - the-sun.com
   - theatlantic.com
   - theatrum-belli.com
   - theaustralian.com.au
@@ -5888,6 +5909,7 @@ domain_suffix_set:
   - thetrotskymovie.com
   - thetvdb.com
   - thevivekspot.com
+  - theweek.com
   - thewgo.org
   - thewirechina.com
   - theync.com
@@ -6187,6 +6209,7 @@ domain_suffix_set:
   - tvbanywhere.com
   - tvboxnow.com
   - tvbs.com.tw
+  - tvdy1.com
   - tvider.com
   - tvmost.com.hk
   - tvplayvideos.com
@@ -6538,6 +6561,7 @@ domain_suffix_set:
   - voicettank.org
   - vot.org
   - vovo2000.com
+  - vox.com
   - voxer.com
   - voy.com
   - vpl.bibliocommons.com
