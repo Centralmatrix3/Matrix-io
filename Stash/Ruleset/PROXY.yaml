@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26170
+# 规则统计: 26171
 
 payload:
   - '1password.drift.click'
@@ -22990,6 +22990,7 @@ payload:
   - '+.ultravpn.fr'
   - '+.uma.media'
   - '+.umagazine.com.hk'
+  - '+.umap.openstreetmap.fr'
   - '+.umass.edu'
   - '+.umbrella.com'
   - '+.umschool.net'

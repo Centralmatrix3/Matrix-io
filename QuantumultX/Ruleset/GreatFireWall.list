@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 4230
+# 规则统计: 4231
 
 HOST-SUFFIX,000webhost.com,GreatFireWall
 HOST-SUFFIX,0rz.tw,GreatFireWall
@@ -3693,6 +3693,7 @@ HOST-SUFFIX,ulop.net,GreatFireWall
 HOST-SUFFIX,ultrasurf.us,GreatFireWall
 HOST-SUFFIX,ultravpn.com,GreatFireWall
 HOST-SUFFIX,ultravpn.fr,GreatFireWall
+HOST-SUFFIX,umap.openstreetmap.fr,GreatFireWall
 HOST-SUFFIX,unblock-us.com,GreatFireWall
 HOST-SUFFIX,unblock.cn.com,GreatFireWall
 HOST-SUFFIX,unblockdmm.com,GreatFireWall

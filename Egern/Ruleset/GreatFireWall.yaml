@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 4230
+# 规则统计: 4231
 
 domain_suffix_set:
   - 000webhost.com
@@ -3694,6 +3694,7 @@ domain_suffix_set:
   - ultrasurf.us
   - ultravpn.com
   - ultravpn.fr
+  - umap.openstreetmap.fr
   - unblock-us.com
   - unblock.cn.com
   - unblockdmm.com

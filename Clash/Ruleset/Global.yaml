@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7331
+# 规则统计: 7332
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -6359,6 +6359,7 @@ payload:
   - DOMAIN-SUFFIX,ultravpn.com
   - DOMAIN-SUFFIX,ultravpn.fr
   - DOMAIN-SUFFIX,ultraxs.com
+  - DOMAIN-SUFFIX,umap.openstreetmap.fr
   - DOMAIN-SUFFIX,umich.edu
   - DOMAIN-SUFFIX,unblock-us.com
   - DOMAIN-SUFFIX,unblock.cn.com

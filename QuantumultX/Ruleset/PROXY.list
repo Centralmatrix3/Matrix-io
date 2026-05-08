@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26170
+# 规则统计: 26171
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -22989,6 +22989,7 @@ HOST-SUFFIX,ultravpn.com,PROXY
 HOST-SUFFIX,ultravpn.fr,PROXY
 HOST-SUFFIX,uma.media,PROXY
 HOST-SUFFIX,umagazine.com.hk,PROXY
+HOST-SUFFIX,umap.openstreetmap.fr,PROXY
 HOST-SUFFIX,umass.edu,PROXY
 HOST-SUFFIX,umbrella.com,PROXY
 HOST-SUFFIX,umschool.net,PROXY
