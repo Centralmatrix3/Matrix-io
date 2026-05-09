@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26171
+# 规则统计: 26172
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -23831,6 +23831,7 @@ HOST-SUFFIX,vodafone.com.au,PROXY
 HOST-SUFFIX,vodafone.com.tr,PROXY
 HOST-SUFFIX,vodafone.de,PROXY
 HOST-SUFFIX,vodafone.it,PROXY
+HOST-SUFFIX,vodafone.nl,PROXY
 HOST-SUFFIX,voicettank.org,PROXY
 HOST-SUFFIX,vokevr.com,PROXY
 HOST-SUFFIX,vol.moe,PROXY

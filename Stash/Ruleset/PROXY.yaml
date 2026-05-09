@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26171
+# 规则统计: 26172
 
 payload:
   - '1password.drift.click'
@@ -23832,6 +23832,7 @@ payload:
   - '+.vodafone.com.tr'
   - '+.vodafone.de'
   - '+.vodafone.it'
+  - '+.vodafone.nl'
   - '+.voicettank.org'
   - '+.vokevr.com'
   - '+.vol.moe'
