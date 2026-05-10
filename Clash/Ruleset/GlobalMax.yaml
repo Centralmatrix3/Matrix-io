@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 34160
+# 规则统计: 34162
 
 payload:
   - DOMAIN,1password.drift.click
@@ -30132,6 +30132,7 @@ payload:
   - DOMAIN-SUFFIX,ulyssesapp.com
   - DOMAIN-SUFFIX,uma.media
   - DOMAIN-SUFFIX,umagazine.com.hk
+  - DOMAIN-SUFFIX,umap.openstreetmap.fr
   - DOMAIN-SUFFIX,umass.edu
   - DOMAIN-SUFFIX,umbrella.com
   - DOMAIN-SUFFIX,umds.ac.uk
@@ -31184,6 +31185,7 @@ payload:
   - DOMAIN-SUFFIX,vodafone.com.tr
   - DOMAIN-SUFFIX,vodafone.de
   - DOMAIN-SUFFIX,vodafone.it
+  - DOMAIN-SUFFIX,vodafone.nl
   - DOMAIN-SUFFIX,voicettank.org
   - DOMAIN-SUFFIX,voila.ac.uk
   - DOMAIN-SUFFIX,vokevr.com
