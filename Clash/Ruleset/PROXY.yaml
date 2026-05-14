@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26268
+# 规则统计: 26269
 
 payload:
   - '1password.drift.click'
@@ -6001,6 +6001,7 @@ payload:
   - '+.chocolatey.org'
   - '+.choicereviews.org'
   - '+.chomp.com'
+  - '+.chonglangtv.org'
   - '+.chrdnet.com'
   - '+.christianfreedom.org'
   - '+.christianstudy.com'

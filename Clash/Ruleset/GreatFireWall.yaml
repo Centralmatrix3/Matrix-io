@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 4233
+# 规则统计: 4234
 
 payload:
   - '+.000webhost.com'
@@ -743,6 +743,7 @@ payload:
   - '+.chingcheong.com'
   - '+.chinman.net'
   - '+.chobit.cc'
+  - '+.chonglangtv.org'
   - '+.chrdnet.com'
   - '+.christianfreedom.org'
   - '+.christianstudy.com'
