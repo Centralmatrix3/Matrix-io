@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 34266
+# 规则统计: 34268
 
 payload:
   - DOMAIN,1password.drift.click
@@ -6795,6 +6795,7 @@ payload:
   - DOMAIN-SUFFIX,chocotv.com.tw
   - DOMAIN-SUFFIX,choicereviews.org
   - DOMAIN-SUFFIX,chomp.com
+  - DOMAIN-SUFFIX,chonglangtv.org
   - DOMAIN-SUFFIX,chopinonline.ac.uk
   - DOMAIN-SUFFIX,chosun.com
   - DOMAIN-SUFFIX,chrdnet.com
@@ -17516,6 +17517,7 @@ payload:
   - DOMAIN-SUFFIX,kumapon.jp
   - DOMAIN-SUFFIX,kumo.com
   - DOMAIN-SUFFIX,kun.im
+  - DOMAIN-SUFFIX,kun66.xyz
   - DOMAIN-SUFFIX,kundun1069.com
   - DOMAIN-SUFFIX,kuper.ru
   - DOMAIN-SUFFIX,kurashsultan.com
