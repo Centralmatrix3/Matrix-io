@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26270
+# 规则统计: 26271
 
 payload:
   - '1password.drift.click'
@@ -2914,6 +2914,7 @@ payload:
   - '+.archivx.to'
   - '+.archlinux.de'
   - '+.archlinux.org'
+  - '+.archlinux.page'
   - '+.archlinuxarm.org'
   - '+.archlinuxcn.org'
   - '+.arcraiders.com'
