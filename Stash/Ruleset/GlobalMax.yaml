@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 34268
+# 规则统计: 34272
 
 payload:
   - DOMAIN,1password.drift.click
@@ -2737,6 +2737,7 @@ payload:
   - DOMAIN-SUFFIX,archivx.to
   - DOMAIN-SUFFIX,archlinux.de
   - DOMAIN-SUFFIX,archlinux.org
+  - DOMAIN-SUFFIX,archlinux.page
   - DOMAIN-SUFFIX,archlinuxarm.org
   - DOMAIN-SUFFIX,archlinuxcn.org
   - DOMAIN-SUFFIX,archway.ac.uk
@@ -25243,6 +25244,7 @@ payload:
   - DOMAIN-SUFFIX,rightbtc.com
   - DOMAIN-SUFFIX,rightster.com
   - DOMAIN-SUFFIX,rigpa.org
+  - DOMAIN-SUFFIX,rigums.xyz
   - DOMAIN-SUFFIX,riku.me
   - DOMAIN-SUFFIX,rileyguide.com
   - DOMAIN-SUFFIX,rime.im
@@ -26443,6 +26445,7 @@ payload:
   - DOMAIN-SUFFIX,sgwritings.com
   - DOMAIN-SUFFIX,sgzhan.com
   - DOMAIN-SUFFIX,sh-xuxingda.com
+  - DOMAIN-SUFFIX,sh83.xyz
   - DOMAIN-SUFFIX,shadbase.com
   - DOMAIN-SUFFIX,shadeyouvpn.com
   - DOMAIN-SUFFIX,shadow.ma
@@ -31576,6 +31579,7 @@ payload:
   - DOMAIN-SUFFIX,vultr.com
   - DOMAIN-SUFFIX,vultryhw.com
   - DOMAIN-SUFFIX,vuvuzela.io
+  - DOMAIN-SUFFIX,vv1865.com
   - DOMAIN-SUFFIX,vxnbbrs.xyz
   - DOMAIN-SUFFIX,vxxsred.xyz
   - DOMAIN-SUFFIX,vyprvpn.com

@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26271
+# 规则统计: 26273
 
 payload:
   - '1password.drift.click'
@@ -20686,6 +20686,7 @@ payload:
   - '+.siam.org'
   - '+.sibreal.org'
   - '+.sidelinesnews.com'
+  - '+.sider.ai'
   - '+.siege-amazon.com'
   - '+.sifangclub.com'
   - '+.sigcomm.org'
@@ -26140,6 +26141,7 @@ payload:
   - '+.zhainanjidid.top'
   - '+.zhangboz1.xyz'
   - '+.zhangtianliang.com'
+  - '+.zhangzhehan.net'
   - '+.zhanlve.org'
   - '+.zhao.1984.city'
   - '+.zhengjian.org'

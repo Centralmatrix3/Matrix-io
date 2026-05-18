@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 4234
+# 规则统计: 4236
 
 payload:
   - '+.000webhost.com'
@@ -3139,6 +3139,7 @@ payload:
   - '+.shwchurch.org'
   - '+.shwchurch3.com'
   - '+.sidelinesnews.com'
+  - '+.sider.ai'
   - '+.signal.org'
   - '+.silvergatebank.com'
   - '+.simbolostwitter.com'
@@ -4200,6 +4201,7 @@ payload:
   - '+.zh.pokerstrategy.com'
   - '+.zh.wikiquote.org'
   - '+.zhangtianliang.com'
+  - '+.zhangzhehan.net'
   - '+.zhanlve.org'
   - '+.zhao.1984.city'
   - '+.zhengjian.org'
