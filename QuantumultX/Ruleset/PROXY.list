@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26273
+# 规则统计: 26293
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -1102,6 +1102,7 @@ HOST-SUFFIX,54647.org,PROXY
 HOST-SUFFIX,55dndn.com,PROXY
 HOST-SUFFIX,567321.online,PROXY
 HOST-SUFFIX,568xe.com,PROXY
+HOST-SUFFIX,573.jp,PROXY
 HOST-SUFFIX,58avgo.com,PROXY
 HOST-SUFFIX,592r.com,PROXY
 HOST-SUFFIX,59mvmv.com,PROXY
@@ -13948,6 +13949,7 @@ HOST-SUFFIX,keytransparency.com,PROXY
 HOST-SUFFIX,keytransparency.foo,PROXY
 HOST-SUFFIX,keytransparency.org,PROXY
 HOST-SUFFIX,kfs.io,PROXY
+HOST-SUFFIX,kgisystems.com,PROXY
 HOST-SUFFIX,kgslb.com,PROXY
 HOST-SUFFIX,khanacademy.org,PROXY
 HOST-SUFFIX,khatrimaza.org,PROXY
@@ -14041,6 +14043,7 @@ HOST-SUFFIX,kisscos.net,PROXY
 HOST-SUFFIX,kissjav.com,PROXY
 HOST-SUFFIX,kissjav.li,PROXY
 HOST-SUFFIX,kitakyushubank.co.jp,PROXY
+HOST-SUFFIX,kiwi.jp,PROXY
 HOST-SUFFIX,kiwi.kz,PROXY
 HOST-SUFFIX,kiwibrowser.com,PROXY
 HOST-SUFFIX,kiyobank.co.jp,PROXY
@@ -14078,6 +14081,20 @@ HOST-SUFFIX,kompozer.net,PROXY
 HOST-SUFFIX,konachan.com,PROXY
 HOST-SUFFIX,konachan.net,PROXY
 HOST-SUFFIX,konachan.wjcodes.com,PROXY
+HOST-SUFFIX,konami,PROXY
+HOST-SUFFIX,konami-igaming.online,PROXY
+HOST-SUFFIX,konami.co.jp,PROXY
+HOST-SUFFIX,konami.com,PROXY
+HOST-SUFFIX,konami.net,PROXY
+HOST-SUFFIX,konami.org,PROXY
+HOST-SUFFIX,konamicrossmedia.com,PROXY
+HOST-SUFFIX,konamigaming.com,PROXY
+HOST-SUFFIX,konamigaming.net,PROXY
+HOST-SUFFIX,konamigaming.online,PROXY
+HOST-SUFFIX,konamionline.com,PROXY
+HOST-SUFFIX,konamiopen.jp,PROXY
+HOST-SUFFIX,konamisportsclub.jp,PROXY
+HOST-SUFFIX,konamistyle.jp,PROXY
 HOST-SUFFIX,koolsolutions.com,PROXY
 HOST-SUFFIX,koornk.com,PROXY
 HOST-SUFFIX,kopfhorergunstigshop.com,PROXY
@@ -19659,6 +19676,8 @@ HOST-SUFFIX,researchkit.hk,PROXY
 HOST-SUFFIX,researchkit.net,PROXY
 HOST-SUFFIX,researchkit.org,PROXY
 HOST-SUFFIX,researchkit.tv,PROXY
+HOST-SUFFIX,resella.jp,PROXY
+HOST-SUFFIX,resellablue.com,PROXY
 HOST-SUFFIX,resilio.com,PROXY
 HOST-SUFFIX,resistchina.org,PROXY
 HOST-SUFFIX,resonabank.co.jp,PROXY
@@ -26025,6 +26044,7 @@ HOST-SUFFIX,ytn.co.kr,PROXY
 HOST-SUFFIX,yuanming.net,PROXY
 HOST-SUFFIX,yuenuge113.xyz,PROXY
 HOST-SUFFIX,yuenuge18.cc,PROXY
+HOST-SUFFIX,yugioh-card.com,PROXY
 HOST-SUFFIX,yulghun.com,PROXY
 HOST-SUFFIX,yuming.qxbbs.org,PROXY
 HOST-SUFFIX,yunchao.net,PROXY
