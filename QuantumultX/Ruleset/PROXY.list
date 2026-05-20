@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26293
+# 规则统计: 26302
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -181,6 +181,7 @@ HOST,espndotcom.tt.omtrdc.net,PROXY
 HOST,f3b7q2p3.ssl.hwcdn.net,PROXY
 HOST,fandom.zendesk.com,PROXY
 HOST,faronics.kayako.com,PROXY
+HOST,favoritescc-hamivideo2.cdn.hinet.net,PROXY
 HOST,fbcdn-a.akamaihd.net,PROXY
 HOST,firebase.google.com,PROXY
 HOST,firebase.googleapis.com,PROXY
@@ -237,6 +238,7 @@ HOST,imperial.insendi.com,PROXY
 HOST,ingest.apple-studies.com,PROXY
 HOST,lastfm.freetls.fastly.net,PROXY
 HOST,lazer.ppy.sh,PROXY
+HOST,lgcscc-hamivideo2.cdn.hinet.net,PROXY
 HOST,lgelectronics.122.2o7.net,PROXY
 HOST,licdn.cn.cdn20.com,PROXY
 HOST,linear-abematv.akamaized.net,PROXY
@@ -498,6 +500,7 @@ HOST,t21.nikkei.co.jp,PROXY
 HOST,t21ipau.nikkei.co.jp,PROXY
 HOST,teamviewer.com.cdn.cloudflare.net,PROXY
 HOST,tesla-cdn.thron.com,PROXY
+HOST,thumbnail-hamivideo.cdn.hinet.net,PROXY
 HOST,time-a-b.nist.gov,PROXY
 HOST,time-a-g.nist.gov,PROXY
 HOST,time-a-wwv.nist.gov,PROXY
@@ -531,6 +534,7 @@ HOST,time3.google.com,PROXY
 HOST,time4.facebook.com,PROXY
 HOST,time4.google.com,PROXY
 HOST,time5.facebook.com,PROXY
+HOST,tlmr-hamivideo2.cdn.hinet.net,PROXY
 HOST,tmdb-image-prod.b-cdn.net,PROXY
 HOST,tmdb-web-image-prod.b-cdn.net,PROXY
 HOST,tv.applemusic.com,PROXY
@@ -593,6 +597,7 @@ HOST,vsmarketplacebadge.apphb.com,PROXY
 HOST,wb-agora-hydra-file-storage-k1.s3.amazonaws.com,PROXY
 HOST,webchannel-alkalimakersuite-pa.clients6.google.com,PROXY
 HOST,weblive-hamivideo.cdn.hinet.net,PROXY
+HOST,webvodad-hamivideo.cdn.hinet.net,PROXY
 HOST,widgets.stripst.com,PROXY
 HOST,wip.adobe.com,PROXY
 HOST,wip1.adobe.com,PROXY
@@ -1989,6 +1994,7 @@ HOST-SUFFIX,alchemysynth.com,PROXY
 HOST-SUFFIX,alefbank.com,PROXY
 HOST-SUFFIX,alexa.com,PROXY
 HOST-SUFFIX,alexanderstreet.com,PROXY
+HOST-SUFFIX,alfa.me,PROXY
 HOST-SUFFIX,alfabank.oavdo.amc,PROXY
 HOST-SUFFIX,alfabank.ru,PROXY
 HOST-SUFFIX,alfabank.st,PROXY
@@ -16425,6 +16431,7 @@ HOST-SUFFIX,mysocialworklab.com,PROXY
 HOST-SUFFIX,myspacecdn.com,PROXY
 HOST-SUFFIX,mysql.com,PROXY
 HOST-SUFFIX,mystrikingly.com,PROXY
+HOST-SUFFIX,myteamspeak.com,PROXY
 HOST-SUFFIX,myteenwebcam.com,PROXY
 HOST-SUFFIX,mythicentertainment.com,PROXY
 HOST-SUFFIX,mythicentertainment.net,PROXY
@@ -21922,6 +21929,8 @@ HOST-SUFFIX,teachmyass.com,PROXY
 HOST-SUFFIX,teachparentstech.org,PROXY
 HOST-SUFFIX,teamneedforspeed.com,PROXY
 HOST-SUFFIX,teamskeet.com,PROXY
+HOST-SUFFIX,teamspeak-services.com,PROXY
+HOST-SUFFIX,teamspeak.com,PROXY
 HOST-SUFFIX,teamviewer.com,PROXY
 HOST-SUFFIX,teamviewer.us,PROXY
 HOST-SUFFIX,tearapeak.com,PROXY

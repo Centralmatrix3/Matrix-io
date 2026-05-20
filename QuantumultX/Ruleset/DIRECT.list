@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 113746
+# 规则统计: 113723
 
 HOST,265.com,DIRECT
 HOST,2mdn-cn.net,DIRECT
@@ -105,12 +105,10 @@ HOST,cn-smp-paymentservices.apple.com,DIRECT
 HOST,cn.download.nvidia.com,DIRECT
 HOST,cn.widevine.com,DIRECT
 HOST,cn.windowssearch.com,DIRECT
-HOST,cnappinstall.googleadapis.com,DIRECT
 HOST,communities.apple.com,DIRECT
 HOST,configuration.apple.com,DIRECT
 HOST,configuration.apple.com.akadns.net,DIRECT
 HOST,connectivitycheck.gstatic.com,DIRECT
-HOST,content.googleadapis.com,DIRECT
 HOST,crashlyticsreports-pa.googleapis.com,DIRECT
 HOST,crl-lb.apple.com.akadns.net,DIRECT
 HOST,crl.apple.com,DIRECT
@@ -169,7 +167,6 @@ HOST,doubleclick.net,DIRECT
 HOST,download.developer.apple.com,DIRECT
 HOST,download.microsoft.com,DIRECT
 HOST,download.mlcc.google.com,DIRECT
-HOST,download.qatp1.net,DIRECT
 HOST,download.tensorflow.google.com,DIRECT
 HOST,download.visualstudio.microsoft.com,DIRECT
 HOST,downloaddispatch.itunes.apple.com,DIRECT
@@ -177,7 +174,6 @@ HOST,ea2cn-dev-outlet.dell.com,DIRECT
 HOST,ea2cn-prod-outlet.dell.com,DIRECT
 HOST,ea2cn-staging-outlet.dell.com,DIRECT
 HOST,edge.geo.kaspersky.com,DIRECT
-HOST,emmapplecodevice.googleapis.com,DIRECT
 HOST,emoi-cncdn.bing.com,DIRECT
 HOST,end-api.shallow.ink,DIRECT
 HOST,end.shallow.ink,DIRECT
@@ -201,7 +197,6 @@ HOST,g3.gstatic.com,DIRECT
 HOST,gbxgateway-dev.dell.com,DIRECT
 HOST,gbxgateway.dell.com,DIRECT
 HOST,geetest.datasink.sensorsdata.cn,DIRECT
-HOST,go.corp.google.com,DIRECT
 HOST,gog-cdn-fastly.gog.com,DIRECT
 HOST,gog-cdn.akamaized.net,DIRECT
 HOST,gog.qtlglb.com,DIRECT
@@ -324,11 +319,7 @@ HOST,ksn-url-geo.kaspersky-labs.com,DIRECT
 HOST,ksn-url.geoksn.kaspersky.com,DIRECT
 HOST,ksn-verdict-geo.kaspersky-labs.com,DIRECT
 HOST,ksn-verdict.geoksn.kaspersky.com,DIRECT
-HOST,l2-uberproxy.corp.google.com,DIRECT
 HOST,learn.microsoft.com,DIRECT
-HOST,logger-dev.corp.google.com,DIRECT
-HOST,logger.corp.google.com,DIRECT
-HOST,login.corp.google.com,DIRECT
 HOST,lv.queniujq.cn,DIRECT
 HOST,maps.apple.com,DIRECT
 HOST,mdr.ksn.kaspersky-labs.com,DIRECT
@@ -338,7 +329,6 @@ HOST,mesu-china.apple.com.akadns.net,DIRECT
 HOST,mesu.apple.com,DIRECT
 HOST,misc-assets.itunes.apple.com,DIRECT
 HOST,ml.cdn-apple.com,DIRECT
-HOST,monitoring.qpdp1.net,DIRECT
 HOST,moocs.unipus.cn,DIRECT
 HOST,music.apple.com,DIRECT
 HOST,musicstatus.music.apple.com,DIRECT
@@ -422,16 +412,9 @@ HOST,prod-databe.floonet.goog,DIRECT
 HOST,prod-support.apple-support.akadns.net,DIRECT
 HOST,prod.databe.floonet.goog,DIRECT
 HOST,productcard.gog-statics.com,DIRECT
-HOST,proxyconfig.corp.google.com,DIRECT
 HOST,publicassets.cdn-apple.com,DIRECT
-HOST,qagpublic.qatp1.net,DIRECT
-HOST,qgadmin.qcpp1.net,DIRECT
 HOST,qiao-cn.com,DIRECT
 HOST,qpx.googleflights.net,DIRECT
-HOST,qualysapi.qatp1.net,DIRECT
-HOST,qualysguard.qpdp1.net,DIRECT
-HOST,r.cert.corp.google.com,DIRECT
-HOST,rapture-prod.corp.google.com,DIRECT
 HOST,recaptcha-cn.net,DIRECT
 HOST,recaptcha.net,DIRECT
 HOST,redirector.bdn.dev,DIRECT
@@ -477,7 +460,6 @@ HOST,s4.mzstatic.com,DIRECT
 HOST,s5.mzstatic.com,DIRECT
 HOST,safebrowsing-cache.google.com,DIRECT
 HOST,safebrowsing.googleapis.com,DIRECT
-HOST,scanservice1.qcpp1.net,DIRECT
 HOST,scene7-cdn.dell.com,DIRECT
 HOST,sdx.microsoft.com,DIRECT
 HOST,se-edge.itunes.apple.com,DIRECT
@@ -503,7 +485,6 @@ HOST,speedysub.music.apple.com,DIRECT
 HOST,ss.bjmu.edu.cn,DIRECT
 HOST,ssl-google-analytics.l.google.com,DIRECT
 HOST,ssl.gstatic.com,DIRECT
-HOST,sslredirect.corp.google.com,DIRECT
 HOST,staging-controlbe.floonet.goog,DIRECT
 HOST,staging-databe.floonet.goog,DIRECT
 HOST,staging.databe.floonet.goog,DIRECT
@@ -518,15 +499,9 @@ HOST,store.apple.com.edgekey.net.globalredir.akadns.net,DIRECT
 HOST,store.storeimages.apple.com.akadns.net,DIRECT
 HOST,store.storeimages.cdn-apple.com,DIRECT
 HOST,storeedgefd.dsx.mp.microsoft.com,DIRECT
-HOST,streaming-uberproxy-rotation.corp.google.com,DIRECT
-HOST,streaming-uberproxy.corp.google.com,DIRECT
 HOST,streamingaudio.itunes.apple.com,DIRECT
 HOST,study.163.com,DIRECT
 HOST,su.itunes.apple.com,DIRECT
-HOST,sup-ssh-relay.corp.google.com,DIRECT
-HOST,sup-ssh-relay2.corp.google.com,DIRECT
-HOST,sup.corp.google.com,DIRECT
-HOST,sup.l.google.com,DIRECT
 HOST,support-china.apple-support.akadns.net,DIRECT
 HOST,support.apple.com,DIRECT
 HOST,supportassist.dell.com,DIRECT
@@ -545,18 +520,13 @@ HOST,sylvan.apple.com,DIRECT
 HOST,sync.itunes.apple.com,DIRECT
 HOST,tac.googleapis.com,DIRECT
 HOST,tesla-cdn.thron.cn,DIRECT
-HOST,test.gbugs-qa.chromium.org,DIRECT
 HOST,tf-feedback.itunes.apple.com,DIRECT
 HOST,time.amazonaws.cn,DIRECT
 HOST,time.izatcloud.net,DIRECT
 HOST,time.xtracloud.net,DIRECT
 HOST,tj-pod1-smp-device.apple.com,DIRECT
 HOST,tools.google.com,DIRECT
-HOST,tools.l.google.com,DIRECT
 HOST,tp.louisvuitton.com,DIRECT
-HOST,uberproxy-debug4.corp.google.com,DIRECT
-HOST,uberproxy.corp.google.com,DIRECT
-HOST,uberproxy6.corp.google.com,DIRECT
 HOST,universal-activity-service.itunes.apple.com,DIRECT
 HOST,update.crashlytics.com,DIRECT
 HOST,update.googleapis.com,DIRECT
@@ -592,7 +562,6 @@ HOST,www.pxcc.com,DIRECT
 HOST,www.recaptcha.net,DIRECT
 HOST,www.support.apple.com,DIRECT
 HOST,www4-static.gog-statics.com,DIRECT
-HOST,xn--flw351e.com,DIRECT
 HOST,xp.apple.com,DIRECT
 HOST,xtratime.qcomgeo2.com,DIRECT
 HOST,xz.pphimalayanrt.com,DIRECT
@@ -2279,6 +2248,7 @@ HOST-SUFFIX,12322app.com,DIRECT
 HOST-SUFFIX,123242.com,DIRECT
 HOST-SUFFIX,123245.com,DIRECT
 HOST-SUFFIX,123254.com,DIRECT
+HOST-SUFFIX,123278.com,DIRECT
 HOST-SUFFIX,123294.com,DIRECT
 HOST-SUFFIX,123295.com,DIRECT
 HOST-SUFFIX,12333.com,DIRECT
@@ -4401,6 +4371,7 @@ HOST-SUFFIX,3323399.com,DIRECT
 HOST-SUFFIX,332831.com,DIRECT
 HOST-SUFFIX,333-555.com,DIRECT
 HOST-SUFFIX,333.com,DIRECT
+HOST-SUFFIX,3331.com,DIRECT
 HOST-SUFFIX,33315.com,DIRECT
 HOST-SUFFIX,333232.xyz,DIRECT
 HOST-SUFFIX,333333.com,DIRECT
@@ -13139,6 +13110,7 @@ HOST-SUFFIX,ant-cloud.net,DIRECT
 HOST-SUFFIX,ant-financial.com,DIRECT
 HOST-SUFFIX,ant-open.com,DIRECT
 HOST-SUFFIX,anta.com,DIRECT
+HOST-SUFFIX,antafu.com,DIRECT
 HOST-SUFFIX,antaiib.com,DIRECT
 HOST-SUFFIX,antairui.net,DIRECT
 HOST-SUFFIX,antangbusiness.com,DIRECT
@@ -16552,6 +16524,7 @@ HOST-SUFFIX,bhshtksp.com,DIRECT
 HOST-SUFFIX,bhshunhui.com,DIRECT
 HOST-SUFFIX,bhshyy.com,DIRECT
 HOST-SUFFIX,bhsr.com,DIRECT
+HOST-SUFFIX,bhsun.com,DIRECT
 HOST-SUFFIX,bhszyyy.com,DIRECT
 HOST-SUFFIX,bhtv.cc,DIRECT
 HOST-SUFFIX,bhuitong.com,DIRECT
@@ -49623,7 +49596,6 @@ HOST-SUFFIX,hujibbs.com,DIRECT
 HOST-SUFFIX,hujingnb.com,DIRECT
 HOST-SUFFIX,huke88.com,DIRECT
 HOST-SUFFIX,hukeck.com,DIRECT
-HOST-SUFFIX,hukelc.com,DIRECT
 HOST-SUFFIX,hukenb.com,DIRECT
 HOST-SUFFIX,hukexyy.com,DIRECT
 HOST-SUFFIX,hukou021.com,DIRECT
@@ -50835,6 +50807,7 @@ HOST-SUFFIX,hzzkj.net,DIRECT
 HOST-SUFFIX,hzzp.com,DIRECT
 HOST-SUFFIX,hzzpko3186.vip,DIRECT
 HOST-SUFFIX,hzzqzc.com,DIRECT
+HOST-SUFFIX,hzzred.com,DIRECT
 HOST-SUFFIX,hzzrmc.com,DIRECT
 HOST-SUFFIX,hzzsfs.com,DIRECT
 HOST-SUFFIX,hzzsxh.com,DIRECT
@@ -55020,6 +54993,7 @@ HOST-SUFFIX,jidouauto.com,DIRECT
 HOST-SUFFIX,jidubook.com,DIRECT
 HOST-SUFFIX,jidujiao.com,DIRECT
 HOST-SUFFIX,jidujiasu.com,DIRECT
+HOST-SUFFIX,jie.ge,DIRECT
 HOST-SUFFIX,jieanjiaotong.com,DIRECT
 HOST-SUFFIX,jiebai.com,DIRECT
 HOST-SUFFIX,jiebanchuyou.com,DIRECT
@@ -55348,6 +55322,7 @@ HOST-SUFFIX,jingdongyouxuan.com,DIRECT
 HOST-SUFFIX,jingdudai.com,DIRECT
 HOST-SUFFIX,jingdukaoyan.com,DIRECT
 HOST-SUFFIX,jingdw.com,DIRECT
+HOST-SUFFIX,jingeshou.com,DIRECT
 HOST-SUFFIX,jingge.com,DIRECT
 HOST-SUFFIX,jinggeng.net,DIRECT
 HOST-SUFFIX,jinggon.com,DIRECT
@@ -56031,6 +56006,7 @@ HOST-SUFFIX,jj00.com,DIRECT
 HOST-SUFFIX,jj0833.com,DIRECT
 HOST-SUFFIX,jj20.com,DIRECT
 HOST-SUFFIX,jj59.com,DIRECT
+HOST-SUFFIX,jj5agame.com,DIRECT
 HOST-SUFFIX,jj831.com,DIRECT
 HOST-SUFFIX,jj99.icu,DIRECT
 HOST-SUFFIX,jjbang.com,DIRECT
@@ -56498,7 +56474,6 @@ HOST-SUFFIX,jnydgm.com,DIRECT
 HOST-SUFFIX,jnyng.com,DIRECT
 HOST-SUFFIX,jnyyjt.com,DIRECT
 HOST-SUFFIX,jnzhuoxin.com,DIRECT
-HOST-SUFFIX,jnzjzx.net,DIRECT
 HOST-SUFFIX,jnzl.com,DIRECT
 HOST-SUFFIX,jnzongchi.com,DIRECT
 HOST-SUFFIX,jnzx.cc,DIRECT
@@ -67888,6 +67863,7 @@ HOST-SUFFIX,modelarts-maas.com,DIRECT
 HOST-SUFFIX,modelevel.com,DIRECT
 HOST-SUFFIX,modelltd.com,DIRECT
 HOST-SUFFIX,modelones.com,DIRECT
+HOST-SUFFIX,modelscope.ai,DIRECT
 HOST-SUFFIX,modelscope.net,DIRECT
 HOST-SUFFIX,modelwhale.com,DIRECT
 HOST-SUFFIX,modeng178.com,DIRECT
@@ -78016,7 +77992,6 @@ HOST-SUFFIX,qygbet427.vip,DIRECT
 HOST-SUFFIX,qygjyey.com,DIRECT
 HOST-SUFFIX,qyglzz.com,DIRECT
 HOST-SUFFIX,qygvip128.com,DIRECT
-HOST-SUFFIX,qygvip40.com,DIRECT
 HOST-SUFFIX,qyhgsb.com,DIRECT
 HOST-SUFFIX,qyhl.vip,DIRECT
 HOST-SUFFIX,qyhr.org,DIRECT
@@ -78980,7 +78955,6 @@ HOST-SUFFIX,rightknights.com,DIRECT
 HOST-SUFFIX,rightpaddle.com,DIRECT
 HOST-SUFFIX,rigol.com,DIRECT
 HOST-SUFFIX,rigouwang.com,DIRECT
-HOST-SUFFIX,riitao.com,DIRECT
 HOST-SUFFIX,riji001.com,DIRECT
 HOST-SUFFIX,riji100zi.com,DIRECT
 HOST-SUFFIX,rijigu.com,DIRECT
@@ -79997,6 +79971,7 @@ HOST-SUFFIX,safenext.com,DIRECT
 HOST-SUFFIX,safetyimg.com,DIRECT
 HOST-SUFFIX,safetystatic.com,DIRECT
 HOST-SUFFIX,safetyvod.com,DIRECT
+HOST-SUFFIX,safewk.com,DIRECT
 HOST-SUFFIX,safround.com,DIRECT
 HOST-SUFFIX,sagewc-exp.com,DIRECT
 HOST-SUFFIX,sagigame.net,DIRECT
@@ -81033,7 +81008,6 @@ HOST-SUFFIX,sdglobaltrade.com,DIRECT
 HOST-SUFFIX,sdglql.com,DIRECT
 HOST-SUFFIX,sdgmjiaoyun.com,DIRECT
 HOST-SUFFIX,sdgren.com,DIRECT
-HOST-SUFFIX,sdgsdggg.xyz,DIRECT
 HOST-SUFFIX,sdgsgcjsjt.com,DIRECT
 HOST-SUFFIX,sdgsjc.com,DIRECT
 HOST-SUFFIX,sdgslb.com,DIRECT
@@ -81110,6 +81084,7 @@ HOST-SUFFIX,sdj88.com,DIRECT
 HOST-SUFFIX,sdjcf.com,DIRECT
 HOST-SUFFIX,sdjcsh.com,DIRECT
 HOST-SUFFIX,sdjcw.com,DIRECT
+HOST-SUFFIX,sdjcxxgs.com,DIRECT
 HOST-SUFFIX,sdjiance.com,DIRECT
 HOST-SUFFIX,sdjiankan.com,DIRECT
 HOST-SUFFIX,sdjianmei.com,DIRECT
@@ -96047,6 +96022,7 @@ HOST-SUFFIX,wcjbb.net,DIRECT
 HOST-SUFFIX,wcjm.org,DIRECT
 HOST-SUFFIX,wclbox.com,DIRECT
 HOST-SUFFIX,wcloud.com,DIRECT
+HOST-SUFFIX,wcloudcdn.com,DIRECT
 HOST-SUFFIX,wcode.net,DIRECT
 HOST-SUFFIX,wcp.hk,DIRECT
 HOST-SUFFIX,wcqjyw.com,DIRECT
@@ -97803,7 +97779,6 @@ HOST-SUFFIX,wisdri.com,DIRECT
 HOST-SUFFIX,wise-iot.com,DIRECT
 HOST-SUFFIX,wise99.com,DIRECT
 HOST-SUFFIX,wiseasy.com,DIRECT
-HOST-SUFFIX,wisebond.net,DIRECT
 HOST-SUFFIX,wisecity.net,DIRECT
 HOST-SUFFIX,wisecotech.com,DIRECT
 HOST-SUFFIX,wisedoo.com,DIRECT
@@ -98859,6 +98834,7 @@ HOST-SUFFIX,wujogroup.com,DIRECT
 HOST-SUFFIX,wujue.com,DIRECT
 HOST-SUFFIX,wukaikai.tech,DIRECT
 HOST-SUFFIX,wukao.com,DIRECT
+HOST-SUFFIX,wukazhifupos.com,DIRECT
 HOST-SUFFIX,wukong.com,DIRECT
 HOST-SUFFIX,wukong.la,DIRECT
 HOST-SUFFIX,wukongbjb.com,DIRECT
@@ -110284,6 +110260,7 @@ HOST-SUFFIX,zhenyuansoft.com,DIRECT
 HOST-SUFFIX,zhenyunpan.com,DIRECT
 HOST-SUFFIX,zhenzhuchanfu.com,DIRECT
 HOST-SUFFIX,zheshenet.com,DIRECT
+HOST-SUFFIX,zheshouka.com,DIRECT
 HOST-SUFFIX,zhetao.com,DIRECT
 HOST-SUFFIX,zhetian.org,DIRECT
 HOST-SUFFIX,zhetouniu.com,DIRECT

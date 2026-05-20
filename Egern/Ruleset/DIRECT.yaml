@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 113746
+# 规则统计: 113723
 
 domain_set:
   - 265.com
@@ -106,12 +106,10 @@ domain_set:
   - cn.download.nvidia.com
   - cn.widevine.com
   - cn.windowssearch.com
-  - cnappinstall.googleadapis.com
   - communities.apple.com
   - configuration.apple.com
   - configuration.apple.com.akadns.net
   - connectivitycheck.gstatic.com
-  - content.googleadapis.com
   - crashlyticsreports-pa.googleapis.com
   - crl-lb.apple.com.akadns.net
   - crl.apple.com
@@ -170,7 +168,6 @@ domain_set:
   - download.developer.apple.com
   - download.microsoft.com
   - download.mlcc.google.com
-  - download.qatp1.net
   - download.tensorflow.google.com
   - download.visualstudio.microsoft.com
   - downloaddispatch.itunes.apple.com
@@ -178,7 +175,6 @@ domain_set:
   - ea2cn-prod-outlet.dell.com
   - ea2cn-staging-outlet.dell.com
   - edge.geo.kaspersky.com
-  - emmapplecodevice.googleapis.com
   - emoi-cncdn.bing.com
   - end-api.shallow.ink
   - end.shallow.ink
@@ -202,7 +198,6 @@ domain_set:
   - gbxgateway-dev.dell.com
   - gbxgateway.dell.com
   - geetest.datasink.sensorsdata.cn
-  - go.corp.google.com
   - gog-cdn-fastly.gog.com
   - gog-cdn.akamaized.net
   - gog.qtlglb.com
@@ -325,11 +320,7 @@ domain_set:
   - ksn-url.geoksn.kaspersky.com
   - ksn-verdict-geo.kaspersky-labs.com
   - ksn-verdict.geoksn.kaspersky.com
-  - l2-uberproxy.corp.google.com
   - learn.microsoft.com
-  - logger-dev.corp.google.com
-  - logger.corp.google.com
-  - login.corp.google.com
   - lv.queniujq.cn
   - maps.apple.com
   - mdr.ksn.kaspersky-labs.com
@@ -339,7 +330,6 @@ domain_set:
   - mesu.apple.com
   - misc-assets.itunes.apple.com
   - ml.cdn-apple.com
-  - monitoring.qpdp1.net
   - moocs.unipus.cn
   - music.apple.com
   - musicstatus.music.apple.com
@@ -423,16 +413,9 @@ domain_set:
   - prod-support.apple-support.akadns.net
   - prod.databe.floonet.goog
   - productcard.gog-statics.com
-  - proxyconfig.corp.google.com
   - publicassets.cdn-apple.com
-  - qagpublic.qatp1.net
-  - qgadmin.qcpp1.net
   - qiao-cn.com
   - qpx.googleflights.net
-  - qualysapi.qatp1.net
-  - qualysguard.qpdp1.net
-  - r.cert.corp.google.com
-  - rapture-prod.corp.google.com
   - recaptcha-cn.net
   - recaptcha.net
   - redirector.bdn.dev
@@ -478,7 +461,6 @@ domain_set:
   - s5.mzstatic.com
   - safebrowsing-cache.google.com
   - safebrowsing.googleapis.com
-  - scanservice1.qcpp1.net
   - scene7-cdn.dell.com
   - sdx.microsoft.com
   - se-edge.itunes.apple.com
@@ -504,7 +486,6 @@ domain_set:
   - ss.bjmu.edu.cn
   - ssl-google-analytics.l.google.com
   - ssl.gstatic.com
-  - sslredirect.corp.google.com
   - staging-controlbe.floonet.goog
   - staging-databe.floonet.goog
   - staging.databe.floonet.goog
@@ -519,15 +500,9 @@ domain_set:
   - store.storeimages.apple.com.akadns.net
   - store.storeimages.cdn-apple.com
   - storeedgefd.dsx.mp.microsoft.com
-  - streaming-uberproxy-rotation.corp.google.com
-  - streaming-uberproxy.corp.google.com
   - streamingaudio.itunes.apple.com
   - study.163.com
   - su.itunes.apple.com
-  - sup-ssh-relay.corp.google.com
-  - sup-ssh-relay2.corp.google.com
-  - sup.corp.google.com
-  - sup.l.google.com
   - support-china.apple-support.akadns.net
   - support.apple.com
   - supportassist.dell.com
@@ -546,18 +521,13 @@ domain_set:
   - sync.itunes.apple.com
   - tac.googleapis.com
   - tesla-cdn.thron.cn
-  - test.gbugs-qa.chromium.org
   - tf-feedback.itunes.apple.com
   - time.amazonaws.cn
   - time.izatcloud.net
   - time.xtracloud.net
   - tj-pod1-smp-device.apple.com
   - tools.google.com
-  - tools.l.google.com
   - tp.louisvuitton.com
-  - uberproxy-debug4.corp.google.com
-  - uberproxy.corp.google.com
-  - uberproxy6.corp.google.com
   - universal-activity-service.itunes.apple.com
   - update.crashlytics.com
   - update.googleapis.com
@@ -593,7 +563,6 @@ domain_set:
   - www.recaptcha.net
   - www.support.apple.com
   - www4-static.gog-statics.com
-  - xn--flw351e.com
   - xp.apple.com
   - xtratime.qcomgeo2.com
   - xz.pphimalayanrt.com
@@ -2281,6 +2250,7 @@ domain_suffix_set:
   - 123242.com
   - 123245.com
   - 123254.com
+  - 123278.com
   - 123294.com
   - 123295.com
   - 12333.com
@@ -4403,6 +4373,7 @@ domain_suffix_set:
   - 332831.com
   - 333-555.com
   - 333.com
+  - 3331.com
   - 33315.com
   - 333232.xyz
   - 333333.com
@@ -13141,6 +13112,7 @@ domain_suffix_set:
   - ant-financial.com
   - ant-open.com
   - anta.com
+  - antafu.com
   - antaiib.com
   - antairui.net
   - antangbusiness.com
@@ -16554,6 +16526,7 @@ domain_suffix_set:
   - bhshunhui.com
   - bhshyy.com
   - bhsr.com
+  - bhsun.com
   - bhszyyy.com
   - bhtv.cc
   - bhuitong.com
@@ -49625,7 +49598,6 @@ domain_suffix_set:
   - hujingnb.com
   - huke88.com
   - hukeck.com
-  - hukelc.com
   - hukenb.com
   - hukexyy.com
   - hukou021.com
@@ -50837,6 +50809,7 @@ domain_suffix_set:
   - hzzp.com
   - hzzpko3186.vip
   - hzzqzc.com
+  - hzzred.com
   - hzzrmc.com
   - hzzsfs.com
   - hzzsxh.com
@@ -55022,6 +54995,7 @@ domain_suffix_set:
   - jidubook.com
   - jidujiao.com
   - jidujiasu.com
+  - jie.ge
   - jieanjiaotong.com
   - jiebai.com
   - jiebanchuyou.com
@@ -55350,6 +55324,7 @@ domain_suffix_set:
   - jingdudai.com
   - jingdukaoyan.com
   - jingdw.com
+  - jingeshou.com
   - jingge.com
   - jinggeng.net
   - jinggon.com
@@ -56033,6 +56008,7 @@ domain_suffix_set:
   - jj0833.com
   - jj20.com
   - jj59.com
+  - jj5agame.com
   - jj831.com
   - jj99.icu
   - jjbang.com
@@ -56500,7 +56476,6 @@ domain_suffix_set:
   - jnyng.com
   - jnyyjt.com
   - jnzhuoxin.com
-  - jnzjzx.net
   - jnzl.com
   - jnzongchi.com
   - jnzx.cc
@@ -67890,6 +67865,7 @@ domain_suffix_set:
   - modelevel.com
   - modelltd.com
   - modelones.com
+  - modelscope.ai
   - modelscope.net
   - modelwhale.com
   - modeng178.com
@@ -78018,7 +77994,6 @@ domain_suffix_set:
   - qygjyey.com
   - qyglzz.com
   - qygvip128.com
-  - qygvip40.com
   - qyhgsb.com
   - qyhl.vip
   - qyhr.org
@@ -78982,7 +78957,6 @@ domain_suffix_set:
   - rightpaddle.com
   - rigol.com
   - rigouwang.com
-  - riitao.com
   - riji001.com
   - riji100zi.com
   - rijigu.com
@@ -79999,6 +79973,7 @@ domain_suffix_set:
   - safetyimg.com
   - safetystatic.com
   - safetyvod.com
+  - safewk.com
   - safround.com
   - sagewc-exp.com
   - sagigame.net
@@ -81035,7 +81010,6 @@ domain_suffix_set:
   - sdglql.com
   - sdgmjiaoyun.com
   - sdgren.com
-  - sdgsdggg.xyz
   - sdgsgcjsjt.com
   - sdgsjc.com
   - sdgslb.com
@@ -81112,6 +81086,7 @@ domain_suffix_set:
   - sdjcf.com
   - sdjcsh.com
   - sdjcw.com
+  - sdjcxxgs.com
   - sdjiance.com
   - sdjiankan.com
   - sdjianmei.com
@@ -96049,6 +96024,7 @@ domain_suffix_set:
   - wcjm.org
   - wclbox.com
   - wcloud.com
+  - wcloudcdn.com
   - wcode.net
   - wcp.hk
   - wcqjyw.com
@@ -97805,7 +97781,6 @@ domain_suffix_set:
   - wise-iot.com
   - wise99.com
   - wiseasy.com
-  - wisebond.net
   - wisecity.net
   - wisecotech.com
   - wisedoo.com
@@ -98861,6 +98836,7 @@ domain_suffix_set:
   - wujue.com
   - wukaikai.tech
   - wukao.com
+  - wukazhifupos.com
   - wukong.com
   - wukong.la
   - wukongbjb.com
@@ -110286,6 +110262,7 @@ domain_suffix_set:
   - zhenyunpan.com
   - zhenzhuchanfu.com
   - zheshenet.com
+  - zheshouka.com
   - zhetao.com
   - zhetian.org
   - zhetouniu.com

@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 113746
+# 规则统计: 113723
 
 DOMAIN,265.com
 DOMAIN,2mdn-cn.net
@@ -105,12 +105,10 @@ DOMAIN,cn-smp-paymentservices.apple.com
 DOMAIN,cn.download.nvidia.com
 DOMAIN,cn.widevine.com
 DOMAIN,cn.windowssearch.com
-DOMAIN,cnappinstall.googleadapis.com
 DOMAIN,communities.apple.com
 DOMAIN,configuration.apple.com
 DOMAIN,configuration.apple.com.akadns.net
 DOMAIN,connectivitycheck.gstatic.com
-DOMAIN,content.googleadapis.com
 DOMAIN,crashlyticsreports-pa.googleapis.com
 DOMAIN,crl-lb.apple.com.akadns.net
 DOMAIN,crl.apple.com
@@ -169,7 +167,6 @@ DOMAIN,doubleclick.net
 DOMAIN,download.developer.apple.com
 DOMAIN,download.microsoft.com
 DOMAIN,download.mlcc.google.com
-DOMAIN,download.qatp1.net
 DOMAIN,download.tensorflow.google.com
 DOMAIN,download.visualstudio.microsoft.com
 DOMAIN,downloaddispatch.itunes.apple.com
@@ -177,7 +174,6 @@ DOMAIN,ea2cn-dev-outlet.dell.com
 DOMAIN,ea2cn-prod-outlet.dell.com
 DOMAIN,ea2cn-staging-outlet.dell.com
 DOMAIN,edge.geo.kaspersky.com
-DOMAIN,emmapplecodevice.googleapis.com
 DOMAIN,emoi-cncdn.bing.com
 DOMAIN,end-api.shallow.ink
 DOMAIN,end.shallow.ink
@@ -201,7 +197,6 @@ DOMAIN,g3.gstatic.com
 DOMAIN,gbxgateway-dev.dell.com
 DOMAIN,gbxgateway.dell.com
 DOMAIN,geetest.datasink.sensorsdata.cn
-DOMAIN,go.corp.google.com
 DOMAIN,gog-cdn-fastly.gog.com
 DOMAIN,gog-cdn.akamaized.net
 DOMAIN,gog.qtlglb.com
@@ -324,11 +319,7 @@ DOMAIN,ksn-url-geo.kaspersky-labs.com
 DOMAIN,ksn-url.geoksn.kaspersky.com
 DOMAIN,ksn-verdict-geo.kaspersky-labs.com
 DOMAIN,ksn-verdict.geoksn.kaspersky.com
-DOMAIN,l2-uberproxy.corp.google.com
 DOMAIN,learn.microsoft.com
-DOMAIN,logger-dev.corp.google.com
-DOMAIN,logger.corp.google.com
-DOMAIN,login.corp.google.com
 DOMAIN,lv.queniujq.cn
 DOMAIN,maps.apple.com
 DOMAIN,mdr.ksn.kaspersky-labs.com
@@ -338,7 +329,6 @@ DOMAIN,mesu-china.apple.com.akadns.net
 DOMAIN,mesu.apple.com
 DOMAIN,misc-assets.itunes.apple.com
 DOMAIN,ml.cdn-apple.com
-DOMAIN,monitoring.qpdp1.net
 DOMAIN,moocs.unipus.cn
 DOMAIN,music.apple.com
 DOMAIN,musicstatus.music.apple.com
@@ -422,16 +412,9 @@ DOMAIN,prod-databe.floonet.goog
 DOMAIN,prod-support.apple-support.akadns.net
 DOMAIN,prod.databe.floonet.goog
 DOMAIN,productcard.gog-statics.com
-DOMAIN,proxyconfig.corp.google.com
 DOMAIN,publicassets.cdn-apple.com
-DOMAIN,qagpublic.qatp1.net
-DOMAIN,qgadmin.qcpp1.net
 DOMAIN,qiao-cn.com
 DOMAIN,qpx.googleflights.net
-DOMAIN,qualysapi.qatp1.net
-DOMAIN,qualysguard.qpdp1.net
-DOMAIN,r.cert.corp.google.com
-DOMAIN,rapture-prod.corp.google.com
 DOMAIN,recaptcha-cn.net
 DOMAIN,recaptcha.net
 DOMAIN,redirector.bdn.dev
@@ -477,7 +460,6 @@ DOMAIN,s4.mzstatic.com
 DOMAIN,s5.mzstatic.com
 DOMAIN,safebrowsing-cache.google.com
 DOMAIN,safebrowsing.googleapis.com
-DOMAIN,scanservice1.qcpp1.net
 DOMAIN,scene7-cdn.dell.com
 DOMAIN,sdx.microsoft.com
 DOMAIN,se-edge.itunes.apple.com
@@ -503,7 +485,6 @@ DOMAIN,speedysub.music.apple.com
 DOMAIN,ss.bjmu.edu.cn
 DOMAIN,ssl-google-analytics.l.google.com
 DOMAIN,ssl.gstatic.com
-DOMAIN,sslredirect.corp.google.com
 DOMAIN,staging-controlbe.floonet.goog
 DOMAIN,staging-databe.floonet.goog
 DOMAIN,staging.databe.floonet.goog
@@ -518,15 +499,9 @@ DOMAIN,store.apple.com.edgekey.net.globalredir.akadns.net
 DOMAIN,store.storeimages.apple.com.akadns.net
 DOMAIN,store.storeimages.cdn-apple.com
 DOMAIN,storeedgefd.dsx.mp.microsoft.com
-DOMAIN,streaming-uberproxy-rotation.corp.google.com
-DOMAIN,streaming-uberproxy.corp.google.com
 DOMAIN,streamingaudio.itunes.apple.com
 DOMAIN,study.163.com
 DOMAIN,su.itunes.apple.com
-DOMAIN,sup-ssh-relay.corp.google.com
-DOMAIN,sup-ssh-relay2.corp.google.com
-DOMAIN,sup.corp.google.com
-DOMAIN,sup.l.google.com
 DOMAIN,support-china.apple-support.akadns.net
 DOMAIN,support.apple.com
 DOMAIN,supportassist.dell.com
@@ -545,18 +520,13 @@ DOMAIN,sylvan.apple.com
 DOMAIN,sync.itunes.apple.com
 DOMAIN,tac.googleapis.com
 DOMAIN,tesla-cdn.thron.cn
-DOMAIN,test.gbugs-qa.chromium.org
 DOMAIN,tf-feedback.itunes.apple.com
 DOMAIN,time.amazonaws.cn
 DOMAIN,time.izatcloud.net
 DOMAIN,time.xtracloud.net
 DOMAIN,tj-pod1-smp-device.apple.com
 DOMAIN,tools.google.com
-DOMAIN,tools.l.google.com
 DOMAIN,tp.louisvuitton.com
-DOMAIN,uberproxy-debug4.corp.google.com
-DOMAIN,uberproxy.corp.google.com
-DOMAIN,uberproxy6.corp.google.com
 DOMAIN,universal-activity-service.itunes.apple.com
 DOMAIN,update.crashlytics.com
 DOMAIN,update.googleapis.com
@@ -592,7 +562,6 @@ DOMAIN,www.pxcc.com
 DOMAIN,www.recaptcha.net
 DOMAIN,www.support.apple.com
 DOMAIN,www4-static.gog-statics.com
-DOMAIN,xn--flw351e.com
 DOMAIN,xp.apple.com
 DOMAIN,xtratime.qcomgeo2.com
 DOMAIN,xz.pphimalayanrt.com
@@ -2279,6 +2248,7 @@ DOMAIN-SUFFIX,12322app.com
 DOMAIN-SUFFIX,123242.com
 DOMAIN-SUFFIX,123245.com
 DOMAIN-SUFFIX,123254.com
+DOMAIN-SUFFIX,123278.com
 DOMAIN-SUFFIX,123294.com
 DOMAIN-SUFFIX,123295.com
 DOMAIN-SUFFIX,12333.com
@@ -4401,6 +4371,7 @@ DOMAIN-SUFFIX,3323399.com
 DOMAIN-SUFFIX,332831.com
 DOMAIN-SUFFIX,333-555.com
 DOMAIN-SUFFIX,333.com
+DOMAIN-SUFFIX,3331.com
 DOMAIN-SUFFIX,33315.com
 DOMAIN-SUFFIX,333232.xyz
 DOMAIN-SUFFIX,333333.com
@@ -13139,6 +13110,7 @@ DOMAIN-SUFFIX,ant-cloud.net
 DOMAIN-SUFFIX,ant-financial.com
 DOMAIN-SUFFIX,ant-open.com
 DOMAIN-SUFFIX,anta.com
+DOMAIN-SUFFIX,antafu.com
 DOMAIN-SUFFIX,antaiib.com
 DOMAIN-SUFFIX,antairui.net
 DOMAIN-SUFFIX,antangbusiness.com
@@ -16552,6 +16524,7 @@ DOMAIN-SUFFIX,bhshtksp.com
 DOMAIN-SUFFIX,bhshunhui.com
 DOMAIN-SUFFIX,bhshyy.com
 DOMAIN-SUFFIX,bhsr.com
+DOMAIN-SUFFIX,bhsun.com
 DOMAIN-SUFFIX,bhszyyy.com
 DOMAIN-SUFFIX,bhtv.cc
 DOMAIN-SUFFIX,bhuitong.com
@@ -49623,7 +49596,6 @@ DOMAIN-SUFFIX,hujibbs.com
 DOMAIN-SUFFIX,hujingnb.com
 DOMAIN-SUFFIX,huke88.com
 DOMAIN-SUFFIX,hukeck.com
-DOMAIN-SUFFIX,hukelc.com
 DOMAIN-SUFFIX,hukenb.com
 DOMAIN-SUFFIX,hukexyy.com
 DOMAIN-SUFFIX,hukou021.com
@@ -50835,6 +50807,7 @@ DOMAIN-SUFFIX,hzzkj.net
 DOMAIN-SUFFIX,hzzp.com
 DOMAIN-SUFFIX,hzzpko3186.vip
 DOMAIN-SUFFIX,hzzqzc.com
+DOMAIN-SUFFIX,hzzred.com
 DOMAIN-SUFFIX,hzzrmc.com
 DOMAIN-SUFFIX,hzzsfs.com
 DOMAIN-SUFFIX,hzzsxh.com
@@ -55020,6 +54993,7 @@ DOMAIN-SUFFIX,jidouauto.com
 DOMAIN-SUFFIX,jidubook.com
 DOMAIN-SUFFIX,jidujiao.com
 DOMAIN-SUFFIX,jidujiasu.com
+DOMAIN-SUFFIX,jie.ge
 DOMAIN-SUFFIX,jieanjiaotong.com
 DOMAIN-SUFFIX,jiebai.com
 DOMAIN-SUFFIX,jiebanchuyou.com
@@ -55348,6 +55322,7 @@ DOMAIN-SUFFIX,jingdongyouxuan.com
 DOMAIN-SUFFIX,jingdudai.com
 DOMAIN-SUFFIX,jingdukaoyan.com
 DOMAIN-SUFFIX,jingdw.com
+DOMAIN-SUFFIX,jingeshou.com
 DOMAIN-SUFFIX,jingge.com
 DOMAIN-SUFFIX,jinggeng.net
 DOMAIN-SUFFIX,jinggon.com
@@ -56031,6 +56006,7 @@ DOMAIN-SUFFIX,jj00.com
 DOMAIN-SUFFIX,jj0833.com
 DOMAIN-SUFFIX,jj20.com
 DOMAIN-SUFFIX,jj59.com
+DOMAIN-SUFFIX,jj5agame.com
 DOMAIN-SUFFIX,jj831.com
 DOMAIN-SUFFIX,jj99.icu
 DOMAIN-SUFFIX,jjbang.com
@@ -56498,7 +56474,6 @@ DOMAIN-SUFFIX,jnydgm.com
 DOMAIN-SUFFIX,jnyng.com
 DOMAIN-SUFFIX,jnyyjt.com
 DOMAIN-SUFFIX,jnzhuoxin.com
-DOMAIN-SUFFIX,jnzjzx.net
 DOMAIN-SUFFIX,jnzl.com
 DOMAIN-SUFFIX,jnzongchi.com
 DOMAIN-SUFFIX,jnzx.cc
@@ -67888,6 +67863,7 @@ DOMAIN-SUFFIX,modelarts-maas.com
 DOMAIN-SUFFIX,modelevel.com
 DOMAIN-SUFFIX,modelltd.com
 DOMAIN-SUFFIX,modelones.com
+DOMAIN-SUFFIX,modelscope.ai
 DOMAIN-SUFFIX,modelscope.net
 DOMAIN-SUFFIX,modelwhale.com
 DOMAIN-SUFFIX,modeng178.com
@@ -78016,7 +77992,6 @@ DOMAIN-SUFFIX,qygbet427.vip
 DOMAIN-SUFFIX,qygjyey.com
 DOMAIN-SUFFIX,qyglzz.com
 DOMAIN-SUFFIX,qygvip128.com
-DOMAIN-SUFFIX,qygvip40.com
 DOMAIN-SUFFIX,qyhgsb.com
 DOMAIN-SUFFIX,qyhl.vip
 DOMAIN-SUFFIX,qyhr.org
@@ -78980,7 +78955,6 @@ DOMAIN-SUFFIX,rightknights.com
 DOMAIN-SUFFIX,rightpaddle.com
 DOMAIN-SUFFIX,rigol.com
 DOMAIN-SUFFIX,rigouwang.com
-DOMAIN-SUFFIX,riitao.com
 DOMAIN-SUFFIX,riji001.com
 DOMAIN-SUFFIX,riji100zi.com
 DOMAIN-SUFFIX,rijigu.com
@@ -79997,6 +79971,7 @@ DOMAIN-SUFFIX,safenext.com
 DOMAIN-SUFFIX,safetyimg.com
 DOMAIN-SUFFIX,safetystatic.com
 DOMAIN-SUFFIX,safetyvod.com
+DOMAIN-SUFFIX,safewk.com
 DOMAIN-SUFFIX,safround.com
 DOMAIN-SUFFIX,sagewc-exp.com
 DOMAIN-SUFFIX,sagigame.net
@@ -81033,7 +81008,6 @@ DOMAIN-SUFFIX,sdglobaltrade.com
 DOMAIN-SUFFIX,sdglql.com
 DOMAIN-SUFFIX,sdgmjiaoyun.com
 DOMAIN-SUFFIX,sdgren.com
-DOMAIN-SUFFIX,sdgsdggg.xyz
 DOMAIN-SUFFIX,sdgsgcjsjt.com
 DOMAIN-SUFFIX,sdgsjc.com
 DOMAIN-SUFFIX,sdgslb.com
@@ -81110,6 +81084,7 @@ DOMAIN-SUFFIX,sdj88.com
 DOMAIN-SUFFIX,sdjcf.com
 DOMAIN-SUFFIX,sdjcsh.com
 DOMAIN-SUFFIX,sdjcw.com
+DOMAIN-SUFFIX,sdjcxxgs.com
 DOMAIN-SUFFIX,sdjiance.com
 DOMAIN-SUFFIX,sdjiankan.com
 DOMAIN-SUFFIX,sdjianmei.com
@@ -96047,6 +96022,7 @@ DOMAIN-SUFFIX,wcjbb.net
 DOMAIN-SUFFIX,wcjm.org
 DOMAIN-SUFFIX,wclbox.com
 DOMAIN-SUFFIX,wcloud.com
+DOMAIN-SUFFIX,wcloudcdn.com
 DOMAIN-SUFFIX,wcode.net
 DOMAIN-SUFFIX,wcp.hk
 DOMAIN-SUFFIX,wcqjyw.com
@@ -97803,7 +97779,6 @@ DOMAIN-SUFFIX,wisdri.com
 DOMAIN-SUFFIX,wise-iot.com
 DOMAIN-SUFFIX,wise99.com
 DOMAIN-SUFFIX,wiseasy.com
-DOMAIN-SUFFIX,wisebond.net
 DOMAIN-SUFFIX,wisecity.net
 DOMAIN-SUFFIX,wisecotech.com
 DOMAIN-SUFFIX,wisedoo.com
@@ -98859,6 +98834,7 @@ DOMAIN-SUFFIX,wujogroup.com
 DOMAIN-SUFFIX,wujue.com
 DOMAIN-SUFFIX,wukaikai.tech
 DOMAIN-SUFFIX,wukao.com
+DOMAIN-SUFFIX,wukazhifupos.com
 DOMAIN-SUFFIX,wukong.com
 DOMAIN-SUFFIX,wukong.la
 DOMAIN-SUFFIX,wukongbjb.com
@@ -110284,6 +110260,7 @@ DOMAIN-SUFFIX,zhenyuansoft.com
 DOMAIN-SUFFIX,zhenyunpan.com
 DOMAIN-SUFFIX,zhenzhuchanfu.com
 DOMAIN-SUFFIX,zheshenet.com
+DOMAIN-SUFFIX,zheshouka.com
 DOMAIN-SUFFIX,zhetao.com
 DOMAIN-SUFFIX,zhetian.org
 DOMAIN-SUFFIX,zhetouniu.com
