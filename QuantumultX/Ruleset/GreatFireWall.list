@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 4242
+# 规则统计: 4245
 
 HOST-SUFFIX,000webhost.com,GreatFireWall
 HOST-SUFFIX,0rz.tw,GreatFireWall
@@ -28,6 +28,7 @@ HOST-SUFFIX,2047.name,GreatFireWall
 HOST-SUFFIX,2047.one,GreatFireWall
 HOST-SUFFIX,2049bbs.xyz,GreatFireWall
 HOST-SUFFIX,233abc.com,GreatFireWall
+HOST-SUFFIX,24hbook.com,GreatFireWall
 HOST-SUFFIX,24hrs.ca,GreatFireWall
 HOST-SUFFIX,32red.com,GreatFireWall
 HOST-SUFFIX,36rain.com,GreatFireWall
@@ -2303,6 +2304,7 @@ HOST-SUFFIX,martau.com,GreatFireWall
 HOST-SUFFIX,martsangkagyuofficial.org,GreatFireWall
 HOST-SUFFIX,marxist.net,GreatFireWall
 HOST-SUFFIX,marxists.org,GreatFireWall
+HOST-SUFFIX,mas.to,GreatFireWall
 HOST-SUFFIX,mash.to,GreatFireWall
 HOST-SUFFIX,mastodon.cloud,GreatFireWall
 HOST-SUFFIX,mastodon.host,GreatFireWall
@@ -2510,6 +2512,7 @@ HOST-SUFFIX,ncn.org,GreatFireWall
 HOST-SUFFIX,ndi.org,GreatFireWall
 HOST-SUFFIX,nekoslovakia.net,GreatFireWall
 HOST-SUFFIX,neo-miracle.com,GreatFireWall
+HOST-SUFFIX,neodb.social,GreatFireWall
 HOST-SUFFIX,neowin.net,GreatFireWall
 HOST-SUFFIX,nephobox.com,GreatFireWall
 HOST-SUFFIX,netalert.me,GreatFireWall

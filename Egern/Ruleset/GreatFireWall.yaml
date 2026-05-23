@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 4242
+# 规则统计: 4245
 
 domain_suffix_set:
   - 000webhost.com
@@ -29,6 +29,7 @@ domain_suffix_set:
   - 2047.one
   - 2049bbs.xyz
   - 233abc.com
+  - 24hbook.com
   - 24hrs.ca
   - 32red.com
   - 36rain.com
@@ -2304,6 +2305,7 @@ domain_suffix_set:
   - martsangkagyuofficial.org
   - marxist.net
   - marxists.org
+  - mas.to
   - mash.to
   - mastodon.cloud
   - mastodon.host
@@ -2511,6 +2513,7 @@ domain_suffix_set:
   - ndi.org
   - nekoslovakia.net
   - neo-miracle.com
+  - neodb.social
   - neowin.net
   - nephobox.com
   - netalert.me
