@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 34304
+# 规则统计: 34307
 
 payload:
   - DOMAIN,1password.drift.click
@@ -386,6 +386,7 @@ payload:
   - DOMAIN-SUFFIX,233v2.com
   - DOMAIN-SUFFIX,2371tom.com
   - DOMAIN-SUFFIX,24h.tv
+  - DOMAIN-SUFFIX,24hbook.com
   - DOMAIN-SUFFIX,24hjav.com
   - DOMAIN-SUFFIX,24hrs.ca
   - DOMAIN-SUFFIX,24porn.com
@@ -18829,6 +18830,7 @@ payload:
   - DOMAIN-SUFFIX,maryvale.ac.uk
   - DOMAIN-SUFFIX,maryward.ac.uk
   - DOMAIN-SUFFIX,marywardcentre.ac.uk
+  - DOMAIN-SUFFIX,mas.to
   - DOMAIN-SUFFIX,masalabin.com
   - DOMAIN-SUFFIX,masaladesi.com
   - DOMAIN-SUFFIX,masalaseen.net
@@ -21004,6 +21006,7 @@ payload:
   - DOMAIN-SUFFIX,nentindo.net
   - DOMAIN-SUFFIX,neo-miracle.com
   - DOMAIN-SUFFIX,neodaas.ac.uk
+  - DOMAIN-SUFFIX,neodb.social
   - DOMAIN-SUFFIX,neoforged.net
   - DOMAIN-SUFFIX,neonatalsociety.ac.uk
   - DOMAIN-SUFFIX,neotokyo.supertop-100.com
