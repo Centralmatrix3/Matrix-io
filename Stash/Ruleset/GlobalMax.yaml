@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 34307
+# 规则统计: 34309
 
 payload:
   - DOMAIN,1password.drift.click
@@ -9447,6 +9447,7 @@ payload:
   - DOMAIN-SUFFIX,e123.hk
   - DOMAIN-SUFFIX,e3an.ac.uk
   - DOMAIN-SUFFIX,e5.sk
+  - DOMAIN-SUFFIX,e53w.com
   - DOMAIN-SUFFIX,e621.net
   - DOMAIN-SUFFIX,ea-anz-press.com
   - DOMAIN-SUFFIX,ea.com
@@ -24535,6 +24536,7 @@ payload:
   - DOMAIN-SUFFIX,qbmengmei6.mom
   - DOMAIN-SUFFIX,qbsc.ac.uk
   - DOMAIN-SUFFIX,qckprn.com
+  - DOMAIN-SUFFIX,qcmod.xyz
   - DOMAIN-SUFFIX,qcomgeo2.com
   - DOMAIN-SUFFIX,qctconnect.com
   - DOMAIN-SUFFIX,qdiehzz7.me

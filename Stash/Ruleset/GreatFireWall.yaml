@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 4245
+# 规则统计: 4246
 
 payload:
   - '+.000webhost.com'
@@ -2450,6 +2450,7 @@ payload:
   - '+.motherless.com'
   - '+.movements.org'
   - '+.moviefap.com'
+  - '+.mozilla.ai'
   - '+.mpettis.com'
   - '+.mpfinance.com'
   - '+.mpinews.com'

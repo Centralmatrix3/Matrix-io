@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7346
+# 规则统计: 7347
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -4107,6 +4107,7 @@ payload:
   - DOMAIN-SUFFIX,mousebreaker.com
   - DOMAIN-SUFFIX,movements.org
   - DOMAIN-SUFFIX,moviefap.com
+  - DOMAIN-SUFFIX,mozilla.ai
   - DOMAIN-SUFFIX,mozilla.org
   - DOMAIN-SUFFIX,moztw.org
   - DOMAIN-SUFFIX,mp3buscador.com
