@@ -18,33 +18,33 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v6.0.2
         with:
-          repository: Centralmatrix3/NetTool
-          path: NetTool
+          repository: Centralmatrix3/Network
+          path: Network
 
-      - name: Generate Ruleset
-        run: python NetTool/Scripts/Build.py --copy
+      - name: Process Sources
+        run: python Network/Scripts/Build.py S --copy
 
       - name: Convert Ruleset
         run: |
           for dir in Egern/Ruleset; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
-            python NetTool/Scripts/Build.py Egern "$dir"
+            python Network/Scripts/Build.py C Egern "$dir"
           done
           for dir in QuantumultX/Ruleset; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
-            python NetTool/Scripts/Build.py QuantumultX "$dir"
+            python Network/Scripts/Build.py C QuantumultX "$dir"
           done
           for dir in Sing-box/Ruleset; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
-            python NetTool/Scripts/Build.py Singbox "$dir"
+            python Network/Scripts/Build.py C Singbox "$dir"
           done
           for dir in {Clash,Stash}/Ruleset; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
-            python NetTool/Scripts/Build.py Stash "$dir"
+            python Network/Scripts/Build.py C Stash "$dir"
           done
           for dir in {Loon,Shadowrocket,Surge}/Ruleset; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
-            python NetTool/Scripts/Build.py Surge "$dir"
+            python Network/Scripts/Build.py C Surge "$dir"
           done
 
       - name: Compile Ruleset
@@ -58,7 +58,7 @@ jobs:
             [ ! -f "$file" ] && echo "$file not found." && continue
             sing-box rule-set compile "$file" -o "${file%.json}.srs"
           done
-          rm -rf NetTool/ sing-box.tar.gz sing-box-*-linux-amd64
+          rm -rf Network sing-box.tar.gz sing-box-*-linux-amd64
 
       - name: Publish Changes
         run: |
