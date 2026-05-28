@@ -21,7 +21,7 @@ jobs:
           repository: Centralmatrix3/Network
           path: Network
 
-      - name: Process Sources
+      - name: Generate Ruleset
         run: python Network/Scripts/Build.py S --copy
 
       - name: Convert Ruleset
