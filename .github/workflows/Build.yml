@@ -22,7 +22,7 @@ jobs:
           path: Network
 
       - name: Generate Ruleset
-        run: python Network/Scripts/Build.py S --copy
+        run: python Network/Scripts/Build.py R --copy
 
       - name: Convert Ruleset
         run: |
