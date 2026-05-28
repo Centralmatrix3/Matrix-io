@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7347
+# 规则统计: 7348
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -1665,6 +1665,7 @@ payload:
   - DOMAIN-SUFFIX,doujincafe.com
   - DOMAIN-SUFFIX,dowei.org
   - DOMAIN-SUFFIX,dowjones.com
+  - DOMAIN-SUFFIX,dowjones.io
   - DOMAIN-SUFFIX,download.dappcdn.com
   - DOMAIN-SUFFIX,dphk.org
   - DOMAIN-SUFFIX,dpool.top

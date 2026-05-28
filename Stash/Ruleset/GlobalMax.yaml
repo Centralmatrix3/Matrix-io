@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 34309
+# 规则统计: 34310
 
 payload:
   - DOMAIN,1password.drift.click
@@ -19484,6 +19484,7 @@ payload:
   - DOMAIN-SUFFIX,midentsolutions.com
   - DOMAIN-SUFFIX,midfife.ac.uk
   - DOMAIN-SUFFIX,midhurst.ac.uk
+  - DOMAIN-SUFFIX,midjourney.com
   - DOMAIN-SUFFIX,midkent.ac.uk
   - DOMAIN-SUFFIX,midlands3cities.ac.uk
   - DOMAIN-SUFFIX,midlands4cities.ac.uk
