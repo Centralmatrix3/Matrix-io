@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 4247
+# 规则统计: 4251
 
 domain_suffix_set:
   - 000webhost.com
@@ -263,6 +263,7 @@ domain_suffix_set:
   - artstation.com
   - arvanstorage.ir
   - arweave.org
+  - as.mr
   - asacp.org
   - asiaharvest.org
   - asianage.com
@@ -327,6 +328,7 @@ domain_suffix_set:
   - bangdream.space
   - bangkokpost.com
   - bangumi.moe
+  - bangumi.tv
   - bangyoulater.com
   - bankmobilevibe.com
   - bannedbook.org
@@ -382,6 +384,7 @@ domain_suffix_set:
   - betvictor.com
   - bfnn.org
   - bfsh.hk
+  - bgm.tv
   - bgme.me
   - bgvpn.com
   - biblesforamerica.org
@@ -700,6 +703,7 @@ domain_suffix_set:
   - chenshan20042005.wordpress.com
   - cherrysave.com
   - chhongbi.org
+  - chii.in
   - china-mmm.net
   - china-review.com.ua
   - china-week.com
@@ -801,7 +805,6 @@ domain_suffix_set:
   - cn.uptodown.com
   - cna.com.tw
   - cnbbnews.wordpress.com
-  - cnbc.com
   - cnbeta.com.tw
   - cnd.org
   - cnnews.chosun.com
@@ -1378,6 +1381,7 @@ domain_suffix_set:
   - geek-art.net
   - gekikame.com
   - gelbooru.com
+  - gencraft.com
   - generated.photos
   - genius.com
   - geph.io
@@ -1792,6 +1796,7 @@ domain_suffix_set:
   - hicairo.com
   - hiccears.com
   - hidden-advent.org
+  - hiddify.com
   - hide.me
   - hideipvpn.com
   - hideman.net
@@ -3203,7 +3208,6 @@ domain_suffix_set:
   - socks-proxy.net
   - sockslist.net
   - socrec.org
-  - softether-download.com
   - softether.co.jp
   - softether.org
   - softfamous.com
@@ -3781,6 +3785,7 @@ domain_suffix_set:
   - vatn.org
   - vcf-online.org
   - vcfbuilder.org
+  - veed.io
   - vegas.williamhill.com
   - vegasred.com
   - venetianmacao.com
@@ -4149,7 +4154,6 @@ domain_suffix_set:
   - yfsp.tv
   - yhcw.net
   - yibaochina.com
-  - yidio.com
   - yigeni.com
   - yipub.com
   - yizhihongxing.com

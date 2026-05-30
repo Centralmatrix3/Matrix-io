@@ -1,5 +1,5 @@
 # 规则名称: ChinaIPBGP
-# 规则统计: 3916
+# 规则统计: 3910
 
 IP-CIDR,1.1.8.0/24,no-resolve
 IP-CIDR,1.116.0.0/15,no-resolve
@@ -123,7 +123,6 @@ IP-CIDR,101.52.236.0/22,no-resolve
 IP-CIDR,101.52.240.0/20,no-resolve
 IP-CIDR,101.52.4.0/24,no-resolve
 IP-CIDR,101.52.6.0/24,no-resolve
-IP-CIDR,101.52.68.0/22,no-resolve
 IP-CIDR,101.53.100.0/22,no-resolve
 IP-CIDR,101.64.0.0/13,no-resolve
 IP-CIDR,101.72.0.0/14,no-resolve
@@ -145,7 +144,6 @@ IP-CIDR,103.10.84.0/22,no-resolve
 IP-CIDR,103.100.64.0/22,no-resolve
 IP-CIDR,103.101.124.0/23,no-resolve
 IP-CIDR,103.101.180.0/22,no-resolve
-IP-CIDR,103.102.196.0/24,no-resolve
 IP-CIDR,103.102.200.0/22,no-resolve
 IP-CIDR,103.102.213.0/24,no-resolve
 IP-CIDR,103.102.214.0/24,no-resolve
@@ -923,8 +921,6 @@ IP-CIDR,112.96.0.0/13,no-resolve
 IP-CIDR,113.0.0.0/13,no-resolve
 IP-CIDR,113.12.0.0/14,no-resolve
 IP-CIDR,113.128.0.0/15,no-resolve
-IP-CIDR,113.130.112.0/21,no-resolve
-IP-CIDR,113.130.96.0/20,no-resolve
 IP-CIDR,113.132.0.0/14,no-resolve
 IP-CIDR,113.136.0.0/13,no-resolve
 IP-CIDR,113.16.0.0/15,no-resolve
@@ -2095,7 +2091,6 @@ IP-CIDR,168.160.152.0/24,no-resolve
 IP-CIDR,168.160.158.0/23,no-resolve
 IP-CIDR,168.160.160.0/21,no-resolve
 IP-CIDR,168.160.168.0/24,no-resolve
-IP-CIDR,168.160.224.0/19,no-resolve
 IP-CIDR,171.104.0.0/13,no-resolve
 IP-CIDR,171.112.0.0/12,no-resolve
 IP-CIDR,171.208.0.0/12,no-resolve
@@ -2627,7 +2622,6 @@ IP-CIDR,203.80.144.0/20,no-resolve
 IP-CIDR,203.80.57.0/24,no-resolve
 IP-CIDR,203.82.0.0/23,no-resolve
 IP-CIDR,203.83.224.0/20,no-resolve
-IP-CIDR,203.83.56.0/21,no-resolve
 IP-CIDR,203.86.0.0/19,no-resolve
 IP-CIDR,203.86.254.0/23,no-resolve
 IP-CIDR,203.86.43.0/24,no-resolve

@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 4247
+# 规则统计: 4251
 
 HOST-SUFFIX,000webhost.com,GreatFireWall
 HOST-SUFFIX,0rz.tw,GreatFireWall
@@ -262,6 +262,7 @@ HOST-SUFFIX,arte.tv,GreatFireWall
 HOST-SUFFIX,artstation.com,GreatFireWall
 HOST-SUFFIX,arvanstorage.ir,GreatFireWall
 HOST-SUFFIX,arweave.org,GreatFireWall
+HOST-SUFFIX,as.mr,GreatFireWall
 HOST-SUFFIX,asacp.org,GreatFireWall
 HOST-SUFFIX,asiaharvest.org,GreatFireWall
 HOST-SUFFIX,asianage.com,GreatFireWall
@@ -326,6 +327,7 @@ HOST-SUFFIX,bangchen.net,GreatFireWall
 HOST-SUFFIX,bangdream.space,GreatFireWall
 HOST-SUFFIX,bangkokpost.com,GreatFireWall
 HOST-SUFFIX,bangumi.moe,GreatFireWall
+HOST-SUFFIX,bangumi.tv,GreatFireWall
 HOST-SUFFIX,bangyoulater.com,GreatFireWall
 HOST-SUFFIX,bankmobilevibe.com,GreatFireWall
 HOST-SUFFIX,bannedbook.org,GreatFireWall
@@ -381,6 +383,7 @@ HOST-SUFFIX,bettween.com,GreatFireWall
 HOST-SUFFIX,betvictor.com,GreatFireWall
 HOST-SUFFIX,bfnn.org,GreatFireWall
 HOST-SUFFIX,bfsh.hk,GreatFireWall
+HOST-SUFFIX,bgm.tv,GreatFireWall
 HOST-SUFFIX,bgme.me,GreatFireWall
 HOST-SUFFIX,bgvpn.com,GreatFireWall
 HOST-SUFFIX,biblesforamerica.org,GreatFireWall
@@ -699,6 +702,7 @@ HOST-SUFFIX,chenpokongvip.com,GreatFireWall
 HOST-SUFFIX,chenshan20042005.wordpress.com,GreatFireWall
 HOST-SUFFIX,cherrysave.com,GreatFireWall
 HOST-SUFFIX,chhongbi.org,GreatFireWall
+HOST-SUFFIX,chii.in,GreatFireWall
 HOST-SUFFIX,china-mmm.net,GreatFireWall
 HOST-SUFFIX,china-review.com.ua,GreatFireWall
 HOST-SUFFIX,china-week.com,GreatFireWall
@@ -800,7 +804,6 @@ HOST-SUFFIX,cn.theaustralian.com.au,GreatFireWall
 HOST-SUFFIX,cn.uptodown.com,GreatFireWall
 HOST-SUFFIX,cna.com.tw,GreatFireWall
 HOST-SUFFIX,cnbbnews.wordpress.com,GreatFireWall
-HOST-SUFFIX,cnbc.com,GreatFireWall
 HOST-SUFFIX,cnbeta.com.tw,GreatFireWall
 HOST-SUFFIX,cnd.org,GreatFireWall
 HOST-SUFFIX,cnnews.chosun.com,GreatFireWall
@@ -1377,6 +1380,7 @@ HOST-SUFFIX,gdaily.org,GreatFireWall
 HOST-SUFFIX,geek-art.net,GreatFireWall
 HOST-SUFFIX,gekikame.com,GreatFireWall
 HOST-SUFFIX,gelbooru.com,GreatFireWall
+HOST-SUFFIX,gencraft.com,GreatFireWall
 HOST-SUFFIX,generated.photos,GreatFireWall
 HOST-SUFFIX,genius.com,GreatFireWall
 HOST-SUFFIX,geph.io,GreatFireWall
@@ -1791,6 +1795,7 @@ HOST-SUFFIX,heyuedi.com,GreatFireWall
 HOST-SUFFIX,hicairo.com,GreatFireWall
 HOST-SUFFIX,hiccears.com,GreatFireWall
 HOST-SUFFIX,hidden-advent.org,GreatFireWall
+HOST-SUFFIX,hiddify.com,GreatFireWall
 HOST-SUFFIX,hide.me,GreatFireWall
 HOST-SUFFIX,hideipvpn.com,GreatFireWall
 HOST-SUFFIX,hideman.net,GreatFireWall
@@ -3202,7 +3207,6 @@ HOST-SUFFIX,socialblade.com,GreatFireWall
 HOST-SUFFIX,socks-proxy.net,GreatFireWall
 HOST-SUFFIX,sockslist.net,GreatFireWall
 HOST-SUFFIX,socrec.org,GreatFireWall
-HOST-SUFFIX,softether-download.com,GreatFireWall
 HOST-SUFFIX,softether.co.jp,GreatFireWall
 HOST-SUFFIX,softether.org,GreatFireWall
 HOST-SUFFIX,softfamous.com,GreatFireWall
@@ -3780,6 +3784,7 @@ HOST-SUFFIX,vaticannews.va,GreatFireWall
 HOST-SUFFIX,vatn.org,GreatFireWall
 HOST-SUFFIX,vcf-online.org,GreatFireWall
 HOST-SUFFIX,vcfbuilder.org,GreatFireWall
+HOST-SUFFIX,veed.io,GreatFireWall
 HOST-SUFFIX,vegas.williamhill.com,GreatFireWall
 HOST-SUFFIX,vegasred.com,GreatFireWall
 HOST-SUFFIX,venetianmacao.com,GreatFireWall
@@ -4148,7 +4153,6 @@ HOST-SUFFIX,yeyeclub.com,GreatFireWall
 HOST-SUFFIX,yfsp.tv,GreatFireWall
 HOST-SUFFIX,yhcw.net,GreatFireWall
 HOST-SUFFIX,yibaochina.com,GreatFireWall
-HOST-SUFFIX,yidio.com,GreatFireWall
 HOST-SUFFIX,yigeni.com,GreatFireWall
 HOST-SUFFIX,yipub.com,GreatFireWall
 HOST-SUFFIX,yizhihongxing.com,GreatFireWall

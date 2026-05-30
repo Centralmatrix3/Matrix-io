@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26348
+# 规则统计: 26350
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -2966,6 +2966,7 @@ HOST-SUFFIX,arweave.org,PROXY
 HOST-SUFFIX,arxiv.org,PROXY
 HOST-SUFFIX,arzon.jp,PROXY
 HOST-SUFFIX,as-hp.ca,PROXY
+HOST-SUFFIX,as.mr,PROXY
 HOST-SUFFIX,asacp.org,PROXY
 HOST-SUFFIX,asagaku.com,PROXY
 HOST-SUFFIX,asahi.com,PROXY
@@ -10197,6 +10198,7 @@ HOST-SUFFIX,gemfire.net,PROXY
 HOST-SUFFIX,gemfury.com,PROXY
 HOST-SUFFIX,gemini.com,PROXY
 HOST-SUFFIX,gen.lib.rus.ec,PROXY
+HOST-SUFFIX,gencraft.com,PROXY
 HOST-SUFFIX,gendai.net,PROXY
 HOST-SUFFIX,generated.photos,PROXY
 HOST-SUFFIX,genetic-technologies.am,PROXY
@@ -23406,6 +23408,7 @@ HOST-SUFFIX,vday.io,PROXY
 HOST-SUFFIX,vdoav.com,PROXY
 HOST-SUFFIX,vecchiescopate.casa,PROXY
 HOST-SUFFIX,vector.im,PROXY
+HOST-SUFFIX,veed.io,PROXY
 HOST-SUFFIX,veet.at,PROXY
 HOST-SUFFIX,veet.be,PROXY
 HOST-SUFFIX,veet.ca,PROXY
@@ -25790,7 +25793,6 @@ HOST-SUFFIX,yho.com,PROXY
 HOST-SUFFIX,yhy.cool,PROXY
 HOST-SUFFIX,yibaochina.com,PROXY
 HOST-SUFFIX,yibei.org,PROXY
-HOST-SUFFIX,yidio.com,PROXY
 HOST-SUFFIX,yigeni.com,PROXY
 HOST-SUFFIX,yimg.com,PROXY
 HOST-SUFFIX,yimg.jp,PROXY
