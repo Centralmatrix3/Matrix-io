@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 34344
+# 规则统计: 34348
 
 no_resolve: true
 domain_set:
@@ -2826,6 +2826,7 @@ domain_suffix_set:
   - arxiv.org
   - arzon.jp
   - as-hp.ca
+  - as.mr
   - asacp.org
   - asagaku.com
   - asahi.com
@@ -7172,7 +7173,6 @@ domain_suffix_set:
   - cn6.eu
   - cna.com.tw
   - cnabc.com
-  - cnbc.com
   - cnbeta.com.tw
   - cnd.org
   - cnet.com
@@ -12439,6 +12439,7 @@ domain_suffix_set:
   - gemini.com
   - gen.lib.rus.ec
   - gen2.ac.uk
+  - gencraft.com
   - gendai.net
   - generated.photos
   - generationpup.ac.uk
@@ -18141,6 +18142,7 @@ domain_suffix_set:
   - livingstream.com
   - livingwithmachines.ac.uk
   - livingyourambition.com
+  - livinno.org
   - livjm.ac.uk
   - livrariart.com.br
   - liwangyang.com
@@ -22518,6 +22520,7 @@ domain_suffix_set:
   - ooyala.com
   - op.gg
   - op7979.com
+  - opac-project.eu
   - opdems.ac.uk
   - open.ac.uk
   - open.com.hk
@@ -30718,6 +30721,7 @@ domain_suffix_set:
   - vdoav.com
   - vecchiescopate.casa
   - vector.im
+  - veed.io
   - veet.at
   - veet.be
   - veet.ca

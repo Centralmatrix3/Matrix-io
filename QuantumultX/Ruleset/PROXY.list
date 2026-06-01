@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26352
+# 规则统计: 26358
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -255,6 +255,7 @@ HOST,media-rockstargames-com.akamaized.net,PROXY
 HOST,medone-education.thieme.com,PROXY
 HOST,misa-prod.s3.ap-northeast-1.amazonaws.com,PROXY
 HOST,mobilelive-hamivideo.cdn.hinet.net,PROXY
+HOST,mozilla-ohttp.fastly-edge.com,PROXY
 HOST,mscrl.microsoft.com,PROXY
 HOST,msh.amazon.co.uk,PROXY
 HOST,mtalk-dev.google.com,PROXY
@@ -7462,6 +7463,7 @@ HOST-SUFFIX,disneyturkiye.com.tr,PROXY
 HOST-SUFFIX,disneytvajobs.com,PROXY
 HOST-SUFFIX,disneyworld-go.com,PROXY
 HOST-SUFFIX,disp.cc,PROXY
+HOST-SUFFIX,disq.us,PROXY
 HOST-SUFFIX,disqus.com,PROXY
 HOST-SUFFIX,disquscdn.com,PROXY
 HOST-SUFFIX,disqusservice.com,PROXY
@@ -25063,11 +25065,15 @@ HOST-SUFFIX,xhamster.xxx,PROXY
 HOST-SUFFIX,xhamster18.com,PROXY
 HOST-SUFFIX,xhamster18.desi,PROXY
 HOST-SUFFIX,xhamster19.com,PROXY
+HOST-SUFFIX,xhamster2.com,PROXY
 HOST-SUFFIX,xhamster3.com,PROXY
 HOST-SUFFIX,xhamsterlive.com,PROXY
 HOST-SUFFIX,xhcdn.com,PROXY
+HOST-SUFFIX,xhnews.live,PROXY
 HOST-SUFFIX,xhot.pro,PROXY
+HOST-SUFFIX,xhpingcdn.com,PROXY
 HOST-SUFFIX,xhpjc6-cdn-settings.appsflyersdk.com,PROXY
+HOST-SUFFIX,xhreal5.com,PROXY
 HOST-SUFFIX,xhub.tv,PROXY
 HOST-SUFFIX,xiangrikui-app.com,PROXY
 HOST-SUFFIX,xianir.xyz,PROXY
