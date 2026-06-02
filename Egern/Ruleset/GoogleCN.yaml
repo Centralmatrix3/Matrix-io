@@ -1,5 +1,5 @@
 # 规则名称: GoogleCN
-# 规则统计: 29
+# 规则统计: 48
 
 domain_suffix_set:
   - 265.com
@@ -13,21 +13,40 @@ domain_suffix_set:
   - alt7-mtalk.google.com
   - alt8-mtalk.google.com
   - app-measurement.com
+  - c.pki.goog
   - cache.pack.google.com
+  - checkin.gstatic.com
+  - ci.android.com
   - clickserve.dartsearch.net
+  - clientservices.googleapis.com
+  - connectivitycheck.gstatic.com
   - crl.pki.goog
+  - csi.gstatic.com
   - dl.google.com
   - dl.l.google.com
+  - fonts.googleapis.com
+  - fonts.gstatic.com
+  - g0.gstatic.com
+  - g1.gstatic.com
+  - g2.gstatic.com
   - googletagmanager.com
   - googletagservices.com
   - gtm.oasisfeng.com
+  - i.pki.goog
+  - imasdk.googleapis.com
   - mtalk.google.com
+  - o.pki.goog
   - ocsp.pki.goog
   - recaptcha.net
+  - redirector.gvt1.com
   - safebrowsing-cache.google.com
+  - safebrowsing.googleapis.com
   - settings.crashlytics.com
   - ssl-google-analytics.l.google.com
+  - ssl.gstatic.com
   - toolbarqueries.google.com
   - tools.google.com
   - tools.l.google.com
+  - update.googleapis.com
   - www-googletagmanager.l.google.com
+  - www.gstatic.com

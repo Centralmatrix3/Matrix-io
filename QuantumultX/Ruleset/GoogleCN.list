@@ -1,5 +1,5 @@
 # 规则名称: GoogleCN
-# 规则统计: 29
+# 规则统计: 48
 
 HOST-SUFFIX,265.com,GoogleCN
 HOST-SUFFIX,2mdn.net,GoogleCN
@@ -12,21 +12,40 @@ HOST-SUFFIX,alt6-mtalk.google.com,GoogleCN
 HOST-SUFFIX,alt7-mtalk.google.com,GoogleCN
 HOST-SUFFIX,alt8-mtalk.google.com,GoogleCN
 HOST-SUFFIX,app-measurement.com,GoogleCN
+HOST-SUFFIX,c.pki.goog,GoogleCN
 HOST-SUFFIX,cache.pack.google.com,GoogleCN
+HOST-SUFFIX,checkin.gstatic.com,GoogleCN
+HOST-SUFFIX,ci.android.com,GoogleCN
 HOST-SUFFIX,clickserve.dartsearch.net,GoogleCN
+HOST-SUFFIX,clientservices.googleapis.com,GoogleCN
+HOST-SUFFIX,connectivitycheck.gstatic.com,GoogleCN
 HOST-SUFFIX,crl.pki.goog,GoogleCN
+HOST-SUFFIX,csi.gstatic.com,GoogleCN
 HOST-SUFFIX,dl.google.com,GoogleCN
 HOST-SUFFIX,dl.l.google.com,GoogleCN
+HOST-SUFFIX,fonts.googleapis.com,GoogleCN
+HOST-SUFFIX,fonts.gstatic.com,GoogleCN
+HOST-SUFFIX,g0.gstatic.com,GoogleCN
+HOST-SUFFIX,g1.gstatic.com,GoogleCN
+HOST-SUFFIX,g2.gstatic.com,GoogleCN
 HOST-SUFFIX,googletagmanager.com,GoogleCN
 HOST-SUFFIX,googletagservices.com,GoogleCN
 HOST-SUFFIX,gtm.oasisfeng.com,GoogleCN
+HOST-SUFFIX,i.pki.goog,GoogleCN
+HOST-SUFFIX,imasdk.googleapis.com,GoogleCN
 HOST-SUFFIX,mtalk.google.com,GoogleCN
+HOST-SUFFIX,o.pki.goog,GoogleCN
 HOST-SUFFIX,ocsp.pki.goog,GoogleCN
 HOST-SUFFIX,recaptcha.net,GoogleCN
+HOST-SUFFIX,redirector.gvt1.com,GoogleCN
 HOST-SUFFIX,safebrowsing-cache.google.com,GoogleCN
+HOST-SUFFIX,safebrowsing.googleapis.com,GoogleCN
 HOST-SUFFIX,settings.crashlytics.com,GoogleCN
 HOST-SUFFIX,ssl-google-analytics.l.google.com,GoogleCN
+HOST-SUFFIX,ssl.gstatic.com,GoogleCN
 HOST-SUFFIX,toolbarqueries.google.com,GoogleCN
 HOST-SUFFIX,tools.google.com,GoogleCN
 HOST-SUFFIX,tools.l.google.com,GoogleCN
+HOST-SUFFIX,update.googleapis.com,GoogleCN
 HOST-SUFFIX,www-googletagmanager.l.google.com,GoogleCN
+HOST-SUFFIX,www.gstatic.com,GoogleCN
