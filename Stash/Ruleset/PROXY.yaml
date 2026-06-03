@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26360
+# 规则统计: 26361
 
 payload:
   - '1password.drift.click'
@@ -22571,6 +22571,7 @@ payload:
   - '+.tomp3.cc'
   - '+.tomsguide.com'
   - '+.ton.org'
+  - '+.toncenter.com'
   - '+.tonec.com'
   - '+.tonicmovies.com'
   - '+.toolforge.org'
