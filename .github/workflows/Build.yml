@@ -1,0 +1,77 @@
+name: Build
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "5 0,12 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      TZ: "Asia/Shanghai"
+      SINGBOX_VERSION: "1.13.13"
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v6.0.3
+
+      - name: Checkout Repository
+        uses: actions/checkout@v6.0.3
+        with:
+          repository: Centralmatrix3/Network
+          path: Network
+
+      - name: Process Ruleset
+        run: |
+          python Network/Scripts/Build.py R --copy
+          for dir in Egern/Ruleset; do
+            [ ! -d "$dir" ] && echo "$dir Not Found." && continue
+            python Network/Scripts/Build.py C Egern "$dir"
+          done
+          for dir in QuantumultX/Ruleset; do
+            [ ! -d "$dir" ] && echo "$dir Not Found." && continue
+            python Network/Scripts/Build.py C QuantumultX "$dir"
+          done
+          for dir in Sing-box/Ruleset; do
+            [ ! -d "$dir" ] && echo "$dir Not Found." && continue
+            python Network/Scripts/Build.py C Singbox "$dir"
+          done
+          for dir in {Clash,Stash}/Ruleset; do
+            [ ! -d "$dir" ] && echo "$dir Not Found." && continue
+            python Network/Scripts/Build.py C Stash "$dir"
+          done
+          for dir in {Loon,Shadowrocket,Surge}/Ruleset; do
+            [ ! -d "$dir" ] && echo "$dir Not Found." && continue
+            python Network/Scripts/Build.py C Surge "$dir"
+          done
+
+      - name: Compile Ruleset
+        run: |
+          curl -fsSL -o sing-box.tar.gz "https://github.com/SagerNet/sing-box/releases/download/v${SINGBOX_VERSION}/sing-box-${SINGBOX_VERSION}-linux-amd64.tar.gz"
+          tar -xzf sing-box.tar.gz
+          chmod +x "sing-box-${SINGBOX_VERSION}-linux-amd64/sing-box"
+          sudo mv "sing-box-${SINGBOX_VERSION}-linux-amd64/sing-box" /usr/local/bin/sing-box
+          sing-box version
+          for file in Sing-box/Ruleset/*.json; do
+            [ ! -f "$file" ] && echo "$file Not Found." && continue
+            sing-box rule-set compile "$file" -o "${file%.json}.srs"
+          done
+          rm -rf Network sing-box.tar.gz sing-box-*-linux-amd64
+
+      - name: Push Change
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+            git config --local user.name "${{ github.actor }}"
+            git add -A
+            git commit -m "$(date +'%Y-%m-%d %H:%M:%S')"
+            git push origin master
+          else
+            echo "No Repository Update Detected."
+          fi
+
+      - name: Delete Workflow Run
+        uses: Mattraks/delete-workflow-runs@main
+        with:
+          retain_days: 0
+          keep_minimum_runs: 2

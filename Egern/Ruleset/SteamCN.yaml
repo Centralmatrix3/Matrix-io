@@ -1,0 +1,21 @@
+# 规则名称: SteamCN
+# 规则统计: 16
+
+domain_set:
+  - csgo.wmsj.cn
+  - dl.steam.clngaa.com
+  - dl.steam.ksyna.com
+  - dota2.wmsj.cn
+  - st.dl.bscstorage.net
+  - st.dl.eccdnx.com
+  - st.dl.pinyuncloud.com
+  - steampipe.steamcontent.tnkjmec.com
+  - steampowered.com.8686c.com
+  - steamstatic.com.8686c.com
+  - wmsjsteam.com
+  - xz.pphimalayanrt.com
+domain_suffix_set:
+  - cm.steampowered.com
+  - steamchina.com
+  - steamcontent.com
+  - steamusercontent.com

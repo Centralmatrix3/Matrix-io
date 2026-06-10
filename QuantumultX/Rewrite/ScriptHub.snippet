@@ -1,0 +1,13 @@
+#!name = ScriptHub
+#!desc = https://script.hub
+#!author = 小白脸、xream、keywos、ckyb
+
+# [Script]
+^https?:\/\/script.hub\/$ url 302 https://scripthub.vercel.app
+
+^https?:\/\/script\.hub\/file\/_start_\/.+type=(?:qx-rewrite|loon-plugin|surge-module|all-module) url script-echo-response https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/Rewrite-Parser.js
+
+^https?:\/\/script\.hub\/file\/_start_\/.+type=rule-set url script-echo-response https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/rule-parser.js
+
+# [MITM]
+hostname = script.hub, *.script.hub

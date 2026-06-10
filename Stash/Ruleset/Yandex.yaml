@@ -1,0 +1,8 @@
+# 规则名称: Yandex
+# 规则统计: 4
+
+payload:
+  - DOMAIN-SUFFIX,yandex.com
+  - DOMAIN-SUFFIX,yandex.net
+  - DOMAIN-SUFFIX,yastatic.net
+  - DOMAIN-KEYWORD,yandex
