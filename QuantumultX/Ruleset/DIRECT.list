@@ -1,7 +1,6 @@
 # 规则名称: DIRECT
-# 规则统计: 113051
+# 规则统计: 113052
 
-HOST,265.com,DIRECT
 HOST,2mdn-cn.net,DIRECT
 HOST,2mdn.net,DIRECT
 HOST,a1.mzstatic.com,DIRECT
@@ -555,6 +554,7 @@ HOST,www.entrust.cn,DIRECT
 HOST,www.gstatic.com,DIRECT
 HOST,www.microsoft.com,DIRECT
 HOST,www.pxcc.com,DIRECT
+HOST,www.recaptcha-cn.net,DIRECT
 HOST,www.recaptcha.net,DIRECT
 HOST,www.support.apple.com,DIRECT
 HOST,www4-static.gog-statics.com,DIRECT
@@ -3865,6 +3865,7 @@ HOST-SUFFIX,263y.com,DIRECT
 HOST-SUFFIX,264006.com,DIRECT
 HOST-SUFFIX,264321.com,DIRECT
 HOST-SUFFIX,264400.com,DIRECT
+HOST-SUFFIX,265.com,DIRECT
 HOST-SUFFIX,26582.vip,DIRECT
 HOST-SUFFIX,26595.com,DIRECT
 HOST-SUFFIX,265g.com,DIRECT

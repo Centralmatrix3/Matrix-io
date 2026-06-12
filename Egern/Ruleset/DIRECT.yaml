@@ -1,8 +1,7 @@
 # 规则名称: DIRECT
-# 规则统计: 113051
+# 规则统计: 113052
 
 domain_set:
-  - 265.com
   - 2mdn-cn.net
   - 2mdn.net
   - a1.mzstatic.com
@@ -556,6 +555,7 @@ domain_set:
   - www.gstatic.com
   - www.microsoft.com
   - www.pxcc.com
+  - www.recaptcha-cn.net
   - www.recaptcha.net
   - www.support.apple.com
   - www4-static.gog-statics.com
@@ -3867,6 +3867,7 @@ domain_suffix_set:
   - 264006.com
   - 264321.com
   - 264400.com
+  - 265.com
   - 26582.vip
   - 26595.com
   - 265g.com
