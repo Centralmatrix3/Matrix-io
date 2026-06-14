@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26646
+# 规则统计: 26667
 
 domain_set:
   - 1password.drift.click
@@ -495,6 +495,7 @@ domain_set:
   - steampipe-partner.akamaized.net
   - steampipe.akamaized.net
   - steamstore-a.akamaihd.net
+  - steamugcquincy.blob.core.windows.net
   - steamusercontent-a.akamaihd.net
   - steamuserimages-a.akamaihd.net
   - steamvideo-a.akamaihd.net
@@ -10044,18 +10045,31 @@ domain_suffix_set:
   - futanarihq.com
   - futhead.com
   - futpromos.com
+  - futu.cn
+  - futu.link
+  - futu5.com
+  - futuau.com
+  - futuesop.com
   - futufin.com
   - futuhk.com
+  - futuhk1.com
+  - futuhk2.com
   - futuhkapp.com
   - futuhn.com
   - futuholdings.com
   - futunited.com
+  - futuniuniu.com
+  - futunn.com
+  - futuoa.com
   - future-cs.ru
   - futuremessage.org
   - futureofbritishmanufacturing.com
   - futureofbusinesssurvey.org
   - futureofmaktingthings.com
   - futureshop.ca
+  - futusg.com
+  - futustatic.com
+  - fututrade.com
   - fuxporn.com
   - fuzokudx.com
   - fw.cm
@@ -14320,6 +14334,7 @@ domain_suffix_set:
   - lanternal.com
   - laogai.org
   - laogairesearch.org
+  - laohu8.com
   - laosijifuli9009.top
   - laowang.vip
   - lapriere.jp
@@ -14683,11 +14698,13 @@ domain_suffix_set:
   - londonreal.tv
   - lonestarnaughtygirls.com
   - longbridge.cloud
+  - longbridge.cn
   - longbridge.com
   - longbridge.global
   - longbridge.hk
   - longbridge.sg
   - longbridgeapp.com
+  - longbridgehk.com
   - longmabook.com
   - longmabookcn.com
   - longman.ch
@@ -21133,6 +21150,7 @@ domain_suffix_set:
   - skysports.ie
   - skysportsonline.com
   - skysportsracing.com
+  - skytigris.cn
   - skyvegas.com
   - skyxvpn.com
   - sl99mod.buzz
@@ -22680,6 +22698,8 @@ domain_suffix_set:
   - tiendabestbuy.com
   - tiffany-towers.com
   - tig-ol-bitties.live
+  - tigerbbs.cn
+  - tigerbbs.com
   - tigervpn.com
   - tik-tokapi.com
   - tiktok-minis.com
@@ -25335,6 +25355,7 @@ domain_suffix_set:
   - xiaofu.me
   - xiaogirls.com
   - xiaohexie.com
+  - xiaohu8.com
   - xiaolan.me
   - xiaoma.org
   - xiaomi.eu

@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26646
+# 规则统计: 26667
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -494,6 +494,7 @@ HOST,steampipe-kr.akamaized.net,PROXY
 HOST,steampipe-partner.akamaized.net,PROXY
 HOST,steampipe.akamaized.net,PROXY
 HOST,steamstore-a.akamaihd.net,PROXY
+HOST,steamugcquincy.blob.core.windows.net,PROXY
 HOST,steamusercontent-a.akamaihd.net,PROXY
 HOST,steamuserimages-a.akamaihd.net,PROXY
 HOST,steamvideo-a.akamaihd.net,PROXY
@@ -10042,18 +10043,31 @@ HOST-SUFFIX,fusker.xxx,PROXY
 HOST-SUFFIX,futanarihq.com,PROXY
 HOST-SUFFIX,futhead.com,PROXY
 HOST-SUFFIX,futpromos.com,PROXY
+HOST-SUFFIX,futu.cn,PROXY
+HOST-SUFFIX,futu.link,PROXY
+HOST-SUFFIX,futu5.com,PROXY
+HOST-SUFFIX,futuau.com,PROXY
+HOST-SUFFIX,futuesop.com,PROXY
 HOST-SUFFIX,futufin.com,PROXY
 HOST-SUFFIX,futuhk.com,PROXY
+HOST-SUFFIX,futuhk1.com,PROXY
+HOST-SUFFIX,futuhk2.com,PROXY
 HOST-SUFFIX,futuhkapp.com,PROXY
 HOST-SUFFIX,futuhn.com,PROXY
 HOST-SUFFIX,futuholdings.com,PROXY
 HOST-SUFFIX,futunited.com,PROXY
+HOST-SUFFIX,futuniuniu.com,PROXY
+HOST-SUFFIX,futunn.com,PROXY
+HOST-SUFFIX,futuoa.com,PROXY
 HOST-SUFFIX,future-cs.ru,PROXY
 HOST-SUFFIX,futuremessage.org,PROXY
 HOST-SUFFIX,futureofbritishmanufacturing.com,PROXY
 HOST-SUFFIX,futureofbusinesssurvey.org,PROXY
 HOST-SUFFIX,futureofmaktingthings.com,PROXY
 HOST-SUFFIX,futureshop.ca,PROXY
+HOST-SUFFIX,futusg.com,PROXY
+HOST-SUFFIX,futustatic.com,PROXY
+HOST-SUFFIX,fututrade.com,PROXY
 HOST-SUFFIX,fuxporn.com,PROXY
 HOST-SUFFIX,fuzokudx.com,PROXY
 HOST-SUFFIX,fw.cm,PROXY
@@ -14318,6 +14332,7 @@ HOST-SUFFIX,lantern.io,PROXY
 HOST-SUFFIX,lanternal.com,PROXY
 HOST-SUFFIX,laogai.org,PROXY
 HOST-SUFFIX,laogairesearch.org,PROXY
+HOST-SUFFIX,laohu8.com,PROXY
 HOST-SUFFIX,laosijifuli9009.top,PROXY
 HOST-SUFFIX,laowang.vip,PROXY
 HOST-SUFFIX,lapriere.jp,PROXY
@@ -14681,11 +14696,13 @@ HOST-SUFFIX,londonmithraeum.com,PROXY
 HOST-SUFFIX,londonreal.tv,PROXY
 HOST-SUFFIX,lonestarnaughtygirls.com,PROXY
 HOST-SUFFIX,longbridge.cloud,PROXY
+HOST-SUFFIX,longbridge.cn,PROXY
 HOST-SUFFIX,longbridge.com,PROXY
 HOST-SUFFIX,longbridge.global,PROXY
 HOST-SUFFIX,longbridge.hk,PROXY
 HOST-SUFFIX,longbridge.sg,PROXY
 HOST-SUFFIX,longbridgeapp.com,PROXY
+HOST-SUFFIX,longbridgehk.com,PROXY
 HOST-SUFFIX,longmabook.com,PROXY
 HOST-SUFFIX,longmabookcn.com,PROXY
 HOST-SUFFIX,longman.ch,PROXY
@@ -21131,6 +21148,7 @@ HOST-SUFFIX,skysports.fr,PROXY
 HOST-SUFFIX,skysports.ie,PROXY
 HOST-SUFFIX,skysportsonline.com,PROXY
 HOST-SUFFIX,skysportsracing.com,PROXY
+HOST-SUFFIX,skytigris.cn,PROXY
 HOST-SUFFIX,skyvegas.com,PROXY
 HOST-SUFFIX,skyxvpn.com,PROXY
 HOST-SUFFIX,sl99mod.buzz,PROXY
@@ -22678,6 +22696,8 @@ HOST-SUFFIX,tidelift.com,PROXY
 HOST-SUFFIX,tiendabestbuy.com,PROXY
 HOST-SUFFIX,tiffany-towers.com,PROXY
 HOST-SUFFIX,tig-ol-bitties.live,PROXY
+HOST-SUFFIX,tigerbbs.cn,PROXY
+HOST-SUFFIX,tigerbbs.com,PROXY
 HOST-SUFFIX,tigervpn.com,PROXY
 HOST-SUFFIX,tik-tokapi.com,PROXY
 HOST-SUFFIX,tiktok-minis.com,PROXY
@@ -25333,6 +25353,7 @@ HOST-SUFFIX,xianjian.tw,PROXY
 HOST-SUFFIX,xiaofu.me,PROXY
 HOST-SUFFIX,xiaogirls.com,PROXY
 HOST-SUFFIX,xiaohexie.com,PROXY
+HOST-SUFFIX,xiaohu8.com,PROXY
 HOST-SUFFIX,xiaolan.me,PROXY
 HOST-SUFFIX,xiaoma.org,PROXY
 HOST-SUFFIX,xiaomi.eu,PROXY
