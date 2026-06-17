@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26705
+# 规则统计: 26720
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -85,6 +85,7 @@ DOMAIN,cbsservice.aws.syncbak.com
 DOMAIN,cdn-spotify-experiments.conductrics.com
 DOMAIN,cdn.js7k.com
 DOMAIN,cdngarenanow-a.akamaihd.net
+DOMAIN,chatscc-hamivideo2.cdn.hinet.net
 DOMAIN,chinapower.csis.org
 DOMAIN,cisco.evergage.com
 DOMAIN,ciscolivehls-i.akamaihd.net
@@ -166,6 +167,7 @@ DOMAIN,ebay-25-assets.s3-us-west-1.amazonaws.com
 DOMAIN,ecapi-pchome.cdn.hinet.net
 DOMAIN,edu.tinkoff.ru
 DOMAIN,education.tbank.ru
+DOMAIN,efe8f8a4-abd5-44c9-bf5c-cd217442c52f.t.ssp.hinet.net
 DOMAIN,elib.maruzen.co.jp
 DOMAIN,epc-de-agent-proxy.germanywestcentral.cloudapp.azure.com
 DOMAIN,ereg.adobe.com
@@ -221,6 +223,7 @@ DOMAIN,himalaya-exchange.zendesk.com
 DOMAIN,hl2rcv.adobe.com
 DOMAIN,hlrcv.stage.adobe.com
 DOMAIN,hls-amt.itunes.apple.com
+DOMAIN,hls-hamivideo.cdn.hinet.net
 DOMAIN,hls.itunes.apple.com
 DOMAIN,holoxx.f5.si
 DOMAIN,homebrew.bintray.com
@@ -390,6 +393,7 @@ DOMAIN,rsshub2.asailor.org
 DOMAIN,rtm.tnt-ea.com
 DOMAIN,sa78gs.wpc.edgecastcdn.net
 DOMAIN,sberpro.vedomosti.ru
+DOMAIN,scc-hamivideo.cdn.hinet.net
 DOMAIN,scc.ott.hinet.net
 DOMAIN,scholar.google.ae
 DOMAIN,scholar.google.at
@@ -499,6 +503,7 @@ DOMAIN,steamusercontent-a.akamaihd.net
 DOMAIN,steamuserimages-a.akamaihd.net
 DOMAIN,steamvideo-a.akamaihd.net
 DOMAIN,straitsx-826709081262441084-b790f87a2ae6fd417434295.freshchat.com
+DOMAIN,t.ssp.hinet.net
 DOMAIN,t21.nikkei.co.jp
 DOMAIN,t21ipau.nikkei.co.jp
 DOMAIN,teamviewer.com.cdn.cloudflare.net
@@ -600,6 +605,7 @@ DOMAIN,vsmarketplacebadge.apphb.com
 DOMAIN,wb-agora-hydra-file-storage-k1.s3.amazonaws.com
 DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
 DOMAIN,weblive-hamivideo.cdn.hinet.net
+DOMAIN,weblivea-hamivideo.cdn.hinet.net
 DOMAIN,webvodad-hamivideo.cdn.hinet.net
 DOMAIN,widgets.stripst.com
 DOMAIN,wip.adobe.com
@@ -5803,6 +5809,7 @@ DOMAIN-SUFFIX,celebforum.co
 DOMAIN-SUFFIX,celebgramme.com
 DOMAIN-SUFFIX,celebmasta.live
 DOMAIN-SUFFIX,celebritygay.com
+DOMAIN-SUFFIX,celebritymoviearchive.com
 DOMAIN-SUFFIX,celebritynakeds.com
 DOMAIN-SUFFIX,celebrityslips.com
 DOMAIN-SUFFIX,celebritystorysite.com
@@ -9802,6 +9809,7 @@ DOMAIN-SUFFIX,foxweatherwatch.com
 DOMAIN-SUFFIX,fpacebook.com
 DOMAIN-SUFFIX,fpmt.org
 DOMAIN-SUFFIX,fpmtmexico.org
+DOMAIN-SUFFIX,fpo.xxx
 DOMAIN-SUFFIX,fptolia.com
 DOMAIN-SUFFIX,fqcebook.com
 DOMAIN-SUFFIX,fqrouter.com
@@ -9916,6 +9924,8 @@ DOMAIN-SUFFIX,freevpn.me
 DOMAIN-SUFFIX,freewallpaper4.me
 DOMAIN-SUFFIX,freewechat.com
 DOMAIN-SUFFIX,freeweibo.com
+DOMAIN-SUFFIX,freexh.blog
+DOMAIN-SUFFIX,freexh.live
 DOMAIN-SUFFIX,freexvideos.org
 DOMAIN-SUFFIX,freexxx.best
 DOMAIN-SUFFIX,freexxx.win
@@ -18552,6 +18562,7 @@ DOMAIN-SUFFIX,pikpak.me
 DOMAIN-SUFFIX,pikpakdrive.com
 DOMAIN-SUFFIX,pillbeatsblackfridaysale.com
 DOMAIN-SUFFIX,pimg.tw
+DOMAIN-SUFFIX,pimpbunny.com
 DOMAIN-SUFFIX,pin-cong.com
 DOMAIN-SUFFIX,pin.it
 DOMAIN-SUFFIX,pin6.com
@@ -19210,6 +19221,7 @@ DOMAIN-SUFFIX,powershape.com
 DOMAIN-SUFFIX,powershellgallery.com
 DOMAIN-SUFFIX,powersrv.de
 DOMAIN-SUFFIX,powersunitedvr.com
+DOMAIN-SUFFIX,powfans.com
 DOMAIN-SUFFIX,pp-soc.com
 DOMAIN-SUFFIX,pp6.info
 DOMAIN-SUFFIX,ppaypal.com
@@ -20626,6 +20638,7 @@ DOMAIN-SUFFIX,seqingwangzhan.pro
 DOMAIN-SUFFIX,seqingx.com
 DOMAIN-SUFFIX,sequence.com
 DOMAIN-SUFFIX,ser7.cc
+DOMAIN-SUFFIX,serakon.com
 DOMAIN-SUFFIX,serbiporno.net
 DOMAIN-SUFFIX,serialssolutions.com
 DOMAIN-SUFFIX,serlucap.lol
@@ -24554,6 +24567,7 @@ DOMAIN-SUFFIX,vscode-cdn.net
 DOMAIN-SUFFIX,vscode-unpkg.net
 DOMAIN-SUFFIX,vscode.dev
 DOMAIN-SUFFIX,vsemrabota.ru
+DOMAIN-SUFFIX,vsex.in
 DOMAIN-SUFFIX,vsezoo.com
 DOMAIN-SUFFIX,vsphere.com
 DOMAIN-SUFFIX,vsphere.net
@@ -25377,6 +25391,7 @@ DOMAIN-SUFFIX,xhamster19.com
 DOMAIN-SUFFIX,xhamster2.com
 DOMAIN-SUFFIX,xhamster3.com
 DOMAIN-SUFFIX,xhamsterlive.com
+DOMAIN-SUFFIX,xhapp.live
 DOMAIN-SUFFIX,xhcdn.com
 DOMAIN-SUFFIX,xhnews.live
 DOMAIN-SUFFIX,xhot.pro

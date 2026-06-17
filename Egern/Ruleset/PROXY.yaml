@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26705
+# 规则统计: 26720
 
 domain_set:
   - 1password.drift.click
@@ -86,6 +86,7 @@ domain_set:
   - cdn-spotify-experiments.conductrics.com
   - cdn.js7k.com
   - cdngarenanow-a.akamaihd.net
+  - chatscc-hamivideo2.cdn.hinet.net
   - chinapower.csis.org
   - cisco.evergage.com
   - ciscolivehls-i.akamaihd.net
@@ -167,6 +168,7 @@ domain_set:
   - ecapi-pchome.cdn.hinet.net
   - edu.tinkoff.ru
   - education.tbank.ru
+  - efe8f8a4-abd5-44c9-bf5c-cd217442c52f.t.ssp.hinet.net
   - elib.maruzen.co.jp
   - epc-de-agent-proxy.germanywestcentral.cloudapp.azure.com
   - ereg.adobe.com
@@ -222,6 +224,7 @@ domain_set:
   - hl2rcv.adobe.com
   - hlrcv.stage.adobe.com
   - hls-amt.itunes.apple.com
+  - hls-hamivideo.cdn.hinet.net
   - hls.itunes.apple.com
   - holoxx.f5.si
   - homebrew.bintray.com
@@ -391,6 +394,7 @@ domain_set:
   - rtm.tnt-ea.com
   - sa78gs.wpc.edgecastcdn.net
   - sberpro.vedomosti.ru
+  - scc-hamivideo.cdn.hinet.net
   - scc.ott.hinet.net
   - scholar.google.ae
   - scholar.google.at
@@ -500,6 +504,7 @@ domain_set:
   - steamuserimages-a.akamaihd.net
   - steamvideo-a.akamaihd.net
   - straitsx-826709081262441084-b790f87a2ae6fd417434295.freshchat.com
+  - t.ssp.hinet.net
   - t21.nikkei.co.jp
   - t21ipau.nikkei.co.jp
   - teamviewer.com.cdn.cloudflare.net
@@ -601,6 +606,7 @@ domain_set:
   - wb-agora-hydra-file-storage-k1.s3.amazonaws.com
   - webchannel-alkalimakersuite-pa.clients6.google.com
   - weblive-hamivideo.cdn.hinet.net
+  - weblivea-hamivideo.cdn.hinet.net
   - webvodad-hamivideo.cdn.hinet.net
   - widgets.stripst.com
   - wip.adobe.com
@@ -5805,6 +5811,7 @@ domain_suffix_set:
   - celebgramme.com
   - celebmasta.live
   - celebritygay.com
+  - celebritymoviearchive.com
   - celebritynakeds.com
   - celebrityslips.com
   - celebritystorysite.com
@@ -9804,6 +9811,7 @@ domain_suffix_set:
   - fpacebook.com
   - fpmt.org
   - fpmtmexico.org
+  - fpo.xxx
   - fptolia.com
   - fqcebook.com
   - fqrouter.com
@@ -9918,6 +9926,8 @@ domain_suffix_set:
   - freewallpaper4.me
   - freewechat.com
   - freeweibo.com
+  - freexh.blog
+  - freexh.live
   - freexvideos.org
   - freexxx.best
   - freexxx.win
@@ -18554,6 +18564,7 @@ domain_suffix_set:
   - pikpakdrive.com
   - pillbeatsblackfridaysale.com
   - pimg.tw
+  - pimpbunny.com
   - pin-cong.com
   - pin.it
   - pin6.com
@@ -19212,6 +19223,7 @@ domain_suffix_set:
   - powershellgallery.com
   - powersrv.de
   - powersunitedvr.com
+  - powfans.com
   - pp-soc.com
   - pp6.info
   - ppaypal.com
@@ -20628,6 +20640,7 @@ domain_suffix_set:
   - seqingx.com
   - sequence.com
   - ser7.cc
+  - serakon.com
   - serbiporno.net
   - serialssolutions.com
   - serlucap.lol
@@ -24556,6 +24569,7 @@ domain_suffix_set:
   - vscode-unpkg.net
   - vscode.dev
   - vsemrabota.ru
+  - vsex.in
   - vsezoo.com
   - vsphere.com
   - vsphere.net
@@ -25379,6 +25393,7 @@ domain_suffix_set:
   - xhamster2.com
   - xhamster3.com
   - xhamsterlive.com
+  - xhapp.live
   - xhcdn.com
   - xhnews.live
   - xhot.pro

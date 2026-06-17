@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26705
+# 规则统计: 26720
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -85,6 +85,7 @@ HOST,cbsservice.aws.syncbak.com,PROXY
 HOST,cdn-spotify-experiments.conductrics.com,PROXY
 HOST,cdn.js7k.com,PROXY
 HOST,cdngarenanow-a.akamaihd.net,PROXY
+HOST,chatscc-hamivideo2.cdn.hinet.net,PROXY
 HOST,chinapower.csis.org,PROXY
 HOST,cisco.evergage.com,PROXY
 HOST,ciscolivehls-i.akamaihd.net,PROXY
@@ -166,6 +167,7 @@ HOST,ebay-25-assets.s3-us-west-1.amazonaws.com,PROXY
 HOST,ecapi-pchome.cdn.hinet.net,PROXY
 HOST,edu.tinkoff.ru,PROXY
 HOST,education.tbank.ru,PROXY
+HOST,efe8f8a4-abd5-44c9-bf5c-cd217442c52f.t.ssp.hinet.net,PROXY
 HOST,elib.maruzen.co.jp,PROXY
 HOST,epc-de-agent-proxy.germanywestcentral.cloudapp.azure.com,PROXY
 HOST,ereg.adobe.com,PROXY
@@ -221,6 +223,7 @@ HOST,himalaya-exchange.zendesk.com,PROXY
 HOST,hl2rcv.adobe.com,PROXY
 HOST,hlrcv.stage.adobe.com,PROXY
 HOST,hls-amt.itunes.apple.com,PROXY
+HOST,hls-hamivideo.cdn.hinet.net,PROXY
 HOST,hls.itunes.apple.com,PROXY
 HOST,holoxx.f5.si,PROXY
 HOST,homebrew.bintray.com,PROXY
@@ -390,6 +393,7 @@ HOST,rsshub2.asailor.org,PROXY
 HOST,rtm.tnt-ea.com,PROXY
 HOST,sa78gs.wpc.edgecastcdn.net,PROXY
 HOST,sberpro.vedomosti.ru,PROXY
+HOST,scc-hamivideo.cdn.hinet.net,PROXY
 HOST,scc.ott.hinet.net,PROXY
 HOST,scholar.google.ae,PROXY
 HOST,scholar.google.at,PROXY
@@ -499,6 +503,7 @@ HOST,steamusercontent-a.akamaihd.net,PROXY
 HOST,steamuserimages-a.akamaihd.net,PROXY
 HOST,steamvideo-a.akamaihd.net,PROXY
 HOST,straitsx-826709081262441084-b790f87a2ae6fd417434295.freshchat.com,PROXY
+HOST,t.ssp.hinet.net,PROXY
 HOST,t21.nikkei.co.jp,PROXY
 HOST,t21ipau.nikkei.co.jp,PROXY
 HOST,teamviewer.com.cdn.cloudflare.net,PROXY
@@ -600,6 +605,7 @@ HOST,vsmarketplacebadge.apphb.com,PROXY
 HOST,wb-agora-hydra-file-storage-k1.s3.amazonaws.com,PROXY
 HOST,webchannel-alkalimakersuite-pa.clients6.google.com,PROXY
 HOST,weblive-hamivideo.cdn.hinet.net,PROXY
+HOST,weblivea-hamivideo.cdn.hinet.net,PROXY
 HOST,webvodad-hamivideo.cdn.hinet.net,PROXY
 HOST,widgets.stripst.com,PROXY
 HOST,wip.adobe.com,PROXY
@@ -5803,6 +5809,7 @@ HOST-SUFFIX,celebforum.co,PROXY
 HOST-SUFFIX,celebgramme.com,PROXY
 HOST-SUFFIX,celebmasta.live,PROXY
 HOST-SUFFIX,celebritygay.com,PROXY
+HOST-SUFFIX,celebritymoviearchive.com,PROXY
 HOST-SUFFIX,celebritynakeds.com,PROXY
 HOST-SUFFIX,celebrityslips.com,PROXY
 HOST-SUFFIX,celebritystorysite.com,PROXY
@@ -9802,6 +9809,7 @@ HOST-SUFFIX,foxweatherwatch.com,PROXY
 HOST-SUFFIX,fpacebook.com,PROXY
 HOST-SUFFIX,fpmt.org,PROXY
 HOST-SUFFIX,fpmtmexico.org,PROXY
+HOST-SUFFIX,fpo.xxx,PROXY
 HOST-SUFFIX,fptolia.com,PROXY
 HOST-SUFFIX,fqcebook.com,PROXY
 HOST-SUFFIX,fqrouter.com,PROXY
@@ -9916,6 +9924,8 @@ HOST-SUFFIX,freevpn.me,PROXY
 HOST-SUFFIX,freewallpaper4.me,PROXY
 HOST-SUFFIX,freewechat.com,PROXY
 HOST-SUFFIX,freeweibo.com,PROXY
+HOST-SUFFIX,freexh.blog,PROXY
+HOST-SUFFIX,freexh.live,PROXY
 HOST-SUFFIX,freexvideos.org,PROXY
 HOST-SUFFIX,freexxx.best,PROXY
 HOST-SUFFIX,freexxx.win,PROXY
@@ -18552,6 +18562,7 @@ HOST-SUFFIX,pikpak.me,PROXY
 HOST-SUFFIX,pikpakdrive.com,PROXY
 HOST-SUFFIX,pillbeatsblackfridaysale.com,PROXY
 HOST-SUFFIX,pimg.tw,PROXY
+HOST-SUFFIX,pimpbunny.com,PROXY
 HOST-SUFFIX,pin-cong.com,PROXY
 HOST-SUFFIX,pin.it,PROXY
 HOST-SUFFIX,pin6.com,PROXY
@@ -19210,6 +19221,7 @@ HOST-SUFFIX,powershape.com,PROXY
 HOST-SUFFIX,powershellgallery.com,PROXY
 HOST-SUFFIX,powersrv.de,PROXY
 HOST-SUFFIX,powersunitedvr.com,PROXY
+HOST-SUFFIX,powfans.com,PROXY
 HOST-SUFFIX,pp-soc.com,PROXY
 HOST-SUFFIX,pp6.info,PROXY
 HOST-SUFFIX,ppaypal.com,PROXY
@@ -20626,6 +20638,7 @@ HOST-SUFFIX,seqingwangzhan.pro,PROXY
 HOST-SUFFIX,seqingx.com,PROXY
 HOST-SUFFIX,sequence.com,PROXY
 HOST-SUFFIX,ser7.cc,PROXY
+HOST-SUFFIX,serakon.com,PROXY
 HOST-SUFFIX,serbiporno.net,PROXY
 HOST-SUFFIX,serialssolutions.com,PROXY
 HOST-SUFFIX,serlucap.lol,PROXY
@@ -24554,6 +24567,7 @@ HOST-SUFFIX,vscode-cdn.net,PROXY
 HOST-SUFFIX,vscode-unpkg.net,PROXY
 HOST-SUFFIX,vscode.dev,PROXY
 HOST-SUFFIX,vsemrabota.ru,PROXY
+HOST-SUFFIX,vsex.in,PROXY
 HOST-SUFFIX,vsezoo.com,PROXY
 HOST-SUFFIX,vsphere.com,PROXY
 HOST-SUFFIX,vsphere.net,PROXY
@@ -25377,6 +25391,7 @@ HOST-SUFFIX,xhamster19.com,PROXY
 HOST-SUFFIX,xhamster2.com,PROXY
 HOST-SUFFIX,xhamster3.com,PROXY
 HOST-SUFFIX,xhamsterlive.com,PROXY
+HOST-SUFFIX,xhapp.live,PROXY
 HOST-SUFFIX,xhcdn.com,PROXY
 HOST-SUFFIX,xhnews.live,PROXY
 HOST-SUFFIX,xhot.pro,PROXY
