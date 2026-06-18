@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26720
+# 规则统计: 26729
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -503,6 +503,8 @@ HOST,steamusercontent-a.akamaihd.net,PROXY
 HOST,steamuserimages-a.akamaihd.net,PROXY
 HOST,steamvideo-a.akamaihd.net,PROXY
 HOST,straitsx-826709081262441084-b790f87a2ae6fd417434295.freshchat.com,PROXY
+HOST,supercell.helpshift.com,PROXY
+HOST,supercell.zendesk.com,PROXY
 HOST,t.ssp.hinet.net,PROXY
 HOST,t21.nikkei.co.jp,PROXY
 HOST,t21ipau.nikkei.co.jp,PROXY
@@ -2563,6 +2565,7 @@ HOST-SUFFIX,appbridge.io,PROXY
 HOST-SUFFIX,appbridge.it,PROXY
 HOST-SUFFIX,appcenter.ms,PROXY
 HOST-SUFFIX,appcloud.com,PROXY
+HOST-SUFFIX,appconsent.io,PROXY
 HOST-SUFFIX,appdomain.cloud,PROXY
 HOST-SUFFIX,appdynamics.co.uk,PROXY
 HOST-SUFFIX,appdynamics.com,PROXY
@@ -3458,6 +3461,7 @@ HOST-SUFFIX,awwcn.buzz,PROXY
 HOST-SUFFIX,awwcn.xyz,PROXY
 HOST-SUFFIX,awxcdn.com,PROXY
 HOST-SUFFIX,axbdoll.com.tw,PROXY
+HOST-SUFFIX,axept.io,PROXY
 HOST-SUFFIX,axios.com,PROXY
 HOST-SUFFIX,axureformac.com,PROXY
 HOST-SUFFIX,ayabank.com,PROXY
@@ -5770,6 +5774,7 @@ HOST-SUFFIX,cdjp.org,PROXY
 HOST-SUFFIX,cdkworkshop.com,PROXY
 HOST-SUFFIX,cdmatech.com,PROXY
 HOST-SUFFIX,cdn-apple.com,PROXY
+HOST-SUFFIX,cdn-cookieyes.com,PROXY
 HOST-SUFFIX,cdn-telegram.org,PROXY
 HOST-SUFFIX,cdn-terapeak.com,PROXY
 HOST-SUFFIX,cdn-tinkoff.ru,PROXY
@@ -6491,6 +6496,7 @@ HOST-SUFFIX,conoha.jp,PROXY
 HOST-SUFFIX,conquerwithcharacter.com,PROXY
 HOST-SUFFIX,conscrypt.com,PROXY
 HOST-SUFFIX,conscrypt.org,PROXY
+HOST-SUFFIX,consentmanager.net,PROXY
 HOST-SUFFIX,consentpro.com,PROXY
 HOST-SUFFIX,constructware.com,PROXY
 HOST-SUFFIX,consul.io,PROXY
@@ -6500,9 +6506,11 @@ HOST-SUFFIX,contechacademy.com,PROXY
 HOST-SUFFIX,contentful.com,PROXY
 HOST-SUFFIX,contest.com,PROXY
 HOST-SUFFIX,convrgencegame.com,PROXY
+HOST-SUFFIX,cookiebot.com,PROXY
 HOST-SUFFIX,cookiechoices.org,PROXY
 HOST-SUFFIX,cookielaw.org,PROXY
 HOST-SUFFIX,cookiepro.com,PROXY
+HOST-SUFFIX,cookieyes.com,PROXY
 HOST-SUFFIX,cool-comics.com,PROXY
 HOST-SUFFIX,cool18.com,PROXY
 HOST-SUFFIX,cool3c.com,PROXY
@@ -21984,7 +21992,6 @@ HOST-SUFFIX,supanimegames.com,PROXY
 HOST-SUFFIX,supchina.com,PROXY
 HOST-SUFFIX,superadultgames.com,PROXY
 HOST-SUFFIX,supercell.com,PROXY
-HOST-SUFFIX,supercell.helpshift.com,PROXY
 HOST-SUFFIX,supercell.net,PROXY
 HOST-SUFFIX,supercellcreators.com,PROXY
 HOST-SUFFIX,supercellgames.com,PROXY
@@ -22391,6 +22398,7 @@ HOST-SUFFIX,terapeak.info,PROXY
 HOST-SUFFIX,teraperk.com,PROXY
 HOST-SUFFIX,terk.nl,PROXY
 HOST-SUFFIX,termius.com,PROXY
+HOST-SUFFIX,termly.io,PROXY
 HOST-SUFFIX,termux.com,PROXY
 HOST-SUFFIX,termux.dev,PROXY
 HOST-SUFFIX,termux.org,PROXY
@@ -23054,6 +23062,7 @@ HOST-SUFFIX,truefi.io,PROXY
 HOST-SUFFIX,truenas.com,PROXY
 HOST-SUFFIX,trunest.com,PROXY
 HOST-SUFFIX,trust-provider.com,PROXY
+HOST-SUFFIX,trustarc.com,PROXY
 HOST-SUFFIX,trustcor.ca,PROXY
 HOST-SUFFIX,trustcor.com,PROXY
 HOST-SUFFIX,trustdoc.ch,PROXY

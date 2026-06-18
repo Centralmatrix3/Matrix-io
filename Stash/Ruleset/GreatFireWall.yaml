@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 4252
+# 规则统计: 4253
 
 payload:
   - '+.000webhost.com'
@@ -3172,6 +3172,7 @@ payload:
   - '+.sinoca.com'
   - '+.sinocast.com'
   - '+.sinoinsider.com'
+  - '+.sinyalee.com'
   - '+.sipml5.org'
   - '+.sis001.com'
   - '+.site.new'
