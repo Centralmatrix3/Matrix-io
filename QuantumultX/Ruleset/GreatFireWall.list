@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 4253
+# 规则统计: 4256
 
 HOST-SUFFIX,000webhost.com,GreatFireWall
 HOST-SUFFIX,0rz.tw,GreatFireWall
@@ -90,6 +90,7 @@ HOST-SUFFIX,about.gitlab.com,GreatFireWall
 HOST-SUFFIX,about.me,GreatFireWall
 HOST-SUFFIX,abplive.com,GreatFireWall
 HOST-SUFFIX,acast.com,GreatFireWall
+HOST-SUFFIX,accountboy.com,GreatFireWall
 HOST-SUFFIX,accountkit.com,GreatFireWall
 HOST-SUFFIX,acevpn.com,GreatFireWall
 HOST-SUFFIX,acg.mn,GreatFireWall
@@ -2444,6 +2445,7 @@ HOST-SUFFIX,monitorchina.org,GreatFireWall
 HOST-SUFFIX,monocloud.me,GreatFireWall
 HOST-SUFFIX,monster.com,GreatFireWall
 HOST-SUFFIX,moodyz.com,GreatFireWall
+HOST-SUFFIX,moomoo.com,GreatFireWall
 HOST-SUFFIX,moon.fm,GreatFireWall
 HOST-SUFFIX,moonbbs.com,GreatFireWall
 HOST-SUFFIX,moonbingo.com,GreatFireWall
@@ -4109,6 +4111,7 @@ HOST-SUFFIX,xn--noss43i.com,GreatFireWall
 HOST-SUFFIX,xn--oiq.cc,GreatFireWall
 HOST-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c,GreatFireWall
 HOST-SUFFIX,xn--u2u927b.com,GreatFireWall
+HOST-SUFFIX,xn--vuqv2cf7wzyig79c.com,GreatFireWall
 HOST-SUFFIX,xnpool.com,GreatFireWall
 HOST-SUFFIX,xnxx.com,GreatFireWall
 HOST-SUFFIX,xpud.org,GreatFireWall
