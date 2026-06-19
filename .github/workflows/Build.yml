@@ -13,10 +13,10 @@ jobs:
       SINGBOX_VERSION: "1.13.13"
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v6.0.3
+        uses: actions/checkout@v7.0.0
 
       - name: Checkout Repository
-        uses: actions/checkout@v6.0.3
+        uses: actions/checkout@v7.0.0
         with:
           repository: Centralmatrix3/Network
           path: Network
