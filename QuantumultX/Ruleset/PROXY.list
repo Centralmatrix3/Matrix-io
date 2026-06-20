@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26737
+# 规则统计: 26766
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -1306,6 +1306,7 @@ HOST-SUFFIX,9k6v4y.cyou,PROXY
 HOST-SUFFIX,9nation.com.au,PROXY
 HOST-SUFFIX,9news.com.au,PROXY
 HOST-SUFFIX,9now.com.au,PROXY
+HOST-SUFFIX,9oju31.launches.appsflyersdk.com,PROXY
 HOST-SUFFIX,9tak-nav.buzz,PROXY
 HOST-SUFFIX,9to5google.com,PROXY
 HOST-SUFFIX,9to5mac.com,PROXY
@@ -2525,6 +2526,7 @@ HOST-SUFFIX,apexlegends.com,PROXY
 HOST-SUFFIX,apexprint.com.hk,PROXY
 HOST-SUFFIX,api-extractor.com,PROXY
 HOST-SUFFIX,api.ai,PROXY
+HOST-SUFFIX,api.moomoobull.com,PROXY
 HOST-SUFFIX,api.news,PROXY
 HOST-SUFFIX,api.palworldgame.com,PROXY
 HOST-SUFFIX,apiary.io,PROXY
@@ -4239,6 +4241,7 @@ HOST-SUFFIX,bild.de,PROXY
 HOST-SUFFIX,bili2.cc,PROXY
 HOST-SUFFIX,bili888.com,PROXY
 HOST-SUFFIX,bili999.com,PROXY
+HOST-SUFFIX,bilinovel.com,PROXY
 HOST-SUFFIX,biliplus.com,PROXY
 HOST-SUFFIX,biliworld.com,PROXY
 HOST-SUFFIX,bill-safe.com,PROXY
@@ -5871,6 +5874,7 @@ HOST-SUFFIX,cfl.re,PROXY
 HOST-SUFFIX,cfna.com,PROXY
 HOST-SUFFIX,cfr.org,PROXY
 HOST-SUFFIX,cfwives.com,PROXY
+HOST-SUFFIX,cg.play-analytics.com,PROXY
 HOST-SUFFIX,cgdepot.org,PROXY
 HOST-SUFFIX,ch9.ms,PROXY
 HOST-SUFFIX,chainid.network,PROXY
@@ -10080,9 +10084,21 @@ HOST-SUFFIX,futanarihq.com,PROXY
 HOST-SUFFIX,futhead.com,PROXY
 HOST-SUFFIX,futpromos.com,PROXY
 HOST-SUFFIX,futu.cn,PROXY
+HOST-SUFFIX,futu.com,PROXY
 HOST-SUFFIX,futu.link,PROXY
+HOST-SUFFIX,futu0.com,PROXY
+HOST-SUFFIX,futu1.com,PROXY
+HOST-SUFFIX,futu2.com,PROXY
+HOST-SUFFIX,futu3.com,PROXY
+HOST-SUFFIX,futu4.com,PROXY
 HOST-SUFFIX,futu5.com,PROXY
+HOST-SUFFIX,futu6.com,PROXY
+HOST-SUFFIX,futu7.com,PROXY
+HOST-SUFFIX,futu8.com,PROXY
+HOST-SUFFIX,futu9.com,PROXY
 HOST-SUFFIX,futuau.com,PROXY
+HOST-SUFFIX,futubull.cn,PROXY
+HOST-SUFFIX,futuchain.com,PROXY
 HOST-SUFFIX,futuesop.com,PROXY
 HOST-SUFFIX,futufin.com,PROXY
 HOST-SUFFIX,futuhk.com,PROXY
@@ -10091,6 +10107,7 @@ HOST-SUFFIX,futuhk2.com,PROXY
 HOST-SUFFIX,futuhkapp.com,PROXY
 HOST-SUFFIX,futuhn.com,PROXY
 HOST-SUFFIX,futuholdings.com,PROXY
+HOST-SUFFIX,futuinc.com,PROXY
 HOST-SUFFIX,futunited.com,PROXY
 HOST-SUFFIX,futuniuniu.com,PROXY
 HOST-SUFFIX,futunn.com,PROXY
@@ -10104,6 +10121,7 @@ HOST-SUFFIX,futureshop.ca,PROXY
 HOST-SUFFIX,futusg.com,PROXY
 HOST-SUFFIX,futustatic.com,PROXY
 HOST-SUFFIX,fututrade.com,PROXY
+HOST-SUFFIX,fututrustee.com,PROXY
 HOST-SUFFIX,fuxporn.com,PROXY
 HOST-SUFFIX,fuzokudx.com,PROXY
 HOST-SUFFIX,fw.cm,PROXY
@@ -14745,6 +14763,7 @@ HOST-SUFFIX,longbridgehk.com,PROXY
 HOST-SUFFIX,longmabook.com,PROXY
 HOST-SUFFIX,longmabookcn.com,PROXY
 HOST-SUFFIX,longman.ch,PROXY
+HOST-SUFFIX,longportapp.cn,PROXY
 HOST-SUFFIX,longportapp.com,PROXY
 HOST-SUFFIX,longtailvideo.com,PROXY
 HOST-SUFFIX,longtermly.net,PROXY
@@ -20499,6 +20518,7 @@ HOST-SUFFIX,schiffvitamins.com,PROXY
 HOST-SUFFIX,scholarpedia.org,PROXY
 HOST-SUFFIX,schwab.co.uk,PROXY
 HOST-SUFFIX,schwab.com,PROXY
+HOST-SUFFIX,schwab.com.cn,PROXY
 HOST-SUFFIX,schwab.com.hk,PROXY
 HOST-SUFFIX,schwab.com.sg,PROXY
 HOST-SUFFIX,schwabassetmanagement.com,PROXY
@@ -20870,6 +20890,7 @@ HOST-SUFFIX,sg120.me,PROXY
 HOST-SUFFIX,sg1lib.org,PROXY
 HOST-SUFFIX,sgcheck.ru,PROXY
 HOST-SUFFIX,sgp1.fun,PROXY
+HOST-SUFFIX,sgqt0j.launches.appsflyersdk.com,PROXY
 HOST-SUFFIX,sgr.com.br,PROXY
 HOST-SUFFIX,sgspe.de,PROXY
 HOST-SUFFIX,sgspt.buzz,PROXY
@@ -21025,6 +21046,7 @@ HOST-SUFFIX,shoppinguheadphones.com,PROXY
 HOST-SUFFIX,shops-disney.com,PROXY
 HOST-SUFFIX,shopspeedtv.com,PROXY
 HOST-SUFFIX,shoptraivip.com,PROXY
+HOST-SUFFIX,shortconn.im.qcloud.com,PROXY
 HOST-SUFFIX,shorturl.at,PROXY
 HOST-SUFFIX,shotgridsoftware.com,PROXY
 HOST-SUFFIX,shotgridstudio.com,PROXY
@@ -22762,6 +22784,10 @@ HOST-SUFFIX,tiffany-towers.com,PROXY
 HOST-SUFFIX,tig-ol-bitties.live,PROXY
 HOST-SUFFIX,tigerbbs.cn,PROXY
 HOST-SUFFIX,tigerbbs.com,PROXY
+HOST-SUFFIX,tigerbrokers.com,PROXY
+HOST-SUFFIX,tigerbrokers.net,PROXY
+HOST-SUFFIX,tigerbrokers.nz,PROXY
+HOST-SUFFIX,tigerfintech.com,PROXY
 HOST-SUFFIX,tigervpn.com,PROXY
 HOST-SUFFIX,tik-tokapi.com,PROXY
 HOST-SUFFIX,tiktok-minis.com,PROXY
@@ -22992,6 +23018,7 @@ HOST-SUFFIX,tracfone.com,PROXY
 HOST-SUFFIX,tracker.gg,PROXY
 HOST-SUFFIX,tracker.network,PROXY
 HOST-SUFFIX,tracking-location.com,PROXY
+HOST-SUFFIX,tradeup.com,PROXY
 HOST-SUFFIX,tradevip1.com,PROXY
 HOST-SUFFIX,tradingview.com,PROXY
 HOST-SUFFIX,trae.ai,PROXY
@@ -26609,6 +26636,8 @@ HOST-SUFFIX,zhao.1984.city,PROXY
 HOST-SUFFIX,zhengjian.org,PROXY
 HOST-SUFFIX,zhengwunet.org,PROXY
 HOST-SUFFIX,zhenxiang.biz,PROXY
+HOST-SUFFIX,zhijianfengyi.cn,PROXY
+HOST-SUFFIX,zhijianfengyi.com,PROXY
 HOST-SUFFIX,zhimeishe888.com,PROXY
 HOST-SUFFIX,zhizhu.top,PROXY
 HOST-SUFFIX,zhongguo.ca,PROXY

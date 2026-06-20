@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26737
+# 规则统计: 26766
 
 domain_set:
   - 1password.drift.click
@@ -1308,6 +1308,7 @@ domain_suffix_set:
   - 9nation.com.au
   - 9news.com.au
   - 9now.com.au
+  - 9oju31.launches.appsflyersdk.com
   - 9tak-nav.buzz
   - 9to5google.com
   - 9to5mac.com
@@ -2527,6 +2528,7 @@ domain_suffix_set:
   - apexprint.com.hk
   - api-extractor.com
   - api.ai
+  - api.moomoobull.com
   - api.news
   - api.palworldgame.com
   - apiary.io
@@ -4241,6 +4243,7 @@ domain_suffix_set:
   - bili2.cc
   - bili888.com
   - bili999.com
+  - bilinovel.com
   - biliplus.com
   - biliworld.com
   - bill-safe.com
@@ -5873,6 +5876,7 @@ domain_suffix_set:
   - cfna.com
   - cfr.org
   - cfwives.com
+  - cg.play-analytics.com
   - cgdepot.org
   - ch9.ms
   - chainid.network
@@ -10082,9 +10086,21 @@ domain_suffix_set:
   - futhead.com
   - futpromos.com
   - futu.cn
+  - futu.com
   - futu.link
+  - futu0.com
+  - futu1.com
+  - futu2.com
+  - futu3.com
+  - futu4.com
   - futu5.com
+  - futu6.com
+  - futu7.com
+  - futu8.com
+  - futu9.com
   - futuau.com
+  - futubull.cn
+  - futuchain.com
   - futuesop.com
   - futufin.com
   - futuhk.com
@@ -10093,6 +10109,7 @@ domain_suffix_set:
   - futuhkapp.com
   - futuhn.com
   - futuholdings.com
+  - futuinc.com
   - futunited.com
   - futuniuniu.com
   - futunn.com
@@ -10106,6 +10123,7 @@ domain_suffix_set:
   - futusg.com
   - futustatic.com
   - fututrade.com
+  - fututrustee.com
   - fuxporn.com
   - fuzokudx.com
   - fw.cm
@@ -14747,6 +14765,7 @@ domain_suffix_set:
   - longmabook.com
   - longmabookcn.com
   - longman.ch
+  - longportapp.cn
   - longportapp.com
   - longtailvideo.com
   - longtermly.net
@@ -20501,6 +20520,7 @@ domain_suffix_set:
   - scholarpedia.org
   - schwab.co.uk
   - schwab.com
+  - schwab.com.cn
   - schwab.com.hk
   - schwab.com.sg
   - schwabassetmanagement.com
@@ -20872,6 +20892,7 @@ domain_suffix_set:
   - sg1lib.org
   - sgcheck.ru
   - sgp1.fun
+  - sgqt0j.launches.appsflyersdk.com
   - sgr.com.br
   - sgspe.de
   - sgspt.buzz
@@ -21027,6 +21048,7 @@ domain_suffix_set:
   - shops-disney.com
   - shopspeedtv.com
   - shoptraivip.com
+  - shortconn.im.qcloud.com
   - shorturl.at
   - shotgridsoftware.com
   - shotgridstudio.com
@@ -22764,6 +22786,10 @@ domain_suffix_set:
   - tig-ol-bitties.live
   - tigerbbs.cn
   - tigerbbs.com
+  - tigerbrokers.com
+  - tigerbrokers.net
+  - tigerbrokers.nz
+  - tigerfintech.com
   - tigervpn.com
   - tik-tokapi.com
   - tiktok-minis.com
@@ -22994,6 +23020,7 @@ domain_suffix_set:
   - tracker.gg
   - tracker.network
   - tracking-location.com
+  - tradeup.com
   - tradevip1.com
   - tradingview.com
   - trae.ai
@@ -26611,6 +26638,8 @@ domain_suffix_set:
   - zhengjian.org
   - zhengwunet.org
   - zhenxiang.biz
+  - zhijianfengyi.cn
+  - zhijianfengyi.com
   - zhimeishe888.com
   - zhizhu.top
   - zhongguo.ca

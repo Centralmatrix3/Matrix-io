@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7360
+# 规则统计: 7445
 
 no_resolve: true
 domain_set:
@@ -38,6 +38,7 @@ domain_suffix_set:
   - 18board.com
   - 18board.info
   - 18comic.org
+  - 18mh.net
   - 18onlygirls.com
   - 18p2p.com
   - 18virginsex.com
@@ -166,6 +167,7 @@ domain_suffix_set:
   - 9cache.com
   - 9gag.com
   - 9news.com.au
+  - 9oju31.launches.appsflyersdk.com
   - a-normal-day.com
   - a248.e.akamai.net
   - a5.com.ru
@@ -392,14 +394,19 @@ domain_suffix_set:
   - apartments.com
   - apat1989.org
   - apetube.com
+  - api-gl.lbkrs.com
   - api-secure.recaptcha.net
   - api-verify.recaptcha.net
   - api.ai
+  - api.futunn.com
+  - api.lbkrs.com
+  - api.moomoobull.com
   - api.palworldgame.com
   - api.proxlet.com
   - api.pureapk.com
   - api.recaptcha.net
   - api.steampowered.com
+  - api5.futunn.com
   - apiary.io
   - apigee.com
   - apk-dl.com
@@ -677,6 +684,7 @@ domain_suffix_set:
   - bigone.com
   - bigsound.org
   - bild.de
+  - bilinovel.com
   - biliworld.com
   - billypan.com
   - binance.com
@@ -1059,6 +1067,7 @@ domain_suffix_set:
   - cdn-images.mailchimp.com
   - cdn-telegram.org
   - cdn.arstechnica.net
+  - cdn.futustatic.com
   - cdn.jwplayer.com
   - cdn.printfriendly.com
   - cdn.registerdisney.go.com
@@ -1093,6 +1102,7 @@ domain_suffix_set:
   - cfr.org
   - cfsh99.com
   - cftfc.com
+  - cg.play-analytics.com
   - cgdepot.org
   - cgst.edu
   - ch.shvoong.com
@@ -1673,6 +1683,7 @@ domain_suffix_set:
   - dowjones.com
   - dowjones.io
   - download.dappcdn.com
+  - download.futunn.com
   - dphk.org
   - dpool.top
   - dpp.org.tw
@@ -2274,8 +2285,37 @@ domain_suffix_set:
   - furinkan.com
   - furl.net
   - furrybar.com
+  - futu.cn
+  - futu.com
+  - futu.link
+  - futu0.com
+  - futu1.com
+  - futu2.com
+  - futu3.com
+  - futu4.com
+  - futu5.com
+  - futu6.com
+  - futu7.com
+  - futu8.com
+  - futu9.com
+  - futuau.com
+  - futubull.cn
+  - futuchain.com
+  - futuesop.com
+  - futufin.com
+  - futuhk.com
+  - futuhk2.com
+  - futuhkapp.com
+  - futuhn.com
+  - futuholdings.com
+  - futuinc.com
+  - futuniuniu.com
+  - futunn.com
   - futurechinaforum.org
   - futuremessage.org
+  - futustatic.com
+  - fututrade.com
+  - fututrustee.com
   - fux.com
   - fuyin.net
   - fuyindiantai.org
@@ -3389,6 +3429,7 @@ domain_suffix_set:
   - itemfix.com
   - ithome.com.tw
   - itiger.com
+  - itigerup.com
   - itsaol.com
   - itshidden.com
   - itsky.it
@@ -3659,6 +3700,7 @@ domain_suffix_set:
   - laod.cn
   - laogai.org
   - laogairesearch.org
+  - laohu8.com
   - laomiu.com
   - laoyang.info
   - laptoplockdown.com
@@ -3670,6 +3712,8 @@ domain_suffix_set:
   - latibet.org
   - lausan.hk
   - lbank.info
+  - lbctrl.com
+  - lbkrs.com
   - ldplayer.net
   - ldplayer.tw
   - le-vpn.com
@@ -3794,8 +3838,17 @@ domain_suffix_set:
   - logmein.com
   - logos.com.hk
   - londonchinese.ca
+  - longbridge.cloud
+  - longbridge.com
+  - longbridge.global
+  - longbridge.hk
+  - longbridge.sg
+  - longbridgeapp.com
+  - longbridgehk.com
   - longhair.hk
   - longmusic.com
+  - longportapp.cn
+  - longportapp.com
   - longtermly.net
   - longtoes.com
   - lookpic.com
@@ -4098,6 +4151,8 @@ domain_suffix_set:
   - monster.com
   - moodyz.com
   - moomoo.com
+  - moomooequity.com
+  - moomootrustee.com
   - moon.fm
   - moonbbs.com
   - moonbbs.info
@@ -4573,6 +4628,13 @@ domain_suffix_set:
   - open.firstory.me
   - openai.com
   - openallweb.com
+  - openapi-quote.longbridge.cn
+  - openapi-quote.longbridge.com
+  - openapi-trade.longbridge.cn
+  - openapi-trade.longbridge.com
+  - openapi.futunn.com
+  - openapi.longbridge.cn
+  - openapi.longbridge.com
   - openart.ai
   - openbase.com
   - opencritic.com
@@ -5004,6 +5066,8 @@ domain_suffix_set:
   - qpoe.com
   - qq.co.za
   - qstatus.com
+  - qtcard.futunn.com
+  - qtcardfthk.futufin.com
   - qtrac.eu
   - qtweeter.com
   - quannengshen.org
@@ -5015,6 +5079,7 @@ domain_suffix_set:
   - quiz.directory
   - quora.com
   - quoracdn.net
+  - quote.longbridge.global
   - quran.com
   - quranexplorer.com
   - qusi8.net
@@ -5257,6 +5322,10 @@ domain_suffix_set:
   - sbti.unun.dev
   - scasino.com
   - schema.org
+  - schwab.co.uk
+  - schwab.com
+  - schwab.com.cn
+  - schwab.com.hk
   - sciencemag.org
   - sciencenets.com
   - scieron.com
@@ -5327,6 +5396,7 @@ domain_suffix_set:
   - sftindia.org
   - sftuk.org
   - sg
+  - sgqt0j.launches.appsflyersdk.com
   - sgwritings.com
   - sgzhan.com
   - shadeyouvpn.com
@@ -5385,6 +5455,7 @@ domain_suffix_set:
   - shopee.tw
   - shopping.com
   - shopping.yahoo.co.jp
+  - shortconn.im.qcloud.com
   - showbiz.omy.sg
   - showhaotu.com
   - showtime.jp
@@ -5718,6 +5789,7 @@ domain_suffix_set:
   - supervpn.net
   - superzooi.com
   - suppig.net
+  - support.futunn.com
   - suprememastertv.com
   - surfeasy.com
   - surfeasy.com.au
@@ -6050,6 +6122,12 @@ domain_suffix_set:
   - tibettruth.com
   - tibetwrites.org
   - ticket.com.tw
+  - tigerbbs.cn
+  - tigerbbs.com
+  - tigerbrokers.com
+  - tigerbrokers.net
+  - tigerbrokers.nz
+  - tigerfintech.com
   - tigervpn.com
   - tiktok.com
   - tiktokcdn-eu.com
@@ -6142,6 +6220,9 @@ domain_suffix_set:
   - tparents.org
   - tpi.org.tw
   - tracfone.com
+  - trade.futunn.com
+  - trade.longportapp.com
+  - tradeup.com
   - tradingview.com
   - traffichaus.com
   - translate.goog
@@ -6696,6 +6777,7 @@ domain_suffix_set:
   - waveprotocol.org
   - waybig.com
   - waymo.com
+  - wbrks.com
   - wd.bible
   - wdf5.com
   - wealth.com.tw
@@ -6971,6 +7053,7 @@ domain_suffix_set:
   - xiaochuncnjp.com
   - xiaod.in
   - xiaohexie.com
+  - xiaohu8.com
   - xiaolan.me
   - xiaoma.org
   - xiaomi.eu
@@ -7203,6 +7286,8 @@ domain_suffix_set:
   - zhenlibu.info
   - zhenlibu1984.com
   - zhenxiang.biz
+  - zhijianfengyi.cn
+  - zhijianfengyi.com
   - zhinengluyou.com
   - zhizhu.top
   - zhongguo.ca

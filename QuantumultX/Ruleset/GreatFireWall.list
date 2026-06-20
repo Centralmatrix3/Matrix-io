@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 4256
+# 规则统计: 4341
 
 HOST-SUFFIX,000webhost.com,GreatFireWall
 HOST-SUFFIX,0rz.tw,GreatFireWall
@@ -16,6 +16,7 @@ HOST-SUFFIX,1688.com.au,GreatFireWall
 HOST-SUFFIX,173ng.com,GreatFireWall
 HOST-SUFFIX,18board.com,GreatFireWall
 HOST-SUFFIX,18comic.org,GreatFireWall
+HOST-SUFFIX,18mh.net,GreatFireWall
 HOST-SUFFIX,1984bbs.com,GreatFireWall
 HOST-SUFFIX,1991way.com,GreatFireWall
 HOST-SUFFIX,1e100.net,GreatFireWall
@@ -76,6 +77,7 @@ HOST-SUFFIX,9bis.net,GreatFireWall
 HOST-SUFFIX,9cache.com,GreatFireWall
 HOST-SUFFIX,9gag.com,GreatFireWall
 HOST-SUFFIX,9news.com.au,GreatFireWall
+HOST-SUFFIX,9oju31.launches.appsflyersdk.com,GreatFireWall
 HOST-SUFFIX,a-normal-day.com,GreatFireWall
 HOST-SUFFIX,a248.e.akamai.net,GreatFireWall
 HOST-SUFFIX,aamacau.com,GreatFireWall
@@ -211,13 +213,18 @@ HOST-SUFFIX,aoxvpn.com,GreatFireWall
 HOST-SUFFIX,apartmentratings.com,GreatFireWall
 HOST-SUFFIX,apartments.com,GreatFireWall
 HOST-SUFFIX,apat1989.org,GreatFireWall
+HOST-SUFFIX,api-gl.lbkrs.com,GreatFireWall
 HOST-SUFFIX,api-secure.recaptcha.net,GreatFireWall
 HOST-SUFFIX,api-verify.recaptcha.net,GreatFireWall
 HOST-SUFFIX,api.ai,GreatFireWall
+HOST-SUFFIX,api.futunn.com,GreatFireWall
+HOST-SUFFIX,api.lbkrs.com,GreatFireWall
+HOST-SUFFIX,api.moomoobull.com,GreatFireWall
 HOST-SUFFIX,api.palworldgame.com,GreatFireWall
 HOST-SUFFIX,api.pureapk.com,GreatFireWall
 HOST-SUFFIX,api.recaptcha.net,GreatFireWall
 HOST-SUFFIX,api.steampowered.com,GreatFireWall
+HOST-SUFFIX,api5.futunn.com,GreatFireWall
 HOST-SUFFIX,apiary.io,GreatFireWall
 HOST-SUFFIX,apigee.com,GreatFireWall
 HOST-SUFFIX,apk.support,GreatFireWall
@@ -395,6 +402,7 @@ HOST-SUFFIX,bigjapanesesex.com,GreatFireWall
 HOST-SUFFIX,bignews.org,GreatFireWall
 HOST-SUFFIX,bigone.com,GreatFireWall
 HOST-SUFFIX,bild.de,GreatFireWall
+HOST-SUFFIX,bilinovel.com,GreatFireWall
 HOST-SUFFIX,biliworld.com,GreatFireWall
 HOST-SUFFIX,binance.com,GreatFireWall
 HOST-SUFFIX,binance.org,GreatFireWall
@@ -659,6 +667,7 @@ HOST-SUFFIX,cdjp.org,GreatFireWall
 HOST-SUFFIX,cdn-images.mailchimp.com,GreatFireWall
 HOST-SUFFIX,cdn-telegram.org,GreatFireWall
 HOST-SUFFIX,cdn.arstechnica.net,GreatFireWall
+HOST-SUFFIX,cdn.futustatic.com,GreatFireWall
 HOST-SUFFIX,cdn.jwplayer.com,GreatFireWall
 HOST-SUFFIX,cdn.printfriendly.com,GreatFireWall
 HOST-SUFFIX,cdn.seatguru.com,GreatFireWall
@@ -682,6 +691,7 @@ HOST-SUFFIX,centurys.net,GreatFireWall
 HOST-SUFFIX,certificate-transparency.org,GreatFireWall
 HOST-SUFFIX,certificate.revocationcheck.com,GreatFireWall
 HOST-SUFFIX,cfr.org,GreatFireWall
+HOST-SUFFIX,cg.play-analytics.com,GreatFireWall
 HOST-SUFFIX,cgdepot.org,GreatFireWall
 HOST-SUFFIX,change.org,GreatFireWall
 HOST-SUFFIX,changp.com,GreatFireWall
@@ -1028,6 +1038,7 @@ HOST-SUFFIX,dougscripts.com,GreatFireWall
 HOST-SUFFIX,doujincafe.com,GreatFireWall
 HOST-SUFFIX,dowjones.io,GreatFireWall
 HOST-SUFFIX,download.dappcdn.com,GreatFireWall
+HOST-SUFFIX,download.futunn.com,GreatFireWall
 HOST-SUFFIX,dpool.top,GreatFireWall
 HOST-SUFFIX,dpp.org.tw,GreatFireWall
 HOST-SUFFIX,dpr.info,GreatFireWall
@@ -1343,7 +1354,36 @@ HOST-SUFFIX,funkyimg.com,GreatFireWall
 HOST-SUFFIX,furbo.org,GreatFireWall
 HOST-SUFFIX,furinkan.com,GreatFireWall
 HOST-SUFFIX,furrybar.com,GreatFireWall
+HOST-SUFFIX,futu.cn,GreatFireWall
+HOST-SUFFIX,futu.com,GreatFireWall
+HOST-SUFFIX,futu.link,GreatFireWall
+HOST-SUFFIX,futu0.com,GreatFireWall
+HOST-SUFFIX,futu1.com,GreatFireWall
+HOST-SUFFIX,futu2.com,GreatFireWall
+HOST-SUFFIX,futu3.com,GreatFireWall
+HOST-SUFFIX,futu4.com,GreatFireWall
+HOST-SUFFIX,futu5.com,GreatFireWall
+HOST-SUFFIX,futu6.com,GreatFireWall
+HOST-SUFFIX,futu7.com,GreatFireWall
+HOST-SUFFIX,futu8.com,GreatFireWall
+HOST-SUFFIX,futu9.com,GreatFireWall
+HOST-SUFFIX,futuau.com,GreatFireWall
+HOST-SUFFIX,futubull.cn,GreatFireWall
+HOST-SUFFIX,futuchain.com,GreatFireWall
+HOST-SUFFIX,futuesop.com,GreatFireWall
+HOST-SUFFIX,futufin.com,GreatFireWall
+HOST-SUFFIX,futuhk.com,GreatFireWall
+HOST-SUFFIX,futuhk2.com,GreatFireWall
+HOST-SUFFIX,futuhkapp.com,GreatFireWall
+HOST-SUFFIX,futuhn.com,GreatFireWall
+HOST-SUFFIX,futuholdings.com,GreatFireWall
+HOST-SUFFIX,futuinc.com,GreatFireWall
+HOST-SUFFIX,futuniuniu.com,GreatFireWall
+HOST-SUFFIX,futunn.com,GreatFireWall
 HOST-SUFFIX,futuremessage.org,GreatFireWall
+HOST-SUFFIX,futustatic.com,GreatFireWall
+HOST-SUFFIX,fututrade.com,GreatFireWall
+HOST-SUFFIX,fututrustee.com,GreatFireWall
 HOST-SUFFIX,fw.cm,GreatFireWall
 HOST-SUFFIX,fxcm-chinese.com,GreatFireWall
 HOST-SUFFIX,fxnetworks.com,GreatFireWall
@@ -2047,6 +2087,7 @@ HOST-SUFFIX,itasoftware.com,GreatFireWall
 HOST-SUFFIX,itch.io,GreatFireWall
 HOST-SUFFIX,itemfix.com,GreatFireWall
 HOST-SUFFIX,itiger.com,GreatFireWall
+HOST-SUFFIX,itigerup.com,GreatFireWall
 HOST-SUFFIX,itshidden.com,GreatFireWall
 HOST-SUFFIX,itweet.net,GreatFireWall
 HOST-SUFFIX,iuhrdf.org,GreatFireWall
@@ -2185,12 +2226,15 @@ HOST-SUFFIX,landofhope.tv,GreatFireWall
 HOST-SUFFIX,lantern.io,GreatFireWall
 HOST-SUFFIX,laogai.org,GreatFireWall
 HOST-SUFFIX,laogairesearch.org,GreatFireWall
+HOST-SUFFIX,laohu8.com,GreatFireWall
 HOST-SUFFIX,laqingdan.net,GreatFireWall
 HOST-SUFFIX,larsgeorge.com,GreatFireWall
 HOST-SUFFIX,lastcombat.com,GreatFireWall
 HOST-SUFFIX,lastfm.es,GreatFireWall
 HOST-SUFFIX,lausan.hk,GreatFireWall
 HOST-SUFFIX,lbank.info,GreatFireWall
+HOST-SUFFIX,lbctrl.com,GreatFireWall
+HOST-SUFFIX,lbkrs.com,GreatFireWall
 HOST-SUFFIX,ldplayer.net,GreatFireWall
 HOST-SUFFIX,ldplayer.tw,GreatFireWall
 HOST-SUFFIX,le-vpn.com,GreatFireWall
@@ -2259,6 +2303,15 @@ HOST-SUFFIX,localdomain.ws,GreatFireWall
 HOST-SUFFIX,lockestek.com,GreatFireWall
 HOST-SUFFIX,login.target.com,GreatFireWall
 HOST-SUFFIX,logos.com.hk,GreatFireWall
+HOST-SUFFIX,longbridge.cloud,GreatFireWall
+HOST-SUFFIX,longbridge.com,GreatFireWall
+HOST-SUFFIX,longbridge.global,GreatFireWall
+HOST-SUFFIX,longbridge.hk,GreatFireWall
+HOST-SUFFIX,longbridge.sg,GreatFireWall
+HOST-SUFFIX,longbridgeapp.com,GreatFireWall
+HOST-SUFFIX,longbridgehk.com,GreatFireWall
+HOST-SUFFIX,longportapp.cn,GreatFireWall
+HOST-SUFFIX,longportapp.com,GreatFireWall
 HOST-SUFFIX,longtermly.net,GreatFireWall
 HOST-SUFFIX,longtoes.com,GreatFireWall
 HOST-SUFFIX,lookpic.com,GreatFireWall
@@ -2446,6 +2499,8 @@ HOST-SUFFIX,monocloud.me,GreatFireWall
 HOST-SUFFIX,monster.com,GreatFireWall
 HOST-SUFFIX,moodyz.com,GreatFireWall
 HOST-SUFFIX,moomoo.com,GreatFireWall
+HOST-SUFFIX,moomooequity.com,GreatFireWall
+HOST-SUFFIX,moomootrustee.com,GreatFireWall
 HOST-SUFFIX,moon.fm,GreatFireWall
 HOST-SUFFIX,moonbbs.com,GreatFireWall
 HOST-SUFFIX,moonbingo.com,GreatFireWall
@@ -2686,6 +2741,13 @@ HOST-SUFFIX,ooni.io,GreatFireWall
 HOST-SUFFIX,ooni.org,GreatFireWall
 HOST-SUFFIX,open.firstory.me,GreatFireWall
 HOST-SUFFIX,openai.com,GreatFireWall
+HOST-SUFFIX,openapi-quote.longbridge.cn,GreatFireWall
+HOST-SUFFIX,openapi-quote.longbridge.com,GreatFireWall
+HOST-SUFFIX,openapi-trade.longbridge.cn,GreatFireWall
+HOST-SUFFIX,openapi-trade.longbridge.com,GreatFireWall
+HOST-SUFFIX,openapi.futunn.com,GreatFireWall
+HOST-SUFFIX,openapi.longbridge.cn,GreatFireWall
+HOST-SUFFIX,openapi.longbridge.com,GreatFireWall
 HOST-SUFFIX,openart.ai,GreatFireWall
 HOST-SUFFIX,opencritic.com,GreatFireWall
 HOST-SUFFIX,opendemocracy.net,GreatFireWall
@@ -2940,12 +3002,15 @@ HOST-SUFFIX,qmp4.com,GreatFireWall
 HOST-SUFFIX,qoos.com,GreatFireWall
 HOST-SUFFIX,qq.co.za,GreatFireWall
 HOST-SUFFIX,qstatus.com,GreatFireWall
+HOST-SUFFIX,qtcard.futunn.com,GreatFireWall
+HOST-SUFFIX,qtcardfthk.futufin.com,GreatFireWall
 HOST-SUFFIX,qtrac.eu,GreatFireWall
 HOST-SUFFIX,questvisual.com,GreatFireWall
 HOST-SUFFIX,quitccp.org,GreatFireWall
 HOST-SUFFIX,quiz.directory,GreatFireWall
 HOST-SUFFIX,quora.com,GreatFireWall
 HOST-SUFFIX,quoracdn.net,GreatFireWall
+HOST-SUFFIX,quote.longbridge.global,GreatFireWall
 HOST-SUFFIX,quran.com,GreatFireWall
 HOST-SUFFIX,qz.com,GreatFireWall
 HOST-SUFFIX,r-pool.net,GreatFireWall
@@ -3087,6 +3152,10 @@ HOST-SUFFIX,saveuighur.org,GreatFireWall
 HOST-SUFFIX,sbme.me,GreatFireWall
 HOST-SUFFIX,sbti.unun.dev,GreatFireWall
 HOST-SUFFIX,schema.org,GreatFireWall
+HOST-SUFFIX,schwab.co.uk,GreatFireWall
+HOST-SUFFIX,schwab.com,GreatFireWall
+HOST-SUFFIX,schwab.com.cn,GreatFireWall
+HOST-SUFFIX,schwab.com.hk,GreatFireWall
 HOST-SUFFIX,scmp.com,GreatFireWall
 HOST-SUFFIX,scramble.io,GreatFireWall
 HOST-SUFFIX,scratch.mit.edu,GreatFireWall
@@ -3125,6 +3194,7 @@ HOST-SUFFIX,sexinsex.net,GreatFireWall
 HOST-SUFFIX,sf.net,GreatFireWall
 HOST-SUFFIX,sfshibao.com,GreatFireWall
 HOST-SUFFIX,sftuk.org,GreatFireWall
+HOST-SUFFIX,sgqt0j.launches.appsflyersdk.com,GreatFireWall
 HOST-SUFFIX,shadeyouvpn.com,GreatFireWall
 HOST-SUFFIX,shadowsocks.be,GreatFireWall
 HOST-SUFFIX,shadowsocks.com.hk,GreatFireWall
@@ -3149,6 +3219,7 @@ HOST-SUFFIX,shodanhq.com,GreatFireWall
 HOST-SUFFIX,shooshtime.com,GreatFireWall
 HOST-SUFFIX,shopee.tw,GreatFireWall
 HOST-SUFFIX,shopping.yahoo.co.jp,GreatFireWall
+HOST-SUFFIX,shortconn.im.qcloud.com,GreatFireWall
 HOST-SUFFIX,showwe.tw,GreatFireWall
 HOST-SUFFIX,shutterstock.com,GreatFireWall
 HOST-SUFFIX,shwchurch.org,GreatFireWall
@@ -3333,6 +3404,7 @@ HOST-SUFFIX,supchina.com,GreatFireWall
 HOST-SUFFIX,superpages.com,GreatFireWall
 HOST-SUFFIX,supervpn.net,GreatFireWall
 HOST-SUFFIX,superzooi.com,GreatFireWall
+HOST-SUFFIX,support.futunn.com,GreatFireWall
 HOST-SUFFIX,suprememastertv.com,GreatFireWall
 HOST-SUFFIX,surfeasy.com,GreatFireWall
 HOST-SUFFIX,surfeasy.com.au,GreatFireWall
@@ -3522,6 +3594,12 @@ HOST-SUFFIX,tibettelegraph.com,GreatFireWall
 HOST-SUFFIX,tibettimes.net,GreatFireWall
 HOST-SUFFIX,tibettruth.com,GreatFireWall
 HOST-SUFFIX,tibetwrites.org,GreatFireWall
+HOST-SUFFIX,tigerbbs.cn,GreatFireWall
+HOST-SUFFIX,tigerbbs.com,GreatFireWall
+HOST-SUFFIX,tigerbrokers.com,GreatFireWall
+HOST-SUFFIX,tigerbrokers.net,GreatFireWall
+HOST-SUFFIX,tigerbrokers.nz,GreatFireWall
+HOST-SUFFIX,tigerfintech.com,GreatFireWall
 HOST-SUFFIX,tigervpn.com,GreatFireWall
 HOST-SUFFIX,tiktok.com,GreatFireWall
 HOST-SUFFIX,tiktokcdn-eu.com,GreatFireWall
@@ -3584,6 +3662,9 @@ HOST-SUFFIX,totalvpn.com,GreatFireWall
 HOST-SUFFIX,tou.tv,GreatFireWall
 HOST-SUFFIX,tpi.org.tw,GreatFireWall
 HOST-SUFFIX,tracfone.com,GreatFireWall
+HOST-SUFFIX,trade.futunn.com,GreatFireWall
+HOST-SUFFIX,trade.longportapp.com,GreatFireWall
+HOST-SUFFIX,tradeup.com,GreatFireWall
 HOST-SUFFIX,tradingview.com,GreatFireWall
 HOST-SUFFIX,translate.goog,GreatFireWall
 HOST-SUFFIX,transparency.org,GreatFireWall
@@ -3909,6 +3990,7 @@ HOST-SUFFIX,wav.tv,GreatFireWall
 HOST-SUFFIX,waveprotocol.org,GreatFireWall
 HOST-SUFFIX,waybig.com,GreatFireWall
 HOST-SUFFIX,waymo.com,GreatFireWall
+HOST-SUFFIX,wbrks.com,GreatFireWall
 HOST-SUFFIX,wd.bible,GreatFireWall
 HOST-SUFFIX,wealth.com.tw,GreatFireWall
 HOST-SUFFIX,wearn.com,GreatFireWall
@@ -4087,6 +4169,7 @@ HOST-SUFFIX,xgmyd.com,GreatFireWall
 HOST-SUFFIX,xhamster.com,GreatFireWall
 HOST-SUFFIX,xianjian.tw,GreatFireWall
 HOST-SUFFIX,xiaohexie.com,GreatFireWall
+HOST-SUFFIX,xiaohu8.com,GreatFireWall
 HOST-SUFFIX,xiaolan.me,GreatFireWall
 HOST-SUFFIX,xiaoma.org,GreatFireWall
 HOST-SUFFIX,xiaomi.eu,GreatFireWall
@@ -4226,6 +4309,8 @@ HOST-SUFFIX,zhao.1984.city,GreatFireWall
 HOST-SUFFIX,zhengjian.org,GreatFireWall
 HOST-SUFFIX,zhengwunet.org,GreatFireWall
 HOST-SUFFIX,zhenxiang.biz,GreatFireWall
+HOST-SUFFIX,zhijianfengyi.cn,GreatFireWall
+HOST-SUFFIX,zhijianfengyi.com,GreatFireWall
 HOST-SUFFIX,zhizhu.top,GreatFireWall
 HOST-SUFFIX,zhongguo.ca,GreatFireWall
 HOST-SUFFIX,zhongguotese.net,GreatFireWall
