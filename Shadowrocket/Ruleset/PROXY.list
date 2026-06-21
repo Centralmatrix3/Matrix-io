@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26766
+# 规则统计: 26768
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -213,6 +213,8 @@ DOMAIN,github-production-repository-image-32fea6.s3.amazonaws.com
 DOMAIN,github-production-upload-manifest-file-7fdce7.s3.amazonaws.com
 DOMAIN,github-production-user-asset-6210df.s3.amazonaws.com
 DOMAIN,gitlab-assets.oss-cn-hongkong.aliyuncs.com
+DOMAIN,gog-cdn-lumen.secure2.footprint.net
+DOMAIN,gog-cdn.akamaized.net
 DOMAIN,google-ohttp-relay-safebrowsing.fastly-edge.com
 DOMAIN,hamivideo.hinet.net
 DOMAIN,hammerandchisel.ssl.zendesk.com

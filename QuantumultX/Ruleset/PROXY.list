@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26766
+# 规则统计: 26768
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -213,6 +213,8 @@ HOST,github-production-repository-image-32fea6.s3.amazonaws.com,PROXY
 HOST,github-production-upload-manifest-file-7fdce7.s3.amazonaws.com,PROXY
 HOST,github-production-user-asset-6210df.s3.amazonaws.com,PROXY
 HOST,gitlab-assets.oss-cn-hongkong.aliyuncs.com,PROXY
+HOST,gog-cdn-lumen.secure2.footprint.net,PROXY
+HOST,gog-cdn.akamaized.net,PROXY
 HOST,google-ohttp-relay-safebrowsing.fastly-edge.com,PROXY
 HOST,hamivideo.hinet.net,PROXY
 HOST,hammerandchisel.ssl.zendesk.com,PROXY
