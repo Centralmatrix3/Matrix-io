@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 112522
+# 规则统计: 112552
 
 HOST,2mdn-cn.net,DIRECT
 HOST,2mdn.net,DIRECT
@@ -42,6 +42,10 @@ HOST,apps5.oingo.com,DIRECT
 HOST,apptrailers.itunes.apple.com,DIRECT
 HOST,auth.music.apple.com,DIRECT
 HOST,avail.googleflights.net,DIRECT
+HOST,azuremigrate.download.prss.microsoft.com,DIRECT
+HOST,azuremigratetest.download.prss.microsoft.com,DIRECT
+HOST,azurestackhub.download.prss.microsoft.com,DIRECT
+HOST,azurestackhubuat.download.prss.microsoft.com,DIRECT
 HOST,b.c2r.ts.cdn.office.net,DIRECT
 HOST,bag-cdn.itunes-apple.com.akadns.net,DIRECT
 HOST,bag.itunes.apple.com,DIRECT
@@ -49,16 +53,14 @@ HOST,beacons.gcp.gvt2.com,DIRECT
 HOST,beacons.gvt2.com,DIRECT
 HOST,beacons2.gvt2.com,DIRECT
 HOST,beacons3.gvt2.com,DIRECT
-HOST,bg.v4.a.dl.ws.microsoft.com,DIRECT
-HOST,bg4.v4.a.dl.ws.microsoft.com,DIRECT
 HOST,bj1.api.bing.com,DIRECT
 HOST,bookkeeper.itunes.apple.com,DIRECT
-HOST,build.microsoft.com,DIRECT
 HOST,c.admob.com,DIRECT
 HOST,c.android.clients.google.com,DIRECT
 HOST,c.pki.goog,DIRECT
 HOST,cache-management-prod.google.com,DIRECT
 HOST,cache.pack.google.com,DIRECT
+HOST,cbdstest.download.prss.microsoft.com,DIRECT
 HOST,cdn-cn.apple-mapkit.com,DIRECT
 HOST,cdn-cn1.apple-mapkit.com,DIRECT
 HOST,cdn-cn2.apple-mapkit.com,DIRECT
@@ -67,7 +69,6 @@ HOST,cdn-cn4.apple-mapkit.com,DIRECT
 HOST,cdn.ampproject.org,DIRECT
 HOST,cdn.apple-mapkit.com,DIRECT
 HOST,cdn.globalsigncdn.com.cdn.cloudflare.net,DIRECT
-HOST,cdn.marketplaceimages.windowsphone.com,DIRECT
 HOST,cdn1.apple-mapkit.com,DIRECT
 HOST,cdn2.apple-mapkit.com,DIRECT
 HOST,cdn3.apple-mapkit.com,DIRECT
@@ -105,6 +106,8 @@ HOST,cn-smp-paymentservices.apple.com,DIRECT
 HOST,cn.download.nvidia.com,DIRECT
 HOST,cn.widevine.com,DIRECT
 HOST,cn.windowssearch.com,DIRECT
+HOST,collaborate.download.prss.microsoft.com,DIRECT
+HOST,collaborateppe.download.prss.microsoft.com,DIRECT
 HOST,communities.apple.com,DIRECT
 HOST,configuration.apple.com,DIRECT
 HOST,configuration.apple.com.akadns.net,DIRECT
@@ -132,7 +135,6 @@ HOST,dc1.ksn.kaspersky-labs.com,DIRECT
 HOST,dd-cdn.origin-apple.com.akadns.net,DIRECT
 HOST,dds.dell.com,DIRECT
 HOST,dejavu.apple.com,DIRECT
-HOST,devblogs.microsoft.com,DIRECT
 HOST,developer.microsoft.com,DIRECT
 HOST,devimages-cdn.apple.com,DIRECT
 HOST,devstreaming-cdn.apple.com,DIRECT
@@ -161,7 +163,6 @@ HOST,dnl-16.geo.kaspersky.com,DIRECT
 HOST,dnl-17.geo.kaspersky.com,DIRECT
 HOST,dnl-18.geo.kaspersky.com,DIRECT
 HOST,dnl-19.geo.kaspersky.com,DIRECT
-HOST,docs.microsoft.com,DIRECT
 HOST,doubleclick-cn.net,DIRECT
 HOST,doubleclick.net,DIRECT
 HOST,download.developer.apple.com,DIRECT
@@ -170,6 +171,8 @@ HOST,download.mlcc.google.com,DIRECT
 HOST,download.tensorflow.google.com,DIRECT
 HOST,download.visualstudio.microsoft.com,DIRECT
 HOST,downloaddispatch.itunes.apple.com,DIRECT
+HOST,dreamspark.download.prss.microsoft.com,DIRECT
+HOST,dreamsparkuat.download.prss.microsoft.com,DIRECT
 HOST,ea2cn-dev-outlet.dell.com,DIRECT
 HOST,ea2cn-prod-outlet.dell.com,DIRECT
 HOST,ea2cn-staging-outlet.dell.com,DIRECT
@@ -185,7 +188,6 @@ HOST,firebase-settings.crashlytics.com,DIRECT
 HOST,fontfiles.googleapis.com,DIRECT
 HOST,fonts.googleapis.com,DIRECT
 HOST,fonts.gstatic.com,DIRECT
-HOST,fs.microsoft.com,DIRECT
 HOST,fta.dell.com,DIRECT
 HOST,ftaapj.dell.com,DIRECT
 HOST,ftaemea.dell.com,DIRECT
@@ -285,6 +287,8 @@ HOST,is4-ssl.mzstatic.com,DIRECT
 HOST,is4.mzstatic.com,DIRECT
 HOST,is5-ssl.mzstatic.com,DIRECT
 HOST,is5.mzstatic.com,DIRECT
+HOST,itacademy.download.prss.microsoft.com,DIRECT
+HOST,itacademyuat.download.prss.microsoft.com,DIRECT
 HOST,itunes-apple.com.akadns.net,DIRECT
 HOST,itunes.apple.com,DIRECT
 HOST,itunesconnect.apple.com,DIRECT
@@ -315,16 +319,25 @@ HOST,ksn-url-geo.kaspersky-labs.com,DIRECT
 HOST,ksn-url.geoksn.kaspersky.com,DIRECT
 HOST,ksn-verdict-geo.kaspersky-labs.com,DIRECT
 HOST,ksn-verdict.geoksn.kaspersky.com,DIRECT
-HOST,learn.microsoft.com,DIRECT
+HOST,lex.download.prss.microsoft.com,DIRECT
+HOST,lexuat.download.prss.microsoft.com,DIRECT
 HOST,lv.queniujq.cn,DIRECT
 HOST,maps.apple.com,DIRECT
+HOST,mbs.download.prss.microsoft.com,DIRECT
 HOST,mdr.ksn.kaspersky-labs.com,DIRECT
+HOST,mensura.cdn-apple.com,DIRECT
 HOST,mesu-cdn.apple.com.akadns.net,DIRECT
 HOST,mesu-china.apple.com.akadns.net,DIRECT
 HOST,mesu.apple.com,DIRECT
 HOST,misc-assets.itunes.apple.com,DIRECT
 HOST,ml.cdn-apple.com,DIRECT
 HOST,moocs.unipus.cn,DIRECT
+HOST,mpnbenefits.download.prss.microsoft.com,DIRECT
+HOST,mpnbenefitsrtl.download.prss.microsoft.com,DIRECT
+HOST,mpnbenefitsrtluat.download.prss.microsoft.com,DIRECT
+HOST,msdn.download.prss.microsoft.com,DIRECT
+HOST,msdprod-ad.download.prss.microsoft.com,DIRECT
+HOST,msproduct.download.prss.microsoft.com,DIRECT
 HOST,music.apple.com,DIRECT
 HOST,musicstatus.music.apple.com,DIRECT
 HOST,mvod.itunes.apple.com,DIRECT
@@ -351,10 +364,14 @@ HOST,ocsp.apple.com,DIRECT
 HOST,ocsp.pki.goog,DIRECT
 HOST,ocsp2.apple.com,DIRECT
 HOST,oemsoc.download.prss.microsoft.com,DIRECT
+HOST,oemsocuat.download.prss.microsoft.com,DIRECT
 HOST,officecdn.microsoft.com,DIRECT
+HOST,officemkt.download.prss.microsoft.com,DIRECT
+HOST,officemktuat.download.prss.microsoft.com,DIRECT
 HOST,opencourse.pku.edu.cn,DIRECT
 HOST,oscdn.apple.com,DIRECT
 HOST,oscdn.origin-apple.com.akadns.net,DIRECT
+HOST,osrelease.download.prss.microsoft.com,DIRECT
 HOST,osxapps.itunes.apple.com,DIRECT
 HOST,osxapps.itunes.g.aaplimg.com,DIRECT
 HOST,p.cdn.persaas.dell.com,DIRECT
@@ -420,8 +437,7 @@ HOST,redirector.offline-maps.gvt1.com,DIRECT
 HOST,redirector.snap.gvt1.com,DIRECT
 HOST,redirector.xn--ngstr-lra8j.com,DIRECT
 HOST,refresh-bkg.activation-v2.kaspersky.com,DIRECT
-HOST,res-1.cdn.office.net,DIRECT
-HOST,res.cdn.office.net,DIRECT
+HOST,rsm.download.prss.microsoft.com,DIRECT
 HOST,s.mzstatic.com,DIRECT
 HOST,s00.upd.kaspersky.com,DIRECT
 HOST,s01.upd.kaspersky.com,DIRECT
@@ -487,6 +503,8 @@ HOST,store.apple.com.edgekey.net,DIRECT
 HOST,store.apple.com.edgekey.net.globalredir.akadns.net,DIRECT
 HOST,store.storeimages.apple.com.akadns.net,DIRECT
 HOST,store.storeimages.cdn-apple.com,DIRECT
+HOST,storecorefulfillment.download.prss.microsoft.com,DIRECT
+HOST,storeedge.microsoft.com,DIRECT
 HOST,storeedgefd.dsx.mp.microsoft.com,DIRECT
 HOST,streamingaudio.itunes.apple.com,DIRECT
 HOST,study.163.com,DIRECT
@@ -494,6 +512,7 @@ HOST,su.itunes.apple.com,DIRECT
 HOST,support-china.apple-support.akadns.net,DIRECT
 HOST,support.apple.com,DIRECT
 HOST,supportassist.dell.com,DIRECT
+HOST,surface.download.prss.microsoft.com,DIRECT
 HOST,surface.downloads.prss.microsoft.com,DIRECT
 HOST,swallow-apple-com.v.aaplimg.com,DIRECT
 HOST,swallow.apple.com,DIRECT
@@ -526,6 +545,8 @@ HOST,uplaypc-s-ubisoft.cdn.ubi.com,DIRECT
 HOST,upp.itunes.apple.com,DIRECT
 HOST,valid.apple.com,DIRECT
 HOST,valid.origin-apple.com.akadns.net,DIRECT
+HOST,vlportal.download.prss.microsoft.com,DIRECT
+HOST,volic.download.prss.microsoft.com,DIRECT
 HOST,vscode.download.prss.microsoft.com,DIRECT
 HOST,vz.download.prss.microsoft.com,DIRECT
 HOST,wear.googleapis.com,DIRECT
@@ -534,8 +555,7 @@ HOST,weather-data.apple.com.akadns.net,DIRECT
 HOST,weather-map.apple.com,DIRECT
 HOST,weather-map2.apple.com,DIRECT
 HOST,weatherkit.apple.com,DIRECT
-HOST,wscont1.apps.microsoft.com,DIRECT
-HOST,wscont2.apps.microsoft.com,DIRECT
+HOST,windbg.download.prss.microsoft.com,DIRECT
 HOST,www-csb.dell.com,DIRECT
 HOST,www-google-analytics.l.google.com,DIRECT
 HOST,www-googletagmanager.l.google.com,DIRECT
@@ -546,7 +566,6 @@ HOST,www.dell.com,DIRECT
 HOST,www.destinationurl.com,DIRECT
 HOST,www.entrust.cn,DIRECT
 HOST,www.gstatic.com,DIRECT
-HOST,www.microsoft.com,DIRECT
 HOST,www.pxcc.com,DIRECT
 HOST,www.recaptcha-cn.net,DIRECT
 HOST,www.recaptcha.net,DIRECT
@@ -14384,6 +14403,7 @@ HOST-SUFFIX,b-fairy.com,DIRECT
 HOST-SUFFIX,b-k-automation.com,DIRECT
 HOST-SUFFIX,b-raymedia.com,DIRECT
 HOST-SUFFIX,b.biz,DIRECT
+HOST-SUFFIX,b.c2r.ts.cdn.office.net,DIRECT
 HOST-SUFFIX,b01.net,DIRECT
 HOST-SUFFIX,b02f0d7f3745ba7c.com,DIRECT
 HOST-SUFFIX,b041e427810281.beer,DIRECT
@@ -31643,6 +31663,7 @@ HOST-SUFFIX,dxlfile.com,DIRECT
 HOST-SUFFIX,dxm-cdn.com,DIRECT
 HOST-SUFFIX,dxm-int.com,DIRECT
 HOST-SUFFIX,dxm-yibai.com,DIRECT
+HOST-SUFFIX,dxmbaoxian.com,DIRECT
 HOST-SUFFIX,dxmjinr.com,DIRECT
 HOST-SUFFIX,dxmjuhe.com,DIRECT
 HOST-SUFFIX,dxmlcf.com,DIRECT
@@ -34162,6 +34183,7 @@ HOST-SUFFIX,f-dou.com,DIRECT
 HOST-SUFFIX,f-insight.com,DIRECT
 HOST-SUFFIX,f-stack.org,DIRECT
 HOST-SUFFIX,f.biz,DIRECT
+HOST-SUFFIX,f.c2r.ts.cdn.office.net,DIRECT
 HOST-SUFFIX,f.cx,DIRECT
 HOST-SUFFIX,f008.com,DIRECT
 HOST-SUFFIX,f015dfc4510292.beer,DIRECT
@@ -65354,6 +65376,7 @@ HOST-SUFFIX,mcool.com,DIRECT
 HOST-SUFFIX,mcpemaster.com,DIRECT
 HOST-SUFFIX,mcpfks.com,DIRECT
 HOST-SUFFIX,mcpmaid.com,DIRECT
+HOST-SUFFIX,mcpworld.com,DIRECT
 HOST-SUFFIX,mcq93.app,DIRECT
 HOST-SUFFIX,mcqy.net,DIRECT
 HOST-SUFFIX,mcsafebox.com,DIRECT
@@ -68322,6 +68345,7 @@ HOST-SUFFIX,myspain.org,DIRECT
 HOST-SUFFIX,mysqil.com,DIRECT
 HOST-SUFFIX,mysql360.com,DIRECT
 HOST-SUFFIX,mysqlab.net,DIRECT
+HOST-SUFFIX,myssl-uri.com,DIRECT
 HOST-SUFFIX,myssl.com,DIRECT
 HOST-SUFFIX,mystarch.com,DIRECT
 HOST-SUFFIX,mysteel.com,DIRECT
@@ -73074,6 +73098,7 @@ HOST-SUFFIX,perfcode.com,DIRECT
 HOST-SUFFIX,perfect-input.com,DIRECT
 HOST-SUFFIX,perfect99.com,DIRECT
 HOST-SUFFIX,perfectdiary.com,DIRECT
+HOST-SUFFIX,perfectlingo.com,DIRECT
 HOST-SUFFIX,perfecttradinghk.com,DIRECT
 HOST-SUFFIX,perfectwatchen.com,DIRECT
 HOST-SUFFIX,perfertw.com,DIRECT
@@ -74504,6 +74529,7 @@ HOST-SUFFIX,pw-partners.com,DIRECT
 HOST-SUFFIX,pw1999.com,DIRECT
 HOST-SUFFIX,pw88.com,DIRECT
 HOST-SUFFIX,pwand.com,DIRECT
+HOST-SUFFIX,pwcinema.com,DIRECT
 HOST-SUFFIX,pwdding.icu,DIRECT
 HOST-SUFFIX,pwithe.com,DIRECT
 HOST-SUFFIX,pwjptdg.xyz,DIRECT
@@ -81660,6 +81686,7 @@ HOST-SUFFIX,shejiyue.com,DIRECT
 HOST-SUFFIX,sheketiandi.com,DIRECT
 HOST-SUFFIX,shekou.com,DIRECT
 HOST-SUFFIX,shelive.net,DIRECT
+HOST-SUFFIX,shell.cdn.office.net,DIRECT
 HOST-SUFFIX,shellpub.com,DIRECT
 HOST-SUFFIX,shellsec.com,DIRECT
 HOST-SUFFIX,shelter-china.com,DIRECT
@@ -85472,6 +85499,7 @@ HOST-SUFFIX,staticfile.net,DIRECT
 HOST-SUFFIX,staticfile.org,DIRECT
 HOST-SUFFIX,statickksmg.com,DIRECT
 HOST-SUFFIX,statics.cc,DIRECT
+HOST-SUFFIX,statics.teams.cdn.office.net,DIRECT
 HOST-SUFFIX,staticsdd.com,DIRECT
 HOST-SUFFIX,staticsoe.com,DIRECT
 HOST-SUFFIX,staticsoem.com,DIRECT
@@ -86176,6 +86204,7 @@ HOST-SUFFIX,suqun-group.com,DIRECT
 HOST-SUFFIX,surely.cool,DIRECT
 HOST-SUFFIX,surerp.com,DIRECT
 HOST-SUFFIX,surface.download.prss.microsoft.com,DIRECT
+HOST-SUFFIX,surface.downloads.prss.microsoft.com,DIRECT
 HOST-SUFFIX,surfacetreatmentgroup.com,DIRECT
 HOST-SUFFIX,surfacetreatmenttechnology.com,DIRECT
 HOST-SUFFIX,surfcg.com,DIRECT
@@ -91119,6 +91148,7 @@ HOST-SUFFIX,trust-one.com,DIRECT
 HOST-SUFFIX,trust400.com,DIRECT
 HOST-SUFFIX,trusta-lawyer.com,DIRECT
 HOST-SUFFIX,trustasia.com,DIRECT
+HOST-SUFFIX,trustasia.net,DIRECT
 HOST-SUFFIX,trustcn.com,DIRECT
 HOST-SUFFIX,trustdecision.com,DIRECT
 HOST-SUFFIX,trustedsign.com,DIRECT

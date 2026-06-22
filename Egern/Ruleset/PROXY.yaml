@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26768
+# 规则统计: 26771
 
 domain_set:
   - 1password.drift.click
@@ -717,6 +717,7 @@ domain_set:
   - wwis-dubc1-vip98.adobe.com
   - wwis-dubc1-vip99.adobe.com
   - www-cdn.icloud.com.akadns.net
+  - www.microsoft.com
   - www.quora.com.cdn.cloudflare.net
   - yangzhi.app
   - yt3.googleusercontent.com
@@ -10702,8 +10703,10 @@ domain_suffix_set:
   - gofucker.com
   - gofuckmenow.com
   - gofundme.com
+  - gog-services.com
   - gog-statics.com
   - gog.com
+  - gogalaxy.com
   - gogettaxi.org
   - gogle.com
   - gogo-load.com

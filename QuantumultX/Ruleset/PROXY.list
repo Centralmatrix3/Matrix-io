@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26768
+# 规则统计: 26771
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -716,6 +716,7 @@ HOST,wwis-dubc1-vip97.adobe.com,PROXY
 HOST,wwis-dubc1-vip98.adobe.com,PROXY
 HOST,wwis-dubc1-vip99.adobe.com,PROXY
 HOST,www-cdn.icloud.com.akadns.net,PROXY
+HOST,www.microsoft.com,PROXY
 HOST,www.quora.com.cdn.cloudflare.net,PROXY
 HOST,yangzhi.app,PROXY
 HOST,yt3.googleusercontent.com,PROXY
@@ -10700,8 +10701,10 @@ HOST-SUFFIX,gofile.me,PROXY
 HOST-SUFFIX,gofucker.com,PROXY
 HOST-SUFFIX,gofuckmenow.com,PROXY
 HOST-SUFFIX,gofundme.com,PROXY
+HOST-SUFFIX,gog-services.com,PROXY
 HOST-SUFFIX,gog-statics.com,PROXY
 HOST-SUFFIX,gog.com,PROXY
+HOST-SUFFIX,gogalaxy.com,PROXY
 HOST-SUFFIX,gogettaxi.org,PROXY
 HOST-SUFFIX,gogle.com,PROXY
 HOST-SUFFIX,gogo-load.com,PROXY

@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 112522
+# 规则统计: 112552
 
 DOMAIN,2mdn-cn.net
 DOMAIN,2mdn.net
@@ -42,6 +42,10 @@ DOMAIN,apps5.oingo.com
 DOMAIN,apptrailers.itunes.apple.com
 DOMAIN,auth.music.apple.com
 DOMAIN,avail.googleflights.net
+DOMAIN,azuremigrate.download.prss.microsoft.com
+DOMAIN,azuremigratetest.download.prss.microsoft.com
+DOMAIN,azurestackhub.download.prss.microsoft.com
+DOMAIN,azurestackhubuat.download.prss.microsoft.com
 DOMAIN,b.c2r.ts.cdn.office.net
 DOMAIN,bag-cdn.itunes-apple.com.akadns.net
 DOMAIN,bag.itunes.apple.com
@@ -49,16 +53,14 @@ DOMAIN,beacons.gcp.gvt2.com
 DOMAIN,beacons.gvt2.com
 DOMAIN,beacons2.gvt2.com
 DOMAIN,beacons3.gvt2.com
-DOMAIN,bg.v4.a.dl.ws.microsoft.com
-DOMAIN,bg4.v4.a.dl.ws.microsoft.com
 DOMAIN,bj1.api.bing.com
 DOMAIN,bookkeeper.itunes.apple.com
-DOMAIN,build.microsoft.com
 DOMAIN,c.admob.com
 DOMAIN,c.android.clients.google.com
 DOMAIN,c.pki.goog
 DOMAIN,cache-management-prod.google.com
 DOMAIN,cache.pack.google.com
+DOMAIN,cbdstest.download.prss.microsoft.com
 DOMAIN,cdn-cn.apple-mapkit.com
 DOMAIN,cdn-cn1.apple-mapkit.com
 DOMAIN,cdn-cn2.apple-mapkit.com
@@ -67,7 +69,6 @@ DOMAIN,cdn-cn4.apple-mapkit.com
 DOMAIN,cdn.ampproject.org
 DOMAIN,cdn.apple-mapkit.com
 DOMAIN,cdn.globalsigncdn.com.cdn.cloudflare.net
-DOMAIN,cdn.marketplaceimages.windowsphone.com
 DOMAIN,cdn1.apple-mapkit.com
 DOMAIN,cdn2.apple-mapkit.com
 DOMAIN,cdn3.apple-mapkit.com
@@ -105,6 +106,8 @@ DOMAIN,cn-smp-paymentservices.apple.com
 DOMAIN,cn.download.nvidia.com
 DOMAIN,cn.widevine.com
 DOMAIN,cn.windowssearch.com
+DOMAIN,collaborate.download.prss.microsoft.com
+DOMAIN,collaborateppe.download.prss.microsoft.com
 DOMAIN,communities.apple.com
 DOMAIN,configuration.apple.com
 DOMAIN,configuration.apple.com.akadns.net
@@ -132,7 +135,6 @@ DOMAIN,dc1.ksn.kaspersky-labs.com
 DOMAIN,dd-cdn.origin-apple.com.akadns.net
 DOMAIN,dds.dell.com
 DOMAIN,dejavu.apple.com
-DOMAIN,devblogs.microsoft.com
 DOMAIN,developer.microsoft.com
 DOMAIN,devimages-cdn.apple.com
 DOMAIN,devstreaming-cdn.apple.com
@@ -161,7 +163,6 @@ DOMAIN,dnl-16.geo.kaspersky.com
 DOMAIN,dnl-17.geo.kaspersky.com
 DOMAIN,dnl-18.geo.kaspersky.com
 DOMAIN,dnl-19.geo.kaspersky.com
-DOMAIN,docs.microsoft.com
 DOMAIN,doubleclick-cn.net
 DOMAIN,doubleclick.net
 DOMAIN,download.developer.apple.com
@@ -170,6 +171,8 @@ DOMAIN,download.mlcc.google.com
 DOMAIN,download.tensorflow.google.com
 DOMAIN,download.visualstudio.microsoft.com
 DOMAIN,downloaddispatch.itunes.apple.com
+DOMAIN,dreamspark.download.prss.microsoft.com
+DOMAIN,dreamsparkuat.download.prss.microsoft.com
 DOMAIN,ea2cn-dev-outlet.dell.com
 DOMAIN,ea2cn-prod-outlet.dell.com
 DOMAIN,ea2cn-staging-outlet.dell.com
@@ -185,7 +188,6 @@ DOMAIN,firebase-settings.crashlytics.com
 DOMAIN,fontfiles.googleapis.com
 DOMAIN,fonts.googleapis.com
 DOMAIN,fonts.gstatic.com
-DOMAIN,fs.microsoft.com
 DOMAIN,fta.dell.com
 DOMAIN,ftaapj.dell.com
 DOMAIN,ftaemea.dell.com
@@ -285,6 +287,8 @@ DOMAIN,is4-ssl.mzstatic.com
 DOMAIN,is4.mzstatic.com
 DOMAIN,is5-ssl.mzstatic.com
 DOMAIN,is5.mzstatic.com
+DOMAIN,itacademy.download.prss.microsoft.com
+DOMAIN,itacademyuat.download.prss.microsoft.com
 DOMAIN,itunes-apple.com.akadns.net
 DOMAIN,itunes.apple.com
 DOMAIN,itunesconnect.apple.com
@@ -315,16 +319,25 @@ DOMAIN,ksn-url-geo.kaspersky-labs.com
 DOMAIN,ksn-url.geoksn.kaspersky.com
 DOMAIN,ksn-verdict-geo.kaspersky-labs.com
 DOMAIN,ksn-verdict.geoksn.kaspersky.com
-DOMAIN,learn.microsoft.com
+DOMAIN,lex.download.prss.microsoft.com
+DOMAIN,lexuat.download.prss.microsoft.com
 DOMAIN,lv.queniujq.cn
 DOMAIN,maps.apple.com
+DOMAIN,mbs.download.prss.microsoft.com
 DOMAIN,mdr.ksn.kaspersky-labs.com
+DOMAIN,mensura.cdn-apple.com
 DOMAIN,mesu-cdn.apple.com.akadns.net
 DOMAIN,mesu-china.apple.com.akadns.net
 DOMAIN,mesu.apple.com
 DOMAIN,misc-assets.itunes.apple.com
 DOMAIN,ml.cdn-apple.com
 DOMAIN,moocs.unipus.cn
+DOMAIN,mpnbenefits.download.prss.microsoft.com
+DOMAIN,mpnbenefitsrtl.download.prss.microsoft.com
+DOMAIN,mpnbenefitsrtluat.download.prss.microsoft.com
+DOMAIN,msdn.download.prss.microsoft.com
+DOMAIN,msdprod-ad.download.prss.microsoft.com
+DOMAIN,msproduct.download.prss.microsoft.com
 DOMAIN,music.apple.com
 DOMAIN,musicstatus.music.apple.com
 DOMAIN,mvod.itunes.apple.com
@@ -351,10 +364,14 @@ DOMAIN,ocsp.apple.com
 DOMAIN,ocsp.pki.goog
 DOMAIN,ocsp2.apple.com
 DOMAIN,oemsoc.download.prss.microsoft.com
+DOMAIN,oemsocuat.download.prss.microsoft.com
 DOMAIN,officecdn.microsoft.com
+DOMAIN,officemkt.download.prss.microsoft.com
+DOMAIN,officemktuat.download.prss.microsoft.com
 DOMAIN,opencourse.pku.edu.cn
 DOMAIN,oscdn.apple.com
 DOMAIN,oscdn.origin-apple.com.akadns.net
+DOMAIN,osrelease.download.prss.microsoft.com
 DOMAIN,osxapps.itunes.apple.com
 DOMAIN,osxapps.itunes.g.aaplimg.com
 DOMAIN,p.cdn.persaas.dell.com
@@ -420,8 +437,7 @@ DOMAIN,redirector.offline-maps.gvt1.com
 DOMAIN,redirector.snap.gvt1.com
 DOMAIN,redirector.xn--ngstr-lra8j.com
 DOMAIN,refresh-bkg.activation-v2.kaspersky.com
-DOMAIN,res-1.cdn.office.net
-DOMAIN,res.cdn.office.net
+DOMAIN,rsm.download.prss.microsoft.com
 DOMAIN,s.mzstatic.com
 DOMAIN,s00.upd.kaspersky.com
 DOMAIN,s01.upd.kaspersky.com
@@ -487,6 +503,8 @@ DOMAIN,store.apple.com.edgekey.net
 DOMAIN,store.apple.com.edgekey.net.globalredir.akadns.net
 DOMAIN,store.storeimages.apple.com.akadns.net
 DOMAIN,store.storeimages.cdn-apple.com
+DOMAIN,storecorefulfillment.download.prss.microsoft.com
+DOMAIN,storeedge.microsoft.com
 DOMAIN,storeedgefd.dsx.mp.microsoft.com
 DOMAIN,streamingaudio.itunes.apple.com
 DOMAIN,study.163.com
@@ -494,6 +512,7 @@ DOMAIN,su.itunes.apple.com
 DOMAIN,support-china.apple-support.akadns.net
 DOMAIN,support.apple.com
 DOMAIN,supportassist.dell.com
+DOMAIN,surface.download.prss.microsoft.com
 DOMAIN,surface.downloads.prss.microsoft.com
 DOMAIN,swallow-apple-com.v.aaplimg.com
 DOMAIN,swallow.apple.com
@@ -526,6 +545,8 @@ DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com
 DOMAIN,upp.itunes.apple.com
 DOMAIN,valid.apple.com
 DOMAIN,valid.origin-apple.com.akadns.net
+DOMAIN,vlportal.download.prss.microsoft.com
+DOMAIN,volic.download.prss.microsoft.com
 DOMAIN,vscode.download.prss.microsoft.com
 DOMAIN,vz.download.prss.microsoft.com
 DOMAIN,wear.googleapis.com
@@ -534,8 +555,7 @@ DOMAIN,weather-data.apple.com.akadns.net
 DOMAIN,weather-map.apple.com
 DOMAIN,weather-map2.apple.com
 DOMAIN,weatherkit.apple.com
-DOMAIN,wscont1.apps.microsoft.com
-DOMAIN,wscont2.apps.microsoft.com
+DOMAIN,windbg.download.prss.microsoft.com
 DOMAIN,www-csb.dell.com
 DOMAIN,www-google-analytics.l.google.com
 DOMAIN,www-googletagmanager.l.google.com
@@ -546,7 +566,6 @@ DOMAIN,www.dell.com
 DOMAIN,www.destinationurl.com
 DOMAIN,www.entrust.cn
 DOMAIN,www.gstatic.com
-DOMAIN,www.microsoft.com
 DOMAIN,www.pxcc.com
 DOMAIN,www.recaptcha-cn.net
 DOMAIN,www.recaptcha.net
@@ -14384,6 +14403,7 @@ DOMAIN-SUFFIX,b-fairy.com
 DOMAIN-SUFFIX,b-k-automation.com
 DOMAIN-SUFFIX,b-raymedia.com
 DOMAIN-SUFFIX,b.biz
+DOMAIN-SUFFIX,b.c2r.ts.cdn.office.net
 DOMAIN-SUFFIX,b01.net
 DOMAIN-SUFFIX,b02f0d7f3745ba7c.com
 DOMAIN-SUFFIX,b041e427810281.beer
@@ -31643,6 +31663,7 @@ DOMAIN-SUFFIX,dxlfile.com
 DOMAIN-SUFFIX,dxm-cdn.com
 DOMAIN-SUFFIX,dxm-int.com
 DOMAIN-SUFFIX,dxm-yibai.com
+DOMAIN-SUFFIX,dxmbaoxian.com
 DOMAIN-SUFFIX,dxmjinr.com
 DOMAIN-SUFFIX,dxmjuhe.com
 DOMAIN-SUFFIX,dxmlcf.com
@@ -34162,6 +34183,7 @@ DOMAIN-SUFFIX,f-dou.com
 DOMAIN-SUFFIX,f-insight.com
 DOMAIN-SUFFIX,f-stack.org
 DOMAIN-SUFFIX,f.biz
+DOMAIN-SUFFIX,f.c2r.ts.cdn.office.net
 DOMAIN-SUFFIX,f.cx
 DOMAIN-SUFFIX,f008.com
 DOMAIN-SUFFIX,f015dfc4510292.beer
@@ -65354,6 +65376,7 @@ DOMAIN-SUFFIX,mcool.com
 DOMAIN-SUFFIX,mcpemaster.com
 DOMAIN-SUFFIX,mcpfks.com
 DOMAIN-SUFFIX,mcpmaid.com
+DOMAIN-SUFFIX,mcpworld.com
 DOMAIN-SUFFIX,mcq93.app
 DOMAIN-SUFFIX,mcqy.net
 DOMAIN-SUFFIX,mcsafebox.com
@@ -68322,6 +68345,7 @@ DOMAIN-SUFFIX,myspain.org
 DOMAIN-SUFFIX,mysqil.com
 DOMAIN-SUFFIX,mysql360.com
 DOMAIN-SUFFIX,mysqlab.net
+DOMAIN-SUFFIX,myssl-uri.com
 DOMAIN-SUFFIX,myssl.com
 DOMAIN-SUFFIX,mystarch.com
 DOMAIN-SUFFIX,mysteel.com
@@ -73074,6 +73098,7 @@ DOMAIN-SUFFIX,perfcode.com
 DOMAIN-SUFFIX,perfect-input.com
 DOMAIN-SUFFIX,perfect99.com
 DOMAIN-SUFFIX,perfectdiary.com
+DOMAIN-SUFFIX,perfectlingo.com
 DOMAIN-SUFFIX,perfecttradinghk.com
 DOMAIN-SUFFIX,perfectwatchen.com
 DOMAIN-SUFFIX,perfertw.com
@@ -74504,6 +74529,7 @@ DOMAIN-SUFFIX,pw-partners.com
 DOMAIN-SUFFIX,pw1999.com
 DOMAIN-SUFFIX,pw88.com
 DOMAIN-SUFFIX,pwand.com
+DOMAIN-SUFFIX,pwcinema.com
 DOMAIN-SUFFIX,pwdding.icu
 DOMAIN-SUFFIX,pwithe.com
 DOMAIN-SUFFIX,pwjptdg.xyz
@@ -81660,6 +81686,7 @@ DOMAIN-SUFFIX,shejiyue.com
 DOMAIN-SUFFIX,sheketiandi.com
 DOMAIN-SUFFIX,shekou.com
 DOMAIN-SUFFIX,shelive.net
+DOMAIN-SUFFIX,shell.cdn.office.net
 DOMAIN-SUFFIX,shellpub.com
 DOMAIN-SUFFIX,shellsec.com
 DOMAIN-SUFFIX,shelter-china.com
@@ -85472,6 +85499,7 @@ DOMAIN-SUFFIX,staticfile.net
 DOMAIN-SUFFIX,staticfile.org
 DOMAIN-SUFFIX,statickksmg.com
 DOMAIN-SUFFIX,statics.cc
+DOMAIN-SUFFIX,statics.teams.cdn.office.net
 DOMAIN-SUFFIX,staticsdd.com
 DOMAIN-SUFFIX,staticsoe.com
 DOMAIN-SUFFIX,staticsoem.com
@@ -86176,6 +86204,7 @@ DOMAIN-SUFFIX,suqun-group.com
 DOMAIN-SUFFIX,surely.cool
 DOMAIN-SUFFIX,surerp.com
 DOMAIN-SUFFIX,surface.download.prss.microsoft.com
+DOMAIN-SUFFIX,surface.downloads.prss.microsoft.com
 DOMAIN-SUFFIX,surfacetreatmentgroup.com
 DOMAIN-SUFFIX,surfacetreatmenttechnology.com
 DOMAIN-SUFFIX,surfcg.com
@@ -91119,6 +91148,7 @@ DOMAIN-SUFFIX,trust-one.com
 DOMAIN-SUFFIX,trust400.com
 DOMAIN-SUFFIX,trusta-lawyer.com
 DOMAIN-SUFFIX,trustasia.com
+DOMAIN-SUFFIX,trustasia.net
 DOMAIN-SUFFIX,trustcn.com
 DOMAIN-SUFFIX,trustdecision.com
 DOMAIN-SUFFIX,trustedsign.com
