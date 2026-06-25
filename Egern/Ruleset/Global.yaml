@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7445
+# 规则统计: 7446
 
 no_resolve: true
 domain_set:
@@ -2399,6 +2399,7 @@ domain_suffix_set:
   - geph.io
   - gerefoundation.org
   - get.app
+  - get.dappcdn.com
   - get.dev
   - get.how
   - get.page

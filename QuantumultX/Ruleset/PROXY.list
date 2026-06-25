@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26782
+# 规则统计: 26783
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -10385,6 +10385,7 @@ HOST-SUFFIX,geraldoatlarge.com,PROXY
 HOST-SUFFIX,gerritcodereview.com,PROXY
 HOST-SUFFIX,gesoten.com,PROXY
 HOST-SUFFIX,get.app,PROXY
+HOST-SUFFIX,get.dappcdn.com,PROXY
 HOST-SUFFIX,get.dev,PROXY
 HOST-SUFFIX,get.how,PROXY
 HOST-SUFFIX,get.new,PROXY

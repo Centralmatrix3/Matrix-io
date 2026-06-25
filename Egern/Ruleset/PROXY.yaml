@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26782
+# 规则统计: 26783
 
 domain_set:
   - 1password.drift.click
@@ -10387,6 +10387,7 @@ domain_suffix_set:
   - gerritcodereview.com
   - gesoten.com
   - get.app
+  - get.dappcdn.com
   - get.dev
   - get.how
   - get.new

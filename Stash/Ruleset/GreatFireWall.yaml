@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 4341
+# 规则统计: 4342
 
 payload:
   - '+.000webhost.com'
@@ -1427,6 +1427,7 @@ payload:
   - '+.genius.com'
   - '+.geph.io'
   - '+.get.app'
+  - '+.get.dappcdn.com'
   - '+.get.dev'
   - '+.get.how'
   - '+.get.page'

@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 4341
+# 规则统计: 4342
 
 HOST-SUFFIX,000webhost.com,GreatFireWall
 HOST-SUFFIX,0rz.tw,GreatFireWall
@@ -1426,6 +1426,7 @@ HOST-SUFFIX,generated.photos,GreatFireWall
 HOST-SUFFIX,genius.com,GreatFireWall
 HOST-SUFFIX,geph.io,GreatFireWall
 HOST-SUFFIX,get.app,GreatFireWall
+HOST-SUFFIX,get.dappcdn.com,GreatFireWall
 HOST-SUFFIX,get.dev,GreatFireWall
 HOST-SUFFIX,get.how,GreatFireWall
 HOST-SUFFIX,get.page,GreatFireWall
