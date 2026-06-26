@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 34754
+# 规则统计: 34765
 
 no_resolve: true
 domain_set:
@@ -37,7 +37,6 @@ domain_set:
   - crl.versign.net
   - databank.worldbank.org
   - datarouter.apps.netherrealm.com
-  - default.exp-tas.com
   - deutschewelle.h-cdn.com
   - dl.begellhouse.com
   - ea.tt.omtrdc.net
@@ -1804,6 +1803,7 @@ domain_suffix_set:
   - allswingersclubs.org
   - allthefallen.moe
   - alma.ac.uk
+  - almalinux.org
   - almasdarnews.com
   - almcollege.ac.uk
   - almostmy.com
@@ -5772,6 +5772,7 @@ domain_suffix_set:
   - bustyoldsluts.com
   - bustysammieblack.com
   - busu.org
+  - busybox.net
   - busytrade.com
   - butex.ac.uk
   - buugaa.com
@@ -10610,6 +10611,7 @@ domain_suffix_set:
   - exondomesday.ac.uk
   - exotic-ghana.com
   - exoticuganda.com
+  - exp-tas.com
   - expatshield.com
   - expecthim.com
   - expekt.com
@@ -12623,6 +12625,7 @@ domain_suffix_set:
   - gesoten.com
   - gesource.ac.uk
   - get.app
+  - get.dappcdn.com
   - get.dev
   - get.how
   - get.new
@@ -12820,6 +12823,7 @@ domain_suffix_set:
   - githack.com
   - github.ai
   - github.blog
+  - github.career
   - github.com
   - github.community
   - github.dev
@@ -18122,6 +18126,7 @@ domain_suffix_set:
   - life.ac.uk
   - lifearc.ac.uk
   - lifeatkings.ac.uk
+  - lifeatspotify.com
   - lifelab.ac.uk
   - lifelonglearning.ac.uk
   - lifemiles.com
@@ -18929,6 +18934,7 @@ domain_suffix_set:
   - maniakey.homes
   - maniash.com
   - manicur4ik.ru
+  - manjaro.org
   - manlitphil.ac.uk
   - manorama.com
   - manoramanews.com
@@ -25669,6 +25675,7 @@ domain_suffix_set:
   - rocksextube.com
   - rockstargames.com
   - rockstarnorth.com
+  - rockylinux.org
   - roco.qq.com
   - rodbaston.ac.uk
   - roe.ac.uk
@@ -27858,6 +27865,7 @@ domain_suffix_set:
   - spotifycharts.com
   - spotifycodes.com
   - spotifyforbrands.com
+  - spotifyforvendors.com
   - spotifyjobs.com
   - spr.ac.uk
   - spraynwash.com
@@ -31981,7 +31989,10 @@ domain_suffix_set:
   - vsco.co
   - vscode-cdn.net
   - vscode-unpkg.net
+  - vscode-webview.net
   - vscode.dev
+  - vscodeedu.app
+  - vscodeedu.com
   - vsemrabota.ru
   - vsex.in
   - vsezoo.com

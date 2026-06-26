@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 34754
+# 规则统计: 34765
 
 payload:
   - DOMAIN,1password.drift.click
@@ -36,7 +36,6 @@ payload:
   - DOMAIN,crl.versign.net
   - DOMAIN,databank.worldbank.org
   - DOMAIN,datarouter.apps.netherrealm.com
-  - DOMAIN,default.exp-tas.com
   - DOMAIN,deutschewelle.h-cdn.com
   - DOMAIN,dl.begellhouse.com
   - DOMAIN,ea.tt.omtrdc.net
@@ -1802,6 +1801,7 @@ payload:
   - DOMAIN-SUFFIX,allswingersclubs.org
   - DOMAIN-SUFFIX,allthefallen.moe
   - DOMAIN-SUFFIX,alma.ac.uk
+  - DOMAIN-SUFFIX,almalinux.org
   - DOMAIN-SUFFIX,almasdarnews.com
   - DOMAIN-SUFFIX,almcollege.ac.uk
   - DOMAIN-SUFFIX,almostmy.com
@@ -5770,6 +5770,7 @@ payload:
   - DOMAIN-SUFFIX,bustyoldsluts.com
   - DOMAIN-SUFFIX,bustysammieblack.com
   - DOMAIN-SUFFIX,busu.org
+  - DOMAIN-SUFFIX,busybox.net
   - DOMAIN-SUFFIX,busytrade.com
   - DOMAIN-SUFFIX,butex.ac.uk
   - DOMAIN-SUFFIX,buugaa.com
@@ -10608,6 +10609,7 @@ payload:
   - DOMAIN-SUFFIX,exondomesday.ac.uk
   - DOMAIN-SUFFIX,exotic-ghana.com
   - DOMAIN-SUFFIX,exoticuganda.com
+  - DOMAIN-SUFFIX,exp-tas.com
   - DOMAIN-SUFFIX,expatshield.com
   - DOMAIN-SUFFIX,expecthim.com
   - DOMAIN-SUFFIX,expekt.com
@@ -12621,6 +12623,7 @@ payload:
   - DOMAIN-SUFFIX,gesoten.com
   - DOMAIN-SUFFIX,gesource.ac.uk
   - DOMAIN-SUFFIX,get.app
+  - DOMAIN-SUFFIX,get.dappcdn.com
   - DOMAIN-SUFFIX,get.dev
   - DOMAIN-SUFFIX,get.how
   - DOMAIN-SUFFIX,get.new
@@ -12818,6 +12821,7 @@ payload:
   - DOMAIN-SUFFIX,githack.com
   - DOMAIN-SUFFIX,github.ai
   - DOMAIN-SUFFIX,github.blog
+  - DOMAIN-SUFFIX,github.career
   - DOMAIN-SUFFIX,github.com
   - DOMAIN-SUFFIX,github.community
   - DOMAIN-SUFFIX,github.dev
@@ -18120,6 +18124,7 @@ payload:
   - DOMAIN-SUFFIX,life.ac.uk
   - DOMAIN-SUFFIX,lifearc.ac.uk
   - DOMAIN-SUFFIX,lifeatkings.ac.uk
+  - DOMAIN-SUFFIX,lifeatspotify.com
   - DOMAIN-SUFFIX,lifelab.ac.uk
   - DOMAIN-SUFFIX,lifelonglearning.ac.uk
   - DOMAIN-SUFFIX,lifemiles.com
@@ -18927,6 +18932,7 @@ payload:
   - DOMAIN-SUFFIX,maniakey.homes
   - DOMAIN-SUFFIX,maniash.com
   - DOMAIN-SUFFIX,manicur4ik.ru
+  - DOMAIN-SUFFIX,manjaro.org
   - DOMAIN-SUFFIX,manlitphil.ac.uk
   - DOMAIN-SUFFIX,manorama.com
   - DOMAIN-SUFFIX,manoramanews.com
@@ -25667,6 +25673,7 @@ payload:
   - DOMAIN-SUFFIX,rocksextube.com
   - DOMAIN-SUFFIX,rockstargames.com
   - DOMAIN-SUFFIX,rockstarnorth.com
+  - DOMAIN-SUFFIX,rockylinux.org
   - DOMAIN-SUFFIX,roco.qq.com
   - DOMAIN-SUFFIX,rodbaston.ac.uk
   - DOMAIN-SUFFIX,roe.ac.uk
@@ -27856,6 +27863,7 @@ payload:
   - DOMAIN-SUFFIX,spotifycharts.com
   - DOMAIN-SUFFIX,spotifycodes.com
   - DOMAIN-SUFFIX,spotifyforbrands.com
+  - DOMAIN-SUFFIX,spotifyforvendors.com
   - DOMAIN-SUFFIX,spotifyjobs.com
   - DOMAIN-SUFFIX,spr.ac.uk
   - DOMAIN-SUFFIX,spraynwash.com
@@ -31979,7 +31987,10 @@ payload:
   - DOMAIN-SUFFIX,vsco.co
   - DOMAIN-SUFFIX,vscode-cdn.net
   - DOMAIN-SUFFIX,vscode-unpkg.net
+  - DOMAIN-SUFFIX,vscode-webview.net
   - DOMAIN-SUFFIX,vscode.dev
+  - DOMAIN-SUFFIX,vscodeedu.app
+  - DOMAIN-SUFFIX,vscodeedu.com
   - DOMAIN-SUFFIX,vsemrabota.ru
   - DOMAIN-SUFFIX,vsex.in
   - DOMAIN-SUFFIX,vsezoo.com

@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7446
+# 规则统计: 7447
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -1393,6 +1393,7 @@ payload:
   - DOMAIN-SUFFIX,crbug.com
   - DOMAIN-SUFFIX,crchina.org
   - DOMAIN-SUFFIX,crd-net.org
+  - DOMAIN-SUFFIX,creader.com
   - DOMAIN-SUFFIX,creaders.net
   - DOMAIN-SUFFIX,creadersnet.com
   - DOMAIN-SUFFIX,creativelab5.com

@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 4342
+# 规则统计: 4343
 
 domain_suffix_set:
   - 000webhost.com
@@ -874,6 +874,7 @@ domain_suffix_set:
   - crazyshit.com
   - crbug.com
   - crchina.org
+  - creader.com
   - creaders.net
   - creativelab5.com
   - cristyli.com

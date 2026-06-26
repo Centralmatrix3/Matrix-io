@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 112448
+# 规则统计: 112452
 
 HOST,2mdn-cn.net,DIRECT
 HOST,2mdn.net,DIRECT
@@ -8,6 +8,7 @@ HOST,a2.mzstatic.com,DIRECT
 HOST,a3.mzstatic.com,DIRECT
 HOST,a4.mzstatic.com,DIRECT
 HOST,a5.mzstatic.com,DIRECT
+HOST,account-cn.alibabacloud.com,DIRECT
 HOST,activate.activation-v2.kaspersky.com,DIRECT
 HOST,activation-v2.geo.kaspersky.com,DIRECT
 HOST,activation-v2.kaspersky.com,DIRECT
@@ -30,6 +31,7 @@ HOST,amp-api.music.apple.com,DIRECT
 HOST,aod-ssl.itunes.apple.com,DIRECT
 HOST,aod.itunes.apple.com,DIRECT
 HOST,api-edge.apps.apple.com,DIRECT
+HOST,api.alibabacloud.com,DIRECT
 HOST,app-analytics-services.com,DIRECT
 HOST,app-measurement-cn.com,DIRECT
 HOST,app-measurement.com,DIRECT
@@ -103,6 +105,7 @@ HOST,clientperipherals.dell.com,DIRECT
 HOST,clientservices.googleapis.com,DIRECT
 HOST,cma.itunes.apple.com,DIRECT
 HOST,cn-smp-paymentservices.apple.com,DIRECT
+HOST,cn.alibabacloud.com,DIRECT
 HOST,cn.download.nvidia.com,DIRECT
 HOST,cn.widevine.com,DIRECT
 HOST,cn.windowssearch.com,DIRECT
@@ -496,6 +499,7 @@ HOST,staging-databe.floonet.goog,DIRECT
 HOST,staging.databe.floonet.goog,DIRECT
 HOST,static.gc.apple.com,DIRECT
 HOST,statics.teams.cdn.office.net,DIRECT
+HOST,status.alibabacloud.com,DIRECT
 HOST,stocks-sparkline-lb.apple.com.akadns.net,DIRECT
 HOST,stocks-sparkline.apple.com,DIRECT
 HOST,store.apple.com,DIRECT

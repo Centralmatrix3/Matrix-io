@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 4342
+# 规则统计: 4343
 
 payload:
   - '+.000webhost.com'
@@ -874,6 +874,7 @@ payload:
   - '+.crazyshit.com'
   - '+.crbug.com'
   - '+.crchina.org'
+  - '+.creader.com'
   - '+.creaders.net'
   - '+.creativelab5.com'
   - '+.cristyli.com'

@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 112448
+# 规则统计: 112452
 
 payload:
   - '2mdn-cn.net'
@@ -9,6 +9,7 @@ payload:
   - 'a3.mzstatic.com'
   - 'a4.mzstatic.com'
   - 'a5.mzstatic.com'
+  - 'account-cn.alibabacloud.com'
   - 'activate.activation-v2.kaspersky.com'
   - 'activation-v2.geo.kaspersky.com'
   - 'activation-v2.kaspersky.com'
@@ -31,6 +32,7 @@ payload:
   - 'aod-ssl.itunes.apple.com'
   - 'aod.itunes.apple.com'
   - 'api-edge.apps.apple.com'
+  - 'api.alibabacloud.com'
   - 'app-analytics-services.com'
   - 'app-measurement-cn.com'
   - 'app-measurement.com'
@@ -104,6 +106,7 @@ payload:
   - 'clientservices.googleapis.com'
   - 'cma.itunes.apple.com'
   - 'cn-smp-paymentservices.apple.com'
+  - 'cn.alibabacloud.com'
   - 'cn.download.nvidia.com'
   - 'cn.widevine.com'
   - 'cn.windowssearch.com'
@@ -497,6 +500,7 @@ payload:
   - 'staging.databe.floonet.goog'
   - 'static.gc.apple.com'
   - 'statics.teams.cdn.office.net'
+  - 'status.alibabacloud.com'
   - 'stocks-sparkline-lb.apple.com.akadns.net'
   - 'stocks-sparkline.apple.com'
   - 'store.apple.com'

@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 34754
+# 规则统计: 34765
 
 HOST,1password.drift.click,GlobalMax
 HOST,adobeereg.com,GlobalMax
@@ -35,7 +35,6 @@ HOST,courier-push-apple.com.akadns.net,GlobalMax
 HOST,crl.versign.net,GlobalMax
 HOST,databank.worldbank.org,GlobalMax
 HOST,datarouter.apps.netherrealm.com,GlobalMax
-HOST,default.exp-tas.com,GlobalMax
 HOST,deutschewelle.h-cdn.com,GlobalMax
 HOST,dl.begellhouse.com,GlobalMax
 HOST,ea.tt.omtrdc.net,GlobalMax
@@ -1801,6 +1800,7 @@ HOST-SUFFIX,allspyclips.com,GlobalMax
 HOST-SUFFIX,allswingersclubs.org,GlobalMax
 HOST-SUFFIX,allthefallen.moe,GlobalMax
 HOST-SUFFIX,alma.ac.uk,GlobalMax
+HOST-SUFFIX,almalinux.org,GlobalMax
 HOST-SUFFIX,almasdarnews.com,GlobalMax
 HOST-SUFFIX,almcollege.ac.uk,GlobalMax
 HOST-SUFFIX,almostmy.com,GlobalMax
@@ -5769,6 +5769,7 @@ HOST-SUFFIX,bustynudebabes.com,GlobalMax
 HOST-SUFFIX,bustyoldsluts.com,GlobalMax
 HOST-SUFFIX,bustysammieblack.com,GlobalMax
 HOST-SUFFIX,busu.org,GlobalMax
+HOST-SUFFIX,busybox.net,GlobalMax
 HOST-SUFFIX,busytrade.com,GlobalMax
 HOST-SUFFIX,butex.ac.uk,GlobalMax
 HOST-SUFFIX,buugaa.com,GlobalMax
@@ -10607,6 +10608,7 @@ HOST-SUFFIX,exoav.com,GlobalMax
 HOST-SUFFIX,exondomesday.ac.uk,GlobalMax
 HOST-SUFFIX,exotic-ghana.com,GlobalMax
 HOST-SUFFIX,exoticuganda.com,GlobalMax
+HOST-SUFFIX,exp-tas.com,GlobalMax
 HOST-SUFFIX,expatshield.com,GlobalMax
 HOST-SUFFIX,expecthim.com,GlobalMax
 HOST-SUFFIX,expekt.com,GlobalMax
@@ -12620,6 +12622,7 @@ HOST-SUFFIX,gerritcodereview.com,GlobalMax
 HOST-SUFFIX,gesoten.com,GlobalMax
 HOST-SUFFIX,gesource.ac.uk,GlobalMax
 HOST-SUFFIX,get.app,GlobalMax
+HOST-SUFFIX,get.dappcdn.com,GlobalMax
 HOST-SUFFIX,get.dev,GlobalMax
 HOST-SUFFIX,get.how,GlobalMax
 HOST-SUFFIX,get.new,GlobalMax
@@ -12817,6 +12820,7 @@ HOST-SUFFIX,gitgud.io,GlobalMax
 HOST-SUFFIX,githack.com,GlobalMax
 HOST-SUFFIX,github.ai,GlobalMax
 HOST-SUFFIX,github.blog,GlobalMax
+HOST-SUFFIX,github.career,GlobalMax
 HOST-SUFFIX,github.com,GlobalMax
 HOST-SUFFIX,github.community,GlobalMax
 HOST-SUFFIX,github.dev,GlobalMax
@@ -18119,6 +18123,7 @@ HOST-SUFFIX,life-global.org,GlobalMax
 HOST-SUFFIX,life.ac.uk,GlobalMax
 HOST-SUFFIX,lifearc.ac.uk,GlobalMax
 HOST-SUFFIX,lifeatkings.ac.uk,GlobalMax
+HOST-SUFFIX,lifeatspotify.com,GlobalMax
 HOST-SUFFIX,lifelab.ac.uk,GlobalMax
 HOST-SUFFIX,lifelonglearning.ac.uk,GlobalMax
 HOST-SUFFIX,lifemiles.com,GlobalMax
@@ -18926,6 +18931,7 @@ HOST-SUFFIX,manhwahentai.me,GlobalMax
 HOST-SUFFIX,maniakey.homes,GlobalMax
 HOST-SUFFIX,maniash.com,GlobalMax
 HOST-SUFFIX,manicur4ik.ru,GlobalMax
+HOST-SUFFIX,manjaro.org,GlobalMax
 HOST-SUFFIX,manlitphil.ac.uk,GlobalMax
 HOST-SUFFIX,manorama.com,GlobalMax
 HOST-SUFFIX,manoramanews.com,GlobalMax
@@ -25666,6 +25672,7 @@ HOST-SUFFIX,rocksdb.org,GlobalMax
 HOST-SUFFIX,rocksextube.com,GlobalMax
 HOST-SUFFIX,rockstargames.com,GlobalMax
 HOST-SUFFIX,rockstarnorth.com,GlobalMax
+HOST-SUFFIX,rockylinux.org,GlobalMax
 HOST-SUFFIX,roco.qq.com,GlobalMax
 HOST-SUFFIX,rodbaston.ac.uk,GlobalMax
 HOST-SUFFIX,roe.ac.uk,GlobalMax
@@ -27855,6 +27862,7 @@ HOST-SUFFIX,spotifycdn.net,GlobalMax
 HOST-SUFFIX,spotifycharts.com,GlobalMax
 HOST-SUFFIX,spotifycodes.com,GlobalMax
 HOST-SUFFIX,spotifyforbrands.com,GlobalMax
+HOST-SUFFIX,spotifyforvendors.com,GlobalMax
 HOST-SUFFIX,spotifyjobs.com,GlobalMax
 HOST-SUFFIX,spr.ac.uk,GlobalMax
 HOST-SUFFIX,spraynwash.com,GlobalMax
@@ -31978,7 +31986,10 @@ HOST-SUFFIX,vscale.ru,GlobalMax
 HOST-SUFFIX,vsco.co,GlobalMax
 HOST-SUFFIX,vscode-cdn.net,GlobalMax
 HOST-SUFFIX,vscode-unpkg.net,GlobalMax
+HOST-SUFFIX,vscode-webview.net,GlobalMax
 HOST-SUFFIX,vscode.dev,GlobalMax
+HOST-SUFFIX,vscodeedu.app,GlobalMax
+HOST-SUFFIX,vscodeedu.com,GlobalMax
 HOST-SUFFIX,vsemrabota.ru,GlobalMax
 HOST-SUFFIX,vsex.in,GlobalMax
 HOST-SUFFIX,vsezoo.com,GlobalMax

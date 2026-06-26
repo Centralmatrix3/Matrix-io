@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 4342
+# 规则统计: 4343
 
 HOST-SUFFIX,000webhost.com,GreatFireWall
 HOST-SUFFIX,0rz.tw,GreatFireWall
@@ -873,6 +873,7 @@ HOST-SUFFIX,crazypool.org,GreatFireWall
 HOST-SUFFIX,crazyshit.com,GreatFireWall
 HOST-SUFFIX,crbug.com,GreatFireWall
 HOST-SUFFIX,crchina.org,GreatFireWall
+HOST-SUFFIX,creader.com,GreatFireWall
 HOST-SUFFIX,creaders.net,GreatFireWall
 HOST-SUFFIX,creativelab5.com,GreatFireWall
 HOST-SUFFIX,cristyli.com,GreatFireWall
