@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7462
+# 规则统计: 7463
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -1926,6 +1926,7 @@ payload:
   - DOMAIN-SUFFIX,experts-univers.com
   - DOMAIN-SUFFIX,exploader.net
   - DOMAIN-SUFFIX,expofutures.com
+  - DOMAIN-SUFFIX,expressnews.com
   - DOMAIN-SUFFIX,expressvpn.com
   - DOMAIN-SUFFIX,exrates.me
   - DOMAIN-SUFFIX,extmatrix.com
