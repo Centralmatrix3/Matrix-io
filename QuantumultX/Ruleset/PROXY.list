@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26805
+# 规则统计: 26817
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -11,6 +11,7 @@ HOST,3dns.adobe.com,PROXY
 HOST,a.ppy.sh,PROXY
 HOST,a4e8s8k3.map2.ssl.hwcdn.net,PROXY
 HOST,abematv.akamaized.net,PROXY
+HOST,acd89244c803f7181.awsglobalaccelerator.com,PROXY
 HOST,activate-sea.adobe.com,PROXY
 HOST,activate-sjc0.adobe.com,PROXY
 HOST,activate.adobe.com,PROXY
@@ -24,6 +25,7 @@ HOST,adobe-dns-3.adobe.com,PROXY
 HOST,adobe-dns-4.adobe.com,PROXY
 HOST,adobe-dns.adobe.com,PROXY
 HOST,adobeereg.com,PROXY
+HOST,afa7f374f51cc8991.awsglobalaccelerator.com,PROXY
 HOST,ai.google.dev,PROXY
 HOST,alkalicore-pa.clients6.google.com,PROXY
 HOST,alkalimakersuite-pa.clients6.google.com,PROXY
@@ -4403,6 +4405,7 @@ HOST-SUFFIX,blacksonblondes.com,PROXY
 HOST-SUFFIX,blackstonespoliceservice.com,PROXY
 HOST-SUFFIX,blacktowhite.net,PROXY
 HOST-SUFFIX,blackvpn.com,PROXY
+HOST-SUFFIX,blanc.ru,PROXY
 HOST-SUFFIX,blaoshi.cc,PROXY
 HOST-SUFFIX,blast.io,PROXY
 HOST-SUFFIX,blazor.net,PROXY
@@ -5089,6 +5092,7 @@ HOST-SUFFIX,bossagency.co.uk,PROXY
 HOST-SUFFIX,boswp.com,PROXY
 HOST-SUFFIX,botanwang.com,PROXY
 HOST-SUFFIX,botframework.com,PROXY
+HOST-SUFFIX,botim.me,PROXY
 HOST-SUFFIX,botmechanic.io,PROXY
 HOST-SUFFIX,botorch.org,PROXY
 HOST-SUFFIX,botstop.com,PROXY
@@ -11911,6 +11915,9 @@ HOST-SUFFIX,horizontal-llc.com,PROXY
 HOST-SUFFIX,horizontal-systems.com,PROXY
 HOST-SUFFIX,horizontalglue.com,PROXY
 HOST-SUFFIX,horizontalsystems.com,PROXY
+HOST-SUFFIX,hornet.com,PROXY
+HOST-SUFFIX,hornetapp.com,PROXY
+HOST-SUFFIX,hornetx.com,PROXY
 HOST-SUFFIX,hornyasianmilfs.com,PROXY
 HOST-SUFFIX,hornybitches.org,PROXY
 HOST-SUFFIX,hornybutt.com,PROXY
@@ -14655,6 +14662,7 @@ HOST-SUFFIX,listennotes.com,PROXY
 HOST-SUFFIX,listentoyoutube.com,PROXY
 HOST-SUFFIX,listinganalytics.net,PROXY
 HOST-SUFFIX,litbus-anime.com,PROXY
+HOST-SUFFIX,litecoin.org,PROXY
 HOST-SUFFIX,litenews.hk,PROXY
 HOST-SUFFIX,literatumonline.com,PROXY
 HOST-SUFFIX,literotica.com,PROXY
@@ -16925,7 +16933,9 @@ HOST-SUFFIX,netflixinvestor.com,PROXY
 HOST-SUFFIX,netflixtechblog.com,PROXY
 HOST-SUFFIX,netlify.app,PROXY
 HOST-SUFFIX,netlify.com,PROXY
+HOST-SUFFIX,netlifydns.com,PROXY
 HOST-SUFFIX,netlifystatus.com,PROXY
+HOST-SUFFIX,netlifyusercontent.com,PROXY
 HOST-SUFFIX,netlock.hu,PROXY
 HOST-SUFFIX,netme.cc,PROXY
 HOST-SUFFIX,netname.com.br,PROXY
@@ -17468,6 +17478,7 @@ HOST-SUFFIX,ntdtv.se,PROXY
 HOST-SUFFIX,ntdtvla.com,PROXY
 HOST-SUFFIX,ntdvideo.tw,PROXY
 HOST-SUFFIX,ntdvn.com,PROXY
+HOST-SUFFIX,ntl.fyi,PROXY
 HOST-SUFFIX,ntnews.com.au,PROXY
 HOST-SUFFIX,ntp-os01.ocn.ad.jp,PROXY
 HOST-SUFFIX,ntp-tk01.ocn.ad.jp,PROXY
@@ -22367,6 +22378,7 @@ HOST-SUFFIX,technogym.ru,PROXY
 HOST-SUFFIX,technogym.su,PROXY
 HOST-SUFFIX,technologyandsociety.org,PROXY
 HOST-SUFFIX,techradar.com,PROXY
+HOST-SUFFIX,techspot.com,PROXY
 HOST-SUFFIX,techstreet.com,PROXY
 HOST-SUFFIX,techtimes.com,PROXY
 HOST-SUFFIX,techtudo.com,PROXY
