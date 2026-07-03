@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 4360
+# 规则统计: 4361
 
 domain_suffix_set:
   - 000webhost.com
@@ -4019,6 +4019,7 @@ domain_suffix_set:
   - webpkgcache.com
   - webrtc.org
   - websdr.org
+  - webshare.io
   - website.new
   - webwarper.net
   - wechatlawsuit.com

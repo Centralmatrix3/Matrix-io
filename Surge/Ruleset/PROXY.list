@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26817
+# 规则统计: 26820
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -316,6 +316,7 @@ DOMAIN,onekey.zendesk.com
 DOMAIN,oneocsp.microsoft.com
 DOMAIN,ood.opsource.net
 DOMAIN,openaiapi-site.azureedge.net
+DOMAIN,openaiassets.blob.core.windows.net
 DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 DOMAIN,openaicom.imgix.net
 DOMAIN,openaicomproductionae4b.blob.core.windows.net
@@ -6545,6 +6546,7 @@ DOMAIN-SUFFIX,coomer.su
 DOMAIN-SUFFIX,coova.com
 DOMAIN-SUFFIX,coova.net
 DOMAIN-SUFFIX,coova.org
+DOMAIN-SUFFIX,copilot.com
 DOMAIN-SUFFIX,copro.pw
 DOMAIN-SUFFIX,copy-manga.com
 DOMAIN-SUFFIX,copy20.com
@@ -24878,6 +24880,7 @@ DOMAIN-SUFFIX,webpass.net
 DOMAIN-SUFFIX,webpkgcache.com
 DOMAIN-SUFFIX,webrtc.org
 DOMAIN-SUFFIX,websdr.org
+DOMAIN-SUFFIX,webshare.io
 DOMAIN-SUFFIX,website.new
 DOMAIN-SUFFIX,webtoons.com
 DOMAIN-SUFFIX,webtoonscorp.com

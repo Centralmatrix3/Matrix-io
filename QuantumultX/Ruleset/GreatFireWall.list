@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 4360
+# 规则统计: 4361
 
 HOST-SUFFIX,000webhost.com,GreatFireWall
 HOST-SUFFIX,0rz.tw,GreatFireWall
@@ -4018,6 +4018,7 @@ HOST-SUFFIX,webmproject.org,GreatFireWall
 HOST-SUFFIX,webpkgcache.com,GreatFireWall
 HOST-SUFFIX,webrtc.org,GreatFireWall
 HOST-SUFFIX,websdr.org,GreatFireWall
+HOST-SUFFIX,webshare.io,GreatFireWall
 HOST-SUFFIX,website.new,GreatFireWall
 HOST-SUFFIX,webwarper.net,GreatFireWall
 HOST-SUFFIX,wechatlawsuit.com,GreatFireWall
