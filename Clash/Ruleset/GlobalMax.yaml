@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 34786
+# 规则统计: 34797
 
 payload:
   - DOMAIN,1password.drift.click
@@ -4580,6 +4580,7 @@ payload:
   - DOMAIN-SUFFIX,blacktowhite.net
   - DOMAIN-SUFFIX,blackvpn.com
   - DOMAIN-SUFFIX,blake.ac.uk
+  - DOMAIN-SUFFIX,blanc.ru
   - DOMAIN-SUFFIX,blaoshi.cc
   - DOMAIN-SUFFIX,blast.io
   - DOMAIN-SUFFIX,blazor.net
@@ -5321,6 +5322,7 @@ payload:
   - DOMAIN-SUFFIX,bot.nu
   - DOMAIN-SUFFIX,botanwang.com
   - DOMAIN-SUFFIX,botframework.com
+  - DOMAIN-SUFFIX,botim.me
   - DOMAIN-SUFFIX,botmechanic.io
   - DOMAIN-SUFFIX,botorch.org
   - DOMAIN-SUFFIX,botstop.com
@@ -7506,6 +7508,7 @@ payload:
   - DOMAIN-SUFFIX,coova.net
   - DOMAIN-SUFFIX,coova.org
   - DOMAIN-SUFFIX,copac.ac.uk
+  - DOMAIN-SUFFIX,copilot.com
   - DOMAIN-SUFFIX,copim.ac.uk
   - DOMAIN-SUFFIX,copior.ac.uk
   - DOMAIN-SUFFIX,copro.pw
@@ -14666,6 +14669,9 @@ payload:
   - DOMAIN-SUFFIX,horizontal-systems.com
   - DOMAIN-SUFFIX,horizontalglue.com
   - DOMAIN-SUFFIX,horizontalsystems.com
+  - DOMAIN-SUFFIX,hornet.com
+  - DOMAIN-SUFFIX,hornetapp.com
+  - DOMAIN-SUFFIX,hornetx.com
   - DOMAIN-SUFFIX,horniman.ac.uk
   - DOMAIN-SUFFIX,hornyasianmilfs.com
   - DOMAIN-SUFFIX,hornybitches.org
@@ -18263,6 +18269,7 @@ payload:
   - DOMAIN-SUFFIX,listinganalytics.net
   - DOMAIN-SUFFIX,listorious.com
   - DOMAIN-SUFFIX,litbus-anime.com
+  - DOMAIN-SUFFIX,litecoin.org
   - DOMAIN-SUFFIX,litenews.hk
   - DOMAIN-SUFFIX,literatumonline.com
   - DOMAIN-SUFFIX,literotica.com
@@ -21362,7 +21369,9 @@ payload:
   - DOMAIN-SUFFIX,netlab.ac.uk
   - DOMAIN-SUFFIX,netlify.app
   - DOMAIN-SUFFIX,netlify.com
+  - DOMAIN-SUFFIX,netlifydns.com
   - DOMAIN-SUFFIX,netlifystatus.com
+  - DOMAIN-SUFFIX,netlifyusercontent.com
   - DOMAIN-SUFFIX,netlock.hu
   - DOMAIN-SUFFIX,netmarble.com
   - DOMAIN-SUFFIX,netme.cc
@@ -22162,6 +22171,7 @@ payload:
   - DOMAIN-SUFFIX,ntec.ac.uk
   - DOMAIN-SUFFIX,ntfs.ac.uk
   - DOMAIN-SUFFIX,ntidagenham.ac.uk
+  - DOMAIN-SUFFIX,ntl.fyi
   - DOMAIN-SUFFIX,ntnews.com.au
   - DOMAIN-SUFFIX,ntp-os01.ocn.ad.jp
   - DOMAIN-SUFFIX,ntp-tk01.ocn.ad.jp
@@ -32306,6 +32316,7 @@ payload:
   - DOMAIN-SUFFIX,webrush.net
   - DOMAIN-SUFFIX,webs-tv.net
   - DOMAIN-SUFFIX,websdr.org
+  - DOMAIN-SUFFIX,webshare.io
   - DOMAIN-SUFFIX,website.new
   - DOMAIN-SUFFIX,websitepulse.com
   - DOMAIN-SUFFIX,websnapr.com
