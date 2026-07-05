@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26820
+# 规则统计: 26823
 
 payload:
   - '1password.drift.click'
@@ -243,7 +243,6 @@ payload:
   - 'img-s-msn-com.akamaized.net'
   - 'impala-media-production.s3.amazonaws.com'
   - 'imperial.insendi.com'
-  - 'ingest.apple-studies.com'
   - 'lastfm.freetls.fastly.net'
   - 'lazer.ppy.sh'
   - 'lgcscc-hamivideo2.cdn.hinet.net'
@@ -2613,6 +2612,7 @@ payload:
   - '+.apple-pay.wang'
   - '+.apple-store.net'
   - '+.apple-store.wang'
+  - '+.apple-studies.com'
   - '+.apple-usa.net'
   - '+.apple-watch.com.ru'
   - '+.apple.ae'
@@ -3115,6 +3115,7 @@ payload:
   - '+.atlassian-dev.net'
   - '+.atlassian.com'
   - '+.atlassian.net'
+  - '+.atmeta.com'
   - '+.atnext.com'
   - '+.atokara.jp'
   - '+.atom.io'
@@ -3494,6 +3495,7 @@ payload:
   - '+.azirevpn.com'
   - '+.aznude.com'
   - '+.azure'
+  - '+.azure-api.net'
   - '+.azure-devices-int.net'
   - '+.azure-devices.net'
   - '+.azure-dns.com'
@@ -3531,6 +3533,7 @@ payload:
   - '+.azureserviceprofiler.com'
   - '+.azuresmartspaces.net'
   - '+.azurestackvalidation.com'
+  - '+.azurestaticapps.net'
   - '+.azurewebsites.net'
   - '+.b-cdn.net'
   - '+.b-eroland.net'

@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 112324
+# 规则统计: 112332
 
 HOST,2mdn-cn.net,DIRECT
 HOST,2mdn.net,DIRECT
@@ -183,6 +183,7 @@ HOST,edge.geo.kaspersky.com,DIRECT
 HOST,emoi-cncdn.bing.com,DIRECT
 HOST,end-api.shallow.ink,DIRECT
 HOST,end.shallow.ink,DIRECT
+HOST,entitlements-edge.itunes.apple.com,DIRECT
 HOST,experiments.apple.com,DIRECT
 HOST,f.c2r.ts.cdn.office.net,DIRECT
 HOST,fcs.dell.com,DIRECT
@@ -191,6 +192,7 @@ HOST,firebase-settings.crashlytics.com,DIRECT
 HOST,fontfiles.googleapis.com,DIRECT
 HOST,fonts.googleapis.com,DIRECT
 HOST,fonts.gstatic.com,DIRECT
+HOST,fpinit.itunes.apple.com,DIRECT
 HOST,fta.dell.com,DIRECT
 HOST,ftaapj.dell.com,DIRECT
 HOST,ftaemea.dell.com,DIRECT
@@ -12832,6 +12834,7 @@ HOST-SUFFIX,anqingonline.com,DIRECT
 HOST-SUFFIX,anqingzhiyun.com,DIRECT
 HOST-SUFFIX,anqn.com,DIRECT
 HOST-SUFFIX,anqu.com,DIRECT
+HOST-SUFFIX,anquan,DIRECT
 HOST-SUFFIX,anquan.info,DIRECT
 HOST-SUFFIX,anquan.org,DIRECT
 HOST-SUFFIX,anquanbao.com,DIRECT
@@ -33055,7 +33058,6 @@ HOST-SUFFIX,embryform.com,DIRECT
 HOST-SUFFIX,embryochina.com,DIRECT
 HOST-SUFFIX,embsky.com,DIRECT
 HOST-SUFFIX,emby.men,DIRECT
-HOST-SUFFIX,emby.yun,DIRECT
 HOST-SUFFIX,embyvip.org,DIRECT
 HOST-SUFFIX,emcbj.com,DIRECT
 HOST-SUFFIX,emcdir.com,DIRECT
@@ -82359,6 +82361,7 @@ HOST-SUFFIX,shouhuigroup.com,DIRECT
 HOST-SUFFIX,shouhuisoft.com,DIRECT
 HOST-SUFFIX,shouhuojiyun.com,DIRECT
 HOST-SUFFIX,shouhuola.com,DIRECT
+HOST-SUFFIX,shouji,DIRECT
 HOST-SUFFIX,shouji.com,DIRECT
 HOST-SUFFIX,shouji.racing,DIRECT
 HOST-SUFFIX,shouji10086.com,DIRECT
@@ -83266,6 +83269,7 @@ HOST-SUFFIX,simuwang.com,DIRECT
 HOST-SUFFIX,simwe.com,DIRECT
 HOST-SUFFIX,simxhs.com,DIRECT
 HOST-SUFFIX,sin0sites.com,DIRECT
+HOST-SUFFIX,sina,DIRECT
 HOST-SUFFIX,sina-cf.com,DIRECT
 HOST-SUFFIX,sina.com,DIRECT
 HOST-SUFFIX,sina.lt,DIRECT
@@ -95141,6 +95145,7 @@ HOST-SUFFIX,weibanan.com,DIRECT
 HOST-SUFFIX,weibang.vip,DIRECT
 HOST-SUFFIX,weibangong.com,DIRECT
 HOST-SUFFIX,weibanzhushou.com,DIRECT
+HOST-SUFFIX,weibo,DIRECT
 HOST-SUFFIX,weibo.com,DIRECT
 HOST-SUFFIX,weibo.tv,DIRECT
 HOST-SUFFIX,weibocdn.com,DIRECT
@@ -99861,6 +99866,7 @@ HOST-SUFFIX,xihaxueche.com,DIRECT
 HOST-SUFFIX,xihazsww.com,DIRECT
 HOST-SUFFIX,xihegp.com,DIRECT
 HOST-SUFFIX,xiherencai.com,DIRECT
+HOST-SUFFIX,xihuan,DIRECT
 HOST-SUFFIX,xihuan.me,DIRECT
 HOST-SUFFIX,xihusgh.com,DIRECT
 HOST-SUFFIX,xiimoon.com,DIRECT
@@ -101154,6 +101160,7 @@ HOST-SUFFIX,xn--8y0a063a,DIRECT
 HOST-SUFFIX,xn--91-y60d638c.xyz,DIRECT
 HOST-SUFFIX,xn--9et52u,DIRECT
 HOST-SUFFIX,xn--9kr72kqwe.com,DIRECT
+HOST-SUFFIX,xn--9krt00a,DIRECT
 HOST-SUFFIX,xn--9myo55bi8l.com,DIRECT
 HOST-SUFFIX,xn--9pr56vfna007k.com,DIRECT
 HOST-SUFFIX,xn--9pry86bq5ex68c.org,DIRECT
@@ -106461,6 +106468,7 @@ HOST-SUFFIX,yumingguwen.com,DIRECT
 HOST-SUFFIX,yumingyouhui.com,DIRECT
 HOST-SUFFIX,yummy.tech,DIRECT
 HOST-SUFFIX,yumstone.com,DIRECT
+HOST-SUFFIX,yun,DIRECT
 HOST-SUFFIX,yun-ac.com,DIRECT
 HOST-SUFFIX,yun-dns.com,DIRECT
 HOST-SUFFIX,yun-gu.com,DIRECT

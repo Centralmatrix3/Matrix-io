@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 112324
+# 规则统计: 112332
 
 domain_set:
   - 2mdn-cn.net
@@ -184,6 +184,7 @@ domain_set:
   - emoi-cncdn.bing.com
   - end-api.shallow.ink
   - end.shallow.ink
+  - entitlements-edge.itunes.apple.com
   - experiments.apple.com
   - f.c2r.ts.cdn.office.net
   - fcs.dell.com
@@ -192,6 +193,7 @@ domain_set:
   - fontfiles.googleapis.com
   - fonts.googleapis.com
   - fonts.gstatic.com
+  - fpinit.itunes.apple.com
   - fta.dell.com
   - ftaapj.dell.com
   - ftaemea.dell.com
@@ -12834,6 +12836,7 @@ domain_suffix_set:
   - anqingzhiyun.com
   - anqn.com
   - anqu.com
+  - anquan
   - anquan.info
   - anquan.org
   - anquanbao.com
@@ -33057,7 +33060,6 @@ domain_suffix_set:
   - embryochina.com
   - embsky.com
   - emby.men
-  - emby.yun
   - embyvip.org
   - emcbj.com
   - emcdir.com
@@ -82361,6 +82363,7 @@ domain_suffix_set:
   - shouhuisoft.com
   - shouhuojiyun.com
   - shouhuola.com
+  - shouji
   - shouji.com
   - shouji.racing
   - shouji10086.com
@@ -83268,6 +83271,7 @@ domain_suffix_set:
   - simwe.com
   - simxhs.com
   - sin0sites.com
+  - sina
   - sina-cf.com
   - sina.com
   - sina.lt
@@ -95143,6 +95147,7 @@ domain_suffix_set:
   - weibang.vip
   - weibangong.com
   - weibanzhushou.com
+  - weibo
   - weibo.com
   - weibo.tv
   - weibocdn.com
@@ -99863,6 +99868,7 @@ domain_suffix_set:
   - xihazsww.com
   - xihegp.com
   - xiherencai.com
+  - xihuan
   - xihuan.me
   - xihusgh.com
   - xiimoon.com
@@ -101156,6 +101162,7 @@ domain_suffix_set:
   - xn--91-y60d638c.xyz
   - xn--9et52u
   - xn--9kr72kqwe.com
+  - xn--9krt00a
   - xn--9myo55bi8l.com
   - xn--9pr56vfna007k.com
   - xn--9pry86bq5ex68c.org
@@ -106463,6 +106470,7 @@ domain_suffix_set:
   - yumingyouhui.com
   - yummy.tech
   - yumstone.com
+  - yun
   - yun-ac.com
   - yun-dns.com
   - yun-gu.com

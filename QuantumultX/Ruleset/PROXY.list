@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26820
+# 规则统计: 26823
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -242,7 +242,6 @@ HOST,img-prod-cms-rt-microsoft-com.akamaized.net,PROXY
 HOST,img-s-msn-com.akamaized.net,PROXY
 HOST,impala-media-production.s3.amazonaws.com,PROXY
 HOST,imperial.insendi.com,PROXY
-HOST,ingest.apple-studies.com,PROXY
 HOST,lastfm.freetls.fastly.net,PROXY
 HOST,lazer.ppy.sh,PROXY
 HOST,lgcscc-hamivideo2.cdn.hinet.net,PROXY
@@ -2612,6 +2611,7 @@ HOST-SUFFIX,apple-pay.rs,PROXY
 HOST-SUFFIX,apple-pay.wang,PROXY
 HOST-SUFFIX,apple-store.net,PROXY
 HOST-SUFFIX,apple-store.wang,PROXY
+HOST-SUFFIX,apple-studies.com,PROXY
 HOST-SUFFIX,apple-usa.net,PROXY
 HOST-SUFFIX,apple-watch.com.ru,PROXY
 HOST-SUFFIX,apple.ae,PROXY
@@ -3114,6 +3114,7 @@ HOST-SUFFIX,atlasonepoint.com,PROXY
 HOST-SUFFIX,atlassian-dev.net,PROXY
 HOST-SUFFIX,atlassian.com,PROXY
 HOST-SUFFIX,atlassian.net,PROXY
+HOST-SUFFIX,atmeta.com,PROXY
 HOST-SUFFIX,atnext.com,PROXY
 HOST-SUFFIX,atokara.jp,PROXY
 HOST-SUFFIX,atom.io,PROXY
@@ -3493,6 +3494,7 @@ HOST-SUFFIX,aziani.com,PROXY
 HOST-SUFFIX,azirevpn.com,PROXY
 HOST-SUFFIX,aznude.com,PROXY
 HOST-SUFFIX,azure,PROXY
+HOST-SUFFIX,azure-api.net,PROXY
 HOST-SUFFIX,azure-devices-int.net,PROXY
 HOST-SUFFIX,azure-devices.net,PROXY
 HOST-SUFFIX,azure-dns.com,PROXY
@@ -3530,6 +3532,7 @@ HOST-SUFFIX,azureplanetscale.net,PROXY
 HOST-SUFFIX,azureserviceprofiler.com,PROXY
 HOST-SUFFIX,azuresmartspaces.net,PROXY
 HOST-SUFFIX,azurestackvalidation.com,PROXY
+HOST-SUFFIX,azurestaticapps.net,PROXY
 HOST-SUFFIX,azurewebsites.net,PROXY
 HOST-SUFFIX,b-cdn.net,PROXY
 HOST-SUFFIX,b-eroland.net,PROXY
