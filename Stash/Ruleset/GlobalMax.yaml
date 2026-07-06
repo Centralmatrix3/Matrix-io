@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 34797
+# 规则统计: 34800
 
 payload:
   - DOMAIN,1password.drift.click
@@ -52,7 +52,6 @@ payload:
   - DOMAIN,hub.slarker.me
   - DOMAIN,i.jeded.com
   - DOMAIN,imperial.insendi.com
-  - DOMAIN,ingest.apple-studies.com
   - DOMAIN,lgelectronics.122.2o7.net
   - DOMAIN,linkedin.sc.omtrdc.net
   - DOMAIN,live-patreon-marketing.pantheonsite.io
@@ -2400,6 +2399,7 @@ payload:
   - DOMAIN-SUFFIX,apple-pay.wang
   - DOMAIN-SUFFIX,apple-store.net
   - DOMAIN-SUFFIX,apple-store.wang
+  - DOMAIN-SUFFIX,apple-studies.com
   - DOMAIN-SUFFIX,apple-usa.net
   - DOMAIN-SUFFIX,apple.ae
   - DOMAIN-SUFFIX,apple.at
@@ -2999,6 +2999,7 @@ payload:
   - DOMAIN-SUFFIX,atlassian-dev.net
   - DOMAIN-SUFFIX,atlassian.com
   - DOMAIN-SUFFIX,atlassian.net
+  - DOMAIN-SUFFIX,atmeta.com
   - DOMAIN-SUFFIX,atnext.com
   - DOMAIN-SUFFIX,atokara.jp
   - DOMAIN-SUFFIX,atom.io
@@ -3411,6 +3412,7 @@ payload:
   - DOMAIN-SUFFIX,azirevpn.com
   - DOMAIN-SUFFIX,aznude.com
   - DOMAIN-SUFFIX,azubu.tv
+  - DOMAIN-SUFFIX,azure-api.net
   - DOMAIN-SUFFIX,azure-devices-int.net
   - DOMAIN-SUFFIX,azure-devices.net
   - DOMAIN-SUFFIX,azure-dns.com
@@ -3448,6 +3450,7 @@ payload:
   - DOMAIN-SUFFIX,azureserviceprofiler.com
   - DOMAIN-SUFFIX,azuresmartspaces.net
   - DOMAIN-SUFFIX,azurestackvalidation.com
+  - DOMAIN-SUFFIX,azurestaticapps.net
   - DOMAIN-SUFFIX,azurewebsites.net
   - DOMAIN-SUFFIX,b-cdn.net
   - DOMAIN-SUFFIX,b-eroland.net

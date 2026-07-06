@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 34797
+# 规则统计: 34800
 
 HOST,1password.drift.click,GlobalMax
 HOST,adobeereg.com,GlobalMax
@@ -51,7 +51,6 @@ HOST,hpstore.corpmerchandise.com,GlobalMax
 HOST,hub.slarker.me,GlobalMax
 HOST,i.jeded.com,GlobalMax
 HOST,imperial.insendi.com,GlobalMax
-HOST,ingest.apple-studies.com,GlobalMax
 HOST,lgelectronics.122.2o7.net,GlobalMax
 HOST,linkedin.sc.omtrdc.net,GlobalMax
 HOST,live-patreon-marketing.pantheonsite.io,GlobalMax
@@ -2399,6 +2398,7 @@ HOST-SUFFIX,apple-pay.rs,GlobalMax
 HOST-SUFFIX,apple-pay.wang,GlobalMax
 HOST-SUFFIX,apple-store.net,GlobalMax
 HOST-SUFFIX,apple-store.wang,GlobalMax
+HOST-SUFFIX,apple-studies.com,GlobalMax
 HOST-SUFFIX,apple-usa.net,GlobalMax
 HOST-SUFFIX,apple.ae,GlobalMax
 HOST-SUFFIX,apple.at,GlobalMax
@@ -2998,6 +2998,7 @@ HOST-SUFFIX,atlaspost.com,GlobalMax
 HOST-SUFFIX,atlassian-dev.net,GlobalMax
 HOST-SUFFIX,atlassian.com,GlobalMax
 HOST-SUFFIX,atlassian.net,GlobalMax
+HOST-SUFFIX,atmeta.com,GlobalMax
 HOST-SUFFIX,atnext.com,GlobalMax
 HOST-SUFFIX,atokara.jp,GlobalMax
 HOST-SUFFIX,atom.io,GlobalMax
@@ -3410,6 +3411,7 @@ HOST-SUFFIX,aziani.com,GlobalMax
 HOST-SUFFIX,azirevpn.com,GlobalMax
 HOST-SUFFIX,aznude.com,GlobalMax
 HOST-SUFFIX,azubu.tv,GlobalMax
+HOST-SUFFIX,azure-api.net,GlobalMax
 HOST-SUFFIX,azure-devices-int.net,GlobalMax
 HOST-SUFFIX,azure-devices.net,GlobalMax
 HOST-SUFFIX,azure-dns.com,GlobalMax
@@ -3447,6 +3449,7 @@ HOST-SUFFIX,azureplanetscale.net,GlobalMax
 HOST-SUFFIX,azureserviceprofiler.com,GlobalMax
 HOST-SUFFIX,azuresmartspaces.net,GlobalMax
 HOST-SUFFIX,azurestackvalidation.com,GlobalMax
+HOST-SUFFIX,azurestaticapps.net,GlobalMax
 HOST-SUFFIX,azurewebsites.net,GlobalMax
 HOST-SUFFIX,b-cdn.net,GlobalMax
 HOST-SUFFIX,b-eroland.net,GlobalMax

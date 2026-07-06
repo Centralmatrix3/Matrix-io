@@ -1,5 +1,5 @@
 # 规则名称: ChinaMax
-# 规则统计: 124760
+# 规则统计: 124772
 
 DOMAIN,1-fss24-s0.streamhoster.com
 DOMAIN,14033.live.streamtheworld.com
@@ -12444,6 +12444,7 @@ DOMAIN-SUFFIX,anqingonline.com
 DOMAIN-SUFFIX,anqingzhiyun.com
 DOMAIN-SUFFIX,anqn.com
 DOMAIN-SUFFIX,anqu.com
+DOMAIN-SUFFIX,anquan
 DOMAIN-SUFFIX,anquan.info
 DOMAIN-SUFFIX,anquanbao.com
 DOMAIN-SUFFIX,anquanjs.com
@@ -32707,7 +32708,6 @@ DOMAIN-SUFFIX,embryform.com
 DOMAIN-SUFFIX,embryochina.com
 DOMAIN-SUFFIX,embsky.com
 DOMAIN-SUFFIX,emby.men
-DOMAIN-SUFFIX,emby.yun
 DOMAIN-SUFFIX,embyvip.org
 DOMAIN-SUFFIX,emcbj.com
 DOMAIN-SUFFIX,emcdir.com
@@ -82391,6 +82391,7 @@ DOMAIN-SUFFIX,shouhuigroup.com
 DOMAIN-SUFFIX,shouhuisoft.com
 DOMAIN-SUFFIX,shouhuojiyun.com
 DOMAIN-SUFFIX,shouhuola.com
+DOMAIN-SUFFIX,shouji
 DOMAIN-SUFFIX,shouji.com
 DOMAIN-SUFFIX,shouji.racing
 DOMAIN-SUFFIX,shouji10086.com
@@ -83295,6 +83296,7 @@ DOMAIN-SUFFIX,simuwang.com
 DOMAIN-SUFFIX,simwe.com
 DOMAIN-SUFFIX,simxhs.com
 DOMAIN-SUFFIX,sin0sites.com
+DOMAIN-SUFFIX,sina
 DOMAIN-SUFFIX,sina-cf.com
 DOMAIN-SUFFIX,sina.com
 DOMAIN-SUFFIX,sina.lt
@@ -95186,6 +95188,7 @@ DOMAIN-SUFFIX,weibanan.com
 DOMAIN-SUFFIX,weibang.vip
 DOMAIN-SUFFIX,weibangong.com
 DOMAIN-SUFFIX,weibanzhushou.com
+DOMAIN-SUFFIX,weibo
 DOMAIN-SUFFIX,weibo.com
 DOMAIN-SUFFIX,weibo.tv
 DOMAIN-SUFFIX,weibocdn.com
@@ -99913,6 +99916,7 @@ DOMAIN-SUFFIX,xihaxueche.com
 DOMAIN-SUFFIX,xihazsww.com
 DOMAIN-SUFFIX,xihegp.com
 DOMAIN-SUFFIX,xiherencai.com
+DOMAIN-SUFFIX,xihuan
 DOMAIN-SUFFIX,xihuan.me
 DOMAIN-SUFFIX,xihusgh.com
 DOMAIN-SUFFIX,xiimoon.com
@@ -101200,6 +101204,7 @@ DOMAIN-SUFFIX,xn--8y0a063a
 DOMAIN-SUFFIX,xn--91-y60d638c.xyz
 DOMAIN-SUFFIX,xn--9et52u
 DOMAIN-SUFFIX,xn--9kr72kqwe.com
+DOMAIN-SUFFIX,xn--9krt00a
 DOMAIN-SUFFIX,xn--9myo55bi8l.com
 DOMAIN-SUFFIX,xn--9pr56vfna007k.com
 DOMAIN-SUFFIX,xn--9pry86bq5ex68c.org
@@ -106503,6 +106508,7 @@ DOMAIN-SUFFIX,yumingguwen.com
 DOMAIN-SUFFIX,yumingyouhui.com
 DOMAIN-SUFFIX,yummy.tech
 DOMAIN-SUFFIX,yumstone.com
+DOMAIN-SUFFIX,yun
 DOMAIN-SUFFIX,yun-ac.com
 DOMAIN-SUFFIX,yun-app.net
 DOMAIN-SUFFIX,yun-dns.com
@@ -116072,6 +116078,7 @@ IP-CIDR,154.72.44.0/24,no-resolve
 IP-CIDR,154.72.47.0/24,no-resolve
 IP-CIDR,154.8.128.0/17,no-resolve
 IP-CIDR,154.8.48.0/20,no-resolve
+IP-CIDR,154.84.180.0/24,no-resolve
 IP-CIDR,154.89.32.0/20,no-resolve
 IP-CIDR,154.91.158.0/23,no-resolve
 IP-CIDR,155.102.0.0/16,no-resolve
@@ -116738,6 +116745,7 @@ IP-CIDR,188.240.211.0/25,no-resolve
 IP-CIDR,188.241.80.0/24,no-resolve
 IP-CIDR,188.65.16.0/22,no-resolve
 IP-CIDR,189.31.222.0/24,no-resolve
+IP-CIDR,189.75.180.0/24,no-resolve
 IP-CIDR,189.75.185.0/24,no-resolve
 IP-CIDR,191.219.18.0/24,no-resolve
 IP-CIDR,191.222.245.0/24,no-resolve
@@ -116840,6 +116848,7 @@ IP-CIDR,20.251.0.0/22,no-resolve
 IP-CIDR,20.253.4.0/24,no-resolve
 IP-CIDR,20.253.89.0/24,no-resolve
 IP-CIDR,20.255.255.0/24,no-resolve
+IP-CIDR,200.102.179.0/24,no-resolve
 IP-CIDR,200.102.180.0/24,no-resolve
 IP-CIDR,201.11.233.0/24,no-resolve
 IP-CIDR,201.14.217.0/24,no-resolve
@@ -120553,6 +120562,7 @@ IP-CIDR,67.199.158.164/30,no-resolve
 IP-CIDR,67.199.159.224/30,no-resolve
 IP-CIDR,67.220.137.144/28,no-resolve
 IP-CIDR,67.220.158.24/29,no-resolve
+IP-CIDR,68.166.209.0/24,no-resolve
 IP-CIDR,68.79.0.0/18,no-resolve
 IP-CIDR,69.107.7.16/29,no-resolve
 IP-CIDR,69.163.104.0/24,no-resolve
@@ -120564,6 +120574,7 @@ IP-CIDR,69.230.192.0/18,no-resolve
 IP-CIDR,69.231.128.0/18,no-resolve
 IP-CIDR,69.234.192.0/18,no-resolve
 IP-CIDR,69.235.128.0/18,no-resolve
+IP-CIDR,69.33.203.0/24,no-resolve
 IP-CIDR,69.85.93.0/24,no-resolve
 IP-CIDR,71.131.192.0/18,no-resolve
 IP-CIDR,71.132.0.0/18,no-resolve
@@ -124573,6 +124584,7 @@ IP-CIDR6,2a0f:1cc5:3222::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:40::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:4508::/46,no-resolve
 IP-CIDR6,2a0f:1cc5:45ff::/48,no-resolve
+IP-CIDR6,2a0f:1cc5:4700::/40,no-resolve
 IP-CIDR6,2a0f:1cc5:600::/47,no-resolve
 IP-CIDR6,2a0f:1cc5:603::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:642::/48,no-resolve
@@ -124636,7 +124648,7 @@ IP-CIDR6,2a12:dd47:db2c::/48,no-resolve
 IP-CIDR6,2a13:1800::/29,no-resolve
 IP-CIDR6,2a13:8b40::/29,no-resolve
 IP-CIDR6,2a13:8c87::/32,no-resolve
-IP-CIDR6,2a13:9500:194::/48,no-resolve
+IP-CIDR6,2a13:9500:194::/47,no-resolve
 IP-CIDR6,2a13:a5c3:d600::/42,no-resolve
 IP-CIDR6,2a13:a5c3:f000::/40,no-resolve
 IP-CIDR6,2a13:a5c3:f1c0::/44,no-resolve
