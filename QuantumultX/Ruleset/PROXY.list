@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26823
+# 规则统计: 26825
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -18260,6 +18260,8 @@ HOST-SUFFIX,patreoncommunity.com,PROXY
 HOST-SUFFIX,patreonusercontent.com,PROXY
 HOST-SUFFIX,paulsimon-music.com,PROXY
 HOST-SUFFIX,pavpal.com,PROXY
+HOST-SUFFIX,pawchive.pw,PROXY
+HOST-SUFFIX,pawchive.st,PROXY
 HOST-SUFFIX,pawoo.net,PROXY
 HOST-SUFFIX,paxful.com,PROXY
 HOST-SUFFIX,paxlicense.org,PROXY

@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26823
+# 规则统计: 26825
 
 payload:
   - '1password.drift.click'
@@ -18261,6 +18261,8 @@ payload:
   - '+.patreonusercontent.com'
   - '+.paulsimon-music.com'
   - '+.pavpal.com'
+  - '+.pawchive.pw'
+  - '+.pawchive.st'
   - '+.pawoo.net'
   - '+.paxful.com'
   - '+.paxlicense.org'
