@@ -4,9 +4,7 @@
     {
       "domain": [
         "netflix.com.edgesuite.net"
-      ]
-    },
-    {
+      ],
       "domain_suffix": [
         "fast.com",
         "netflix.com",
@@ -26,16 +24,12 @@
         "nflximg.net",
         "nflxso.net",
         "nflxvideo.net"
-      ]
-    },
-    {
+      ],
       "domain_keyword": [
         "apiproxy-device-prod-nlb-",
         "dualstack.apiproxy-",
         "netflixdnstest"
-      ]
-    },
-    {
+      ],
       "ip_cidr": [
         "103.87.204.0/22",
         "108.175.32.0/20",
