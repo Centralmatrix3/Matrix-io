@@ -1,5 +1,5 @@
 # 规则名称: ChinaIPMax
-# 规则统计: 22778
+# 规则统计: 22779
 
 payload:
   - IP-CIDR,1.0.1.0/24,no-resolve
@@ -1988,6 +1988,7 @@ payload:
   - IP-CIDR,103.212.44.0/22,no-resolve
   - IP-CIDR,103.212.48.0/22,no-resolve
   - IP-CIDR,103.212.48.0/23,no-resolve
+  - IP-CIDR,103.212.50.0/24,no-resolve
   - IP-CIDR,103.212.8.0/22,no-resolve
   - IP-CIDR,103.212.84.0/22,no-resolve
   - IP-CIDR,103.213.132.0/22,no-resolve
@@ -11226,6 +11227,7 @@ payload:
   - IP-CIDR,203.107.0.0/17,no-resolve
   - IP-CIDR,203.107.0.0/19,no-resolve
   - IP-CIDR,203.107.1.0/24,no-resolve
+  - IP-CIDR,203.107.112.0/21,no-resolve
   - IP-CIDR,203.107.116.0/22,no-resolve
   - IP-CIDR,203.107.120.0/22,no-resolve
   - IP-CIDR,203.107.124.0/23,no-resolve
@@ -13067,11 +13069,9 @@ payload:
   - IP-CIDR,211.99.0.0/18,no-resolve
   - IP-CIDR,211.99.112.0/22,no-resolve
   - IP-CIDR,211.99.116.0/24,no-resolve
-  - IP-CIDR,211.99.12.0/24,no-resolve
   - IP-CIDR,211.99.122.0/24,no-resolve
   - IP-CIDR,211.99.128.0/17,no-resolve
   - IP-CIDR,211.99.128.0/18,no-resolve
-  - IP-CIDR,211.99.14.0/23,no-resolve
   - IP-CIDR,211.99.16.0/23,no-resolve
   - IP-CIDR,211.99.192.0/19,no-resolve
   - IP-CIDR,211.99.24.0/21,no-resolve
@@ -13082,7 +13082,6 @@ payload:
   - IP-CIDR,211.99.64.0/18,no-resolve
   - IP-CIDR,211.99.64.0/19,no-resolve
   - IP-CIDR,211.99.8.0/21,no-resolve
-  - IP-CIDR,211.99.8.0/22,no-resolve
   - IP-CIDR,211.99.96.0/19,no-resolve
   - IP-CIDR,211.99.96.0/20,no-resolve
   - IP-CIDR,212.103.62.0/24,no-resolve
@@ -16573,6 +16572,7 @@ payload:
   - IP-CIDR,52.82.136.0/24,no-resolve
   - IP-CIDR,52.82.144.0/23,no-resolve
   - IP-CIDR,52.82.148.0/22,no-resolve
+  - IP-CIDR,52.82.148.0/23,no-resolve
   - IP-CIDR,52.82.160.0/21,no-resolve
   - IP-CIDR,52.82.170.0/23,no-resolve
   - IP-CIDR,52.82.172.0/22,no-resolve
@@ -17143,6 +17143,7 @@ payload:
   - IP-CIDR,61.28.49.0/24,no-resolve
   - IP-CIDR,61.28.64.0/18,no-resolve
   - IP-CIDR,61.29.128.0/18,no-resolve
+  - IP-CIDR,61.29.161.0/24,no-resolve
   - IP-CIDR,61.29.192.0/19,no-resolve
   - IP-CIDR,61.29.194.0/23,no-resolve
   - IP-CIDR,61.29.196.0/22,no-resolve
