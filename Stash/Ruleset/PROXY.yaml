@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26847
+# 规则统计: 26848
 
 payload:
   - '1password.drift.click'
@@ -24829,6 +24829,7 @@ payload:
   - '+.wbautomation.ru'
   - '+.wbautomation.tech'
   - '+.wbbasket.ru'
+  - '+.wbcontent.net'
   - '+.wbd.ms'
   - '+.wbdnbo.net'
   - '+.wbdubna.ru'
