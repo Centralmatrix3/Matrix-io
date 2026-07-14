@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26848
+# 规则统计: 26842
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -332,11 +332,7 @@ HOST,play-edge.itunes.apple.com,PROXY
 HOST,poshtestgallery.cloudapp.net,PROXY
 HOST,ppl-ai-file-upload.s3.amazonaws.com,PROXY
 HOST,pplx-res.cloudinary.com,PROXY
-HOST,practivate.adobe,PROXY
 HOST,practivate.adobe.com,PROXY
-HOST,practivate.adobe.ipp,PROXY
-HOST,practivate.adobe.newoa,PROXY
-HOST,practivate.adobe.ntp,PROXY
 HOST,prd-priconne-redive.akamaized.net,PROXY
 HOST,preprod-publicca.googleapis.com,PROXY
 HOST,prodforza.blob.core.windows.net,PROXY
@@ -2021,7 +2017,6 @@ HOST-SUFFIX,alefbank.com,PROXY
 HOST-SUFFIX,alexa.com,PROXY
 HOST-SUFFIX,alexanderstreet.com,PROXY
 HOST-SUFFIX,alfa.me,PROXY
-HOST-SUFFIX,alfabank.oavdo.amc,PROXY
 HOST-SUFFIX,alfabank.ru,PROXY
 HOST-SUFFIX,alfabank.st,PROXY
 HOST-SUFFIX,alfadirect.ru,PROXY
@@ -5916,6 +5911,7 @@ HOST-SUFFIX,chat.lmsys.org,PROXY
 HOST-SUFFIX,chatango.com,PROXY
 HOST-SUFFIX,chatgpt.com,PROXY
 HOST-SUFFIX,chatgpt.livekit.cloud,PROXY
+HOST-SUFFIX,chatgpt.site,PROXY
 HOST-SUFFIX,chatgptvideo.xyz,PROXY
 HOST-SUFFIX,chatgptvideob.buzz,PROXY
 HOST-SUFFIX,chatpdf.com,PROXY
@@ -10776,7 +10772,6 @@ HOST-SUFFIX,gongyichuangyi.net,PROXY
 HOST-SUFFIX,gonike.com,PROXY
 HOST-SUFFIX,gonzo-movies.com,PROXY
 HOST-SUFFIX,gonzo.com,PROXY
-HOST-SUFFIX,goo,PROXY
 HOST-SUFFIX,goo.gl,PROXY
 HOST-SUFFIX,goo.ne.jp,PROXY
 HOST-SUFFIX,gooblox.com,PROXY
@@ -13014,7 +13009,6 @@ HOST-SUFFIX,intagram.com,PROXY
 HOST-SUFFIX,intagrm.com,PROXY
 HOST-SUFFIX,intc.com,PROXY
 HOST-SUFFIX,integral7.com,PROXY
-HOST-SUFFIX,intel,PROXY
 HOST-SUFFIX,intel-research.net,PROXY
 HOST-SUFFIX,intel-university-collaboration.net,PROXY
 HOST-SUFFIX,intel.ac,PROXY
@@ -14189,6 +14183,7 @@ HOST-SUFFIX,khatrimaza.org,PROXY
 HOST-SUFFIX,khotruyentranhx.com,PROXY
 HOST-SUFFIX,kichiku-doujinko.com,PROXY
 HOST-SUFFIX,kichikuou.com,PROXY
+HOST-SUFFIX,kick.com,PROXY
 HOST-SUFFIX,kickporn.com,PROXY
 HOST-SUFFIX,kickshatchannel.com,PROXY
 HOST-SUFFIX,kicksnike1.com,PROXY
@@ -14315,7 +14310,6 @@ HOST-SUFFIX,kompozer.net,PROXY
 HOST-SUFFIX,konachan.com,PROXY
 HOST-SUFFIX,konachan.net,PROXY
 HOST-SUFFIX,konachan.wjcodes.com,PROXY
-HOST-SUFFIX,konami,PROXY
 HOST-SUFFIX,konami-igaming.online,PROXY
 HOST-SUFFIX,konami.co.jp,PROXY
 HOST-SUFFIX,konami.com,PROXY

@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26848
+# 规则统计: 26842
 
 payload:
   - '1password.drift.click'
@@ -333,11 +333,7 @@ payload:
   - 'poshtestgallery.cloudapp.net'
   - 'ppl-ai-file-upload.s3.amazonaws.com'
   - 'pplx-res.cloudinary.com'
-  - 'practivate.adobe'
   - 'practivate.adobe.com'
-  - 'practivate.adobe.ipp'
-  - 'practivate.adobe.newoa'
-  - 'practivate.adobe.ntp'
   - 'prd-priconne-redive.akamaized.net'
   - 'preprod-publicca.googleapis.com'
   - 'prodforza.blob.core.windows.net'
@@ -2022,7 +2018,6 @@ payload:
   - '+.alexa.com'
   - '+.alexanderstreet.com'
   - '+.alfa.me'
-  - '+.alfabank.oavdo.amc'
   - '+.alfabank.ru'
   - '+.alfabank.st'
   - '+.alfadirect.ru'
@@ -5917,6 +5912,7 @@ payload:
   - '+.chatango.com'
   - '+.chatgpt.com'
   - '+.chatgpt.livekit.cloud'
+  - '+.chatgpt.site'
   - '+.chatgptvideo.xyz'
   - '+.chatgptvideob.buzz'
   - '+.chatpdf.com'
@@ -10777,7 +10773,6 @@ payload:
   - '+.gonike.com'
   - '+.gonzo-movies.com'
   - '+.gonzo.com'
-  - '+.goo'
   - '+.goo.gl'
   - '+.goo.ne.jp'
   - '+.gooblox.com'
@@ -13015,7 +13010,6 @@ payload:
   - '+.intagrm.com'
   - '+.intc.com'
   - '+.integral7.com'
-  - '+.intel'
   - '+.intel-research.net'
   - '+.intel-university-collaboration.net'
   - '+.intel.ac'
@@ -14190,6 +14184,7 @@ payload:
   - '+.khotruyentranhx.com'
   - '+.kichiku-doujinko.com'
   - '+.kichikuou.com'
+  - '+.kick.com'
   - '+.kickporn.com'
   - '+.kickshatchannel.com'
   - '+.kicksnike1.com'
@@ -14316,7 +14311,6 @@ payload:
   - '+.konachan.com'
   - '+.konachan.net'
   - '+.konachan.wjcodes.com'
-  - '+.konami'
   - '+.konami-igaming.online'
   - '+.konami.co.jp'
   - '+.konami.com'
