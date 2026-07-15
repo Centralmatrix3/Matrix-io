@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26842
+# 规则统计: 26877
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -26,6 +26,7 @@ HOST,adobe-dns-4.adobe.com,PROXY
 HOST,adobe-dns.adobe.com,PROXY
 HOST,adobeereg.com,PROXY
 HOST,afa7f374f51cc8991.awsglobalaccelerator.com,PROXY
+HOST,agb9r0ad.qllfkl.com,PROXY
 HOST,ai.google.dev,PROXY
 HOST,alkalicore-pa.clients6.google.com,PROXY
 HOST,alkalimakersuite-pa.clients6.google.com,PROXY
@@ -103,42 +104,60 @@ HOST,copilotprodattachments.blob.core.windows.net,PROXY
 HOST,crl.microsoft.com,PROXY
 HOST,crl.versign.net,PROXY
 HOST,csis-prod.s3.amazonaws.com,PROXY
+HOST,d1d0w7op819ely.cloudfront.net,PROXY
+HOST,d1fijc56o1fzod.cloudfront.net,PROXY
 HOST,d1g1f25tn8m2e6.cloudfront.net,PROXY
 HOST,d1k2us671qcoau.cloudfront.net,PROXY
 HOST,d1m7jfoe9zdc1j.cloudfront.net,PROXY
 HOST,d1mhjrowxxagfy.cloudfront.net,PROXY
 HOST,d1ndex63qxojbr.cloudfront.net,PROXY
+HOST,d1nu566dreq9vj.cloudfront.net,PROXY
 HOST,d1oca24q5dwo6d.cloudfront.net,PROXY
+HOST,d1ugi9qonif2a2.cloudfront.net,PROXY
 HOST,d1unuk07s6td74.cloudfront.net,PROXY
 HOST,d1v5ir2lpwr8os.cloudfront.net,PROXY
 HOST,d1w2poirtb3as9.cloudfront.net,PROXY
 HOST,d1xhnb4ptk05mw.cloudfront.net,PROXY
 HOST,d1ymi26ma8va5x.cloudfront.net,PROXY
+HOST,d20g4xwarzxagx.cloudfront.net,PROXY
 HOST,d22qjgkvxw22r6.cloudfront.net,PROXY
 HOST,d25xi40x97liuc.cloudfront.net,PROXY
+HOST,d26rnz3bwp7rlk.cloudfront.net,PROXY
 HOST,d27xxe7juh1us6.cloudfront.net,PROXY
+HOST,d28odxiw1asdj8.cloudfront.net,PROXY
 HOST,d29vzk4ow07wi7.cloudfront.net,PROXY
 HOST,d2aba1wr3818hz.cloudfront.net,PROXY
 HOST,d2anahhhmp1ffz.cloudfront.net,PROXY
+HOST,d2be40xdoc0in8.cloudfront.net,PROXY
 HOST,d2dylwb3shzel1.cloudfront.net,PROXY
 HOST,d2e2de1etea730.cloudfront.net,PROXY
+HOST,d2fg91fzjsrcv1.cloudfront.net,PROXY
+HOST,d2j7e8uopcv07.cloudfront.net,PROXY
 HOST,d2nvs31859zcd8.cloudfront.net,PROXY
 HOST,d2um2qdswy1tb0.cloudfront.net,PROXY
+HOST,d2v9yioq9zuuq2.cloudfront.net,PROXY
 HOST,d2vjef5jvl6bfs.cloudfront.net,PROXY
 HOST,d2xmjdvx03ij56.cloudfront.net,PROXY
+HOST,d31dormfno8pk4.cloudfront.net,PROXY
 HOST,d33wubrfki0l68.cloudfront.net,PROXY
 HOST,d36nr0u3xmc4mm.cloudfront.net,PROXY
 HOST,d3aqoihi2n8ty8.cloudfront.net,PROXY
 HOST,d3c27h4odz752x.cloudfront.net,PROXY
+HOST,d3lh5kkip965lj.cloudfront.net,PROXY
+HOST,d3nwj80emtnjeo.cloudfront.net,PROXY
 HOST,d3r7nsslvs6aaf.cloudfront.net,PROXY
+HOST,d3ucl0eqgl80l5.cloudfront.net,PROXY
 HOST,d3vd9lfkzbru3h.cloudfront.net,PROXY
 HOST,d6d4ismr40iw.cloudfront.net,PROXY
 HOST,d6tizftlrpuof.cloudfront.net,PROXY
+HOST,d96jfp62lg3kj.cloudfront.net,PROXY
 HOST,daily-cloudcode-pa.googleapis.com,PROXY
 HOST,databank.worldbank.org,PROXY
 HOST,database.asahi.com,PROXY
 HOST,datarouter.apps.netherrealm.com,PROXY
+HOST,dcb0z5ovq92mz.cloudfront.net,PROXY
 HOST,ddacn6pr5v0tl.cloudfront.net,PROXY
+HOST,ddpjwstwtpszg.cloudfront.net,PROXY
 HOST,default.exp-tas.com,PROXY
 HOST,dell.my.site.com,PROXY
 HOST,deribit.cdn.prismic.io,PROXY
@@ -159,6 +178,7 @@ HOST,dqrpb9wgowsf5.cloudfront.net,PROXY
 HOST,ds-linear-abematv.akamaized.net,PROXY
 HOST,ds-vod-abematv.akamaized.net,PROXY
 HOST,ds0h3roq6wcgc.cloudfront.net,PROXY
+HOST,dstnzhnatv9pz.cloudfront.net,PROXY
 HOST,dtlgalleryint.cloudapp.net,PROXY
 HOST,dykkng5hnh52u.cloudfront.net,PROXY
 HOST,e122475.dscg.akamaiedge.net,PROXY
@@ -220,6 +240,7 @@ HOST,google-ohttp-relay-safebrowsing.fastly-edge.com,PROXY
 HOST,hamivideo.hinet.net,PROXY
 HOST,hammerandchisel.ssl.zendesk.com,PROXY
 HOST,hb.imgix.net,PROXY
+HOST,hb4bbbbb.pmhcjk.com,PROXY
 HOST,heads-ak-spotify-com.akamaized.net,PROXY
 HOST,heads4-ak-spotify-com.akamaized.net,PROXY
 HOST,himalaya-exchange.zendesk.com,PROXY
@@ -273,6 +294,7 @@ HOST,mwf-service.akamaized.net,PROXY
 HOST,na1r.services.adobe.com,PROXY
 HOST,nab.demdex.net,PROXY
 HOST,nationalaustraliaban.tt.omtrdc.net,PROXY
+HOST,nbbb1bb7.pmhcjk.com,PROXY
 HOST,netflix.com.edgesuite.net,PROXY
 HOST,notary-submissions-prod.s3-accelerate.amazonaws.com,PROXY
 HOST,notary-submissions-prod.s3.us-west-2.amazonaws.com,PROXY
@@ -364,6 +386,7 @@ HOST,public-us-pingsx.api.clonoth.com,PROXY
 HOST,publicca.googleapis.com,PROXY
 HOST,push-apple.com.akadns.net,PROXY
 HOST,pvr-hamivideo.cdn.hinet.net,PROXY
+HOST,q676790b.pmhcjk.com,PROXY
 HOST,qualcomm.sc.omtrdc.net,PROXY
 HOST,rink.hockeyapp.net,PROXY
 HOST,roblox-load-generator-configuration.s3.us-east-2.amazonaws.com,PROXY
@@ -5006,6 +5029,7 @@ HOST-SUFFIX,bnext.com.tw,PROXY
 HOST-SUFFIX,bnn.co,PROXY
 HOST-SUFFIX,bnrmetal.com,PROXY
 HOST-SUFFIX,bntrace.com,PROXY
+HOST-SUFFIX,bnxz.net,PROXY
 HOST-SUFFIX,boardreader.com,PROXY
 HOST-SUFFIX,boboporn.com,PROXY
 HOST-SUFFIX,boboporn.net,PROXY
@@ -5449,6 +5473,7 @@ HOST-SUFFIX,bynet.co.il,PROXY
 HOST-SUFFIX,bypasscensorship.org,PROXY
 HOST-SUFFIX,byrut.org,PROXY
 HOST-SUFFIX,byspotify.com,PROXY
+HOST-SUFFIX,bystys.tech,PROXY
 HOST-SUFFIX,bytedapm.com,PROXY
 HOST-SUFFIX,byteoversea.com,PROXY
 HOST-SUFFIX,bytick.com,PROXY
@@ -14608,7 +14633,14 @@ HOST-SUFFIX,lightyearvpn.com,PROXY
 HOST-SUFFIX,lih.kg,PROXY
 HOST-SUFFIX,lihkg.com,PROXY
 HOST-SUFFIX,lihksnap.com,PROXY
+HOST-SUFFIX,like-video.com,PROXY
 HOST-SUFFIX,like.com,PROXY
+HOST-SUFFIX,like.video,PROXY
+HOST-SUFFIX,likee.com,PROXY
+HOST-SUFFIX,likee.video,PROXY
+HOST-SUFFIX,likeeapp.ru,PROXY
+HOST-SUFFIX,likeevideo.com,PROXY
+HOST-SUFFIX,likeevideo.ru,PROXY
 HOST-SUFFIX,likeseiyu.com,PROXY
 HOST-SUFFIX,liketruyen.net,PROXY
 HOST-SUFFIX,liketwice.com,PROXY
@@ -18108,6 +18140,7 @@ HOST-SUFFIX,ovpn.com,PROXY
 HOST-SUFFIX,ow.ly,PROXY
 HOST-SUFFIX,owl.li,PROXY
 HOST-SUFFIX,owltail.com,PROXY
+HOST-SUFFIX,owxd.xyz,PROXY
 HOST-SUFFIX,oxfordaasc.com,PROXY
 HOST-SUFFIX,oxfordartonline.com,PROXY
 HOST-SUFFIX,oxfordbibliographies.com,PROXY
@@ -23721,6 +23754,7 @@ HOST-SUFFIX,uwants.com,PROXY
 HOST-SUFFIX,uweb.ru,PROXY
 HOST-SUFFIX,uwpcommunitytoolkit.com,PROXY
 HOST-SUFFIX,uxthemes.com,PROXY
+HOST-SUFFIX,uxzw.club,PROXY
 HOST-SUFFIX,uyghur-j.org,PROXY
 HOST-SUFFIX,uyghuraa.org,PROXY
 HOST-SUFFIX,uyghuramerican.org,PROXY
@@ -26588,6 +26622,7 @@ HOST-SUFFIX,yt.be,PROXY
 HOST-SUFFIX,ytimg.com,PROXY
 HOST-SUFFIX,ytn.co.kr,PROXY
 HOST-SUFFIX,yuanming.net,PROXY
+HOST-SUFFIX,yucf.top,PROXY
 HOST-SUFFIX,yuenuge113.xyz,PROXY
 HOST-SUFFIX,yuenuge18.cc,PROXY
 HOST-SUFFIX,yugioh-card.com,PROXY

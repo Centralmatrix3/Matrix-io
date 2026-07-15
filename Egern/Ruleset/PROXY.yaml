@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26842
+# 规则统计: 26877
 
 domain_set:
   - 1password.drift.click
@@ -27,6 +27,7 @@ domain_set:
   - adobe-dns.adobe.com
   - adobeereg.com
   - afa7f374f51cc8991.awsglobalaccelerator.com
+  - agb9r0ad.qllfkl.com
   - ai.google.dev
   - alkalicore-pa.clients6.google.com
   - alkalimakersuite-pa.clients6.google.com
@@ -104,42 +105,60 @@ domain_set:
   - crl.microsoft.com
   - crl.versign.net
   - csis-prod.s3.amazonaws.com
+  - d1d0w7op819ely.cloudfront.net
+  - d1fijc56o1fzod.cloudfront.net
   - d1g1f25tn8m2e6.cloudfront.net
   - d1k2us671qcoau.cloudfront.net
   - d1m7jfoe9zdc1j.cloudfront.net
   - d1mhjrowxxagfy.cloudfront.net
   - d1ndex63qxojbr.cloudfront.net
+  - d1nu566dreq9vj.cloudfront.net
   - d1oca24q5dwo6d.cloudfront.net
+  - d1ugi9qonif2a2.cloudfront.net
   - d1unuk07s6td74.cloudfront.net
   - d1v5ir2lpwr8os.cloudfront.net
   - d1w2poirtb3as9.cloudfront.net
   - d1xhnb4ptk05mw.cloudfront.net
   - d1ymi26ma8va5x.cloudfront.net
+  - d20g4xwarzxagx.cloudfront.net
   - d22qjgkvxw22r6.cloudfront.net
   - d25xi40x97liuc.cloudfront.net
+  - d26rnz3bwp7rlk.cloudfront.net
   - d27xxe7juh1us6.cloudfront.net
+  - d28odxiw1asdj8.cloudfront.net
   - d29vzk4ow07wi7.cloudfront.net
   - d2aba1wr3818hz.cloudfront.net
   - d2anahhhmp1ffz.cloudfront.net
+  - d2be40xdoc0in8.cloudfront.net
   - d2dylwb3shzel1.cloudfront.net
   - d2e2de1etea730.cloudfront.net
+  - d2fg91fzjsrcv1.cloudfront.net
+  - d2j7e8uopcv07.cloudfront.net
   - d2nvs31859zcd8.cloudfront.net
   - d2um2qdswy1tb0.cloudfront.net
+  - d2v9yioq9zuuq2.cloudfront.net
   - d2vjef5jvl6bfs.cloudfront.net
   - d2xmjdvx03ij56.cloudfront.net
+  - d31dormfno8pk4.cloudfront.net
   - d33wubrfki0l68.cloudfront.net
   - d36nr0u3xmc4mm.cloudfront.net
   - d3aqoihi2n8ty8.cloudfront.net
   - d3c27h4odz752x.cloudfront.net
+  - d3lh5kkip965lj.cloudfront.net
+  - d3nwj80emtnjeo.cloudfront.net
   - d3r7nsslvs6aaf.cloudfront.net
+  - d3ucl0eqgl80l5.cloudfront.net
   - d3vd9lfkzbru3h.cloudfront.net
   - d6d4ismr40iw.cloudfront.net
   - d6tizftlrpuof.cloudfront.net
+  - d96jfp62lg3kj.cloudfront.net
   - daily-cloudcode-pa.googleapis.com
   - databank.worldbank.org
   - database.asahi.com
   - datarouter.apps.netherrealm.com
+  - dcb0z5ovq92mz.cloudfront.net
   - ddacn6pr5v0tl.cloudfront.net
+  - ddpjwstwtpszg.cloudfront.net
   - default.exp-tas.com
   - dell.my.site.com
   - deribit.cdn.prismic.io
@@ -160,6 +179,7 @@ domain_set:
   - ds-linear-abematv.akamaized.net
   - ds-vod-abematv.akamaized.net
   - ds0h3roq6wcgc.cloudfront.net
+  - dstnzhnatv9pz.cloudfront.net
   - dtlgalleryint.cloudapp.net
   - dykkng5hnh52u.cloudfront.net
   - e122475.dscg.akamaiedge.net
@@ -221,6 +241,7 @@ domain_set:
   - hamivideo.hinet.net
   - hammerandchisel.ssl.zendesk.com
   - hb.imgix.net
+  - hb4bbbbb.pmhcjk.com
   - heads-ak-spotify-com.akamaized.net
   - heads4-ak-spotify-com.akamaized.net
   - himalaya-exchange.zendesk.com
@@ -274,6 +295,7 @@ domain_set:
   - na1r.services.adobe.com
   - nab.demdex.net
   - nationalaustraliaban.tt.omtrdc.net
+  - nbbb1bb7.pmhcjk.com
   - netflix.com.edgesuite.net
   - notary-submissions-prod.s3-accelerate.amazonaws.com
   - notary-submissions-prod.s3.us-west-2.amazonaws.com
@@ -365,6 +387,7 @@ domain_set:
   - publicca.googleapis.com
   - push-apple.com.akadns.net
   - pvr-hamivideo.cdn.hinet.net
+  - q676790b.pmhcjk.com
   - qualcomm.sc.omtrdc.net
   - rink.hockeyapp.net
   - roblox-load-generator-configuration.s3.us-east-2.amazonaws.com
@@ -5008,6 +5031,7 @@ domain_suffix_set:
   - bnn.co
   - bnrmetal.com
   - bntrace.com
+  - bnxz.net
   - boardreader.com
   - boboporn.com
   - boboporn.net
@@ -5451,6 +5475,7 @@ domain_suffix_set:
   - bypasscensorship.org
   - byrut.org
   - byspotify.com
+  - bystys.tech
   - bytedapm.com
   - byteoversea.com
   - bytick.com
@@ -14610,7 +14635,14 @@ domain_suffix_set:
   - lih.kg
   - lihkg.com
   - lihksnap.com
+  - like-video.com
   - like.com
+  - like.video
+  - likee.com
+  - likee.video
+  - likeeapp.ru
+  - likeevideo.com
+  - likeevideo.ru
   - likeseiyu.com
   - liketruyen.net
   - liketwice.com
@@ -18110,6 +18142,7 @@ domain_suffix_set:
   - ow.ly
   - owl.li
   - owltail.com
+  - owxd.xyz
   - oxfordaasc.com
   - oxfordartonline.com
   - oxfordbibliographies.com
@@ -23723,6 +23756,7 @@ domain_suffix_set:
   - uweb.ru
   - uwpcommunitytoolkit.com
   - uxthemes.com
+  - uxzw.club
   - uyghur-j.org
   - uyghuraa.org
   - uyghuramerican.org
@@ -26590,6 +26624,7 @@ domain_suffix_set:
   - ytimg.com
   - ytn.co.kr
   - yuanming.net
+  - yucf.top
   - yuenuge113.xyz
   - yuenuge18.cc
   - yugioh-card.com

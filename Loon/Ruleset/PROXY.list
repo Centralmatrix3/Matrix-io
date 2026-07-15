@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26842
+# 规则统计: 26877
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -26,6 +26,7 @@ DOMAIN,adobe-dns-4.adobe.com
 DOMAIN,adobe-dns.adobe.com
 DOMAIN,adobeereg.com
 DOMAIN,afa7f374f51cc8991.awsglobalaccelerator.com
+DOMAIN,agb9r0ad.qllfkl.com
 DOMAIN,ai.google.dev
 DOMAIN,alkalicore-pa.clients6.google.com
 DOMAIN,alkalimakersuite-pa.clients6.google.com
@@ -103,42 +104,60 @@ DOMAIN,copilotprodattachments.blob.core.windows.net
 DOMAIN,crl.microsoft.com
 DOMAIN,crl.versign.net
 DOMAIN,csis-prod.s3.amazonaws.com
+DOMAIN,d1d0w7op819ely.cloudfront.net
+DOMAIN,d1fijc56o1fzod.cloudfront.net
 DOMAIN,d1g1f25tn8m2e6.cloudfront.net
 DOMAIN,d1k2us671qcoau.cloudfront.net
 DOMAIN,d1m7jfoe9zdc1j.cloudfront.net
 DOMAIN,d1mhjrowxxagfy.cloudfront.net
 DOMAIN,d1ndex63qxojbr.cloudfront.net
+DOMAIN,d1nu566dreq9vj.cloudfront.net
 DOMAIN,d1oca24q5dwo6d.cloudfront.net
+DOMAIN,d1ugi9qonif2a2.cloudfront.net
 DOMAIN,d1unuk07s6td74.cloudfront.net
 DOMAIN,d1v5ir2lpwr8os.cloudfront.net
 DOMAIN,d1w2poirtb3as9.cloudfront.net
 DOMAIN,d1xhnb4ptk05mw.cloudfront.net
 DOMAIN,d1ymi26ma8va5x.cloudfront.net
+DOMAIN,d20g4xwarzxagx.cloudfront.net
 DOMAIN,d22qjgkvxw22r6.cloudfront.net
 DOMAIN,d25xi40x97liuc.cloudfront.net
+DOMAIN,d26rnz3bwp7rlk.cloudfront.net
 DOMAIN,d27xxe7juh1us6.cloudfront.net
+DOMAIN,d28odxiw1asdj8.cloudfront.net
 DOMAIN,d29vzk4ow07wi7.cloudfront.net
 DOMAIN,d2aba1wr3818hz.cloudfront.net
 DOMAIN,d2anahhhmp1ffz.cloudfront.net
+DOMAIN,d2be40xdoc0in8.cloudfront.net
 DOMAIN,d2dylwb3shzel1.cloudfront.net
 DOMAIN,d2e2de1etea730.cloudfront.net
+DOMAIN,d2fg91fzjsrcv1.cloudfront.net
+DOMAIN,d2j7e8uopcv07.cloudfront.net
 DOMAIN,d2nvs31859zcd8.cloudfront.net
 DOMAIN,d2um2qdswy1tb0.cloudfront.net
+DOMAIN,d2v9yioq9zuuq2.cloudfront.net
 DOMAIN,d2vjef5jvl6bfs.cloudfront.net
 DOMAIN,d2xmjdvx03ij56.cloudfront.net
+DOMAIN,d31dormfno8pk4.cloudfront.net
 DOMAIN,d33wubrfki0l68.cloudfront.net
 DOMAIN,d36nr0u3xmc4mm.cloudfront.net
 DOMAIN,d3aqoihi2n8ty8.cloudfront.net
 DOMAIN,d3c27h4odz752x.cloudfront.net
+DOMAIN,d3lh5kkip965lj.cloudfront.net
+DOMAIN,d3nwj80emtnjeo.cloudfront.net
 DOMAIN,d3r7nsslvs6aaf.cloudfront.net
+DOMAIN,d3ucl0eqgl80l5.cloudfront.net
 DOMAIN,d3vd9lfkzbru3h.cloudfront.net
 DOMAIN,d6d4ismr40iw.cloudfront.net
 DOMAIN,d6tizftlrpuof.cloudfront.net
+DOMAIN,d96jfp62lg3kj.cloudfront.net
 DOMAIN,daily-cloudcode-pa.googleapis.com
 DOMAIN,databank.worldbank.org
 DOMAIN,database.asahi.com
 DOMAIN,datarouter.apps.netherrealm.com
+DOMAIN,dcb0z5ovq92mz.cloudfront.net
 DOMAIN,ddacn6pr5v0tl.cloudfront.net
+DOMAIN,ddpjwstwtpszg.cloudfront.net
 DOMAIN,default.exp-tas.com
 DOMAIN,dell.my.site.com
 DOMAIN,deribit.cdn.prismic.io
@@ -159,6 +178,7 @@ DOMAIN,dqrpb9wgowsf5.cloudfront.net
 DOMAIN,ds-linear-abematv.akamaized.net
 DOMAIN,ds-vod-abematv.akamaized.net
 DOMAIN,ds0h3roq6wcgc.cloudfront.net
+DOMAIN,dstnzhnatv9pz.cloudfront.net
 DOMAIN,dtlgalleryint.cloudapp.net
 DOMAIN,dykkng5hnh52u.cloudfront.net
 DOMAIN,e122475.dscg.akamaiedge.net
@@ -220,6 +240,7 @@ DOMAIN,google-ohttp-relay-safebrowsing.fastly-edge.com
 DOMAIN,hamivideo.hinet.net
 DOMAIN,hammerandchisel.ssl.zendesk.com
 DOMAIN,hb.imgix.net
+DOMAIN,hb4bbbbb.pmhcjk.com
 DOMAIN,heads-ak-spotify-com.akamaized.net
 DOMAIN,heads4-ak-spotify-com.akamaized.net
 DOMAIN,himalaya-exchange.zendesk.com
@@ -273,6 +294,7 @@ DOMAIN,mwf-service.akamaized.net
 DOMAIN,na1r.services.adobe.com
 DOMAIN,nab.demdex.net
 DOMAIN,nationalaustraliaban.tt.omtrdc.net
+DOMAIN,nbbb1bb7.pmhcjk.com
 DOMAIN,netflix.com.edgesuite.net
 DOMAIN,notary-submissions-prod.s3-accelerate.amazonaws.com
 DOMAIN,notary-submissions-prod.s3.us-west-2.amazonaws.com
@@ -364,6 +386,7 @@ DOMAIN,public-us-pingsx.api.clonoth.com
 DOMAIN,publicca.googleapis.com
 DOMAIN,push-apple.com.akadns.net
 DOMAIN,pvr-hamivideo.cdn.hinet.net
+DOMAIN,q676790b.pmhcjk.com
 DOMAIN,qualcomm.sc.omtrdc.net
 DOMAIN,rink.hockeyapp.net
 DOMAIN,roblox-load-generator-configuration.s3.us-east-2.amazonaws.com
@@ -5006,6 +5029,7 @@ DOMAIN-SUFFIX,bnext.com.tw
 DOMAIN-SUFFIX,bnn.co
 DOMAIN-SUFFIX,bnrmetal.com
 DOMAIN-SUFFIX,bntrace.com
+DOMAIN-SUFFIX,bnxz.net
 DOMAIN-SUFFIX,boardreader.com
 DOMAIN-SUFFIX,boboporn.com
 DOMAIN-SUFFIX,boboporn.net
@@ -5449,6 +5473,7 @@ DOMAIN-SUFFIX,bynet.co.il
 DOMAIN-SUFFIX,bypasscensorship.org
 DOMAIN-SUFFIX,byrut.org
 DOMAIN-SUFFIX,byspotify.com
+DOMAIN-SUFFIX,bystys.tech
 DOMAIN-SUFFIX,bytedapm.com
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,bytick.com
@@ -14608,7 +14633,14 @@ DOMAIN-SUFFIX,lightyearvpn.com
 DOMAIN-SUFFIX,lih.kg
 DOMAIN-SUFFIX,lihkg.com
 DOMAIN-SUFFIX,lihksnap.com
+DOMAIN-SUFFIX,like-video.com
 DOMAIN-SUFFIX,like.com
+DOMAIN-SUFFIX,like.video
+DOMAIN-SUFFIX,likee.com
+DOMAIN-SUFFIX,likee.video
+DOMAIN-SUFFIX,likeeapp.ru
+DOMAIN-SUFFIX,likeevideo.com
+DOMAIN-SUFFIX,likeevideo.ru
 DOMAIN-SUFFIX,likeseiyu.com
 DOMAIN-SUFFIX,liketruyen.net
 DOMAIN-SUFFIX,liketwice.com
@@ -18108,6 +18140,7 @@ DOMAIN-SUFFIX,ovpn.com
 DOMAIN-SUFFIX,ow.ly
 DOMAIN-SUFFIX,owl.li
 DOMAIN-SUFFIX,owltail.com
+DOMAIN-SUFFIX,owxd.xyz
 DOMAIN-SUFFIX,oxfordaasc.com
 DOMAIN-SUFFIX,oxfordartonline.com
 DOMAIN-SUFFIX,oxfordbibliographies.com
@@ -23721,6 +23754,7 @@ DOMAIN-SUFFIX,uwants.com
 DOMAIN-SUFFIX,uweb.ru
 DOMAIN-SUFFIX,uwpcommunitytoolkit.com
 DOMAIN-SUFFIX,uxthemes.com
+DOMAIN-SUFFIX,uxzw.club
 DOMAIN-SUFFIX,uyghur-j.org
 DOMAIN-SUFFIX,uyghuraa.org
 DOMAIN-SUFFIX,uyghuramerican.org
@@ -26588,6 +26622,7 @@ DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,ytn.co.kr
 DOMAIN-SUFFIX,yuanming.net
+DOMAIN-SUFFIX,yucf.top
 DOMAIN-SUFFIX,yuenuge113.xyz
 DOMAIN-SUFFIX,yuenuge18.cc
 DOMAIN-SUFFIX,yugioh-card.com
