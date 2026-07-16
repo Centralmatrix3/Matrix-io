@@ -1,9 +1,10 @@
 # 规则名称: GlobalMax
-# 规则统计: 34827
+# 规则统计: 34842
 
 payload:
   - DOMAIN,1password.drift.click
   - DOMAIN,adobeereg.com
+  - DOMAIN,agb9r0ad.qllfkl.com
   - DOMAIN,angle.com.tw
   - DOMAIN,api-p.videomarket.jp
   - DOMAIN,api.waqi.info
@@ -47,6 +48,7 @@ payload:
   - DOMAIN,github-api.arkoselabs.com
   - DOMAIN,gog-cdn-lumen.secure2.footprint.net
   - DOMAIN,gog.qtlglb.com
+  - DOMAIN,hb4bbbbb.pmhcjk.com
   - DOMAIN,holoxx.f5.si
   - DOMAIN,hpstore.corpmerchandise.com
   - DOMAIN,hub.slarker.me
@@ -59,6 +61,7 @@ payload:
   - DOMAIN,medone-education.thieme.com
   - DOMAIN,muse.jhu.edu
   - DOMAIN,nationalaustraliaban.tt.omtrdc.net
+  - DOMAIN,nbbb1bb7.pmhcjk.com
   - DOMAIN,ntp-c.colorado.edu
   - DOMAIN,ntp.time.nl
   - DOMAIN,ntp0.ntp-servers.net
@@ -81,6 +84,7 @@ payload:
   - DOMAIN,practivate.adobe.ntp
   - DOMAIN,public-us-pingsx.api.clonoth.com
   - DOMAIN,push-apple.com.akadns.net
+  - DOMAIN,q676790b.pmhcjk.com
   - DOMAIN,qualcomm.sc.omtrdc.net
   - DOMAIN,roovza-launches.appsflyersdk.com
   - DOMAIN,roovza.inapps.appsflyersdk.com
@@ -1682,7 +1686,6 @@ payload:
   - DOMAIN-SUFFIX,alexanderstreet.com
   - DOMAIN-SUFFIX,alexlur.org
   - DOMAIN-SUFFIX,alfa.me
-  - DOMAIN-SUFFIX,alfabank.oavdo.amc
   - DOMAIN-SUFFIX,alfabank.ru
   - DOMAIN-SUFFIX,alfabank.st
   - DOMAIN-SUFFIX,alfadirect.ru
@@ -5205,6 +5208,7 @@ payload:
   - DOMAIN-SUFFIX,bnrmetal.com
   - DOMAIN-SUFFIX,bntrace.com
   - DOMAIN-SUFFIX,bnu.ac.uk
+  - DOMAIN-SUFFIX,bnxz.net
   - DOMAIN-SUFFIX,boa.ac.uk
   - DOMAIN-SUFFIX,boardreader.com
   - DOMAIN-SUFFIX,bobble.ac.uk
@@ -5864,6 +5868,7 @@ payload:
   - DOMAIN-SUFFIX,bypasscensorship.org
   - DOMAIN-SUFFIX,byrut.org
   - DOMAIN-SUFFIX,byspotify.com
+  - DOMAIN-SUFFIX,bystys.tech
   - DOMAIN-SUFFIX,byteoversea.com
   - DOMAIN-SUFFIX,bytick.com
   - DOMAIN-SUFFIX,byzantine-ahrb-centre.ac.uk
@@ -6612,6 +6617,7 @@ payload:
   - DOMAIN-SUFFIX,chatango.com
   - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,chatgpt.livekit.cloud
+  - DOMAIN-SUFFIX,chatgpt.site
   - DOMAIN-SUFFIX,chatgptvideo.xyz
   - DOMAIN-SUFFIX,chatgptvideob.buzz
   - DOMAIN-SUFFIX,chatnook.com
@@ -17494,6 +17500,7 @@ payload:
   - DOMAIN-SUFFIX,kiad.ac.uk
   - DOMAIN-SUFFIX,kichiku-doujinko.com
   - DOMAIN-SUFFIX,kichikuou.com
+  - DOMAIN-SUFFIX,kick.com
   - DOMAIN-SUFFIX,kickporn.com
   - DOMAIN-SUFFIX,kickshatchannel.com
   - DOMAIN-SUFFIX,kicksnike1.com
@@ -18178,7 +18185,12 @@ payload:
   - DOMAIN-SUFFIX,lihe.ac.uk
   - DOMAIN-SUFFIX,lihkg.com
   - DOMAIN-SUFFIX,lihksnap.com
+  - DOMAIN-SUFFIX,like-video.com
   - DOMAIN-SUFFIX,like.com
+  - DOMAIN-SUFFIX,likee.com
+  - DOMAIN-SUFFIX,likeeapp.ru
+  - DOMAIN-SUFFIX,likeevideo.com
+  - DOMAIN-SUFFIX,likeevideo.ru
   - DOMAIN-SUFFIX,likeseiyu.com
   - DOMAIN-SUFFIX,liketruyen.net
   - DOMAIN-SUFFIX,liketwice.com
@@ -23022,6 +23034,7 @@ payload:
   - DOMAIN-SUFFIX,owl.li
   - DOMAIN-SUFFIX,owltail.com
   - DOMAIN-SUFFIX,owsc.ac.uk
+  - DOMAIN-SUFFIX,owxd.xyz
   - DOMAIN-SUFFIX,ox.ac.uk
   - DOMAIN-SUFFIX,oxademy.ac.uk
   - DOMAIN-SUFFIX,oxahsc.ac.uk
@@ -30996,6 +31009,7 @@ payload:
   - DOMAIN-SUFFIX,uxbridgecollege.ac.uk
   - DOMAIN-SUFFIX,uxthemes.com
   - DOMAIN-SUFFIX,uxxxporn.com
+  - DOMAIN-SUFFIX,uxzw.club
   - DOMAIN-SUFFIX,uyghur-j.org
   - DOMAIN-SUFFIX,uyghur.co.uk
   - DOMAIN-SUFFIX,uyghuraa.org
@@ -34382,6 +34396,7 @@ payload:
   - DOMAIN-SUFFIX,ytimg.com
   - DOMAIN-SUFFIX,ytn.co.kr
   - DOMAIN-SUFFIX,yuanzhengtang.org
+  - DOMAIN-SUFFIX,yucf.top
   - DOMAIN-SUFFIX,yuenuge113.xyz
   - DOMAIN-SUFFIX,yuenuge18.cc
   - DOMAIN-SUFFIX,yugioh-card.com

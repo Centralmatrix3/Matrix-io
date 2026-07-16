@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26877
+# 规则统计: 26880
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -531,7 +531,6 @@ HOST,t.ssp.hinet.net,PROXY
 HOST,t21.nikkei.co.jp,PROXY
 HOST,t21ipau.nikkei.co.jp,PROXY
 HOST,teamviewer.com.cdn.cloudflare.net,PROXY
-HOST,tesla-cdn.thron.com,PROXY
 HOST,thumbnail-hamivideo.cdn.hinet.net,PROXY
 HOST,time-a-b.nist.gov,PROXY
 HOST,time-a-g.nist.gov,PROXY
@@ -3541,6 +3540,7 @@ HOST-SUFFIX,azuredns-prd.info,PROXY
 HOST-SUFFIX,azuredns-prd.org,PROXY
 HOST-SUFFIX,azureedge-test.net,PROXY
 HOST-SUFFIX,azureedge.net,PROXY
+HOST-SUFFIX,azureedge.us,PROXY
 HOST-SUFFIX,azurefd.net,PROXY
 HOST-SUFFIX,azureiotcentral.com,PROXY
 HOST-SUFFIX,azureiotsolutions.com,PROXY
@@ -6573,6 +6573,7 @@ HOST-SUFFIX,coomer.su,PROXY
 HOST-SUFFIX,coova.com,PROXY
 HOST-SUFFIX,coova.net,PROXY
 HOST-SUFFIX,coova.org,PROXY
+HOST-SUFFIX,copilot-stg.com,PROXY
 HOST-SUFFIX,copilot.com,PROXY
 HOST-SUFFIX,copro.pw,PROXY
 HOST-SUFFIX,copy-manga.com,PROXY
@@ -15588,6 +15589,7 @@ HOST-SUFFIX,mgstage.com,PROXY
 HOST-SUFFIX,mh4u.org,PROXY
 HOST-SUFFIX,mhcb.ru,PROXY
 HOST-SUFFIX,mhcbr.ru,PROXY
+HOST-SUFFIX,mhgui.com,PROXY
 HOST-SUFFIX,mhhanman.xyz,PROXY
 HOST-SUFFIX,mhqwe.xyz,PROXY
 HOST-SUFFIX,mhradio.org,PROXY
@@ -21893,6 +21895,7 @@ HOST-SUFFIX,starfieldtech.com,PROXY
 HOST-SUFFIX,starfox.com,PROXY
 HOST-SUFFIX,stargazer-games.com,PROXY
 HOST-SUFFIX,stark-verlag.ch,PROXY
+HOST-SUFFIX,starlink.com,PROXY
 HOST-SUFFIX,starott.com,PROXY
 HOST-SUFFIX,starp2p.com,PROXY
 HOST-SUFFIX,starplus.com,PROXY

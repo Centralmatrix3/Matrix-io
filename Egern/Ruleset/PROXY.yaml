@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26877
+# 规则统计: 26880
 
 domain_set:
   - 1password.drift.click
@@ -532,7 +532,6 @@ domain_set:
   - t21.nikkei.co.jp
   - t21ipau.nikkei.co.jp
   - teamviewer.com.cdn.cloudflare.net
-  - tesla-cdn.thron.com
   - thumbnail-hamivideo.cdn.hinet.net
   - time-a-b.nist.gov
   - time-a-g.nist.gov
@@ -3543,6 +3542,7 @@ domain_suffix_set:
   - azuredns-prd.org
   - azureedge-test.net
   - azureedge.net
+  - azureedge.us
   - azurefd.net
   - azureiotcentral.com
   - azureiotsolutions.com
@@ -6575,6 +6575,7 @@ domain_suffix_set:
   - coova.com
   - coova.net
   - coova.org
+  - copilot-stg.com
   - copilot.com
   - copro.pw
   - copy-manga.com
@@ -15590,6 +15591,7 @@ domain_suffix_set:
   - mh4u.org
   - mhcb.ru
   - mhcbr.ru
+  - mhgui.com
   - mhhanman.xyz
   - mhqwe.xyz
   - mhradio.org
@@ -21895,6 +21897,7 @@ domain_suffix_set:
   - starfox.com
   - stargazer-games.com
   - stark-verlag.ch
+  - starlink.com
   - starott.com
   - starp2p.com
   - starplus.com
