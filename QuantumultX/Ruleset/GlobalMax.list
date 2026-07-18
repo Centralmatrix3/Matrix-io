@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 34842
+# 规则统计: 34847
 
 HOST,1password.drift.click,GlobalMax
 HOST,adobeereg.com,GlobalMax
@@ -3443,6 +3443,7 @@ HOST-SUFFIX,azuredns-prd.info,GlobalMax
 HOST-SUFFIX,azuredns-prd.org,GlobalMax
 HOST-SUFFIX,azureedge-test.net,GlobalMax
 HOST-SUFFIX,azureedge.net,GlobalMax
+HOST-SUFFIX,azureedge.us,GlobalMax
 HOST-SUFFIX,azurefd.net,GlobalMax
 HOST-SUFFIX,azureiotcentral.com,GlobalMax
 HOST-SUFFIX,azureiotsolutions.com,GlobalMax
@@ -7519,6 +7520,7 @@ HOST-SUFFIX,coova.com,GlobalMax
 HOST-SUFFIX,coova.net,GlobalMax
 HOST-SUFFIX,coova.org,GlobalMax
 HOST-SUFFIX,copac.ac.uk,GlobalMax
+HOST-SUFFIX,copilot-stg.com,GlobalMax
 HOST-SUFFIX,copilot.com,GlobalMax
 HOST-SUFFIX,copim.ac.uk,GlobalMax
 HOST-SUFFIX,copior.ac.uk,GlobalMax
@@ -19577,6 +19579,7 @@ HOST-SUFFIX,mh4u.org,GlobalMax
 HOST-SUFFIX,mhcb.ru,GlobalMax
 HOST-SUFFIX,mhcbr.ru,GlobalMax
 HOST-SUFFIX,mhdss.ac.uk,GlobalMax
+HOST-SUFFIX,mhgui.com,GlobalMax
 HOST-SUFFIX,mhhanman.xyz,GlobalMax
 HOST-SUFFIX,mhie.ac.uk,GlobalMax
 HOST-SUFFIX,mhqwe.xyz,GlobalMax
@@ -21420,6 +21423,7 @@ HOST-SUFFIX,netwise.ac.uk,GlobalMax
 HOST-SUFFIX,network54.com,GlobalMax
 HOST-SUFFIX,networkedblogs.com,GlobalMax
 HOST-SUFFIX,networktunnel.net,GlobalMax
+HOST-SUFFIX,netxh.blog,GlobalMax
 HOST-SUFFIX,netzerobuildings.com,GlobalMax
 HOST-SUFFIX,netzerobuildingstudio.com,GlobalMax
 HOST-SUFFIX,netzwerkdeutsch.ac.uk,GlobalMax
@@ -28161,6 +28165,7 @@ HOST-SUFFIX,starfox.com,GlobalMax
 HOST-SUFFIX,stargazer-games.com,GlobalMax
 HOST-SUFFIX,stark-verlag.ch,GlobalMax
 HOST-SUFFIX,starlink.ac.uk,GlobalMax
+HOST-SUFFIX,starlink.com,GlobalMax
 HOST-SUFFIX,starott.com,GlobalMax
 HOST-SUFFIX,starp2p.com,GlobalMax
 HOST-SUFFIX,starplus.com,GlobalMax

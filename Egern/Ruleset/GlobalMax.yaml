@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 34842
+# 规则统计: 34847
 
 no_resolve: true
 domain_set:
@@ -3446,6 +3446,7 @@ domain_suffix_set:
   - azuredns-prd.org
   - azureedge-test.net
   - azureedge.net
+  - azureedge.us
   - azurefd.net
   - azureiotcentral.com
   - azureiotsolutions.com
@@ -7522,6 +7523,7 @@ domain_suffix_set:
   - coova.net
   - coova.org
   - copac.ac.uk
+  - copilot-stg.com
   - copilot.com
   - copim.ac.uk
   - copior.ac.uk
@@ -19580,6 +19582,7 @@ domain_suffix_set:
   - mhcb.ru
   - mhcbr.ru
   - mhdss.ac.uk
+  - mhgui.com
   - mhhanman.xyz
   - mhie.ac.uk
   - mhqwe.xyz
@@ -21423,6 +21426,7 @@ domain_suffix_set:
   - network54.com
   - networkedblogs.com
   - networktunnel.net
+  - netxh.blog
   - netzerobuildings.com
   - netzerobuildingstudio.com
   - netzwerkdeutsch.ac.uk
@@ -28164,6 +28168,7 @@ domain_suffix_set:
   - stargazer-games.com
   - stark-verlag.ch
   - starlink.ac.uk
+  - starlink.com
   - starott.com
   - starp2p.com
   - starplus.com

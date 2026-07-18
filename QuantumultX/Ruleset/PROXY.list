@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26881
+# 规则统计: 26882
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -19642,6 +19642,7 @@ HOST-SUFFIX,qmov.net,PROXY
 HOST-SUFFIX,qmp4.com,PROXY
 HOST-SUFFIX,qmttqg3k.me,PROXY
 HOST-SUFFIX,qnap.com,PROXY
+HOST-SUFFIX,qnapsupport.net,PROXY
 HOST-SUFFIX,qobuz.com,PROXY
 HOST-SUFFIX,qoder.com,PROXY
 HOST-SUFFIX,qombol.com,PROXY
