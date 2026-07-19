@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7464
+# 规则统计: 7465
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -36,6 +36,7 @@ payload:
   - DOMAIN-SUFFIX,18board.com
   - DOMAIN-SUFFIX,18board.info
   - DOMAIN-SUFFIX,18comic.org
+  - DOMAIN-SUFFIX,18comic.vip
   - DOMAIN-SUFFIX,18mh.net
   - DOMAIN-SUFFIX,18onlygirls.com
   - DOMAIN-SUFFIX,18p2p.com
