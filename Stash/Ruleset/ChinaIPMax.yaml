@@ -1,5 +1,5 @@
 # 规则名称: ChinaIPMax
-# 规则统计: 22832
+# 规则统计: 22835
 
 payload:
   - IP-CIDR,1.0.1.0/24,no-resolve
@@ -1105,6 +1105,7 @@ payload:
   - IP-CIDR,103.144.148.0/23,no-resolve
   - IP-CIDR,103.144.158.0/23,no-resolve
   - IP-CIDR,103.144.240.0/23,no-resolve
+  - IP-CIDR,103.144.244.0/24,no-resolve
   - IP-CIDR,103.144.40.0/23,no-resolve
   - IP-CIDR,103.144.52.0/23,no-resolve
   - IP-CIDR,103.144.66.0/23,no-resolve
@@ -8651,7 +8652,6 @@ payload:
   - IP-CIDR,14.22.33.0/24,no-resolve
   - IP-CIDR,14.22.4.0/24,no-resolve
   - IP-CIDR,14.22.5.0/24,no-resolve
-  - IP-CIDR,14.241.232.0/21,no-resolve
   - IP-CIDR,14.255.16.0/24,no-resolve
   - IP-CIDR,14.255.238.0/24,no-resolve
   - IP-CIDR,14.255.254.0/24,no-resolve
@@ -9365,6 +9365,8 @@ payload:
   - IP-CIDR,165.154.192.0/19,no-resolve
   - IP-CIDR,165.156.30.0/24,no-resolve
   - IP-CIDR,165.99.4.0/24,no-resolve
+  - IP-CIDR,166.0.100.0/24,no-resolve
+  - IP-CIDR,166.0.97.0/24,no-resolve
   - IP-CIDR,166.111.0.0/16,no-resolve
   - IP-CIDR,166.118.227.88/32,no-resolve
   - IP-CIDR,167.139.0.0/16,no-resolve
@@ -16449,6 +16451,7 @@ payload:
   - IP-CIDR,45.87.53.0/24,no-resolve
   - IP-CIDR,45.87.54.0/24,no-resolve
   - IP-CIDR,45.9.11.0/24,no-resolve
+  - IP-CIDR,45.91.139.0/24,no-resolve
   - IP-CIDR,46.102.251.0/25,no-resolve
   - IP-CIDR,46.151.180.0/23,no-resolve
   - IP-CIDR,46.151.181.0/24,no-resolve
