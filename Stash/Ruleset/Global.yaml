@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7465
+# 规则统计: 7467
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -1264,6 +1264,7 @@ payload:
   - DOMAIN-SUFFIX,cixiaoya.club
   - DOMAIN-SUFFIX,ck101.com
   - DOMAIN-SUFFIX,clarionproject.org
+  - DOMAIN-SUFFIX,clashyun.com
   - DOMAIN-SUFFIX,classicalguitarblog.net
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,claude.com
@@ -5826,6 +5827,7 @@ payload:
   - DOMAIN-SUFFIX,synergyse.com
   - DOMAIN-SUFFIX,syosetu.com
   - DOMAIN-SUFFIX,sysresccd.org
+  - DOMAIN-SUFFIX,sysub.com
   - DOMAIN-SUFFIX,sytes.net
   - DOMAIN-SUFFIX,syx86.com
   - DOMAIN-SUFFIX,szbbs.net

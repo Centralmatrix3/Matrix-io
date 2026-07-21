@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 4362
+# 规则统计: 4364
 
 payload:
   - '+.000webhost.com'
@@ -787,6 +787,7 @@ payload:
   - '+.civitai.com'
   - '+.cixiaoya.club'
   - '+.ck101.com'
+  - '+.clashyun.com'
   - '+.classicalguitarblog.net'
   - '+.claude.ai'
   - '+.claude.com'
@@ -3440,6 +3441,7 @@ payload:
   - '+.syncback.com'
   - '+.synergyse.com'
   - '+.syosetu.com'
+  - '+.sysub.com'
   - '+.t-g.com'
   - '+.t.co'
   - '+.t.me'

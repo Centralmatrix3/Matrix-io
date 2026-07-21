@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 4362
+# 规则统计: 4364
 
 HOST-SUFFIX,000webhost.com,GreatFireWall
 HOST-SUFFIX,0rz.tw,GreatFireWall
@@ -786,6 +786,7 @@ HOST-SUFFIX,civilmedia.tw,GreatFireWall
 HOST-SUFFIX,civitai.com,GreatFireWall
 HOST-SUFFIX,cixiaoya.club,GreatFireWall
 HOST-SUFFIX,ck101.com,GreatFireWall
+HOST-SUFFIX,clashyun.com,GreatFireWall
 HOST-SUFFIX,classicalguitarblog.net,GreatFireWall
 HOST-SUFFIX,claude.ai,GreatFireWall
 HOST-SUFFIX,claude.com,GreatFireWall
@@ -3439,6 +3440,7 @@ HOST-SUFFIX,synapse.org,GreatFireWall
 HOST-SUFFIX,syncback.com,GreatFireWall
 HOST-SUFFIX,synergyse.com,GreatFireWall
 HOST-SUFFIX,syosetu.com,GreatFireWall
+HOST-SUFFIX,sysub.com,GreatFireWall
 HOST-SUFFIX,t-g.com,GreatFireWall
 HOST-SUFFIX,t.co,GreatFireWall
 HOST-SUFFIX,t.me,GreatFireWall
