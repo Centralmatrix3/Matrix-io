@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26893
+# 规则统计: 26894
 
 payload:
   - '1password.drift.click'
@@ -26741,6 +26741,7 @@ payload:
   - '+.zenlesszonezero.com'
   - '+.zenmate.com'
   - '+.zenmate.com.ru'
+  - '+.zenmux.ai'
   - '+.zenodo.org'
   - '+.zeplin.dev'
   - '+.zeplin.io'

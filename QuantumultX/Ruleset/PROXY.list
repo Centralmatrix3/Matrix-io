@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26893
+# 规则统计: 26894
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -26740,6 +26740,7 @@ HOST-SUFFIX,zenit.ru,PROXY
 HOST-SUFFIX,zenlesszonezero.com,PROXY
 HOST-SUFFIX,zenmate.com,PROXY
 HOST-SUFFIX,zenmate.com.ru,PROXY
+HOST-SUFFIX,zenmux.ai,PROXY
 HOST-SUFFIX,zenodo.org,PROXY
 HOST-SUFFIX,zeplin.dev,PROXY
 HOST-SUFFIX,zeplin.io,PROXY

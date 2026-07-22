@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7467
+# 规则统计: 7468
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -7284,6 +7284,7 @@ payload:
   - DOMAIN-SUFFIX,zengjinyan.org
   - DOMAIN-SUFFIX,zenmate.com
   - DOMAIN-SUFFIX,zenmate.com.ru
+  - DOMAIN-SUFFIX,zenmux.ai
   - DOMAIN-SUFFIX,zerohedge.com
   - DOMAIN-SUFFIX,zeronet.io
   - DOMAIN-SUFFIX,zeutch.com

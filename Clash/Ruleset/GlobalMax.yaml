@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 34848
+# 规则统计: 34857
 
 payload:
   - DOMAIN,1password.drift.click
@@ -4143,6 +4143,7 @@ payload:
   - DOMAIN-SUFFIX,bess.ac.uk
   - DOMAIN-SUFFIX,best-sex-games.com
   - DOMAIN-SUFFIX,best.ac.uk
+  - DOMAIN-SUFFIX,best2pay.net
   - DOMAIN-SUFFIX,best3dhere.com
   - DOMAIN-SUFFIX,best4bim.com
   - DOMAIN-SUFFIX,bestamateurcumshots.com
@@ -7064,6 +7065,7 @@ payload:
   - DOMAIN-SUFFIX,clashmini.com
   - DOMAIN-SUFFIX,clashofclans.com
   - DOMAIN-SUFFIX,clashroyale.com
+  - DOMAIN-SUFFIX,clashyun.com
   - DOMAIN-SUFFIX,clasporno.org
   - DOMAIN-SUFFIX,classicalguitarblog.net
   - DOMAIN-SUFFIX,classicnike.com
@@ -10685,6 +10687,8 @@ payload:
   - DOMAIN-SUFFIX,f-droid.com
   - DOMAIN-SUFFIX,f-droid.org
   - DOMAIN-SUFFIX,f-secure.com
+  - DOMAIN-SUFFIX,f1.com
+  - DOMAIN-SUFFIX,f1tv.com
   - DOMAIN-SUFFIX,f2pool.com
   - DOMAIN-SUFFIX,f5pf.com
   - DOMAIN-SUFFIX,f6.dev
@@ -11686,6 +11690,7 @@ payload:
   - DOMAIN-SUFFIX,formit360.com
   - DOMAIN-SUFFIX,formitfactory.com
   - DOMAIN-SUFFIX,forms.new
+  - DOMAIN-SUFFIX,formula1.com
   - DOMAIN-SUFFIX,forpojie.pics
   - DOMAIN-SUFFIX,forshtadt.ru
   - DOMAIN-SUFFIX,forster.ac.uk
@@ -15202,6 +15207,7 @@ payload:
   - DOMAIN-SUFFIX,hutpromos.com
   - DOMAIN-SUFFIX,hutton.ac.uk
   - DOMAIN-SUFFIX,huyandex.com
+  - DOMAIN-SUFFIX,hva.im
   - DOMAIN-SUFFIX,hw.ac.uk
   - DOMAIN-SUFFIX,hwadzan.tw
   - DOMAIN-SUFFIX,hwayue.org.tw
@@ -25219,10 +25225,12 @@ payload:
   - DOMAIN-SUFFIX,rbnainternational.com
   - DOMAIN-SUFFIX,rbplc.com
   - DOMAIN-SUFFIX,rbrandlibrary.com
+  - DOMAIN-SUFFIX,rbsgate.com
   - DOMAIN-SUFFIX,rbsgr.com
   - DOMAIN-SUFFIX,rbsl.ac.uk
   - DOMAIN-SUFFIX,rbslondon.ac.uk
   - DOMAIN-SUFFIX,rbspeakup.com
+  - DOMAIN-SUFFIX,rbsuat.com
   - DOMAIN-SUFFIX,rbth.com
   - DOMAIN-SUFFIX,rbx.com
   - DOMAIN-SUFFIX,rbxcdn.com
@@ -28744,6 +28752,7 @@ payload:
   - DOMAIN-SUFFIX,sysresccd.org
   - DOMAIN-SUFFIX,system76.com
   - DOMAIN-SUFFIX,systemicrisk.ac.uk
+  - DOMAIN-SUFFIX,sysub.com
   - DOMAIN-SUFFIX,sytes.net
   - DOMAIN-SUFFIX,syx86.com
   - DOMAIN-SUFFIX,syzbj36.xyz

@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 4364
+# 规则统计: 4365
 
 HOST-SUFFIX,000webhost.com,GreatFireWall
 HOST-SUFFIX,0rz.tw,GreatFireWall
@@ -4319,6 +4319,7 @@ HOST-SUFFIX,zdnet.com.tw,GreatFireWall
 HOST-SUFFIX,zello.com,GreatFireWall
 HOST-SUFFIX,zenmate.com,GreatFireWall
 HOST-SUFFIX,zenmate.com.ru,GreatFireWall
+HOST-SUFFIX,zenmux.ai,GreatFireWall
 HOST-SUFFIX,zerohedge.com,GreatFireWall
 HOST-SUFFIX,zeronet.io,GreatFireWall
 HOST-SUFFIX,zh-hans.cfsh99.com,GreatFireWall
