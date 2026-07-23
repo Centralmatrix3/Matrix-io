@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26894
+# 规则统计: 26895
 
 payload:
   - '1password.drift.click'
@@ -23011,6 +23011,7 @@ payload:
   - '+.tok.media'
   - '+.token.im'
   - '+.tokenlon.im'
+  - '+.tokenplus.app'
   - '+.tokyo-hot.com'
   - '+.tokyo-porn-tube.com'
   - '+.tokyo-sports.co.jp'
