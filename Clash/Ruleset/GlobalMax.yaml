@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 34857
+# 规则统计: 34859
 
 payload:
   - DOMAIN,1password.drift.click
@@ -29767,6 +29767,7 @@ payload:
   - DOMAIN-SUFFIX,tok.media
   - DOMAIN-SUFFIX,token.im
   - DOMAIN-SUFFIX,tokenlon.im
+  - DOMAIN-SUFFIX,tokenplus.app
   - DOMAIN-SUFFIX,tokyo-247.com
   - DOMAIN-SUFFIX,tokyo-hot.com
   - DOMAIN-SUFFIX,tokyo-porn-tube.com
@@ -34518,6 +34519,7 @@ payload:
   - DOMAIN-SUFFIX,zenit-card.ru
   - DOMAIN-SUFFIX,zenit.ru
   - DOMAIN-SUFFIX,zenmate.com
+  - DOMAIN-SUFFIX,zenmux.ai
   - DOMAIN-SUFFIX,zenodo.org
   - DOMAIN-SUFFIX,zeplerinstitute.ac.uk
   - DOMAIN-SUFFIX,zeplin.dev

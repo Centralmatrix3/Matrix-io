@@ -1,5 +1,5 @@
 # 规则名称: ChinaMax
-# 规则统计: 124642
+# 规则统计: 124655
 
 DOMAIN,1-fss24-s0.streamhoster.com
 DOMAIN,14033.live.streamtheworld.com
@@ -19694,6 +19694,7 @@ DOMAIN-SUFFIX,cd-wx.net
 DOMAIN-SUFFIX,cd-zc.com
 DOMAIN-SUFFIX,cd00c44f211031.beer
 DOMAIN-SUFFIX,cd120.com
+DOMAIN-SUFFIX,cd120.info
 DOMAIN-SUFFIX,cd12371.com
 DOMAIN-SUFFIX,cd1958.com
 DOMAIN-SUFFIX,cd20.net
@@ -66850,6 +66851,7 @@ DOMAIN-SUFFIX,moe233.org
 DOMAIN-SUFFIX,moe321.com
 DOMAIN-SUFFIX,moeclub.org
 DOMAIN-SUFFIX,moedot.net
+DOMAIN-SUFFIX,moedu.com
 DOMAIN-SUFFIX,moeelf.com
 DOMAIN-SUFFIX,moefactory.com
 DOMAIN-SUFFIX,moefantasy.com
@@ -90936,6 +90938,7 @@ DOMAIN-SUFFIX,tsingoofoods.com
 DOMAIN-SUFFIX,tsingpost.com
 DOMAIN-SUFFIX,tsingshang.com
 DOMAIN-SUFFIX,tsingtek.com
+DOMAIN-SUFFIX,tsingtengms.com
 DOMAIN-SUFFIX,tsingtoo.com
 DOMAIN-SUFFIX,tsingtuo.com
 DOMAIN-SUFFIX,tsingyangroup.com
@@ -98569,6 +98572,7 @@ DOMAIN-SUFFIX,xcxwo.com
 DOMAIN-SUFFIX,xcxymw.com
 DOMAIN-SUFFIX,xcxzww.com
 DOMAIN-SUFFIX,xcyg.net
+DOMAIN-SUFFIX,xcz.im
 DOMAIN-SUFFIX,xczhmzb.com
 DOMAIN-SUFFIX,xczhsh.com
 DOMAIN-SUFFIX,xczim.com
@@ -114520,6 +114524,7 @@ IP-CIDR,104.212.68.152/32,no-resolve
 IP-CIDR,104.212.68.57/32,no-resolve
 IP-CIDR,104.212.68.58/32,no-resolve
 IP-CIDR,104.227.65.96/28,no-resolve
+IP-CIDR,104.234.10.0/24,no-resolve
 IP-CIDR,104.237.80.0/21,no-resolve
 IP-CIDR,104.27.168.0/24,no-resolve
 IP-CIDR,104.28.101.0/27,no-resolve
@@ -115851,7 +115856,6 @@ IP-CIDR,150.242.96.0/22,no-resolve
 IP-CIDR,150.248.0.0/16,no-resolve
 IP-CIDR,150.255.0.0/16,no-resolve
 IP-CIDR,151.243.189.0/24,no-resolve
-IP-CIDR,151.244.135.0/24,no-resolve
 IP-CIDR,151.246.184.0/24,no-resolve
 IP-CIDR,151.247.148.0/23,no-resolve
 IP-CIDR,151.249.90.0/23,no-resolve
@@ -116587,6 +116591,8 @@ IP-CIDR,192.55.40.0/24,no-resolve
 IP-CIDR,192.55.46.0/23,no-resolve
 IP-CIDR,192.55.68.0/22,no-resolve
 IP-CIDR,192.56.99.0/24,no-resolve
+IP-CIDR,192.6.121.0/24,no-resolve
+IP-CIDR,192.6.159.0/24,no-resolve
 IP-CIDR,192.6.161.0/24,no-resolve
 IP-CIDR,192.6.243.0/24,no-resolve
 IP-CIDR,193.112.0.0/16,no-resolve
@@ -119381,6 +119387,7 @@ IP-CIDR,38.103.64.26/32,no-resolve
 IP-CIDR,38.105.24.0/24,no-resolve
 IP-CIDR,38.105.26.0/23,no-resolve
 IP-CIDR,38.105.28.0/22,no-resolve
+IP-CIDR,38.12.255.0/24,no-resolve
 IP-CIDR,38.134.58.0/23,no-resolve
 IP-CIDR,38.181.0.0/19,no-resolve
 IP-CIDR,38.181.32.0/23,no-resolve
@@ -120405,6 +120412,7 @@ IP-CIDR,82.109.96.0/23,no-resolve
 IP-CIDR,82.110.234.0/23,no-resolve
 IP-CIDR,82.156.0.0/15,no-resolve
 IP-CIDR,82.22.30.0/23,no-resolve
+IP-CIDR,82.38.46.0/23,no-resolve
 IP-CIDR,85.12.7.192/28,no-resolve
 IP-CIDR,85.184.245.0/24,no-resolve
 IP-CIDR,85.209.40.0/22,no-resolve
@@ -120751,6 +120759,7 @@ IP-CIDR6,2400:9380:90b1::/48,no-resolve
 IP-CIDR6,2400:9380:90b2::/47,no-resolve
 IP-CIDR6,2400:9380:90b4::/46,no-resolve
 IP-CIDR6,2400:9380:90c0::/44,no-resolve
+IP-CIDR6,2400:9380:9109::/48,no-resolve
 IP-CIDR6,2400:9380:9121::/48,no-resolve
 IP-CIDR6,2400:9380:91c0::/44,no-resolve
 IP-CIDR6,2400:9380:9220::/47,no-resolve
@@ -123150,6 +123159,7 @@ IP-CIDR6,2a07:db86:5c00::/38,no-resolve
 IP-CIDR6,2a07:f480::/29,no-resolve
 IP-CIDR6,2a09:2700:2800::/40,no-resolve
 IP-CIDR6,2a09:2702:48::/48,no-resolve
+IP-CIDR6,2a09:3f00:6100::/40,no-resolve
 IP-CIDR6,2a09:4c0:0:30::/64,no-resolve
 IP-CIDR6,2a09:7c45:0:1000::/52,no-resolve
 IP-CIDR6,2a09:7c45:0:100::/56,no-resolve
@@ -124400,6 +124410,8 @@ IP-CIDR6,2a0f:1cc5:2600::/41,no-resolve
 IP-CIDR6,2a0f:1cc5:2680::/42,no-resolve
 IP-CIDR6,2a0f:1cc5:2d01::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:2d03::/48,no-resolve
+IP-CIDR6,2a0f:1cc5:3200::/46,no-resolve
+IP-CIDR6,2a0f:1cc5:3222::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:40::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:4508::/46,no-resolve
 IP-CIDR6,2a0f:1cc5:450c::/47,no-resolve
@@ -124562,6 +124574,7 @@ IP-CIDR6,2a14:67c2:a70::/47,no-resolve
 IP-CIDR6,2a14:67c2:a80::/47,no-resolve
 IP-CIDR6,2a14:67c2:a90::/48,no-resolve
 IP-CIDR6,2a14:67c2:aa1::/48,no-resolve
+IP-CIDR6,2a14:67c3:1100::/47,no-resolve
 IP-CIDR6,2a14:67c3:190::/47,no-resolve
 IP-CIDR6,2a14:67c3:30::/44,no-resolve
 IP-CIDR6,2a14:67c3:360::/48,no-resolve
