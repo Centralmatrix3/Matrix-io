@@ -1,0 +1,6 @@
+# 规则名称: All4
+# 规则统计: 2
+
+payload:
+  - DOMAIN-SUFFIX,c4assets.com
+  - DOMAIN-SUFFIX,channel4.com

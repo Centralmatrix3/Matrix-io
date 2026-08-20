@@ -1,0 +1,16 @@
+# 规则名称: Claude
+# 规则统计: 11
+
+domain_set:
+  - anthropic-com.ghost.io
+  - anthropic.auth0.com
+  - anthropic.com.cdn.cloudflare.net
+  - servd-anthropic-website.b-cdn.net
+domain_suffix_set:
+  - anthropic.com
+  - clau.de
+  - claude.ai
+  - claude.com
+  - claudemcpclient.com
+  - claudemcpcontent.com
+  - claudeusercontent.com

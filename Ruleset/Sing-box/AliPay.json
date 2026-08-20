@@ -1,0 +1,14 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "alipay.com",
+        "alipayobjects.com"
+      ],
+      "domain_keyword": [
+        "alipay"
+      ]
+    }
+  ]
+}

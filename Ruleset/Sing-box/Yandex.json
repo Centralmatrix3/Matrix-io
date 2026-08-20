@@ -1,0 +1,19 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "ya.ru",
+        "yadi.sk",
+        "yandex",
+        "yandex.com",
+        "yandex.net",
+        "yandex.ru",
+        "yastatic.net"
+      ],
+      "domain_keyword": [
+        "yandex"
+      ]
+    }
+  ]
+}

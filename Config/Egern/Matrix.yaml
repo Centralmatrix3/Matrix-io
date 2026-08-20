@@ -1,0 +1,276 @@
+# 配置名称: Egern配置
+# 配置作者: Centralmatrix3
+# 更新时间: 26-08-20 00:00
+
+# [通用设置]
+block_quic: true
+ipv6: false
+vif_only: true
+allow_external_connections: false
+close_connections_on_policy_change: true
+direct_latency_test_url: http://taobao.com/
+proxy_latency_test_url: http://cp.cloudflare.com/generate_204
+geoip_db_url: https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
+
+# [DNS设置]
+dns:
+  bootstrap:
+    - 233.5.5.5
+    - 119.29.29.29
+  upstreams:
+    EncryptedDNS:
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+  forward:
+    - domain_wildcard:
+        match: '*'
+        value: EncryptedDNS
+        disabled: false
+  public_ip_lookup_url: https://ifconfig.me/ip
+
+# [策略组]
+policy_groups:
+  - external:
+      name: 自行选择
+      type: select
+      urls:
+        - https://your-service-provider
+      filter: ^
+      update_interval: 86400
+      icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Static.png
+      hidden: false
+
+  - smart:
+      name: 自动选择
+      policies:
+        - 自行选择
+      flatten: true
+      filter: ^
+      icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Available.png
+      hidden: false
+
+  - select:
+      name: 苹果服务
+      policies:
+        - DIRECT
+        - 自行选择
+        - 自动选择
+        - 香港节点
+        - 台湾节点
+        - 日本节点
+        - 韩国节点
+        - 狮城节点
+        - 美国节点
+      flatten: false
+      icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Apple-v2.png
+      hidden: false
+
+  - select:
+      name: 谷歌服务
+      policies:
+        - 自行选择
+        - 自动选择
+        - DIRECT
+        - 香港节点
+        - 台湾节点
+        - 日本节点
+        - 韩国节点
+        - 狮城节点
+        - 美国节点
+      flatten: false 
+      icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Google.png
+      hidden: false
+
+  - select:
+      name: 国内媒体
+      policies:
+        - DIRECT
+        - 自行选择
+        - 自动选择
+        - 香港节点
+        - 台湾节点
+        - 日本节点
+        - 韩国节点
+        - 狮城节点
+        - 美国节点
+      flatten: false
+      icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/StreamingCN.png
+      hidden: false
+
+  - select:
+      name: 国外媒体
+      policies:
+        - 自行选择
+        - 自动选择
+        - DIRECT
+        - 香港节点
+        - 台湾节点
+        - 日本节点
+        - 韩国节点
+        - 狮城节点
+        - 美国节点
+      flatten: false
+      icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Streaming.png
+      hidden: false
+
+  - select:
+      name: 国外网站
+      policies:
+        - 自行选择
+        - 自动选择
+        - DIRECT
+        - 香港节点
+        - 台湾节点
+        - 日本节点
+        - 韩国节点
+        - 狮城节点
+        - 美国节点
+      flatten: false
+      icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Global.png
+      hidden: false
+
+  - select:
+      name: 黑白名单
+      policies:
+        - 自行选择
+        - 自动选择
+        - DIRECT
+        - 香港节点
+        - 台湾节点
+        - 日本节点
+        - 韩国节点
+        - 狮城节点
+        - 美国节点
+      flatten: false
+      icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Final.png
+      hidden: false
+
+  - smart:
+      name: 香港节点
+      policies:
+        - 自行选择
+      flatten: true
+      filter: 香港|港|HK|🇭🇰|(?i)Hong
+      icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/HK.png
+      hidden: true
+
+  - smart:
+      name: 台湾节点
+      policies:
+        - 自行选择
+      flatten: true
+      filter: 台湾|台|TW|🇹🇼|(?i)Taiwan
+      icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/TW.png
+      hidden: true
+
+  - smart:
+      name: 日本节点
+      policies:
+        - 自行选择
+      flatten: true
+      filter: 日本|日|JP|🇯🇵|(?i)Japan
+      icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/JP.png
+      hidden: true
+
+  - smart:
+      name: 韩国节点
+      policies:
+        - 自行选择
+      flatten: true
+      filter: 韩国|韩|KR|🇰🇷|(?i)Korea
+      icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/KR.png
+      hidden: true
+
+  - smart:
+      name: 狮城节点
+      policies:
+        - 自行选择
+      flatten: true
+      filter: 新加坡|狮|SG|🇸🇬|(?i)Singapore
+      icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/SG.png
+      hidden: true
+
+  - smart:
+      name: 美国节点
+      policies:
+        - 自行选择
+      flatten: true
+      filter: 美国|美|US|🇺🇸|(?i)States
+      icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/US.png
+      hidden: true
+
+# [分流规则]
+rules:
+  - rule_set:
+      name: 规则修正
+      match: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Ruleset/Egern/Unbreak.yaml
+      policy: DIRECT
+      update_interval: 86400
+      disabled: false
+
+  - rule_set:
+      name: 广告拦截
+      match: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Ruleset/Egern/Advertising.yaml
+      policy: REJECT
+      update_interval: 86400
+      disabled: false
+
+  - rule_set:
+      name: 谷歌服务
+      match: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Ruleset/Egern/Google.yaml
+      policy: 谷歌服务
+      update_interval: 86400
+      disabled: false
+
+  - rule_set:
+      name: 国外媒体
+      match: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Ruleset/Egern/GlobalMedia.yaml
+      policy: 国外媒体
+      update_interval: 86400
+      disabled: false
+
+  - rule_set:
+      name: 国内媒体
+      match: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Ruleset/Egern/ChinaMedia.yaml
+      policy: 国内媒体
+      update_interval: 86400
+      disabled: false
+
+  - rule_set:
+      name: 国外网站
+      match: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Ruleset/Egern/Global.yaml
+      policy: 国外网站
+      update_interval: 86400
+      disabled: false
+
+  - rule_set:
+      name: 苹果服务
+      match: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Ruleset/Egern/Apple.yaml
+      policy: 苹果服务
+      update_interval: 86400
+      disabled: false
+
+  - rule_set:
+      name: 局域网络
+      match: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Ruleset/Egern/LAN.yaml
+      policy: DIRECT
+      update_interval: 86400
+      disabled: false
+
+  - rule_set:
+      name: 国内网站
+      match: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Ruleset/Egern/GEOIPCN.yaml
+      policy: DIRECT
+      update_interval: 86400
+      disabled: false
+
+  - default:
+      name: 黑白名单
+      policy: 黑白名单
+
+# [MITM]
+mitm:
+  hostnames:
+    excludes:
+      - buy.itunes.apple.com
+ 

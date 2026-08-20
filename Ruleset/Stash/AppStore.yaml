@@ -1,0 +1,6 @@
+# 规则名称: AppStore
+# 规则统计: 2
+
+payload:
+  - DOMAIN,apps.apple.com
+  - DOMAIN,itunes.apple.com

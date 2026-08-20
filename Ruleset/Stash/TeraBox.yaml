@@ -1,0 +1,6 @@
+# 规则名称: TeraBox
+# 规则统计: 2
+
+payload:
+  - DOMAIN-SUFFIX,terabox.com
+  - DOMAIN-SUFFIX,teraboxcdn.com

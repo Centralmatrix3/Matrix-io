@@ -1,0 +1,21 @@
+# 规则名称: Steam
+# 规则统计: 18
+
+HOST,steambroadcast.akamaized.net,Steam
+HOST,steamcommunity-a.akamaihd.net,Steam
+HOST,steampipe.akamaized.net,Steam
+HOST,steamstore-a.akamaihd.net,Steam
+HOST,steamusercontent-a.akamaihd.net,Steam
+HOST,steamuserimages-a.akamaihd.net,Steam
+HOST-SUFFIX,fanatical.com,Steam
+HOST-SUFFIX,humblebundle.com,Steam
+HOST-SUFFIX,playartifact.com,Steam
+HOST-SUFFIX,steam-chat.com,Steam
+HOST-SUFFIX,steamcommunity.com,Steam
+HOST-SUFFIX,steamgames.com,Steam
+HOST-SUFFIX,steampowered.com,Steam
+HOST-SUFFIX,steamserver.net,Steam
+HOST-SUFFIX,steamstat.us,Steam
+HOST-SUFFIX,steamstatic.com,Steam
+HOST-SUFFIX,underlords.com,Steam
+HOST-SUFFIX,valvesoftware.com,Steam

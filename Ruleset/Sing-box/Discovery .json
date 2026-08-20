@@ -1,0 +1,19 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "disco-api.com",
+        "discovery.com",
+        "discoveryplus.co.uk",
+        "discoveryplus.com",
+        "discoveryplus.in",
+        "dnitv.com",
+        "uplynk.com"
+      ],
+      "domain_keyword": [
+        "discovery.uplynk.com"
+      ]
+    }
+  ]
+}

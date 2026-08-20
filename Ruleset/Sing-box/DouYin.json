@@ -1,0 +1,19 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "amemv.com",
+        "bytednsdoc.com",
+        "douyin.com",
+        "douyincdn.com",
+        "douyinpic.com",
+        "douyinstatic.com",
+        "douyinvod.com"
+      ],
+      "domain_keyword": [
+        "douyin"
+      ]
+    }
+  ]
+}

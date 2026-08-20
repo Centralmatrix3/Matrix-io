@@ -1,0 +1,7 @@
+# 规则名称: Niconico
+# 规则统计: 3
+
+payload:
+  - DOMAIN-SUFFIX,dmc.nico
+  - DOMAIN-SUFFIX,nicovideo.jp
+  - DOMAIN-SUFFIX,nimg.jp

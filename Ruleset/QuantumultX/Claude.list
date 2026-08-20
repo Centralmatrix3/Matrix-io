@@ -1,0 +1,14 @@
+# 规则名称: Claude
+# 规则统计: 11
+
+HOST,anthropic-com.ghost.io,Claude
+HOST,anthropic.auth0.com,Claude
+HOST,anthropic.com.cdn.cloudflare.net,Claude
+HOST,servd-anthropic-website.b-cdn.net,Claude
+HOST-SUFFIX,anthropic.com,Claude
+HOST-SUFFIX,clau.de,Claude
+HOST-SUFFIX,claude.ai,Claude
+HOST-SUFFIX,claude.com,Claude
+HOST-SUFFIX,claudemcpclient.com,Claude
+HOST-SUFFIX,claudemcpcontent.com,Claude
+HOST-SUFFIX,claudeusercontent.com,Claude

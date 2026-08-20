@@ -1,0 +1,11 @@
+# 规则名称: Spotify
+# 规则统计: 8
+
+HOST-SUFFIX,pscdn.co,Spotify
+HOST-SUFFIX,scdn.co,Spotify
+HOST-SUFFIX,spoti.fi,Spotify
+HOST-SUFFIX,spotify.com,Spotify
+HOST-SUFFIX,spotifycdn.com,Spotify
+HOST-SUFFIX,spotifycdn.net,Spotify
+HOST-KEYWORD,-spotify-,Spotify
+HOST-KEYWORD,spotify.com,Spotify

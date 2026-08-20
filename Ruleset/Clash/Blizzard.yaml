@@ -1,0 +1,7 @@
+# 规则名称: Blizzard
+# 规则统计: 3
+
+payload:
+  - DOMAIN-SUFFIX,battle.net
+  - DOMAIN-SUFFIX,battlenet.com
+  - DOMAIN-SUFFIX,blizzard.com

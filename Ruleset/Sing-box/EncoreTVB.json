@@ -1,0 +1,16 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": [
+        "bcbolt446c5271-a.akamaihd.net",
+        "edge.api.brightcove.com"
+      ],
+      "domain_suffix": [
+        "content.jwplatform.com",
+        "encoretvb.com",
+        "videos-f.jwpsrv.com"
+      ]
+    }
+  ]
+}
