@@ -1,5 +1,5 @@
 # 规则名称: ChinaASN
-# 规则统计: 5221
+# 规则统计: 5222
 
 payload:
   - IP-ASN,10111
@@ -4691,6 +4691,7 @@ payload:
   - IP-ASN,151462
   - IP-ASN,151464
   - IP-ASN,151490
+  - IP-ASN,151640
   - IP-ASN,151673
   - IP-ASN,151674
   - IP-ASN,151785
