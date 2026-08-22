@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7481
+# 规则统计: 7483
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -895,6 +895,7 @@ payload:
   - DOMAIN-SUFFIX,breaking911.com
   - DOMAIN-SUFFIX,breakingtweets.com
   - DOMAIN-SUFFIX,breakwall.net
+  - DOMAIN-SUFFIX,briarproject.org
   - DOMAIN-SUFFIX,briefdream.com
   - DOMAIN-SUFFIX,briian.com
   - DOMAIN-SUFFIX,brill.com
@@ -1125,6 +1126,7 @@ payload:
   - DOMAIN-SUFFIX,chat.lmsys.org
   - DOMAIN-SUFFIX,chat.openai.com
   - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,chatgpt.site
   - DOMAIN-SUFFIX,chatnook.com
   - DOMAIN-SUFFIX,chatpdf.com
   - DOMAIN-SUFFIX,chaturbate.com

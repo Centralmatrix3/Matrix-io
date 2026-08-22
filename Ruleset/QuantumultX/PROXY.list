@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27056
+# 规则统计: 27057
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -5235,6 +5235,7 @@ HOST-SUFFIX,brew.sh,PROXY
 HOST-SUFFIX,brewmp.com,PROXY
 HOST-SUFFIX,briantreepayments.net,PROXY
 HOST-SUFFIX,briantreepayments.tv,PROXY
+HOST-SUFFIX,briarproject.org,PROXY
 HOST-SUFFIX,bridge-studio.co.uk,PROXY
 HOST-SUFFIX,bridgebim.com,PROXY
 HOST-SUFFIX,bridgestone,PROXY

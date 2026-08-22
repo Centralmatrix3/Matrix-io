@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27056
+# 规则统计: 27057
 
 payload:
   - '1password.drift.click'
@@ -5236,6 +5236,7 @@ payload:
   - '+.brewmp.com'
   - '+.briantreepayments.net'
   - '+.briantreepayments.tv'
+  - '+.briarproject.org'
   - '+.bridge-studio.co.uk'
   - '+.bridgebim.com'
   - '+.bridgestone'
