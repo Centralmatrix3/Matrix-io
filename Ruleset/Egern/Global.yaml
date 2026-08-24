@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7487
+# 规则统计: 7489
 
 no_resolve: true
 domain_set:
@@ -408,6 +408,7 @@ domain_suffix_set:
   - api.proxlet.com
   - api.pureapk.com
   - api.recaptcha.net
+  - api.shuaiapi.com
   - api.steampowered.com
   - api5.futunn.com
   - apiary.io
@@ -7068,6 +7069,7 @@ domain_suffix_set:
   - x24hr.com
   - x365x.com
   - x3guide.com
+  - x86.fr
   - xanga.com
   - xbabe.com
   - xbookcn.com

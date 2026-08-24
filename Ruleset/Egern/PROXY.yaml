@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27060
+# 规则统计: 27062
 
 domain_set:
   - 1password.drift.click
@@ -2575,6 +2575,7 @@ domain_suffix_set:
   - api.moomoobull.com
   - api.news
   - api.palworldgame.com
+  - api.shuaiapi.com
   - apiary.io
   - apiauto.ru
   - apibay.org
@@ -25628,6 +25629,7 @@ domain_suffix_set:
   - x3guide.com
   - x3vid.com
   - x6av.com
+  - x86.fr
   - x99av.com
   - xamarin.com
   - xandr.com

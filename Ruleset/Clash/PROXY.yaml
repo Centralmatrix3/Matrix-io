@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27060
+# 规则统计: 27062
 
 payload:
   - '1password.drift.click'
@@ -2574,6 +2574,7 @@ payload:
   - '+.api.moomoobull.com'
   - '+.api.news'
   - '+.api.palworldgame.com'
+  - '+.api.shuaiapi.com'
   - '+.apiary.io'
   - '+.apiauto.ru'
   - '+.apibay.org'
@@ -25627,6 +25628,7 @@ payload:
   - '+.x3guide.com'
   - '+.x3vid.com'
   - '+.x6av.com'
+  - '+.x86.fr'
   - '+.x99av.com'
   - '+.xamarin.com'
   - '+.xandr.com'

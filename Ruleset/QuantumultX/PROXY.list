@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27060
+# 规则统计: 27062
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -2573,6 +2573,7 @@ HOST-SUFFIX,api.ai,PROXY
 HOST-SUFFIX,api.moomoobull.com,PROXY
 HOST-SUFFIX,api.news,PROXY
 HOST-SUFFIX,api.palworldgame.com,PROXY
+HOST-SUFFIX,api.shuaiapi.com,PROXY
 HOST-SUFFIX,apiary.io,PROXY
 HOST-SUFFIX,apiauto.ru,PROXY
 HOST-SUFFIX,apibay.org,PROXY
@@ -25626,6 +25627,7 @@ HOST-SUFFIX,x18r.com,PROXY
 HOST-SUFFIX,x3guide.com,PROXY
 HOST-SUFFIX,x3vid.com,PROXY
 HOST-SUFFIX,x6av.com,PROXY
+HOST-SUFFIX,x86.fr,PROXY
 HOST-SUFFIX,x99av.com,PROXY
 HOST-SUFFIX,xamarin.com,PROXY
 HOST-SUFFIX,xandr.com,PROXY
