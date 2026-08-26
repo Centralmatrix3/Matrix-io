@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27062
+# 规则统计: 27066
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -1523,6 +1523,7 @@ HOST-SUFFIX,adguard.info,PROXY
 HOST-SUFFIX,adguard.io,PROXY
 HOST-SUFFIX,adguard.org,PROXY
 HOST-SUFFIX,adguardaccount.com,PROXY
+HOST-SUFFIX,adguardaccount.net,PROXY
 HOST-SUFFIX,adguardcdn.com,PROXY
 HOST-SUFFIX,adguardvpn.com,PROXY
 HOST-SUFFIX,adhelpnews.com,PROXY
@@ -2553,6 +2554,7 @@ HOST-SUFFIX,aoc.cat,PROXY
 HOST-SUFFIX,aodahl.com,PROXY
 HOST-SUFFIX,aofriend.com,PROXY
 HOST-SUFFIX,aokwholesale.net,PROXY
+HOST-SUFFIX,aolcdn.com,PROXY
 HOST-SUFFIX,aomedia.org,PROXY
 HOST-SUFFIX,aomiwang.com,PROXY
 HOST-SUFFIX,aorus.com,PROXY
@@ -18250,6 +18252,7 @@ HOST-SUFFIX,ourshdtv.com,PROXY
 HOST-SUFFIX,ourshemales.com,PROXY
 HOST-SUFFIX,oursteps.com.au,PROXY
 HOST-SUFFIX,ourtv.hk,PROXY
+HOST-SUFFIX,ouryahoo.com,PROXY
 HOST-SUFFIX,out-app-purchase.com,PROXY
 HOST-SUFFIX,outbound.io,PROXY
 HOST-SUFFIX,outdoorpublicsex.com,PROXY
@@ -26373,6 +26376,7 @@ HOST-SUFFIX,yahooapis.com,PROXY
 HOST-SUFFIX,yahoodns.net,PROXY
 HOST-SUFFIX,yahoofinance.com,PROXY
 HOST-SUFFIX,yahoohealth.com,PROXY
+HOST-SUFFIX,yahooinc.com,PROXY
 HOST-SUFFIX,yahoomusic.com,PROXY
 HOST-SUFFIX,yahoosandbox.com,PROXY
 HOST-SUFFIX,yahoosportsbook.com,PROXY
