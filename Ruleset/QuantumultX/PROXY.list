@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27066
+# 规则统计: 27068
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -11383,6 +11383,7 @@ HOST-SUFFIX,h-top.supertop-100.com,PROXY
 HOST-SUFFIX,h-webtoon.com,PROXY
 HOST-SUFFIX,h0930.com,PROXY
 HOST-SUFFIX,h18ani1.vip,PROXY
+HOST-SUFFIX,h264.io,PROXY
 HOST-SUFFIX,h2o.ai,PROXY
 HOST-SUFFIX,h2porn.com,PROXY
 HOST-SUFFIX,h528.com,PROXY
@@ -17248,6 +17249,7 @@ HOST-SUFFIX,nftstatic.com,PROXY
 HOST-SUFFIX,nftstorage.link,PROXY
 HOST-SUFFIX,nga.mil,PROXY
 HOST-SUFFIX,ngeo.com,PROXY
+HOST-SUFFIX,ngfiles.com,PROXY
 HOST-SUFFIX,nginx.com,PROXY
 HOST-SUFFIX,nginx.org,PROXY
 HOST-SUFFIX,nginxconfig.io,PROXY
