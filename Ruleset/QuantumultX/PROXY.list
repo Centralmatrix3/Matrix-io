@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27068
+# 规则统计: 27070
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -20182,6 +20182,7 @@ HOST-SUFFIX,reiporno.com,PROXY
 HOST-SUFFIX,relateiq.com,PROXY
 HOST-SUFFIX,religionnews.com,PROXY
 HOST-SUFFIX,remirepo.net,PROXY
+HOST-SUFFIX,remna.st,PROXY
 HOST-SUFFIX,rencapbank.ru,PROXY
 HOST-SUFFIX,renchead.com,PROXY
 HOST-SUFFIX,rencredit.ru,PROXY
@@ -25519,6 +25520,7 @@ HOST-SUFFIX,wpmailsmtp.com,PROXY
 HOST-SUFFIX,wpoforum.com,PROXY
 HOST-SUFFIX,wpvip.com,PROXY
 HOST-SUFFIX,wrenchead.com,PROXY
+HOST-SUFFIX,write.as,PROXY
 HOST-SUFFIX,writesonic.com,PROXY
 HOST-SUFFIX,ws-blau.com,PROXY
 HOST-SUFFIX,ws-tcg.com,PROXY
