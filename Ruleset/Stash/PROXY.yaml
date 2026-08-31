@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27070
+# 规则统计: 27071
 
 payload:
   - '1password.drift.click'
@@ -10545,6 +10545,7 @@ payload:
   - '+.getlantern.org'
   - '+.getmalus.com'
   - '+.getmdl.io'
+  - '+.getmonero.org'
   - '+.getnews.jp'
   - '+.getoutline.org'
   - '+.getpaint.net'

@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27070
+# 规则统计: 27071
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -10544,6 +10544,7 @@ HOST-SUFFIX,geti2p.net,PROXY
 HOST-SUFFIX,getlantern.org,PROXY
 HOST-SUFFIX,getmalus.com,PROXY
 HOST-SUFFIX,getmdl.io,PROXY
+HOST-SUFFIX,getmonero.org,PROXY
 HOST-SUFFIX,getnews.jp,PROXY
 HOST-SUFFIX,getoutline.org,PROXY
 HOST-SUFFIX,getpaint.net,PROXY
