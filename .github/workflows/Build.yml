@@ -30,23 +30,23 @@ jobs:
         run: |
           for dir in Ruleset/Egern; do
             [ ! -d "$dir" ] && echo "$dir Not Found." && continue
-            python -m Build C Egern "$dir"
+            python -m Build C Surge Egern "$dir"
           done
           for dir in Ruleset/QuantumultX; do
             [ ! -d "$dir" ] && echo "$dir Not Found." && continue
-            python -m Build C QuantumultX "$dir"
+            python -m Build C Surge QuantumultX "$dir"
           done
           for dir in Ruleset/Sing-box; do
             [ ! -d "$dir" ] && echo "$dir Not Found." && continue
-            python -m Build C Singbox "$dir"
+            python -m Build C Surge Singbox "$dir"
           done
           for dir in Ruleset/{Clash,Stash}; do
             [ ! -d "$dir" ] && echo "$dir Not Found." && continue
-            python -m Build C Stash "$dir"
+            python -m Build C Surge Stash "$dir"
           done
           for dir in Ruleset/{Loon,Shadowrocket,Surge}; do
             [ ! -d "$dir" ] && echo "$dir Not Found." && continue
-            python -m Build C Surge "$dir"
+            python -m Build C Surge Surge "$dir"
           done
 
       - name: Compile Rule
