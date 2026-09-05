@@ -9,9 +9,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      PYTHONPATH: "Network/Scripts"
-      TZ: "Asia/Shanghai"
       SINGBOX_VERSION: "1.14.0"
+      TZ: "Asia/Shanghai"
+      PYTHONPATH: "Network/Scripts"
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v7.0.1
@@ -22,7 +22,7 @@ jobs:
           repository: Centralmatrix3/Network
           path: Network
 
-      - name: Sync Ruleset
+      - name: Sources Sync
         run: |
           python -m Build S Matrix-io --copy
 
