@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27078
+# 规则统计: 27079
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -14800,6 +14800,7 @@ HOST-SUFFIX,linseysworld.com,PROXY
 HOST-SUFFIX,linux.do,PROXY
 HOST-SUFFIX,linux.org,PROXY
 HOST-SUFFIX,linux.org.hk,PROXY
+HOST-SUFFIX,linux.sb,PROXY
 HOST-SUFFIX,linuxfoundation.org,PROXY
 HOST-SUFFIX,linuxfromscratch.org,PROXY
 HOST-SUFFIX,linuxmint.com,PROXY
