@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27085
+# 规则统计: 27086
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -264,6 +264,7 @@ HOST,img-prod-cms-rt-microsoft-com.akamaized.net,PROXY
 HOST,img-s-msn-com.akamaized.net,PROXY
 HOST,impala-media-production.s3.amazonaws.com,PROXY
 HOST,imperial.insendi.com,PROXY
+HOST,lastfm-img.freetls.fastly.net,PROXY
 HOST,lastfm.freetls.fastly.net,PROXY
 HOST,lazer.ppy.sh,PROXY
 HOST,lgcscc-hamivideo2.cdn.hinet.net,PROXY

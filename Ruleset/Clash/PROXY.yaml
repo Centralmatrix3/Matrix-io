@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27085
+# 规则统计: 27086
 
 payload:
   - '1password.drift.click'
@@ -265,6 +265,7 @@ payload:
   - 'img-s-msn-com.akamaized.net'
   - 'impala-media-production.s3.amazonaws.com'
   - 'imperial.insendi.com'
+  - 'lastfm-img.freetls.fastly.net'
   - 'lastfm.freetls.fastly.net'
   - 'lazer.ppy.sh'
   - 'lgcscc-hamivideo2.cdn.hinet.net'
