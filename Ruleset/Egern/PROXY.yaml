@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27086
+# 规则统计: 27087
 
 domain_set:
   - 1password.drift.click
@@ -17567,6 +17567,7 @@ domain_suffix_set:
   - nodequality.com
   - nodereal.io
   - nodeseek.com
+  - nodeseek.org
   - nodesource.com
   - noisullifb.com
   - nokiantyres.com
