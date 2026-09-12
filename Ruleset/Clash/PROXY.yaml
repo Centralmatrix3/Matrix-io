@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27087
+# 规则统计: 27088
 
 payload:
   - '1password.drift.click'
@@ -19812,6 +19812,7 @@ payload:
   - '+.qt-project.org'
   - '+.qt.io'
   - '+.qtrac.eu'
+  - '+.quakemachinex.com'
   - '+.qualcomm-email.com'
   - '+.qualcomm-inc.com'
   - '+.qualcomm.co.id'
