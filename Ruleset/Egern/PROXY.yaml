@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27088
+# 规则统计: 27092
 
 domain_set:
   - 1password.drift.click
@@ -350,6 +350,7 @@ domain_set:
   - origin-a.akamaihd.net
   - osu.ppy.sh
   - p-events-delivery.akamaized.net
+  - p16-tiktok-dm-sticker-sign-sg.ibyteimg.com
   - p16-tiktokcdn-com.akamaized.net
   - packages.microsoft.com
   - paper-attachments.s3.amazonaws.com
@@ -22231,6 +22232,9 @@ domain_suffix_set:
   - stripchat.com
   - stripe-terminal-local-reader.net
   - stripe.com
+  - stripe.dev
+  - stripe.events
+  - stripe.global
   - stripe.network
   - stripecdn.com
   - stripparadise.com

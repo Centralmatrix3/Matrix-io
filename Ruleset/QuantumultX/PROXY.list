@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27088
+# 规则统计: 27092
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -349,6 +349,7 @@ HOST,opgg-static.akamaized.net,PROXY
 HOST,origin-a.akamaihd.net,PROXY
 HOST,osu.ppy.sh,PROXY
 HOST,p-events-delivery.akamaized.net,PROXY
+HOST,p16-tiktok-dm-sticker-sign-sg.ibyteimg.com,PROXY
 HOST,p16-tiktokcdn-com.akamaized.net,PROXY
 HOST,packages.microsoft.com,PROXY
 HOST,paper-attachments.s3.amazonaws.com,PROXY
@@ -22229,6 +22230,9 @@ HOST-SUFFIX,stripcamfun.com,PROXY
 HOST-SUFFIX,stripchat.com,PROXY
 HOST-SUFFIX,stripe-terminal-local-reader.net,PROXY
 HOST-SUFFIX,stripe.com,PROXY
+HOST-SUFFIX,stripe.dev,PROXY
+HOST-SUFFIX,stripe.events,PROXY
+HOST-SUFFIX,stripe.global,PROXY
 HOST-SUFFIX,stripe.network,PROXY
 HOST-SUFFIX,stripecdn.com,PROXY
 HOST-SUFFIX,stripparadise.com,PROXY
