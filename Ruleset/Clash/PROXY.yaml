@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27092
+# 规则统计: 27098
 
 payload:
   - '1password.drift.click'
@@ -208,9 +208,10 @@ payload:
   - 'faronics.kayako.com'
   - 'favoritescc-hamivideo2.cdn.hinet.net'
   - 'fbcdn-a.akamaihd.net'
-  - 'firebase.google.com'
   - 'firebase.googleapis.com'
   - 'firebaseappcheck.googleapis.com'
+  - 'firebaseappdistribution.googleapis.com'
+  - 'firebaseapptesters.googleapis.com'
   - 'firebasedynamiclinks-ipv4.googleapis.com'
   - 'firebasedynamiclinks-ipv6.googleapis.com'
   - 'firebasedynamiclinks.googleapis.com'
@@ -6474,6 +6475,7 @@ payload:
   - '+.code.org'
   - '+.codeberg.org'
   - '+.codeberg.page'
+  - '+.codebuff.com'
   - '+.codecademy.com'
   - '+.codeforaliving.io'
   - '+.codeforces.com'
@@ -9591,10 +9593,12 @@ payload:
   - '+.fire-emblem-heroes.com'
   - '+.firearmsworld.net'
   - '+.firebase.com'
+  - '+.firebase.dev'
   - '+.firebase.io'
   - '+.firebaseapp.com'
   - '+.firebaseio.com'
   - '+.fireemblemawakening.com'
+  - '+.firefox-portal-detection.com'
   - '+.firefox.com'
   - '+.firefox.hu'
   - '+.firefoxtweetmachine.com'
@@ -10009,6 +10013,7 @@ payload:
   - '+.freebrowser.org'
   - '+.freebs.com'
   - '+.freebsd.org'
+  - '+.freebuff.com'
   - '+.freecamsfan.com'
   - '+.freecartoons.biz'
   - '+.freechatnow.com'
@@ -22757,6 +22762,7 @@ payload:
   - '+.textnow.me'
   - '+.texttobuy.org'
   - '+.texture.com'
+  - '+.tfbnw.net'
   - '+.tfc-taiwan.org.tw'
   - '+.tferwq.com'
   - '+.tfhub.dev'

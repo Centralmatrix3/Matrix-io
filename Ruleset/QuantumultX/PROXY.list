@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27092
+# 规则统计: 27098
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -207,9 +207,10 @@ HOST,fandom.zendesk.com,PROXY
 HOST,faronics.kayako.com,PROXY
 HOST,favoritescc-hamivideo2.cdn.hinet.net,PROXY
 HOST,fbcdn-a.akamaihd.net,PROXY
-HOST,firebase.google.com,PROXY
 HOST,firebase.googleapis.com,PROXY
 HOST,firebaseappcheck.googleapis.com,PROXY
+HOST,firebaseappdistribution.googleapis.com,PROXY
+HOST,firebaseapptesters.googleapis.com,PROXY
 HOST,firebasedynamiclinks-ipv4.googleapis.com,PROXY
 HOST,firebasedynamiclinks-ipv6.googleapis.com,PROXY
 HOST,firebasedynamiclinks.googleapis.com,PROXY
@@ -6473,6 +6474,7 @@ HOST-SUFFIX,code-class.ru,PROXY
 HOST-SUFFIX,code.org,PROXY
 HOST-SUFFIX,codeberg.org,PROXY
 HOST-SUFFIX,codeberg.page,PROXY
+HOST-SUFFIX,codebuff.com,PROXY
 HOST-SUFFIX,codecademy.com,PROXY
 HOST-SUFFIX,codeforaliving.io,PROXY
 HOST-SUFFIX,codeforces.com,PROXY
@@ -9590,10 +9592,12 @@ HOST-SUFFIX,fiotolia.com,PROXY
 HOST-SUFFIX,fire-emblem-heroes.com,PROXY
 HOST-SUFFIX,firearmsworld.net,PROXY
 HOST-SUFFIX,firebase.com,PROXY
+HOST-SUFFIX,firebase.dev,PROXY
 HOST-SUFFIX,firebase.io,PROXY
 HOST-SUFFIX,firebaseapp.com,PROXY
 HOST-SUFFIX,firebaseio.com,PROXY
 HOST-SUFFIX,fireemblemawakening.com,PROXY
+HOST-SUFFIX,firefox-portal-detection.com,PROXY
 HOST-SUFFIX,firefox.com,PROXY
 HOST-SUFFIX,firefox.hu,PROXY
 HOST-SUFFIX,firefoxtweetmachine.com,PROXY
@@ -10008,6 +10012,7 @@ HOST-SUFFIX,freebigmovies.com,PROXY
 HOST-SUFFIX,freebrowser.org,PROXY
 HOST-SUFFIX,freebs.com,PROXY
 HOST-SUFFIX,freebsd.org,PROXY
+HOST-SUFFIX,freebuff.com,PROXY
 HOST-SUFFIX,freecamsfan.com,PROXY
 HOST-SUFFIX,freecartoons.biz,PROXY
 HOST-SUFFIX,freechatnow.com,PROXY
@@ -22756,6 +22761,7 @@ HOST-SUFFIX,textnow.com,PROXY
 HOST-SUFFIX,textnow.me,PROXY
 HOST-SUFFIX,texttobuy.org,PROXY
 HOST-SUFFIX,texture.com,PROXY
+HOST-SUFFIX,tfbnw.net,PROXY
 HOST-SUFFIX,tfc-taiwan.org.tw,PROXY
 HOST-SUFFIX,tferwq.com,PROXY
 HOST-SUFFIX,tfhub.dev,PROXY
