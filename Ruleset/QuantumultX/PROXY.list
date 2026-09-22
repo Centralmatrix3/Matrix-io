@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27098
+# 规则统计: 27100
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -6138,6 +6138,7 @@ HOST-SUFFIX,chinesedemocracy.com,PROXY
 HOST-SUFFIX,chinesegay.org,PROXY
 HOST-SUFFIX,chinesen.de,PROXY
 HOST-SUFFIX,chinesenews.net.au,PROXY
+HOST-SUFFIX,chineseposters.net,PROXY
 HOST-SUFFIX,chineseradioseattle.com,PROXY
 HOST-SUFFIX,chinesespanking.com,PROXY
 HOST-SUFFIX,chineseupress.com,PROXY
@@ -17597,6 +17598,7 @@ HOST-SUFFIX,nordvpn.com,PROXY
 HOST-SUFFIX,norsk.mobi,PROXY
 HOST-SUFFIX,norton.com,PROXY
 HOST-SUFFIX,nos.nl,PROXY
+HOST-SUFFIX,note.com,PROXY
 HOST-SUFFIX,notegpt.io,PROXY
 HOST-SUFFIX,notepad-plus-plus.org,PROXY
 HOST-SUFFIX,noticias-rt.com,PROXY
