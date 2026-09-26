@@ -15,7 +15,7 @@ geoip_db_url: https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Count
 # [DNS设置]
 dns:
   bootstrap:
-    - 233.5.5.5
+    - 223.5.5.5
     - 119.29.29.29
   upstreams:
     EncryptedDNS:
