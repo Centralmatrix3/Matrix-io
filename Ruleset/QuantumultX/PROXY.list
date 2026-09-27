@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27100
+# 规则统计: 27102
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -5521,6 +5521,7 @@ HOST-SUFFIX,c-ij.com,PROXY
 HOST-SUFFIX,c-msedge.net,PROXY
 HOST-SUFFIX,c-span.org,PROXY
 HOST-SUFFIX,c-spanvideo.org,PROXY
+HOST-SUFFIX,c.go-mpulse.net,PROXY
 HOST-SUFFIX,c.mi.com,PROXY
 HOST-SUFFIX,c0930.com,PROXY
 HOST-SUFFIX,c2cx.com,PROXY
@@ -24065,6 +24066,7 @@ HOST-SUFFIX,vaultify.com,PROXY
 HOST-SUFFIX,vaultify.info,PROXY
 HOST-SUFFIX,vaultify.net,PROXY
 HOST-SUFFIX,vaultproject.io,PROXY
+HOST-SUFFIX,vava8.com,PROXY
 HOST-SUFFIX,vbcdn.com,PROXY
 HOST-SUFFIX,vbcdn.net,PROXY
 HOST-SUFFIX,vbejeyv.shop,PROXY
