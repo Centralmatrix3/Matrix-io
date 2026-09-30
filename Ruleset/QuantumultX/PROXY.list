@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27102
+# 规则统计: 27108
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -227,6 +227,8 @@ HOST,foxnewsplayer-a.akamaihd.net,PROXY
 HOST,gamedownloads-rockstargames-com.akamaized.net,PROXY
 HOST,gamer-cds.cdn.hinet.net,PROXY
 HOST,gamer2-cds.cdn.hinet.net,PROXY
+HOST,geminiweb-pa.clients.google.com,PROXY
+HOST,geminiweb-pa.clients6.google.com,PROXY
 HOST,gigabyte2.azureedge.net,PROXY
 HOST,github-api.arkoselabs.com,PROXY
 HOST,github-cloud.s3.amazonaws.com,PROXY
@@ -12389,6 +12391,7 @@ HOST-SUFFIX,huanyuju.com,PROXY
 HOST-SUFFIX,huaren.us,PROXY
 HOST-SUFFIX,huarenav.com,PROXY
 HOST-SUFFIX,huarenporn.com,PROXY
+HOST-SUFFIX,huarun.win,PROXY
 HOST-SUFFIX,huashangnews.com,PROXY
 HOST-SUFFIX,huashundg.com,PROXY
 HOST-SUFFIX,huati.cc,PROXY
@@ -15671,6 +15674,7 @@ HOST-SUFFIX,messytube.com,PROXY
 HOST-SUFFIX,met-nude.com,PROXY
 HOST-SUFFIX,meta.ai,PROXY
 HOST-SUFFIX,meta.com,PROXY
+HOST-SUFFIX,metaaivm.com,PROXY
 HOST-SUFFIX,metabora.io,PROXY
 HOST-SUFFIX,metabrainz.org,PROXY
 HOST-SUFFIX,metacloud.com,PROXY
@@ -16680,6 +16684,7 @@ HOST-SUFFIX,musashinobank.co.jp,PROXY
 HOST-SUFFIX,muscache.com,PROXY
 HOST-SUFFIX,muscdn.com,PROXY
 HOST-SUFFIX,musclegirlflix.com,PROXY
+HOST-SUFFIX,muse.ai,PROXY
 HOST-SUFFIX,mushroomtrack.com,PROXY
 HOST-SUFFIX,mushymush.tv,PROXY
 HOST-SUFFIX,musical.ly,PROXY
@@ -18147,6 +18152,7 @@ HOST-SUFFIX,openart.ai,PROXY
 HOST-SUFFIX,openbook.org.tw,PROXY
 HOST-SUFFIX,opencas.io,PROXY
 HOST-SUFFIX,openclaw.ai,PROXY
+HOST-SUFFIX,opencode.ai,PROXY
 HOST-SUFFIX,opencollective.com,PROXY
 HOST-SUFFIX,opencreate.org,PROXY
 HOST-SUFFIX,opencritic.com,PROXY
