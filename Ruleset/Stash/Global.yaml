@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7494
+# 规则统计: 7495
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -6783,6 +6783,7 @@ payload:
   - DOMAIN-SUFFIX,waiwaier.com
   - DOMAIN-SUFFIX,walletconnect.com
   - DOMAIN-SUFFIX,walletconnect.org
+  - DOMAIN-SUFFIX,wallhaven.cc
   - DOMAIN-SUFFIX,wallmama.com
   - DOMAIN-SUFFIX,wallornot.org
   - DOMAIN-SUFFIX,wallpapercasa.com
