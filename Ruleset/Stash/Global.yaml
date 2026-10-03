@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7495
+# 规则统计: 7496
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -5512,6 +5512,7 @@ payload:
   - DOMAIN-SUFFIX,simplex.chat
   - DOMAIN-SUFFIX,sina.com.hk
   - DOMAIN-SUFFIX,sinchew.com.my
+  - DOMAIN-SUFFIX,sing-box.sagernet.org
   - DOMAIN-SUFFIX,singaporepools.com.sg
   - DOMAIN-SUFFIX,singfortibet.com
   - DOMAIN-SUFFIX,singlelogin.se

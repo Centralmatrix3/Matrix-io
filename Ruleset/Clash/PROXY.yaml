@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27109
+# 规则统计: 27110
 
 payload:
   - '1password.drift.click'
@@ -6302,6 +6302,7 @@ payload:
   - '+.clau.de'
   - '+.claude.ai'
   - '+.claude.com'
+  - '+.claude.dev'
   - '+.claudemcpclient.com'
   - '+.claudemcpcontent.com'
   - '+.claudeusercontent.com'
