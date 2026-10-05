@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27110
+# 规则统计: 27111
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -11175,6 +11175,7 @@ HOST-SUFFIX,googleoptimize.com,PROXY
 HOST-SUFFIX,googlepagecreator.com,PROXY
 HOST-SUFFIX,googlephotos.com,PROXY
 HOST-SUFFIX,googleplay.com,PROXY
+HOST-SUFFIX,googleplaycensorship.com,PROXY
 HOST-SUFFIX,googleplus.com,PROXY
 HOST-SUFFIX,googlescholar.com,PROXY
 HOST-SUFFIX,googlesource.com,PROXY

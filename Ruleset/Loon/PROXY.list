@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27110
+# 规则统计: 27111
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -11175,6 +11175,7 @@ DOMAIN-SUFFIX,googleoptimize.com
 DOMAIN-SUFFIX,googlepagecreator.com
 DOMAIN-SUFFIX,googlephotos.com
 DOMAIN-SUFFIX,googleplay.com
+DOMAIN-SUFFIX,googleplaycensorship.com
 DOMAIN-SUFFIX,googleplus.com
 DOMAIN-SUFFIX,googlescholar.com
 DOMAIN-SUFFIX,googlesource.com
