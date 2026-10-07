@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7496
+# 规则统计: 7528
 
 no_resolve: true
 domain_set:
@@ -246,6 +246,7 @@ domain_suffix_set:
   - ai.dev
   - ai.google
   - ai.studio
+  - aidc.com.tw
   - aihub.top
   - aiosearch.com
   - aiph.net
@@ -842,6 +843,7 @@ domain_suffix_set:
   - bloombergview.com
   - bloomfortune.com
   - blubrry.com
+  - blue-plus.net
   - blueangellive.com
   - bmdru.com
   - bmfinn.com
@@ -880,6 +882,7 @@ domain_suffix_set:
   - boxunclub.com
   - boyangu.com
   - boyfriendtv.com
+  - boylove.cc
   - boysfood.com
   - boysmaster.com
   - br.st
@@ -1003,6 +1006,7 @@ domain_suffix_set:
   - cams.org.sg
   - canadameet.com
   - canalporno.com
+  - cangku.moe
   - cantonese.asia
   - canva.com
   - canyu.org
@@ -1392,6 +1396,7 @@ domain_suffix_set:
   - coursehero.com
   - covenantswatch.org.tw
   - coze.com
+  - cpc.com.tw
   - cpj.org
   - cpu-monkey.com
   - cq99.us
@@ -1421,6 +1426,7 @@ domain_suffix_set:
   - cruxpool.com
   - crwdcntrl.net
   - cryptographyengineering.com
+  - csc.com.tw
   - csdparty.com
   - csis.org
   - csmonitor.com
@@ -1581,6 +1587,7 @@ domain_suffix_set:
   - devv.ai
   - dfas.mil
   - dfn.org
+  - dh.net
   - dharamsalanet.com
   - dharmakara.net
   - dhcp.biz
@@ -1929,6 +1936,7 @@ domain_suffix_set:
   - exchristian.hk
   - excite.co.jp
   - exhentai.org
+  - eximbank.com.tw
   - exmo.com
   - exmormon.org
   - expatshield.com
@@ -2936,7 +2944,9 @@ domain_suffix_set:
   - halktv.com.tr
   - handcraftedsoftware.org
   - hanime.tv
+  - hanime1.com
   - hanime1.me
+  - hanimeone.me
   - hanminzu.org
   - hanunyi.com
   - hao.news
@@ -2982,6 +2992,7 @@ domain_suffix_set:
   - hembed.com
   - hentai.to
   - hentai.tv
+  - hentaiclub.net
   - hentaitube.tv
   - hentaivideoworld.com
   - heqinglian.net
@@ -3252,6 +3263,7 @@ domain_suffix_set:
   - ibvpn.com
   - ibytedtos.com
   - icams.com
+  - icdf.org.tw
   - icedrive.net
   - icerocket.com
   - icfcdn.com
@@ -3383,6 +3395,7 @@ domain_suffix_set:
   - iownyour.biz
   - iownyour.org
   - ip138.com
+  - ipac.global
   - ipalter.com
   - ipdefenseforum.com
   - ipfire.org
@@ -3489,6 +3502,7 @@ domain_suffix_set:
   - javakiba.org
   - javbus.co
   - javbus.com
+  - javchu.com
   - javdb.com
   - javfinder.ai
   - javfor.me
@@ -3641,6 +3655,7 @@ domain_suffix_set:
   - kfor.com
   - khabdha.org
   - khatrimaza.org
+  - khc.edu.tw
   - khmusic.com.tw
   - kichiku-doujinko.com
   - kik.com
@@ -3715,6 +3730,7 @@ domain_suffix_set:
   - lamayeshe.com
   - lamnia.co.uk
   - lamrim.com
+  - landbank.com.tw
   - landofhope.tv
   - lantern.io
   - lanterncn.cn
@@ -3977,6 +3993,7 @@ domain_suffix_set:
   - material.io
   - mathable.io
   - mathiew-badimon.com
+  - matichon.co.th
   - matome-plus.com
   - matome-plus.net
   - matrix.org
@@ -4114,12 +4131,15 @@ domain_suffix_set:
   - minzhuzhanxian.com
   - minzhuzhongguo.org
   - miraheze.org
+  - mirdc.org.tw
   - miroguide.com
   - mirror.xyz
   - mirrorbooks.com
   - mirrormedia.com.tw
   - mirrormedia.mg
+  - missav.ai
   - missav.com
+  - missav.live
   - missav.ws
   - mist.vip
   - mistral.ai
@@ -4155,6 +4175,7 @@ domain_suffix_set:
   - modernchinastudies.org
   - moeerolibrary.com
   - moegirl.org
+  - moeli-desu.com
   - moeshare.cc
   - mofaxiehui.com
   - mofos.com
@@ -4335,6 +4356,7 @@ domain_suffix_set:
   - nationalinterest.org
   - nationalreview.com
   - nationsonline.org
+  - nationthailand.com
   - nationwide.com
   - naughtyamerica.com
   - naver.com
@@ -4519,6 +4541,7 @@ domain_suffix_set:
   - ns1.name
   - ns2.name
   - ns3.name
+  - nstc.org.tw
   - ntd.tv
   - ntdtv.ca
   - ntdtv.co.kr
@@ -4923,6 +4946,7 @@ domain_suffix_set:
   - pokerstars.com
   - pokerstars.net
   - pokerstrategy.com
+  - poland.tw
   - politicalchina.org
   - politicalconsultation.org
   - politiscales.net
@@ -5086,6 +5110,7 @@ domain_suffix_set:
   - qianmo.tw
   - qidian.ca
   - qienkuen.org
+  - qingse.one
   - qiwen.lu
   - qixianglu.cn
   - qkshare.com
@@ -5258,6 +5283,7 @@ domain_suffix_set:
   - rocketbbs.com
   - rocketcdn.me
   - rocksdb.org
+  - rocmgov.org
   - rojo.com
   - rolfoundation.org
   - rolia.net
@@ -5984,6 +6010,7 @@ domain_suffix_set:
   - textnow.com
   - textnow.me
   - tfc-taiwan.org.tw
+  - tfd.org.tw
   - tfhub.dev
   - tfiflve.com
   - tg-me.com
@@ -6295,6 +6322,7 @@ domain_suffix_set:
   - tsu.org.tw
   - tsunagarumon.com
   - tt1069.com
+  - ttl.com.tw
   - tttan.com
   - ttv.com.tw
   - ttvnw.net
@@ -6393,6 +6421,7 @@ domain_suffix_set:
   - tweez.net
   - twelve.today
   - twerkingbutt.com
+  - twfhcsec.com.tw
   - twftp.org
   - twgov.tw
   - twgreatdaily.com
@@ -6468,6 +6497,7 @@ domain_suffix_set:
   - twyac.org
   - tx.me
   - txxx.com
+  - tybio.com.tw
   - tycool.com
   - typekit.net
   - typepad.com
@@ -6767,6 +6797,7 @@ domain_suffix_set:
   - vrmtr.com
   - vrporn.com
   - vrsmash.com
+  - vscc.org.tw
   - vtunnel.com
   - vuku.cc
   - vultryhw.com
@@ -7169,6 +7200,7 @@ domain_suffix_set:
   - xvideos.com
   - xvideos.es
   - xvinlink.com
+  - xx.net
   - xxbbx.com
   - xxlmovies.com
   - xxuz.com
