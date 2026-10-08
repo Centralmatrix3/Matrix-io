@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27140
+# 规则统计: 27144
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -15626,6 +15626,7 @@ HOST-SUFFIX,meetyourdevices.com,PROXY
 HOST-SUFFIX,mega.co.nz,PROXY
 HOST-SUFFIX,mega.io,PROXY
 HOST-SUFFIX,mega.nz,PROXY
+HOST-SUFFIX,megaad.nz,PROXY
 HOST-SUFFIX,megacamz.com,PROXY
 HOST-SUFFIX,megaeth.com,PROXY
 HOST-SUFFIX,megafilmporno.com,PROXY
@@ -15636,11 +15637,13 @@ HOST-SUFFIX,megalodon.jp,PROXY
 HOST-SUFFIX,megamarket.ru,PROXY
 HOST-SUFFIX,megamarket.tech,PROXY
 HOST-SUFFIX,megamon.co.kr,PROXY
+HOST-SUFFIX,megapay.nz,PROXY
 HOST-SUFFIX,megaphone.fm,PROXY
 HOST-SUFFIX,megapornfreehd.com,PROXY
 HOST-SUFFIX,megaporno.com.br,PROXY
 HOST-SUFFIX,megapornpics.com,PROXY
 HOST-SUFFIX,megaproxy.com,PROXY
+HOST-SUFFIX,megas4.com,PROXY
 HOST-SUFFIX,megasrv.de,PROXY
 HOST-SUFFIX,megatitsminka.com,PROXY
 HOST-SUFFIX,megogo.net,PROXY
@@ -23366,6 +23369,7 @@ HOST-SUFFIX,trans500.com,PROXY
 HOST-SUFFIX,transangels.com,PROXY
 HOST-SUFFIX,transarmuito.com,PROXY
 HOST-SUFFIX,transcamslive.com,PROXY
+HOST-SUFFIX,transfer.it,PROXY
 HOST-SUFFIX,transferwise.com,PROXY
 HOST-SUFFIX,translatetheweb.com,PROXY
 HOST-SUFFIX,translatewiki.net,PROXY
