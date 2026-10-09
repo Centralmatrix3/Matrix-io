@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27144
+# 规则统计: 27148
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -99,6 +99,8 @@ HOST,cloudcode-pa.googleapis.com,PROXY
 HOST,cloudsync-prod.s3.amazonaws.com,PROXY
 HOST,configuration-lb.ls-apple.com.akadns.net,PROXY
 HOST,copilot-proxy.githubusercontent.com,PROXY
+HOST,copilot-telemetry-service.githubusercontent.com,PROXY
+HOST,copilot-telemetry.githubusercontent.com,PROXY
 HOST,copilot-workspace.githubnext.com,PROXY
 HOST,copilotprodattachments.blob.core.windows.net,PROXY
 HOST,crl.microsoft.com,PROXY
@@ -267,6 +269,8 @@ HOST,img-prod-cms-rt-microsoft-com.akamaized.net,PROXY
 HOST,img-s-msn-com.akamaized.net,PROXY
 HOST,impala-media-production.s3.amazonaws.com,PROXY
 HOST,imperial.insendi.com,PROXY
+HOST,incoming-telemetry.thunderbird.net,PROXY
+HOST,incoming.telemetry.mozilla.org,PROXY
 HOST,lastfm-img.freetls.fastly.net,PROXY
 HOST,lastfm.freetls.fastly.net,PROXY
 HOST,lazer.ppy.sh,PROXY
