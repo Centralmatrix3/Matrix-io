@@ -3,11 +3,11 @@
 #!author=Peng-YM
 
 [Script]
-http-request ^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))) script-path=https://raw.githubusercontent.com/sub-store-org/Sub-Store/release/sub-store-1.min.js, requires-body=true, timeout=30, tag=Sub-Store
+request if ${url} ~= /^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))) then script("https://raw.githubusercontent.com/sub-store-org/Sub-Store/release/sub-store-1.min.js") with tag="Sub-Store", timeout=30, requires_body=true
 
-http-request ^https?:\/\/sub\.store script-path=https://raw.githubusercontent.com/sub-store-org/Sub-Store/release/sub-store-0.min.js, requires-body=true, timeout=30, tag=Sub-Store
+request if ${url} ~= /^https?:\/\/sub\.store then script("https://raw.githubusercontent.com/sub-store-org/Sub-Store/release/sub-store-0.min.js") with tag="Sub-Store", timeout=30, requires_body=true
 
-cron "0 0 * * *" script-path=https://raw.githubusercontent.com/sub-store-org/Sub-Store/release/cron-sync-artifacts.min.js, timeout=30, tag=Sub-Store
+cron "0 0 * * *" then script("https://raw.githubusercontent.com/sub-store-org/Sub-Store/release/cron-sync-artifacts.min.js") with tag="Sub-Store", timeout=30
 
 [MITM]
 hostname = sub.store
