@@ -3,7 +3,7 @@
 #!author=chavyleung
 
 [Script]
-request if ${url} ~= /^https?:\/\/(.+\.)?boxjs\.(com|net)/ then script("https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js") with tag="BoxJs", timeout=30, requires_body=true
+request if ${url} ~= /^https?:\/\/(.+\.)?boxjs\.(com|net)/i then script("https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js") with tag="BoxJs", timeout=30, requires_body=true
 
 [MITM]
 hostname = boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net
