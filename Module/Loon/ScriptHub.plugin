@@ -3,13 +3,13 @@
 #!author=小白脸,xream,keywos,ckyb
 
 [Script]
-request if ${url} ~= /^https?:\/\/script\.hub\/($|edit\/|reload) then script("https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/script-hub.js") with tag="ScriptHub", timeout=30
+request if ${url} ~= /^https?:\/\/script\.hub\/($|edit\/|reload)/i then script("https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/script-hub.js") with tag="ScriptHub", timeout=30
 
-request if ${url} ~= /^https?:\/\/script\.hub\/convert\/ then script("https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/script-converter.js") with tag="ScriptHub", timeout=30
+request if ${url} ~= /^https?:\/\/script\.hub\/convert\//i then script("https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/script-converter.js") with tag="ScriptHub", timeout=30
 
-request if ${url} ~= /^https?:\/\/script\.hub\/file\/_start_\/.+type=(?:qx-rewrite|surge-module|loon-plugin|all-module) then script("https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/Rewrite-Parser.js") with tag="ScriptHub", timeout=30
+request if ${url} ~= /^https?:\/\/script\.hub\/file\/_start_\/.+type=(?:qx-rewrite|surge-module|loon-plugin|all-module)/i then script("https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/Rewrite-Parser.js") with tag="ScriptHub", timeout=30
 
-request if ${url} ~= /^https?:\/\/script\.hub\/file\/_start_\/.+type=rule-set then script("https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/rule-parser.js") with tag="ScriptHub", timeout=30
+request if ${url} ~= /^https?:\/\/script\.hub\/file\/_start_\/.+type=rule-set/i then script("https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/rule-parser.js") with tag="ScriptHub", timeout=30
 
 [MITM]
 hostname = script.hub, *.script.hub
