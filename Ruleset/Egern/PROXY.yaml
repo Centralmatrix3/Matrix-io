@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27233
+# 规则统计: 27238
 
 domain_set:
   - 1password.drift.click
@@ -19095,6 +19095,7 @@ domain_suffix_set:
   - playstation
   - playstation.com
   - playstation.net
+  - playstationnetwork.com
   - playvalorant.com
   - playvids.com
   - playwarcraft3.com
@@ -20855,6 +20856,7 @@ domain_suffix_set:
   - scatville.com
   - scb.ru
   - scdn.co
+  - scea.com
   - scene7.com
   - scenesource.me
   - scharferporno.com
@@ -21819,6 +21821,7 @@ domain_suffix_set:
   - sony.com.pa
   - sony.com.pe
   - sony.com.ph
+  - sony.com.py
   - sony.com.sg
   - sony.com.sv
   - sony.com.tr
@@ -21862,8 +21865,10 @@ domain_suffix_set:
   - sonydna.com
   - sonyentertainmentnetwork.com
   - sonyglobalsolutions.jp
+  - sonyinteractive.com
   - sonykigyo.jp
   - sonylatvija.com
+  - sonymusic.com.hk
   - sonynetwork.co.jp
   - sonypcl.jp
   - sonypictures.com
