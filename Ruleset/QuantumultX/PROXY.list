@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27239
+# 规则统计: 27245
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -6891,6 +6891,7 @@ HOST-SUFFIX,cursor-cdn.com,PROXY
 HOST-SUFFIX,cursor.com,PROXY
 HOST-SUFFIX,cursor.sh,PROXY
 HOST-SUFFIX,cursorapi.com,PROXY
+HOST-SUFFIX,cursorvm.com,PROXY
 HOST-SUFFIX,curve.fi,PROXY
 HOST-SUFFIX,curvefish.com,PROXY
 HOST-SUFFIX,curvybbwwives.com,PROXY
@@ -18229,6 +18230,7 @@ HOST-SUFFIX,op7979.com,PROXY
 HOST-SUFFIX,opac-project.eu,PROXY
 HOST-SUFFIX,open.firstory.me,PROXY
 HOST-SUFFIX,openai.com,PROXY
+HOST-SUFFIX,openai.org,PROXY
 HOST-SUFFIX,openamt.com,PROXY
 HOST-SUFFIX,openapiplatform.com,PROXY
 HOST-SUFFIX,openapiservice.com,PROXY
@@ -20869,6 +20871,7 @@ HOST-SUFFIX,schwab.com.cn,PROXY
 HOST-SUFFIX,schwab.com.hk,PROXY
 HOST-SUFFIX,schwab.com.sg,PROXY
 HOST-SUFFIX,schwabassetmanagement.com,PROXY
+HOST-SUFFIX,schwabcdn.com,PROXY
 HOST-SUFFIX,schwabplan.com,PROXY
 HOST-SUFFIX,sci-hub.ee,PROXY
 HOST-SUFFIX,sci-hub.it.nf,PROXY
@@ -23228,6 +23231,8 @@ HOST-SUFFIX,timesofindia.indiatimes.com,PROXY
 HOST-SUFFIX,timestalks.com,PROXY
 HOST-SUFFIX,timeweb.cloud,PROXY
 HOST-SUFFIX,timeweb.com,PROXY
+HOST-SUFFIX,timeweb.tech,PROXY
+HOST-SUFFIX,timewebcloud.kz,PROXY
 HOST-SUFFIX,timi1.me,PROXY
 HOST-SUFFIX,timo0.com,PROXY
 HOST-SUFFIX,timtales.com,PROXY
@@ -23805,6 +23810,7 @@ HOST-SUFFIX,typekit.com,PROXY
 HOST-SUFFIX,typekit.net,PROXY
 HOST-SUFFIX,typenetwork.com,PROXY
 HOST-SUFFIX,typepad.com,PROXY
+HOST-SUFFIX,typesafe.ai,PROXY
 HOST-SUFFIX,typeset.io,PROXY
 HOST-SUFFIX,typesquare.com,PROXY
 HOST-SUFFIX,typography.com,PROXY
