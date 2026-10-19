@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27245
+# 规则统计: 27257
 
 domain_set:
   - 1password.drift.click
@@ -143,6 +143,7 @@ domain_set:
   - d2xmjdvx03ij56.cloudfront.net
   - d31dormfno8pk4.cloudfront.net
   - d33wubrfki0l68.cloudfront.net
+  - d348twzf7a8p5.cloudfront.net
   - d36nr0u3xmc4mm.cloudfront.net
   - d3aqoihi2n8ty8.cloudfront.net
   - d3c27h4odz752x.cloudfront.net
@@ -167,6 +168,7 @@ domain_set:
   - deutschewelle.h-cdn.com
   - developer.microsoft.com
   - developers.facebook.com
+  - devforum-uploads.s3.dualstack.us-east-2.amazonaws.com
   - dfp6rglgjqszk.cloudfront.net
   - dgeft87wbj63p.cloudfront.net
   - discord-attachments-uploads-prd.storage.googleapis.com
@@ -177,6 +179,7 @@ domain_set:
   - dmqdd6hw24ucf.cloudfront.net
   - docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com
   - docker-pinata-support.s3.amazonaws.com
+  - doy2mn9upadnk.cloudfront.net
   - dqd0jw5gvbchn.cloudfront.net
   - dqrpb9wgowsf5.cloudfront.net
   - ds-linear-abematv.akamaized.net
@@ -224,7 +227,6 @@ domain_set:
   - firebaseperusertopics-pa.googleapis.com
   - firebaseremoteconfig.googleapis.com
   - firstsearch.oclc.org
-  - flightsimulator.azureedge.net
   - fontshop-prod-responsive-images.s3.amazonaws.com
   - foxnewsplayer-a.akamaihd.net
   - gamedownloads-rockstargames-com.akamaized.net
@@ -3129,7 +3131,6 @@ domain_suffix_set:
   - asmr.gay
   - asmrbuluo.com
   - asn-online.org
-  - asobostudio.com
   - asp-cc.com
   - asp.net
   - aspbjournals.org
@@ -4115,8 +4116,15 @@ domain_suffix_set:
   - beforeigners.com
   - befuck.com
   - befuck.net
+  - beget.app
+  - beget.cloud
   - beget.com
+  - beget.de
+  - beget.hosting
+  - beget.pro
   - beget.ru
+  - beget.tech
+  - begetcdn.cloud
   - begin-trade.com
   - behance.net
   - behindthescreenz.com
@@ -4149,6 +4157,7 @@ domain_suffix_set:
   - berlinerbericht.de
   - berlintwitterwall.com
   - beru.ru
+  - beserver.ru
   - best-sex-games.com
   - best2pay.net
   - best4bim.com
@@ -4259,6 +4268,7 @@ domain_suffix_set:
   - bffshd.com
   - bfnn.org
   - bfsh.hk
+  - bget.ru
   - bgicdn.com
   - bgm.tv
   - bgme.me
@@ -9726,7 +9736,6 @@ domain_suffix_set:
   - flickr
   - flickr.com
   - flickr.net
-  - flightsimulator.com
   - flipboard.com
   - flipfap.com
   - flipkart.com
@@ -19834,6 +19843,7 @@ domain_suffix_set:
   - pussyspace.net
   - putinho.net
   - putty.org
+  - pv-cdn.net
   - pvp.net
   - pvp.tv
   - pvt.sexy
@@ -22024,6 +22034,7 @@ domain_suffix_set:
   - springwood.me
   - sprinklesapp.com
   - sproutcore.com
+  - sprut.io
   - sptvbroadcast.com
   - sputnikglobe.com
   - sputnikimages.com
@@ -26006,6 +26017,7 @@ domain_suffix_set:
   - xn--90ab.com
   - xn--90ab2c.xn--p1ai
   - xn--90absjljw3g.xn--p1ai
+  - xn--90aefb9d.xn--p1ai
   - xn--90aifd0az.shop
   - xn--90aifd0azb.xn--p1acf
   - xn--90wwvt03e.com

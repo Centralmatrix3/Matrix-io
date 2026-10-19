@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27245
+# 规则统计: 27257
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -142,6 +142,7 @@ HOST,d2vjef5jvl6bfs.cloudfront.net,PROXY
 HOST,d2xmjdvx03ij56.cloudfront.net,PROXY
 HOST,d31dormfno8pk4.cloudfront.net,PROXY
 HOST,d33wubrfki0l68.cloudfront.net,PROXY
+HOST,d348twzf7a8p5.cloudfront.net,PROXY
 HOST,d36nr0u3xmc4mm.cloudfront.net,PROXY
 HOST,d3aqoihi2n8ty8.cloudfront.net,PROXY
 HOST,d3c27h4odz752x.cloudfront.net,PROXY
@@ -166,6 +167,7 @@ HOST,deribit.cdn.prismic.io,PROXY
 HOST,deutschewelle.h-cdn.com,PROXY
 HOST,developer.microsoft.com,PROXY
 HOST,developers.facebook.com,PROXY
+HOST,devforum-uploads.s3.dualstack.us-east-2.amazonaws.com,PROXY
 HOST,dfp6rglgjqszk.cloudfront.net,PROXY
 HOST,dgeft87wbj63p.cloudfront.net,PROXY
 HOST,discord-attachments-uploads-prd.storage.googleapis.com,PROXY
@@ -176,6 +178,7 @@ HOST,dlmobilegarena-a.akamaihd.net,PROXY
 HOST,dmqdd6hw24ucf.cloudfront.net,PROXY
 HOST,docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com,PROXY
 HOST,docker-pinata-support.s3.amazonaws.com,PROXY
+HOST,doy2mn9upadnk.cloudfront.net,PROXY
 HOST,dqd0jw5gvbchn.cloudfront.net,PROXY
 HOST,dqrpb9wgowsf5.cloudfront.net,PROXY
 HOST,ds-linear-abematv.akamaized.net,PROXY
@@ -223,7 +226,6 @@ HOST,firebaselogging.googleapis.com,PROXY
 HOST,firebaseperusertopics-pa.googleapis.com,PROXY
 HOST,firebaseremoteconfig.googleapis.com,PROXY
 HOST,firstsearch.oclc.org,PROXY
-HOST,flightsimulator.azureedge.net,PROXY
 HOST,fontshop-prod-responsive-images.s3.amazonaws.com,PROXY
 HOST,foxnewsplayer-a.akamaihd.net,PROXY
 HOST,gamedownloads-rockstargames-com.akamaized.net,PROXY
@@ -3127,7 +3129,6 @@ HOST-SUFFIX,asminternational.org,PROXY
 HOST-SUFFIX,asmr.gay,PROXY
 HOST-SUFFIX,asmrbuluo.com,PROXY
 HOST-SUFFIX,asn-online.org,PROXY
-HOST-SUFFIX,asobostudio.com,PROXY
 HOST-SUFFIX,asp-cc.com,PROXY
 HOST-SUFFIX,asp.net,PROXY
 HOST-SUFFIX,aspbjournals.org,PROXY
@@ -4113,8 +4114,15 @@ HOST-SUFFIX,beevpn.com,PROXY
 HOST-SUFFIX,beforeigners.com,PROXY
 HOST-SUFFIX,befuck.com,PROXY
 HOST-SUFFIX,befuck.net,PROXY
+HOST-SUFFIX,beget.app,PROXY
+HOST-SUFFIX,beget.cloud,PROXY
 HOST-SUFFIX,beget.com,PROXY
+HOST-SUFFIX,beget.de,PROXY
+HOST-SUFFIX,beget.hosting,PROXY
+HOST-SUFFIX,beget.pro,PROXY
 HOST-SUFFIX,beget.ru,PROXY
+HOST-SUFFIX,beget.tech,PROXY
+HOST-SUFFIX,begetcdn.cloud,PROXY
 HOST-SUFFIX,begin-trade.com,PROXY
 HOST-SUFFIX,behance.net,PROXY
 HOST-SUFFIX,behindthescreenz.com,PROXY
@@ -4147,6 +4155,7 @@ HOST-SUFFIX,berlincompanions.com,PROXY
 HOST-SUFFIX,berlinerbericht.de,PROXY
 HOST-SUFFIX,berlintwitterwall.com,PROXY
 HOST-SUFFIX,beru.ru,PROXY
+HOST-SUFFIX,beserver.ru,PROXY
 HOST-SUFFIX,best-sex-games.com,PROXY
 HOST-SUFFIX,best2pay.net,PROXY
 HOST-SUFFIX,best4bim.com,PROXY
@@ -4257,6 +4266,7 @@ HOST-SUFFIX,bfads.net,PROXY
 HOST-SUFFIX,bffshd.com,PROXY
 HOST-SUFFIX,bfnn.org,PROXY
 HOST-SUFFIX,bfsh.hk,PROXY
+HOST-SUFFIX,bget.ru,PROXY
 HOST-SUFFIX,bgicdn.com,PROXY
 HOST-SUFFIX,bgm.tv,PROXY
 HOST-SUFFIX,bgme.me,PROXY
@@ -9724,7 +9734,6 @@ HOST-SUFFIX,flic.kr,PROXY
 HOST-SUFFIX,flickr,PROXY
 HOST-SUFFIX,flickr.com,PROXY
 HOST-SUFFIX,flickr.net,PROXY
-HOST-SUFFIX,flightsimulator.com,PROXY
 HOST-SUFFIX,flipboard.com,PROXY
 HOST-SUFFIX,flipfap.com,PROXY
 HOST-SUFFIX,flipkart.com,PROXY
@@ -19832,6 +19841,7 @@ HOST-SUFFIX,pussyspace.com,PROXY
 HOST-SUFFIX,pussyspace.net,PROXY
 HOST-SUFFIX,putinho.net,PROXY
 HOST-SUFFIX,putty.org,PROXY
+HOST-SUFFIX,pv-cdn.net,PROXY
 HOST-SUFFIX,pvp.net,PROXY
 HOST-SUFFIX,pvp.tv,PROXY
 HOST-SUFFIX,pvt.sexy,PROXY
@@ -22022,6 +22032,7 @@ HOST-SUFFIX,springernature.com,PROXY
 HOST-SUFFIX,springwood.me,PROXY
 HOST-SUFFIX,sprinklesapp.com,PROXY
 HOST-SUFFIX,sproutcore.com,PROXY
+HOST-SUFFIX,sprut.io,PROXY
 HOST-SUFFIX,sptvbroadcast.com,PROXY
 HOST-SUFFIX,sputnikglobe.com,PROXY
 HOST-SUFFIX,sputnikimages.com,PROXY
@@ -26004,6 +26015,7 @@ HOST-SUFFIX,xn--8uq428d76d.tokyo,PROXY
 HOST-SUFFIX,xn--90ab.com,PROXY
 HOST-SUFFIX,xn--90ab2c.xn--p1ai,PROXY
 HOST-SUFFIX,xn--90absjljw3g.xn--p1ai,PROXY
+HOST-SUFFIX,xn--90aefb9d.xn--p1ai,PROXY
 HOST-SUFFIX,xn--90aifd0az.shop,PROXY
 HOST-SUFFIX,xn--90aifd0azb.xn--p1acf,PROXY
 HOST-SUFFIX,xn--90wwvt03e.com,PROXY
