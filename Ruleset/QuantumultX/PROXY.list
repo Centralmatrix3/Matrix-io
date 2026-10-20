@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27257
+# 规则统计: 27262
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -273,6 +273,8 @@ HOST,impala-media-production.s3.amazonaws.com,PROXY
 HOST,imperial.insendi.com,PROXY
 HOST,incoming-telemetry.thunderbird.net,PROXY
 HOST,incoming.telemetry.mozilla.org,PROXY
+HOST,kp-config-smart-tv.akamaized.net,PROXY
+HOST,kp-configs-smart-tv.s3.eu-central-1.amazonaws.com,PROXY
 HOST,lastfm-img.freetls.fastly.net,PROXY
 HOST,lastfm.freetls.fastly.net,PROXY
 HOST,lazer.ppy.sh,PROXY
@@ -15249,6 +15251,7 @@ HOST-SUFFIX,magentomobile.com,PROXY
 HOST-SUFFIX,magestic.com,PROXY
 HOST-SUFFIX,magicalmirai.com,PROXY
 HOST-SUFFIX,magicmovies.com,PROXY
+HOST-SUFFIX,magnific.com,PROXY
 HOST-SUFFIX,mahajantech.com,PROXY
 HOST-SUFFIX,mahjongsoul.com,PROXY
 HOST-SUFFIX,maidonanews.jp,PROXY
@@ -16720,6 +16723,7 @@ HOST-SUFFIX,mt.lv,PROXY
 HOST-SUFFIX,mt0011.site,PROXY
 HOST-SUFFIX,mtao.fun,PROXY
 HOST-SUFFIX,mthruf.com,PROXY
+HOST-SUFFIX,mts-link.ru,PROXY
 HOST-SUFFIX,mts-ws.net,PROXY
 HOST-SUFFIX,mts.ru,PROXY
 HOST-SUFFIX,mtsbank.ru,PROXY
@@ -19568,6 +19572,7 @@ HOST-SUFFIX,postgresql.org,PROXY
 HOST-SUFFIX,postimages.org,PROXY
 HOST-SUFFIX,postimg.cc,PROXY
 HOST-SUFFIX,postini.com,PROXY
+HOST-SUFFIX,postman.com,PROXY
 HOST-SUFFIX,posts.careerengine.us,PROXY
 HOST-SUFFIX,posty.kr,PROXY
 HOST-SUFFIX,postyourgirls.ws,PROXY

@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27257
+# 规则统计: 27262
 
 domain_set:
   - 1password.drift.click
@@ -274,6 +274,8 @@ domain_set:
   - imperial.insendi.com
   - incoming-telemetry.thunderbird.net
   - incoming.telemetry.mozilla.org
+  - kp-config-smart-tv.akamaized.net
+  - kp-configs-smart-tv.s3.eu-central-1.amazonaws.com
   - lastfm-img.freetls.fastly.net
   - lastfm.freetls.fastly.net
   - lazer.ppy.sh
@@ -15251,6 +15253,7 @@ domain_suffix_set:
   - magestic.com
   - magicalmirai.com
   - magicmovies.com
+  - magnific.com
   - mahajantech.com
   - mahjongsoul.com
   - maidonanews.jp
@@ -16722,6 +16725,7 @@ domain_suffix_set:
   - mt0011.site
   - mtao.fun
   - mthruf.com
+  - mts-link.ru
   - mts-ws.net
   - mts.ru
   - mtsbank.ru
@@ -19570,6 +19574,7 @@ domain_suffix_set:
   - postimages.org
   - postimg.cc
   - postini.com
+  - postman.com
   - posts.careerengine.us
   - posty.kr
   - postyourgirls.ws
