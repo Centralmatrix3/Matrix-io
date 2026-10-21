@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27262
+# 规则统计: 27264
 
 payload:
   - '1password.drift.click'
@@ -3449,8 +3449,10 @@ payload:
   - '+.avinin.com'
   - '+.avira.com'
   - '+.avistaz.to'
+  - '+.avito.com'
   - '+.avito.ru'
   - '+.avito.st'
+  - '+.avito.tech'
   - '+.avizoon.site'
   - '+.avizoone.com'
   - '+.avjb.com'

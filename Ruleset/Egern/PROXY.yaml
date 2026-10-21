@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27262
+# 规则统计: 27264
 
 domain_set:
   - 1password.drift.click
@@ -3450,8 +3450,10 @@ domain_suffix_set:
   - avinin.com
   - avira.com
   - avistaz.to
+  - avito.com
   - avito.ru
   - avito.st
+  - avito.tech
   - avizoon.site
   - avizoone.com
   - avjb.com
