@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27264
+# 规则统计: 27286
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -149,6 +149,7 @@ HOST,d3c27h4odz752x.cloudfront.net,PROXY
 HOST,d3lh5kkip965lj.cloudfront.net,PROXY
 HOST,d3nwj80emtnjeo.cloudfront.net,PROXY
 HOST,d3r7nsslvs6aaf.cloudfront.net,PROXY
+HOST,d3stzm2eumvgb4.cloudfront.net,PROXY
 HOST,d3ucl0eqgl80l5.cloudfront.net,PROXY
 HOST,d3vd9lfkzbru3h.cloudfront.net,PROXY
 HOST,d6d4ismr40iw.cloudfront.net,PROXY
@@ -2539,6 +2540,7 @@ HOST-SUFFIX,anonfiles.com,PROXY
 HOST-SUFFIX,anonymouse.org,PROXY
 HOST-SUFFIX,ansarbank.com,PROXY
 HOST-SUFFIX,ansin.erodayo.com,PROXY
+HOST-SUFFIX,ant.dev,PROXY
 HOST-SUFFIX,antarvasnaclips.com,PROXY
 HOST-SUFFIX,antarvasnax.com,PROXY
 HOST-SUFFIX,antenna.co.kr,PROXY
@@ -2546,10 +2548,12 @@ HOST-SUFFIX,anthemgame.com,PROXY
 HOST-SUFFIX,anthemthegame.com,PROXY
 HOST-SUFFIX,anthonycalzadilla.com,PROXY
 HOST-SUFFIX,anthropic.com,PROXY
+HOST-SUFFIX,anthropic.team,PROXY
 HOST-SUFFIX,antiphishing.nl,PROXY
 HOST-SUFFIX,antiphishing.ru,PROXY
 HOST-SUFFIX,antiwave.net,PROXY
 HOST-SUFFIX,antpool.com,PROXY
+HOST-SUFFIX,antspace.dev,PROXY
 HOST-SUFFIX,anudetube.com,PROXY
 HOST-SUFFIX,anuneko.com,PROXY
 HOST-SUFFIX,anxiangxing.com,PROXY
@@ -6022,6 +6026,7 @@ HOST-SUFFIX,charticulator.com,PROXY
 HOST-SUFFIX,chat.com,PROXY
 HOST-SUFFIX,chat.lmsys.org,PROXY
 HOST-SUFFIX,chatango.com,PROXY
+HOST-SUFFIX,chatbotclaude.com,PROXY
 HOST-SUFFIX,chatgpt.com,PROXY
 HOST-SUFFIX,chatgpt.livekit.cloud,PROXY
 HOST-SUFFIX,chatgpt.site,PROXY
@@ -6342,10 +6347,16 @@ HOST-SUFFIX,classicnike.com,PROXY
 HOST-SUFFIX,classymomsex.com,PROXY
 HOST-SUFFIX,clau.de,PROXY
 HOST-SUFFIX,claude.ai,PROXY
+HOST-SUFFIX,claude.app,PROXY
 HOST-SUFFIX,claude.com,PROXY
 HOST-SUFFIX,claude.dev,PROXY
+HOST-SUFFIX,claude.new,PROXY
+HOST-SUFFIX,claude.site,PROXY
+HOST-SUFFIX,claudeacademy.com,PROXY
 HOST-SUFFIX,claudemcpclient.com,PROXY
 HOST-SUFFIX,claudemcpcontent.com,PROXY
+HOST-SUFFIX,claudepages.dev,PROXY
+HOST-SUFFIX,claudestudio.com,PROXY
 HOST-SUFFIX,claudeusercontent.com,PROXY
 HOST-SUFFIX,clawhub.ai,PROXY
 HOST-SUFFIX,clck.ru,PROXY
@@ -9767,6 +9778,17 @@ HOST-SUFFIX,fluidfxapp.com,PROXY
 HOST-SUFFIX,fluidpreview.com,PROXY
 HOST-SUFFIX,flutter.dev,PROXY
 HOST-SUFFIX,flutterapp.com,PROXY
+HOST-SUFFIX,fluxer.app,PROXY
+HOST-SUFFIX,fluxer.com,PROXY
+HOST-SUFFIX,fluxer.dev,PROXY
+HOST-SUFFIX,fluxer.gg,PROXY
+HOST-SUFFIX,fluxer.gift,PROXY
+HOST-SUFFIX,fluxer.media,PROXY
+HOST-SUFFIX,fluxer.tools,PROXY
+HOST-SUFFIX,fluxerapp.com,PROXY
+HOST-SUFFIX,fluxerstatic.com,PROXY
+HOST-SUFFIX,fluxerstatus.com,PROXY
+HOST-SUFFIX,fluxerusercontent.com,PROXY
 HOST-SUFFIX,fly.dev,PROXY
 HOST-SUFFIX,fly.io,PROXY
 HOST-SUFFIX,flyflv.com,PROXY
