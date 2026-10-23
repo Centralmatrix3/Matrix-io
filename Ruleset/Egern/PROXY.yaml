@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27286
+# 规则统计: 27312
 
 domain_set:
   - 1password.drift.click
@@ -230,6 +230,7 @@ domain_set:
   - firstsearch.oclc.org
   - fontshop-prod-responsive-images.s3.amazonaws.com
   - foxnewsplayer-a.akamaihd.net
+  - funko.my.site.com
   - gamedownloads-rockstargames-com.akamaized.net
   - gamer-cds.cdn.hinet.net
   - gamer2-cds.cdn.hinet.net
@@ -987,6 +988,7 @@ domain_suffix_set:
   - 22112211.xyz
   - 233abc.com
   - 2371tom.com
+  - 24.place
   - 24h.tv
   - 24hbook.com
   - 24hjav.com
@@ -4522,6 +4524,8 @@ domain_suffix_set:
   - blizzardgearstore.com
   - blockcast.it
   - blockchain.com
+  - blockchair.com
+  - blockchair.net
   - blockcn.com
   - blockedbyhk.com
   - blockfrost.io
@@ -6763,6 +6767,7 @@ domain_suffix_set:
   - cqcorea.com
   - crabporn.com
   - crackle.com
+  - craftifyx.com
   - craigslist.org
   - crankplayer.com
   - crashbandicoot.com
@@ -6836,6 +6841,7 @@ domain_suffix_set:
   - cruxpool.com
   - crypto.com
   - cryptocompare.com
+  - cryptoid.info
   - cryptomus.com
   - crypton.co.jp
   - crysis.jp
@@ -7183,6 +7189,7 @@ domain_suffix_set:
   - delcamtv.com
   - delcamuniversity.com
   - delcamusa.com
+  - delets.cash
   - delets.online
   - delicious.com.au
   - delivery-club.ru
@@ -9333,6 +9340,7 @@ domain_suffix_set:
   - fanbox.cc
   - fandango.com
   - fandom.com
+  - fanfiction.net
   - fanfictionero.com
   - fanfox.net
   - fangeqiang.com
@@ -10292,6 +10300,7 @@ domain_suffix_set:
   - fundraisingwithfacebook.com
   - fundsupermart.com
   - funimation.com
+  - funko.com
   - funkyimg.com
   - funnyfacebook.org
   - funnyordie.com
@@ -10408,6 +10417,7 @@ domain_suffix_set:
   - game-repack.site
   - game735.com
   - gameapps.hk
+  - gamebanana.com
   - gamebase.com.tw
   - gamebeforethegame.com
   - gamebiz.jp
@@ -10659,6 +10669,7 @@ domain_suffix_set:
   - getpocket.com
   - getporn.tv
   - getprintersupports.com
+  - getsafety.com
   - getscorecash.com
   - getsentry.com
   - getsession.org
@@ -10827,6 +10838,8 @@ domain_suffix_set:
   - glass8.eu
   - gle
   - gleline.com
+  - glitchprod.com
+  - glitchproductions.store
   - glitchwave.com
   - global-sci.org
   - globaledu.org
@@ -14620,6 +14633,7 @@ domain_suffix_set:
   - kumo.com
   - kun66.xyz
   - kundun1069.com
+  - kurs.expert
   - kurtmunger.com
   - kusugurizanmai.com
   - kutjeporno.com
@@ -15310,6 +15324,7 @@ domain_suffix_set:
   - makemymood.com
   - makerepeater.jp
   - makesenseofdata.com
+  - makeship.com
   - makeshop.jp
   - makingstartshere.com
   - maktoob.com
@@ -18426,6 +18441,7 @@ domain_suffix_set:
   - ow.ly
   - owl.li
   - owltail.com
+  - ownaj.com
   - owxd.xyz
   - oxfordaasc.com
   - oxfordartonline.com
@@ -19898,6 +19914,7 @@ domain_suffix_set:
   - python.com.tw
   - python.org
   - pythonhosted.org
+  - pyup.io
   - pzforever.skin
   - pzforever01.homes
   - pzhanfor.today
@@ -20047,6 +20064,7 @@ domain_suffix_set:
   - r18lu-avi.shop
   - r18lu.com
   - r2.dev
+  - r2modman.com
   - r34porn.net
   - rabbitcounter.com
   - rabbitscams.com
@@ -20742,6 +20760,7 @@ domain_suffix_set:
   - safeliner.tech
   - safepal.com
   - safervpn.com
+  - safetycli.com
   - saffrontech.com
   - sagabank.co.jp
   - sage-observability.tech
@@ -22287,6 +22306,7 @@ domain_suffix_set:
   - steaminventoryhelper.com
   - steamladder.com
   - steamofporn.com
+  - steamos.cloud
   - steampowered.com
   - steamserver.net
   - steamstatic.com
@@ -22923,6 +22943,7 @@ domain_suffix_set:
   - tgirlpostop.com
   - tgp6.com
   - tgstat.com
+  - tgtime.store
   - tgtube.com
   - tgutube.com
   - thai-xxx.com
@@ -23159,6 +23180,8 @@ domain_suffix_set:
   - thunderbird.net
   - thunderbolttechnology.net
   - thundermail.com
+  - thunderstore.io
+  - thunderstore.org
   - thywords.com
   - thz7.net
   - thzu.cc
@@ -23327,6 +23350,7 @@ domain_suffix_set:
   - tmei-taoyuan.com
   - tmi.me
   - tmiaf.ru
+  - tmimgcdn.com
   - tmpp.org
   - tmsnrt.rs
   - tnaflix.com
@@ -25699,6 +25723,7 @@ domain_suffix_set:
   - worldoftanks.eu
   - worldofwarcraft.com
   - worldofwarplanes.com
+  - worldofwarships.asia
   - worldofwarships.com
   - worldpornvideos.com
   - worldscientific.com
@@ -26848,6 +26873,7 @@ domain_suffix_set:
   - yourxxxvideos.pro
   - yousendit.com
   - youskbe.com
+  - youtooz.com
   - youtrack.cloud
   - youtrannytube.com
   - youtu.be
