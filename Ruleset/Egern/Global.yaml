@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7531
+# 规则统计: 7533
 
 no_resolve: true
 domain_set:
@@ -1375,6 +1375,7 @@ domain_suffix_set:
   - compress.to
   - connect.facebook.net
   - conoha.jp
+  - console.typesafe.ai
   - constitutionalism.solutions
   - contactmagazine.net
   - contests.twilio.com
@@ -2356,6 +2357,7 @@ domain_suffix_set:
   - g.kfd.me
   - g0v.social
   - g6hentai.com
+  - ga.jspm.io
   - gab.com
   - gabocorp.com
   - gaeproxy.com

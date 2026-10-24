@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7531
+# 规则统计: 7533
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -1373,6 +1373,7 @@ payload:
   - DOMAIN-SUFFIX,compress.to
   - DOMAIN-SUFFIX,connect.facebook.net
   - DOMAIN-SUFFIX,conoha.jp
+  - DOMAIN-SUFFIX,console.typesafe.ai
   - DOMAIN-SUFFIX,constitutionalism.solutions
   - DOMAIN-SUFFIX,contactmagazine.net
   - DOMAIN-SUFFIX,contests.twilio.com
@@ -2354,6 +2355,7 @@ payload:
   - DOMAIN-SUFFIX,g.kfd.me
   - DOMAIN-SUFFIX,g0v.social
   - DOMAIN-SUFFIX,g6hentai.com
+  - DOMAIN-SUFFIX,ga.jspm.io
   - DOMAIN-SUFFIX,gab.com
   - DOMAIN-SUFFIX,gabocorp.com
   - DOMAIN-SUFFIX,gaeproxy.com

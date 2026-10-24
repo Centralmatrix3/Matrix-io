@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27312
+# 规则统计: 27313
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -10393,6 +10393,7 @@ HOST-SUFFIX,g.page,PROXY
 HOST-SUFFIX,g0v.social,PROXY
 HOST-SUFFIX,g1.com.br,PROXY
 HOST-SUFFIX,g6hentai.com,PROXY
+HOST-SUFFIX,ga.jspm.io,PROXY
 HOST-SUFFIX,gab.com,PROXY
 HOST-SUFFIX,gabocorp.com,PROXY
 HOST-SUFFIX,gacebook.com,PROXY
