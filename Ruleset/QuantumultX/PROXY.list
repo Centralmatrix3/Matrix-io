@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27313
+# 规则统计: 27317
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -801,6 +801,7 @@ HOST-SUFFIX,11jav.com,PROXY
 HOST-SUFFIX,123-hp.com,PROXY
 HOST-SUFFIX,123av.com,PROXY
 HOST-SUFFIX,123av.me,PROXY
+HOST-SUFFIX,123av.org,PROXY
 HOST-SUFFIX,123bin.cc,PROXY
 HOST-SUFFIX,123dapp.com,PROXY
 HOST-SUFFIX,123dappipad.com,PROXY
@@ -940,6 +941,7 @@ HOST-SUFFIX,1password.ca,PROXY
 HOST-SUFFIX,1password.co,PROXY
 HOST-SUFFIX,1password.com,PROXY
 HOST-SUFFIX,1password.community,PROXY
+HOST-SUFFIX,1password.dev,PROXY
 HOST-SUFFIX,1password.eu,PROXY
 HOST-SUFFIX,1password.io,PROXY
 HOST-SUFFIX,1passwordservices.com,PROXY
@@ -5940,6 +5942,10 @@ HOST-SUFFIX,cdnxxx-proxy.xyz,PROXY
 HOST-SUFFIX,cdp1998.org,PROXY
 HOST-SUFFIX,cdp2006.org,PROXY
 HOST-SUFFIX,cdpeu.org,PROXY
+HOST-SUFFIX,cdpred.services,PROXY
+HOST-SUFFIX,cdprojekt.com,PROXY
+HOST-SUFFIX,cdprojekt.red,PROXY
+HOST-SUFFIX,cdprojektred.com,PROXY
 HOST-SUFFIX,cdpuk.co.uk,PROXY
 HOST-SUFFIX,cdpweb.org,PROXY
 HOST-SUFFIX,cdpwu.org,PROXY
@@ -6955,6 +6961,7 @@ HOST-SUFFIX,cyber-bay.org,PROXY
 HOST-SUFFIX,cybercrimecon.com,PROXY
 HOST-SUFFIX,cyberghostvpn.com,PROXY
 HOST-SUFFIX,cybermondaybeats4sale.com,PROXY
+HOST-SUFFIX,cyberpunk.net,PROXY
 HOST-SUFFIX,cybersport.ru,PROXY
 HOST-SUFFIX,cybertrust.co.jp,PROXY
 HOST-SUFFIX,cybertrust.ne.jp,PROXY
@@ -14452,6 +14459,7 @@ HOST-SUFFIX,kilmeadeandfriends.com,PROXY
 HOST-SUFFIX,kimchi.tv,PROXY
 HOST-SUFFIX,kimi.ai,PROXY
 HOST-SUFFIX,kimogirl.cc,PROXY
+HOST-SUFFIX,kimootoko.net,PROXY
 HOST-SUFFIX,kimosex.com,PROXY
 HOST-SUFFIX,kindgirls.com,PROXY
 HOST-SUFFIX,kindindianporn.com,PROXY
@@ -16295,6 +16303,7 @@ HOST-SUFFIX,miniwidget.ca,PROXY
 HOST-SUFFIX,miniwindsor.com,PROXY
 HOST-SUFFIX,miniworkshop.com,PROXY
 HOST-SUFFIX,miniyaletown.ca,PROXY
+HOST-SUFFIX,minkch.com,PROXY
 HOST-SUFFIX,minnano-av.com,PROXY
 HOST-SUFFIX,minne.com,PROXY
 HOST-SUFFIX,minneapolisbmw.com,PROXY
@@ -17686,6 +17695,7 @@ HOST-SUFFIX,nixos.wiki,PROXY
 HOST-SUFFIX,nixpkgs.org,PROXY
 HOST-SUFFIX,niziero.info,PROXY
 HOST-SUFFIX,njactb.org,PROXY
+HOST-SUFFIX,njav.com,PROXY
 HOST-SUFFIX,njav.tv,PROXY
 HOST-SUFFIX,njavtv.com,PROXY
 HOST-SUFFIX,njpw.co.jp,PROXY
@@ -19132,6 +19142,7 @@ HOST-SUFFIX,playfab.com,PROXY
 HOST-SUFFIX,playfabapi.com,PROXY
 HOST-SUFFIX,playfamily.ru,PROXY
 HOST-SUFFIX,playforceone.com,PROXY
+HOST-SUFFIX,playgwent.com,PROXY
 HOST-SUFFIX,playhearthstone.com,PROXY
 HOST-SUFFIX,playmation.com,PROXY
 HOST-SUFFIX,playmeow.com,PROXY
@@ -19181,6 +19192,7 @@ HOST-SUFFIX,pmatehunter.com,PROXY
 HOST-SUFFIX,pmem.org,PROXY
 HOST-SUFFIX,pmem.us,PROXY
 HOST-SUFFIX,pnas.org,PROXY
+HOST-SUFFIX,po-kaki-to.com,PROXY
 HOST-SUFFIX,po2b.com,PROXY
 HOST-SUFFIX,pobeda.page,PROXY
 HOST-SUFFIX,pobl-content.com,PROXY
@@ -23114,6 +23126,7 @@ HOST-SUFFIX,theweek.com,PROXY
 HOST-SUFFIX,theweek.in,PROXY
 HOST-SUFFIX,thewgo.org,PROXY
 HOST-SUFFIX,thewirechina.com,PROXY
+HOST-SUFFIX,thewitcher.com,PROXY
 HOST-SUFFIX,thewonderful101.com,PROXY
 HOST-SUFFIX,theync.com,PROXY
 HOST-SUFFIX,theyxxx.com,PROXY
@@ -26090,15 +26103,15 @@ HOST-SUFFIX,xn--d1acpjx3f.xn--p1ai,PROXY
 HOST-SUFFIX,xn--d4ty0ojsqzfd.com,PROXY
 HOST-SUFFIX,xn--e1adjldbbpv.xn--90ais,PROXY
 HOST-SUFFIX,xn--e1aigb.xn--p1ai,PROXY
-HOST-SUFFIX,xn--fiqs8s1bxp3anr7a.hk,PROXY
-HOST-SUFFIX,xn--fiqs8s1bxp3anr7a.xn--j6w193g,PROXY
-HOST-SUFFIX,xn--fiqs8s1byzqyvl.hk,PROXY
-HOST-SUFFIX,xn--fiqs8s1byzqyvl.xn--j6w193g,PROXY
+HOST-SUFFIX,xn--fiq80y.hk,PROXY
+HOST-SUFFIX,xn--fiq80y.xn--j6w193g,PROXY
+HOST-SUFFIX,xn--fiq80y3xbiwr.hk,PROXY
+HOST-SUFFIX,xn--fiq80y3xbiwr.xn--j6w193g,PROXY
+HOST-SUFFIX,xn--fiq80y3xbiwrs0kiu9d.hk,PROXY
+HOST-SUFFIX,xn--fiq80y3xbiwrs0kiu9d.xn--j6w193g,PROXY
 HOST-SUFFIX,xn--fiqs8sxootzz.xn--hxt814e,PROXY
 HOST-SUFFIX,xn--flw351e,PROXY
 HOST-SUFFIX,xn--flw351e.com,PROXY
-HOST-SUFFIX,xn--gdt08a.hk,PROXY
-HOST-SUFFIX,xn--gdt08a.xn--j6w193g,PROXY
 HOST-SUFFIX,xn--ggle-55da.com,PROXY
 HOST-SUFFIX,xn--gmq348bujlxrb.com,PROXY
 HOST-SUFFIX,xn--gmq92kd2rm1kx34a.com,PROXY
@@ -26118,8 +26131,6 @@ HOST-SUFFIX,xn--kcrv3utim32hx9f6qe.com,PROXY
 HOST-SUFFIX,xn--kput3imi374g.xn--hxt814e,PROXY
 HOST-SUFFIX,xn--mts47c3w9b1qr.net,PROXY
 HOST-SUFFIX,xn--mtswd61ejxq.com,PROXY
-HOST-SUFFIX,xn--mxtq18a.hk,PROXY
-HOST-SUFFIX,xn--mxtq18a.xn--j6w193g,PROXY
 HOST-SUFFIX,xn--ngstr-lra8j.com,PROXY
 HOST-SUFFIX,xn--noss43i.com,PROXY
 HOST-SUFFIX,xn--oiq.cc,PROXY
@@ -26127,14 +26138,10 @@ HOST-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c,PROXY
 HOST-SUFFIX,xn--pearsonenespaol-brb.com,PROXY
 HOST-SUFFIX,xn--pssu7ci2j23mp9ny48b.hk,PROXY
 HOST-SUFFIX,xn--pssu7ci2j23mp9ny48b.xn--j6w193g,PROXY
-HOST-SUFFIX,xn--pssu7cv61af1tcs59bnvd.hk,PROXY
-HOST-SUFFIX,xn--pssu7cv61af1tcs59bnvd.xn--j6w193g,PROXY
+HOST-SUFFIX,xn--pssu7ci3q5oge0ai91q.xn--j6w193g,PROXY
 HOST-SUFFIX,xn--pssu7cv61af44b.hk,PROXY
 HOST-SUFFIX,xn--pssu7cv61af44b.xn--j6w193g,PROXY
-HOST-SUFFIX,xn--pssu7cv61ahw8aq79bztd.hk,PROXY
-HOST-SUFFIX,xn--pssu7cv61ahw8aq79bztd.xn--j6w193g,PROXY
-HOST-SUFFIX,xn--pssu7cv61ahwcb1p2yk.hk,PROXY
-HOST-SUFFIX,xn--pssu7cv61ahwcb1p2yk.xn--j6w193g,PROXY
+HOST-SUFFIX,xn--pssu7cz8nr8ibkx1e8a.xn--j6w193g,PROXY
 HOST-SUFFIX,xn--q41am8x.com,PROXY
 HOST-SUFFIX,xn--qcka1pmc,PROXY
 HOST-SUFFIX,xn--qoq462m.com,PROXY
@@ -26150,11 +26157,7 @@ HOST-SUFFIX,xn--uis17aj9kmuf.com,PROXY
 HOST-SUFFIX,xn--uis44a.xn--j6w193g,PROXY
 HOST-SUFFIX,xn--urs05q.jp,PROXY
 HOST-SUFFIX,xn--vuqv2cf7wzyig79c.com,PROXY
-HOST-SUFFIX,xn--wcv22d.hk,PROXY
-HOST-SUFFIX,xn--wcv22d.xn--j6w193g,PROXY
 HOST-SUFFIX,xn--wcvs22d.xn--j6w193g,PROXY
-HOST-SUFFIX,xn--wcvs22d1m.hk,PROXY
-HOST-SUFFIX,xn--wcvs22d1m.xn--j6w193g,PROXY
 HOST-SUFFIX,xn--x-qeu1ji09tzlg.biz,PROXY
 HOST-SUFFIX,xn--x-qeu1ji09tzlg.net,PROXY
 HOST-SUFFIX,xn--xsq421m.com,PROXY
@@ -27268,6 +27271,7 @@ HOST-SUFFIX,zorglist.com,PROXY
 HOST-SUFFIX,zorrovpn.com,PROXY
 HOST-SUFFIX,zotero.org,PROXY
 HOST-SUFFIX,zozotown.com,PROXY
+HOST-SUFFIX,zozovideo.com,PROXY
 HOST-SUFFIX,zpagov.net,PROXY
 HOST-SUFFIX,zpath.com,PROXY
 HOST-SUFFIX,zpn.im,PROXY

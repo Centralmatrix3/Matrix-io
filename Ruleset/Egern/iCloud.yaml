@@ -1,5 +1,5 @@
 # 规则名称: iCloud
-# 规则统计: 53
+# 规则统计: 52
 
 domain_set:
   - www-cdn.icloud.com.akadns.net
@@ -13,7 +13,6 @@ domain_suffix_set:
   - icloud-isupport.com
   - icloud-sandbox.com
   - icloud.ch
-  - icloud.cn
   - icloud.com
   - icloud.com.cn
   - icloud.de
