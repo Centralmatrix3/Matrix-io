@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27317
+# 规则统计: 27308
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -53,6 +53,9 @@ DOMAIN,apple-tv-plus-press.apple.com
 DOMAIN,apple.com.akadns.net
 DOMAIN,appleworldwidedeveloper.hb-api.omtrdc.net
 DOMAIN,appleworldwidedeveloper.sc.omtrdc.net
+DOMAIN,appsgenaiserver-pa.clients.google.com
+DOMAIN,appsgenaiserver-pa.clients6.google.com
+DOMAIN,appsgenaiserver-pa.googleapis.com
 DOMAIN,as-dash-uk-live.akamaized.net
 DOMAIN,as-hls-uk-live.akamaized.net
 DOMAIN,asahishimbun.sc.omtrdc.net
@@ -159,6 +162,8 @@ DOMAIN,daily-cloudcode-pa.googleapis.com
 DOMAIN,databank.worldbank.org
 DOMAIN,database.asahi.com
 DOMAIN,datarouter.apps.netherrealm.com
+DOMAIN,dc.applicationinsights.azure.com
+DOMAIN,dc.services.visualstudio.com
 DOMAIN,dcb0z5ovq92mz.cloudfront.net
 DOMAIN,ddacn6pr5v0tl.cloudfront.net
 DOMAIN,ddpjwstwtpszg.cloudfront.net
@@ -182,6 +187,7 @@ DOMAIN,docker-pinata-support.s3.amazonaws.com
 DOMAIN,doy2mn9upadnk.cloudfront.net
 DOMAIN,dqd0jw5gvbchn.cloudfront.net
 DOMAIN,dqrpb9wgowsf5.cloudfront.net
+DOMAIN,dropbox.zendesk.com
 DOMAIN,ds-linear-abematv.akamaized.net
 DOMAIN,ds-vod-abematv.akamaized.net
 DOMAIN,ds0h3roq6wcgc.cloudfront.net
@@ -287,6 +293,7 @@ DOMAIN,linear-abematv.akamaized.net
 DOMAIN,link.theplatform.com
 DOMAIN,linkedin.sc.omtrdc.net
 DOMAIN,live-patreon-marketing.pantheonsite.io
+DOMAIN,live.applicationinsights.azure.com
 DOMAIN,lm.licenses.adobe.com
 DOMAIN,lmlicenses.wip4.adobe.com
 DOMAIN,location.microsoft.com
@@ -311,7 +318,6 @@ DOMAIN,muse.jhu.edu
 DOMAIN,mwf-service.akamaized.net
 DOMAIN,na1r.services.adobe.com
 DOMAIN,nbbb1bb7.pmhcjk.com
-DOMAIN,netflix.com.edgesuite.net
 DOMAIN,nix-community.github.io
 DOMAIN,notary-submissions-prod.s3-accelerate.amazonaws.com
 DOMAIN,notary-submissions-prod.s3.us-west-2.amazonaws.com
@@ -431,6 +437,7 @@ DOMAIN,rsshub.rssforever.com
 DOMAIN,rsshub.umzzz.com
 DOMAIN,rsshub.woodland.cafe
 DOMAIN,rsshub2.asailor.org
+DOMAIN,rt.services.visualstudio.com
 DOMAIN,rtm.tnt-ea.com
 DOMAIN,sa78gs.wpc.edgecastcdn.net
 DOMAIN,scc-hamivideo.cdn.hinet.net
@@ -515,7 +522,6 @@ DOMAIN,sentry.ppy.sh
 DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN,sni1dcb6gl.wpc.edgecastcdn.net
 DOMAIN,spectator.ppy.sh
-DOMAIN,spotify.com.edgesuite.net
 DOMAIN,spotify.map.fastly.net
 DOMAIN,spotify.map.fastlylb.net
 DOMAIN,ssl-lvlt.cdn.ea.com
@@ -1527,6 +1533,7 @@ DOMAIN-SUFFIX,addthis.com
 DOMAIN-SUFFIX,addthiscdn.com
 DOMAIN-SUFFIX,addthisedge.com
 DOMAIN-SUFFIX,addtoany.com
+DOMAIN-SUFFIX,addtodropbox.com
 DOMAIN-SUFFIX,addyoutube.com
 DOMAIN-SUFFIX,adelaidenow.com.au
 DOMAIN-SUFFIX,adgoogle.net
@@ -7069,6 +7076,7 @@ DOMAIN-SUFFIX,darwinsource.com
 DOMAIN-SUFFIX,darwinsource.org
 DOMAIN-SUFFIX,darwinsourcecode.com
 DOMAIN-SUFFIX,dasaob.online
+DOMAIN-SUFFIX,dash.ai
 DOMAIN-SUFFIX,dashlane.com
 DOMAIN-SUFFIX,dashly.app
 DOMAIN-SUFFIX,dashly.help
@@ -7826,6 +7834,7 @@ DOMAIN-SUFFIX,docs.com
 DOMAIN-SUFFIX,docs.new
 DOMAIN-SUFFIX,docs.rs
 DOMAIN-SUFFIX,docs.rw
+DOMAIN-SUFFIX,docsend.com
 DOMAIN-SUFFIX,doctor-videos.com
 DOMAIN-SUFFIX,documentforce.com
 DOMAIN-SUFFIX,documentingreality.com
@@ -8020,12 +8029,15 @@ DOMAIN-SUFFIX,dropbox.tech
 DOMAIN-SUFFIX,dropboxapi.com
 DOMAIN-SUFFIX,dropboxbusiness.com
 DOMAIN-SUFFIX,dropboxcaptcha.com
+DOMAIN-SUFFIX,dropboxexperiment.com
 DOMAIN-SUFFIX,dropboxforum.com
 DOMAIN-SUFFIX,dropboxforums.com
 DOMAIN-SUFFIX,dropboxinsiders.com
+DOMAIN-SUFFIX,dropboxlegal.com
 DOMAIN-SUFFIX,dropboxmail.com
 DOMAIN-SUFFIX,dropboxpartners.com
 DOMAIN-SUFFIX,dropboxstatic.com
+DOMAIN-SUFFIX,dropboxteam.com
 DOMAIN-SUFFIX,dropboxusercontent.com
 DOMAIN-SUFFIX,drpc.org
 DOMAIN-SUFFIX,drtuber.com
@@ -11753,9 +11765,11 @@ DOMAIN-SUFFIX,heise360182.buzz
 DOMAIN-SUFFIX,helixstudios.net
 DOMAIN-SUFFIX,helloandroid.com
 DOMAIN-SUFFIX,helloavgirls.com
+DOMAIN-SUFFIX,hellofax.com
 DOMAIN-SUFFIX,hellokittybeats.com
 DOMAIN-SUFFIX,hellomoto.com
 DOMAIN-SUFFIX,helloqueer.com
+DOMAIN-SUFFIX,hellosign.com
 DOMAIN-SUFFIX,hellosmartbook.com
 DOMAIN-SUFFIX,hellporno.com
 DOMAIN-SUFFIX,hellven.net
@@ -14847,6 +14861,7 @@ DOMAIN-SUFFIX,library.lol
 DOMAIN-SUFFIX,librarylovefest.com
 DOMAIN-SUFFIX,libraryofthumbs.com
 DOMAIN-SUFFIX,libredd.it
+DOMAIN-SUFFIX,librewolf.dev
 DOMAIN-SUFFIX,librewolf.net
 DOMAIN-SUFFIX,libsolutions.app
 DOMAIN-SUFFIX,libsolutions.domains
@@ -21615,7 +21630,6 @@ DOMAIN-SUFFIX,sites.new
 DOMAIN-SUFFIX,situero.com
 DOMAIN-SUFFIX,six-degrees.io
 DOMAIN-SUFFIX,six9dy.pw
-DOMAIN-SUFFIX,sixte.st
 DOMAIN-SUFFIX,sjcollect.com
 DOMAIN-SUFFIX,sjhsp1.buzz
 DOMAIN-SUFFIX,skate2.com
@@ -22908,29 +22922,6 @@ DOMAIN-SUFFIX,tesla.services
 DOMAIN-SUFFIX,teslaenergy.services
 DOMAIN-SUFFIX,teslamotors.com
 DOMAIN-SUFFIX,teslazta.net
-DOMAIN-SUFFIX,test-ipv6.alpinedc.ch
-DOMAIN-SUFFIX,test-ipv6.arauc.br
-DOMAIN-SUFFIX,test-ipv6.belwue.net
-DOMAIN-SUFFIX,test-ipv6.carnet.hr
-DOMAIN-SUFFIX,test-ipv6.cl
-DOMAIN-SUFFIX,test-ipv6.com
-DOMAIN-SUFFIX,test-ipv6.cs.umd.edu
-DOMAIN-SUFFIX,test-ipv6.csclub.uwaterloo.ca
-DOMAIN-SUFFIX,test-ipv6.cz
-DOMAIN-SUFFIX,test-ipv6.epic.network
-DOMAIN-SUFFIX,test-ipv6.fratec.net
-DOMAIN-SUFFIX,test-ipv6.freerangecloud.com
-DOMAIN-SUFFIX,test-ipv6.go6.si
-DOMAIN-SUFFIX,test-ipv6.hu
-DOMAIN-SUFFIX,test-ipv6.is
-DOMAIN-SUFFIX,test-ipv6.iu13.net
-DOMAIN-SUFFIX,test-ipv6.ke.liquidtelecom.net
-DOMAIN-SUFFIX,test-ipv6.noroutetohost.net
-DOMAIN-SUFFIX,test-ipv6.roedu.net
-DOMAIN-SUFFIX,test-ipv6.se
-DOMAIN-SUFFIX,test-ipv6.sin.vr.org
-DOMAIN-SUFFIX,test-ipv6.ttk.ru
-DOMAIN-SUFFIX,testipv6.de
 DOMAIN-SUFFIX,testonfox.com
 DOMAIN-SUFFIX,tetrika-school.ru
 DOMAIN-SUFFIX,tettediferro.it

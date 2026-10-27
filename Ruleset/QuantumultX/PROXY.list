@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27317
+# 规则统计: 27308
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -53,6 +53,9 @@ HOST,apple-tv-plus-press.apple.com,PROXY
 HOST,apple.com.akadns.net,PROXY
 HOST,appleworldwidedeveloper.hb-api.omtrdc.net,PROXY
 HOST,appleworldwidedeveloper.sc.omtrdc.net,PROXY
+HOST,appsgenaiserver-pa.clients.google.com,PROXY
+HOST,appsgenaiserver-pa.clients6.google.com,PROXY
+HOST,appsgenaiserver-pa.googleapis.com,PROXY
 HOST,as-dash-uk-live.akamaized.net,PROXY
 HOST,as-hls-uk-live.akamaized.net,PROXY
 HOST,asahishimbun.sc.omtrdc.net,PROXY
@@ -159,6 +162,8 @@ HOST,daily-cloudcode-pa.googleapis.com,PROXY
 HOST,databank.worldbank.org,PROXY
 HOST,database.asahi.com,PROXY
 HOST,datarouter.apps.netherrealm.com,PROXY
+HOST,dc.applicationinsights.azure.com,PROXY
+HOST,dc.services.visualstudio.com,PROXY
 HOST,dcb0z5ovq92mz.cloudfront.net,PROXY
 HOST,ddacn6pr5v0tl.cloudfront.net,PROXY
 HOST,ddpjwstwtpszg.cloudfront.net,PROXY
@@ -182,6 +187,7 @@ HOST,docker-pinata-support.s3.amazonaws.com,PROXY
 HOST,doy2mn9upadnk.cloudfront.net,PROXY
 HOST,dqd0jw5gvbchn.cloudfront.net,PROXY
 HOST,dqrpb9wgowsf5.cloudfront.net,PROXY
+HOST,dropbox.zendesk.com,PROXY
 HOST,ds-linear-abematv.akamaized.net,PROXY
 HOST,ds-vod-abematv.akamaized.net,PROXY
 HOST,ds0h3roq6wcgc.cloudfront.net,PROXY
@@ -287,6 +293,7 @@ HOST,linear-abematv.akamaized.net,PROXY
 HOST,link.theplatform.com,PROXY
 HOST,linkedin.sc.omtrdc.net,PROXY
 HOST,live-patreon-marketing.pantheonsite.io,PROXY
+HOST,live.applicationinsights.azure.com,PROXY
 HOST,lm.licenses.adobe.com,PROXY
 HOST,lmlicenses.wip4.adobe.com,PROXY
 HOST,location.microsoft.com,PROXY
@@ -311,7 +318,6 @@ HOST,muse.jhu.edu,PROXY
 HOST,mwf-service.akamaized.net,PROXY
 HOST,na1r.services.adobe.com,PROXY
 HOST,nbbb1bb7.pmhcjk.com,PROXY
-HOST,netflix.com.edgesuite.net,PROXY
 HOST,nix-community.github.io,PROXY
 HOST,notary-submissions-prod.s3-accelerate.amazonaws.com,PROXY
 HOST,notary-submissions-prod.s3.us-west-2.amazonaws.com,PROXY
@@ -431,6 +437,7 @@ HOST,rsshub.rssforever.com,PROXY
 HOST,rsshub.umzzz.com,PROXY
 HOST,rsshub.woodland.cafe,PROXY
 HOST,rsshub2.asailor.org,PROXY
+HOST,rt.services.visualstudio.com,PROXY
 HOST,rtm.tnt-ea.com,PROXY
 HOST,sa78gs.wpc.edgecastcdn.net,PROXY
 HOST,scc-hamivideo.cdn.hinet.net,PROXY
@@ -515,7 +522,6 @@ HOST,sentry.ppy.sh,PROXY
 HOST,servd-anthropic-website.b-cdn.net,PROXY
 HOST,sni1dcb6gl.wpc.edgecastcdn.net,PROXY
 HOST,spectator.ppy.sh,PROXY
-HOST,spotify.com.edgesuite.net,PROXY
 HOST,spotify.map.fastly.net,PROXY
 HOST,spotify.map.fastlylb.net,PROXY
 HOST,ssl-lvlt.cdn.ea.com,PROXY
@@ -1527,6 +1533,7 @@ HOST-SUFFIX,addthis.com,PROXY
 HOST-SUFFIX,addthiscdn.com,PROXY
 HOST-SUFFIX,addthisedge.com,PROXY
 HOST-SUFFIX,addtoany.com,PROXY
+HOST-SUFFIX,addtodropbox.com,PROXY
 HOST-SUFFIX,addyoutube.com,PROXY
 HOST-SUFFIX,adelaidenow.com.au,PROXY
 HOST-SUFFIX,adgoogle.net,PROXY
@@ -7069,6 +7076,7 @@ HOST-SUFFIX,darwinsource.com,PROXY
 HOST-SUFFIX,darwinsource.org,PROXY
 HOST-SUFFIX,darwinsourcecode.com,PROXY
 HOST-SUFFIX,dasaob.online,PROXY
+HOST-SUFFIX,dash.ai,PROXY
 HOST-SUFFIX,dashlane.com,PROXY
 HOST-SUFFIX,dashly.app,PROXY
 HOST-SUFFIX,dashly.help,PROXY
@@ -7826,6 +7834,7 @@ HOST-SUFFIX,docs.com,PROXY
 HOST-SUFFIX,docs.new,PROXY
 HOST-SUFFIX,docs.rs,PROXY
 HOST-SUFFIX,docs.rw,PROXY
+HOST-SUFFIX,docsend.com,PROXY
 HOST-SUFFIX,doctor-videos.com,PROXY
 HOST-SUFFIX,documentforce.com,PROXY
 HOST-SUFFIX,documentingreality.com,PROXY
@@ -8020,12 +8029,15 @@ HOST-SUFFIX,dropbox.tech,PROXY
 HOST-SUFFIX,dropboxapi.com,PROXY
 HOST-SUFFIX,dropboxbusiness.com,PROXY
 HOST-SUFFIX,dropboxcaptcha.com,PROXY
+HOST-SUFFIX,dropboxexperiment.com,PROXY
 HOST-SUFFIX,dropboxforum.com,PROXY
 HOST-SUFFIX,dropboxforums.com,PROXY
 HOST-SUFFIX,dropboxinsiders.com,PROXY
+HOST-SUFFIX,dropboxlegal.com,PROXY
 HOST-SUFFIX,dropboxmail.com,PROXY
 HOST-SUFFIX,dropboxpartners.com,PROXY
 HOST-SUFFIX,dropboxstatic.com,PROXY
+HOST-SUFFIX,dropboxteam.com,PROXY
 HOST-SUFFIX,dropboxusercontent.com,PROXY
 HOST-SUFFIX,drpc.org,PROXY
 HOST-SUFFIX,drtuber.com,PROXY
@@ -11753,9 +11765,11 @@ HOST-SUFFIX,heise360182.buzz,PROXY
 HOST-SUFFIX,helixstudios.net,PROXY
 HOST-SUFFIX,helloandroid.com,PROXY
 HOST-SUFFIX,helloavgirls.com,PROXY
+HOST-SUFFIX,hellofax.com,PROXY
 HOST-SUFFIX,hellokittybeats.com,PROXY
 HOST-SUFFIX,hellomoto.com,PROXY
 HOST-SUFFIX,helloqueer.com,PROXY
+HOST-SUFFIX,hellosign.com,PROXY
 HOST-SUFFIX,hellosmartbook.com,PROXY
 HOST-SUFFIX,hellporno.com,PROXY
 HOST-SUFFIX,hellven.net,PROXY
@@ -14847,6 +14861,7 @@ HOST-SUFFIX,library.lol,PROXY
 HOST-SUFFIX,librarylovefest.com,PROXY
 HOST-SUFFIX,libraryofthumbs.com,PROXY
 HOST-SUFFIX,libredd.it,PROXY
+HOST-SUFFIX,librewolf.dev,PROXY
 HOST-SUFFIX,librewolf.net,PROXY
 HOST-SUFFIX,libsolutions.app,PROXY
 HOST-SUFFIX,libsolutions.domains,PROXY
@@ -21615,7 +21630,6 @@ HOST-SUFFIX,sites.new,PROXY
 HOST-SUFFIX,situero.com,PROXY
 HOST-SUFFIX,six-degrees.io,PROXY
 HOST-SUFFIX,six9dy.pw,PROXY
-HOST-SUFFIX,sixte.st,PROXY
 HOST-SUFFIX,sjcollect.com,PROXY
 HOST-SUFFIX,sjhsp1.buzz,PROXY
 HOST-SUFFIX,skate2.com,PROXY
@@ -22908,29 +22922,6 @@ HOST-SUFFIX,tesla.services,PROXY
 HOST-SUFFIX,teslaenergy.services,PROXY
 HOST-SUFFIX,teslamotors.com,PROXY
 HOST-SUFFIX,teslazta.net,PROXY
-HOST-SUFFIX,test-ipv6.alpinedc.ch,PROXY
-HOST-SUFFIX,test-ipv6.arauc.br,PROXY
-HOST-SUFFIX,test-ipv6.belwue.net,PROXY
-HOST-SUFFIX,test-ipv6.carnet.hr,PROXY
-HOST-SUFFIX,test-ipv6.cl,PROXY
-HOST-SUFFIX,test-ipv6.com,PROXY
-HOST-SUFFIX,test-ipv6.cs.umd.edu,PROXY
-HOST-SUFFIX,test-ipv6.csclub.uwaterloo.ca,PROXY
-HOST-SUFFIX,test-ipv6.cz,PROXY
-HOST-SUFFIX,test-ipv6.epic.network,PROXY
-HOST-SUFFIX,test-ipv6.fratec.net,PROXY
-HOST-SUFFIX,test-ipv6.freerangecloud.com,PROXY
-HOST-SUFFIX,test-ipv6.go6.si,PROXY
-HOST-SUFFIX,test-ipv6.hu,PROXY
-HOST-SUFFIX,test-ipv6.is,PROXY
-HOST-SUFFIX,test-ipv6.iu13.net,PROXY
-HOST-SUFFIX,test-ipv6.ke.liquidtelecom.net,PROXY
-HOST-SUFFIX,test-ipv6.noroutetohost.net,PROXY
-HOST-SUFFIX,test-ipv6.roedu.net,PROXY
-HOST-SUFFIX,test-ipv6.se,PROXY
-HOST-SUFFIX,test-ipv6.sin.vr.org,PROXY
-HOST-SUFFIX,test-ipv6.ttk.ru,PROXY
-HOST-SUFFIX,testipv6.de,PROXY
 HOST-SUFFIX,testonfox.com,PROXY
 HOST-SUFFIX,tetrika-school.ru,PROXY
 HOST-SUFFIX,tettediferro.it,PROXY
