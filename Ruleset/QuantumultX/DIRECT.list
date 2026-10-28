@@ -468,7 +468,9 @@ HOST,seed.siri.apple.com,DIRECT
 HOST,sequoia.apple.com,DIRECT
 HOST,service.urchin.com,DIRECT
 HOST,sf-api-token-service.itunes.apple.com,DIRECT
+HOST,sh-pod1-smp-device.apple.com,DIRECT
 HOST,sh-pod2-smp-device.apple.com,DIRECT
+HOST,sh-pod3-smp-device.apple.com,DIRECT
 HOST,shazam-insights.cdn-apple.com,DIRECT
 HOST,shell.cdn.office.net,DIRECT
 HOST,smp-device-content.apple.com,DIRECT
@@ -61414,8 +61416,6 @@ HOST-SUFFIX,long7.com,DIRECT
 HOST-SUFFIX,longanlaw.com,DIRECT
 HOST-SUFFIX,longau.com,DIRECT
 HOST-SUFFIX,longbenren.com,DIRECT
-HOST-SUFFIX,longbridgeapp.com,DIRECT
-HOST-SUFFIX,longbridgehk.com,DIRECT
 HOST-SUFFIX,longcai.com,DIRECT
 HOST-SUFFIX,longcai027.com,DIRECT
 HOST-SUFFIX,longcat.chat,DIRECT

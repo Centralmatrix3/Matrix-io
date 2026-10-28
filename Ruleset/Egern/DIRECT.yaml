@@ -469,7 +469,9 @@ domain_set:
   - sequoia.apple.com
   - service.urchin.com
   - sf-api-token-service.itunes.apple.com
+  - sh-pod1-smp-device.apple.com
   - sh-pod2-smp-device.apple.com
+  - sh-pod3-smp-device.apple.com
   - shazam-insights.cdn-apple.com
   - shell.cdn.office.net
   - smp-device-content.apple.com
@@ -61416,8 +61418,6 @@ domain_suffix_set:
   - longanlaw.com
   - longau.com
   - longbenren.com
-  - longbridgeapp.com
-  - longbridgehk.com
   - longcai.com
   - longcai027.com
   - longcat.chat
