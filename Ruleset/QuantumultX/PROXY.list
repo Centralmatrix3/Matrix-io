@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27315
+# 规则统计: 27316
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -13795,6 +13795,7 @@ HOST-SUFFIX,ius.io,PROXY
 HOST-SUFFIX,iutunes.com,PROXY
 HOST-SUFFIX,ivacy.com,PROXY
 HOST-SUFFIX,ivi.ru,PROXY
+HOST-SUFFIX,ivi.tv,PROXY
 HOST-SUFFIX,ivicdn.tv,PROXY
 HOST-SUFFIX,ivintageporn.com,PROXY
 HOST-SUFFIX,ivonblog.com,PROXY

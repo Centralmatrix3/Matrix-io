@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27315
+# 规则统计: 27316
 
 payload:
   - '1password.drift.click'
@@ -13796,6 +13796,7 @@ payload:
   - '+.iutunes.com'
   - '+.ivacy.com'
   - '+.ivi.ru'
+  - '+.ivi.tv'
   - '+.ivicdn.tv'
   - '+.ivintageporn.com'
   - '+.ivonblog.com'
