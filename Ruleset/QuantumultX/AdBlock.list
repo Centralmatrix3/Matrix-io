@@ -1,5 +1,5 @@
 # 规则名称: AdBlock
-# 规则统计: 100686
+# 规则统计: 100682
 
 HOST-SUFFIX,0.myikas.com,AdBlock
 HOST-SUFFIX,0.net.easyjet.com,AdBlock
@@ -17173,6 +17173,7 @@ HOST-SUFFIX,cdn-net.com,AdBlock
 HOST-SUFFIX,cdn-plugin-sync-upgrade-juui.hismarttv.com,AdBlock
 HOST-SUFFIX,cdn-rum.ngenix.net,AdBlock
 HOST-SUFFIX,cdn-server.cc,AdBlock
+HOST-SUFFIX,cdn-settings.segment.com,AdBlock
 HOST-SUFFIX,cdn-sitegainer.com,AdBlock
 HOST-SUFFIX,cdn-vitals.com,AdBlock
 HOST-SUFFIX,cdn.007moms.com,AdBlock
@@ -23563,7 +23564,6 @@ HOST-SUFFIX,datado.me,AdBlock
 HOST-SUFFIX,datadog-service.mvfglobal.com,AdBlock
 HOST-SUFFIX,datadoghq-browser-agent.com,AdBlock
 HOST-SUFFIX,datadoghq.eu,AdBlock
-HOST-SUFFIX,datadome.co,AdBlock
 HOST-SUFFIX,datadome.maisonsdumonde.com,AdBlock
 HOST-SUFFIX,datadsk.com,AdBlock
 HOST-SUFFIX,datafa.st,AdBlock
@@ -29781,7 +29781,6 @@ HOST-SUFFIX,ens.nzz.ch,AdBlock
 HOST-SUFFIX,ens.tagblatt.ch,AdBlock
 HOST-SUFFIX,ensealplaners.com,AdBlock
 HOST-SUFFIX,enseq50a.xyz,AdBlock
-HOST-SUFFIX,ensighten.com,AdBlock
 HOST-SUFFIX,ensmwonhtzpdh.space,AdBlock
 HOST-SUFFIX,ensosignal.com,AdBlock
 HOST-SUFFIX,enstatenewark.com,AdBlock
@@ -34312,7 +34311,6 @@ HOST-SUFFIX,gemanwnnxezww.website,AdBlock
 HOST-SUFFIX,gemcandock.com,AdBlock
 HOST-SUFFIX,gemini.yahoo.com,AdBlock
 HOST-SUFFIX,geminisailingzillion.com,AdBlock
-HOST-SUFFIX,gemius.pl,AdBlock
 HOST-SUFFIX,gemlithium.com,AdBlock
 HOST-SUFFIX,gemorganic.com,AdBlock
 HOST-SUFFIX,gemutiwheeped.com,AdBlock
@@ -48699,7 +48697,6 @@ HOST-SUFFIX,literacyfigured.com,AdBlock
 HOST-SUFFIX,literally-analytics.appspot.com,AdBlock
 HOST-SUFFIX,literallycircumscribetome.com,AdBlock
 HOST-SUFFIX,literallyflickercomplaints.com,AdBlock
-HOST-SUFFIX,litix.io,AdBlock
 HOST-SUFFIX,litpzshqdkjvn.online,AdBlock
 HOST-SUFFIX,litrujsxxymfn.website,AdBlock
 HOST-SUFFIX,litterarenadisembroildisembroil.com,AdBlock
@@ -56545,6 +56542,7 @@ HOST-SUFFIX,mobile-event-staging.cvent.me,AdBlock
 HOST-SUFFIX,mobile-event.cvent.me,AdBlock
 HOST-SUFFIX,mobile-events.eservice.emarsys.net.iberostar.com,AdBlock
 HOST-SUFFIX,mobile-pubt.ele.me,AdBlock
+HOST-SUFFIX,mobile-service.segment.com,AdBlock
 HOST-SUFFIX,mobile.aspensnowmass.com,AdBlock
 HOST-SUFFIX,mobile.banzai.it,AdBlock
 HOST-SUFFIX,mobile.bespontix.com,AdBlock
@@ -58607,6 +58605,7 @@ HOST-SUFFIX,nextpsh.top,AdBlock
 HOST-SUFFIX,nextsmarty.com,AdBlock
 HOST-SUFFIX,nextstat.com,AdBlock
 HOST-SUFFIX,nexttopchef.com,AdBlock
+HOST-SUFFIX,nexus.ensighten.com,AdBlock
 HOST-SUFFIX,nexus.officeapps.live.com,AdBlock
 HOST-SUFFIX,nexusbloom.xyz,AdBlock
 HOST-SUFFIX,nexusedgeio.com,AdBlock
@@ -61102,7 +61101,6 @@ HOST-SUFFIX,omtrdc.jobstreet.com.my,AdBlock
 HOST-SUFFIX,omtrdc.jobstreet.com.ph,AdBlock
 HOST-SUFFIX,omtrdc.jobstreet.com.sg,AdBlock
 HOST-SUFFIX,omtrdc.jobstreet.vn,AdBlock
-HOST-SUFFIX,omtrdc.net,AdBlock
 HOST-SUFFIX,omtrns.sstats.q8.dk,AdBlock
 HOST-SUFFIX,omvzcq.vidaxl.be,AdBlock
 HOST-SUFFIX,omwvapmytccsc.online,AdBlock
@@ -64238,7 +64236,6 @@ HOST-SUFFIX,placidactivity.com,AdBlock
 HOST-SUFFIX,placidityelite.com,AdBlock
 HOST-SUFFIX,placiditylever.com,AdBlock
 HOST-SUFFIX,placidperson.com,AdBlock
-HOST-SUFFIX,pladform.ru,AdBlock
 HOST-SUFFIX,plain-plane.com,AdBlock
 HOST-SUFFIX,plaincapsize.com,AdBlock
 HOST-SUFFIX,plainplayground.com,AdBlock
@@ -72861,7 +72858,6 @@ HOST-SUFFIX,sefkal.openapp.link,AdBlock
 HOST-SUFFIX,sefsdvc.com,AdBlock
 HOST-SUFFIX,segapi.whop.com,AdBlock
 HOST-SUFFIX,segment-api.inrix.com,AdBlock
-HOST-SUFFIX,segment.com,AdBlock
 HOST-SUFFIX,segment.io,AdBlock
 HOST-SUFFIX,segment.lalr.co,AdBlock
 HOST-SUFFIX,segmenthub.com,AdBlock
