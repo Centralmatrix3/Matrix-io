@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27316
+# 规则统计: 27324
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -889,6 +889,7 @@ HOST-SUFFIX,18comic-god.club,PROXY
 HOST-SUFFIX,18comic-god.xyz,PROXY
 HOST-SUFFIX,18comic.cc,PROXY
 HOST-SUFFIX,18comic.company,PROXY
+HOST-SUFFIX,18comic.ink,PROXY
 HOST-SUFFIX,18comic.org,PROXY
 HOST-SUFFIX,18comic.vip,PROXY
 HOST-SUFFIX,18commic.com,PROXY
@@ -4430,6 +4431,7 @@ HOST-SUFFIX,bingapistatistics.com,PROXY
 HOST-SUFFIX,bingoporno.com,PROXY
 HOST-SUFFIX,bingparachute.com,PROXY
 HOST-SUFFIX,bingsandbox.com,PROXY
+HOST-SUFFIX,bingstatic.com,PROXY
 HOST-SUFFIX,bingvisualsearch.com,PROXY
 HOST-SUFFIX,bingworld.com,PROXY
 HOST-SUFFIX,bingx.com,PROXY
@@ -5385,6 +5387,7 @@ HOST-SUFFIX,bsappapi.com,PROXY
 HOST-SUFFIX,bscdnweb.com,PROXY
 HOST-SUFFIX,bsi.ir,PROXY
 HOST-SUFFIX,bsky.app,PROXY
+HOST-SUFFIX,bsky.chat,PROXY
 HOST-SUFFIX,bsky.network,PROXY
 HOST-SUFFIX,bsky.social,PROXY
 HOST-SUFFIX,bspb.ru,PROXY
@@ -10834,6 +10837,7 @@ HOST-SUFFIX,githubapp.com,PROXY
 HOST-SUFFIX,githubassets.com,PROXY
 HOST-SUFFIX,githubcopilot.com,PROXY
 HOST-SUFFIX,githubhackathon.com,PROXY
+HOST-SUFFIX,githubhelp.com,PROXY
 HOST-SUFFIX,githubnext.com,PROXY
 HOST-SUFFIX,githubpreview.dev,PROXY
 HOST-SUFFIX,githubstatus.com,PROXY
@@ -16760,6 +16764,7 @@ HOST-SUFFIX,msftconnecttest.com,PROXY
 HOST-SUFFIX,msfteducation.ca,PROXY
 HOST-SUFFIX,msftncsi.com,PROXY
 HOST-SUFFIX,msftnet.org,PROXY
+HOST-SUFFIX,msftstatic.com,PROXY
 HOST-SUFFIX,msgamesresearch.com,PROXY
 HOST-SUFFIX,msgamestudios.com,PROXY
 HOST-SUFFIX,msha.gov,PROXY
@@ -23281,9 +23286,12 @@ HOST-SUFFIX,tiktokeu-cdn.com,PROXY
 HOST-SUFFIX,tiktokglobalshopv.com,PROXY
 HOST-SUFFIX,tiktokminis.us,PROXY
 HOST-SUFFIX,tiktokrow-cdn.com,PROXY
+HOST-SUFFIX,tiktokshop.com,PROXY
+HOST-SUFFIX,tiktokstaticb.com,PROXY
 HOST-SUFFIX,tiktokv.com,PROXY
 HOST-SUFFIX,tiktokv.eu,PROXY
 HOST-SUFFIX,tiktokv.us,PROXY
+HOST-SUFFIX,tiktokvapp.com,PROXY
 HOST-SUFFIX,tiktokw.eu,PROXY
 HOST-SUFFIX,tiktokw.us,PROXY
 HOST-SUFFIX,tilda.cc,PROXY

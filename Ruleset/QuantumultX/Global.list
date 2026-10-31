@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7542
+# 规则统计: 7547
 
 HOST,cloud.oracle.com,Global
 HOST,steambroadcast.akamaized.net,Global
@@ -373,6 +373,7 @@ HOST-SUFFIX,anpopo.com,Global
 HOST-SUFFIX,answering-islam.org,Global
 HOST-SUFFIX,antd.org,Global
 HOST-SUFFIX,anthonycalzadilla.com,Global
+HOST-SUFFIX,anthropic.auth0.com,Global
 HOST-SUFFIX,anthropic.com,Global
 HOST-SUFFIX,anti1984.com,Global
 HOST-SUFFIX,antichristendom.com,Global
@@ -911,6 +912,7 @@ HOST-SUFFIX,brookings.edu,Global
 HOST-SUFFIX,brucewang.net,Global
 HOST-SUFFIX,brutaltgp.com,Global
 HOST-SUFFIX,bsky.app,Global
+HOST-SUFFIX,bsky.chat,Global
 HOST-SUFFIX,bsky.network,Global
 HOST-SUFFIX,bsky.social,Global
 HOST-SUFFIX,bt2mag.com,Global
@@ -1278,7 +1280,10 @@ HOST-SUFFIX,clarionproject.org,Global
 HOST-SUFFIX,clashyun.com,Global
 HOST-SUFFIX,classicalguitarblog.net,Global
 HOST-SUFFIX,claude.ai,Global
+HOST-SUFFIX,claude.app,Global
 HOST-SUFFIX,claude.com,Global
+HOST-SUFFIX,claudemcpcontent.com,Global
+HOST-SUFFIX,claudeusercontent.com,Global
 HOST-SUFFIX,clb.org.hk,Global
 HOST-SUFFIX,cldr.unicode.org,Global
 HOST-SUFFIX,cleansite.biz,Global
