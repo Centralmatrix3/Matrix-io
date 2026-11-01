@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27324
+# 规则统计: 27326
 
 domain_set:
   - 1password.drift.click
@@ -23476,6 +23476,7 @@ domain_suffix_set:
   - torproject.org
   - torrentgalaxy.to
   - torrentkitty.tv
+  - torrentleech.org
   - torrentprivacy.com
   - torrentproject.se
   - torrenty.org
@@ -27054,6 +27055,7 @@ domain_suffix_set:
   - youtubekids.com
   - youtubemobilesupport.com
   - youversion.com
+  - youversionapi.com
   - youwin.com
   - youwuss.com
   - youx.xxx

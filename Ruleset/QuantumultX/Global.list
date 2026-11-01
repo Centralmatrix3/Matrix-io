@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7547
+# 规则统计: 7550
 
 HOST,cloud.oracle.com,Global
 HOST,steambroadcast.akamaized.net,Global
@@ -410,6 +410,7 @@ HOST-SUFFIX,api.pureapk.com,Global
 HOST-SUFFIX,api.recaptcha.net,Global
 HOST-SUFFIX,api.shuaiapi.com,Global
 HOST-SUFFIX,api.steampowered.com,Global
+HOST-SUFFIX,api.themoviedb.org,Global
 HOST-SUFFIX,apiary.io,Global
 HOST-SUFFIX,apigee.com,Global
 HOST-SUFFIX,apk-dl.com,Global
@@ -6285,6 +6286,7 @@ HOST-SUFFIX,torlock.com,Global
 HOST-SUFFIX,torproject.org,Global
 HOST-SUFFIX,torrentgalaxy.to,Global
 HOST-SUFFIX,torrentkitty.tv,Global
+HOST-SUFFIX,torrentleech.org,Global
 HOST-SUFFIX,torrentprivacy.com,Global
 HOST-SUFFIX,torrentproject.se,Global
 HOST-SUFFIX,torrenty.org,Global
@@ -7316,6 +7318,7 @@ HOST-SUFFIX,youtubeeducation.com,Global
 HOST-SUFFIX,youtubegaming.com,Global
 HOST-SUFFIX,youtubekids.com,Global
 HOST-SUFFIX,youversion.com,Global
+HOST-SUFFIX,youversionapi.com,Global
 HOST-SUFFIX,youwin.com,Global
 HOST-SUFFIX,youxu.info,Global
 HOST-SUFFIX,ypncdn.com,Global

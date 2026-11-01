@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27324
+# 规则统计: 27326
 
 payload:
   - '1password.drift.click'
@@ -23475,6 +23475,7 @@ payload:
   - '+.torproject.org'
   - '+.torrentgalaxy.to'
   - '+.torrentkitty.tv'
+  - '+.torrentleech.org'
   - '+.torrentprivacy.com'
   - '+.torrentproject.se'
   - '+.torrenty.org'
@@ -27053,6 +27054,7 @@ payload:
   - '+.youtubekids.com'
   - '+.youtubemobilesupport.com'
   - '+.youversion.com'
+  - '+.youversionapi.com'
   - '+.youwin.com'
   - '+.youwuss.com'
   - '+.youx.xxx'

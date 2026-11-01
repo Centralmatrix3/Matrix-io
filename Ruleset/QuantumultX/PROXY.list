@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27324
+# 规则统计: 27326
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -23474,6 +23474,7 @@ HOST-SUFFIX,toroporno.com,PROXY
 HOST-SUFFIX,torproject.org,PROXY
 HOST-SUFFIX,torrentgalaxy.to,PROXY
 HOST-SUFFIX,torrentkitty.tv,PROXY
+HOST-SUFFIX,torrentleech.org,PROXY
 HOST-SUFFIX,torrentprivacy.com,PROXY
 HOST-SUFFIX,torrentproject.se,PROXY
 HOST-SUFFIX,torrenty.org,PROXY
@@ -27052,6 +27053,7 @@ HOST-SUFFIX,youtubego.in,PROXY
 HOST-SUFFIX,youtubekids.com,PROXY
 HOST-SUFFIX,youtubemobilesupport.com,PROXY
 HOST-SUFFIX,youversion.com,PROXY
+HOST-SUFFIX,youversionapi.com,PROXY
 HOST-SUFFIX,youwin.com,PROXY
 HOST-SUFFIX,youwuss.com,PROXY
 HOST-SUFFIX,youx.xxx,PROXY
