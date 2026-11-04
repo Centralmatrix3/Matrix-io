@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7550
+# 规则统计: 7551
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -689,6 +689,7 @@ payload:
   - DOMAIN-SUFFIX,bigone.com
   - DOMAIN-SUFFIX,bigsound.org
   - DOMAIN-SUFFIX,bild.de
+  - DOMAIN-SUFFIX,bilibili.tv
   - DOMAIN-SUFFIX,bilinovel.com
   - DOMAIN-SUFFIX,biliworld.com
   - DOMAIN-SUFFIX,billypan.com

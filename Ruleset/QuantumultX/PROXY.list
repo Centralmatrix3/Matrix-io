@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27335
+# 规则统计: 27337
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -4139,6 +4139,7 @@ HOST-SUFFIX,beget.app,PROXY
 HOST-SUFFIX,beget.cloud,PROXY
 HOST-SUFFIX,beget.com,PROXY
 HOST-SUFFIX,beget.de,PROXY
+HOST-SUFFIX,beget.email,PROXY
 HOST-SUFFIX,beget.hosting,PROXY
 HOST-SUFFIX,beget.pro,PROXY
 HOST-SUFFIX,beget.ru,PROXY
@@ -4362,6 +4363,7 @@ HOST-SUFFIX,bild.de,PROXY
 HOST-SUFFIX,bili2.cc,PROXY
 HOST-SUFFIX,bili888.com,PROXY
 HOST-SUFFIX,bili999.com,PROXY
+HOST-SUFFIX,bilibili.tv,PROXY
 HOST-SUFFIX,bilinovel.com,PROXY
 HOST-SUFFIX,biliplus.com,PROXY
 HOST-SUFFIX,biliworld.com,PROXY

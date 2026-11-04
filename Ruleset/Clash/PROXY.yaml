@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27335
+# 规则统计: 27337
 
 payload:
   - '1password.drift.click'
@@ -4140,6 +4140,7 @@ payload:
   - '+.beget.cloud'
   - '+.beget.com'
   - '+.beget.de'
+  - '+.beget.email'
   - '+.beget.hosting'
   - '+.beget.pro'
   - '+.beget.ru'
@@ -4363,6 +4364,7 @@ payload:
   - '+.bili2.cc'
   - '+.bili888.com'
   - '+.bili999.com'
+  - '+.bilibili.tv'
   - '+.bilinovel.com'
   - '+.biliplus.com'
   - '+.biliworld.com'
