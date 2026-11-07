@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 110189
+# 规则统计: 110188
 
 HOST,2mdn-cn.net,DIRECT
 HOST,2mdn.net,DIRECT
@@ -415,6 +415,7 @@ HOST,prod.databe.floonet.goog,DIRECT
 HOST,publicassets.cdn-apple.com,DIRECT
 HOST,qiao-cn.com,DIRECT
 HOST,qpx.googleflights.net,DIRECT
+HOST,radio.itunes.apple.com,DIRECT
 HOST,recaptcha-cn.net,DIRECT
 HOST,recaptcha.net,DIRECT
 HOST,redirector.bdn.dev,DIRECT
@@ -17418,6 +17419,7 @@ HOST-SUFFIX,bsdfyyls.com,DIRECT
 HOST-SUFFIX,bsdongxin.com,DIRECT
 HOST-SUFFIX,bsdt1688.com,DIRECT
 HOST-SUFFIX,bsehk.com,DIRECT
+HOST-SUFFIX,bseinfo.net,DIRECT
 HOST-SUFFIX,bseqp.com,DIRECT
 HOST-SUFFIX,bserc.com,DIRECT
 HOST-SUFFIX,bsgcnc.com,DIRECT
@@ -22323,7 +22325,6 @@ HOST-SUFFIX,chuxinhudong.com,DIRECT
 HOST-SUFFIX,chuxinvip.com,DIRECT
 HOST-SUFFIX,chuxueyun.com,DIRECT
 HOST-SUFFIX,chuyaer.com,DIRECT
-HOST-SUFFIX,chuyu.me,DIRECT
 HOST-SUFFIX,chuzhaobiao.com,DIRECT
 HOST-SUFFIX,chvacuum.com,DIRECT
 HOST-SUFFIX,chvoice.com,DIRECT
@@ -36014,14 +36015,12 @@ HOST-SUFFIX,gamegocenter.net,DIRECT
 HOST-SUFFIX,gamehaopu.com,DIRECT
 HOST-SUFFIX,gamehome.tv,DIRECT
 HOST-SUFFIX,gameinns.com,DIRECT
-HOST-SUFFIX,gameitop.com,DIRECT
 HOST-SUFFIX,gamejym.com,DIRECT
 HOST-SUFFIX,gamekee.com,DIRECT
 HOST-SUFFIX,gamekezhan.com,DIRECT
 HOST-SUFFIX,gamekuaishou.com,DIRECT
 HOST-SUFFIX,gamelet.games,DIRECT
 HOST-SUFFIX,gameley.com,DIRECT
-HOST-SUFFIX,gameloop.com,DIRECT
 HOST-SUFFIX,gameloop.fun,DIRECT
 HOST-SUFFIX,gamemale.com,DIRECT
 HOST-SUFFIX,gamemcu.com,DIRECT
@@ -50257,7 +50256,6 @@ HOST-SUFFIX,in-tencentclb.cloud,DIRECT
 HOST-SUFFIX,in-tencentclb.com,DIRECT
 HOST-SUFFIX,in-tencentclb.net,DIRECT
 HOST-SUFFIX,in-tencentclb.work,DIRECT
-HOST-SUFFIX,in.th,DIRECT
 HOST-SUFFIX,in001.com,DIRECT
 HOST-SUFFIX,in66.com,DIRECT
 HOST-SUFFIX,in800.com,DIRECT
@@ -62079,6 +62077,7 @@ HOST-SUFFIX,luyecanyin.com,DIRECT
 HOST-SUFFIX,luyinla.com,DIRECT
 HOST-SUFFIX,luyinzhushou.com,DIRECT
 HOST-SUFFIX,luyitong.com,DIRECT
+HOST-SUFFIX,luyong.com,DIRECT
 HOST-SUFFIX,luyor.net,DIRECT
 HOST-SUFFIX,luyouqi.com,DIRECT
 HOST-SUFFIX,luyouwang.com,DIRECT
@@ -62877,9 +62876,6 @@ HOST-SUFFIX,magook.com,DIRECT
 HOST-SUFFIX,magpiepharma.com,DIRECT
 HOST-SUFFIX,magtechjournal.com,DIRECT
 HOST-SUFFIX,magvision.com,DIRECT
-HOST-SUFFIX,mahjongai.net,DIRECT
-HOST-SUFFIX,mahjongcup.com,DIRECT
-HOST-SUFFIX,mahjongcup.net,DIRECT
 HOST-SUFFIX,mahoupao.com,DIRECT
 HOST-SUFFIX,mahua.com,DIRECT
 HOST-SUFFIX,mai.com,DIRECT
@@ -72323,7 +72319,6 @@ HOST-SUFFIX,protontechcn.com,DIRECT
 HOST-SUFFIX,proup.club,DIRECT
 HOST-SUFFIX,providence-chemicals.com,DIRECT
 HOST-SUFFIX,prowine-shanghai.com,DIRECT
-HOST-SUFFIX,proximabeta.com,DIRECT
 HOST-SUFFIX,proya-group.com,DIRECT
 HOST-SUFFIX,proya.com,DIRECT
 HOST-SUFFIX,proyy.com,DIRECT
@@ -78732,6 +78727,7 @@ HOST-SUFFIX,senpian.com,DIRECT
 HOST-SUFFIX,senra.me,DIRECT
 HOST-SUFFIX,sense-hk.com,DIRECT
 HOST-SUFFIX,senseagro.com,DIRECT
+HOST-SUFFIX,senseavatar.com,DIRECT
 HOST-SUFFIX,senselock.com,DIRECT
 HOST-SUFFIX,senseluxury.com,DIRECT
 HOST-SUFFIX,senser.group,DIRECT
@@ -80984,6 +80980,7 @@ HOST-SUFFIX,shutonginfo.com,DIRECT
 HOST-SUFFIX,shutu.cc,DIRECT
 HOST-SUFFIX,shutwin.com,DIRECT
 HOST-SUFFIX,shuwangxing.com,DIRECT
+HOST-SUFFIX,shuwen.com,DIRECT
 HOST-SUFFIX,shuwenxianyun.com,DIRECT
 HOST-SUFFIX,shuwulou.com,DIRECT
 HOST-SUFFIX,shuxiangmuye.com,DIRECT
@@ -87040,8 +87037,6 @@ HOST-SUFFIX,tetrisone.com,DIRECT
 HOST-SUFFIX,tetuijiudian.com,DIRECT
 HOST-SUFFIX,tevachem.com,DIRECT
 HOST-SUFFIX,tex68.com,DIRECT
-HOST-SUFFIX,texasholdemcup.com,DIRECT
-HOST-SUFFIX,texasholdemcup.net,DIRECT
 HOST-SUFFIX,texpage.com,DIRECT
 HOST-SUFFIX,texpageusercontent.com,DIRECT
 HOST-SUFFIX,texpro-group.com,DIRECT
@@ -87647,6 +87642,7 @@ HOST-SUFFIX,tidejd.com,DIRECT
 HOST-SUFFIX,tidemedia.com,DIRECT
 HOST-SUFFIX,tidepharm.com,DIRECT
 HOST-SUFFIX,tidesec.com,DIRECT
+HOST-SUFFIX,tidesight.com,DIRECT
 HOST-SUFFIX,tideswing.fun,DIRECT
 HOST-SUFFIX,tidi.mobi,DIRECT
 HOST-SUFFIX,tiduyun.com,DIRECT
@@ -90702,6 +90698,7 @@ HOST-SUFFIX,ups88.net,DIRECT
 HOST-SUFFIX,upsapp.com,DIRECT
 HOST-SUFFIX,upseller.com,DIRECT
 HOST-SUFFIX,upskyshanghai.com,DIRECT
+HOST-SUFFIX,upsort.com,DIRECT
 HOST-SUFFIX,upst86.com,DIRECT
 HOST-SUFFIX,uptom.com,DIRECT
 HOST-SUFFIX,uptougu.com,DIRECT
@@ -104507,6 +104504,7 @@ HOST-SUFFIX,yundongfang.com,DIRECT
 HOST-SUFFIX,yundonghao.com,DIRECT
 HOST-SUFFIX,yundongit.com,DIRECT
 HOST-SUFFIX,yundousoft.com,DIRECT
+HOST-SUFFIX,yundouxueyuan.com,DIRECT
 HOST-SUFFIX,yundui.cc,DIRECT
 HOST-SUFFIX,yunduimedia.com,DIRECT
 HOST-SUFFIX,yundun.com,DIRECT
@@ -105156,6 +105154,7 @@ HOST-SUFFIX,yy845.com,DIRECT
 HOST-SUFFIX,yy960.com,DIRECT
 HOST-SUFFIX,yyaotec.com,DIRECT
 HOST-SUFFIX,yyarea.com,DIRECT
+HOST-SUFFIX,yybip.com,DIRECT
 HOST-SUFFIX,yyblly.com,DIRECT
 HOST-SUFFIX,yybnet.net,DIRECT
 HOST-SUFFIX,yybox.cc,DIRECT
