@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27342
+# 规则统计: 27346
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -269,6 +269,7 @@ HOST,holoxx.f5.si,PROXY
 HOST,homebrew.bintray.com,PROXY
 HOST,hpefonts.s3.amazonaws.com,PROXY
 HOST,hpstore.corpmerchandise.com,PROXY
+HOST,http-intake.logs.us5.datadoghq.com,PROXY
 HOST,hub.slarker.me,PROXY
 HOST,hulu.playback.edge.bamgrid.com,PROXY
 HOST,i.jeded.com,PROXY
@@ -354,6 +355,7 @@ HOST,ntppool2.time.nl,PROXY
 HOST,nurofensk-prod-env.eu-west-1.elasticbeanstalk.com,PROXY
 HOST,nvidia.custhelp.com,PROXY
 HOST,nvidia.tt.omtrdc.net,PROXY
+HOST,o1158394.ingest.us.sentry.io,PROXY
 HOST,ocsp.microsoft.com,PROXY
 HOST,officecdn-microsoft-com.akamaized.net,PROXY
 HOST,onekey.zendesk.com,PROXY
@@ -382,6 +384,7 @@ HOST,practivate.adobe.com,PROXY
 HOST,prd-priconne-redive.akamaized.net,PROXY
 HOST,preprod-publicca.googleapis.com,PROXY
 HOST,prodforza.blob.core.windows.net,PROXY
+HOST,production-copilot-host-westus.webpubsub.azure.com,PROXY
 HOST,production-openaicom-storage.azureedge.net,PROXY
 HOST,productionresultssa0.blob.core.windows.net,PROXY
 HOST,productionresultssa1.blob.core.windows.net,PROXY
@@ -11435,6 +11438,7 @@ HOST-SUFFIX,greginhollywood.com,PROXY
 HOST-SUFFIX,gridaware.app,PROXY
 HOST-SUFFIX,grindr.com,PROXY
 HOST-SUFFIX,grok.com,PROXY
+HOST-SUFFIX,grokbot.com,PROXY
 HOST-SUFFIX,grokipedia.com,PROXY
 HOST-SUFFIX,grooby.com,PROXY
 HOST-SUFFIX,groq.com,PROXY
