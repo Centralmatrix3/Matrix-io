@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27346
+# 规则统计: 27351
 
 domain_set:
   - 1password.drift.click
@@ -11387,6 +11387,8 @@ domain_suffix_set:
   - grabhentai.com
   - grabpussy.com
   - gradeuptube.com
+  - grafana.com
+  - grafana.net
   - grafolio.com
   - graias.com
   - graiasmovies.com
@@ -20054,6 +20056,7 @@ domain_suffix_set:
   - quatrowireless.com
   - quatrum.com.br
   - quay.io
+  - questionablequesting.com
   - questvisual.com
   - quicinc.com
   - quickbook.com.br
@@ -22039,6 +22042,7 @@ domain_suffix_set:
   - soyjak.party
   - soyjak.st
   - sp.cool
+  - spacebattles.com
   - spaceexplored.com
   - spaceforce.mil
   - spacely.com.au
@@ -24208,6 +24212,7 @@ domain_suffix_set:
   - v.recipes
   - v2.help
   - v2.hysteria.network
+  - v2ex.co
   - v2ex.com
   - v2fly.org
   - v2ph.com
