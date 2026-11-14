@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27351
+# 规则统计: 27352
 
 payload:
   - '1password.drift.click'
@@ -1165,6 +1165,7 @@ payload:
   - '+.51luoben.com'
   - '+.51luoli.info'
   - '+.51mh.app'
+  - '+.51papaya.com'
   - '+.51pincha.cc'
   - '+.51tuqiang.com'
   - '+.520aa.tv'

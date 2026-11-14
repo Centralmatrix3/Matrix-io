@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7550
+# 规则统计: 7551
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -118,6 +118,7 @@ payload:
   - DOMAIN-SUFFIX,51.ca
   - DOMAIN-SUFFIX,51jav.org
   - DOMAIN-SUFFIX,51luoben.com
+  - DOMAIN-SUFFIX,51papaya.com
   - DOMAIN-SUFFIX,5278.cc
   - DOMAIN-SUFFIX,5299.tv
   - DOMAIN-SUFFIX,5aimiku.com
