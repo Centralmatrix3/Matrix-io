@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 110239
+# 规则统计: 110243
 
 domain_set:
   - 2mdn-cn.net
@@ -115,6 +115,7 @@ domain_set:
   - communities.apple.com
   - configuration.apple.com
   - configuration.apple.com.akadns.net
+  - configuration.ls.apple.com
   - connectivitycheck.gstatic.com
   - crashlyticsreports-pa.googleapis.com
   - crl-lb.apple.com.akadns.net
@@ -331,10 +332,12 @@ domain_set:
   - msdprod-ad.download.prss.microsoft.com
   - msproduct.download.prss.microsoft.com
   - music.apple.com
+  - musicstatus.itunes.apple.com
   - musicstatus.music.apple.com
   - mvod.itunes.apple.com
   - myapp.itunes.apple.com
   - myvs.download.prss.microsoft.com
+  - mzstorekit.itunes.apple.com
   - np-edge.itunes.apple.com
   - ntp.aliyun.com
   - ntp.tencent.com
@@ -18576,6 +18579,7 @@ domain_suffix_set:
   - capsuleshanghai.com
   - captain-cro.com
   - captainbi.com
+  - captive.apple.com
   - capturetheflag.fun
   - capvision.com
   - capwhale.com

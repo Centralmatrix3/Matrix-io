@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27352
+# 规则统计: 27357
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -82,6 +82,7 @@ HOST,bnetcmsus-a.akamaihd.net,PROXY
 HOST,bnetproduct-a.akamaihd.net,PROXY
 HOST,bnetshopus.akamaized.net,PROXY
 HOST,brightcove.imgix.net,PROXY
+HOST,builds.dotnet.microsoft.com,PROXY
 HOST,bybit-exchange.github.io,PROXY
 HOST,bybit.ada.support,PROXY
 HOST,c.ppy.sh,PROXY
@@ -184,6 +185,7 @@ HOST,dlmobilegarena-a.akamaihd.net,PROXY
 HOST,dmqdd6hw24ucf.cloudfront.net,PROXY
 HOST,docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com,PROXY
 HOST,docker-pinata-support.s3.amazonaws.com,PROXY
+HOST,dotnetcli.trafficmanager.net,PROXY
 HOST,doy2mn9upadnk.cloudfront.net,PROXY
 HOST,dqd0jw5gvbchn.cloudfront.net,PROXY
 HOST,dqrpb9wgowsf5.cloudfront.net,PROXY
@@ -552,6 +554,7 @@ HOST,steamusercontent-a.akamaihd.net,PROXY
 HOST,steamuserimages-a.akamaihd.net,PROXY
 HOST,steamvideo-a.akamaihd.net,PROXY
 HOST,straitsx-826709081262441084-b790f87a2ae6fd417434295.freshchat.com,PROXY
+HOST,sundry-star-net-geo.trafficmanager.net,PROXY
 HOST,supercell.helpshift.com,PROXY
 HOST,supercell.zendesk.com,PROXY
 HOST,t.ssp.hinet.net,PROXY
@@ -7173,6 +7176,7 @@ HOST-SUFFIX,dealtree.org,PROXY
 HOST-SUFFIX,deasians.com,PROXY
 HOST-SUFFIX,debank.com,PROXY
 HOST-SUFFIX,debian.org,PROXY
+HOST-SUFFIX,debot.ai,PROXY
 HOST-SUFFIX,debug.com,PROXY
 HOST-SUFFIX,debugproject.com,PROXY
 HOST-SUFFIX,decentr.net,PROXY
@@ -20413,6 +20417,7 @@ HOST-SUFFIX,reiporno.com,PROXY
 HOST-SUFFIX,relateiq.com,PROXY
 HOST-SUFFIX,religionnews.com,PROXY
 HOST-SUFFIX,remirepo.net,PROXY
+HOST-SUFFIX,remna.dev,PROXY
 HOST-SUFFIX,remna.st,PROXY
 HOST-SUFFIX,rencapbank.ru,PROXY
 HOST-SUFFIX,renchead.com,PROXY

@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 110239
+# 规则统计: 110243
 
 DOMAIN,2mdn-cn.net
 DOMAIN,2mdn.net
@@ -114,6 +114,7 @@ DOMAIN,collaborateppe.download.prss.microsoft.com
 DOMAIN,communities.apple.com
 DOMAIN,configuration.apple.com
 DOMAIN,configuration.apple.com.akadns.net
+DOMAIN,configuration.ls.apple.com
 DOMAIN,connectivitycheck.gstatic.com
 DOMAIN,crashlyticsreports-pa.googleapis.com
 DOMAIN,crl-lb.apple.com.akadns.net
@@ -330,10 +331,12 @@ DOMAIN,msdn.download.prss.microsoft.com
 DOMAIN,msdprod-ad.download.prss.microsoft.com
 DOMAIN,msproduct.download.prss.microsoft.com
 DOMAIN,music.apple.com
+DOMAIN,musicstatus.itunes.apple.com
 DOMAIN,musicstatus.music.apple.com
 DOMAIN,mvod.itunes.apple.com
 DOMAIN,myapp.itunes.apple.com
 DOMAIN,myvs.download.prss.microsoft.com
+DOMAIN,mzstorekit.itunes.apple.com
 DOMAIN,np-edge.itunes.apple.com
 DOMAIN,ntp.aliyun.com
 DOMAIN,ntp.tencent.com
@@ -18574,6 +18577,7 @@ DOMAIN-SUFFIX,caps-china.org
 DOMAIN-SUFFIX,capsuleshanghai.com
 DOMAIN-SUFFIX,captain-cro.com
 DOMAIN-SUFFIX,captainbi.com
+DOMAIN-SUFFIX,captive.apple.com
 DOMAIN-SUFFIX,capturetheflag.fun
 DOMAIN-SUFFIX,capvision.com
 DOMAIN-SUFFIX,capwhale.com

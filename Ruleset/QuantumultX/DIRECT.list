@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 110239
+# 规则统计: 110243
 
 HOST,2mdn-cn.net,DIRECT
 HOST,2mdn.net,DIRECT
@@ -114,6 +114,7 @@ HOST,collaborateppe.download.prss.microsoft.com,DIRECT
 HOST,communities.apple.com,DIRECT
 HOST,configuration.apple.com,DIRECT
 HOST,configuration.apple.com.akadns.net,DIRECT
+HOST,configuration.ls.apple.com,DIRECT
 HOST,connectivitycheck.gstatic.com,DIRECT
 HOST,crashlyticsreports-pa.googleapis.com,DIRECT
 HOST,crl-lb.apple.com.akadns.net,DIRECT
@@ -330,10 +331,12 @@ HOST,msdn.download.prss.microsoft.com,DIRECT
 HOST,msdprod-ad.download.prss.microsoft.com,DIRECT
 HOST,msproduct.download.prss.microsoft.com,DIRECT
 HOST,music.apple.com,DIRECT
+HOST,musicstatus.itunes.apple.com,DIRECT
 HOST,musicstatus.music.apple.com,DIRECT
 HOST,mvod.itunes.apple.com,DIRECT
 HOST,myapp.itunes.apple.com,DIRECT
 HOST,myvs.download.prss.microsoft.com,DIRECT
+HOST,mzstorekit.itunes.apple.com,DIRECT
 HOST,np-edge.itunes.apple.com,DIRECT
 HOST,ntp.aliyun.com,DIRECT
 HOST,ntp.tencent.com,DIRECT
@@ -18574,6 +18577,7 @@ HOST-SUFFIX,caps-china.org,DIRECT
 HOST-SUFFIX,capsuleshanghai.com,DIRECT
 HOST-SUFFIX,captain-cro.com,DIRECT
 HOST-SUFFIX,captainbi.com,DIRECT
+HOST-SUFFIX,captive.apple.com,DIRECT
 HOST-SUFFIX,capturetheflag.fun,DIRECT
 HOST-SUFFIX,capvision.com,DIRECT
 HOST-SUFFIX,capwhale.com,DIRECT
