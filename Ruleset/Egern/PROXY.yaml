@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27357
+# 规则统计: 27359
 
 domain_set:
   - 1password.drift.click
@@ -6995,6 +6995,7 @@ domain_suffix_set:
   - cybertrust.ne.jp
   - cyberx.com
   - cygames.co.jp
+  - cygames.com
   - cygames.jp
   - cygwin.com
   - cylink.pro
@@ -26761,6 +26762,7 @@ domain_suffix_set:
   - yaya.cyou
   - yayadizhi.xyz
   - yazhouse8.com
+  - yb-payment.ru
   - yccdn.ru
   - yclients.com
   - ycombinator.com

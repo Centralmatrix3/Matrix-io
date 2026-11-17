@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27357
+# 规则统计: 27359
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -6993,6 +6993,7 @@ HOST-SUFFIX,cybertrust.co.jp,PROXY
 HOST-SUFFIX,cybertrust.ne.jp,PROXY
 HOST-SUFFIX,cyberx.com,PROXY
 HOST-SUFFIX,cygames.co.jp,PROXY
+HOST-SUFFIX,cygames.com,PROXY
 HOST-SUFFIX,cygames.jp,PROXY
 HOST-SUFFIX,cygwin.com,PROXY
 HOST-SUFFIX,cylink.pro,PROXY
@@ -26759,6 +26760,7 @@ HOST-SUFFIX,yavtube.com,PROXY
 HOST-SUFFIX,yaya.cyou,PROXY
 HOST-SUFFIX,yayadizhi.xyz,PROXY
 HOST-SUFFIX,yazhouse8.com,PROXY
+HOST-SUFFIX,yb-payment.ru,PROXY
 HOST-SUFFIX,yccdn.ru,PROXY
 HOST-SUFFIX,yclients.com,PROXY
 HOST-SUFFIX,ycombinator.com,PROXY
