@@ -1,5 +1,5 @@
 # 规则名称: BiliBili
-# 规则统计: 20
+# 规则统计: 21
 
 payload:
   - DOMAIN,apiintl.biliapi.net
@@ -16,6 +16,7 @@ payload:
   - DOMAIN-SUFFIX,bilibili.tv
   - DOMAIN-SUFFIX,biligame.com
   - DOMAIN-SUFFIX,biligame.net
+  - DOMAIN-SUFFIX,biliimg.com
   - DOMAIN-SUFFIX,biliintl.co
   - DOMAIN-SUFFIX,bilivideo.cn
   - DOMAIN-SUFFIX,bilivideo.com

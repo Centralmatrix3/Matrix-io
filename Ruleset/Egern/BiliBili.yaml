@@ -1,5 +1,5 @@
 # 规则名称: BiliBili
-# 规则统计: 20
+# 规则统计: 21
 
 domain_set:
   - apiintl.biliapi.net
@@ -17,6 +17,7 @@ domain_suffix_set:
   - bilibili.tv
   - biligame.com
   - biligame.net
+  - biliimg.com
   - biliintl.co
   - bilivideo.cn
   - bilivideo.com
