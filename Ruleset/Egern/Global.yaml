@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7551
+# 规则统计: 7576
 
 no_resolve: true
 domain_set:
@@ -1319,7 +1319,9 @@ domain_suffix_set:
   - cmcn.org
   - cmegroup.com
   - cmi.org.tw
+  - cmmedia.com.tw
   - cmoinc.org
+  - cmoney.tw
   - cms.gov
   - cmu.edu
   - cmule.com
@@ -1740,6 +1742,7 @@ domain_suffix_set:
   - dtwang.org
   - duanzhihu.com
   - dubox.com
+  - duck.ai
   - duck.com
   - duckdns.org
   - duckduckgo.com
@@ -2382,6 +2385,7 @@ domain_suffix_set:
   - gamer.com.tw
   - gamerp.jp
   - gamez.com.tw
+  - gamma.app
   - gamme.com.tw
   - gamousa.com
   - ganges.com
@@ -2884,6 +2888,7 @@ domain_suffix_set:
   - greatroc.org
   - greatroc.tw
   - greatzhonghua.org
+  - greenbean.media
   - greenfieldbookstore.com.hk
   - greenparty.org.tw
   - greenpeace.com.tw
@@ -3079,10 +3084,12 @@ domain_suffix_set:
   - hkchronicles.com
   - hkchurch.org
   - hkci.org.hk
+  - hkcitycreation.com
   - hkcmi.edu
   - hkcnews.com
   - hkcoc.com
   - hkcoc.weather.com.hk
+  - hkcourtnews.com
   - hkdailynews.com.hk
   - hkday.net
   - hkdc.us
@@ -3091,6 +3098,7 @@ domain_suffix_set:
   - hkepc.com
   - hket.com
   - hkfaa.com
+  - hkfeature.com
   - hkfreezone.com
   - hkfront.org
   - hkgalden.com
@@ -3815,6 +3823,7 @@ domain_suffix_set:
   - libredd.it
   - lidecheng.com
   - lifemiles.com
+  - lifesitenews.com
   - lighten.org.tw
   - lighti.me
   - lightnovel.cn
@@ -3823,6 +3832,7 @@ domain_suffix_set:
   - lihkg.com
   - like.com
   - lilaoshibushinilaoshi.com
+  - limedia.tw
   - limiao.net
   - lin.ee
   - line-apps.com
@@ -3997,6 +4007,7 @@ domain_suffix_set:
   - mas.to
   - mash.to
   - maskedip.com
+  - master-insight.com
   - mastodon.cloud
   - mastodon.host
   - mastodon.online
@@ -4019,6 +4030,7 @@ domain_suffix_set:
   - maven.org
   - maxing.jp
   - mayimayi.com
+  - mc.yandex.ru
   - mcadforums.com
   - mcaf.ee
   - mceindex.com
@@ -4205,6 +4217,7 @@ domain_suffix_set:
   - money-link.com.tw
   - moneydj.com
   - moneyhome.biz
+  - moneynet.com.tw
   - monica.im
   - monitorchina.org
   - monitorware.com
@@ -4281,6 +4294,7 @@ domain_suffix_set:
   - mvnrepository.com
   - mx981.com
   - my-formosa.com
+  - my-formosa.com.tw
   - my-private-network.co.uk
   - my-proxy.com
   - my.pcloud.com
@@ -4461,6 +4475,7 @@ domain_suffix_set:
   - newyorktimes.com
   - nexon.com
   - next11.co.jp
+  - nextapple.com
   - nextdigital.com.hk
   - nextmag.com.tw
   - nextmedia.com
@@ -5093,6 +5108,7 @@ domain_suffix_set:
   - pugpig.com
   - pullfolio.co
   - pullfolio.com
+  - pulsehknews.com
   - punyu.com
   - pure18.com
   - pureapk.com
@@ -5493,6 +5509,7 @@ domain_suffix_set:
   - shambalapost.com
   - shambhalasun.com
   - shangfang.org
+  - shanghainationalparty.com
   - shapeservices.com
   - share-videos.se
   - share.america.gov
@@ -5696,6 +5713,7 @@ domain_suffix_set:
   - soubory.com
   - soul-plus.net
   - soulcaliburhentai.net
+  - soulogic.com
   - soumo.info
   - soundcloud.com
   - soundofhope.kr
@@ -5938,6 +5956,7 @@ domain_suffix_set:
   - taiwanncf.org.tw
   - taiwannews.com.tw
   - taiwanonline.cc
+  - taiwantoday.tw
   - taiwantp.net
   - taiwantt.org.tw
   - taiwanus.net
@@ -6052,6 +6071,7 @@ domain_suffix_set:
   - thechinabeat.org
   - thechinacollection.org
   - thechinastory.org
+  - thecollectivehk.com
   - theconversation.com
   - thedalailamamovie.com
   - thediplomat.com
@@ -6072,6 +6092,7 @@ domain_suffix_set:
   - theintercept.com
   - themoviedb.org
   - thenewslens.com
+  - theonlinecitizen.com
   - thepiratebay.ee
   - thepiratebay.org
   - theporndude.com
@@ -6081,7 +6102,9 @@ domain_suffix_set:
   - therock.net.nz
   - thesaturdaypaper.com.au
   - thespeeder.com
+  - thestandard.com.hk
   - thestandnews.com
+  - thestar.com
   - thetatoken.org
   - thetibetcenter.org
   - thetibetconnection.org
@@ -6094,6 +6117,7 @@ domain_suffix_set:
   - theweek.com
   - thewgo.org
   - thewirechina.com
+  - thewitnesshk.com
   - theync.com
   - thinkchina.sg
   - thinkgeek.com
@@ -7029,6 +7053,7 @@ domain_suffix_set:
   - woeser.com
   - wokar.org
   - wolfax.com
+  - womany.net
   - wombo.ai
   - woolyss.com
   - woopie.jp
