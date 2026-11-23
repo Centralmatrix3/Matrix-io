@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27271
+# 规则统计: 27272
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -10597,6 +10597,7 @@ HOST-SUFFIX,gelbooru.wjcodes.com,PROXY
 HOST-SUFFIX,gemfire.net,PROXY
 HOST-SUFFIX,gemfury.com,PROXY
 HOST-SUFFIX,gemini.com,PROXY
+HOST-SUFFIX,gemma.ai,PROXY
 HOST-SUFFIX,gen.lib.rus.ec,PROXY
 HOST-SUFFIX,genbank.ru,PROXY
 HOST-SUFFIX,gencraft.com,PROXY
