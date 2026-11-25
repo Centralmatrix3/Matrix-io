@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27272
+# 规则统计: 27277
 
 payload:
   - '1password.drift.click'
@@ -108,6 +108,7 @@ payload:
   - 'copilot-telemetry.githubusercontent.com'
   - 'copilot-workspace.githubnext.com'
   - 'copilotprodattachments.blob.core.windows.net'
+  - 'courses.myecnu.org'
   - 'crl.microsoft.com'
   - 'crl.versign.net'
   - 'csis-prod.s3.amazonaws.com'
@@ -5585,6 +5586,7 @@ payload:
   - '+.cabletvdirectv.com'
   - '+.cachefly.com'
   - '+.cachefly.net'
+  - '+.cachix.org'
   - '+.cacnw.com'
   - '+.cactusvpn.com'
   - '+.cad-mep.com'
@@ -9429,10 +9431,12 @@ payload:
   - '+.fastlane.ci'
   - '+.fastlane.tools'
   - '+.fastly-edge.com'
+  - '+.fastly-insights.com'
   - '+.fastly-terrarium.com'
   - '+.fastly.com'
   - '+.fastly.io'
   - '+.fastly.net'
+  - '+.fastlydns.net'
   - '+.fastlylabs.com'
   - '+.fastlylb.net'
   - '+.fastpic.ru'
@@ -24693,6 +24697,7 @@ payload:
   - '+.viu.tv'
   - '+.vivaldi.com'
   - '+.vivaxnxx.com'
+  - '+.vivox.com'
   - '+.vivthomas.com'
   - '+.vixen.com'
   - '+.vixengroup.com'

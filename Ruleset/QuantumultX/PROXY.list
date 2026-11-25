@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 27272
+# 规则统计: 27277
 
 HOST,1password.drift.click,PROXY
 HOST,3dns-1.adobe.com,PROXY
@@ -107,6 +107,7 @@ HOST,copilot-telemetry-service.githubusercontent.com,PROXY
 HOST,copilot-telemetry.githubusercontent.com,PROXY
 HOST,copilot-workspace.githubnext.com,PROXY
 HOST,copilotprodattachments.blob.core.windows.net,PROXY
+HOST,courses.myecnu.org,PROXY
 HOST,crl.microsoft.com,PROXY
 HOST,crl.versign.net,PROXY
 HOST,csis-prod.s3.amazonaws.com,PROXY
@@ -5584,6 +5585,7 @@ HOST-SUFFIX,cabletv.com.hk,PROXY
 HOST-SUFFIX,cabletvdirectv.com,PROXY
 HOST-SUFFIX,cachefly.com,PROXY
 HOST-SUFFIX,cachefly.net,PROXY
+HOST-SUFFIX,cachix.org,PROXY
 HOST-SUFFIX,cacnw.com,PROXY
 HOST-SUFFIX,cactusvpn.com,PROXY
 HOST-SUFFIX,cad-mep.com,PROXY
@@ -9428,10 +9430,12 @@ HOST-SUFFIX,fastindianporn.com,PROXY
 HOST-SUFFIX,fastlane.ci,PROXY
 HOST-SUFFIX,fastlane.tools,PROXY
 HOST-SUFFIX,fastly-edge.com,PROXY
+HOST-SUFFIX,fastly-insights.com,PROXY
 HOST-SUFFIX,fastly-terrarium.com,PROXY
 HOST-SUFFIX,fastly.com,PROXY
 HOST-SUFFIX,fastly.io,PROXY
 HOST-SUFFIX,fastly.net,PROXY
+HOST-SUFFIX,fastlydns.net,PROXY
 HOST-SUFFIX,fastlylabs.com,PROXY
 HOST-SUFFIX,fastlylb.net,PROXY
 HOST-SUFFIX,fastpic.ru,PROXY
@@ -24692,6 +24696,7 @@ HOST-SUFFIX,viu.com,PROXY
 HOST-SUFFIX,viu.tv,PROXY
 HOST-SUFFIX,vivaldi.com,PROXY
 HOST-SUFFIX,vivaxnxx.com,PROXY
+HOST-SUFFIX,vivox.com,PROXY
 HOST-SUFFIX,vivthomas.com,PROXY
 HOST-SUFFIX,vixen.com,PROXY
 HOST-SUFFIX,vixengroup.com,PROXY
