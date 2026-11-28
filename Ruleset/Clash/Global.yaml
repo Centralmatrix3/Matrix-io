@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7598
+# 规则统计: 7601
 
 payload:
   - DOMAIN,ai.google.dev
@@ -259,6 +259,7 @@ payload:
   - DOMAIN-SUFFIX,ai.azure.com
   - DOMAIN-SUFFIX,ai.dev
   - DOMAIN-SUFFIX,ai.studio
+  - DOMAIN-SUFFIX,aicu.cc
   - DOMAIN-SUFFIX,aidc.com.tw
   - DOMAIN-SUFFIX,aihub.top
   - DOMAIN-SUFFIX,aiosearch.com
@@ -1552,6 +1553,7 @@ payload:
   - DOMAIN-SUFFIX,daliulian.org
   - DOMAIN-SUFFIX,danbooru.donmai.us
   - DOMAIN-SUFFIX,danke4china.net
+  - DOMAIN-SUFFIX,danmakus.com
   - DOMAIN-SUFFIX,danwei.org
   - DOMAIN-SUFFIX,daolan.net
   - DOMAIN-SUFFIX,daozhongxing.org
@@ -5747,6 +5749,7 @@ payload:
   - DOMAIN-SUFFIX,southpark.cc.com
   - DOMAIN-SUFFIX,sowers.org.hk
   - DOMAIN-SUFFIX,soylent.com
+  - DOMAIN-SUFFIX,spacedesk.net
   - DOMAIN-SUFFIX,spaceforce.mil
   - DOMAIN-SUFFIX,spaces.hightail.com
   - DOMAIN-SUFFIX,spacex.com
