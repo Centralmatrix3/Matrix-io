@@ -1,5 +1,5 @@
 # 规则名称: Steam
-# 规则统计: 18
+# 规则统计: 17
 
 domain_set:
   - steambroadcast.akamaized.net
@@ -16,7 +16,6 @@ domain_suffix_set:
   - steamcommunity.com
   - steamgames.com
   - steampowered.com
-  - steamserver.net
   - steamstat.us
   - steamstatic.com
   - underlords.com
